@@ -5,6 +5,8 @@ from glob import glob
 import json
 
 es = Elasticsearch("http://localhost:9200")
+
+# path is correct IF this file is in the same folder as 'envri_json' 
 folders = glob("envri_json/*")
 
 #print(folders)

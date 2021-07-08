@@ -8,6 +8,7 @@ from elasticsearch import Elasticsearch
 from glob import glob
 from elasticsearch_dsl import Search, Q
 from elasticsearch_dsl.query import MatchAll
+from django.core import serializers
 
 es = Elasticsearch("http://localhost:9200")
 
@@ -63,7 +64,8 @@ def rest(request):
 					lat=lat, station=station, genre=genre, author=author, distributor=distributor,
 					keywords=keywords, abstract=abstract)
 
-	return JsonResponse(result, safe = False, json_dumps_params={'ensure_ascii': False})
+	return JsonResponse(result, safe=True, json_dumps_params={'ensure_ascii': False})
+	#return JsonResponse(serializers.serialize('json', result), safe=False)
 	#return HttpResponse(json.dumps(result))
 	#, safe = False, json_dumps_params={'ensure_ascii': False})
 
@@ -249,17 +251,17 @@ def get_results_rest(response):
 	results = {}
 	for hit in response:
 		result = {
-			'identifier': hit.identifier,
-			'name' : hit.name,
-			'temporal' : hit.temporal,
+			'identifier': str(hit.identifier),
+			'name' : str(hit.name),
+			'temporal' : str(hit.temporal),
 			'author' : [name for name in hit.author],
-			'landing_page' : hit.landing_page,
+			'landing_page' : str(hit.landing_page),
 			'keywords' : [keyword for keyword in hit.keywords],
-			'distributor' : hit.distributor,
-			'station': hit.provider,
-			'genre' : hit.genre,
-			'longitude': hit.longitude,
-			'latitude': hit.latitude,
+			'distributor' : str(hit.distributor),
+			'station': str(hit.provider),
+			'genre' : str(hit.genre),
+			'longitude': str(hit.longitude),
+			'latitude': str(hit.latitude),
 		}
 		results[hit.identifier] = result
 	return results

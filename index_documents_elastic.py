@@ -1,16 +1,35 @@
 from datetime import datetime
 from elasticsearch import Elasticsearch
-from elasticsearch_dsl import Search
+from elasticsearch_dsl import Search, Index
 from glob import glob
 import json
 
-es = Elasticsearch("http://localhost:9200")
+# Create index if not exist with correct settings
+# if index exists, change settings
 
+es = Elasticsearch("http://localhost:9200")
+index = Index('envri', es)
+
+if not es.indices.exists(index='envri'):
+    index.settings(
+        index={'mapping':{'ignore_malformed':True}}
+    )
+    index.create()
+else:
+    es.indices.close(index='envri')
+    put = es.indices.put_settings(
+        index='envri',
+        body={
+            "index": {
+                "mapping":{
+                    "ignore_malformed":True
+                } 
+            }
+        })
+    es.indices.open(index='envri')
+    
 # path is correct IF this file is in the same folder as 'envri_json' 
 folders = glob("envri_json/*")
-
-#print(folders)
-#print(len(folders))
 
 filelist = []
 for i in range(len(folders)):
@@ -18,8 +37,6 @@ for i in range(len(folders)):
     filelist.append(glob(folder))
 
 filelist = [file for folder in filelist for file in folder]
-#print(filelist)
-
 sample = filelist
 completed = len(sample) # counter
 
@@ -42,6 +59,6 @@ def index_elastic():
         res = es.index(index = "envri", id = doc["identifier"], body=doc)
         es.indices.refresh(index = "envri")
 
-index_elastic()
+#index_elastic()
 
 #----------------------------------------------------------------------

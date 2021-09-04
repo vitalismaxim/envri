@@ -196,7 +196,7 @@ def iterate_all(iterable, returned="key"):
 
 # %%
 
-spacy.load('en_core_web_sm')
+spacy.load('en_core_web_lg')
 
 parser = English()
 

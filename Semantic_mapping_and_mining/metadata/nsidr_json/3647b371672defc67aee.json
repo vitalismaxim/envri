@@ -1,0 +1,242 @@
+{
+ "id": "20.5000.1025/3647b371672defc67aee",
+ "type": "DigitalSpecimen",
+ "content": {
+  "physicalSpecimenId": "http://coldb.mnhn.fr/catalognumber/mnhn/im/2009-33699",
+  "gbifId": "https://www.gbif.org/occurrence/814298973",
+  "institutionCode": "MNHN",
+  "authorReference": "Garrigues & Merle, 2014",
+  "collectionCode": "IM",
+  "collectionDate": "2012-05-26T10:00:00Z",
+  "id": "20.5000.1025/3647b371672defc67aee",
+  "midslevel": 2,
+  "catOfLifeReference": "http://www.catalogueoflife.org/col/details/species/id/5a346b06831ebce580f2bb905d4caa62",
+  "locality": "Petite Terre",
+  "country": "Guadeloupe",
+  "scientificName": "Pygmaepterys pointieri Garrigues & Merle, 2014",
+  "catalogNumber": "2009-33699",
+  "recordedBy": "MNHN R\u00c3\u00a9c.",
+  "decimalLatLon": [
+   16.16185,
+   -61.12885
+  ],
+  "countryCode": "GP",
+  "dwcaContent": {
+   "core": {
+    "type": "dwc:Occurrence",
+    "content": {
+     "dwc:month": "5",
+     "dwc:island": "GUADELOUPE",
+     "gbif:species": "Pygmaepterys pointieri",
+     "gbif:kingdomKey": "1",
+     "dwc:phylum": "Mollusca",
+     "gbif:lastInterpreted": "2019-09-21T00:29:42.585Z",
+     "gbif:orderKey": "982",
+     "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/im/2009-33699",
+     "dwc:taxonRank": "SPECIES",
+     "dwc:eventDate": "2012-05-26T10:00:00Z",
+     "dwc:individualCount": "1",
+     "gbif:publishingCountry": "FR",
+     "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+     "gbif:hasGeospatialIssues": "false",
+     "gbif:depth": "15.0",
+     "dwc:year": "2012",
+     "dwc:institutionCode": "MNHN",
+     "gbif:genusKey": "4602092",
+     "gbif:lastCrawled": "2019-10-24T12:14:12.442Z",
+     "dwc:fieldNumber": "KARUBENTHOS 2012/GB31",
+     "gbif:datasetKey": "0214a6a7-898f-4ee8-b888-0be60ecde81f",
+     "gbif:gbifID": "814298973",
+     "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/im/2009-33699",
+     "gbif:protocol": "DWC_ARCHIVE",
+     "dwc:specificEpithet": "pointieri",
+     "dwc:kingdom": "Animalia",
+     "dwc:day": "26",
+     "gbif:taxonKey": "7431521",
+     "dwc:class": "Gastropoda",
+     "dwc:taxonomicStatus": "ACCEPTED",
+     "gbif:hasCoordinate": "true",
+     "dwc:identifiedBy": "Guarriges B.",
+     "dwc:genus": "Pygmaepterys",
+     "dwc:scientificName": "Pygmaepterys pointieri Garrigues & Merle, 2014",
+     "gbif:classKey": "225",
+     "gbif:speciesKey": "7431521",
+     "gbif:familyKey": "2304120",
+     "gbif:phylumKey": "52",
+     "gbif:acceptedScientificName": "Pygmaepterys pointieri Garrigues & Merle, 2014",
+     "gbif:acceptedTaxonKey": "7431521",
+     "dwc:collectionCode": "IM",
+     "gbif:issue": "GEODETIC_DATUM_ASSUMED_WGS84",
+     "gbif:genericName": "Pygmaepterys",
+     "gbif:lastParsed": "2018-07-04T14:08:00.784Z",
+     "dwc:locality": "Petite Terre",
+     "dwc:decimalLongitude": "-61.12885",
+     "dcterms:license": "CC_BY_4_0",
+     "gbif:repatriated": "false",
+     "dwc:catalogNumber": "2009-33699",
+     "dwc:decimalLatitude": "16.16185",
+     "dwc:order": "Neogastropoda",
+     "dwc:recordedBy": "MNHN R\u00c3\u00a9c.",
+     "dcterms:modified": "2015-09-14T11:49:13Z",
+     "dwc:family": "Muricidae",
+     "dwc:countryCode": "GP"
+    }
+   },
+   "extensions": [
+    {
+     "type": "dwc:Occurrence",
+     "content": [
+      {
+       "dwc:island": "GUADELOUPE",
+       "dwc:verbatimLongitude": "61\u00c2\u00b007,73'W",
+       "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/im/2009-33699",
+       "dwc:eventDate": "2012-05-26T10:00+0200",
+       "dwc:individualCount": "1",
+       "dwc:basisOfRecord": "PreservedSpecimen",
+       "dwc:institutionCode": "MNHN",
+       "dwc:fieldNumber": "KARUBENTHOS 2012/GB31",
+       "gbif:gbifID": "814298973",
+       "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/im/2009-33699",
+       "dwc:verbatimLatitude": "16\u00c2\u00b009,71'N",
+       "dwc:class": "Gastropoda",
+       "dwc:identifiedBy": "Guarriges B.",
+       "dwc:genus": "Pygmaepterys",
+       "dwc:scientificName": "Pygmaepterys pointieri Garrigues & Merle, 2014",
+       "dwc:minimumDepthInMeters": "15",
+       "dwc:collectionCode": "IM",
+       "dwc:locality": "Petite Terre",
+       "dwc:decimalLongitude": "-61.12885",
+       "dwc:catalogNumber": "2009-33699",
+       "dwc:decimalLatitude": "16.16185",
+       "dwc:recordedBy": "MNHN R\u00c3\u00a9c.",
+       "dcterms:modified": "2015-09-14 11:49:13.0",
+       "dwc:family": "Muricidae",
+       "dwc:scientificNameAuthorship": "Garrigues & Merle, 2014",
+       "dwc:country": "GUADELOUPE"
+      }
+     ]
+    }
+   ]
+  },
+  "colContent": {
+   "id": "5a346b06831ebce580f2bb905d4caa62",
+   "name": "Pygmaepterys pointieri",
+   "rank": "Species",
+   "name_status": "accepted name",
+   "genus": "Pygmaepterys",
+   "subgenus": "",
+   "species": "pointieri",
+   "infraspecies_marker": "",
+   "infraspecies": "",
+   "author": "Garrigues & Merle, 2014",
+   "record_scrutiny_date": {
+    "scrutiny": "2014-12-26"
+   },
+   "online_resource": "http://www.molluscabase.org/aphia.php?p=taxdetails&id=827924",
+   "is_extinct": "false",
+   "source_database": "WoRMS Mollusca: MolluscaBase",
+   "source_database_url": "http://www.molluscabase.org",
+   "bibliographic_citation": "MolluscaBase (2020). WoRMS Mollusca: MolluscaBase (version 2019-03-06). In: Species 2000 & ITIS Catalogue of Life, 2020-02-24 (Roskov Y., Ower G., Orrell T., Nicolson D., Bailly N., Kirk P.M., Bourgoin T., DeWalt R.E., Decock W., Nieukerken E. van, Penev L.). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.",
+   "name_html": "<i>Pygmaepterys pointieri</i> Garrigues & Merle, 2014",
+   "url": "http://www.catalogueoflife.org/col/details/species/id/5a346b06831ebce580f2bb905d4caa62",
+   "distribution": "Caribbean Sea 644 2; Caribbean Sea 917 0; North Atlantic Ocean 645 2; North Atlantic Ocean 10 0",
+   "references": [
+    {
+     "author": "Garrigues B. & Merle D.",
+     "year": "2014",
+     "title": "Nine new species of Muricidae Rafinesque, 1815 (Mollusca, Gastropoda) from the French Antilles",
+     "source": "Zoosystema. 36(4): 841-864"
+    }
+   ],
+   "classification": [
+    {
+     "id": "5ede24b0534ebd5e1f552d5b9f874a6a",
+     "name": "Animalia",
+     "rank": "Kingdom",
+     "name_html": "Animalia",
+     "url": "http://www.catalogueoflife.org/col/browse/tree/id/5ede24b0534ebd5e1f552d5b9f874a6a"
+    },
+    {
+     "id": "70a72224d52b24f5ee0b1d09387d1703",
+     "name": "Mollusca",
+     "rank": "Phylum",
+     "name_html": "Mollusca",
+     "url": "http://www.catalogueoflife.org/col/browse/tree/id/70a72224d52b24f5ee0b1d09387d1703"
+    },
+    {
+     "id": "3553f72080f2d512a344a663f510588a",
+     "name": "Gastropoda",
+     "rank": "Class",
+     "name_html": "Gastropoda",
+     "url": "http://www.catalogueoflife.org/col/browse/tree/id/3553f72080f2d512a344a663f510588a"
+    },
+    {
+     "id": "f1e4216431a66423b71a6e8660f7e7d7",
+     "name": "Neogastropoda",
+     "rank": "Order",
+     "name_html": "Neogastropoda",
+     "url": "http://www.catalogueoflife.org/col/browse/tree/id/f1e4216431a66423b71a6e8660f7e7d7"
+    },
+    {
+     "id": "3e855bd8da5ad20dcec608041c41c54d",
+     "name": "Muricoidea",
+     "rank": "Superfamily",
+     "name_html": "Muricoidea",
+     "url": "http://www.catalogueoflife.org/col/browse/tree/id/3e855bd8da5ad20dcec608041c41c54d"
+    },
+    {
+     "id": "4ae2c9debe98b49c94d39f2a26414777",
+     "name": "Muricidae",
+     "rank": "Family",
+     "name_html": "Muricidae",
+     "url": "http://www.catalogueoflife.org/col/browse/tree/id/4ae2c9debe98b49c94d39f2a26414777"
+    },
+    {
+     "id": "7edcdc77340bb6ba2e1149b04a08b01f",
+     "name": "Pygmaepterys",
+     "rank": "Genus",
+     "name_html": "<i>Pygmaepterys</i>",
+     "url": "http://www.catalogueoflife.org/col/browse/tree/id/7edcdc77340bb6ba2e1149b04a08b01f"
+    }
+   ],
+   "child_taxa": [],
+   "synonyms": [],
+   "common_names": []
+  },
+  "ebiSearchResults": [],
+  "wikidata": "http://www.wikidata.org/entity/Q73535686",
+  "wikidata_info": {
+   "wikidataId": "Q73535686",
+   "wikidataPageURL": "http://www.wikidata.org/entity/Q73535686",
+   "identifiers": [
+    {
+     "name": "NCBI taxonomy ID",
+     "value": "1504874",
+     "link": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=1504874"
+    },
+    {
+     "name": "TAXREF ID",
+     "value": "789521",
+     "link": "https://inpn.mnhn.fr/espece/cd_nom/789521"
+    },
+    {
+     "name": "Global Biodiversity Information Facility ID",
+     "value": "7431521",
+     "link": "https://www.gbif.org/species/7431521"
+    },
+    {
+     "name": "WoRMS-ID for taxa",
+     "value": "827924",
+     "link": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=827924"
+    }
+   ]
+  }
+ },
+ "metadata": {
+  "createdOn": 1586335382555,
+  "createdBy": "20.5000.1025/francisco",
+  "modifiedOn": 1621660573945,
+  "modifiedBy": "anonymous",
+  "txnId": 1621660573942366
+ }
+}

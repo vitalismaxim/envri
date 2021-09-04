@@ -1,0 +1,2751 @@
+{
+ "gmd:MD_Metadata": {
+  "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+  "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+  "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+  "@xmlns:gts": "http://www.isotc211.org/2005/gts",
+  "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+  "@xmlns:gmi": "http://www.isotc211.org/2005/gmi",
+  "@xmlns:gml": "http://www.opengis.net/gml/3.2",
+  "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xsi:schemaLocation": "http://www.isotc211.org/2005/gmd http://schemas.opengis.net/csw/2.0.2/profiles/apiso/1.0.0/apiso.xsd",
+  "gmd:fileIdentifier": {
+   "gco:CharacterString": "847f1627-f39f-40af-b3b0-a2f6d29ff4dc"
+  },
+  "gmd:language": {
+   "@xmlns:date": "http://exslt.org/dates-and-times",
+   "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+   "@xmlns:xslt": "http://xml.apache.org/xslt",
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gmd:LanguageCode": {
+    "@codeList": "http://www.loc.gov/standards/iso639-2/",
+    "@codeListValue": "eng"
+   }
+  },
+  "gmd:characterSet": {
+   "@xmlns:date": "http://exslt.org/dates-and-times",
+   "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+   "@xmlns:xslt": "http://xml.apache.org/xslt",
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gmd:MD_CharacterSetCode": {
+    "@codeListValue": "utf8",
+    "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_CharacterSetCode"
+   }
+  },
+  "gmd:hierarchyLevel": {
+   "@xmlns:date": "http://exslt.org/dates-and-times",
+   "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+   "@xmlns:xslt": "http://xml.apache.org/xslt",
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gmd:MD_ScopeCode": {
+    "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode",
+    "@codeListValue": "series"
+   }
+  },
+  "gmd:contact": {
+   "@xmlns:date": "http://exslt.org/dates-and-times",
+   "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+   "@xmlns:xslt": "http://xml.apache.org/xslt",
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gmd:CI_ResponsibleParty": {
+    "gmd:individualName": {
+     "@gco:nilReason": "missing",
+     "gco:CharacterString": null
+    },
+    "gmd:organisationName": {
+     "gco:CharacterString": "SEADATANET"
+    },
+    "gmd:contactInfo": {
+     "gmd:CI_Contact": {
+      "gmd:address": {
+       "gmd:CI_Address": {
+        "gmd:electronicMailAddress": {
+         "gco:CharacterString": "sdn-userdesk@seadatanet.org"
+        }
+       }
+      },
+      "gmd:onlineResource": {
+       "gmd:CI_OnlineResource": {
+        "gmd:linkage": {
+         "gmd:URL": "http://www.seadatanet.org/"
+        }
+       }
+      }
+     }
+    },
+    "gmd:role": {
+     "gmd:CI_RoleCode": {
+      "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+      "@codeListValue": "pointOfContact"
+     }
+    }
+   }
+  },
+  "gmd:dateStamp": {
+   "@xmlns:date": "http://exslt.org/dates-and-times",
+   "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+   "@xmlns:xslt": "http://xml.apache.org/xslt",
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gco:DateTime": "2021-01-11T15:52:40"
+  },
+  "gmd:metadataStandardName": {
+   "@xmlns:date": "http://exslt.org/dates-and-times",
+   "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+   "@xmlns:xslt": "http://xml.apache.org/xslt",
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gco:CharacterString": "ISO 19115:2003/19139 - EMODNET - SDN"
+  },
+  "gmd:metadataStandardVersion": {
+   "@xmlns:date": "http://exslt.org/dates-and-times",
+   "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+   "@xmlns:xslt": "http://xml.apache.org/xslt",
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gco:CharacterString": "0.1"
+  },
+  "gmd:spatialRepresentationInfo": {
+   "@xmlns:date": "http://exslt.org/dates-and-times",
+   "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+   "@xmlns:xslt": "http://xml.apache.org/xslt",
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gmd:MD_GridSpatialRepresentation": {
+    "gmd:numberOfDimensions": {
+     "gco:Integer": "2"
+    },
+    "gmd:axisDimensionProperties": [
+     {
+      "gmd:MD_Dimension": {
+       "gmd:dimensionName": {
+        "gmd:MD_DimensionNameTypeCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_DimensionNameTypeCode",
+         "@codeListValue": "vertical"
+        }
+       },
+       "gmd:dimensionSize": {
+        "gco:Integer": "67"
+       }
+      }
+     },
+     {
+      "gmd:MD_Dimension": {
+       "gmd:dimensionName": {
+        "gmd:MD_DimensionNameTypeCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_DimensionNameTypeCode",
+         "@codeListValue": "time"
+        }
+       },
+       "gmd:dimensionSize": null,
+       "gmd:resolution": {
+        "gco:Measure": {
+         "@uom": "month",
+         "#text": "1"
+        }
+       }
+      }
+     }
+    ],
+    "gmd:cellGeometry": {
+     "gmd:MD_CellGeometryCode": {
+      "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_CellGeometryCode",
+      "@codeListValue": "point"
+     }
+    },
+    "gmd:transformationParameterAvailability": {
+     "gco:Boolean": "false"
+    }
+   }
+  },
+  "gmd:referenceSystemInfo": {
+   "@xmlns:date": "http://exslt.org/dates-and-times",
+   "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+   "@xmlns:xslt": "http://xml.apache.org/xslt",
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gmd:MD_ReferenceSystem": {
+    "gmd:referenceSystemIdentifier": {
+     "gmd:RS_Identifier": {
+      "gmd:code": {
+       "gco:CharacterString": "WGS 84 (EPSG 4326)"
+      },
+      "gmd:codeSpace": {
+       "gco:CharacterString": "EPSG"
+      }
+     }
+    }
+   }
+  },
+  "gmd:identificationInfo": {
+   "@xmlns:date": "http://exslt.org/dates-and-times",
+   "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+   "@xmlns:xslt": "http://xml.apache.org/xslt",
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gmd:MD_DataIdentification": {
+    "gmd:citation": {
+     "gmd:CI_Citation": {
+      "gmd:title": {
+       "gco:CharacterString": "SeaDataCloud Black Sea Temperature and Salinity Climatology V2"
+      },
+      "gmd:alternateTitle": {
+       "gco:CharacterString": "seadatacloud-black_sea-climatology_public"
+      },
+      "gmd:date": {
+       "gmd:CI_Date": {
+        "gmd:date": {
+         "gco:Date": "2020-12-03"
+        },
+        "gmd:dateType": {
+         "gmd:CI_DateTypeCode": {
+          "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode",
+          "@codeListValue": "creation"
+         }
+        }
+       }
+      },
+      "gmd:edition": {
+       "gco:CharacterString": "1.1"
+      },
+      "gmd:editionDate": {
+       "gco:Date": "2015-11-19"
+      },
+      "gmd:identifier": {
+       "gmd:MD_Identifier": {
+        "gmd:code": {
+         "gco:CharacterString": "87052ef6-30bd-48e9-ab07-ff5598cdd336"
+        }
+       }
+      }
+     }
+    },
+    "gmd:abstract": {
+     "gco:CharacterString": "The SDC_BLS_CLIM_TS_V2 product contains Temperature and Salinity Climatologies for Black Sea including the seasonal and monthly fields for period 1955-2019 and seasonal fields for 6 decades starting from 1955 to 2019.  The climatic fields were computed from the integrated Black Sea dataset that combines data extracted from the 3 major sources: 1) SeaDataNet infrastructure, 2) World Ocean Database, and 3) Coriolis Ocean Dataset for Reanalysis. The computation was done with the DIVAnd (Data-Interpolating Variational Analysis in n dimensions), version 2.6.4."
+    },
+    "gmd:credit": {
+     "gco:CharacterString": "SeaDataNet"
+    },
+    "gmd:pointOfContact": [
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/696",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Institute of Marine Sciences, Middle East Technical University"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+90 (324) 5212406"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+90 (324) 5212327"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "P.O.Box 28"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Erdemli"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "33731"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Turkey"
+           },
+           "gmd:electronicMailAddress": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.ims.metu.edu.tr"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "pointOfContact"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/696",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Institute of Marine Sciences, Middle East Technical University"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+90 (324) 5212406"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+90 (324) 5212327"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "P.O.Box 28"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Erdemli"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "33731"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Turkey"
+           },
+           "gmd:electronicMailAddress": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.ims.metu.edu.tr"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "pointOfContact"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/486",
+       "gmd:organisationName": {
+        "gco:CharacterString": "IFREMER, SISMER, Scientific Information Systems for the SEA"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+33 (0)2 98.22.49.16"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+33 (0)2 98.22.46.44"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "IFREMER Centre de Bretagne\nZI Pointe du diable\nCS 10070"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "PLOUZANE"
+           },
+           "gmd:administrativeArea": {
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "29280"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "France"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "sismer@ifremer.fr"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://data.ifremer.fr/SISMER"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "custodian"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/696",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Institute of Marine Sciences, Middle East Technical University"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+90 (324) 5212406"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+90 (324) 5212327"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "P.O.Box 28"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Erdemli"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "33731"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Turkey"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "admin@ims.metu.edu.tr"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.ims.metu.edu.tr"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "resourceProvider"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/681",
+       "gmd:organisationName": {
+        "gco:CharacterString": "All-Russia Research Institute of Hydrometeorological Information - World Data Centre"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:country": {
+            "gco:CharacterString": "Russian Federation"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "nodc@meteo.ru"
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/2176",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Ankara University"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "0312 596 10 00"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "0312 317 67 24"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Ankara"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "06110"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Turkey"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "agricul@agri.ankara.edu.tr"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.agri.ankara.edu.tr/"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/692",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Bulgarian National Oceanographic Data Centre(BGODC), Institute of Oceanology"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+359 52 370 486"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+359 52 370 483"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "40 Parvi may str. PO BOX 152"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Varna"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "9000"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Bulgaria"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "bgodc@io-bas.bg"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.bgodc.io-bas.bg"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/731",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Department of Navigation and Hydrography and Oceanography, Turkish Navy"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:facsimile": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "\u00c3\u2021ubuklu"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Istanbul"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "81647"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Turkey"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "inapplicable"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": null
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/486",
+       "gmd:organisationName": {
+        "gco:CharacterString": "IFREMER / IDM / SISMER - Scientific Information Systems for the SEA"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+33 (0)2 98.22.49.16"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+33 (0)2 98.22.46.44"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "IFREMER Centre de Bretagne ZI Pointe du diable CS 10070"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "PLOUZANE"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "29280"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "France"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "sismer@ifremer.fr"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.ifremer.fr/sismer/"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/191",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Institute of Fishery Resources (IFR)"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+359 52 632066"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+359 52 632066"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "4 Primorski Blvd P.O. Box 72"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Varna"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "9000"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Bulgaria"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "vvmihneva@yahoo.com"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.ifrvarna.com"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/696",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Institute of Marine Sciences, Middle East Technical University"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+90 (324) 5212406"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+90 (324) 5212327"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "P.O.Box 28"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Erdemli"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "33731"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Turkey"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "devrim@ims.metu.edu.tr"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.ims.metu.edu.tr"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/802",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Istanbul University, Institute of Marine Science and Management"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:facsimile": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "M\u00c3\u00bcsk\u00c3\u00bcle Sok. No. 1 Vefa"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Istanbul"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "34470"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Turkey"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "inapplicable"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.istanbul.edu.tr/enstituler/denizbilimleri/denizbilimleri.htm"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/693",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Iv.Javakhishvili Tbilisi State University, Centre of Relations with UNESCO Oceanological Research Centre and GeoDNA (UNESCO)"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+995 32 253222; +99532 222372"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+99532 253222"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "1 I. Chavchavadze Ave., 0128,Tbilisi, Georgia Iv.Javakhishvili Tbilisi State University"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Tbilisi"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Georgia"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "wocean@telenet.ge"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.oceandna.ge"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/732",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Karadeniz Technical University, Faculty of Marine Sciences"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+90 462 7522805"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+90 462 752 2158"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "\u00c3\u2021amburnu, Trabzon"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Turkey"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "61530"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Turkey"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "www.ktu.edu.tr"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": null
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/727",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Marine Hydrophysical Institute"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+380 692 54 02 52"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+380 692 55 42 53"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "2, Kapitanskaya str."
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Sevastopol"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "99011"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Ukraine"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "khaliulin.alexey@nodc.org.ua"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://WWW.MHI.IUF.NET"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/2267",
+       "gmd:organisationName": {
+        "gco:CharacterString": "National Environmental Agency of the Ministry of Environment Protection and Natural Resources"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "(+995 32) 439502 / 439550"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "(+995 32) 439503 / 439550"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "150 David Agmashenebeli ave."
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Tbilisi"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "0112"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Georgia"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "info@environment.ge"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.nea.gov.ge"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/697",
+       "gmd:organisationName": {
+        "gco:CharacterString": "National Institute for Marine Research and Development \"Grigore Antipa\""
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "40 241 543288"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "40 241 831274"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "300 Mamaia Blvd."
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Constanta"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "900581"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Romania"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "rmri@rmri.ro"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.rmri.ro"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/961",
+       "gmd:organisationName": {
+        "gco:CharacterString": "National Institute of Meteorology and Hydrology, Bulgarian Academy of Sciences"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+359 2 9753986"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+359 2 9880380"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "66 Tsarigradsko schausse"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Sofia"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "1784"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Bulgaria"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "office@meteo.bg"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.weather.bg"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/120",
+       "gmd:organisationName": {
+        "gco:CharacterString": "National Institute of Oceanography and Applied Geophysics - OGS, Division of Oceanography"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:facsimile": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Borgo Grotta Gigante 42/c"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Sgonico (Trieste)"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "34010"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Italy"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "nodc@ogs.trieste.it"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.ogs.trieste.it/"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/685",
+       "gmd:organisationName": {
+        "gco:CharacterString": "P.P.Shirshov Institute of Oceanology, RAS"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+7(499)124-59-96"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+7(499)124-59-83"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "36 Nakhimovsky prospect"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Moscow"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "117997"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Russian Federation"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "office@ocean.ru"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.ocean.ru"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/1265",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Scientific - Research Firm \"GAMMA\""
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+995 32 260 10 24"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+995 32 260 44 33"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "17A , Guramishvili av. 0192, Tbilisi, Georgia"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Tbilisi"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "0192"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Georgia"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "v.gvakharia@gamma.ge"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://gamma.ge/"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/733",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Sinop University, Fisheries Faculty"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:facsimile": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Sinop"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "57000"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Turkey"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "inapplicable"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": null
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/723",
+       "gmd:organisationName": {
+        "gco:CharacterString": "State Oceanographic Institute (SOI)"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+7 (499) 246-7288"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+7 (499) 246-72-88"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Kropotkinsky Lane 6"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Moscow"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "119034"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Russian Federation"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "adm@oceanography.ru, korshenko@mail.ru"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.oceanography.ru"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/841",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Ukrainian Hydrometeorological Institute - Marine Branch"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+38044 525 12 50"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+38044 525 53 63"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "37, Prospekt Nauki"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Kiev"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "03028"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Ukraine"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "uhmi@uhmi.org.ua"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": null
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/1167",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Ukrainian scientific center of Ecology of Sea (UkrSCES)"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+38 0482 636622"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+380 482 636873"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "89 Frantsuzsky Blvd."
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Odessa"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "65009"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Ukraine"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "accem@te.net.ua"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.sea.gov.ua"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/1977",
+       "gmd:organisationName": {
+        "gco:CharacterString": "NOAA / Wdc For Oceanography"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "NOAA/NODC E/OC5 1315 East-West Highway, 4th Floor"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Silver spring"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "20910-3282"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "United States"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "wdca@nodc.noaa.gov"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.nodc.noaa.gov/index.html"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/4630",
+       "gmd:organisationName": {
+        "gco:CharacterString": "CORIOLIS"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "0312 596 10 00"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "0312 317 67 24"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:city": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:country": {
+            "gco:CharacterString": "France"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "codac@ifremer.fr"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.coriolis.eu.org/"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "gmd:individualName": {
+        "gco:CharacterString": "Volodymyr Myroshnychenko"
+       },
+       "gmd:organisationName": {
+        "gco:CharacterString": "METU"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:country": {
+            "gco:CharacterString": "Turkey"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "volodymyr@ims.metu.edu.tr"
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "author"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/269",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Hellenic Centre for Marine Research, Hellenic National Oceanographic Data Centre (HCMR/HNODC)"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+30-22910-76367"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+30-22910-76347"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "46.7 km Athinon-Souniou Av.\nP.O.Box 712"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Anavissos"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "19013"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Greece"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "data@hnodc.hcmr.gr"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://hnodc.hcmr.gr"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/1169",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Odessa National I.I.Mechnikov University"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+38 048 731 73 79"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+38 048 723 73 38"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Dvoryanskaya Str, 2"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Odessa"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "65082"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Ukraine"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "medinets@te.net.ua"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.onu.edu.ua"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/4727",
+       "gmd:organisationName": {
+        "gco:CharacterString": "NGO MARINE SOUND"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:facsimile": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Edelvajs str. 5"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Nesebar"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Bulgaria"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "emonafarm@abv.bg"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.morskizvuci.org"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     }
+    ],
+    "gmd:graphicOverview": {
+     "gmd:MD_BrowseGraphic": {
+      "gmd:fileName": {
+       "gco:CharacterString": "https://sextant.ifremer.fr/geonetwork/srv/api/records/847f1627-f39f-40af-b3b0-a2f6d29ff4dc/attachments/S_0000_07.gif"
+      },
+      "gmd:fileDescription": {
+       "gco:CharacterString": "SDC_BLS_CLIM_TS_V2"
+      }
+     }
+    },
+    "gmd:descriptiveKeywords": [
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "gmx:Anchor": {
+         "@xlink:href": "http://inspire.ec.europa.eu/theme/of",
+         "#text": "Oceanographic geographical features"
+        }
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gmx:Anchor": {
+           "@xlink:href": "http://inspire.ec.europa.eu/theme#",
+           "#text": "GEMET - INSPIRE themes, version 1.0"
+          }
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2018-07-27"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xlink:href": "https://sextant.ifremer.fr/geonetwork/srv/eng/thesaurus.download?ref=external.theme.httpinspireeceuropaeutheme-theme",
+             "#text": "geonetwork.thesaurus.external.theme.httpinspireeceuropaeutheme-theme"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": [
+        {
+         "gmx:Anchor": {
+          "@xlink:href": "http://vocab.nerc.ac.uk/collection/P02/current/PSAL/",
+          "#text": "Salinity of the water column"
+         }
+        },
+        {
+         "gmx:Anchor": {
+          "@xlink:href": "http://vocab.nerc.ac.uk/collection/P02/current/TEMP/",
+          "#text": "Temperature of the water column"
+         }
+        }
+       ],
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode",
+         "@codeListValue": "parameter"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gmx:Anchor": {
+           "@xlink:href": "http://vocab.nerc.ac.uk/collection/P02/current/#",
+           "#text": "Parameter Discovery Vocabulary (P02)"
+          }
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2019-04-30"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xlink:href": "https://sextant.ifremer.fr/geonetwork/srv/eng/thesaurus.download?ref=external.parameter.NVS.P02",
+             "#text": "geonetwork.thesaurus.external.parameter.NVS.P02"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": [
+        {
+         "gmx:Anchor": {
+          "@xlink:href": "http://vocab.nerc.ac.uk/collection/P35/current/EPC00001/",
+          "#text": "Water body salinity"
+         }
+        },
+        {
+         "gmx:Anchor": {
+          "@xlink:href": "http://vocab.nerc.ac.uk/collection/P35/current/WATERTEMP/",
+          "#text": "ITS-90 water temperature"
+         }
+        }
+       ],
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode",
+         "@codeListValue": "parameter"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gmx:Anchor": {
+           "@xlink:href": "http://vocab.nerc.ac.uk/collection/P35/current/#",
+           "#text": "EMODnet Chemistry aggregated parameter names"
+          }
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2019-04-30"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xlink:href": "https://sextant.ifremer.fr/geonetwork/srv/eng/thesaurus.download?ref=external.parameter.NVS.P35",
+             "#text": "geonetwork.thesaurus.external.parameter.NVS.P35"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": [
+        {
+         "gmx:Anchor": {
+          "@xlink:href": "http://vocab.nerc.ac.uk/collection/C19/current/3_3/",
+          "#text": "Black Sea"
+         }
+        },
+        {
+         "gmx:Anchor": {
+          "@xlink:href": "http://vocab.nerc.ac.uk/collection/C19/current/3_4/",
+          "#text": "Sea of Azov"
+         }
+        }
+       ],
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode",
+         "@codeListValue": "reference-geographical-area"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gmx:Anchor": {
+           "@xlink:href": "http://vocab.nerc.ac.uk/collection/C19/current/#",
+           "#text": "SeaVoX salt and fresh water body gazetteer"
+          }
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2019-04-30"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xlink:href": "https://sextant.ifremer.fr/geonetwork/srv/eng/thesaurus.download?ref=external.reference-geographical-area.NVS.C19",
+             "#text": "geonetwork.thesaurus.external.reference-geographical-area.NVS.C19"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "gco:CharacterString": "/Physical Environment/Climatology"
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "Th\u00c3\u00a8mes Sextant"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2019-01-28"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xlink:href": "https://sextant.ifremer.fr/geonetwork/srv/eng/thesaurus.download?ref=local.theme.sextant-theme",
+             "#text": "geonetwork.thesaurus.local.theme.sextant-theme"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    ],
+    "gmd:resourceConstraints": [
+     {
+      "gmd:MD_Constraints": {
+       "gmd:useLimitation": {
+        "gco:CharacterString": "Transcopyright: http://transcopyright.org/#License"
+       }
+      }
+     },
+     {
+      "gmd:MD_LegalConstraints": {
+       "gmd:useLimitation": {
+        "gco:CharacterString": "Usage is subject to mandatory citation: \"[Reference to the resource]. This resource was generated in framework of the SeaDataCloud project, EC H2020 grant #730960.\""
+       },
+       "gmd:useConstraints": {
+        "gmd:MD_RestrictionCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode",
+         "@codeListValue": "otherRestrictions"
+        }
+       },
+       "gmd:accessConstraints": {
+        "gmd:MD_RestrictionCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode",
+         "@codeListValue": "otherRestrictions"
+        }
+       },
+       "gmd:otherConstraints": {
+        "gco:CharacterString": "For data access please register at http://www.marine-id.org"
+       }
+      }
+     }
+    ],
+    "gmd:spatialRepresentationType": {
+     "gmd:MD_SpatialRepresentationTypeCode": {
+      "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_SpatialRepresentationTypeCode",
+      "@codeListValue": "grid"
+     }
+    },
+    "gmd:spatialResolution": {
+     "gmd:MD_Resolution": {
+      "gmd:distance": {
+       "gco:Distance": {
+        "@uom": "degree",
+        "#text": "0.125"
+       }
+      }
+     }
+    },
+    "gmd:language": {
+     "gmd:LanguageCode": {
+      "@codeList": "http://www.loc.gov/standards/iso639-2/",
+      "@codeListValue": "eng"
+     }
+    },
+    "gmd:topicCategory": {
+     "gmd:MD_TopicCategoryCode": "oceans"
+    },
+    "gmd:extent": {
+     "gmd:EX_Extent": {
+      "gmd:description": {
+       "gco:CharacterString": "bounding box"
+      },
+      "gmd:geographicElement": {
+       "gmd:EX_GeographicBoundingBox": {
+        "gmd:westBoundLongitude": {
+         "gco:Decimal": "27.00"
+        },
+        "gmd:eastBoundLongitude": {
+         "gco:Decimal": "42.00"
+        },
+        "gmd:southBoundLatitude": {
+         "gco:Decimal": "40.50"
+        },
+        "gmd:northBoundLatitude": {
+         "gco:Decimal": "47.50"
+        }
+       }
+      },
+      "gmd:temporalElement": {
+       "gmd:EX_TemporalExtent": {
+        "gmd:extent": {
+         "gml:TimePeriod": {
+          "@gml:id": "d162738638e2256a1050910",
+          "gml:beginPosition": "1955-01-01",
+          "gml:endPosition": "2017-12-31"
+         }
+        }
+       }
+      },
+      "gmd:verticalElement": {
+       "gmd:EX_VerticalExtent": {
+        "gmd:minimumValue": {
+         "gco:Real": "-2000"
+        },
+        "gmd:maximumValue": {
+         "gco:Real": "0"
+        },
+        "gmd:verticalCRS": {
+         "@uuidref": "http://spatialreference.org/ref/epsg/5714/"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "gmd:distributionInfo": {
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gmd:MD_Distribution": {
+    "gmd:transferOptions": {
+     "gmd:MD_DigitalTransferOptions": {
+      "gmd:onLine": [
+       {
+        "gmd:CI_OnlineResource": {
+         "gmd:linkage": {
+          "gmd:URL": "https://files.seadatanet.org/climatologies/Black_Sea/SDC_BLS_CLIM_TS_V2/"
+         },
+         "gmd:protocol": {
+          "gco:CharacterString": "WWW:DOWNLOAD-1.0-link--download"
+         },
+         "gmd:name": {
+          "gco:CharacterString": "SDC_BLS_CLIM_TS_V2"
+         },
+         "gmd:description": {
+          "gco:CharacterString": "NetCDF files"
+         }
+        }
+       },
+       {
+        "gmd:CI_OnlineResource": {
+         "gmd:linkage": {
+          "gmd:URL": "http://dx.doi.org/10.12770/847f1627-f39f-40af-b3b0-a2f6d29ff4dc"
+         },
+         "gmd:protocol": {
+          "gco:CharacterString": "WWW:LINK-1.0-http--metadata-URL"
+         },
+         "gmd:name": {
+          "gco:CharacterString": "DOI of the product"
+         },
+         "gmd:description": {
+          "gco:CharacterString": "DOI of the product"
+         }
+        }
+       },
+       {
+        "gmd:CI_OnlineResource": {
+         "gmd:linkage": {
+          "gmd:URL": "https://www.ifremer.fr/erddap/info/SDC_BLS_CLIM_TS_V2_m/index.html"
+         },
+         "gmd:protocol": {
+          "gco:CharacterString": "WWW:LINK"
+         },
+         "gmd:name": {
+          "gco:CharacterString": "ERDDAP Link"
+         },
+         "gmd:description": {
+          "gco:CharacterString": "ERDDAP link to monthly climatology V2"
+         }
+        }
+       },
+       {
+        "gmd:CI_OnlineResource": {
+         "gmd:linkage": {
+          "gmd:URL": "https://www.ifremer.fr/erddap/info/SDC_BLS_CLIM_TS_V2_s/index.html"
+         },
+         "gmd:protocol": {
+          "gco:CharacterString": "WWW:LINK"
+         },
+         "gmd:name": {
+          "gco:CharacterString": "ERDDAP Link"
+         },
+         "gmd:description": {
+          "gco:CharacterString": "ERDDAP link to seasonal climatology V2"
+         }
+        }
+       }
+      ]
+     }
+    }
+   }
+  },
+  "gmd:dataQualityInfo": {
+   "@xmlns:date": "http://exslt.org/dates-and-times",
+   "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+   "@xmlns:xslt": "http://xml.apache.org/xslt",
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gmd:DQ_DataQuality": {
+    "gmd:scope": {
+     "gmd:DQ_Scope": {
+      "gmd:level": {
+       "gmd:MD_ScopeCode": {
+        "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode",
+        "@codeListValue": "series"
+       }
+      }
+     }
+    },
+    "gmd:report": {
+     "gmd:DQ_DomainConsistency": {
+      "gmd:result": {
+       "gmd:DQ_ConformanceResult": {
+        "gmd:specification": {
+         "gmd:CI_Citation": {
+          "gmd:title": {
+           "gco:CharacterString": "COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services"
+          },
+          "gmd:date": {
+           "gmd:CI_Date": {
+            "gmd:date": {
+             "gco:Date": "2010-12-08"
+            },
+            "gmd:dateType": {
+             "gmd:CI_DateTypeCode": {
+              "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode",
+              "@codeListValue": "publication"
+             }
+            }
+           }
+          }
+         }
+        },
+        "gmd:explanation": {
+         "gco:CharacterString": "See the referenced specification"
+        },
+        "gmd:pass": {
+         "@gco:nilReason": "inapplicable"
+        }
+       }
+      }
+     }
+    },
+    "gmd:lineage": {
+     "gmd:LI_Lineage": {
+      "gmd:statement": {
+       "gco:CharacterString": "The data used as input for this product have been extracted from the SeaDataNet Data Access Service (https://www.seadatanet.org/Data-Access), World Ocean Database (https://www.nodc.noaa.gov/OC5/WOD/pr_wod.html), and COPERNICUS Marine and Environment Monitoring Service CORA 5.2 product (http://marine.copernicus.eu/services-portfolio/access-to-products/?option=com_csw&view=details&product_id=INSITU_GLO_TS_REP_OBSERVATIONS_013_001_b).\nThe Quality Control was performed as described in: Myroshnychenko Volodymyr (2020). SeaDataCloud Temperature and Salinity Historical Data Collection for the Black Sea (Version 2). Product Information Document (PIDoc). https://doi.org/10.13155/77211"
+      }
+     }
+    }
+   }
+  }
+ }
+}

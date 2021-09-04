@@ -1,0 +1,217 @@
+{
+  "coverageGeo": {
+    "coordinates": [19.55654, 64.18203, 270.0],
+    "type": "Point"
+  },
+  "fileName": "SE-Deg_ST_20210510_L04_F03.dat",
+  "hash": "jpdf6-4W_jzSczwq_Zis81fEOk-HazafwJVcckc3oCU",
+  "parentCollections": [],
+  "pid": "11676/jpdf6-4W_jzSczwq_Zis81fE",
+  "references": {
+    "authors": [{
+      "firstName": "Tommy",
+      "lastName": "Andersson",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Tommy_Andersson"
+      }
+    }, {
+      "firstName": "Giuseppe",
+      "lastName": "De Simon",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Giuseppe_De%20Simon"
+      }
+    }, {
+      "firstName": "Rowan",
+      "lastName": "Dignam",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Rowan_Dignam"
+      }
+    }, {
+      "firstName": "Jutta",
+      "lastName": "Holst",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jutta_Holst"
+      }
+    }, {
+      "firstName": "Kim",
+      "lastName": "Lindgren",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Kim_Lindgren"
+      }
+    }, {
+      "firstName": "Pernilla",
+      "lastName": "Löfvenius",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Pernilla_L%C3%B6fvenius"
+      }
+    }, {
+      "firstName": "Per",
+      "lastName": "Marklund",
+      "orcid": "0000-0001-7264-5498",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Per_Marklund"
+      }
+    }, {
+      "firstName": "Meelis",
+      "lastName": "Mölder",
+      "orcid": "0000-0001-6767-3195",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Meelis_M%C3%B6lder"
+      }
+    }, {
+      "firstName": "Mats",
+      "lastName": "Nilsson",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Mats%20B._Nilsson"
+      }
+    }, {
+      "firstName": "Matthias",
+      "lastName": "Peichl",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Matthias_Peichl"
+      }
+    }, {
+      "firstName": "Paul",
+      "lastName": "Smith",
+      "orcid": "0000-0002-3773-1419",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Paul_Smith"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/jpdf6-4W_jzSczwq_Zis81fE,\r\n  author={Andersson, T., De Simon, G., Dignam, R., Holst, J., Lindgren, K., Löfvenius, P., Marklund, P., Mölder, M., Nilsson, M., Peichl, M., Smith, P.},\r\n  title={ICOS ETC Storage Flux Raw ASCII, Degero, 2021-05-10},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/jpdf6-4W_jzSczwq_Zis81fE},\r\n  publisher={Degero},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/jpdf6-4W_jzSczwq_Zis81fE}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ETC Storage Flux Raw ASCII, Degero, 2021-05-10\r\nID - 11676/jpdf6-4W_jzSczwq_Zis81fE\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/jpdf6-4W_jzSczwq_Zis81fE\r\nPB - Degero\r\nAU - Andersson, T.\r\nAU - De Simon, G.\r\nAU - Dignam, R.\r\nAU - Holst, J.\r\nAU - Lindgren, K.\r\nAU - Löfvenius, P.\r\nAU - Marklund, P.\r\nAU - Mölder, M.\r\nAU - Nilsson, M.\r\nAU - Peichl, M.\r\nAU - Smith, P.\r\nER - ",
+    "citationString": "Andersson, T., De Simon, G., Dignam, R., Holst, J., Lindgren, K., Löfvenius, P., Marklund, P., Mölder, M., Nilsson, M., Peichl, M., Smith, P., ICOS RI, 2021. ICOS ETC Storage Flux Raw ASCII, Degero, 2021-05-10, https://hdl.handle.net/11676/jpdf6-4W_jzSczwq_Zis81fE",
+    "temporalCoverageDisplay": "2021-05-10"
+  },
+  "size": 6815828,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "DL-Campbell CR1000",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ETC_18_4"
+      },
+      "interval": {
+        "start": "2021-05-09T23:00:00Z",
+        "stop": "2021-05-10T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 270.0,
+          "geo": {
+            "coordinates": [19.55654, 64.18203, 270.0],
+            "type": "Point"
+          },
+          "label": "SE-Deg",
+          "lat": 64.18203,
+          "lon": 19.55654
+        },
+        "id": "SE-Deg",
+        "org": {
+          "name": "Degero",
+          "self": {
+            "comments": ["The station Degerö, with ICOS code SE-Deg, is located in the northern Sweden boreal region, about 70 km west of the Gulf of Bothnia, NW of the city Umeå, situated on highland between the major rivers, Ume and Vindeln River. The site is an oligotrophic mire consisting of a rather complex system of interconnected smaller mires, divided by islets and ridges of glacial till. The area around the Eddy Covariance tower is dominated by flat lawn plants communities with bog moss dominating the bottom layer."],
+            "label": "SE-Deg",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_SE-Deg"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/YJo24JYb8gSGEiN/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "climateZone": {
+            "comments": [],
+            "label": "Subacrtic (Dfc)",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/koppen_Dfc"
+          },
+          "countryCode": "SE",
+          "documentation": [{
+            "hash": "EAPVFrRI9ULnrrwOm9-H_7hE-pode-32LjTdonkx-kg",
+            "name": "SE-Deg ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/EAPVFrRI9ULnrrwOm9-H_7hE"
+          }],
+          "ecosystemType": {
+            "comments": ["Lands with a permanent mixture of water and herbaceous or woody vegetation that cover extensive areas. The vegetation can be present in either salt, brackish, or fresh water."],
+            "label": "Permanent Wetlands",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_WET"
+          },
+          "labelingDate": "2019-10-28",
+          "meanAnnualPrecip": 523.0,
+          "meanAnnualRad": 93.4,
+          "meanAnnualTemp": 1.2,
+          "stationClass": "2",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Raw ASCII ETC station data",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiEtcRawTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ETC Storage Flux Raw ASCII",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcStorageFluxRawSeriesCsv"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-05-11T00:42:53.841Z",
+    "stop": "2021-05-11T00:42:56.721Z",
+    "submitter": {
+      "name": "Degero",
+      "self": {
+        "comments": ["The station Degerö, with ICOS code SE-Deg, is located in the northern Sweden boreal region, about 70 km west of the Gulf of Bothnia, NW of the city Umeå, situated on highland between the major rivers, Ume and Vindeln River. The site is an oligotrophic mire consisting of a rather complex system of interconnected smaller mires, divided by islets and ridges of glacial till. The area around the Eddy Covariance tower is dominated by flat lawn plants communities with bog moss dominating the bottom layer."],
+        "label": "SE-Deg",
+        "uri": "http://meta.icos-cp.eu/resources/stations/ES_SE-Deg"
+      }
+    }
+  }
+}

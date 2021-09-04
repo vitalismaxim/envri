@@ -1,0 +1,93 @@
+description
+identifier
+keywords
+language
+accessibilitySummary
+accountablePerson
+version
+temporalCoverage
+publisher
+spatial
+longitude
+latitude
+license
+citation
+genre
+creator
+modification date
+distribution
+image
+thumbnailUrl
+headline
+abstract
+category
+dateCreated
+creditText
+datePublished
+producer
+author
+spatialCoverage
+url
+temporal
+sponsor
+size
+sdPublisher
+sdLicense
+sameAs
+publication
+provider
+position
+name
+measurementTechnique
+material
+maintainer
+locationCreated
+issn
+isPartOf
+isBasedOn
+isAccessibleForFree
+includedInDataCatalog
+editor
+editEIDR
+copyrightYear
+copyrightNotice
+copyrightHolder
+contributor
+contentReferenceTime
+contentLocation
+character
+acquireLicensePage
+accessModeSufficient
+about
+rights
+relation
+qualified relation
+qualified attribution
+previous version
+landing page
+is referenced by
+in series
+has version
+has policy
+has current version
+useConstraints
+status
+spatialRepresentationType
+spatialRepresentationInfo
+scope
+responsibleParty
+releasability
+reference
+purpose
+otherLocale
+metadataProfile
+metadataLinkage
+metadataIdentifier
+MD_LegalConstraints
+MD_Identification
+environmentDescription
+distributor
+distributionInfo
+dataQualityInfo
+contentInfo
+contact

@@ -1,0 +1,186 @@
+{
+  "coverageGeo": {
+    "coordinates": [-0.956082, 44.49367, 39.18],
+    "type": "Point"
+  },
+  "fileName": "FR-Bil_BM_20210510_L01_F02.csv",
+  "hash": "1OSfybMKfzgG1vp2GP1dBAPkI5xyBhTS3BtMLY6GVLc",
+  "parentCollections": [],
+  "pid": "11676/1OSfybMKfzgG1vp2GP1dBAPk",
+  "references": {
+    "authors": [{
+      "firstName": "Christelle",
+      "lastName": "Aluome",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Christelle_Aluome"
+      }
+    }, {
+      "firstName": "Christophe",
+      "lastName": "Chipeaux",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Christophe_Chipeaux"
+      }
+    }, {
+      "firstName": "Jean-Luc",
+      "lastName": "Denou",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jean-Luc_Denou"
+      }
+    }, {
+      "firstName": "Jeremie",
+      "lastName": "DEPUYDT",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jeremie_DEPUYDT"
+      }
+    }, {
+      "firstName": "Alain",
+      "lastName": "Kruszewski",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Alain_Kruszewski"
+      }
+    }, {
+      "firstName": "Sebastien",
+      "lastName": "Lafont",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Sebastien_Lafont"
+      }
+    }, {
+      "firstName": "Denis",
+      "lastName": "Loustau",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Denis_Loustau"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/1OSfybMKfzgG1vp2GP1dBAPk,\r\n  author={Aluome, C., Chipeaux, C., Denou, J., DEPUYDT, J., Kruszewski, A., Lafont, S., Loustau, D.},\r\n  title={ICOS ETC Bio Meteo Raw ASCII, Bilos, 2021-05-10},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/1OSfybMKfzgG1vp2GP1dBAPk},\r\n  publisher={Bilos},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/1OSfybMKfzgG1vp2GP1dBAPk}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ETC Bio Meteo Raw ASCII, Bilos, 2021-05-10\r\nID - 11676/1OSfybMKfzgG1vp2GP1dBAPk\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/1OSfybMKfzgG1vp2GP1dBAPk\r\nPB - Bilos\r\nAU - Aluome, C.\r\nAU - Chipeaux, C.\r\nAU - Denou, J.\r\nAU - DEPUYDT, J.\r\nAU - Kruszewski, A.\r\nAU - Lafont, S.\r\nAU - Loustau, D.\r\nER - ",
+    "citationString": "Aluome, C., Chipeaux, C., Denou, J., DEPUYDT, J., Kruszewski, A., Lafont, S., Loustau, D., ICOS RI, 2021. ICOS ETC Bio Meteo Raw ASCII, Bilos, 2021-05-10, https://hdl.handle.net/11676/1OSfybMKfzgG1vp2GP1dBAPk",
+    "temporalCoverageDisplay": "2021-05-10"
+  },
+  "size": 51706,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "DL-Campbell CR1000",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ETC_12_1"
+      },
+      "interval": {
+        "start": "2021-05-09T23:00:00Z",
+        "stop": "2021-05-10T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 39.18,
+          "geo": {
+            "coordinates": [-0.956082, 44.49367, 39.18],
+            "type": "Point"
+          },
+          "label": "FR-Bil",
+          "lat": 44.49367,
+          "lon": -0.956082
+        },
+        "id": "FR-Bil",
+        "org": {
+          "name": "Bilos",
+          "self": {
+            "comments": ["The Bilos site, code ICOS FR-Bil, is located in the Landes forest, 50 Km south west of Bordeaux, France. The site is a managed Pine forest plantation. The soil is a sandy podzol with a discontinuous layer of iron hard pan at 75 cm depth that limits root extension."],
+            "label": "FR-Bil",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_FR-Bil"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/43CdoB5zM3zTrN9/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "climateZone": {
+            "comments": [],
+            "label": "Oceanic subtropical highland (Cfb)",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/koppen_Cfb"
+          },
+          "countryCode": "FR",
+          "documentation": [{
+            "hash": "w6ohHvo3_cgeDOu-PBLg1ZHCKYIZPPuglNEprbIWVMU",
+            "name": "FR-Bil ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/w6ohHvo3_cgeDOu-PBLg1ZHC"
+          }],
+          "ecosystemType": {
+            "comments": ["Lands dominated by woody vegetation with a percent cover >60% and height exceeding 2 meters. Almost all trees remain green all year. Canopy is never without green foliage."],
+            "label": "Evergreen Needleleaf Forests",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_ENF"
+          },
+          "labelingDate": "2019-10-28",
+          "meanAnnualPrecip": 960.1,
+          "meanAnnualRad": 140.9,
+          "meanAnnualTemp": 12.9,
+          "stationClass": "2",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Raw ASCII ETC station data",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiEtcRawTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ETC Bio Meteo Raw ASCII",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcBioMeteoRawSeriesCsv"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-05-11T02:23:19.717Z",
+    "stop": "2021-05-11T02:23:22.182Z",
+    "submitter": {
+      "name": "Bilos",
+      "self": {
+        "comments": ["The Bilos site, code ICOS FR-Bil, is located in the Landes forest, 50 Km south west of Bordeaux, France. The site is a managed Pine forest plantation. The soil is a sandy podzol with a discontinuous layer of iron hard pan at 75 cm depth that limits root extension."],
+        "label": "FR-Bil",
+        "uri": "http://meta.icos-cp.eu/resources/stations/ES_FR-Bil"
+      }
+    }
+  }
+}

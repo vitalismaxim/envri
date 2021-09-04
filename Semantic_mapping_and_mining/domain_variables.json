@@ -1,0 +1,31 @@
+{
+ "ocean": [
+  "Sea state",
+  "Ocean surface stress",
+  "Sea ice",
+  "Sea surface height",
+  "Sea surface temperature",
+  "Subsurface temperature",
+  "Surface currents",
+  "Sea surface salinity",
+  "subsurface salinity",
+  "Ocean surface heat flux",
+  "Ocean colour",
+  "Ocean Sound",
+  "Phytoplankton biomass and diversity",
+  "Nutrients",
+  "Fish abundace",
+  "Transient traces",
+  "Particulate matter",
+  "Nitrous oxide",
+  "Stable carbon isotopes",
+  "Dissolved organic carbon",
+  "Microbe biomass and diversity",
+  "Invertebrate abundance and distribution",
+  "Marine turtles, birds, mammals abundance and distribution",
+  "Hard coral cover and composition",
+  "Seagrass cover and composition",
+  "Macroalgal canopy cover and composition",
+  "Mangrove cover and composition"
+ ]
+}

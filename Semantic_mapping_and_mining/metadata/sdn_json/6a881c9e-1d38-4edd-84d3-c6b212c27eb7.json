@@ -1,0 +1,4851 @@
+{
+ "gmd:MD_Metadata": {
+  "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+  "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+  "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+  "@xmlns:gts": "http://www.isotc211.org/2005/gts",
+  "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+  "@xmlns:gmi": "http://www.isotc211.org/2005/gmi",
+  "@xmlns:gml": "http://www.opengis.net/gml/3.2",
+  "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xsi:schemaLocation": "http://www.isotc211.org/2005/gmd http://schemas.opengis.net/csw/2.0.2/profiles/apiso/1.0.0/apiso.xsd",
+  "gmd:fileIdentifier": {
+   "gco:CharacterString": "6a881c9e-1d38-4edd-84d3-c6b212c27eb7"
+  },
+  "gmd:language": {
+   "@xmlns:xslt": "http://xml.apache.org/xslt",
+   "@xmlns:date": "http://exslt.org/dates-and-times",
+   "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gmd:LanguageCode": {
+    "@codeList": "http://www.loc.gov/standards/iso639-2/",
+    "@codeListValue": "eng"
+   }
+  },
+  "gmd:characterSet": {
+   "@xmlns:xslt": "http://xml.apache.org/xslt",
+   "@xmlns:date": "http://exslt.org/dates-and-times",
+   "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gmd:MD_CharacterSetCode": {
+    "@codeListValue": "utf8",
+    "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_CharacterSetCode"
+   }
+  },
+  "gmd:hierarchyLevel": {
+   "@xmlns:xslt": "http://xml.apache.org/xslt",
+   "@xmlns:date": "http://exslt.org/dates-and-times",
+   "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gmd:MD_ScopeCode": {
+    "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode",
+    "@codeListValue": "dataset"
+   }
+  },
+  "gmd:contact": {
+   "@xmlns:xslt": "http://xml.apache.org/xslt",
+   "@xmlns:date": "http://exslt.org/dates-and-times",
+   "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gmd:CI_ResponsibleParty": {
+    "gmd:individualName": {
+     "@gco:nilReason": "missing",
+     "gco:CharacterString": null
+    },
+    "gmd:organisationName": {
+     "gco:CharacterString": "SEADATANET"
+    },
+    "gmd:contactInfo": {
+     "gmd:CI_Contact": {
+      "gmd:address": {
+       "gmd:CI_Address": {
+        "gmd:electronicMailAddress": {
+         "gco:CharacterString": "sdn-userdesk@seadatanet.org"
+        }
+       }
+      },
+      "gmd:onlineResource": {
+       "gmd:CI_OnlineResource": {
+        "gmd:linkage": {
+         "gmd:URL": "http://www.seadatanet.org/"
+        }
+       }
+      }
+     }
+    },
+    "gmd:role": {
+     "gmd:CI_RoleCode": {
+      "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+      "@codeListValue": "pointOfContact"
+     }
+    }
+   }
+  },
+  "gmd:dateStamp": {
+   "@xmlns:xslt": "http://xml.apache.org/xslt",
+   "@xmlns:date": "http://exslt.org/dates-and-times",
+   "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gco:DateTime": "2021-05-06T10:16:44"
+  },
+  "gmd:metadataStandardName": {
+   "@xmlns:xslt": "http://xml.apache.org/xslt",
+   "@xmlns:date": "http://exslt.org/dates-and-times",
+   "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gco:CharacterString": "ISO 19115:2003/19139 - EMODNET - SDN"
+  },
+  "gmd:metadataStandardVersion": {
+   "@xmlns:xslt": "http://xml.apache.org/xslt",
+   "@xmlns:date": "http://exslt.org/dates-and-times",
+   "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gco:CharacterString": "0.1"
+  },
+  "gmd:referenceSystemInfo": {
+   "@xmlns:xslt": "http://xml.apache.org/xslt",
+   "@xmlns:date": "http://exslt.org/dates-and-times",
+   "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gmd:MD_ReferenceSystem": {
+    "gmd:referenceSystemIdentifier": {
+     "gmd:RS_Identifier": {
+      "gmd:code": {
+       "gco:CharacterString": "WGS 84 (EPSG 4326)"
+      },
+      "gmd:codeSpace": {
+       "gco:CharacterString": "EPSG"
+      }
+     }
+    }
+   }
+  },
+  "gmd:identificationInfo": {
+   "@xmlns:xslt": "http://xml.apache.org/xslt",
+   "@xmlns:date": "http://exslt.org/dates-and-times",
+   "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gmd:MD_DataIdentification": {
+    "gmd:citation": {
+     "gmd:CI_Citation": {
+      "gmd:title": {
+       "gco:CharacterString": "Baltic Sea - Temperature and Salinity historical data collection SeaDataCloud V2"
+      },
+      "gmd:alternateTitle": {
+       "gco:CharacterString": "SDC_BAL_DATA_TS_V2"
+      },
+      "gmd:date": {
+       "gmd:CI_Date": {
+        "gmd:date": {
+         "gco:Date": "2020-05-28"
+        },
+        "gmd:dateType": {
+         "gmd:CI_DateTypeCode": {
+          "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode",
+          "@codeListValue": "creation"
+         }
+        }
+       }
+      },
+      "gmd:edition": {
+       "gco:CharacterString": "1"
+      },
+      "gmd:editionDate": {
+       "gco:Date": "2018-04-18"
+      },
+      "gmd:identifier": {
+       "gmd:MD_Identifier": {
+        "gmd:code": {
+         "gco:CharacterString": "6a881c9e-1d38-4edd-84d3-c6b212c27eb7"
+        }
+       }
+      }
+     }
+    },
+    "gmd:abstract": {
+     "gco:CharacterString": "The SeaDataCloud  Temperature  and Salinity historical data collection for the Baltic Sea  V2 includes open access in situ data on temperature and salinity of water column. The data were retrieved from the SeaDataNet infrastructure during summer 2019. Data have been quality controlled according to the SeaDataNet2 project QC procedures in conjunction with the visual expert check using the ODV software. The final number of stations in the collection is 481695, containing around 14.4 million values for both temperature and salinity. The dataset format is ODV binary collection which you can read, analyse and export from with the ODV application provided by the Alfred Wegener institute at http://odv.awi.de/. \n\nFor data access please register at http://www.marine-id.org/."
+    },
+    "gmd:credit": {
+     "gco:CharacterString": "SeaDataNet"
+    },
+    "gmd:pointOfContact": [
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/545",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Swedish Meteorological and Hydrological Institute"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+46-(0)11-495 80 00"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+46-(0)11-495 80 01"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Folkborgsvagen 1"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Norrkoping"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "SE-601 76"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Sweden"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "shark@smhi.se"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.smhi.se"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "pointOfContact"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/545",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Swedish Meteorological and Hydrological Institute"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+46-(0)11-495 80 00"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+46-(0)11-495 80 01"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Folkborgsvagen 1"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Norrkoping"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "SE-601 76"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Sweden"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "shark@smhi.se"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.smhi.se"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "resourceProvider"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/486",
+       "gmd:organisationName": {
+        "gco:CharacterString": "IFREMER / IDM/SISMER"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+33 (0)2 98.22.49.16"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+33 (0)2 98.22.46.44"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Centre IFREMER de Brest BP 70"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "PLOUZANE"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "29280"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "France"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "sismer@ifremer.fr"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.ifremer.fr/sismer/"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "custodian"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/1351",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Institute of Marine Research"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+47 55 23 85 00"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+47 55 23 85 31"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Nordnesgaten 50 Postboks 1870 Nordnes"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Bergen"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "N-5817"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Norway"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "post@imr.no"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.imr.no"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/1368",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Alfred-Wegener-Institute for Polar- and Marine Research"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "None"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "None"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Am Handelshafen 12"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Bremerhaven"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "D-27570"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Germany"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "folke.mehrtens@awi.de"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.awi.de"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/193",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Institute of Meteorology and Water Management National Research Institute, Maritime Branch in Gdynia (IMWM MB)"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+48-58-62-88-100"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+48-58-62-88-163"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Waszyngtona 42"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Gdynia"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "81-342"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Poland"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "None"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.baltyk.pogodynka.pl/"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/195",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Institute of Oceanology, Polish Academy of Sciences (IO PAS)"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+48 58 551 72 81"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+48 58 551 21 30"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Powstancow Warszawy 55"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Sopot"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "81-712"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Poland"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "smas@iopan.gda.pl"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.iopan.gda.pl/"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/2108",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Environmental Protection Agency (EPA)"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "None"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "None"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Juozapaviciaus st. 9"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Vilnius"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "LT-09311"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Lithuania"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "aaa@aaa.am.lt"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.gamta.lt"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/2424",
+       "gmd:organisationName": {
+        "gco:CharacterString": "National Oceanography Centre, Liverpool"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+44 (0)151 795 4800"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+44 (0)151 795 4801"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Joseph Proudman Building, 6 Brownlow Street"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Liverpool"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "L3 5DA"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "United Kingdom"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "enquiries@noc.ac.uk"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://noc.ac.uk"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/2947",
+       "gmd:organisationName": {
+        "gco:CharacterString": "GEOMAR Helmholtz Centre for Ocean Research Kiel"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+49 431 600-0"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+49 431 600-2805"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "D\u00c3\u00bcsternbrooker Weg 20"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Kiel"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "24105"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Germany"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "info@geomar.de"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.geomar.de/en/"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/540",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Shom"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+33 (0)2 56.31.23.12"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+33 (0)2 56.31.25.80"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "13, rue du Chatellier CS92803"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "BREST CEDEX 2"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "29228"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "France"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "seadatanet-admin@shom.fr"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.shom.fr/"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/545",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Swedish Meteorological and Hydrological Institute"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+46-(0)11-495 80 00"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+46-(0)11-495 80 01"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Folkborgsvagen 1"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Norrkoping"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "SE-601 76"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Sweden"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "shark@smhi.se"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.smhi.se"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/618",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Stockholm Marine Research Centre, SMF"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+46 (0)8-16 37 18"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "None"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Svante Arrhenius V\u00c3\u00a4g 21B Frescati Backe"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Stockholm"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "SE-114 18"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Sweden"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "smf@smf.su.se"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.smf.su.se"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/622",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Umea Marine Sciences Centre, UMF"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+46 (0)90-786 79 74"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+46 (0)90-786 99 75"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Norrbyn"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "H\u00c3\u00b6rnefors"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "SE-910 20"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Sweden"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "info@umf.umu.se"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.umf.umu.se/"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/628",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Finnish Institute of Marine Research (FIMR)"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+358 9 613 941"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+358 9 323 2970"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Erik Palm\u00c3\u00a9nin aukio 1 P.O.Box 2"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Helsinki"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "00561"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Finland"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "None"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.fimr.fi/en/en_GB/en/"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/630",
+       "gmd:organisationName": {
+        "gco:CharacterString": "NIOZ Royal Netherlands Institute for Sea Research"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+31 222 369300"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+31 222 319674"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Landsdiep 4 P.O. Box 59"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Den Burg/Texel"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "1790 AB"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Netherlands"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "dmg@nioz.nl"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "https://www.nioz.nl"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/680",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Department of Marine Research of the Environmental Protection Agency"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+370 46 41 04 50"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+370 46 41 04 60"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Taikos Av. 26"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Klaipeda"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "LT-91149"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Lithuania"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "jtd@aaa.am.lt"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.gamta.lt/"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/685",
+       "gmd:organisationName": {
+        "gco:CharacterString": "P.P.Shirshov Institute of Oceanology, RAS"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+7(499)124-59-96"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+7(499)124-59-83"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "36 Nakhimovsky prospect"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Moscow"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "117997"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Russian Federation"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "office@ocean.ru"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.ocean.ru"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/713",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Marine Systems Institute at Tallinn University of Technology"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+372 6204300"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "None"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "MSI, Akadeemia tee 15a"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Tallinn"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "12618"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Estonia"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "msi@msi.ttu.ee"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.msi.ttu.ee"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/729",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Aarhus University, Department of Bioscience, Marine Ecology Roskilde"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+45 8715000"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+45 87154326"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "399 Frederiksborgvej P.O. Box 358"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Roskilde"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "DK-4000"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Denmark"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "None"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://bios.au.dk/en/"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/924",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Russian State Hydrometeorological University, St-Petersburg"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "None"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "None"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "98, Maloohtinsky Pr."
+           },
+           "gmd:city": {
+            "gco:CharacterString": "St.-Petersburg"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "195196"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Russian Federation"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "rector@rshu.ru"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.rshi.nw.ru/win/home-ru.htm"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/931",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Odessa Branch of SOI (State Oceanographic Institute)"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "None"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "None"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "None"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Odessa"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "None"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Ukraine"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "None"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "None"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "@xmlns:gn": "http://www.fao.org/geonetwork",
+      "gmd:CI_ResponsibleParty": {
+       "gmd:individualName": {
+        "gco:CharacterString": "\u00c3\u2013rjan B\u00c3\u00a4ck"
+       },
+       "gmd:organisationName": {
+        "gco:CharacterString": "SMHI"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:country": {
+            "gco:CharacterString": "Sweden"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "orjan.back@smhi.se"
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "author"
+        }
+       }
+      }
+     },
+     {
+      "@xmlns:gn": "http://www.fao.org/geonetwork",
+      "gmd:CI_ResponsibleParty": {
+       "gmd:individualName": {
+        "gco:CharacterString": "Dick Schaap"
+       },
+       "gmd:organisationName": {
+        "gco:CharacterString": "MARIS"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:country": {
+            "gco:CharacterString": "Netherlands"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "dick@maris.nl"
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "author"
+        }
+       }
+      }
+     },
+     {
+      "@xmlns:gn": "http://www.fao.org/geonetwork",
+      "gmd:CI_ResponsibleParty": {
+       "gmd:individualName": {
+        "gco:CharacterString": "Reiner Schlitzer"
+       },
+       "gmd:organisationName": {
+        "gco:CharacterString": "AWI"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:country": {
+            "gco:CharacterString": "Germany"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "Reiner.Schlitzer@awi.de"
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "author"
+        }
+       }
+      }
+     },
+     {
+      "@xlink:href": "local://srv/api/registries/entries/http://seadatanet.maris2.nl/v_edmo/print.asp?lang=eng&n_code=2181?process=gmd:role/gmd:CI_RoleCode/@codeListValue~originator&schema=iso19139"
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/43",
+       "gmd:organisationName": {
+        "gco:CharacterString": "British Oceanographic Data Centre"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:facsimile": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Joseph Proudman Building\n6 Brownlow Street"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Liverpool"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "L3 5DA"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "United Kingdom"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "enquiries@bodc.ac.uk"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.bodc.ac.uk/"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/100",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Baltic Sea Research Institute Warnemuende (IOW)"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+49 381 5197-0"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+49 381 5197 440"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Seestrasse 15"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Rostock"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "18119"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Germany"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "postmaster@io-warnemuende.de"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.io-warnemuende.de/"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/117",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Federal Maritime and Hydrographic Agency, Dept. Oceanography"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+49 40 3190 3200"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+49 40 3190 5000"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Bernhard-Nocht-Str. 78"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Hamburg"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "20359"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Germany"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "dod@bsh.de"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.bsh.de/"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/396",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Marine Institute"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+353-91-387200"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+353-91-387201"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Rinville"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Oranmore"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "H91 R673"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Ireland"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "datarequests@marine.ie"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.marine.ie"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/486",
+       "gmd:organisationName": {
+        "gco:CharacterString": "IFREMER / IDM / SISMER - Scientific Information Systems for the SEA"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+33 (0)2 98.22.49.16"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+33 (0)2 98.22.46.44"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "IFREMER Centre de Bretagne\nZI Pointe du diable\nCS 10070"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "PLOUZANE"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "29280"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "France"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "sismer@ifremer.fr"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.ifremer.fr/sismer/"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/681",
+       "gmd:organisationName": {
+        "gco:CharacterString": "All-Russia Research Institute of Hydrometeorological Information - World Data Centre (RIHMI-WDC) National Oceanographic Data Centre (NODC)"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+74843974907"
+           },
+           "gmd:facsimile": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "6 Korolyov St."
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Obninsk"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "249035"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Russian Federation"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "nodc@meteo.ru"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://nodc.meteo.ru"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/682",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Atlantic Scientific Research Institute for Marine Fishery and Oceanography"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "8 (0112) 21-56-45"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "8 (0112) 21-99-97"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "5, Dm. Donskoi St."
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Kaliningrad reg"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "236000"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Russian Federation"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "atlant@baltnet.ru"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.atlantniro.ru/"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/684",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Arctic and Antarctic Research Institute, Roshydromet (Saint-Petersburg)"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "(812) 352-15-20"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "(812) 352-26-88"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "38,Bering st."
+           },
+           "gmd:city": {
+            "gco:CharacterString": "St.Petersburg"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "199397"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Russian Federation"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "aaricoop@aari.nw.ru"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.aari.nw.ru"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/698",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Latvian Institute of Aquatic Ecology"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+371 67601995, +371 67614840, +371 67610851"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+371 67601995"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Voleru str.4"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Riga"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "LV-1007"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Latvia"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "anda.ikauniece@lhei.lv"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.lhei.lv/en"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/867",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Baltic Research Institute of Fishery of Latvia (BaltNIIRH)"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:facsimile": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Bezdeligu str, 1"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Riga"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Latvia"
+           },
+           "gmd:electronicMailAddress": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": null
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/890",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Krondshtadt Hydrometeorological Observatory, North-West HMS"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:facsimile": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "3, Iyul'skaya St."
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Krons(h)tadt"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "186610"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Russian Federation"
+           },
+           "gmd:electronicMailAddress": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": null
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/894",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Lithuanian Hydrometeorological Service under the Ministry of Environment"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+370 5 275 1194"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+370 5 272 8874"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "6 Rudnios Str."
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Vilnius"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "LT-09300"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Lithuania"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "lhmt@meteo.lt,"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.meteo.lt"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/911",
+       "gmd:organisationName": {
+        "gco:CharacterString": "North-Western Regional Administration of Hydrometeorology of Roshydromet"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:facsimile": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "2a, 23 Line"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "St.-Petersburg"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "199026"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Russian Federation"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "admin@meteo.nw.ru"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://adm.meteo.nw.ru/"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/989",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Federal Research Centre for Fisheries (Cuxhaven)"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "04721-38035"
+           },
+           "gmd:facsimile": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "BFAFi, Institut fuer Fischereioekologie, Deichstrasse 12"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Cuxhaven"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "27472"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Germany"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "t.lang@t-online.de"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.bfa-fisch.de"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/991",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Federal Research Centre for Fisheries Institute for Baltic Sea Fishery"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+49-381 810 -344 or -446"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+49-381 810 -445"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "An der Jagerbak 2"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Rostock"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "18069"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Germany"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "info@ior.bfa-fisch.de"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.bfa-fisch.de"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/993",
+       "gmd:organisationName": {
+        "gco:CharacterString": "State Agency for Environment, Nature and Geology, Mecklenburg-Vorpommern"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "++49 3843 / 777 - 0"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "++49 3843 / 777 - 106"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Landesamt fuer Umwelt, Naturschutz und Geologie, Goldberger Strasse 12"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Guestrow"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "18273"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Germany"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "poststelle@lung.mv-regierung.de"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.lung.mv-regierung.de"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/1104",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Finnish Environment Institute"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+35820610123"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+358954902190"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Mechelininkatu 34a"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Helsinki"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "00260"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Finland"
+           },
+           "gmd:electronicMailAddress": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.syke.fi/en-US"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/1181",
+       "gmd:organisationName": {
+        "gco:CharacterString": "State Agency for Nature and Environment of Schleswig Holstein (LANU)"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+49 4347 704-0"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+49 4347 704 102"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Hamburger Chaussee 25"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Flintbek"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "24220"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Germany"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "infonet@lanu.landsh.de"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.umwelt.schleswig-holstein.de/servlet/is/1/"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/1334",
+       "gmd:organisationName": {
+        "gco:CharacterString": "University of Gothenburg, Faculty of Science"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+46-31-786 00 00"
+           },
+           "gmd:facsimile": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Guldhedsgatan 5A"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Goteborg"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "405 30"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Sweden"
+           },
+           "gmd:electronicMailAddress": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.science.gu.se/english/"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/1353",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Swedish Environmental Protection Agency"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+46 10 698 10 00"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+46 10 698 10 99"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Valhallavagen 195"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Stockholm"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "106 48"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Sweden"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "registrator@naturvardsverket.se"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.naturvardsverket.se"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/1354",
+       "gmd:organisationName": {
+        "gco:CharacterString": "The Swedish Board of Fisheries"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+46 31-743 03 00"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+46 31-743 04 44"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Box 423"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "GOTEBORG"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "401 26"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Sweden"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "fiskeriverket@fiskeriverket.se"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.fiskeriverket.se"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/1417",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Norwegian Institute of Water Research (NIVA)"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+47-22185100"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+47-22185200"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Gaustadall\u00c3\u00a8en 21"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Oslo"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "N-0349"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Norway"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "niva@niva.no"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.niva.no"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/1507",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Carl von Ossietzky University of Oldenburg - Institute for Chemistry and Biology of the Marine Environment (ICBM)"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+49 441 798-0"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+49 441 798-3000"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Ammerl\u00c3\u00a4nder Heerstr. 114-118"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Oldenburg"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "26129"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Germany"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "koordinator@uni-oldenburg.de"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.uni-oldenburg.de"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/1570",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Th\u00c3\u00bcnen-Institute of Sea Fisheries (TI-SF)"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+49-40-389050"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+40-40-38905129"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Palmaille 9"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Hamburg"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Germany"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "sf@ti.bund.de"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.ti.bund.de/"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/1571",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Th\u00c3\u00bcnen-Institute of Fisheries Ecology (TI-FI)"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+49-40-389050"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+49 40 38905 261"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Palmaille 9"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Hamburg"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "22767"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Germany"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "foe@vti.bund.de"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.vti.bund.de/en/institutes/foe/"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/1574",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Th\u00c3\u00bcnen-Institute of Baltic Sea Fisheries (TI-OF)"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+49-381 811 61-00"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+49-381 811 61-99"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Alter Hafen S\u00c3\u00bcd 2"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Rostock"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "18069"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Germany"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "of@ti.bund.de"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.ti.bund.de/en/of/"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/1575",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Federal Research Institute for Rural Areas, Forestry and Fisheries (VTI)"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+49-531-596-0"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+49-531-596-1099"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Bundesallee 50"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Braunschweig"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "38116"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Germany"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "info@vti.bund.de"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.vti.bund.de"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/1576",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Institute of Fisheries Ecology - Cuxhaven (VTI-CUX)"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+49-4721 38034"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+49-4721 53583"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Deichstr. 12"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Cuxhaven"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "27472"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Germany"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "foe@vti.bund.de"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.vti.bund.de/en/institutes/foe/"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/1725",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Finnish Meteorological Institute"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+358295391000"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+35893231025"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Erik Palmenin aukio\nP.O. Box 503"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Helsinki"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "FI-00101"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Finland"
+           },
+           "gmd:electronicMailAddress": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.fmi.fi/en/index.html"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/1850",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Federal Maritime and Hydrographic Agency"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+49 40 3190-0"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+49 40 3190-5000"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Bernhard-Nocht-Str. 78"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Hamburg"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "20359"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Germany"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "posteingang@bsh.de"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.bsh.de"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/2195",
+       "gmd:organisationName": {
+        "gco:CharacterString": "DTU Aqua \u00e2\u20ac\u201c National Institute of Aquatic Resources, Technical University of Denmark"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+ 45 33 96 33 00"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+ 45 33 96 33 33"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Kavalerg\u00c3\u00a5rden 6"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Charlottenlund"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "2920"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Denmark"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "aqua@aqua.dtu.dk"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.aqua.dtu.dk/English"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/2537",
+       "gmd:organisationName": {
+        "gco:CharacterString": "State Office for Agriculture, Environment and Rural Areas of Schleswig Holstein (LLUR)"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+49-4347 704-0"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+49-4347 704-102"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Hamburger Chaussee 25"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Flintbek"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "24220"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Germany"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "poststelle@llur.landsh.de"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.schleswig-holstein.de/LLUR/DE/LLUR_node.html"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/2561",
+       "gmd:organisationName": {
+        "gco:CharacterString": "National Marine Facilities Sea Systems"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+44 (0)23 8059 6666"
+           },
+           "gmd:facsimile": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "University of Southampton Waterfront Campus"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Southampton"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "SO14 3ZH"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "United Kingdom"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "inapplicable"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://noc.ac.uk/ships/sea-systems/about"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/3512",
+       "gmd:organisationName": {
+        "gco:CharacterString": "The Swedish Agency for Marine and Water Management"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+46 (0)10-698 60 00"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+46 (0)10-698 61 11"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Gullbergs Strandgata 15 \nPostadress: Box 11 930"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Goteborg"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "404 39"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Sweden"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "havochvatten@havochvatten.se"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.havochvatten.se/"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/4614",
+       "gmd:organisationName": {
+        "gco:CharacterString": "ERIC Euro-Argo"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+33(0)2 98 22 44 83"
+           },
+           "gmd:facsimile": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Z.I. Techonop\u00c3\u00b4le Brest Iroise\n1625 route de Sainte Anne"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Plouzane"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "29280"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "France"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "euroargo@ifremer.fr"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.euro-argo.eu/"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/4768",
+       "gmd:organisationName": {
+        "gco:CharacterString": "County Administrative Board of Vastra Gotaland"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+46 10 224 40 00"
+           },
+           "gmd:facsimile": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Sodra Hamngatan 3"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Goteborg"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "411 14"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Sweden"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "vastragotaland@lansstyrelsen.se"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.lansstyrelsen.se/VastraGotaland/En/"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/4859",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Oresund Water Conservation Association"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:facsimile": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Malmo"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Sweden"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "info@oresunds-vvf.se"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "http://www.oresunds-vvf.se/"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/4916",
+       "gmd:organisationName": {
+        "gco:CharacterString": "Holmen Papper Ab"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+46 8 666 21 00"
+           },
+           "gmd:facsimile": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "P.O. Box 5407"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Stockholm"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "SE-114 84"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "Sweden"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "info@holmen.com"
+           }
+          }
+         },
+         "gmd:onlineResource": {
+          "gmd:CI_OnlineResource": {
+           "gmd:linkage": {
+            "gmd:URL": "https://www.holmen.com/sv/om-holmen/affarsomraden/holmen-paper/"
+           },
+           "gmd:name": {
+            "gco:CharacterString": "web site"
+           },
+           "gmd:function": {
+            "gmd:CI_OnLineFunctionCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode",
+             "@codeListValue": "information"
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     }
+    ],
+    "gmd:graphicOverview": {
+     "gmd:MD_BrowseGraphic": {
+      "gmd:fileName": {
+       "gco:CharacterString": "https://sextant.ifremer.fr/geonetwork/srv/api/records/6a881c9e-1d38-4edd-84d3-c6b212c27eb7/attachments/SDC_BAL_DATA_TS_V2_map.png"
+      }
+     }
+    },
+    "gmd:descriptiveKeywords": [
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "gmx:Anchor": {
+         "@xlink:href": "http://inspire.ec.europa.eu/theme/of",
+         "#text": "Oceanographic geographical features"
+        }
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gmx:Anchor": {
+           "@xlink:href": "http://inspire.ec.europa.eu/theme#",
+           "#text": "GEMET - INSPIRE themes, version 1.0"
+          }
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2018-07-27"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xlink:href": "https://sextant.ifremer.fr/geonetwork/srv/eng/thesaurus.download?ref=external.theme.httpinspireeceuropaeutheme-theme",
+             "#text": "geonetwork.thesaurus.external.theme.httpinspireeceuropaeutheme-theme"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": [
+        {
+         "gmx:Anchor": {
+          "@xlink:href": "http://vocab.nerc.ac.uk/collection/P02/current/PSAL/",
+          "#text": "Salinity of the water column"
+         }
+        },
+        {
+         "gmx:Anchor": {
+          "@xlink:href": "http://vocab.nerc.ac.uk/collection/P02/current/TEMP/",
+          "#text": "Temperature of the water column"
+         }
+        }
+       ],
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode",
+         "@codeListValue": "parameter"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gmx:Anchor": {
+           "@xlink:href": "http://vocab.nerc.ac.uk/collection/P02/current/#",
+           "#text": "Parameter Discovery Vocabulary (P02)"
+          }
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2021-04-07"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xlink:href": "https://sextant.ifremer.fr/geonetwork/srv/eng/thesaurus.download?ref=external.parameter.NVS.P02",
+             "#text": "geonetwork.thesaurus.external.parameter.NVS.P02"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": [
+        {
+         "gmx:Anchor": {
+          "@xlink:href": "http://vocab.nerc.ac.uk/collection/P35/current/EPC00001/",
+          "#text": "Water body salinity"
+         }
+        },
+        {
+         "gmx:Anchor": {
+          "@xlink:href": "http://vocab.nerc.ac.uk/collection/P35/current/WATERTEMP/",
+          "#text": "ITS-90 water temperature"
+         }
+        }
+       ],
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode",
+         "@codeListValue": "parameter"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gmx:Anchor": {
+           "@xlink:href": "http://vocab.nerc.ac.uk/collection/P35/current/#",
+           "#text": "EMODnet Chemistry aggregated parameter names"
+          }
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2021-04-07"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xlink:href": "https://sextant.ifremer.fr/geonetwork/srv/eng/thesaurus.download?ref=external.parameter.NVS.P35",
+             "#text": "geonetwork.thesaurus.external.parameter.NVS.P35"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": [
+        {
+         "gmx:Anchor": {
+          "@xlink:href": "http://vocab.nerc.ac.uk/collection/C19/current/2_2/",
+          "#text": "Gulf of Bothnia"
+         }
+        },
+        {
+         "gmx:Anchor": {
+          "@xlink:href": "http://vocab.nerc.ac.uk/collection/C19/current/2_2_2/",
+          "#text": "Bay of Bothnia"
+         }
+        },
+        {
+         "gmx:Anchor": {
+          "@xlink:href": "http://vocab.nerc.ac.uk/collection/C19/current/2_3/",
+          "#text": "Gulf of Finland"
+         }
+        },
+        {
+         "gmx:Anchor": {
+          "@xlink:href": "http://vocab.nerc.ac.uk/collection/C19/current/2_9/",
+          "#text": "Kattegat"
+         }
+        },
+        {
+         "gmx:Anchor": {
+          "@xlink:href": "http://vocab.nerc.ac.uk/collection/C19/current/2_7/",
+          "#text": "Storebaelt"
+         }
+        },
+        {
+         "gmx:Anchor": {
+          "@xlink:href": "http://vocab.nerc.ac.uk/collection/C19/current/1_1/",
+          "#text": "Skagerrak"
+         }
+        },
+        {
+         "gmx:Anchor": {
+          "@xlink:href": "http://vocab.nerc.ac.uk/collection/C19/current/2/",
+          "#text": "Baltic Sea"
+         }
+        },
+        {
+         "gmx:Anchor": {
+          "@xlink:href": "http://vocab.nerc.ac.uk/collection/C19/current/2_1/",
+          "#text": "Central Baltic Sea"
+         }
+        },
+        {
+         "gmx:Anchor": {
+          "@xlink:href": "http://vocab.nerc.ac.uk/collection/C19/current/2_8/",
+          "#text": "Lillebaelt"
+         }
+        }
+       ],
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode",
+         "@codeListValue": "reference-geographical-area"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gmx:Anchor": {
+           "@xlink:href": "http://vocab.nerc.ac.uk/collection/C19/current/#",
+           "#text": "SeaVoX salt and fresh water body gazetteer"
+          }
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2021-04-07"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xlink:href": "https://sextant.ifremer.fr/geonetwork/srv/eng/thesaurus.download?ref=external.reference-geographical-area.NVS.C19",
+             "#text": "geonetwork.thesaurus.external.reference-geographical-area.NVS.C19"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "@gco:nilReason": "missing",
+        "gco:CharacterString": null
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "Th\u00c3\u00a8mes Sextant"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2021-03-08"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xlink:href": "https://sextant.ifremer.fr/geonetwork/srv/eng/thesaurus.download?ref=local.theme.sextant-theme",
+             "#text": "geonetwork.thesaurus.local.theme.sextant-theme"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    ],
+    "gmd:resourceConstraints": [
+     {
+      "gmd:MD_Constraints": {
+       "gmd:useLimitation": {
+        "gmx:Anchor": {
+         "@xlink:href": "http://vocab.nerc.ac.uk/collection/L08/current/LS/",
+         "#text": "This work is made available under the CC-BY 4.0 license (https://creativecommons.org/licenses/by/4.0/)"
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_LegalConstraints": {
+       "gmd:useLimitation": {
+        "gco:CharacterString": "SeaDataNet Usage Agreement: If you use SeaDataNet data in your publications please include the following in the Acknowledgements: Data were provided through SeaDataNet Pan-European infrastructure for ocean and marine data management (https://www.seadatanet.org)"
+       },
+       "gmd:accessConstraints": {
+        "gmd:MD_RestrictionCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode",
+         "@codeListValue": "otherRestrictions"
+        }
+       },
+       "gmd:useConstraints": {
+        "gmd:MD_RestrictionCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode",
+         "@codeListValue": "otherRestrictions"
+        }
+       },
+       "gmd:otherConstraints": {
+        "gco:CharacterString": "No limitations on public access.  For data access please register at http://www.marine-id.org"
+       }
+      }
+     }
+    ],
+    "gmd:language": {
+     "gmd:LanguageCode": {
+      "@codeList": "http://www.loc.gov/standards/iso639-2/",
+      "@codeListValue": "eng"
+     }
+    },
+    "gmd:topicCategory": {
+     "gmd:MD_TopicCategoryCode": "oceans"
+    },
+    "gmd:extent": {
+     "gmd:EX_Extent": {
+      "gmd:description": {
+       "gco:CharacterString": "bounding box"
+      },
+      "gmd:geographicElement": {
+       "gmd:EX_GeographicBoundingBox": {
+        "gmd:westBoundLongitude": {
+         "gco:Decimal": "10.00"
+        },
+        "gmd:eastBoundLongitude": {
+         "gco:Decimal": "30.00"
+        },
+        "gmd:southBoundLatitude": {
+         "gco:Decimal": "53.00"
+        },
+        "gmd:northBoundLatitude": {
+         "gco:Decimal": "66.50"
+        }
+       }
+      },
+      "gmd:temporalElement": {
+       "gmd:EX_TemporalExtent": {
+        "gmd:extent": {
+         "gml:TimePeriod": {
+          "@gml:id": "d35236612e4179a1050910",
+          "gml:beginPosition": "1900-01-01",
+          "gml:endPosition": "2019-07-31"
+         }
+        }
+       }
+      },
+      "gmd:verticalElement": {
+       "gmd:EX_VerticalExtent": {
+        "gmd:minimumValue": {
+         "gco:Real": "-500.0"
+        },
+        "gmd:maximumValue": {
+         "gco:Real": "0.0"
+        },
+        "gmd:verticalCRS": {
+         "@uuidref": "http://spatialreference.org/ref/epsg/5714/"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "gmd:distributionInfo": {
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gmd:MD_Distribution": {
+    "gmd:distributionFormat": {
+     "@xmlns:che": "http://www.geocat.ch/2008/che",
+     "@xmlns:xslt": "http://xml.apache.org/xslt",
+     "@xmlns:date": "http://exslt.org/dates-and-times",
+     "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+     "gmd:MD_Format": {
+      "gmd:name": {
+       "gco:CharacterString": "ODV binary collection"
+      },
+      "gmd:version": {
+       "gco:CharacterString": "5"
+      }
+     }
+    },
+    "gmd:transferOptions": {
+     "gmd:MD_DigitalTransferOptions": {
+      "gmd:onLine": [
+       {
+        "gmd:CI_OnlineResource": {
+         "gmd:linkage": {
+          "gmd:URL": "https://files.seadatanet.org/aggregated_datasets/Baltic_Sea/SDC_BAL_DATA_TS_V2/"
+         },
+         "gmd:protocol": {
+          "gco:CharacterString": "WWW:DOWNLOAD-1.0-link--download"
+         },
+         "gmd:name": {
+          "gco:CharacterString": "full collection dataset"
+         }
+        }
+       },
+       {
+        "gmd:CI_OnlineResource": {
+         "gmd:linkage": {
+          "gmd:URL": "http://dx.doi.org/10.12770/6a881c9e-1d38-4edd-84d3-c6b212c27eb7"
+         },
+         "gmd:protocol": {
+          "gco:CharacterString": "WWW:LINK-1.0-http--metadata-URL"
+         },
+         "gmd:description": {
+          "gco:CharacterString": "DOI of the product"
+         }
+        }
+       },
+       {
+        "gmd:CI_OnlineResource": {
+         "gmd:linkage": {
+          "gmd:URL": "http://www.ifremer.fr/erddap/tabledap/SDC_BAL_AGG_V2.graph"
+         },
+         "gmd:protocol": {
+          "gco:CharacterString": "WWW:LINK-1.0-http--link"
+         },
+         "gmd:name": {
+          "gco:CharacterString": "ERDDAP link"
+         },
+         "gmd:description": {
+          "gco:CharacterString": "ERDDAP link to aggregated dataset V2"
+         }
+        }
+       }
+      ]
+     }
+    }
+   }
+  },
+  "gmd:dataQualityInfo": {
+   "@xmlns:xslt": "http://xml.apache.org/xslt",
+   "@xmlns:date": "http://exslt.org/dates-and-times",
+   "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gmd:DQ_DataQuality": {
+    "gmd:scope": {
+     "gmd:DQ_Scope": {
+      "gmd:level": {
+       "gmd:MD_ScopeCode": {
+        "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode",
+        "@codeListValue": "series"
+       }
+      }
+     }
+    },
+    "gmd:report": {
+     "gmd:DQ_DomainConsistency": {
+      "gmd:result": {
+       "gmd:DQ_ConformanceResult": {
+        "gmd:specification": {
+         "gmd:CI_Citation": {
+          "gmd:title": {
+           "gco:CharacterString": "COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services"
+          },
+          "gmd:date": {
+           "gmd:CI_Date": {
+            "gmd:date": {
+             "gco:Date": "2010-12-08"
+            },
+            "gmd:dateType": {
+             "gmd:CI_DateTypeCode": {
+              "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode",
+              "@codeListValue": "publication"
+             }
+            }
+           }
+          }
+         }
+        },
+        "gmd:explanation": {
+         "gco:CharacterString": "See the referenced specification"
+        },
+        "gmd:pass": {
+         "@gco:nilReason": "inapplicable"
+        }
+       }
+      }
+     }
+    },
+    "gmd:lineage": {
+     "gmd:LI_Lineage": {
+      "gmd:statement": {
+       "gco:CharacterString": "The data used as input for this product have been extracted from the SeadataNet Data Access Service: https://www.seadatanet.org/Data-Access"
+      }
+     }
+    }
+   }
+  }
+ }
+}

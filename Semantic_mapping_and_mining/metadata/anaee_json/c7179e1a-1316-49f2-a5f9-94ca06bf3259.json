@@ -1,0 +1,810 @@
+{
+ "gmd:MD_Metadata": {
+  "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+  "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+  "@xmlns:gts": "http://www.isotc211.org/2005/gts",
+  "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xmlns:gml": "http://www.opengis.net/gml",
+  "@xmlns:geonet": "http://www.fao.org/geonetwork",
+  "gmd:fileIdentifier": {
+   "gco:CharacterString": "c7179e1a-1316-49f2-a5f9-94ca06bf3259"
+  },
+  "gmd:language": {
+   "gmd:LanguageCode": {
+    "@codeList": "http://www.loc.gov/standards/iso639-2/",
+    "@codeListValue": "eng"
+   }
+  },
+  "gmd:characterSet": {
+   "gmd:MD_CharacterSetCode": {
+    "@codeListValue": "utf8",
+    "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+   }
+  },
+  "gmd:hierarchyLevel": {
+   "gmd:MD_ScopeCode": {
+    "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode",
+    "@codeListValue": "dataset"
+   }
+  },
+  "gmd:contact": [
+   {
+    "gmd:CI_ResponsibleParty": {
+     "gmd:individualName": {
+      "gco:CharacterString": "Aur\u00c3\u00a9lia MICHAUD"
+     },
+     "gmd:organisationName": {
+      "gco:CharacterString": "INRAE"
+     },
+     "gmd:contactInfo": {
+      "gmd:CI_Contact": {
+       "gmd:phone": {
+        "gmd:CI_Telephone": {
+         "gmd:voice": {
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null
+         },
+         "gmd:facsimile": {
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null
+         }
+        }
+       },
+       "gmd:address": {
+        "gmd:CI_Address": {
+         "gmd:deliveryPoint": {
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null
+         },
+         "gmd:city": {
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null
+         },
+         "gmd:administrativeArea": {
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null
+         },
+         "gmd:postalCode": {
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null
+         },
+         "gmd:country": {
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null
+         },
+         "gmd:electronicMailAddress": {
+          "gco:CharacterString": "aurelia.michaud@inrae.fr"
+         }
+        }
+       }
+      }
+     },
+     "gmd:role": {
+      "gmd:CI_RoleCode": {
+       "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode",
+       "@codeListValue": "pointOfContact"
+      }
+     }
+    }
+   },
+   {
+    "gmd:CI_ResponsibleParty": {
+     "gmd:individualName": {
+      "gco:CharacterString": "Sabine HOUOT"
+     },
+     "gmd:organisationName": {
+      "gco:CharacterString": "INRAE"
+     },
+     "gmd:contactInfo": {
+      "gmd:CI_Contact": {
+       "gmd:phone": {
+        "gmd:CI_Telephone": {
+         "gmd:voice": {
+          "gco:CharacterString": "+33 1 30 81 54 01"
+         },
+         "gmd:facsimile": {
+          "gco:CharacterString": "+33 1 30 81 53 96"
+         }
+        }
+       },
+       "gmd:address": {
+        "gmd:CI_Address": {
+         "gmd:deliveryPoint": {
+          "gco:CharacterString": "Avenue Lucien de Br\u00c3\u00a9tigni\u00c3\u00a8res"
+         },
+         "gmd:city": {
+          "gco:CharacterString": "Thiverval Grignon"
+         },
+         "gmd:administrativeArea": {
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null
+         },
+         "gmd:postalCode": {
+          "gco:CharacterString": "78550"
+         },
+         "gmd:country": {
+          "gco:CharacterString": "France"
+         },
+         "gmd:electronicMailAddress": {
+          "gco:CharacterString": "sabine.houot@inrae.fr"
+         }
+        }
+       }
+      }
+     },
+     "gmd:role": {
+      "gmd:CI_RoleCode": {
+       "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode",
+       "@codeListValue": "pointOfContact"
+      }
+     }
+    }
+   }
+  ],
+  "gmd:dateStamp": {
+   "gco:DateTime": "2021-02-04T18:47:08"
+  },
+  "gmd:metadataStandardName": {
+   "gco:CharacterString": "ISO 19115:2003/19139"
+  },
+  "gmd:metadataStandardVersion": {
+   "gco:CharacterString": "1.0"
+  },
+  "gmd:locale": {
+   "gmd:PT_Locale": {
+    "@id": "FR",
+    "gmd:languageCode": {
+     "gmd:LanguageCode": {
+      "@codeList": "http://www.loc.gov/standards/iso639-2/",
+      "@codeListValue": "fre"
+     }
+    },
+    "gmd:characterEncoding": null
+   }
+  },
+  "gmd:referenceSystemInfo": {
+   "gmd:MD_ReferenceSystem": {
+    "gmd:referenceSystemIdentifier": {
+     "gmd:RS_Identifier": {
+      "gmd:code": {
+       "gco:CharacterString": "WGS 84 (EPSG:4326)"
+      }
+     }
+    }
+   }
+  },
+  "gmd:identificationInfo": {
+   "gmd:MD_DataIdentification": {
+    "gmd:citation": {
+     "gmd:CI_Citation": {
+      "gmd:title": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "SOERE PRO Site of QualiAgro",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "SOERE PRO Site de QualiAgro"
+         }
+        }
+       }
+      },
+      "gmd:date": {
+       "gmd:CI_Date": {
+        "gmd:date": {
+         "gco:Date": "1997-01-01"
+        },
+        "gmd:dateType": {
+         "gmd:CI_DateTypeCode": {
+          "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+          "@codeListValue": "creation"
+         }
+        }
+       }
+      },
+      "gmd:identifier": [
+       {
+        "gmd:MD_Identifier": {
+         "gmd:code": {
+          "gco:CharacterString": "http://w3.avignon.inra.fr/geonetwork_anaee/c7179e1a-1316-49f2-a5f9-94ca06bf3259"
+         }
+        }
+       },
+       {
+        "gmd:MD_Identifier": {
+         "gmd:code": {
+          "gco:CharacterString": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/catalog.search#/metadata/c7179e1a-1316-49f2-a5f9-94ca06bf3259"
+         }
+        }
+       }
+      ]
+     }
+    },
+    "gmd:abstract": {
+     "@xsi:type": "gmd:PT_FreeText_PropertyType",
+     "gco:CharacterString": "The site of Qualiagro is part of the French national network SOERE PRO (System of Observation and Experimentation for Environmental Research on Organic Residue Recycling). The objectives of QualiAgro are to characterize the agronomic value of urban waste composts and their environmental impacts, in a long-term field trials and related laboratory characterization of the residues. \nThe experimental site (48.90\u00c2\u00b0N and 1.97\u00c2\u00b0E) is located in Feucherolles France (175 m.a.s.l.) with a modified oceanic climate. The soil is a typical Luvisol on loess of the Paris Basin. It has been initiated in 1998 (INRA-Veolia partnership). It is structured as a complete randomized block design (4 replicates, 450m\u00c2\u00b2/plots) on a total surface of 6 ha and include 5 organic treatments: 3 urban composts -   a co-compost of Green Waste and Sludge (GWS), a Biowaste compost (BIOW) and a municipal solid waste compost (MSW) - , 1 reference organic amendment not composted - a farmyard manure (FYM)- and the control -  without organic input. Amendments are applied every 2 years on wheat stubble with an objective of 4 t C ha-1. Additionally, the different treatments received 2 levels of additional mineral nitrogen: low mineral N or optimum mineral N.  The field is managed in conventional wheat-maize rotation.\nSite and plots are equipped for continuous monitoring of meteorological data, soil temperature and humidity. One plot of each treatment is equipped with wick lysimeters at 2 depths (0.45 m and 1 m). At the end of 2014, automatics chambers for N2O and CO2 emission survey will be settled, in order to assess greenhouse gas emissions related to composts and manure use. A Large set of variables mainly including physico-chemical characteristics, are monitored on different compartments of the agro-system (composts, soils, plants, water leaching). For example composts quality, crop yields and grain and crop residues analytical characteristics , main soil analytical characteristics per layer , the  chemical composition of soil solution (collected with  lysimeters), biological communities (microfauna and macrofauned sampling, microbial biomass ) and activities (enzymatic activities, mineralization of organic matter). \nData will be stored in a common database specifically developed for the SOERE PRO network and connected with the other SOERE. \nSoil and plant samples are kept in collection and available for further measurements.",
+     "gmd:PT_FreeText": {
+      "gmd:textGroup": {
+       "gmd:LocalisedCharacterString": {
+        "@locale": "#FR",
+        "#text": "L\u00e2\u20ac\u2122essai QualiAgro fait partie du r\u00c3\u00a9seau national fran\u00c3\u00a7ais SOERE PRO (Syst\u00c3\u00a8me d\u00e2\u20ac\u2122Observation et d\u00e2\u20ac\u2122Exp\u00c3\u00a9rimentation au long terme pour la Recherche en Environnement sur les impacts environnementaux du recyclage de Produits R\u00c3\u00a9siduaires Organiques  sur les \u00c3\u00a9cosyst\u00c3\u00a8mes cultiv\u00c3\u00a9s). Les objectifs de l\u00e2\u20ac\u2122essai au champ QualiAgro sont de caract\u00c3\u00a9riser la valeur agronomique de composts de d\u00c3\u00a9chets d\u00e2\u20ac\u2122origine urbaine et leurs impacts sur l'environnement et de les relier aux caract\u00c3\u00a9ristiques physico-chimiques des composts, en particulier aux caract\u00c3\u00a9ristiques de leur mati\u00c3\u00a8re organique et \u00c3\u00a0 leurs teneurs en contaminants.\nLe site exp\u00c3\u00a9rimental (48.90\u00c2\u00b0N et 1.97\u00c2\u00b0'E) est localis\u00c3\u00a9 en France sur le plateau des Alluets (Feucherolles, 78). Le climat d\u00e2\u20ac\u2122Ile de France est de type oc\u00c3\u00a9anique d\u00c3\u00a9grad\u00c3\u00a9. Le sol est un Luvisol typique d\u00c3\u00a9velopp\u00c3\u00a9 sur le l\u00c5\u201css du Bassin Parisien. Le dispositif a \u00c3\u00a9t\u00c3\u00a9 initi\u00c3\u00a9 en 1998 par l\u00e2\u20ac\u2122INRA (UMR 1091 EGC, aujourd\u00e2\u20ac\u2122hui UMR 1402 ECOSYS)  en partenariat avec VEOLIA. L\u00e2\u20ac\u2122essai est structur\u00c3\u00a9 en 4 blocs de r\u00c3\u00a9p\u00c3\u00a9tition des diff\u00c3\u00a9rents traitements sur une surface totale de 6 ha.  Il est divis\u00c3\u00a9 en deux sous-essais correspondant \u00c3\u00a0 2 niveaux d'azote min\u00c3\u00a9ral compl\u00c3\u00a9mentaire : N min\u00c3\u00a9ral faible ou N min\u00c3\u00a9ral optimal.  Il inclut 5 traitements organiques [3 composts urbains - Un co-compost de D\u00c3\u00a9chets Verts et Boue d\u00e2\u20ac\u2122\u00c3\u00a9puration urbaine (DVB), un compost de Biod\u00c3\u00a9chets (BIO) et un compost d\u00e2\u20ac\u2122Ordures M\u00c3\u00a9nag\u00c3\u00a8res R\u00c3\u00a9siduelles (OMR)-, 1 amendement organique de r\u00c3\u00a9f\u00c3\u00a9rence - un fumier de bovins (FUM) - et le t\u00c3\u00a9moin - sans apport organique (TEM)]. Chaque bloc est constitu\u00c3\u00a9 de 10 parcelles de 450m \u00c2\u00b2 chacune correspondant aux 5 traitements organiques X 2 niveaux de fertilisation azot\u00c3\u00a9e.  Le dispositif est conduit selon une succession simplifi\u00c3\u00a9e bl\u00c3\u00a9-ma\u00c3\u00afs.  Les amendements sont \u00c3\u00a9pandus tous les 2 ans sur chaumes de bl\u00c3\u00a9 avec un objectif de 4 t C ha-1. Le dispositif est \u00c3\u00a9quip\u00c3\u00a9 d\u00e2\u20ac\u2122une station m\u00c3\u00a9t\u00c3\u00a9orologique et une parcelle par traitement de capteurs pour le suivi en continu de la temp\u00c3\u00a9rature, de l\u00e2\u20ac\u2122humidit\u00c3\u00a9 et du potentiel hydrique dans chacun des horizons des sols. Ces parcelles sont aussi \u00c3\u00a9quip\u00c3\u00a9es de lysim\u00c3\u00a8tres \u00c3\u00a0 m\u00c3\u00a8ches en fibre de verre \u00c3\u00a0 2 profondeurs (0.45 m et 1 m). D\u00c3\u00a9but 2015, des chambres automatiques pour le suivi des \u00c3\u00a9missions de CO2 et N2O seront install\u00c3\u00a9es, permettant ainsi d\u00e2\u20ac\u2122\u00c3\u00a9valuer les \u00c3\u00a9missions de gaz \u00c3\u00a0 effet de serre li\u00c3\u00a9es \u00c3\u00a0 l'utilisation de composts. Un grand nombre de variables incluant principalement des caract\u00c3\u00a9ristiques physicochimiques sont suivis sur les diff\u00c3\u00a9rents compartiments de l'agro-syst\u00c3\u00a8me (composts, sols, plantes, eaux de percolation) : qualit\u00c3\u00a9 des composts, les rendements de culture et les caract\u00c3\u00a9ristiques analytiques des grains et des r\u00c3\u00a9sidus de culture, les caract\u00c3\u00a9ristiques analytiques des sols par horizon p\u00c3\u00a9dologique, la composition chimique de la solution de sol (collect\u00c3\u00a9e avec les lysim\u00c3\u00a8tres), des communaut\u00c3\u00a9s biologiques (l'\u00c3\u00a9chantillonnage de la microfaune et de la macrofaune, la biomasse microbienne) et les activit\u00c3\u00a9s (les activit\u00c3\u00a9s enzymatiques, la min\u00c3\u00a9ralisation de la mati\u00c3\u00a8re organique). \nLes donn\u00c3\u00a9es seront stock\u00c3\u00a9es dans une base de donn\u00c3\u00a9es commune sp\u00c3\u00a9cifiquement d\u00c3\u00a9velopp\u00c3\u00a9e pour le r\u00c3\u00a9seau SOERE PRO et connect\u00c3\u00a9es avec d'autres SOERE. \nDes \u00c3\u00a9chantillons de sols et de plantes sont gard\u00c3\u00a9s dans une \u00c3\u00a9chantilloth\u00c3\u00a8que et sont disponibles pour de nouvelles mesures."
+       }
+      }
+     }
+    },
+    "gmd:pointOfContact": [
+     {
+      "gmd:CI_ResponsibleParty": {
+       "gmd:individualName": {
+        "gco:CharacterString": "Sabine HOUOT"
+       },
+       "gmd:organisationName": {
+        "gco:CharacterString": "INRAE"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+33 1 30 81 54 01"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+33 1 30 81 53 96"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Avenue Lucien de Br\u00c3\u00a9tigni\u00c3\u00a8res"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Thiverval Grignon"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "78550"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "France"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "sabine.houot@inrae.fr"
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "pointOfContact"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "gmd:individualName": {
+        "gco:CharacterString": "Aur\u00c3\u00a9lia MICHAUD"
+       },
+       "gmd:organisationName": {
+        "gco:CharacterString": "INRAE"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:facsimile": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:city": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:country": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "aurelia.michaud@inrae.fr"
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "pointOfContact"
+        }
+       }
+      }
+     }
+    ],
+    "gmd:resourceMaintenance": {
+     "gmd:MD_MaintenanceInformation": {
+      "gmd:maintenanceAndUpdateFrequency": {
+       "gmd:MD_MaintenanceFrequencyCode": {
+        "@codeListValue": "asNeeded",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"
+       }
+      }
+     }
+    },
+    "gmd:graphicOverview": {
+     "gmd:MD_BrowseGraphic": {
+      "gmd:fileName": {
+       "gco:CharacterString": "http://w3.avignon.inra.fr:80/geonetwork_anaee/srv/eng/resources.get?uuid=c7179e1a-1316-49f2-a5f9-94ca06bf3259&fname=Logo_QualiAgro_2tons.PNG"
+      },
+      "gmd:fileDescription": {
+       "gco:CharacterString": "large_thumbnail"
+      },
+      "gmd:fileType": {
+       "gco:CharacterString": "PNG"
+      }
+     }
+    },
+    "gmd:descriptiveKeywords": [
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": [
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "organic matter",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "mati\u00c3\u00a8re organique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "AnaEE-France",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "AnaEE-France"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "waste recycling",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "recyclage des d\u00c3\u00a9chets"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "experimental device",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "dispositif exp\u00c3\u00a9rimental"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "organic contaminant",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "contaminant organique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "urban compost",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "compost urbain"
+           }
+          }
+         }
+        }
+       ],
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "theme.anaeeThes.rdf"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2017-06-13"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=external.theme.anaeeThes",
+             "#text": "geonetwork.thesaurus.external.theme.anaeeThes"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "Environmental monitoring facilities",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "Installations de suivi environnemental"
+          }
+         }
+        }
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "GEMET - INSPIRE themes, version 1.0 INSPIRE themes"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2008-06-01"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=external.theme.inspire-theme",
+             "#text": "geonetwork.thesaurus.external.theme.inspire-theme"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": [
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "Feucherolles",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "Feucherolles"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "Paris",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "Paris"
+           }
+          }
+         }
+        }
+       ],
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "place"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "AnaEE-France Locations"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2017-10-04"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=local.place.anaee-france_locations",
+             "#text": "geonetwork.thesaurus.local.place.anaee-france_locations"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    ],
+    "gmd:resourceConstraints": {
+     "gmd:MD_LegalConstraints": {
+      "gmd:useLimitation": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "See AnaEE-France charters.",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "Voir les chartes AnaEE-France."
+         }
+        }
+       }
+      },
+      "gmd:accessConstraints": {
+       "gmd:MD_RestrictionCode": {
+        "@codeListValue": "intellectualPropertyRights",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+       }
+      },
+      "gmd:useConstraints": {
+       "gmd:MD_RestrictionCode": {
+        "@codeListValue": "intellectualPropertyRights",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+       }
+      }
+     }
+    },
+    "gmd:spatialResolution": {
+     "gmd:MD_Resolution": {
+      "gmd:equivalentScale": {
+       "gmd:MD_RepresentativeFraction": {
+        "gmd:denominator": {
+         "gco:Integer": "50000"
+        }
+       }
+      }
+     }
+    },
+    "gmd:language": {
+     "gmd:LanguageCode": {
+      "@codeList": "http://www.loc.gov/standards/iso639-2/",
+      "@codeListValue": "eng"
+     }
+    },
+    "gmd:characterSet": {
+     "gmd:MD_CharacterSetCode": {
+      "@codeListValue": "utf8",
+      "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+     }
+    },
+    "gmd:topicCategory": {
+     "gmd:MD_TopicCategoryCode": "structure"
+    },
+    "gmd:extent": [
+     {
+      "gmd:EX_Extent": {
+       "gmd:temporalElement": {
+        "gmd:EX_TemporalExtent": {
+         "gmd:extent": {
+          "gml:TimePeriod": {
+           "@gml:id": "d247505e556a1052958",
+           "gml:beginPosition": "1997-01-01",
+           "gml:endPosition": {
+            "@indeterminatePosition": "unknown"
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:EX_Extent": {
+       "@xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+       "gmd:description": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "Feucherolles",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "Feucherolles"
+          }
+         }
+        }
+       },
+       "gmd:geographicElement": {
+        "gmd:EX_GeographicBoundingBox": {
+         "gmd:westBoundLongitude": {
+          "gco:Decimal": "1.87"
+         },
+         "gmd:eastBoundLongitude": {
+          "gco:Decimal": "2.07"
+         },
+         "gmd:southBoundLatitude": {
+          "gco:Decimal": "48.77"
+         },
+         "gmd:northBoundLatitude": {
+          "gco:Decimal": "48.97"
+         }
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  "gmd:distributionInfo": {
+   "gmd:MD_Distribution": {
+    "gmd:distributionFormat": null,
+    "gmd:transferOptions": {
+     "gmd:MD_DigitalTransferOptions": {
+      "gmd:onLine": {
+       "gmd:CI_OnlineResource": {
+        "gmd:linkage": {
+         "gmd:URL": "https://www6.inrae.fr/valor-pro/Les-sites-experimentaux/QualiAgro"
+        },
+        "gmd:protocol": {
+         "gco:CharacterString": "WWW:LINK-1.0-http--link"
+        },
+        "gmd:name": {
+         "gmx:MimeFileType": {
+          "@type": "",
+          "#text": "QualiAgro Website"
+         }
+        },
+        "gmd:description": {
+         "gco:CharacterString": "Link to the resource"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "gmd:dataQualityInfo": {
+   "gmd:DQ_DataQuality": {
+    "gmd:scope": {
+     "gmd:DQ_Scope": {
+      "gmd:level": {
+       "gmd:MD_ScopeCode": {
+        "@codeListValue": "dataset",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode"
+       }
+      },
+      "gmd:levelDescription": null
+     }
+    },
+    "gmd:report": {
+     "gmd:DQ_DomainConsistency": {
+      "gmd:result": {
+       "gmd:DQ_ConformanceResult": {
+        "gmd:specification": {
+         "gmd:CI_Citation": {
+          "gmd:title": {
+           "gco:CharacterString": "Commission Regulation (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services"
+          },
+          "gmd:date": {
+           "gmd:CI_Date": {
+            "gmd:date": {
+             "gco:Date": "2010-12-08"
+            },
+            "gmd:dateType": {
+             "gmd:CI_DateTypeCode": {
+              "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+              "@codeListValue": "publication"
+             }
+            }
+           }
+          }
+         }
+        },
+        "gmd:explanation": {
+         "gco:CharacterString": "Not evaluated"
+        }
+       }
+      }
+     }
+    },
+    "gmd:lineage": {
+     "gmd:LI_Lineage": {
+      "gmd:statement": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "QualiAgro research program conducted jointly by the National Institute of Agronomic Research (INRA) in Grignon and Veolia Environnement Research and Innovation since 1997. \n\nThe objective of this program is to characterize the agronomic value of urban composts and their environmental impacts, from long duration field testings (13 years of experimentation to date) and laboratory work.\n\nQualiAgro is a service of AnaEE-France Infrastructure.",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "Programme de recherche QualiAgro men\u00c3\u00a9 en collaboration par l'Institut National de Recherche Agronomique (INRA) de Grignon et Veolia Environnement Recherche et Innovation depuis 1997.\n\nL'objectif de ce programme est de caract\u00c3\u00a9riser la valeur agronomique de composts d'origine urbaine et leurs impacts environnementaux, \u00c3\u00a0 partir d'essai au champ de longue dur\u00c3\u00a9e (13 ans d'exp\u00c3\u00a9rimentation \u00c3\u00a0 ce jour) et de travaux en laboratoire."
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

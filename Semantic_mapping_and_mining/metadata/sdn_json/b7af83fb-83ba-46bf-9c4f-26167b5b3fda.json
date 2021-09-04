@@ -1,0 +1,870 @@
+{
+ "gmd:MD_Metadata": {
+  "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+  "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+  "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+  "@xmlns:gts": "http://www.isotc211.org/2005/gts",
+  "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+  "@xmlns:gmi": "http://www.isotc211.org/2005/gmi",
+  "@xmlns:gml": "http://www.opengis.net/gml/3.2",
+  "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xsi:schemaLocation": "http://www.isotc211.org/2005/gmd http://schemas.opengis.net/csw/2.0.2/profiles/apiso/1.0.0/apiso.xsd",
+  "gmd:fileIdentifier": {
+   "gco:CharacterString": "b7af83fb-83ba-46bf-9c4f-26167b5b3fda"
+  },
+  "gmd:language": {
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gmd:LanguageCode": {
+    "@codeList": "http://www.loc.gov/standards/iso639-2/",
+    "@codeListValue": "eng"
+   }
+  },
+  "gmd:characterSet": {
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gmd:MD_CharacterSetCode": {
+    "@codeListValue": "utf8",
+    "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_CharacterSetCode"
+   }
+  },
+  "gmd:hierarchyLevel": {
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gmd:MD_ScopeCode": {
+    "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode",
+    "@codeListValue": "series"
+   }
+  },
+  "gmd:hierarchyLevelName": {
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gco:CharacterString": "Product record"
+  },
+  "gmd:contact": {
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gmd:CI_ResponsibleParty": {
+    "gmd:individualName": {
+     "@gco:nilReason": "missing",
+     "gco:CharacterString": null
+    },
+    "gmd:organisationName": {
+     "gco:CharacterString": "SEADATANET"
+    },
+    "gmd:contactInfo": {
+     "gmd:CI_Contact": {
+      "gmd:address": {
+       "gmd:CI_Address": {
+        "gmd:electronicMailAddress": {
+         "gco:CharacterString": "sdn-userdesk@seadatanet.org"
+        }
+       }
+      },
+      "gmd:onlineResource": {
+       "gmd:CI_OnlineResource": {
+        "gmd:linkage": {
+         "gmd:URL": "http://www.emodnet.eu/chemistry"
+        }
+       }
+      }
+     }
+    },
+    "gmd:role": {
+     "gmd:CI_RoleCode": {
+      "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+      "@codeListValue": "pointOfContact"
+     }
+    }
+   }
+  },
+  "gmd:dateStamp": {
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gco:DateTime": "2020-12-15T13:00:42"
+  },
+  "gmd:metadataStandardName": {
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gco:CharacterString": "ISO 19115:2003/19139 - EMODNET - SDN"
+  },
+  "gmd:metadataStandardVersion": {
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gco:CharacterString": "1.0"
+  },
+  "gmd:spatialRepresentationInfo": {
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gmd:MD_GridSpatialRepresentation": {
+    "gmd:numberOfDimensions": {
+     "gco:Integer": "1"
+    },
+    "gmd:axisDimensionProperties": {
+     "gmd:MD_Dimension": {
+      "gmd:dimensionName": {
+       "gmd:MD_DimensionNameTypeCode": {
+        "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_DimensionNameTypeCode",
+        "@codeListValue": "time"
+       }
+      },
+      "gmd:dimensionSize": null,
+      "gmd:resolution": {
+       "gco:Measure": {
+        "@uom": "season",
+        "#text": "1"
+       }
+      }
+     }
+    },
+    "gmd:cellGeometry": {
+     "gmd:MD_CellGeometryCode": {
+      "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_CellGeometryCode",
+      "@codeListValue": "surface"
+     }
+    },
+    "gmd:transformationParameterAvailability": {
+     "gco:Boolean": "false"
+    }
+   }
+  },
+  "gmd:referenceSystemInfo": {
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gmd:MD_ReferenceSystem": {
+    "gmd:referenceSystemIdentifier": {
+     "gmd:RS_Identifier": {
+      "gmd:code": {
+       "gco:CharacterString": "WGS 84 (EPSG 4326)"
+      },
+      "gmd:codeSpace": {
+       "gco:CharacterString": "EPSG"
+      }
+     }
+    }
+   }
+  },
+  "gmd:identificationInfo": {
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gmd:MD_DataIdentification": {
+    "gmd:citation": {
+     "gmd:CI_Citation": {
+      "gmd:title": {
+       "gco:CharacterString": "Global Ocean Climatology - Dissolved Oxygen and Apparent Oxygen Climatology"
+      },
+      "gmd:alternateTitle": {
+       "gco:CharacterString": "SDC_GLO_CLIM_O2_AOU"
+      },
+      "gmd:date": {
+       "gmd:CI_Date": {
+        "gmd:date": {
+         "gco:Date": "2020-11-04"
+        },
+        "gmd:dateType": {
+         "gmd:CI_DateTypeCode": {
+          "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode",
+          "@codeListValue": "creation"
+         }
+        }
+       }
+      },
+      "gmd:edition": {
+       "gco:CharacterString": "1.0"
+      },
+      "gmd:editionDate": {
+       "gco:Date": null
+      },
+      "gmd:identifier": {
+       "gmd:MD_Identifier": {
+        "gmd:code": {
+         "gco:CharacterString": "b7af83fb-83ba-46bf-9c4f-26167b5b3fda"
+        }
+       }
+      }
+     }
+    },
+    "gmd:abstract": {
+     "gco:CharacterString": "The SDC_GLO_CLIM_O2_AOU product contains two different monthly climatology for dissolved Oxygen and Apparent Oxygen Utilization, SDC_GLO_CLIM_O2 and SDC_GLO_CLIM_AOU respectively from the World Ocean Data (WOD) database. Only basic quality control flags from the WOD are used. The first climatology, SDC_GLO_CLIM_O2, considers Dissolved Oxygen profiles casted together with temperature and salinity from CTD, Profiling Floats (PFL) and Ocean Station Data (OSD) for time duration 2003 to 2017. The second climatology, SDC_GLO_CLIM_AOU, apparent Oxygen utilization, is computed as a difference of dissolved oxygen and saturation O2 profiles. The gridded fields are computed using DIVAnd (Data Interpolating Variational Analysis) version 2.3.1."
+    },
+    "gmd:credit": {
+     "gco:CharacterString": "SeaDataNet"
+    },
+    "gmd:pointOfContact": [
+     {
+      "@xmlns:gn": "http://www.fao.org/geonetwork",
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/4969",
+       "gmd:organisationName": {
+        "gco:CharacterString": "University of Bologna, Department of Physics and Astronomy (DIFA)"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:country": {
+            "gco:CharacterString": "italy"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "kanwal.shahzadi3@unibo.it"
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "resourceProvider"
+        }
+       }
+      }
+     },
+     {
+      "@xmlns:gn": "http://www.fao.org/geonetwork",
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/486",
+       "gmd:organisationName": {
+        "gco:CharacterString": "IFREMER / IDM / SISMER - Scientific Information Systems for the SEA"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:country": {
+            "gco:CharacterString": "France"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "sismer@ifremer.fr"
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "custodian"
+        }
+       }
+      }
+     },
+     {
+      "@xmlns:gn": "http://www.fao.org/geonetwork",
+      "gmd:CI_ResponsibleParty": {
+       "gmd:individualName": {
+        "gco:CharacterString": "Kanwal Shahzadi"
+       },
+       "gmd:organisationName": {
+        "gco:CharacterString": "University of Bologna, Department of Physics and Astronomy (DIFA)"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:country": {
+            "gco:CharacterString": "Italy"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "kanwal.shahzadi3@unibo.it"
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "author"
+        }
+       }
+      }
+     },
+     {
+      "@xmlns:gn": "http://www.fao.org/geonetwork",
+      "gmd:CI_ResponsibleParty": {
+       "gmd:individualName": {
+        "gco:CharacterString": "Marco Zavatarelli"
+       },
+       "gmd:organisationName": {
+        "gco:CharacterString": "University of Bologna, Department of Physics and Astronomy (DIFA)"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:country": {
+            "gco:CharacterString": "italy"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "marco.zavatarelli@unibo.it"
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "author"
+        }
+       }
+      }
+     },
+     {
+      "@xmlns:gn": "http://www.fao.org/geonetwork",
+      "gmd:CI_ResponsibleParty": {
+       "gmd:individualName": {
+        "gco:CharacterString": "Nadia Pinardi"
+       },
+       "gmd:organisationName": {
+        "gco:CharacterString": "University of Bologna, Department of Physics and Astronomy (DIFA)"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:country": {
+            "gco:CharacterString": "italy"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "nadia.pinardi@unibo.it"
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "author"
+        }
+       }
+      }
+     },
+     {
+      "@xmlns:gn": "http://www.fao.org/geonetwork",
+      "gmd:CI_ResponsibleParty": {
+       "@uuid": "https://edmo.seadatanet.org/report/1977",
+       "gmd:organisationName": {
+        "gco:CharacterString": "NOAA / Wdc For Oceanography"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:country": {
+            "gco:CharacterString": "United States"
+           },
+           "gmd:electronicMailAddress": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "originator"
+        }
+       }
+      }
+     }
+    ],
+    "gmd:graphicOverview": {
+     "gmd:MD_BrowseGraphic": {
+      "gmd:fileName": {
+       "gco:CharacterString": "https://sextant.ifremer.fr/geonetwork/srv/api/records/b7af83fb-83ba-46bf-9c4f-26167b5b3fda/attachments/O2_50.0_Summer.png"
+      }
+     }
+    },
+    "gmd:descriptiveKeywords": [
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "gco:CharacterString": "/Physical Environment/Hydrodynamics/Water Column"
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "Th\u00c3\u00a8mes Sextant"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2019-01-28"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xlink:href": "https://sextant.ifremer.fr/geonetwork/srv/eng/thesaurus.download?ref=local.theme.sextant-theme",
+             "#text": "geonetwork.thesaurus.local.theme.sextant-theme"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "gmx:Anchor": {
+         "@xlink:href": "http://inspire.ec.europa.eu/theme/of",
+         "#text": "Oceanographic geographical features"
+        }
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gmx:Anchor": {
+           "@xlink:href": "http://inspire.ec.europa.eu/theme#",
+           "#text": "GEMET - INSPIRE themes, version 1.0"
+          }
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2018-07-27"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xlink:href": "https://sextant.ifremer.fr/geonetwork/srv/eng/thesaurus.download?ref=external.theme.httpinspireeceuropaeutheme-theme",
+             "#text": "geonetwork.thesaurus.external.theme.httpinspireeceuropaeutheme-theme"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "gmx:Anchor": {
+         "@xlink:href": "http://vocab.nerc.ac.uk/collection/P02/current/DOXY/",
+         "#text": "Dissolved oxygen parameters in the water column"
+        }
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode",
+         "@codeListValue": "parameter"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gmx:Anchor": {
+           "@xlink:href": "http://vocab.nerc.ac.uk/collection/P02/current/#",
+           "#text": "Parameter Discovery Vocabulary (P02)"
+          }
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2019-04-30"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xlink:href": "https://sextant.ifremer.fr/geonetwork/srv/eng/thesaurus.download?ref=external.parameter.NVS.P02",
+             "#text": "geonetwork.thesaurus.external.parameter.NVS.P02"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": [
+        {
+         "gmx:Anchor": {
+          "@xlink:href": "http://vocab.nerc.ac.uk/collection/P35/current/EPC00003/",
+          "#text": "Water body dissolved oxygen saturation"
+         }
+        },
+        {
+         "gmx:Anchor": {
+          "@xlink:href": "http://vocab.nerc.ac.uk/collection/P35/current/EPC00002/",
+          "#text": "Water body dissolved oxygen concentration"
+         }
+        }
+       ],
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode",
+         "@codeListValue": "parameter"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gmx:Anchor": {
+           "@xlink:href": "http://vocab.nerc.ac.uk/collection/P35/current/#",
+           "#text": "EMODnet Chemistry aggregated parameter names"
+          }
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2019-04-30"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xlink:href": "https://sextant.ifremer.fr/geonetwork/srv/eng/thesaurus.download?ref=external.parameter.NVS.P35",
+             "#text": "geonetwork.thesaurus.external.parameter.NVS.P35"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": [
+        {
+         "gmx:Anchor": {
+          "@xlink:href": "http://vocab.nerc.ac.uk/collection/C19/current/5/",
+          "#text": "Indian Ocean"
+         }
+        },
+        {
+         "gmx:Anchor": {
+          "@xlink:href": "http://vocab.nerc.ac.uk/collection/C19/current/9/",
+          "#text": "Arctic Ocean"
+         }
+        },
+        {
+         "gmx:Anchor": {
+          "@xlink:href": "http://vocab.nerc.ac.uk/collection/C19/current/10/",
+          "#text": "Southern Ocean"
+         }
+        },
+        {
+         "gmx:Anchor": {
+          "@xlink:href": "http://vocab.nerc.ac.uk/collection/C19/current/SVX00005/",
+          "#text": "Atlantic Ocean"
+         }
+        },
+        {
+         "gmx:Anchor": {
+          "@xlink:href": "http://vocab.nerc.ac.uk/collection/C19/current/SVX00019/",
+          "#text": "Pacific Ocean"
+         }
+        }
+       ],
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode",
+         "@codeListValue": "reference-geographical-area"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gmx:Anchor": {
+           "@xlink:href": "http://vocab.nerc.ac.uk/collection/C19/current/#",
+           "#text": "SeaVoX salt and fresh water body gazetteer"
+          }
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2019-04-30"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xlink:href": "https://sextant.ifremer.fr/geonetwork/srv/eng/thesaurus.download?ref=external.reference-geographical-area.NVS.C19",
+             "#text": "geonetwork.thesaurus.external.reference-geographical-area.NVS.C19"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    ],
+    "gmd:resourceConstraints": {
+     "gmd:MD_LegalConstraints": {
+      "gmd:useLimitation": {
+       "gco:CharacterString": "SeaDataNet Usage Agreement: If you use SeaDataNet data in your publications please include the following in the Acknowledgements: Data were provided through SeaDataNet Pan-European infrastructure for ocean and marine data management (https://www.seadatanet.org)"
+      },
+      "gmd:accessConstraints": {
+       "gmd:MD_RestrictionCode": {
+        "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode",
+        "@codeListValue": "otherRestrictions"
+       }
+      },
+      "gmd:useConstraints": {
+       "gmd:MD_RestrictionCode": {
+        "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode",
+        "@codeListValue": "otherRestrictions"
+       }
+      },
+      "gmd:otherConstraints": {
+       "gco:CharacterString": "No limitations on public access.  For data access please register at http://www.marine-id.org"
+      }
+     }
+    },
+    "gmd:spatialRepresentationType": {
+     "gmd:MD_SpatialRepresentationTypeCode": {
+      "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_SpatialRepresentationTypeCode",
+      "@codeListValue": "grid"
+     }
+    },
+    "gmd:spatialResolution": [
+     {
+      "@xmlns:gn": "http://www.fao.org/geonetwork",
+      "gmd:MD_Resolution": {
+       "gmd:distance": {
+        "gco:Distance": {
+         "@uom": "degree",
+         "#text": "0.25"
+        }
+       }
+      }
+     },
+     {
+      "@xmlns:gn": "http://www.fao.org/geonetwork",
+      "gmd:MD_Resolution": {
+       "gmd:distance": {
+        "gco:Distance": {
+         "@uom": "degree",
+         "#text": "0.25"
+        }
+       }
+      }
+     }
+    ],
+    "gmd:language": {
+     "gco:CharacterString": "eng"
+    },
+    "gmd:topicCategory": {
+     "gmd:MD_TopicCategoryCode": "oceans"
+    },
+    "gmd:extent": {
+     "gmd:EX_Extent": {
+      "gmd:description": {
+       "gco:CharacterString": "bounding box"
+      },
+      "gmd:geographicElement": {
+       "gmd:EX_GeographicBoundingBox": {
+        "gmd:westBoundLongitude": {
+         "gco:Decimal": "-180.00"
+        },
+        "gmd:eastBoundLongitude": {
+         "gco:Decimal": "180.00"
+        },
+        "gmd:southBoundLatitude": {
+         "gco:Decimal": "-80.00"
+        },
+        "gmd:northBoundLatitude": {
+         "gco:Decimal": "80.00"
+        }
+       }
+      },
+      "gmd:temporalElement": {
+       "gmd:EX_TemporalExtent": {
+        "gmd:extent": {
+         "gml:TimePeriod": {
+          "@gml:id": "d204654951e593a1050910",
+          "gml:beginPosition": "2003-01",
+          "gml:endPosition": "2017-12"
+         }
+        }
+       }
+      },
+      "gmd:verticalElement": {
+       "gmd:EX_VerticalExtent": {
+        "gmd:minimumValue": {
+         "gco:Real": "-6000"
+        },
+        "gmd:maximumValue": {
+         "gco:Real": "0"
+        },
+        "gmd:verticalCRS": {
+         "@uuidref": "http://spatialreference.org/ref/epsg/5714/"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "gmd:distributionInfo": {
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gmd:MD_Distribution": {
+    "gmd:distributionFormat": {
+     "gmd:MD_Format": {
+      "gmd:name": {
+       "gco:CharacterString": "Climate and Forecast NetCDF"
+      },
+      "gmd:version": {
+       "gco:CharacterString": "1.0"
+      }
+     }
+    },
+    "gmd:distributor": {
+     "gmd:MD_Distributor": {
+      "gmd:distributorTransferOptions": {
+       "gmd:MD_DigitalTransferOptions": null
+      }
+     }
+    },
+    "gmd:transferOptions": {
+     "gmd:MD_DigitalTransferOptions": {
+      "gmd:onLine": [
+       {
+        "gmd:CI_OnlineResource": {
+         "gmd:linkage": {
+          "gmd:URL": "http://dx.doi.org/10.12770/b7af83fb-83ba-46bf-9c4f-26167b5b3fda"
+         },
+         "gmd:protocol": {
+          "gco:CharacterString": "WWW:LINK-1.0-http--link"
+         },
+         "gmd:description": {
+          "gco:CharacterString": "DOI of the Product"
+         }
+        }
+       },
+       {
+        "gmd:CI_OnlineResource": {
+         "gmd:linkage": {
+          "gmd:URL": "https://files.seadatanet.org/climatologies/Global_Ocean/SDC_GLO_CLIM_TS_V2/UNIBO_GLOBAL_OXYGEN_Climatologies/"
+         },
+         "gmd:protocol": {
+          "gco:CharacterString": "WWW:DOWNLOAD-1.0-link--download"
+         },
+         "gmd:name": {
+          "gco:CharacterString": "UNIBO_GLOBAL_AOU_O2_Climatologies"
+         },
+         "gmd:description": {
+          "gco:CharacterString": "NetCDF Files"
+         }
+        }
+       }
+      ]
+     }
+    }
+   }
+  },
+  "gmd:dataQualityInfo": {
+   "@xmlns:geonet": "http://www.fao.org/geonetwork",
+   "gmd:DQ_DataQuality": {
+    "gmd:scope": {
+     "gmd:DQ_Scope": {
+      "gmd:level": {
+       "gmd:MD_ScopeCode": {
+        "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode",
+        "@codeListValue": "series"
+       }
+      }
+     }
+    },
+    "gmd:report": {
+     "gmd:DQ_DomainConsistency": {
+      "gmd:result": {
+       "gmd:DQ_ConformanceResult": {
+        "gmd:specification": {
+         "gmd:CI_Citation": {
+          "gmd:title": {
+           "gco:CharacterString": "COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services"
+          },
+          "gmd:date": {
+           "gmd:CI_Date": {
+            "gmd:date": {
+             "gco:Date": "2010-12-08"
+            },
+            "gmd:dateType": {
+             "gmd:CI_DateTypeCode": {
+              "@codeList": "http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode",
+              "@codeListValue": "publication"
+             }
+            }
+           }
+          }
+         }
+        },
+        "gmd:explanation": {
+         "gco:CharacterString": "See the referenced specification"
+        },
+        "gmd:pass": {
+         "@gco:nilReason": "inapplicable"
+        }
+       }
+      }
+     }
+    },
+    "gmd:lineage": {
+     "gmd:LI_Lineage": {
+      "gmd:statement": {
+       "gco:CharacterString": "The data used as input for this product have been extracted from the World Ocean Database 2018 (https://www.nodc.noaa.gov/OC5/WOD/pr_wod.html). Only basic quality control flags from the world ocean database have been used for this product. WOD has three types of quality flags i.e.\n\n1-Individual observation value flag whose value,\n\n2-Profile value flag that is assigned during the computation of World Ocean Atlas,\n\n3-Originator flag.\n\nIn this analysis, 1 and 2 are used with a quality flag value \"0\" that indicates an accepted value has been used."
+      }
+     }
+    }
+   }
+  }
+ }
+}

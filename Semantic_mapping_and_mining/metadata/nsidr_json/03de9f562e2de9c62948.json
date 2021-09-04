@@ -1,0 +1,1055 @@
+{
+ "id": "20.5000.1025/03de9f562e2de9c62948",
+ "type": "DigitalSpecimen",
+ "content": {
+  "physicalSpecimenId": "http://coldb.mnhn.fr/catalognumber/mnhn/im/2013-8433",
+  "gbifId": "https://www.gbif.org/occurrence/814298842",
+  "institutionCode": "MNHN",
+  "authorReference": "Garrigues & Merle, 2014",
+  "collectionCode": "IM",
+  "collectionDate": "2012-05-03T15:30:00Z",
+  "id": "20.5000.1025/03de9f562e2de9c62948",
+  "midslevel": 2,
+  "catOfLifeReference": "http://www.catalogueoflife.org/col/details/species/id/5a346b06831ebce580f2bb905d4caa62",
+  "locality": "Petit cul de sac marin",
+  "country": "Guadeloupe",
+  "scientificName": "Pygmaepterys pointieri Garrigues & Merle, 2014",
+  "catalogNumber": "2013-8433",
+  "recordedBy": "MNHN R\u00c3\u00a9c.",
+  "decimalLatLon": [
+   16.196611,
+   -61.494417
+  ],
+  "countryCode": "GP",
+  "dwcaContent": {
+   "core": {
+    "type": "dwc:Occurrence",
+    "content": {
+     "dwc:typeStatus": "PARATYPE",
+     "dwc:month": "5",
+     "dwc:island": "GUADELOUPE",
+     "gbif:species": "Pygmaepterys pointieri",
+     "gbif:kingdomKey": "1",
+     "dwc:phylum": "Mollusca",
+     "gbif:lastInterpreted": "2019-09-21T00:29:42.213Z",
+     "gbif:orderKey": "982",
+     "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/im/2013-8433",
+     "dwc:verbatimLocality": "ilet du Gosier",
+     "dwc:taxonRank": "SPECIES",
+     "dwc:eventDate": "2012-05-03T15:30:00Z",
+     "dwc:individualCount": "1",
+     "gbif:publishingCountry": "FR",
+     "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+     "gbif:hasGeospatialIssues": "false",
+     "gbif:depth": "6.0",
+     "dwc:year": "2012",
+     "dwc:institutionCode": "MNHN",
+     "gbif:genusKey": "4602092",
+     "gbif:lastCrawled": "2019-10-24T12:14:40.227Z",
+     "dwc:fieldNumber": "KARUBENTHOS 2012/GB01",
+     "gbif:datasetKey": "0214a6a7-898f-4ee8-b888-0be60ecde81f",
+     "gbif:gbifID": "814298842",
+     "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/im/2013-8433",
+     "gbif:protocol": "DWC_ARCHIVE",
+     "dwc:specificEpithet": "pointieri",
+     "dwc:kingdom": "Animalia",
+     "dwc:day": "3",
+     "gbif:taxonKey": "7431521",
+     "dwc:class": "Gastropoda",
+     "dwc:taxonomicStatus": "ACCEPTED",
+     "gbif:hasCoordinate": "true",
+     "dwc:genus": "Pygmaepterys",
+     "dwc:scientificName": "Pygmaepterys pointieri Garrigues & Merle, 2014",
+     "gbif:classKey": "225",
+     "gbif:speciesKey": "7431521",
+     "gbif:familyKey": "2304120",
+     "gbif:phylumKey": "52",
+     "gbif:acceptedScientificName": "Pygmaepterys pointieri Garrigues & Merle, 2014",
+     "gbif:acceptedTaxonKey": "7431521",
+     "dwc:collectionCode": "IM",
+     "gbif:issue": "GEODETIC_DATUM_ASSUMED_WGS84",
+     "gbif:genericName": "Pygmaepterys",
+     "gbif:lastParsed": "2018-07-04T14:08:33.821Z",
+     "dwc:locality": "Petit cul de sac marin",
+     "dwc:decimalLongitude": "-61.494417",
+     "dcterms:license": "CC_BY_4_0",
+     "gbif:repatriated": "false",
+     "dwc:catalogNumber": "2013-8433",
+     "dwc:decimalLatitude": "16.196611",
+     "dwc:order": "Neogastropoda",
+     "dwc:recordedBy": "MNHN R\u00c3\u00a9c.",
+     "dcterms:modified": "2015-06-19T19:23:01Z",
+     "dwc:family": "Muricidae",
+     "dwc:countryCode": "GP"
+    }
+   },
+   "extensions": [
+    {
+     "type": "dwc:Occurrence",
+     "content": [
+      {
+       "dwc:typeStatus": "Paratype(s)",
+       "dwc:island": "GUADELOUPE",
+       "dwc:verbatimLongitude": "61\u00c2\u00b029,66'W",
+       "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/im/2013-8433",
+       "dwc:verbatimLocality": "ilet du Gosier",
+       "dwc:eventDate": "2012-05-03T15:30+0200",
+       "dwc:individualCount": "1",
+       "dwc:basisOfRecord": "PreservedSpecimen",
+       "dwc:institutionCode": "MNHN",
+       "dwc:fieldNumber": "KARUBENTHOS 2012/GB01",
+       "gbif:gbifID": "814298842",
+       "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/im/2013-8433",
+       "dwc:verbatimLatitude": "16\u00c2\u00b011,8'N",
+       "dwc:class": "Gastropoda",
+       "dwc:genus": "Pygmaepterys",
+       "dwc:scientificName": "Pygmaepterys pointieri Garrigues & Merle, 2014",
+       "dwc:minimumDepthInMeters": "6",
+       "dwc:collectionCode": "IM",
+       "dwc:locality": "Petit cul de sac marin",
+       "dwc:decimalLongitude": "-61.494417",
+       "dwc:catalogNumber": "2013-8433",
+       "dwc:decimalLatitude": "16.196611",
+       "dwc:recordedBy": "MNHN R\u00c3\u00a9c.",
+       "dcterms:modified": "2015-06-19 19:23:01.0",
+       "dwc:family": "Muricidae",
+       "dwc:scientificNameAuthorship": "Garrigues & Merle, 2014",
+       "dwc:country": "GUADELOUPE"
+      }
+     ]
+    }
+   ]
+  },
+  "colContent": {
+   "id": "5a346b06831ebce580f2bb905d4caa62",
+   "name": "Pygmaepterys pointieri",
+   "rank": "Species",
+   "name_status": "accepted name",
+   "genus": "Pygmaepterys",
+   "subgenus": "",
+   "species": "pointieri",
+   "infraspecies_marker": "",
+   "infraspecies": "",
+   "author": "Garrigues & Merle, 2014",
+   "record_scrutiny_date": {
+    "scrutiny": "2014-12-26"
+   },
+   "online_resource": "http://www.molluscabase.org/aphia.php?p=taxdetails&id=827924",
+   "is_extinct": "false",
+   "source_database": "WoRMS Mollusca: MolluscaBase",
+   "source_database_url": "http://www.molluscabase.org",
+   "bibliographic_citation": "MolluscaBase (2020). WoRMS Mollusca: MolluscaBase (version 2019-03-06). In: Species 2000 & ITIS Catalogue of Life, 2020-02-24 (Roskov Y., Ower G., Orrell T., Nicolson D., Bailly N., Kirk P.M., Bourgoin T., DeWalt R.E., Decock W., Nieukerken E. van, Penev L.). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.",
+   "name_html": "<i>Pygmaepterys pointieri</i> Garrigues & Merle, 2014",
+   "url": "http://www.catalogueoflife.org/col/details/species/id/5a346b06831ebce580f2bb905d4caa62",
+   "distribution": "Caribbean Sea 644 2; Caribbean Sea 917 0; North Atlantic Ocean 645 2; North Atlantic Ocean 10 0",
+   "references": [
+    {
+     "author": "Garrigues B. & Merle D.",
+     "year": "2014",
+     "title": "Nine new species of Muricidae Rafinesque, 1815 (Mollusca, Gastropoda) from the French Antilles",
+     "source": "Zoosystema. 36(4): 841-864"
+    }
+   ],
+   "classification": [
+    {
+     "id": "5ede24b0534ebd5e1f552d5b9f874a6a",
+     "name": "Animalia",
+     "rank": "Kingdom",
+     "name_html": "Animalia",
+     "url": "http://www.catalogueoflife.org/col/browse/tree/id/5ede24b0534ebd5e1f552d5b9f874a6a"
+    },
+    {
+     "id": "70a72224d52b24f5ee0b1d09387d1703",
+     "name": "Mollusca",
+     "rank": "Phylum",
+     "name_html": "Mollusca",
+     "url": "http://www.catalogueoflife.org/col/browse/tree/id/70a72224d52b24f5ee0b1d09387d1703"
+    },
+    {
+     "id": "3553f72080f2d512a344a663f510588a",
+     "name": "Gastropoda",
+     "rank": "Class",
+     "name_html": "Gastropoda",
+     "url": "http://www.catalogueoflife.org/col/browse/tree/id/3553f72080f2d512a344a663f510588a"
+    },
+    {
+     "id": "f1e4216431a66423b71a6e8660f7e7d7",
+     "name": "Neogastropoda",
+     "rank": "Order",
+     "name_html": "Neogastropoda",
+     "url": "http://www.catalogueoflife.org/col/browse/tree/id/f1e4216431a66423b71a6e8660f7e7d7"
+    },
+    {
+     "id": "3e855bd8da5ad20dcec608041c41c54d",
+     "name": "Muricoidea",
+     "rank": "Superfamily",
+     "name_html": "Muricoidea",
+     "url": "http://www.catalogueoflife.org/col/browse/tree/id/3e855bd8da5ad20dcec608041c41c54d"
+    },
+    {
+     "id": "4ae2c9debe98b49c94d39f2a26414777",
+     "name": "Muricidae",
+     "rank": "Family",
+     "name_html": "Muricidae",
+     "url": "http://www.catalogueoflife.org/col/browse/tree/id/4ae2c9debe98b49c94d39f2a26414777"
+    },
+    {
+     "id": "7edcdc77340bb6ba2e1149b04a08b01f",
+     "name": "Pygmaepterys",
+     "rank": "Genus",
+     "name_html": "<i>Pygmaepterys</i>",
+     "url": "http://www.catalogueoflife.org/col/browse/tree/id/7edcdc77340bb6ba2e1149b04a08b01f"
+    }
+   ],
+   "child_taxa": [],
+   "synonyms": [],
+   "common_names": []
+  },
+  "ebiSearchResults": [
+   {
+    "acc": "KJ591663",
+    "id": "KJ591663",
+    "source": "emblrelease_standard",
+    "fields": [
+     {
+      "id": "AGRICOLA",
+      "values": []
+     },
+     {
+      "id": "BIOSAMPLE",
+      "values": []
+     },
+     {
+      "id": "CABRI",
+      "values": []
+     },
+     {
+      "id": "CCAP",
+      "values": []
+     },
+     {
+      "id": "COMPARE-REFGENOME",
+      "values": []
+     },
+     {
+      "id": "DOI",
+      "values": []
+     },
+     {
+      "id": "EC",
+      "values": []
+     },
+     {
+      "id": "EMBL-TSA",
+      "values": []
+     },
+     {
+      "id": "EMBLCDS",
+      "values": [
+       "AIB07919"
+      ]
+     },
+     {
+      "id": "ENA",
+      "values": []
+     },
+     {
+      "id": "ENA-CON",
+      "values": []
+     },
+     {
+      "id": "ENSEMBL-GN",
+      "values": []
+     },
+     {
+      "id": "ENSEMBLGENOMES-GN",
+      "values": []
+     },
+     {
+      "id": "EPD",
+      "values": []
+     },
+     {
+      "id": "EUROPEPMC",
+      "values": []
+     },
+     {
+      "id": "FLYBASE",
+      "values": []
+     },
+     {
+      "id": "FLYBASE-NCRNA",
+      "values": []
+     },
+     {
+      "id": "GENEDB",
+      "values": []
+     },
+     {
+      "id": "GOA",
+      "values": [
+       "A0A0A7CD09"
+      ]
+     },
+     {
+      "id": "GRAINGENES",
+      "values": []
+     },
+     {
+      "id": "GTRNADB",
+      "values": []
+     },
+     {
+      "id": "H-INVDB",
+      "values": []
+     },
+     {
+      "id": "HGNC",
+      "values": []
+     },
+     {
+      "id": "INTERPRO",
+      "values": [
+       "IPR000883",
+       "IPR023616",
+       "IPR036927"
+      ]
+     },
+     {
+      "id": "IPD-KIR",
+      "values": []
+     },
+     {
+      "id": "IPD-MHC",
+      "values": []
+     },
+     {
+      "id": "ISHAM-ITS",
+      "values": []
+     },
+     {
+      "id": "LNCRNADB",
+      "values": []
+     },
+     {
+      "id": "MGI",
+      "values": []
+     },
+     {
+      "id": "MIRBASE",
+      "values": []
+     },
+     {
+      "id": "PATENT_NUMBER",
+      "values": []
+     },
+     {
+      "id": "PDB",
+      "values": []
+     },
+     {
+      "id": "PLNCDB",
+      "values": []
+     },
+     {
+      "id": "POMBASE",
+      "values": []
+     },
+     {
+      "id": "PUBMED",
+      "values": []
+     },
+     {
+      "id": "RFAM",
+      "values": []
+     },
+     {
+      "id": "SGD",
+      "values": []
+     },
+     {
+      "id": "SILVA-LSU",
+      "values": []
+     },
+     {
+      "id": "SILVA-SSU",
+      "values": []
+     },
+     {
+      "id": "SNOPYDB",
+      "values": []
+     },
+     {
+      "id": "SRPDB",
+      "values": []
+     },
+     {
+      "id": "STRAININFO",
+      "values": []
+     },
+     {
+      "id": "SUBTILIST",
+      "values": []
+     },
+     {
+      "id": "TAIR",
+      "values": []
+     },
+     {
+      "id": "TAXON",
+      "values": [
+       "1504874"
+      ]
+     },
+     {
+      "id": "TMRNA-WEBSITE",
+      "values": []
+     },
+     {
+      "id": "UNILIB",
+      "values": []
+     },
+     {
+      "id": "UNIPROTKB_SWISS-PROT",
+      "values": []
+     },
+     {
+      "id": "UNIPROTKB_TREMBL",
+      "values": [
+       "A0A0A7CD09"
+      ]
+     },
+     {
+      "id": "UNITE",
+      "values": []
+     },
+     {
+      "id": "VBASE2",
+      "values": []
+     },
+     {
+      "id": "WORMBASE",
+      "values": []
+     },
+     {
+      "id": "ZFIN",
+      "values": []
+     },
+     {
+      "id": "acc",
+      "values": [
+       "KJ591663"
+      ]
+     },
+     {
+      "id": "description",
+      "values": [
+       "Pygmaepterys pointieri voucher MNHN-IM-2013-8433 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial."
+      ]
+     },
+     {
+      "id": "domain_source",
+      "values": [
+       "emblrelease_standard"
+      ]
+     },
+     {
+      "id": "id",
+      "values": [
+       "KJ591663"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "AIB07919",
+    "source": "coding_release",
+    "fields": [
+     {
+      "id": "AGRICOLA",
+      "values": []
+     },
+     {
+      "id": "BIOSAMPLE",
+      "values": []
+     },
+     {
+      "id": "DICTYBASE",
+      "values": []
+     },
+     {
+      "id": "DOI",
+      "values": []
+     },
+     {
+      "id": "EC",
+      "values": []
+     },
+     {
+      "id": "EMBL",
+      "values": [
+       "KJ591663.1"
+      ]
+     },
+     {
+      "id": "EMBLCDS",
+      "values": [
+       "AIB07919"
+      ]
+     },
+     {
+      "id": "ENSEMBLGENOMES-GN",
+      "values": []
+     },
+     {
+      "id": "GENEDB",
+      "values": []
+     },
+     {
+      "id": "GOA",
+      "values": [
+       "A0A0A7CD09"
+      ]
+     },
+     {
+      "id": "H-INVDB",
+      "values": []
+     },
+     {
+      "id": "HGNC",
+      "values": []
+     },
+     {
+      "id": "INTERPRO",
+      "values": [
+       "IPR000883",
+       "IPR023616",
+       "IPR036927"
+      ]
+     },
+     {
+      "id": "MGI",
+      "values": []
+     },
+     {
+      "id": "PATENT_NUMBER",
+      "values": []
+     },
+     {
+      "id": "PDB",
+      "values": []
+     },
+     {
+      "id": "POMBASE",
+      "values": []
+     },
+     {
+      "id": "PROJECT",
+      "values": []
+     },
+     {
+      "id": "PUBMED",
+      "values": []
+     },
+     {
+      "id": "SGD",
+      "values": []
+     },
+     {
+      "id": "SUBTILIST",
+      "values": []
+     },
+     {
+      "id": "TAXON",
+      "values": [
+       "1504874"
+      ]
+     },
+     {
+      "id": "UNILIB",
+      "values": []
+     },
+     {
+      "id": "UNIPROTKB_SWISS-PROT",
+      "values": []
+     },
+     {
+      "id": "UNIPROTKB_TREMBL",
+      "values": [
+       "A0A0A7CD09"
+      ]
+     },
+     {
+      "id": "VECTORBASE",
+      "values": []
+     },
+     {
+      "id": "WORMBASE",
+      "values": []
+     },
+     {
+      "id": "ZFIN",
+      "values": []
+     },
+     {
+      "id": "description",
+      "values": [
+       "Pygmaepterys pointieri partial cytochrome oxidase subunit 1"
+      ]
+     },
+     {
+      "id": "domain_source",
+      "values": [
+       "coding_release"
+      ]
+     },
+     {
+      "id": "id",
+      "values": [
+       "AIB07919"
+      ]
+     }
+    ]
+   },
+   {
+    "acc": "KJ591663",
+    "id": "KJ591663",
+    "source": "emblrelease_standard",
+    "fields": [
+     {
+      "id": "AGRICOLA",
+      "values": []
+     },
+     {
+      "id": "BIOSAMPLE",
+      "values": []
+     },
+     {
+      "id": "CABRI",
+      "values": []
+     },
+     {
+      "id": "CCAP",
+      "values": []
+     },
+     {
+      "id": "COMPARE-REFGENOME",
+      "values": []
+     },
+     {
+      "id": "DOI",
+      "values": []
+     },
+     {
+      "id": "EC",
+      "values": []
+     },
+     {
+      "id": "EMBL-TSA",
+      "values": []
+     },
+     {
+      "id": "EMBLCDS",
+      "values": [
+       "AIB07919"
+      ]
+     },
+     {
+      "id": "ENA",
+      "values": []
+     },
+     {
+      "id": "ENA-CON",
+      "values": []
+     },
+     {
+      "id": "ENSEMBL-GN",
+      "values": []
+     },
+     {
+      "id": "ENSEMBLGENOMES-GN",
+      "values": []
+     },
+     {
+      "id": "EPD",
+      "values": []
+     },
+     {
+      "id": "EUROPEPMC",
+      "values": []
+     },
+     {
+      "id": "FLYBASE",
+      "values": []
+     },
+     {
+      "id": "FLYBASE-NCRNA",
+      "values": []
+     },
+     {
+      "id": "GENEDB",
+      "values": []
+     },
+     {
+      "id": "GOA",
+      "values": [
+       "A0A0A7CD09"
+      ]
+     },
+     {
+      "id": "GRAINGENES",
+      "values": []
+     },
+     {
+      "id": "GTRNADB",
+      "values": []
+     },
+     {
+      "id": "H-INVDB",
+      "values": []
+     },
+     {
+      "id": "HGNC",
+      "values": []
+     },
+     {
+      "id": "INTERPRO",
+      "values": [
+       "IPR000883",
+       "IPR023616",
+       "IPR036927"
+      ]
+     },
+     {
+      "id": "IPD-KIR",
+      "values": []
+     },
+     {
+      "id": "IPD-MHC",
+      "values": []
+     },
+     {
+      "id": "ISHAM-ITS",
+      "values": []
+     },
+     {
+      "id": "LNCRNADB",
+      "values": []
+     },
+     {
+      "id": "MGI",
+      "values": []
+     },
+     {
+      "id": "MIRBASE",
+      "values": []
+     },
+     {
+      "id": "PATENT_NUMBER",
+      "values": []
+     },
+     {
+      "id": "PDB",
+      "values": []
+     },
+     {
+      "id": "PLNCDB",
+      "values": []
+     },
+     {
+      "id": "POMBASE",
+      "values": []
+     },
+     {
+      "id": "PUBMED",
+      "values": []
+     },
+     {
+      "id": "RFAM",
+      "values": []
+     },
+     {
+      "id": "SGD",
+      "values": []
+     },
+     {
+      "id": "SILVA-LSU",
+      "values": []
+     },
+     {
+      "id": "SILVA-SSU",
+      "values": []
+     },
+     {
+      "id": "SNOPYDB",
+      "values": []
+     },
+     {
+      "id": "SRPDB",
+      "values": []
+     },
+     {
+      "id": "STRAININFO",
+      "values": []
+     },
+     {
+      "id": "SUBTILIST",
+      "values": []
+     },
+     {
+      "id": "TAIR",
+      "values": []
+     },
+     {
+      "id": "TAXON",
+      "values": [
+       "1504874"
+      ]
+     },
+     {
+      "id": "TMRNA-WEBSITE",
+      "values": []
+     },
+     {
+      "id": "UNILIB",
+      "values": []
+     },
+     {
+      "id": "UNIPROTKB_SWISS-PROT",
+      "values": []
+     },
+     {
+      "id": "UNIPROTKB_TREMBL",
+      "values": [
+       "A0A0A7CD09"
+      ]
+     },
+     {
+      "id": "UNITE",
+      "values": []
+     },
+     {
+      "id": "VBASE2",
+      "values": []
+     },
+     {
+      "id": "WORMBASE",
+      "values": []
+     },
+     {
+      "id": "ZFIN",
+      "values": []
+     },
+     {
+      "id": "acc",
+      "values": [
+       "KJ591663"
+      ]
+     },
+     {
+      "id": "description",
+      "values": [
+       "Pygmaepterys pointieri voucher MNHN-IM-2013-8433 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial."
+      ]
+     },
+     {
+      "id": "domain_source",
+      "values": [
+       "emblrelease_standard"
+      ]
+     },
+     {
+      "id": "id",
+      "values": [
+       "KJ591663"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "AIB07919",
+    "source": "coding_release",
+    "fields": [
+     {
+      "id": "AGRICOLA",
+      "values": []
+     },
+     {
+      "id": "BIOSAMPLE",
+      "values": []
+     },
+     {
+      "id": "DICTYBASE",
+      "values": []
+     },
+     {
+      "id": "DOI",
+      "values": []
+     },
+     {
+      "id": "EC",
+      "values": []
+     },
+     {
+      "id": "EMBL",
+      "values": [
+       "KJ591663.1"
+      ]
+     },
+     {
+      "id": "EMBLCDS",
+      "values": [
+       "AIB07919"
+      ]
+     },
+     {
+      "id": "ENSEMBLGENOMES-GN",
+      "values": []
+     },
+     {
+      "id": "GENEDB",
+      "values": []
+     },
+     {
+      "id": "GOA",
+      "values": [
+       "A0A0A7CD09"
+      ]
+     },
+     {
+      "id": "H-INVDB",
+      "values": []
+     },
+     {
+      "id": "HGNC",
+      "values": []
+     },
+     {
+      "id": "INTERPRO",
+      "values": [
+       "IPR000883",
+       "IPR023616",
+       "IPR036927"
+      ]
+     },
+     {
+      "id": "MGI",
+      "values": []
+     },
+     {
+      "id": "PATENT_NUMBER",
+      "values": []
+     },
+     {
+      "id": "PDB",
+      "values": []
+     },
+     {
+      "id": "POMBASE",
+      "values": []
+     },
+     {
+      "id": "PROJECT",
+      "values": []
+     },
+     {
+      "id": "PUBMED",
+      "values": []
+     },
+     {
+      "id": "SGD",
+      "values": []
+     },
+     {
+      "id": "SUBTILIST",
+      "values": []
+     },
+     {
+      "id": "TAXON",
+      "values": [
+       "1504874"
+      ]
+     },
+     {
+      "id": "UNILIB",
+      "values": []
+     },
+     {
+      "id": "UNIPROTKB_SWISS-PROT",
+      "values": []
+     },
+     {
+      "id": "UNIPROTKB_TREMBL",
+      "values": [
+       "A0A0A7CD09"
+      ]
+     },
+     {
+      "id": "VECTORBASE",
+      "values": []
+     },
+     {
+      "id": "WORMBASE",
+      "values": []
+     },
+     {
+      "id": "ZFIN",
+      "values": []
+     },
+     {
+      "id": "description",
+      "values": [
+       "Pygmaepterys pointieri partial cytochrome oxidase subunit 1"
+      ]
+     },
+     {
+      "id": "domain_source",
+      "values": [
+       "coding_release"
+      ]
+     },
+     {
+      "id": "id",
+      "values": [
+       "AIB07919"
+      ]
+     }
+    ]
+   }
+  ],
+  "wikidata": "http://www.wikidata.org/entity/Q73535686",
+  "wikidata_info": {
+   "wikidataId": "Q73535686",
+   "wikidataPageURL": "http://www.wikidata.org/entity/Q73535686",
+   "identifiers": [
+    {
+     "name": "NCBI taxonomy ID",
+     "value": "1504874",
+     "link": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=1504874"
+    },
+    {
+     "name": "TAXREF ID",
+     "value": "789521",
+     "link": "https://inpn.mnhn.fr/espece/cd_nom/789521"
+    },
+    {
+     "name": "Global Biodiversity Information Facility ID",
+     "value": "7431521",
+     "link": "https://www.gbif.org/species/7431521"
+    },
+    {
+     "name": "WoRMS-ID for taxa",
+     "value": "827924",
+     "link": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=827924"
+    }
+   ]
+  }
+ },
+ "metadata": {
+  "createdOn": 1586335375154,
+  "createdBy": "20.5000.1025/francisco",
+  "modifiedOn": 1621385870762,
+  "modifiedBy": "anonymous",
+  "txnId": 1621385870760172
+ }
+}

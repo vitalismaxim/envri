@@ -1,0 +1,40 @@
+{
+ "id": "20.5000.1025/486a7e883f14f88bba37",
+ "type": "DigitalSpecimen",
+ "content": {
+  "physicalSpecimenId": "013258549",
+  "gbifId": "https://www.gbif.org/occurrence/1826086349",
+  "creator": "20.5000.1025/alex",
+  "stableIdentifier": "https://data.nhm.ac.uk/object/e90b81bc-1642-47ca-b587-6aa8885cd6a0/1558569600000",
+  "institutionCode": "NHMUK",
+  "collectionCode": "ZOO, Parasitic worms",
+  "collectionDate": "2006-06-01",
+  "creationdatetime": "2020-04-09T18:00:51.861Z",
+  "id": "20.5000.1025/486a7e883f14f88bba37",
+  "midslevel": 2,
+  "literatureReference": "https://doi.org/10.5281/zenodo.175744",
+  "catOfLifeReference": "http://www.catalogueoflife.org/col/details/species/id/828cbc4eecaa2402b09cd9223754171e",
+  "locality": "Rocher a la voile",
+  "country": "New Caledonia",
+  "otherCatalogNumbers": "NHMUK:ecatalogue:7072219",
+  "treatmentbank": "http://tb.plazi.org/GgServer/html/03BA87825543FFBFD895FD27FAE1DDAD ",
+  "scientificName": "Holorchis castex Bray & Justine",
+  "enaSequence": "https://www.ebi.ac.uk/ena/data/view/FJ788436",
+  "catalogNumber": "2006.12.6.40-41",
+  "recordedBy": "J L. Justine",
+  "enaBiosample": "None available",
+  "decimalLat/Long": [
+   -22.3,
+   166.42
+  ],
+  "Annotations": "Type status = paratype. Holotype =  MNHN JNC 1848 \u00e2\u20ac\u201cD 1",
+  "LiteratureReferenceRelated": "https://doi.org/10.2478/s11686-009-0045-z"
+ },
+ "metadata": {
+  "createdOn": 1586455251861,
+  "createdBy": "20.5000.1025/alex",
+  "modifiedOn": 1621465733285,
+  "modifiedBy": "anonymous",
+  "txnId": 1621465733282249
+ }
+}

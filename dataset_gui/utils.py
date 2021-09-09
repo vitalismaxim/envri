@@ -231,7 +231,8 @@ def domain(data, threshold = 0):
         if value[1] > threshold:
             data['info'].append(value[0])
 
-    data['info'] = list(set(data['info']))
+    try: data['info'] = list(set(data['info']))
+    except: pass
     return data
 
 def biggest(files):

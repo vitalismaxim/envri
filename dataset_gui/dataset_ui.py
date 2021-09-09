@@ -5,6 +5,8 @@ import tkinter as tk
 import importlib
 import importlib.util
 from shutil import copyfile
+from statistics import mean
+import csv
 from tkinter.filedialog import asksaveasfile, asksaveasfilename
 
 
@@ -16,7 +18,7 @@ class DatasetIndex:
         self.window = tk.Tk()
         self.window.title("Dataset Indexing")
 
-        self.window.iconbitmap('envri_icon.ico')
+        #self.window.iconbitmap('envri_icon.ico')
         self.found_files = list
         self.feature_match = dict
         self.standard_features = list
@@ -41,6 +43,12 @@ class DatasetIndex:
         self.mapping_threshold = tk.DoubleVar()
         self.essential_vars_threshold = tk.DoubleVar()
         self.lda_passes = tk.IntVar()
+        self.stats_save_directory = tk.StringVar()
+
+        self.anaee_na_score = tk.DoubleVar()
+        self.icos_na_score = tk.DoubleVar()
+        self.nsidr_na_score = tk.DoubleVar()
+        self.sdn_na_score = tk.DoubleVar()
 
         self.anaee_list = []
         self.icos_list = []
@@ -48,13 +56,12 @@ class DatasetIndex:
         self.sdn_list = []
         self.full_list = []
 
-
-
         # Default files
         self.feature_config_file.set("envri_config.json")
         self.domain_vars_file.set("domain_variables.json")
         self.metadata_directory.set("No directory choosen")
         self.save_directory.set("No directory choosen")
+        self.stats_save_directory.set("No directory choosen")
         self.rules.set("rules")
         self.submit_rules()
 
@@ -70,8 +77,13 @@ class DatasetIndex:
         self.essential_vars_threshold.set(0.0)
         self.lda_passes.set(0)
 
+        self.anaee_na_score.set(0.0)
+        self.icos_na_score.set(0.0)
+        self.nsidr_na_score.set(0.0)
+        self.sdn_na_score.set(0.0)
+
         self.window.columnconfigure([0, 1, 2, 3], minsize=20)
-        self.window.rowconfigure([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], minsize=20)
+        self.window.rowconfigure([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25], minsize=20)
 
 
         # Functionality: Buttons and Labels
@@ -81,7 +93,6 @@ class DatasetIndex:
         self.metadata_button_open = tk.Button(self.window, text = "Choose folder to index", command = self.choose_folder_metadata)
         self.metadata_label2 = tk.Label(self.window, text = "Metadata directory: ", font = 'bold')
         self.metadata_label = tk.Label(self.window, textvariable = self.metadata_directory)
-
         self.metadata_folder = tk.Label(self.window, textvariable = self.metadata_directory)
 
         # Save location
@@ -101,7 +112,7 @@ class DatasetIndex:
         self.domain_file2 = tk.Label(self.window, text = 'Domain variables loaded:', font = 'bold')
         self.domain_file = tk.Label(self.window, textvariable = self.domain_vars_file)
 
-        # rules
+        # Rules
         self.rule_button_download = tk.Button(self.window, text = 'Rules Download', command = self.save_rules)
         self.rule_button_upload = tk.Button(self.window, text = 'Rules Upload', command = self.choose_rules)
         self.rule_entry2 = tk.Label(self.window, text = "Rules loaded:", font = 'bold')
@@ -141,6 +152,24 @@ class DatasetIndex:
         self.lda_label = tk.Label(self.window, text = "LDA Passes:", font = 'bold')
         self.lda_slider = tk.Scale(self.window, from_ = 0, to = 250, orient = 'horizontal', variable = self.lda_passes)
 
+        # Statistics
+
+        self.calculate_stats_button = tk.Button(self.window, text = "Calculate N/A Statistics", command = self.calc_stats)
+        self.save_stats_location_button = tk.Button(self.window, text = "Choose save location", command = self.choose_stats_folder_save)
+        self.save_stats_label = tk.Label(self.window, textvariable = self.stats_save_directory)
+        self.save_stats_button = tk.Button(self.window, text = 'Save Statistics to CSV', command = self.save_stats)
+
+        self.na_label = tk.Label(self.window, text = "N/A % Scores:", font = 'bold')
+
+        self.anaee_na2 = tk.Label(self.window, text = "Anaee")
+        self.icos_na2 = tk.Label(self.window, text = "Icos")
+        self.nsidr_na2 = tk.Label(self.window, text = "Nsidr")
+        self.sdn_na2 = tk.Label(self.window, text = "SeaDataNet")
+        
+        self.anaee_na = tk.Label(self.window, textvariable = self.anaee_na_score)
+        self.icos_na = tk.Label(self.window, textvariable = self.icos_na_score)
+        self.nsidr_na = tk.Label(self.window, textvariable = self.nsidr_na_score)
+        self.sdn_na = tk.Label(self.window, textvariable = self.sdn_na_score)
 
         # Placement
         ######################################################################################################################################
@@ -206,6 +235,27 @@ class DatasetIndex:
         # Processing
         self.process.grid(row=16, column=3, padx=5, pady=5)
         self.process_status.grid(row=17, column=3, padx=5, pady=5)
+
+        # Stats
+        self.calculate_stats_button.grid(row=20, column=0, padx=5, pady=5)
+        self.save_stats_location_button.grid(row=20, column=1, padx=5, pady=5)
+        self.save_stats_label.grid(row=20, column=2, padx=5, pady=5)
+
+        self.na_label.grid(row=21, column=0, padx=5, pady=5)
+        self.anaee_na2.grid(row=22, column=0, padx=5, pady=5)
+        self.icos_na2.grid(row=22, column=1, padx=5, pady=5)
+        self.nsidr_na2.grid(row=22, column=2, padx=5, pady=5)
+        self.sdn_na2.grid(row=22, column=3, padx=5, pady=5)
+        self.anaee_na.grid(row=23, column=0, padx=5, pady=5)
+        self.icos_na.grid(row=23, column=1, padx=5, pady=5)
+        self.nsidr_na.grid(row=23, column=2, padx=5, pady=5)
+        self.sdn_na.grid(row=23, column=3, padx=5, pady=5)
+
+        self.save_stats_button.grid(row=20, column=3, padx=5, pady=5)
+
+
+        
+        
         
 
         # TK
@@ -235,6 +285,7 @@ class DatasetIndex:
                         nsidr_list.append(file)
                         break
             #print(file)
+        print(anaee_list)
         return anaee_list, icos_list, nsidr_list, sdn_list
 
     def choose_folder_metadata(self):
@@ -284,8 +335,11 @@ class DatasetIndex:
         self.rule_field.set('Rules submitted!')
         self.rule_file = importlib.import_module(self.rules.get())
 
+    def choose_stats_folder_save(self):
+        self.stats_save_directory.set(askdirectory())
+        return
+
     def extract_and_map(self):
-        
         self.mapping_status.set('Creating mapping...')
         feature_syn_dict = open_file(self.feature_config_file.get())
         feature_syn_list = [item for sublist in list(feature_syn_dict.values()) for item in sublist]
@@ -359,6 +413,41 @@ class DatasetIndex:
         self.file_process_status.set('Processing complete!')
         
 
+    def calc_stats(self):
+        percentage_per_source = []
+        for source in self.full_list:
+            average_percentage = 0
+            percentages = []
+            for file in source:
+                read_path = self.save_directory.get() + '/' + basename(file) + '.json'
+                data = open_file(read_path)
+                percentages.append(sum(value == "N/A" for value in data.values()) / len(data))
+            average_percentage = mean(percentages)
+            percentage_per_source.append(average_percentage)
+
+        self.anaee_na_score.set(percentage_per_source[0]*100) 
+        self.icos_na_score.set(percentage_per_source[1]*100) 
+        self.nsidr_na_score.set(percentage_per_source[2]*100) 
+        self.sdn_na_score.set(percentage_per_source[3]*100) 
+        print(percentage_per_source)
+        return
+
+    def save_stats(self):
+        files = [('CSV', '*.csv')]
+        location = asksaveasfilename(filetypes = files, defaultextension = files)
+        open_file(self.feature_config_file.get())
+
+        with open(location, 'w', newline='') as file:
+            writer = csv.writer(file)
+            writer.writerow(["Source", "NA_score", "Mapping_threshold", "LDA_passes", "Essential_variables_threshold", "Rule_file", "Domain_variables_file", "Config_file"])
+            writer.writerow(["anaee", self.anaee_na_score.get(), self.mapping_threshold.get(), self.lda_passes.get(), self.essential_vars_threshold.get(), self.rules.get(), self.domain_vars_file.get(), self.feature_config_file.get()])
+            writer.writerow(["icos", self.icos_na_score.get(), self.mapping_threshold.get(), self.lda_passes.get(), self.essential_vars_threshold.get(), self.rules.get(), self.domain_vars_file.get(), self.feature_config_file.get()])
+            writer.writerow(["nsidr", self.nsidr_na_score.get(), self.mapping_threshold.get(), self.lda_passes.get(), self.essential_vars_threshold.get(), self.rules.get(), self.domain_vars_file.get(), self.feature_config_file.get()])
+            writer.writerow(["seadatanet", self.sdn_na_score.get(), self.mapping_threshold.get(), self.lda_passes.get(), self.essential_vars_threshold.get(), self.rules.get(), self.domain_vars_file.get(), self.feature_config_file.get()])
+
+
+        
+        
 DatasetIndex()
 
 

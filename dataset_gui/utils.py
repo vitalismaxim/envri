@@ -186,14 +186,14 @@ def topic_miner(data, lda_passes = 50):
         text_data.append(tokens)
 
     if len(value_list) == 0 or len(text_data) == 0:
-        return []
+        return data
 
     dictionary = corpora.Dictionary(text_data)
     corpus = [dictionary.doc2bow(text) for text in text_data]
     try:
         ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics = 10, id2word=dictionary, passes=lda_passes)
     except:
-        return []
+        return data
 
     topics = ldamodel.print_topics(num_words=1)
     for topic in topics:

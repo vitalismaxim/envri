@@ -190,7 +190,10 @@ def topic_miner(data, lda_passes = 50):
 
     dictionary = corpora.Dictionary(text_data)
     corpus = [dictionary.doc2bow(text) for text in text_data]
-    ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics = 10, id2word=dictionary, passes=lda_passes)
+    try:
+        ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics = 10, id2word=dictionary, passes=lda_passes)
+    except:
+        return []
 
     topics = ldamodel.print_topics(num_words=1)
     for topic in topics:
@@ -206,11 +209,16 @@ domain_vars = open_file('C:/Users/xiemp/Documents/afstudeer/features/domain_vari
 def domain(data, threshold = 0):
     domain_variables = domain_vars['ocean']
     value_list = []
-    value_list.append(data['description'])
-    value_list.append(data['abstract'])
-    value_list.append(data['headline'])
-    for keyword in data['keyword']:
-        value_list.append(keyword)
+    try: value_list.append(data['description']) 
+    except: pass
+    try: value_list.append(data['abstract'])
+    except: pass
+    try: value_list.append(data['headline'])
+    except: pass
+    try:
+        for keyword in data['keyword']:
+            value_list.append(keyword)
+    except: pass
 
     all_matches = mapper(value_list, domain_variables)
     domain_match = {}

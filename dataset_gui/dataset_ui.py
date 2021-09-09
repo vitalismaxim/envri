@@ -40,6 +40,7 @@ class DatasetIndex:
         self.sdn_files = tk.IntVar()
         self.mapping_threshold = tk.DoubleVar()
         self.essential_vars_threshold = tk.DoubleVar()
+        self.lda_passes = tk.IntVar()
 
         self.anaee_list = []
         self.icos_list = []
@@ -67,9 +68,10 @@ class DatasetIndex:
         self.sdn_files.set(0)
         self.mapping_threshold.set(0.0)
         self.essential_vars_threshold.set(0.0)
+        self.lda_passes.set(0)
 
         self.window.columnconfigure([0, 1, 2, 3], minsize=20)
-        self.window.rowconfigure([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], minsize=20)
+        self.window.rowconfigure([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], minsize=20)
 
 
         # Functionality: Buttons and Labels
@@ -136,6 +138,8 @@ class DatasetIndex:
         self.essential_vars_label = tk.Label(self.window, text = "Domain variables treshold:", font = 'bold')
         self.essential_vars_slider = tk.Scale(self.window, from_ = 0, to = 100, orient = 'horizontal', variable = self.essential_vars_threshold)
 
+        self.lda_label = tk.Label(self.window, text = "LDA Passes:", font = 'bold')
+        self.lda_slider = tk.Scale(self.window, from_ = 0, to = 250, orient = 'horizontal', variable = self.lda_passes)
 
 
         # Placement
@@ -182,6 +186,9 @@ class DatasetIndex:
 
         self.essential_vars_label.grid(row=16, column=2, padx=5, pady=5)
         self.essential_vars_slider.grid(row=17, column=2, padx=5, pady=5)
+
+        self.lda_label.grid(row = 18, column = 2, padx=5, pady=5)
+        self.lda_slider.grid(row = 19, column =2, padx=5, pady=5)
 
         # Split
         self.file_split_label.grid(row=10, column=0, padx=5, pady=5)
@@ -346,7 +353,7 @@ class DatasetIndex:
                 value_dict[key] = content
 
             value_dict = self.rule_file.run_funcs(value_dict)
-            value_dict = topic_miner(value_dict)
+            value_dict = topic_miner(value_dict, self.lda_passes.get())
             value_dict = domain(value_dict, self.essential_vars_threshold.get())
             write_file(directory + '/' + value_dict['identifier'] +'.json', value_dict)
         self.file_process_status.set('Processing complete!')

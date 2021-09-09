@@ -171,7 +171,7 @@ def prepare_text_for_lda(text):
     tokens = [get_lemma(token) for token in tokens]
     return tokens
 
-def topic_miner(data):
+def topic_miner(data, lda_passes = 50):
     value_list = []
     text_data = []
     topic_list = []
@@ -185,9 +185,12 @@ def topic_miner(data):
         tokens = prepare_text_for_lda(line)
         text_data.append(tokens)
 
+    if len(value_list) == 0 or len(text_data) == 0:
+        return []
+
     dictionary = corpora.Dictionary(text_data)
     corpus = [dictionary.doc2bow(text) for text in text_data]
-    ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics = 10, id2word=dictionary, passes=50)
+    ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics = 10, id2word=dictionary, passes=lda_passes)
 
     topics = ldamodel.print_topics(num_words=1)
     for topic in topics:

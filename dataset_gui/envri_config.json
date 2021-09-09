@@ -1,0 +1,270 @@
+{
+ "description": [
+  "description"
+ ],
+ "identifier": [
+  "identifier",
+  "id",
+  "identifier",
+  "pid"
+ ],
+ "keyword": [
+  "keyword"
+ ],
+ "language": [
+  "language"
+ ],
+ "accessibility": [
+  "accessibility"
+ ],
+ "accountable Person": [
+  "accountable Person"
+ ],
+ "version": [
+  "version"
+ ],
+ "period": [
+  "period"
+ ],
+ "publisher": [
+  "publisher"
+ ],
+ "spatial": [
+  "spatial"
+ ],
+ "longitude": [
+  "longitude"
+ ],
+ "latitude": [
+  "latitude"
+ ],
+ "license": [
+  "license"
+ ],
+ "citation": [
+  "citation"
+ ],
+ "genre": [
+  "genre"
+ ],
+ "creator": [
+  "creator"
+ ],
+ "modification": [
+  "modification"
+ ],
+ "distribution": [
+  "distribution"
+ ],
+ "image": [
+  "image"
+ ],
+ "thumbnail": [
+  "thumbnail"
+ ],
+ "headline": [
+  "headline"
+ ],
+ "abstract": [
+  "abstract"
+ ],
+ "category": [
+  "category"
+ ],
+ "created": [
+  "created"
+ ],
+ "credit": [
+  "credit"
+ ],
+ "published": [
+  "published"
+ ],
+ "producer": [
+  "producer"
+ ],
+ "author": [
+  "author"
+ ],
+ "space": [
+  "space"
+ ],
+ "url": [
+  "url"
+ ],
+ "temporal": [
+  "temporal"
+ ],
+ "sponsor": [
+  "sponsor"
+ ],
+ "size": [
+  "size"
+ ],
+ "similar": [
+  "similar"
+ ],
+ "publication": [
+  "publication"
+ ],
+ "provider": [
+  "provider"
+ ],
+ "position": [
+  "position"
+ ],
+ "name": [
+  "name",
+  "title",
+  "scientific name"
+ ],
+ "measurement": [
+  "measurement"
+ ],
+ "material": [
+  "material"
+ ],
+ "maintainer": [
+  "maintainer"
+ ],
+ "location": [
+  "location"
+ ],
+ "issn": [
+  "issn"
+ ],
+ "is Part Of": [
+  "is Part Of"
+ ],
+ "is Based On": [
+  "is Based On"
+ ],
+ "free": [
+  "free"
+ ],
+ "included": [
+  "included"
+ ],
+ "editor": [
+  "editor"
+ ],
+ "editEIDR": [
+  "editEIDR"
+ ],
+ "copyright Year": [
+  "copyright Year"
+ ],
+ "copyright Notice": [
+  "copyright Notice"
+ ],
+ "copyright Holder": [
+  "copyright Holder"
+ ],
+ "contributor": [
+  "contributor"
+ ],
+ "content Reference Time": [
+  "content Reference Time"
+ ],
+ "character": [
+  "character"
+ ],
+ "acquire License Page": [
+  "acquire License Page"
+ ],
+ "access": [
+  "access"
+ ],
+ "about": [
+  "about",
+  "kingdom",
+  "comments"
+ ],
+ "rights": [
+  "rights"
+ ],
+ "relation": [
+  "relation"
+ ],
+ "attribution": [
+  "attribution"
+ ],
+ "previous": [
+  "previous"
+ ],
+ "landing page": [
+  "landing page"
+ ],
+ "referenced": [
+  "referenced"
+ ],
+ "series": [
+  "series"
+ ],
+ "policy": [
+  "policy"
+ ],
+ "current": [
+  "current"
+ ],
+ "constraints": [
+  "constraints"
+ ],
+ "status": [
+  "status"
+ ],
+ "spatialRepresentationType": [
+  "spatialRepresentationType"
+ ],
+ "spatialRepresentationInfo": [
+  "spatialRepresentationInfo"
+ ],
+ "scope": [
+  "scope"
+ ],
+ "party": [
+  "party"
+ ],
+ "releasability": [
+  "releasability"
+ ],
+ "reference": [
+  "reference"
+ ],
+ "purpose": [
+  "purpose"
+ ],
+ "locale": [
+  "locale"
+ ],
+ "metadata Profile": [
+  "metadata Profile"
+ ],
+ "metadata Linkage": [
+  "metadata Linkage"
+ ],
+ "metadata Identifier": [
+  "metadata Identifier"
+ ],
+ "MD LegalConstraints": [
+  "MD LegalConstraints"
+ ],
+ "MD Identification": [
+  "MD Identification"
+ ],
+ "environment Description": [
+  "environment Description"
+ ],
+ "distributor": [
+  "distributor"
+ ],
+ "quality": [
+  "quality"
+ ],
+ "info": [
+  "info"
+ ],
+ "contact": [
+  "contact"
+ ]
+}

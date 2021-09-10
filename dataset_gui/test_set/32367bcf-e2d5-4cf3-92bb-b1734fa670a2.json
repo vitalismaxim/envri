@@ -1,0 +1,1014 @@
+{
+ "gmd:MD_Metadata": {
+  "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+  "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+  "@xmlns:gts": "http://www.isotc211.org/2005/gts",
+  "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xmlns:gml": "http://www.opengis.net/gml",
+  "@xmlns:geonet": "http://www.fao.org/geonetwork",
+  "gmd:fileIdentifier": {
+   "gco:CharacterString": "32367bcf-e2d5-4cf3-92bb-b1734fa670a2"
+  },
+  "gmd:language": {
+   "gmd:LanguageCode": {
+    "@codeList": "http://www.loc.gov/standards/iso639-2/",
+    "@codeListValue": "eng"
+   }
+  },
+  "gmd:characterSet": {
+   "gmd:MD_CharacterSetCode": {
+    "@codeListValue": "utf8",
+    "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+   }
+  },
+  "gmd:hierarchyLevel": {
+   "gmd:MD_ScopeCode": {
+    "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode",
+    "@codeListValue": "dataset"
+   }
+  },
+  "gmd:contact": {
+   "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+   "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+   "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+   "gmd:CI_ResponsibleParty": {
+    "gmd:individualName": {
+     "gco:CharacterString": "Fr\u00c3\u00a9d\u00c3\u00a9rique LOUAULT"
+    },
+    "gmd:organisationName": {
+     "gco:CharacterString": "INRAE"
+    },
+    "gmd:contactInfo": {
+     "gmd:CI_Contact": {
+      "gmd:phone": {
+       "gmd:CI_Telephone": {
+        "gmd:voice": {
+         "gco:CharacterString": "+33 4 73 62 44 30"
+        },
+        "gmd:facsimile": {
+         "gco:CharacterString": "+33 4 73 62 44 57"
+        }
+       }
+      },
+      "gmd:address": {
+       "gmd:CI_Address": {
+        "gmd:deliveryPoint": {
+         "gco:CharacterString": "INRA UREP Site de Crouel 5 Chemin de Beaulieu"
+        },
+        "gmd:city": {
+         "gco:CharacterString": "Clermont-Ferrand"
+        },
+        "gmd:administrativeArea": {
+         "gco:CharacterString": null
+        },
+        "gmd:postalCode": {
+         "gco:CharacterString": "63039 cedex 02"
+        },
+        "gmd:country": {
+         "gco:CharacterString": "France"
+        },
+        "gmd:electronicMailAddress": {
+         "gco:CharacterString": "frederique.louault@inrae.fr"
+        }
+       }
+      }
+     }
+    },
+    "gmd:role": {
+     "gmd:CI_RoleCode": {
+      "@codeList": "./resources/codeList.xml#CI_RoleCode",
+      "@codeListValue": "pointOfContact"
+     }
+    }
+   }
+  },
+  "gmd:dateStamp": {
+   "gco:DateTime": "2021-02-04T18:46:58"
+  },
+  "gmd:metadataStandardName": {
+   "gco:CharacterString": "ISO 19115:2003/19139"
+  },
+  "gmd:metadataStandardVersion": {
+   "gco:CharacterString": "1.0"
+  },
+  "gmd:locale": {
+   "gmd:PT_Locale": {
+    "@id": "FR",
+    "gmd:languageCode": {
+     "gmd:LanguageCode": {
+      "@codeList": "http://www.loc.gov/standards/iso639-2/",
+      "@codeListValue": "fre"
+     }
+    },
+    "gmd:characterEncoding": null
+   }
+  },
+  "gmd:referenceSystemInfo": {
+   "gmd:MD_ReferenceSystem": {
+    "gmd:referenceSystemIdentifier": {
+     "gmd:RS_Identifier": {
+      "gmd:code": {
+       "gco:CharacterString": "WGS 84 (EPSG:4326)"
+      }
+     }
+    }
+   }
+  },
+  "gmd:identificationInfo": {
+   "gmd:MD_DataIdentification": {
+    "gmd:citation": {
+     "gmd:CI_Citation": {
+      "gmd:title": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "System of Observation and Experimentation in Environmental Research (SOERE) for studying Agroecosystems, Biogeochemical Cycles and Biodiversity (ACBB)",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "SOERE ACBB"
+         }
+        }
+       }
+      },
+      "gmd:date": {
+       "gmd:CI_Date": {
+        "gmd:date": {
+         "gco:Date": "2005-01-01"
+        },
+        "gmd:dateType": {
+         "gmd:CI_DateTypeCode": {
+          "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+          "@codeListValue": "creation"
+         }
+        }
+       }
+      },
+      "gmd:identifier": [
+       {
+        "gmd:MD_Identifier": {
+         "gmd:code": {
+          "gco:CharacterString": "http://localhost:8082/geonetwork_anaee/32367bcf-e2d5-4cf3-92bb-b1734fa670a2"
+         }
+        }
+       },
+       {
+        "gmd:MD_Identifier": {
+         "gmd:code": {
+          "gco:CharacterString": "http://w3.avignon.inra.fr/geonetwork_anaee/32367bcf-e2d5-4cf3-92bb-b1734fa670a2"
+         }
+        }
+       },
+       {
+        "gmd:MD_Identifier": {
+         "gmd:code": {
+          "gco:CharacterString": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/catalog.search#/metadata/32367bcf-e2d5-4cf3-92bb-b1734fa670a2"
+         }
+        }
+       }
+      ]
+     }
+    },
+    "gmd:abstract": {
+     "@xsi:type": "gmd:PT_FreeText_PropertyType",
+     "gco:CharacterString": "The SOERE-ACBB is a set of three platforms involving long-term (> 20 yrs) field experiments initiated in 2005-2009. Long-term studies are carried out on biogeochemical cycles and functional biodiversity (flora and fauna) in agroecosystems as affected by land use, management practices and climate change. \n\nThe SOERE-ACBB covers three land use and climatic regions in France: temporary grassland, permanent grassland and arable land. The main hypothesis tested is that the evolution of the systems in response to anthropogenic disturbances and land use management is strongly linked to the dynamics of quantitative and qualitative composition of soil organic matter (SOM) and vegetation diversity.  \n\nSOERE-ACBB is unique in enabling analysis of feedback loops between management practices, biogeochemical cycles and biodiversity by offering opportunities for simultaneous study of interactions between SOM dynamics, microbial communities and vegetation under various management practices of agroecosystems. \n\nThe platforms are designed to characterize the trajectories of key variables of the systems throughout time as changes occur \u00e2\u20ac\u201c elements such as carbon, phosphorus, potassium and nitrogen and the diversity of plants and organisms in the soil \u00e2\u20ac\u201c over years or decades. \n\nThe platform\u00e2\u20ac\u2122s instrumentation continuously quantifies a broad range of physical, chemical and biological variables: climate forcing variables, physical conditions in soil, water fluxes and quality, carbon and nitrogen storage in soil, greenhouse gas emissions (GHG), floral, faunal and microbial diversity. \n\nThe ability to monitor quantitative and qualitative changes in SOM over time will allow scientists to relate the overall evolution to energy balance and resource elements. Although SOERE-ACBB is a national infrastructure, scientists from other countries are welcome and can benefit from the acquired experience and knowledge. SOERE-ACBB has been involved in many international projects such as the Global Research Alliance and the International soil warming experiment network and is still a partner in a number of ongoing projects such as ExpeER, AnimalChange, Ecofinders and Multisward.",
+     "gmd:PT_FreeText": {
+      "gmd:textGroup": {
+       "gmd:LocalisedCharacterString": {
+        "@locale": "#FR",
+        "#text": "Le SOERE-ACBB est un ensemble de trois plateformes d\u00e2\u20ac\u2122exp\u00c3\u00a9rimentation \u00c3\u00a0 long terme (> 20 ans) initi\u00c3\u00a9es en 2005-2009. Des \u00c3\u00a9tudes sont men\u00c3\u00a9es sur les cycles biog\u00c3\u00a9ochimiques et la biodiversit\u00c3\u00a9 fonctionnelle (flore et faune) dans les agro\u00c3\u00a9cosyst\u00c3\u00a8mes influenc\u00c3\u00a9s par l'utilisation des terres, les pratiques de gestion et les changements climatiques.\nLe SOERE-ACBB recouvre 3 utilisation des terres et r\u00c3\u00a9gions climatiques en France: prairies temporaires, prairies permanentes et terres arables. La principale hypoth\u00c3\u00a8se test\u00c3\u00a9e est que l'\u00c3\u00a9volution des syst\u00c3\u00a8mes en r\u00c3\u00a9ponse aux perturbations anthropiques et la gestion de l'utilisation des terres est fortement li\u00c3\u00a9e \u00c3\u00a0 la dynamique de la composition quantitative et qualitative de la mati\u00c3\u00a8re organique du sol (MOS) et \u00c3\u00a0 la diversit\u00c3\u00a9 de la v\u00c3\u00a9g\u00c3\u00a9tation.\nLe SOERE-ACBB permet  l'analyse des boucles de r\u00c3\u00a9troaction entre les pratiques de gestion, les cycles biog\u00c3\u00a9ochimiques et la biodiversit\u00c3\u00a9 en offrant des possibilit\u00c3\u00a9s pour l'\u00c3\u00a9tude simultan\u00c3\u00a9e des interactions entre la dynamique de MOS, communaut\u00c3\u00a9s microbiennes et de la v\u00c3\u00a9g\u00c3\u00a9tation en fonction des pratiques de gestion des agro\u00c3\u00a9cosyst\u00c3\u00a8mes.\nLes plateformes sont con\u00c3\u00a7ues pour caract\u00c3\u00a9riser les trajectoires des variables cl\u00c3\u00a9s des syst\u00c3\u00a8mes \u00c3\u00a0 travers le temps tandis que des changements se produisent pour des \u00c3\u00a9l\u00c3\u00a9ments tels que le carbone, le phosphore, le potassium et l'azote et la diversit\u00c3\u00a9 des plantes et des organismes dans le sol - au cours des ann\u00c3\u00a9es, voire des d\u00c3\u00a9cennies.\nL'instrumentation de la plateforme quantifie en continu un large \u00c3\u00a9ventail de variables biologiques, physiques et chimiques: variables de for\u00c3\u00a7age climatiques , les conditions physiques dans le sol, les flux et la qualit\u00c3\u00a9, le stockage du carbone et de l'azote dans le sol, les \u00c3\u00a9missions de gaz \u00c3\u00a0 effet de serre (GES), et la diversit\u00c3\u00a9 microbienne, de la flore et de la faune.\nLa capacit\u00c3\u00a9 \u00c3\u00a0 surveiller les changements quantitatifs et qualitatifs dans la MOS \u00c3\u00a0 travers le temps permettra aux scientifiques de faire le lien entre l'\u00c3\u00a9volution globale et la balance \u00c3\u00a9nerg\u00c3\u00a9tique et les \u00c3\u00a9l\u00c3\u00a9ments ressources. \nLe SOERE-ACBB est une infrastructure nationale o\u00c3\u00b9 des scientifiques \u00c3\u00a9trangers sont les bienvenus et peuvent b\u00c3\u00a9n\u00c3\u00a9ficier de l'exp\u00c3\u00a9rience et des connaissances acquises. Il a \u00c3\u00a9t\u00c3\u00a9 impliqu\u00c3\u00a9 dans de nombreux projets internationaux tels que le \u00c2\u00ab  Global Research Alliance and the International soil warming experiment networket \u00c2\u00bb est toujours un partenaire dans un certain nombre de projets en cours tels que ExpeER, AnimalChange, Ecofinders et Multisward."
+       }
+      }
+     }
+    },
+    "gmd:pointOfContact": [
+     {
+      "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+      "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+      "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+      "gmd:CI_ResponsibleParty": {
+       "gmd:individualName": {
+        "gco:CharacterString": "Abad CHABBI"
+       },
+       "gmd:organisationName": {
+        "gco:CharacterString": "INRA"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+33 5 49 55 61 78"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+33 5 49 55 60 68"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "INRA"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Lusignan"
+           },
+           "gmd:administrativeArea": {
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "86600"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "France"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "abad.chabbi@lusignan.inra.fr"
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "./resources/codeList.xml#CI_RoleCode",
+         "@codeListValue": "pointOfContact"
+        }
+       }
+      }
+     },
+     {
+      "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+      "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+      "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+      "gmd:CI_ResponsibleParty": {
+       "gmd:individualName": {
+        "gco:CharacterString": "Bruno MARY"
+       },
+       "gmd:organisationName": {
+        "gco:CharacterString": "INRA"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+33 3 23 24 07 71"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+33 3 23 24 07 76"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "INRA 2 chauss\u00c3\u00a9e Brunehaut - Estr\u00c3\u00a9es-Mons"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Peronne Cedex"
+           },
+           "gmd:administrativeArea": {
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "80203"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "France"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "bruno.mary@laon.inra.fr"
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "./resources/codeList.xml#CI_RoleCode",
+         "@codeListValue": "pointOfContact"
+        }
+       }
+      }
+     },
+     {
+      "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+      "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+      "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+      "gmd:CI_ResponsibleParty": {
+       "gmd:individualName": {
+        "gco:CharacterString": "Pascal CARR\u00c3\u02c6RE"
+       },
+       "gmd:organisationName": {
+        "gco:CharacterString": "INRA"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+33 4 73 62 44 35"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+33 4 73 62 44 57"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "INRA Site de Crouel 5 Chemin de Beaulieu"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Clermont-Ferrand"
+           },
+           "gmd:administrativeArea": {
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "63039 cedex 02"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "France"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "pascal.carrere@clermont.inra.fr"
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "./resources/codeList.xml#CI_RoleCode",
+         "@codeListValue": "pointOfContact"
+        }
+       }
+      }
+     }
+    ],
+    "gmd:resourceMaintenance": {
+     "gmd:MD_MaintenanceInformation": {
+      "gmd:maintenanceAndUpdateFrequency": {
+       "gmd:MD_MaintenanceFrequencyCode": {
+        "@codeListValue": "asNeeded",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"
+       }
+      }
+     }
+    },
+    "gmd:graphicOverview": {
+     "gmd:MD_BrowseGraphic": {
+      "gmd:fileName": {
+       "gco:CharacterString": "http://w3.avignon.inra.fr:80/geonetwork_anaee/srv/eng/resources.get?uuid=32367bcf-e2d5-4cf3-92bb-b1734fa670a2&fname=SOERE_ACBB.png"
+      },
+      "gmd:fileDescription": {
+       "gco:CharacterString": "large_thumbnail"
+      },
+      "gmd:fileType": {
+       "gco:CharacterString": "png"
+      }
+     }
+    },
+    "gmd:descriptiveKeywords": [
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": [
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "arable land",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "terres arables"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "biogeochemical cycle",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "cycles biog\u00c3\u00a9ochimiques"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "land use",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "occupation du sol"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "plant",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "plante"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "animals",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "animaux"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "climate change",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "microbial diversity",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "diversit\u00c3\u00a9 microbienne"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "biodiversity",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "biodiversit\u00c3\u00a9"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "permanent grassland",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "prairie permanente"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "mowing",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "fauchage"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "grassland",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "prairie"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "greenhouse gas",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "gaz \u00c3\u00a0 effet de serre"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "soil organic matter",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "mati\u00c3\u00a8re organique du sol"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "crop",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "culture"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "long term monitoring",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "surveillance \u00c3\u00a0 long terme"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "grazing",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "p\u00c3\u00a2turage"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "experimentation",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "exp\u00c3\u00a9rimentation"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "AnaEE-France",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "AnaEE-France"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "agro-ecosystem",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "agro-\u00c3\u00a9cosyst\u00c3\u00a8me"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "Potassium",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "Potassium"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "anthropogenic disturbances",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "perturbations anthropiques"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "long term experiment",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "exp\u00c3\u00a9rimentation long terme"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "management practices",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "technique de gestion"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "Nitrogen",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "Azote"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "Carbon",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "Carbone"
+           }
+          }
+         }
+        }
+       ],
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "theme.anaeeThes.rdf"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2017-05-30"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=external.theme.anaeeThes",
+             "#text": "geonetwork.thesaurus.external.theme.anaeeThes"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "Environmental monitoring facilities",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "Installations de suivi environnemental"
+          }
+         }
+        }
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "GEMET - INSPIRE themes, version 1.0 INSPIRE themes"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2008-06-01"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=external.theme.inspire-theme",
+             "#text": "geonetwork.thesaurus.external.theme.inspire-theme"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "France",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "France"
+          }
+         }
+        }
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "place"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "AnaEE-France Locations"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2017-03-29"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=local.place.anaee-france_locations",
+             "#text": "geonetwork.thesaurus.local.place.anaee-france_locations"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    ],
+    "gmd:resourceConstraints": {
+     "gmd:MD_LegalConstraints": {
+      "gmd:useLimitation": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "See AnaEE-France charters."
+      },
+      "gmd:accessConstraints": {
+       "gmd:MD_RestrictionCode": {
+        "@codeListValue": "intellectualPropertyRights",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+       }
+      },
+      "gmd:useConstraints": {
+       "gmd:MD_RestrictionCode": {
+        "@codeListValue": "intellectualPropertyRights",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+       }
+      }
+     }
+    },
+    "gmd:spatialResolution": {
+     "gmd:MD_Resolution": {
+      "gmd:equivalentScale": {
+       "gmd:MD_RepresentativeFraction": {
+        "gmd:denominator": {
+         "gco:Integer": "50000"
+        }
+       }
+      }
+     }
+    },
+    "gmd:language": {
+     "gmd:LanguageCode": {
+      "@codeList": "http://www.loc.gov/standards/iso639-2/",
+      "@codeListValue": "eng"
+     }
+    },
+    "gmd:characterSet": {
+     "gmd:MD_CharacterSetCode": {
+      "@codeListValue": "utf8",
+      "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+     }
+    },
+    "gmd:topicCategory": {
+     "gmd:MD_TopicCategoryCode": "structure"
+    },
+    "gmd:extent": [
+     {
+      "gmd:EX_Extent": {
+       "gmd:temporalElement": {
+        "gmd:EX_TemporalExtent": {
+         "gmd:extent": {
+          "gml:TimePeriod": {
+           "@gml:id": "d148196e576a1052958",
+           "gml:beginPosition": "2005-01-01",
+           "gml:endPosition": {
+            "@indeterminatePosition": "now"
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:EX_Extent": {
+       "@xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+       "gmd:description": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "France"
+       },
+       "gmd:geographicElement": {
+        "gmd:EX_GeographicBoundingBox": {
+         "gmd:westBoundLongitude": {
+          "gco:Decimal": "0.08"
+         },
+         "gmd:eastBoundLongitude": {
+          "gco:Decimal": "3.03"
+         },
+         "gmd:southBoundLatitude": {
+          "gco:Decimal": "45.64"
+         },
+         "gmd:northBoundLatitude": {
+          "gco:Decimal": "49.88"
+         }
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  "gmd:distributionInfo": {
+   "gmd:MD_Distribution": {
+    "gmd:distributionFormat": {
+     "gmd:MD_Format": {
+      "gmd:name": {
+       "gco:CharacterString": "inapplicable"
+      },
+      "gmd:version": {
+       "gco:CharacterString": "inapplicable"
+      }
+     }
+    },
+    "gmd:transferOptions": {
+     "gmd:MD_DigitalTransferOptions": {
+      "gmd:onLine": {
+       "gmd:CI_OnlineResource": {
+        "gmd:linkage": {
+         "gmd:URL": "http://www.soere-acbb.com"
+        },
+        "gmd:protocol": {
+         "gco:CharacterString": "WWW:LINK-1.0-http--link"
+        },
+        "gmd:name": {
+         "gco:CharacterString": "SOERE ACBB website"
+        },
+        "gmd:description": {
+         "@gco:nilReason": "missing",
+         "gco:CharacterString": null
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "gmd:dataQualityInfo": {
+   "gmd:DQ_DataQuality": {
+    "gmd:scope": {
+     "gmd:DQ_Scope": {
+      "gmd:level": {
+       "gmd:MD_ScopeCode": {
+        "@codeListValue": "dataset",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode"
+       }
+      }
+     }
+    },
+    "gmd:report": {
+     "gmd:DQ_DomainConsistency": {
+      "gmd:result": {
+       "gmd:DQ_ConformanceResult": {
+        "gmd:specification": {
+         "gmd:CI_Citation": {
+          "gmd:title": {
+           "gco:CharacterString": "Commission Regulation (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services"
+          },
+          "gmd:date": {
+           "gmd:CI_Date": {
+            "gmd:date": {
+             "gco:Date": "2010-12-08"
+            },
+            "gmd:dateType": {
+             "gmd:CI_DateTypeCode": {
+              "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+              "@codeListValue": "publication"
+             }
+            }
+           }
+          }
+         }
+        },
+        "gmd:explanation": {
+         "gco:CharacterString": "Not evaluated"
+        }
+       }
+      }
+     }
+    },
+    "gmd:lineage": {
+     "gmd:LI_Lineage": {
+      "gmd:statement": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "The ACBB facility was labelled ORE ACBB in 2005 by the Research Ministry, then SO ACBB by the Comit\u00c3\u00a9 Inter-Organismes (CIO) in 2009, and finally SOERE ACBB by the Alliance Nationale de Recherche pour l'Environnement (AllEnvi) in 2011.",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "Le dispositif ACBB \u00c3\u00a9t\u00c3\u00a9 labellis\u00c3\u00a9 comme ORE ACBB en 2005 par le Minist\u00c3\u00a8re de la Recherche, puis en SO ACBB par le Comit\u00c3\u00a9 Inter-Organismes (CIO) en 2009, et enfin en SOERE ACBB par l\u00e2\u20ac\u2122Alliance Nationale de Recherche pour l'Environnement (AllEnvi) en 2011."
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

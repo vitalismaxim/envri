@@ -203,11 +203,12 @@ def topic_miner(data, lda_passes = 50):
     return data
 
 
-domain_vars = open_file('C:/Users/xiemp/Documents/afstudeer/features/domain_variables.json')
+#domain_vars = open_file('domain_variables.json')
 
 
-def domain(data, threshold = 0):
-    domain_variables = domain_vars['ocean']
+def domain(data, domain_vars, threshold = 0):
+    domain = open_file(domain_vars)
+    domain_variables = domain['vars']
     value_list = []
     try: value_list.append(data['description']) 
     except: pass

@@ -57,7 +57,7 @@ class DatasetIndex:
         self.full_list = []
 
         # Default files
-        self.feature_config_file.set("envri_config.json")
+        self.feature_config_file.set("domain_vocabularies.json")
         self.domain_vars_file.set("domain_variables.json")
         self.metadata_directory.set("No directory choosen")
         self.save_directory.set("No directory choosen")
@@ -101,14 +101,14 @@ class DatasetIndex:
         self.save_folder = tk.Label(self.window, textvariable = self.save_directory)
 
         # Config file
-        self.config_button_download = tk.Button(self.window, text = "Config file Download", command = self.save_config)
-        self.config_button_upload = tk.Button(self.window, text = "Config file Upload", command = self.choose_folder_config)
+        self.config_button_download = tk.Button(self.window, text = "Domain Vocabularies Download", command = self.save_config)
+        self.config_button_upload = tk.Button(self.window, text = "Domain Vocabularies Upload", command = self.choose_folder_config)
         self.config_file_label2 = tk.Label(self.window, textvariable = self.feature_config_file)
         self.config_file_label = tk.Label(self.window, text = "Config file loaded:", font = 'bold')
         
         # Domain vars
-        self.domain_button_download = tk.Button(self.window, text = "Domain variables Download", command = self.save_domain)
-        self.domain_button_upload = tk.Button(self.window, text = "Domain variables Upload", command = self.choose_folder_domain)
+        self.domain_button_download = tk.Button(self.window, text = "Essential Domain variables Download", command = self.save_domain)
+        self.domain_button_upload = tk.Button(self.window, text = "Essential Domain variables Upload", command = self.choose_folder_domain)
         self.domain_file2 = tk.Label(self.window, text = 'Domain variables loaded:', font = 'bold')
         self.domain_file = tk.Label(self.window, textvariable = self.domain_vars_file)
 
@@ -389,7 +389,7 @@ class DatasetIndex:
 
                 value_dict = self.rule_file.run_funcs(value_dict)
                 value_dict = topic_miner(value_dict)
-                value_dict = domain(value_dict, self.essential_vars_threshold.get())
+                value_dict = domain(value_dict, self.domain_vars_file.get(), self.essential_vars_threshold.get())
                 write_file(directory + '/' + basename(file) + ".json", value_dict)
         self.file_process_status.set('Processing complete!')
         

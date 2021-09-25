@@ -1,0 +1,577 @@
+{
+ "gmd:MD_Metadata": {
+  "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+  "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+  "@xmlns:gts": "http://www.isotc211.org/2005/gts",
+  "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xmlns:gml": "http://www.opengis.net/gml",
+  "@xmlns:geonet": "http://www.fao.org/geonetwork",
+  "gmd:fileIdentifier": {
+   "gco:CharacterString": "1ff61781-5c3b-4680-97e1-47ed1e8a6dff"
+  },
+  "gmd:language": {
+   "gmd:LanguageCode": {
+    "@codeList": "http://www.loc.gov/standards/iso639-2/",
+    "@codeListValue": "eng"
+   }
+  },
+  "gmd:characterSet": {
+   "gmd:MD_CharacterSetCode": {
+    "@codeListValue": "utf8",
+    "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+   }
+  },
+  "gmd:hierarchyLevel": {
+   "gmd:MD_ScopeCode": {
+    "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode",
+    "@codeListValue": "dataset"
+   }
+  },
+  "gmd:contact": {
+   "gmd:CI_ResponsibleParty": {
+    "gmd:individualName": {
+     "gco:CharacterString": "Philippe VANDENKOORNHUYSE"
+    },
+    "gmd:organisationName": {
+     "gco:CharacterString": "Universit\u00c3\u00a9 Rennes 1"
+    },
+    "gmd:contactInfo": {
+     "gmd:CI_Contact": {
+      "gmd:phone": {
+       "gmd:CI_Telephone": {
+        "gmd:voice": {
+         "@gco:nilReason": "missing",
+         "gco:CharacterString": null
+        },
+        "gmd:facsimile": {
+         "@gco:nilReason": "missing",
+         "gco:CharacterString": null
+        }
+       }
+      },
+      "gmd:address": {
+       "gmd:CI_Address": {
+        "gmd:deliveryPoint": {
+         "gco:CharacterString": "Campus de Beaulieu - 263 avenue du G\u00c3\u00a9n\u00c3\u00a9ral Leclerc"
+        },
+        "gmd:city": {
+         "gco:CharacterString": "Rennes Cedex"
+        },
+        "gmd:administrativeArea": {
+         "@gco:nilReason": "missing",
+         "gco:CharacterString": null
+        },
+        "gmd:postalCode": {
+         "gco:CharacterString": "35042"
+        },
+        "gmd:country": {
+         "gco:CharacterString": "France"
+        },
+        "gmd:electronicMailAddress": {
+         "gco:CharacterString": "philippe.vandenkoornhuyse@univ-rennes1.fr"
+        }
+       }
+      }
+     }
+    },
+    "gmd:role": {
+     "gmd:CI_RoleCode": {
+      "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode",
+      "@codeListValue": "pointOfContact"
+     }
+    }
+   }
+  },
+  "gmd:dateStamp": {
+   "gco:DateTime": "2021-03-16T12:10:01"
+  },
+  "gmd:metadataStandardName": {
+   "gco:CharacterString": "ISO 19115:2003/19139"
+  },
+  "gmd:metadataStandardVersion": {
+   "gco:CharacterString": "1.0"
+  },
+  "gmd:locale": {
+   "gmd:PT_Locale": {
+    "@id": "FR",
+    "gmd:languageCode": {
+     "gmd:LanguageCode": {
+      "@codeList": "http://www.loc.gov/standards/iso639-2/",
+      "@codeListValue": "fre"
+     }
+    },
+    "gmd:characterEncoding": {
+     "gmd:MD_CharacterSetCode": {
+      "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode",
+      "@codeListValue": "utf8"
+     }
+    }
+   }
+  },
+  "gmd:referenceSystemInfo": {
+   "gmd:MD_ReferenceSystem": {
+    "gmd:referenceSystemIdentifier": {
+     "gmd:RS_Identifier": {
+      "gmd:code": {
+       "gco:CharacterString": "WGS 84 (EPSG:4326)"
+      }
+     }
+    }
+   }
+  },
+  "gmd:identificationInfo": {
+   "gmd:MD_DataIdentification": {
+    "gmd:citation": {
+     "gmd:CI_Citation": {
+      "gmd:title": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "EcogenO",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "EcogenO"
+         }
+        }
+       }
+      },
+      "gmd:date": {
+       "gmd:CI_Date": {
+        "gmd:date": {
+         "gco:Date": null
+        },
+        "gmd:dateType": {
+         "gmd:CI_DateTypeCode": {
+          "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+          "@codeListValue": "creation"
+         }
+        }
+       }
+      },
+      "gmd:identifier": {
+       "gmd:MD_Identifier": {
+        "gmd:code": {
+         "gco:CharacterString": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/catalog.search#/metadata/1ff61781-5c3b-4680-97e1-47ed1e8a6dff"
+        }
+       }
+      }
+     }
+    },
+    "gmd:abstract": {
+     "@xsi:type": "gmd:PT_FreeText_PropertyType",
+     "gco:CharacterString": "The EcogenO platform, specialised in environmental genomics, offers original thinking and promotes the transfer of knowledge and expertise in the field.\n\nThis platform enables projects for large-scale amplicon production and their analysis by sequencing, as well as RNASeq, ChipSeq or DNASeq projects.\n\nEquipped with 2nd generation NGS sequencers (Illumina) and a large number of satellite equipment required for sample preparation, the EcogenO platform offers the implementation and support of sequencing projects, from library preparation to primary bioinformatics data analysis.\n\nIn addition, the presence on the EcogenO platform of very high throughput quantitative PCR and genotyping equipment, unique in France (Smartchip system, Takara), offers the scientific community a capacity for project management for functional analyses (qPCR and RT-qPCR, dPCR) and SNP genotyping.\n\nEcogenO has a large storage and analysis capacity for SNP data, enabling the development of bioinformatics analyses, specific to a project or an application in a collaborative mode.\nThe scientific community can apply for an access to some of this equipment, after training and accreditation by the staff.",
+     "gmd:PT_FreeText": {
+      "gmd:textGroup": {
+       "gmd:LocalisedCharacterString": {
+        "@locale": "#FR",
+        "#text": "La plate-forme EcogenO, sp\u00c3\u00a9cialis\u00c3\u00a9e dans la g\u00c3\u00a9nomique environnementale, offre des r\u00c3\u00a9flexions originales et promeut le transfert de connaissances et de savoir-faire dans le domaine.\n\nCette plate-forme permet de r\u00c3\u00a9aliser des projets de production d\u00e2\u20ac\u2122amplicons \u00c3\u00a0 grande \u00c3\u00a9chelle et leur analyse par s\u00c3\u00a9quen\u00c3\u00a7age, des projets de RNASeq, ChipSeq ou encore DNASeq.\n\nDot\u00c3\u00a9e de s\u00c3\u00a9quenceurs NGS de 2\u00c3\u00a8me g\u00c3\u00a9n\u00c3\u00a9ration (Illumina) et d'un grand nombre d'\u00c3\u00a9quipements satellites n\u00c3\u00a9cessaires \u00c3\u00a0 la pr\u00c3\u00a9paration des \u00c3\u00a9chantillons, la plate-forme EcogenO propose la r\u00c3\u00a9alisation et l'accompagnement dans les projets de s\u00c3\u00a9quen\u00c3\u00a7age, de la pr\u00c3\u00a9paration des librairies jusqu'\u00c3\u00a0 l'analyse primaire bio-informatique des donn\u00c3\u00a9es.\n\nDe plus, la pr\u00c3\u00a9sence sur la plate-forme EcogenO d\u00e2\u20ac\u2122un \u00c3\u00a9quipement de PCR quantitative et de g\u00c3\u00a9notypage tr\u00c3\u00a8s haut d\u00c3\u00a9bit, unique en France (Smartchip system, Takara), offre \u00c3\u00a0 la communaut\u00c3\u00a9 scientifique une capacit\u00c3\u00a9 de conduite de projet pour des analyses fonctionnelles (qPCR et RT-qPCR, dPCR) et du g\u00c3\u00a9notypage SNP.\n\nEcogenO dispose d\u00e2\u20ac\u2122une grande capacit\u00c3\u00a9 de stockage et d\u00e2\u20ac\u2122analyses des donn\u00c3\u00a9es NGS permettant de d\u00c3\u00a9velopper des analyses bio-informatiques, sp\u00c3\u00a9cifiques \u00c3\u00a0 un projet ou une application sur un mode collaboratif.\n\nCertains de ces \u00c3\u00a9quipements sont mis \u00c3\u00a0 disposition de la communaut\u00c3\u00a9 scientifique \u00c3\u00a0 proximit\u00c3\u00a9 de la plate-forme, apr\u00c3\u00a8s formation et habilitation par le personnel."
+       }
+      }
+     }
+    },
+    "gmd:pointOfContact": {
+     "gmd:CI_ResponsibleParty": {
+      "gmd:individualName": {
+       "gco:CharacterString": "Philippe VANDENKOORNHUYSE"
+      },
+      "gmd:organisationName": {
+       "gco:CharacterString": "Universit\u00c3\u00a9 Rennes 1"
+      },
+      "gmd:contactInfo": {
+       "gmd:CI_Contact": {
+        "gmd:phone": {
+         "gmd:CI_Telephone": {
+          "gmd:voice": {
+           "@gco:nilReason": "missing",
+           "gco:CharacterString": null
+          },
+          "gmd:facsimile": {
+           "@gco:nilReason": "missing",
+           "gco:CharacterString": null
+          }
+         }
+        },
+        "gmd:address": {
+         "gmd:CI_Address": {
+          "gmd:deliveryPoint": {
+           "gco:CharacterString": "Campus de Beaulieu - 263 avenue du G\u00c3\u00a9n\u00c3\u00a9ral Leclerc"
+          },
+          "gmd:city": {
+           "gco:CharacterString": "Rennes Cedex"
+          },
+          "gmd:administrativeArea": {
+           "@gco:nilReason": "missing",
+           "gco:CharacterString": null
+          },
+          "gmd:postalCode": {
+           "gco:CharacterString": "35042"
+          },
+          "gmd:country": {
+           "gco:CharacterString": "France"
+          },
+          "gmd:electronicMailAddress": {
+           "gco:CharacterString": "philippe.vandenkoornhuyse@univ-rennes1.fr"
+          }
+         }
+        }
+       }
+      },
+      "gmd:role": {
+       "gmd:CI_RoleCode": {
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode",
+        "@codeListValue": "pointOfContact"
+       }
+      }
+     }
+    },
+    "gmd:resourceMaintenance": {
+     "gmd:MD_MaintenanceInformation": {
+      "gmd:maintenanceAndUpdateFrequency": {
+       "gmd:MD_MaintenanceFrequencyCode": {
+        "@codeListValue": "asNeeded",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"
+       }
+      }
+     }
+    },
+    "gmd:descriptiveKeywords": [
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "@gco:nilReason": "missing",
+        "gco:CharacterString": null
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "theme.anaeeThes.rdf"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2018-07-12"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=external.theme.anaeeThes",
+             "#text": "geonetwork.thesaurus.external.theme.anaeeThes"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "Environmental monitoring facilities",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "Installations de suivi environnemental"
+          }
+         }
+        }
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "GEMET - INSPIRE themes, version 1.0 INSPIRE themes"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2008-06-01"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=external.theme.inspire-theme",
+             "#text": "geonetwork.thesaurus.external.theme.inspire-theme"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "@gco:nilReason": "missing",
+        "gco:CharacterString": null
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "place"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "AnaEE-France Locations"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2018-07-12"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=local.place.anaee-france_locations",
+             "#text": "geonetwork.thesaurus.local.place.anaee-france_locations"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    ],
+    "gmd:resourceConstraints": {
+     "gmd:MD_LegalConstraints": {
+      "gmd:useLimitation": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "See AnaEE-France charters.",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "Voir les chartes AnaEE-France."
+         }
+        }
+       }
+      },
+      "gmd:accessConstraints": {
+       "gmd:MD_RestrictionCode": {
+        "@codeListValue": "intellectualPropertyRights",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+       }
+      },
+      "gmd:useConstraints": {
+       "gmd:MD_RestrictionCode": {
+        "@codeListValue": "intellectualPropertyRights",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+       }
+      }
+     }
+    },
+    "gmd:spatialResolution": {
+     "gmd:MD_Resolution": {
+      "gmd:equivalentScale": {
+       "gmd:MD_RepresentativeFraction": {
+        "gmd:denominator": {
+         "gco:Integer": "50000"
+        }
+       }
+      }
+     }
+    },
+    "gmd:language": {
+     "gmd:LanguageCode": {
+      "@codeList": "http://www.loc.gov/standards/iso639-2/",
+      "@codeListValue": "eng"
+     }
+    },
+    "gmd:characterSet": {
+     "gmd:MD_CharacterSetCode": {
+      "@codeListValue": "utf8",
+      "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+     }
+    },
+    "gmd:topicCategory": {
+     "gmd:MD_TopicCategoryCode": "structure"
+    },
+    "gmd:extent": [
+     {
+      "gmd:EX_Extent": {
+       "gmd:temporalElement": {
+        "gmd:EX_TemporalExtent": {
+         "gmd:extent": {
+          "gml:TimePeriod": {
+           "@gml:id": "d1204135e382a1050910",
+           "gml:beginPosition": null,
+           "gml:endPosition": {
+            "@indeterminatePosition": "now"
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:EX_Extent": {
+       "@xmlns:xs": "http://www.w3.org/2001/XMLSchema"
+      }
+     }
+    ]
+   }
+  },
+  "gmd:distributionInfo": {
+   "@xmlns:date": "http://exslt.org/dates-and-times",
+   "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+   "gmd:MD_Distribution": {
+    "gmd:distributionFormat": {
+     "gmd:MD_Format": {
+      "gmd:name": {
+       "gco:CharacterString": "inapplicable"
+      },
+      "gmd:version": {
+       "gco:CharacterString": "inapplicable"
+      }
+     }
+    },
+    "gmd:transferOptions": {
+     "gmd:MD_DigitalTransferOptions": {
+      "gmd:onLine": {
+       "gmd:CI_OnlineResource": {
+        "gmd:linkage": {
+         "gmd:URL": "https://ecogeno.univ-rennes1.fr/"
+        },
+        "gmd:protocol": {
+         "gco:CharacterString": "WWW:LINK-1.0-http--link"
+        },
+        "gmd:name": {
+         "gco:CharacterString": "web site",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "site web"
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "gmd:dataQualityInfo": {
+   "gmd:DQ_DataQuality": {
+    "gmd:scope": {
+     "gmd:DQ_Scope": {
+      "gmd:level": {
+       "gmd:MD_ScopeCode": {
+        "@codeListValue": "dataset",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode"
+       }
+      },
+      "gmd:levelDescription": null
+     }
+    },
+    "gmd:report": {
+     "gmd:DQ_DomainConsistency": {
+      "gmd:result": {
+       "gmd:DQ_ConformanceResult": {
+        "gmd:specification": {
+         "gmd:CI_Citation": {
+          "gmd:title": {
+           "gco:CharacterString": "Commission Regulation (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services",
+           "gmd:PT_FreeText": {
+            "gmd:textGroup": {
+             "gmd:LocalisedCharacterString": {
+              "@locale": "#FR",
+              "#text": "Commission Regulation (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services"
+             }
+            }
+           }
+          },
+          "gmd:date": {
+           "gmd:CI_Date": {
+            "gmd:date": {
+             "gco:Date": "2010-12-08"
+            },
+            "gmd:dateType": {
+             "gmd:CI_DateTypeCode": {
+              "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+              "@codeListValue": "publication"
+             }
+            }
+           }
+          }
+         }
+        },
+        "gmd:explanation": {
+         "gco:CharacterString": "Not evaluated"
+        },
+        "#text": "undefined"
+       }
+      }
+     }
+    },
+    "gmd:lineage": {
+     "gmd:LI_Lineage": {
+      "gmd:statement": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "no information",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "pas d'information"
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

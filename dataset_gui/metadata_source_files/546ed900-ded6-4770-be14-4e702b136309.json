@@ -1,0 +1,958 @@
+{
+ "gmd:MD_Metadata": {
+  "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+  "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+  "@xmlns:gts": "http://www.isotc211.org/2005/gts",
+  "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xmlns:gml": "http://www.opengis.net/gml",
+  "@xmlns:geonet": "http://www.fao.org/geonetwork",
+  "gmd:fileIdentifier": {
+   "gco:CharacterString": "546ed900-ded6-4770-be14-4e702b136309"
+  },
+  "gmd:language": {
+   "gmd:LanguageCode": {
+    "@codeList": "http://www.loc.gov/standards/iso639-2/",
+    "@codeListValue": "eng"
+   }
+  },
+  "gmd:characterSet": {
+   "gmd:MD_CharacterSetCode": {
+    "@codeListValue": "utf8",
+    "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+   }
+  },
+  "gmd:hierarchyLevel": {
+   "gmd:MD_ScopeCode": {
+    "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode",
+    "@codeListValue": "dataset"
+   }
+  },
+  "gmd:contact": {
+   "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+   "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+   "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+   "gmd:CI_ResponsibleParty": {
+    "gmd:individualName": {
+     "gco:CharacterString": "G\u00c3\u00a9rard LACROIX"
+    },
+    "gmd:organisationName": {
+     "gco:CharacterString": "CNRS"
+    },
+    "gmd:contactInfo": {
+     "gmd:CI_Contact": {
+      "gmd:phone": {
+       "gmd:CI_Telephone": {
+        "gmd:voice": {
+         "gco:CharacterString": "+33 1 60 51 55 63"
+        }
+       }
+      },
+      "gmd:address": {
+       "gmd:CI_Address": {
+        "gmd:deliveryPoint": {
+         "gco:CharacterString": "11, chemin de Busseau"
+        },
+        "gmd:city": {
+         "gco:CharacterString": "Saint-Pierre-L\u00c3\u00a8s-Nemours"
+        },
+        "gmd:administrativeArea": {
+         "gco:CharacterString": null
+        },
+        "gmd:postalCode": {
+         "gco:CharacterString": "77140"
+        },
+        "gmd:country": {
+         "gco:CharacterString": "France"
+        },
+        "gmd:electronicMailAddress": {
+         "gco:CharacterString": "planaqua@biologie.ens.fr"
+        }
+       }
+      }
+     }
+    },
+    "gmd:role": {
+     "gmd:CI_RoleCode": {
+      "@codeList": "./resources/codeList.xml#CI_RoleCode",
+      "@codeListValue": "pointOfContact"
+     }
+    }
+   }
+  },
+  "gmd:dateStamp": {
+   "gco:DateTime": "2021-02-04T18:47:07"
+  },
+  "gmd:metadataStandardName": {
+   "gco:CharacterString": "ISO 19115:2003/19139"
+  },
+  "gmd:metadataStandardVersion": {
+   "gco:CharacterString": "1.0"
+  },
+  "gmd:locale": {
+   "gmd:PT_Locale": {
+    "@id": "FR",
+    "gmd:languageCode": {
+     "gmd:LanguageCode": {
+      "@codeList": "http://www.loc.gov/standards/iso639-2/",
+      "@codeListValue": "fre"
+     }
+    },
+    "gmd:characterEncoding": null
+   }
+  },
+  "gmd:referenceSystemInfo": {
+   "gmd:MD_ReferenceSystem": {
+    "gmd:referenceSystemIdentifier": {
+     "gmd:RS_Identifier": {
+      "gmd:code": {
+       "gco:CharacterString": "WGS 84 (EPSG:4326)"
+      }
+     }
+    }
+   }
+  },
+  "gmd:identificationInfo": {
+   "gmd:MD_DataIdentification": {
+    "gmd:citation": {
+     "gmd:CI_Citation": {
+      "gmd:title": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "PLANAQUA",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "PLANAQUA"
+         }
+        }
+       }
+      },
+      "gmd:date": {
+       "gmd:CI_Date": {
+        "gmd:date": {
+         "gco:Date": "2011-02-22"
+        },
+        "gmd:dateType": {
+         "gmd:CI_DateTypeCode": {
+          "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+          "@codeListValue": "creation"
+         }
+        }
+       }
+      },
+      "gmd:identifier": [
+       {
+        "gmd:MD_Identifier": {
+         "gmd:code": {
+          "gco:CharacterString": "http://w3.avignon.inra.fr/geonetwork_anaee/546ed900-ded6-4770-be14-4e702b136309"
+         }
+        }
+       },
+       {
+        "gmd:MD_Identifier": {
+         "gmd:code": {
+          "gco:CharacterString": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/catalog.search#/metadata/546ed900-ded6-4770-be14-4e702b136309"
+         }
+        }
+       }
+      ]
+     }
+    },
+    "gmd:abstract": {
+     "@xsi:type": "gmd:PT_FreeText_PropertyType",
+     "gco:CharacterString": "PLANAQUA is the National experimental platform in Aquatic Ecology .\n\nIt consists of 3 levels of research platforms :\n\nMicrocosms, from one to several litres of volume, can be used in the plankton-dedicated laboratory to set up continuous cultures experiments. They can also be used in the climatic chambers of the Ecotron IleDeFrance, a device that allows the precise conditioning of the environment and the detailed monitoring of states and activities of organisms and ecosystems. Microcosms allow studying plankton communities in marine or freshwater ecosystems under highly controlled environmental conditions such as temperature, irradiance, nutrients, and gas concentrations. A series of dedicated sensors enables  monitoring of gas exchange (O2 and CO2) between the air and the water in the experimental system and to follow the related plankton metabolic activity.\n\nMesocosms, with a volume of several cubic metres, have a high degree of replication. They are installed outdoors and equipped with devices for the experimental control of thermal gradients and water mixing. For example, twelve mesocosms are equipped with beaters that generate waves, making it possible to control the physical structure of the water column. These tools have been developed for studying the link between physical constraints and the functioning of aquatic systems. The large volume of these mesocosms (15 m3) makes it possible to house complex communities of organisms.\n\nSixteen artificial lakes of 650 m3 have been conceived for incorporating the natural complexity of the environment and the spatially heterogeneous nature of ecological processes in natural ecosystems. These very large experimental systems, shaped with littoral, benthic and pelagic zones, will be inter-connected to each other by dispersal channels and equipped with automated sensors and data loggers. The artificial lakes will facilitate the studies on the functioning of complex communities with heterogeneous spatial distributions, and will allow understanding and managing the consequences of anthropogenic pressures on biodiversity, up to the species at the top of the food chains.",
+     "gmd:PT_FreeText": {
+      "gmd:textGroup": {
+       "gmd:LocalisedCharacterString": {
+        "@locale": "#FR",
+        "#text": "PLANAQUA est la PLAteforme exp\u00c3\u00a9rimentale Nationale d'\u00c3\u00a9cologie AQUAtique.\n\nElle est form\u00c3\u00a9e de 3 niveaux de plateformes de recherche:\n\nDes microcosmes de 1 \u00c3\u00a0 plusieurs utilisables en conditions extr\u00c3\u00aamement contr\u00c3\u00b4l\u00c3\u00a9es. Ils peuvent \u00c3\u00aatre utilis\u00c3\u00a9s \u00c3\u00a0 l\u00e2\u20ac\u2122\u00c3\u00a9tude du plancton afin de mettre en place des exp\u00c3\u00a9riences avec des cultures en continu. Ils peuvent \u00c3\u00a9galement \u00c3\u00aatre utilis\u00c3\u00a9s dans les chambres climatiques de l\u00e2\u20ac\u2122Ecotron IleDeFrance, un instrument qui permet le conditionnement pr\u00c3\u00a9cis de l\u00e2\u20ac\u2122environnement et la supervision d\u00c3\u00a9taill\u00c3\u00a9e des \u00c3\u00a9tats et des activit\u00c3\u00a9s des organismes et des \u00c3\u00a9cosyst\u00c3\u00a8mes. Les microcosmes permettent l\u00e2\u20ac\u2122\u00c3\u00a9tude des communaut\u00c3\u00a9s planctoniques marines et d\u00e2\u20ac\u2122eau douce avec des conditions environnementales tr\u00c3\u00a8s contr\u00c3\u00b4l\u00c3\u00a9es telles que la temp\u00c3\u00a9rature, l\u00e2\u20ac\u2122irradiance, les nutriments et les concentrations de gaz. Une s\u00c3\u00a9rie de capteurs d\u00c3\u00a9di\u00c3\u00a9s permet le contr\u00c3\u00b4le des \u00c3\u00a9changes gazeux (O2 et CO2) entre l\u00e2\u20ac\u2122air et l\u00e2\u20ac\u2122eau dans le syst\u00c3\u00a8me exp\u00c3\u00a9rimental et de suivre l\u00e2\u20ac\u2122activit\u00c3\u00a9 m\u00c3\u00a9tabolique du plancton.\n\nLes m\u00c3\u00a9socosmes, d\u00e2\u20ac\u2122un volume de plusieurs m3, ont un niveau \u00c3\u00a9lev\u00c3\u00a9 de r\u00c3\u00a9plication. Ils sont install\u00c3\u00a9s en ext\u00c3\u00a9rieur et sont \u00c3\u00a9quip\u00c3\u00a9s de dispositifs pour le contr\u00c3\u00b4le exp\u00c3\u00a9rimental des gradients de temp\u00c3\u00a9rature et pour le brassage des eaux. Par exemple, 12 m\u00c3\u00a9socosmes sont \u00c3\u00a9quip\u00c3\u00a9s de batteurs \u00c3\u00a0 vagues qui permettent de contr\u00c3\u00b4ler la stratification verticale de la colonne d\u00e2\u20ac\u2122eau. Ces outils ont \u00c3\u00a9t\u00c3\u00a9 d\u00c3\u00a9velopp\u00c3\u00a9s pour \u00c3\u00a9tudier le lien entre les contraintes physiques et le fonctionnement des syst\u00c3\u00a8mes aquatiques. Les gros volumes de ces m\u00c3\u00a9socosmes (15 m3) permettent la coexistence de communaut\u00c3\u00a9s complexes d\u00e2\u20ac\u2122organismes vivants.\n\nUn ensemble de 16 lacs artificiels de 650 m3 e \u00c3\u00a9t\u00c3\u00a9 con\u00c3\u00a7u pour incorporer la complexit\u00c3\u00a9 naturelle de l\u00e2\u20ac\u2122environnement et la nature spatialement h\u00c3\u00a9t\u00c3\u00a9rog\u00c3\u00a8ne des processus \u00c3\u00a9cologiques dans les \u00c3\u00a9cosyst\u00c3\u00a8mes naturels. Ces tr\u00c3\u00a8s grands syst\u00c3\u00a8mes exp\u00c3\u00a9rimentaux, cr\u00c3\u00a9\u00c3\u00a9s avec des zones littorales, benthiques et p\u00c3\u00a9lagiques, sont interconnect\u00c3\u00a9s entre eux \u00c3\u00a0 travers des canaux de dispersion et \u00c3\u00a9quip\u00c3\u00a9s avec des capteurs et des enregistreurs. Les lacs artificiels facilitent l\u00e2\u20ac\u2122\u00c3\u00a9tude du fonctionnement de communaut\u00c3\u00a9s complexes ayant des distributions spatiales h\u00c3\u00a9t\u00c3\u00a9rog\u00c3\u00a8nes et permettent la compr\u00c3\u00a9hension et la gestion des cons\u00c3\u00a9quences des pressions anthropog\u00c3\u00a8nes sur la biodiversit\u00c3\u00a9 jusqu\u00e2\u20ac\u2122aux esp\u00c3\u00a8ces situ\u00c3\u00a9es en haut des cha\u00c3\u00aenes trophiques."
+       }
+      }
+     }
+    },
+    "gmd:pointOfContact": {
+     "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+     "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+     "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+     "gmd:CI_ResponsibleParty": {
+      "gmd:individualName": {
+       "gco:CharacterString": "G\u00c3\u00a9rard LACROIX"
+      },
+      "gmd:organisationName": {
+       "gco:CharacterString": "CNRS"
+      },
+      "gmd:contactInfo": {
+       "gmd:CI_Contact": {
+        "gmd:phone": {
+         "gmd:CI_Telephone": {
+          "gmd:voice": {
+           "gco:CharacterString": "+33 1 60 51 55 63"
+          }
+         }
+        },
+        "gmd:address": {
+         "gmd:CI_Address": {
+          "gmd:deliveryPoint": {
+           "gco:CharacterString": "11, chemin de Busseau"
+          },
+          "gmd:city": {
+           "gco:CharacterString": "Saint-Pierre-L\u00c3\u00a8s-Nemours"
+          },
+          "gmd:administrativeArea": {
+           "gco:CharacterString": null
+          },
+          "gmd:postalCode": {
+           "gco:CharacterString": "77140"
+          },
+          "gmd:country": {
+           "gco:CharacterString": "France"
+          },
+          "gmd:electronicMailAddress": {
+           "gco:CharacterString": "planaqua@biologie.ens.fr"
+          }
+         }
+        }
+       }
+      },
+      "gmd:role": {
+       "gmd:CI_RoleCode": {
+        "@codeList": "./resources/codeList.xml#CI_RoleCode",
+        "@codeListValue": "pointOfContact"
+       }
+      }
+     }
+    },
+    "gmd:resourceMaintenance": {
+     "gmd:MD_MaintenanceInformation": {
+      "gmd:maintenanceAndUpdateFrequency": {
+       "gmd:MD_MaintenanceFrequencyCode": {
+        "@codeListValue": "asNeeded",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"
+       }
+      }
+     }
+    },
+    "gmd:graphicOverview": {
+     "gmd:MD_BrowseGraphic": {
+      "gmd:fileName": {
+       "gco:CharacterString": "http://w3.avignon.inra.fr:80/geonetwork_anaee/srv/eng/resources.get?uuid=546ed900-ded6-4770-be14-4e702b136309&fname=Planaqua-small_s.png"
+      },
+      "gmd:fileDescription": {
+       "gco:CharacterString": "thumbnail"
+      },
+      "gmd:fileType": {
+       "gco:CharacterString": "png"
+      }
+     }
+    },
+    "gmd:descriptiveKeywords": [
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": [
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "aquatic ecology",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "\u00c3\u00a9cologie aquatique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "environmental control",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "contr\u00c3\u00b4le environnemental"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "aquatic biology",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "Biologie aquatique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "aquatic mesocosm",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "m\u00c3\u00a9socosme aquatique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "trophic ecology",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "\u00c3\u00a9cologie trophique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "aquatic microbial community",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "communaut\u00c3\u00a9 microbienne aquatique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "microcosm",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "microcosme"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "artificial lakes",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "lacs artificiels"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "control measurements",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "mesure de contr\u00c3\u00b4le"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "aquatic ecosystem",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "\u00c3\u00a9cosyst\u00c3\u00a8me aquatique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "aquatic organism",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "organisme aquatique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "climate control",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "contr\u00c3\u00b4le climatique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "trophic dynamic",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "dynamique trophique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "ecotron",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "\u00c3\u00a9cotron"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "natural environment",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "environnement naturel"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "AnaEE-France",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "AnaEE-France"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "trophic relationships",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "relation trophique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "anthropogenic environment",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "environnement anthropique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "aquatic microbiology",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "microbiologie aquatique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "trophic structure",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "structure trophique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "freshwater",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "eau douce"
+           }
+          }
+         }
+        }
+       ],
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "theme.anaeeThes.rdf"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2017-06-13"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=external.theme.anaeeThes",
+             "#text": "geonetwork.thesaurus.external.theme.anaeeThes"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "Environmental monitoring facilities",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "Installations de suivi environnemental"
+          }
+         }
+        }
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "GEMET - INSPIRE themes, version 1.0 INSPIRE themes"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2008-06-01"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=external.theme.inspire-theme",
+             "#text": "geonetwork.thesaurus.external.theme.inspire-theme"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "Foljuif",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "Foljuif"
+          }
+         }
+        }
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "place"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "AnaEE-France Locations"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2018-07-12"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=local.place.anaee-france_locations",
+             "#text": "geonetwork.thesaurus.local.place.anaee-france_locations"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": [
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "water temp\u00c3\u00a9rature",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "temp\u00c3\u00a9rature de l'eau"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "luminosity in water",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "luminosit\u00c3\u00a9 dans l'eau"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "soil solution Ph",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "ph de la solution du sol"
+           }
+          }
+         }
+        }
+       ],
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "theme.variableAnaEE.rdf"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2017-07-21"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=external.theme.variableAnaEE",
+             "#text": "geonetwork.thesaurus.external.theme.variableAnaEE"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    ],
+    "gmd:resourceConstraints": {
+     "gmd:MD_LegalConstraints": {
+      "gmd:useLimitation": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "See AnaEE-France charters.",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "Voir les chartes AnaEE-France."
+         }
+        }
+       }
+      },
+      "gmd:accessConstraints": {
+       "gmd:MD_RestrictionCode": {
+        "@codeListValue": "restricted",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+       }
+      },
+      "gmd:useConstraints": {
+       "gmd:MD_RestrictionCode": {
+        "@codeListValue": "intellectualPropertyRights",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+       }
+      },
+      "gmd:otherConstraints": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "In case of participation of technical staff of the station during the experiments they must be co-authors of publications.\nThe CEREEP-Ecotron IleDeFrance should be cited in the acknowledgments and / or the materials and methods.",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "En cas de participation du personnel technique de la station lors des exp\u00c3\u00a9riences ils doivent \u00c3\u00aatre mis en co-auteurs des publications. \nLe CEREEP-Ecotron IleDeFrance doit \u00c3\u00aatre cit\u00c3\u00a9 dans les remerciements et/ou dans le mat\u00c3\u00a9riel et m\u00c3\u00a9thodes."
+         }
+        }
+       }
+      }
+     }
+    },
+    "gmd:spatialResolution": {
+     "gmd:MD_Resolution": {
+      "gmd:equivalentScale": {
+       "gmd:MD_RepresentativeFraction": {
+        "gmd:denominator": {
+         "gco:Integer": "50000"
+        }
+       }
+      }
+     }
+    },
+    "gmd:language": {
+     "gmd:LanguageCode": {
+      "@codeList": "http://www.loc.gov/standards/iso639-2/",
+      "@codeListValue": "eng"
+     }
+    },
+    "gmd:characterSet": {
+     "gmd:MD_CharacterSetCode": {
+      "@codeListValue": "utf8",
+      "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+     }
+    },
+    "gmd:topicCategory": {
+     "gmd:MD_TopicCategoryCode": "structure"
+    },
+    "gmd:extent": [
+     {
+      "gmd:EX_Extent": {
+       "gmd:temporalElement": {
+        "gmd:EX_TemporalExtent": {
+         "gmd:extent": {
+          "gml:TimePeriod": {
+           "@gml:id": "d188818e676a1052958",
+           "gml:beginPosition": "2011-02-22",
+           "gml:endPosition": "2019-12-31"
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:EX_Extent": {
+       "@xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+       "gmd:description": {
+        "gco:CharacterString": "Foljuif"
+       },
+       "gmd:geographicElement": {
+        "gmd:EX_GeographicBoundingBox": {
+         "gmd:westBoundLongitude": {
+          "gco:Decimal": "2.58"
+         },
+         "gmd:eastBoundLongitude": {
+          "gco:Decimal": "2.78"
+         },
+         "gmd:southBoundLatitude": {
+          "gco:Decimal": "48.16"
+         },
+         "gmd:northBoundLatitude": {
+          "gco:Decimal": "48.36"
+         }
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  "gmd:distributionInfo": {
+   "gmd:MD_Distribution": {
+    "gmd:distributionFormat": {
+     "gmd:MD_Format": {
+      "gmd:name": {
+       "gco:CharacterString": "inapplicable",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "non pertinent"
+         }
+        }
+       }
+      },
+      "gmd:version": {
+       "gco:CharacterString": "inapplicable"
+      }
+     }
+    },
+    "gmd:transferOptions": {
+     "gmd:MD_DigitalTransferOptions": {
+      "gmd:onLine": {
+       "gmd:CI_OnlineResource": {
+        "gmd:linkage": {
+         "gmd:URL": "https://www.cereep.bio.ens.psl.eu/"
+        },
+        "gmd:protocol": {
+         "gco:CharacterString": "WWW:LINK-1.0-http--link"
+        },
+        "gmd:name": {
+         "gmx:MimeFileType": {
+          "@type": "",
+          "#text": "CEREEP - Ecotron IDF website"
+         }
+        },
+        "gmd:description": {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "Link to the resource",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "Lien vers la ressource"
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "gmd:dataQualityInfo": {
+   "gmd:DQ_DataQuality": {
+    "gmd:scope": {
+     "gmd:DQ_Scope": null
+    },
+    "gmd:report": {
+     "gmd:DQ_DomainConsistency": {
+      "gmd:result": {
+       "gmd:DQ_ConformanceResult": {
+        "gmd:specification": {
+         "gmd:CI_Citation": {
+          "gmd:title": {
+           "gco:CharacterString": "Commission Regulation (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services"
+          },
+          "gmd:date": {
+           "gmd:CI_Date": {
+            "gmd:date": {
+             "gco:Date": "2010-12-08"
+            },
+            "gmd:dateType": {
+             "gmd:CI_DateTypeCode": {
+              "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+              "@codeListValue": "publication"
+             }
+            }
+           }
+          }
+         }
+        },
+        "gmd:explanation": {
+         "gco:CharacterString": "Not evaluated",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "Non \u00c3\u00a9valu\u00c3\u00a9"
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    "gmd:lineage": {
+     "gmd:LI_Lineage": {
+      "gmd:statement": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "PLANAQUA, implemented within the CEREEP-Ecotron IleDeFrance, is an experimental high-level infrastructure oriented towards the study of aquatic systems and competitive vis-\u00c3\u00a0-vis the highest international standards in terms of experimental equipment. This infrastructure provides the scientific community with a set of highly instrumented experimental equipment. \nThe chemostats are functional since 2013 and microcosms in confined environment (Ecotron IDF) were validated in 2014. Mesocosms exist since 2009 and the experimental lakes were filled with water in december 2014 and the long term experiment started in January 2015 and is running since then.\n\nPLANAQUA is a service of AnaEE-France Infrastructure.",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "PLANAQUA, mise en place au sein du CEREEP-Ecotron IleDeFrance, est une infrastructure exp\u00c3\u00a9rimentale de haut niveau, orient\u00c3\u00a9e vers l\u00e2\u20ac\u2122\u00c3\u00a9tude des syst\u00c3\u00a8mes aquatiques et comp\u00c3\u00a9titive vis-\u00c3\u00a0-vis des plus hauts standards internationaux en termes d\u00e2\u20ac\u2122\u00c3\u00a9quipements exp\u00c3\u00a9rimentaux. Cette infrastructure met \u00c3\u00a0 la disposition de la communaut\u00c3\u00a9 scientifique un ensemble d\u00e2\u20ac\u2122\u00c3\u00a9quipements exp\u00c3\u00a9rimentaux fortement instrument\u00c3\u00a9s.\nLes microcosmes de type ch\u00c3\u00a9mostats sont fonctionnels depuis 2013 et les microcosmes en milieu confin\u00c3\u00a9 (Ecotron IDF) sont en phase de validation en 2014. Les m\u00c3\u00a9socosmes existent depuis 2009 et les lacs exp\u00c3\u00a9rimentaux seront mis en eau \u00c3\u00a0 l'\u00c3\u00a9t\u00c3\u00a9 2014.\n\nPLANAQUA est un des services de l'infrastructure AnaEE-France."
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

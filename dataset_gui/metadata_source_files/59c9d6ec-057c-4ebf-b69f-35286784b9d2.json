@@ -1,0 +1,736 @@
+{
+ "gmd:MD_Metadata": {
+  "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+  "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+  "@xmlns:gts": "http://www.isotc211.org/2005/gts",
+  "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xmlns:gml": "http://www.opengis.net/gml",
+  "@xmlns:geonet": "http://www.fao.org/geonetwork",
+  "gmd:fileIdentifier": {
+   "gco:CharacterString": "59c9d6ec-057c-4ebf-b69f-35286784b9d2"
+  },
+  "gmd:language": {
+   "gmd:LanguageCode": {
+    "@codeList": "http://www.loc.gov/standards/iso639-2/",
+    "@codeListValue": "eng"
+   }
+  },
+  "gmd:characterSet": {
+   "gmd:MD_CharacterSetCode": {
+    "@codeListValue": "utf8",
+    "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+   }
+  },
+  "gmd:hierarchyLevel": {
+   "gmd:MD_ScopeCode": {
+    "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode",
+    "@codeListValue": "dataset"
+   }
+  },
+  "gmd:contact": {
+   "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+   "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+   "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+   "gmd:CI_ResponsibleParty": {
+    "gmd:individualName": {
+     "gco:CharacterString": "Fran\u00c3\u00a7ois DE COLIGNY"
+    },
+    "gmd:organisationName": {
+     "gco:CharacterString": "INRA"
+    },
+    "gmd:contactInfo": {
+     "gmd:CI_Contact": {
+      "gmd:phone": {
+       "gmd:CI_Telephone": {
+        "gmd:voice": {
+         "gco:CharacterString": "+33 4 67 61 71 68"
+        },
+        "gmd:facsimile": {
+         "gco:CharacterString": "+33 4 67 61 56 68"
+        }
+       }
+      },
+      "gmd:address": {
+       "gmd:CI_Address": {
+        "gmd:deliveryPoint": {
+         "gco:CharacterString": "INRA 2 place Viala"
+        },
+        "gmd:city": {
+         "gco:CharacterString": "Montpellier Cedex 1"
+        },
+        "gmd:administrativeArea": {
+         "gco:CharacterString": null
+        },
+        "gmd:postalCode": {
+         "gco:CharacterString": "34060"
+        },
+        "gmd:country": {
+         "gco:CharacterString": "France"
+        },
+        "gmd:electronicMailAddress": {
+         "gco:CharacterString": "coligny@cirad.fr"
+        }
+       }
+      }
+     }
+    },
+    "gmd:role": {
+     "gmd:CI_RoleCode": {
+      "@codeList": "./resources/codeList.xml#CI_RoleCode",
+      "@codeListValue": "pointOfContact"
+     }
+    }
+   }
+  },
+  "gmd:dateStamp": {
+   "gco:DateTime": "2021-02-04T18:47:08"
+  },
+  "gmd:metadataStandardName": {
+   "gco:CharacterString": "ISO 19115:2003/19139"
+  },
+  "gmd:metadataStandardVersion": {
+   "gco:CharacterString": "1.0"
+  },
+  "gmd:locale": {
+   "gmd:PT_Locale": {
+    "@id": "FR",
+    "gmd:languageCode": {
+     "gmd:LanguageCode": {
+      "@codeList": "http://www.loc.gov/standards/iso639-2/",
+      "@codeListValue": "fre"
+     }
+    },
+    "gmd:characterEncoding": null
+   }
+  },
+  "gmd:referenceSystemInfo": {
+   "gmd:MD_ReferenceSystem": {
+    "gmd:referenceSystemIdentifier": {
+     "gmd:RS_Identifier": {
+      "gmd:code": {
+       "gco:CharacterString": "WGS 84 (EPSG:4326)"
+      }
+     }
+    }
+   }
+  },
+  "gmd:identificationInfo": {
+   "gmd:MD_DataIdentification": {
+    "gmd:citation": {
+     "gmd:CI_Citation": {
+      "gmd:title": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "CAPSIS (Computer-Aided Projection of Strategies In Silviculture)",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "CAPSIS (Computer-Aided Projection of Strategies In Silviculture)"
+         }
+        }
+       }
+      },
+      "gmd:date": {
+       "gmd:CI_Date": {
+        "gmd:date": {
+         "gco:Date": "1994-01-01"
+        },
+        "gmd:dateType": {
+         "gmd:CI_DateTypeCode": {
+          "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+          "@codeListValue": "creation"
+         }
+        }
+       }
+      },
+      "gmd:identifier": [
+       {
+        "gmd:MD_Identifier": {
+         "gmd:code": {
+          "gco:CharacterString": "http://localhost:8082/geonetwork_anaee/59c9d6ec-057c-4ebf-b69f-35286784b9d2"
+         }
+        }
+       },
+       {
+        "gmd:MD_Identifier": {
+         "gmd:code": {
+          "gco:CharacterString": "http://w3.avignon.inra.fr/geonetwork_anaee/59c9d6ec-057c-4ebf-b69f-35286784b9d2"
+         }
+        }
+       },
+       {
+        "gmd:MD_Identifier": {
+         "gmd:code": {
+          "gco:CharacterString": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/catalog.search#/metadata/59c9d6ec-057c-4ebf-b69f-35286784b9d2"
+         }
+        }
+       }
+      ]
+     }
+    },
+    "gmd:abstract": {
+     "@xsi:type": "gmd:PT_FreeText_PropertyType",
+     "gco:CharacterString": "Capsis is a simulation platform for forestry growth and dynamics models. It is a tool for forest scientists, forest managers and education and has been developed in the AMAP laboratory since 1999. Scientists who designed a forestry model may build a simulator in Capsis with the help of a developer according to the Capsis charter. This charter is accepted by all members and defines clear participation rules. It states that the software kernel is free software and that all the source codes for all the models are shared by all the Capsis modellers, an efficient way to promote mutualization between modellers.",
+     "gmd:PT_FreeText": {
+      "gmd:textGroup": {
+       "gmd:LocalisedCharacterString": {
+        "@locale": "#FR",
+        "#text": "Capsis est une plateforme de simulation pour la croissance foresti\u00c3\u00a8re et les mod\u00c3\u00a8les dynamiques. C'est un outil pour les scientifiques \u00c3\u00a9tudiant la for\u00c3\u00aat et les gestionnaires forestiers, qui a \u00c3\u00a9t\u00c3\u00a9 d\u00c3\u00a9velopp\u00c3\u00a9 \u00c3\u00a9galement \u00c3\u00a0 des fins \u00c3\u00a9ductaives au sein du laboratoire AMAP depuis 1999. Les scientifiques qui ont con\u00c3\u00a7u un mod\u00c3\u00a8le forestier peuvent cr\u00c3\u00a9er un simulateur dans Capsis avec l'aide d'un d\u00c3\u00a9veloppeur en accord avec la charte Capsis. Cette charte est accept\u00c3\u00a9e par tous les membres et d\u00c3\u00a9finit des r\u00c3\u00a8gles de participation claires. Elle \u00c3\u00a9tablit que le noyau logiciel est libre et que tous les codes sources des mod\u00c3\u00a8les sont partag\u00c3\u00a9s par tous les mod\u00c3\u00a9lisateurs de Capsis. Ceci est un moyen efficace pour promouvoir la mutualisation entre mod\u00c3\u00a9lisateurs."
+       }
+      }
+     }
+    },
+    "gmd:pointOfContact": {
+     "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+     "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+     "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+     "gmd:CI_ResponsibleParty": {
+      "gmd:individualName": {
+       "gco:CharacterString": "Fran\u00c3\u00a7ois DE COLIGNY"
+      },
+      "gmd:organisationName": {
+       "gco:CharacterString": "INRA"
+      },
+      "gmd:contactInfo": {
+       "gmd:CI_Contact": {
+        "gmd:phone": {
+         "gmd:CI_Telephone": {
+          "gmd:voice": {
+           "gco:CharacterString": "+33 4 67 61 71 68"
+          },
+          "gmd:facsimile": {
+           "gco:CharacterString": "+33 4 67 61 56 68"
+          }
+         }
+        },
+        "gmd:address": {
+         "gmd:CI_Address": {
+          "gmd:deliveryPoint": {
+           "gco:CharacterString": "INRA 2 place Viala"
+          },
+          "gmd:city": {
+           "gco:CharacterString": "Montpellier Cedex 1"
+          },
+          "gmd:administrativeArea": {
+           "gco:CharacterString": null
+          },
+          "gmd:postalCode": {
+           "gco:CharacterString": "34060"
+          },
+          "gmd:country": {
+           "gco:CharacterString": "France"
+          },
+          "gmd:electronicMailAddress": {
+           "gco:CharacterString": "coligny@cirad.fr"
+          }
+         }
+        }
+       }
+      },
+      "gmd:role": {
+       "gmd:CI_RoleCode": {
+        "@codeList": "./resources/codeList.xml#CI_RoleCode",
+        "@codeListValue": "pointOfContact"
+       }
+      }
+     }
+    },
+    "gmd:resourceMaintenance": {
+     "gmd:MD_MaintenanceInformation": {
+      "gmd:maintenanceAndUpdateFrequency": {
+       "gmd:MD_MaintenanceFrequencyCode": {
+        "@codeListValue": "asNeeded",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"
+       }
+      }
+     }
+    },
+    "gmd:graphicOverview": {
+     "gmd:MD_BrowseGraphic": {
+      "gmd:fileName": {
+       "gco:CharacterString": "http://w3.avignon.inra.fr:80/geonetwork_anaee/srv/eng/resources.get?uuid=59c9d6ec-057c-4ebf-b69f-35286784b9d2&fname=capsis-logo.png"
+      },
+      "gmd:fileDescription": {
+       "gco:CharacterString": "large_thumbnail"
+      },
+      "gmd:fileType": {
+       "gco:CharacterString": "png"
+      }
+     }
+    },
+    "gmd:descriptiveKeywords": [
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": [
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "AnaEE-France",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "AnaEE-France"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "dynamics model",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "mod\u00c3\u00a8le dynamique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "forest",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "for\u00c3\u00aat"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "forestry",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "sylviculture"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "plant growth",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "croissance de la plante"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "modelling",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "mod\u00c3\u00a9lisation"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "modelling platform",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "plateforme de mod\u00c3\u00a9lisation"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "simulation",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "simulation"
+           }
+          }
+         }
+        }
+       ],
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "theme.anaeeThes.rdf"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2017-05-30"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=external.theme.anaeeThes",
+             "#text": "geonetwork.thesaurus.external.theme.anaeeThes"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "Environmental monitoring facilities",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "Installations de suivi environnemental"
+          }
+         }
+        }
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "GEMET - INSPIRE themes, version 1.0 INSPIRE themes"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2008-06-01"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=external.theme.inspire-theme",
+             "#text": "geonetwork.thesaurus.external.theme.inspire-theme"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "Montpellier",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "Montpellier"
+          }
+         }
+        }
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "place"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "AnaEE-France Locations"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2017-03-29"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=local.place.anaee-france_locations",
+             "#text": "geonetwork.thesaurus.local.place.anaee-france_locations"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": null
+     }
+    ],
+    "gmd:resourceConstraints": {
+     "gmd:MD_LegalConstraints": {
+      "gmd:useLimitation": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "The Capsis kernel, including libraries and extensions, is free software (LGPL licence)\nThe Capsis models (i.e. platform modules) are the property of their authors and organisms, but shared within the developers and modellers community.",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "Le noyau de Capsis, y compris les librairies et extensions, est un logiciel libre (licence LGPL).\nLes mod\u00c3\u00a8les Capsis (i.e. les modules de la plateforme) sont la propri\u00c3\u00a9t\u00c3\u00a9 de leurs auteurs et organismes, mais sont partag\u00c3\u00a9s avec la communaut\u00c3\u00a9 des d\u00c3\u00a9veloppeurs et mod\u00c3\u00a9lisateurs."
+         }
+        }
+       }
+      },
+      "gmd:accessConstraints": {
+       "gmd:MD_RestrictionCode": {
+        "@codeListValue": "intellectualPropertyRights",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+       }
+      },
+      "gmd:useConstraints": {
+       "gmd:MD_RestrictionCode": {
+        "@codeListValue": "intellectualPropertyRights",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+       }
+      }
+     }
+    },
+    "gmd:spatialResolution": {
+     "gmd:MD_Resolution": {
+      "gmd:equivalentScale": {
+       "gmd:MD_RepresentativeFraction": {
+        "gmd:denominator": {
+         "gco:Integer": "50000"
+        }
+       }
+      }
+     }
+    },
+    "gmd:language": {
+     "gmd:LanguageCode": {
+      "@codeList": "http://www.loc.gov/standards/iso639-2/",
+      "@codeListValue": "eng"
+     }
+    },
+    "gmd:characterSet": {
+     "gmd:MD_CharacterSetCode": {
+      "@codeListValue": "utf8",
+      "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+     }
+    },
+    "gmd:topicCategory": {
+     "gmd:MD_TopicCategoryCode": "structure"
+    },
+    "gmd:extent": [
+     {
+      "gmd:EX_Extent": {
+       "gmd:temporalElement": {
+        "gmd:EX_TemporalExtent": {
+         "gmd:extent": {
+          "gml:TimePeriod": {
+           "@gml:id": "d130594e444a1052958",
+           "gml:beginPosition": "1994-01-01",
+           "gml:endPosition": "2020-12-31"
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:EX_Extent": {
+       "@xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+       "gmd:description": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "Montpellier",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "Montpellier"
+          }
+         }
+        }
+       },
+       "gmd:geographicElement": {
+        "gmd:EX_GeographicBoundingBox": {
+         "gmd:westBoundLongitude": {
+          "gco:Decimal": "3.77"
+         },
+         "gmd:eastBoundLongitude": {
+          "gco:Decimal": "3.97"
+         },
+         "gmd:southBoundLatitude": {
+          "gco:Decimal": "43.51"
+         },
+         "gmd:northBoundLatitude": {
+          "gco:Decimal": "43.71"
+         }
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  "gmd:distributionInfo": {
+   "gmd:MD_Distribution": {
+    "gmd:distributionFormat": {
+     "gmd:MD_Format": {
+      "gmd:name": {
+       "gco:CharacterString": "inapplicable",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "non pertinent"
+         }
+        }
+       }
+      },
+      "gmd:version": {
+       "gco:CharacterString": "inapplicable"
+      }
+     }
+    },
+    "gmd:transferOptions": {
+     "gmd:MD_DigitalTransferOptions": {
+      "gmd:onLine": {
+       "gmd:CI_OnlineResource": {
+        "gmd:linkage": {
+         "gmd:URL": "http://www.inra.fr/capsis"
+        },
+        "gmd:protocol": {
+         "gco:CharacterString": "WWW:LINK-1.0-http--link"
+        },
+        "gmd:name": {
+         "gmx:MimeFileType": {
+          "@type": "",
+          "#text": "Capsis platform"
+         }
+        },
+        "gmd:description": {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "Link to the resource",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "Lien vers la ressource"
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "gmd:dataQualityInfo": {
+   "gmd:DQ_DataQuality": {
+    "gmd:scope": {
+     "gmd:DQ_Scope": null
+    },
+    "gmd:report": {
+     "gmd:DQ_DomainConsistency": {
+      "gmd:result": {
+       "gmd:DQ_ConformanceResult": {
+        "gmd:specification": {
+         "gmd:CI_Citation": {
+          "gmd:title": {
+           "gco:CharacterString": "Commission Regulation (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services"
+          },
+          "gmd:date": {
+           "gmd:CI_Date": {
+            "gmd:date": {
+             "gco:Date": "2010-12-08"
+            },
+            "gmd:dateType": {
+             "gmd:CI_DateTypeCode": {
+              "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+              "@codeListValue": "publication"
+             }
+            }
+           }
+          }
+         }
+        },
+        "gmd:explanation": {
+         "gco:CharacterString": "Not evaluated",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "Non \u00c3\u00a9valu\u00c3\u00a9"
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    "gmd:lineage": {
+     "gmd:LI_Lineage": {
+      "gmd:statement": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "The Capsis reference publication:\nDufour-Kowalski S., Courbaud B., Dreyfus P., Meredieu C., de Coligny F., 2012. Capsis: an open software framework and community for forest growth modelling. Annals of Forest Science (2012) 69:221\u00e2\u20ac\u201c233.\nCAPSIS is a service of AnaEE-France Infrastructure.",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "Publication de r\u00c3\u00a9f\u00c3\u00a9rence:\nDufour-Kowalski S., Courbaud B., Dreyfus P., Meredieu C., de Coligny F., 2012. Capsis: an open software framework and community for forest growth modelling. Annals of Forest Science (2012) 69:221\u00e2\u20ac\u201c233.\nCAPSIS est un des services de l'infrastructure AnaEE-France."
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

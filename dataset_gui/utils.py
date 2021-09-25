@@ -199,11 +199,16 @@ def topic_miner(data, lda_passes = 50):
     for topic in topics:
         topic_list.append(topic[1][7:-1])
 
-    data['info'] = list(set(topic_list))
+    for topic in topic_list:
+        data['info'].append(topic)
+
+    try: data['info'] = list(set(data['info']))
+    except: pass
     return data
 
+'''
 
-#domain_vars = open_file('domain_variables.json')
+domain_vars = open_file('domain_variables.json')
 
 
 def domain(data, domain_vars, threshold = 0):
@@ -235,6 +240,8 @@ def domain(data, domain_vars, threshold = 0):
     try: data['info'] = list(set(data['info']))
     except: pass
     return data
+
+'''
 
 def biggest(files):
     file_stats = {}

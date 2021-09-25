@@ -1,0 +1,765 @@
+{
+ "gmd:MD_Metadata": {
+  "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+  "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+  "@xmlns:gts": "http://www.isotc211.org/2005/gts",
+  "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xmlns:gml": "http://www.opengis.net/gml",
+  "@xmlns:geonet": "http://www.fao.org/geonetwork",
+  "gmd:fileIdentifier": {
+   "gco:CharacterString": "6c173c29-ec47-4324-bfb2-e1d6bc92566d"
+  },
+  "gmd:language": {
+   "gmd:LanguageCode": {
+    "@codeList": "http://www.loc.gov/standards/iso639-2/",
+    "@codeListValue": "eng"
+   }
+  },
+  "gmd:characterSet": {
+   "gmd:MD_CharacterSetCode": {
+    "@codeListValue": "utf8",
+    "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+   }
+  },
+  "gmd:hierarchyLevel": {
+   "gmd:MD_ScopeCode": {
+    "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode",
+    "@codeListValue": "dataset"
+   }
+  },
+  "gmd:contact": {
+   "gmd:CI_ResponsibleParty": {
+    "gmd:individualName": {
+     "gco:CharacterString": "Fran\u00c3\u00a7ois POMPANON"
+    },
+    "gmd:organisationName": {
+     "gco:CharacterString": "Universit\u00c3\u00a9 Grenoble-Alpes"
+    },
+    "gmd:contactInfo": {
+     "gmd:CI_Contact": {
+      "gmd:phone": {
+       "gmd:CI_Telephone": {
+        "gmd:voice": {
+         "@gco:nilReason": "missing",
+         "gco:CharacterString": null
+        },
+        "gmd:facsimile": {
+         "@gco:nilReason": "missing",
+         "gco:CharacterString": null
+        }
+       }
+      },
+      "gmd:address": {
+       "gmd:CI_Address": {
+        "gmd:deliveryPoint": {
+         "gco:CharacterString": "Universit\u00c3\u00a9 Grenoble Alpes/CNRS, 38400 Domaine Universitaire de Saint-Martin d\u00e2\u20ac\u2122H\u00c3\u00a8res"
+        },
+        "gmd:city": {
+         "gco:CharacterString": "Grenoble Alpes"
+        },
+        "gmd:administrativeArea": {
+         "@gco:nilReason": "missing",
+         "gco:CharacterString": null
+        },
+        "gmd:postalCode": {
+         "@gco:nilReason": "missing",
+         "gco:CharacterString": null
+        },
+        "gmd:country": {
+         "gco:CharacterString": "France"
+        },
+        "gmd:electronicMailAddress": {
+         "gco:CharacterString": "edna-anaee@univ-grenoble-alpes.fr"
+        }
+       }
+      }
+     }
+    },
+    "gmd:role": {
+     "gmd:CI_RoleCode": {
+      "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode",
+      "@codeListValue": "pointOfContact"
+     }
+    }
+   }
+  },
+  "gmd:dateStamp": {
+   "gco:DateTime": "2021-02-04T18:47:06"
+  },
+  "gmd:metadataStandardName": {
+   "gco:CharacterString": "ISO 19115:2003/19139"
+  },
+  "gmd:metadataStandardVersion": {
+   "gco:CharacterString": "1.0"
+  },
+  "gmd:locale": {
+   "gmd:PT_Locale": {
+    "@id": "FR",
+    "gmd:languageCode": {
+     "gmd:LanguageCode": {
+      "@codeList": "http://www.loc.gov/standards/iso639-2/",
+      "@codeListValue": "fre"
+     }
+    },
+    "gmd:characterEncoding": {
+     "gmd:MD_CharacterSetCode": {
+      "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode",
+      "@codeListValue": "utf8"
+     }
+    }
+   }
+  },
+  "gmd:referenceSystemInfo": {
+   "gmd:MD_ReferenceSystem": {
+    "gmd:referenceSystemIdentifier": {
+     "gmd:RS_Identifier": {
+      "gmd:code": {
+       "gco:CharacterString": "WGS 84 (EPSG:4326)"
+      }
+     }
+    }
+   }
+  },
+  "gmd:identificationInfo": {
+   "gmd:MD_DataIdentification": {
+    "gmd:citation": {
+     "gmd:CI_Citation": {
+      "gmd:title": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "eDNA",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "eDNA"
+         }
+        }
+       }
+      },
+      "gmd:date": [
+       {
+        "gmd:CI_Date": {
+         "gmd:date": {
+          "gco:Date": "2016-06-01"
+         },
+         "gmd:dateType": {
+          "gmd:CI_DateTypeCode": {
+           "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+           "@codeListValue": "creation"
+          }
+         }
+        }
+       },
+       {
+        "@xmlns:gn": "http://www.fao.org/geonetwork",
+        "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+        "gmd:CI_Date": {
+         "gmd:date": {
+          "gco:Date": "2020-01-03"
+         },
+         "gmd:dateType": {
+          "gmd:CI_DateTypeCode": {
+           "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+           "@codeListValue": "revision"
+          }
+         }
+        }
+       }
+      ],
+      "gmd:identifier": [
+       {
+        "gmd:MD_Identifier": {
+         "gmd:code": {
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null
+         }
+        }
+       },
+       {
+        "gmd:MD_Identifier": {
+         "gmd:code": {
+          "gco:CharacterString": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/catalog.search#/metadata/6c173c29-ec47-4324-bfb2-e1d6bc92566d"
+         }
+        }
+       }
+      ]
+     }
+    },
+    "gmd:abstract": {
+     "@xsi:type": "gmd:PT_FreeText_PropertyType",
+     "gco:CharacterString": "This technical platform has been set up to allow ecologists to perform large-scale analysis of environmental DNA via a metabarcoding approach. DNA metabarcoding refers to high throughput DNA-based identification of multiple species from environmental DNA. The main applications consist in diet analysis from feces, in biodiversity assessment using soil or water samples, and in palaeo-environment reconstruction using lake sediments and permafrost samples. \nThe eDNA platform is composed of three pre-PCR extraction rooms dedicated to feces, soil, and ancient DNA, and to several post-PCR rooms dedicated to the purification and the titration of PCR products. The next generation sequencing on Illumina platforms (HiSeq or MiSeq) is outsourced. The eDNA platform also possesses all the equipment that can be transported and installed in the field to allow DNA extraction straight after the sampling. \nThe eDNA platform can provide support to:\n(I) Design the experiment according to the scientfic goal, and ensure data quality given the technical contraints\n(ii) perform large-scale DNA extractions\n(iii) perform large-scale DNA amplifications\n(iv) outsource DNA sequencing to a company having developped protocols ensuring high quality amplicon sequencing from eDNA samples\n(v) analyze raw sequences to produce a contengency table that will be analyzed later on by the prosecutor\n(vi) help discussing the scientific results with regards to the possible pitfalls of the metabarcoding approach",
+     "gmd:PT_FreeText": {
+      "gmd:textGroup": {
+       "gmd:LocalisedCharacterString": {
+        "@locale": "#FR",
+        "#text": "Cette plate-forme technique a \u00c3\u00a9t\u00c3\u00a9 mise en place pour permettre d'effectuer une analyse \u00c3\u00a0 grande \u00c3\u00a9chelle de l'ADN environnemental via une approche de m\u00c3\u00a9tabarcoding pour identifier les communaut\u00c3\u00a9s microbiennes, animales et v\u00c3\u00a9g\u00c3\u00a9tales en utilisant des \u00c3\u00a9chantillons environnementaux (sol, eau, mati\u00c3\u00a8res f\u00c3\u00a9cales, etc.). Habituellement, le metabarcode d'ADN est con\u00c3\u00a7u selon la question scientifique, et cible l'ADN multi-copie (ADN de chloroplaste, ADN mitochondrial, ADN ribosomal nucl\u00c3\u00a9aire). Les principales applications consistent \u00c3\u00a0 analyser le r\u00c3\u00a9gime alimentaire \u00c3\u00a0 partir des mati\u00c3\u00a8res f\u00c3\u00a9cales, \u00c3\u00a0 \u00c3\u00a9valuer la biodiversit\u00c3\u00a9 en utilisant des \u00c3\u00a9chantillons de sol ou d'eau et \u00c3\u00a0 reconstruire la pal\u00c3\u00a9o-environnement \u00c3\u00a0 l'aide de s\u00c3\u00a9diments lacustres et d'\u00c3\u00a9chantillons de perg\u00c3\u00a9lisol.\nLa plateforme eDNA est compos\u00c3\u00a9e de trois salles d'extraction pr\u00c3\u00a9-PCR d\u00c3\u00a9di\u00c3\u00a9es aux f\u00c3\u00a8ces, au sol et \u00c3\u00a0 l'ADN ancien, ainsi qu'\u00c3\u00a0 plusieurs salles post-PCR d\u00c3\u00a9di\u00c3\u00a9es \u00c3\u00a0 la purification et au titrage de produits PCR. Le s\u00c3\u00a9quen\u00c3\u00a7age de prochaine g\u00c3\u00a9n\u00c3\u00a9ration sur les plateformes Illumina est externalis\u00c3\u00a9. La plateforme poss\u00c3\u00a8de \u00c3\u00a9galement les \u00c3\u00a9quipements permettant d\u00e2\u20ac\u2122effectuer les extractions d\u00e2\u20ac\u2122ADNe sur le terrain imm\u00c3\u00a9diatement apr\u00c3\u00a8s l\u00e2\u20ac\u2122\u00c3\u00a9chantillonnage.\nLa plateforme eDNA peut offrir un support pour:\n(I) la conception des exp\u00c3\u00a9riences selon la question scientifique, les contraintes techniques et la strat\u00c3\u00a9gie pour assurer la qualit\u00c3\u00a9 des donn\u00c3\u00a9es;\n(Ii) extraction d'ADN \u00c3\u00a0 grande \u00c3\u00a9chelle;\n(Iii) amplification d'ADN \u00c3\u00a0 grande \u00c3\u00a9chelle;\n(Iv) la sous-traitance du s\u00c3\u00a9quen\u00c3\u00a7age avec une entreprise qui fournit un service de haute qualit\u00c3\u00a9 lors du s\u00c3\u00a9quen\u00c3\u00a7age d'amplicons;\n(V) l'analyse des s\u00c3\u00a9quences brutes jusqu'\u00c3\u00a0 la production d'un tableau de contingence qui sera ult\u00c3\u00a9rieurement analys\u00c3\u00a9 par le demandeur;\n(Vi) la discussion sur l'interpr\u00c3\u00a9tation scientifique en fonction des pi\u00c3\u00a8ges potentiels de l'approche metabarcoding."
+       }
+      }
+     }
+    },
+    "gmd:pointOfContact": {
+     "gmd:CI_ResponsibleParty": {
+      "gmd:individualName": {
+       "gco:CharacterString": "Fran\u00c3\u00a7ois POMPANON"
+      },
+      "gmd:organisationName": {
+       "gco:CharacterString": "Universit\u00c3\u00a9 Grenoble-Alpes"
+      },
+      "gmd:contactInfo": {
+       "gmd:CI_Contact": {
+        "gmd:phone": {
+         "gmd:CI_Telephone": {
+          "gmd:voice": {
+           "@gco:nilReason": "missing",
+           "gco:CharacterString": null
+          },
+          "gmd:facsimile": {
+           "@gco:nilReason": "missing",
+           "gco:CharacterString": null
+          }
+         }
+        },
+        "gmd:address": {
+         "gmd:CI_Address": {
+          "gmd:deliveryPoint": {
+           "gco:CharacterString": "Universit\u00c3\u00a9 Grenoble Alpes/CNRS, 38400 Domaine Universitaire de Saint-Martin d\u00e2\u20ac\u2122H\u00c3\u00a8res"
+          },
+          "gmd:city": {
+           "gco:CharacterString": "Grenoble Alpes"
+          },
+          "gmd:administrativeArea": {
+           "@gco:nilReason": "missing",
+           "gco:CharacterString": null
+          },
+          "gmd:postalCode": {
+           "@gco:nilReason": "missing",
+           "gco:CharacterString": null
+          },
+          "gmd:country": {
+           "gco:CharacterString": "France"
+          },
+          "gmd:electronicMailAddress": {
+           "gco:CharacterString": "edna-anaee@univ-grenoble-alpes.fr"
+          }
+         }
+        }
+       }
+      },
+      "gmd:role": {
+       "gmd:CI_RoleCode": {
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode",
+        "@codeListValue": "pointOfContact"
+       }
+      }
+     }
+    },
+    "gmd:resourceMaintenance": {
+     "gmd:MD_MaintenanceInformation": {
+      "gmd:maintenanceAndUpdateFrequency": {
+       "gmd:MD_MaintenanceFrequencyCode": {
+        "@codeListValue": "asNeeded",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"
+       }
+      }
+     }
+    },
+    "gmd:descriptiveKeywords": [
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": [
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "microbial biomass",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "biomasse microbienne"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "microbial diversity",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "diversit\u00c3\u00a9 microbienne"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "soil worms",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "lombric du sol"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "AnaEE-France",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "AnaEE-France"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "soil biomass",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "biomasse du sol"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "soil fauna",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "faune du sol"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "ecosystem management",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "gestion des \u00c3\u00a9cosyst\u00c3\u00a8mes"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "pathogen",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "pathog\u00c3\u00a8ne"
+           }
+          }
+         }
+        }
+       ],
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "theme.anaeeThes.rdf"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2018-07-12"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/fre/thesaurus.download?ref=external.theme.anaeeThes",
+             "#text": "geonetwork.thesaurus.external.theme.anaeeThes"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "Environmental monitoring facilities",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "Installations de suivi environnemental"
+          }
+         }
+        }
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "GEMET - INSPIRE themes, version 1.0 INSPIRE themes"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2008-06-01"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=external.theme.inspire-theme",
+             "#text": "geonetwork.thesaurus.external.theme.inspire-theme"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "France",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "France"
+          }
+         }
+        }
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "place"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "AnaEE-France Locations"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2017-10-04"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=local.place.anaee-france_locations",
+             "#text": "geonetwork.thesaurus.local.place.anaee-france_locations"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    ],
+    "gmd:resourceConstraints": {
+     "gmd:MD_LegalConstraints": {
+      "gmd:useLimitation": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "See AnaEE-France charters.",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "Voir les chartes AnaEE-France."
+         }
+        }
+       }
+      },
+      "gmd:accessConstraints": {
+       "gmd:MD_RestrictionCode": {
+        "@codeListValue": "intellectualPropertyRights",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+       }
+      },
+      "gmd:useConstraints": {
+       "gmd:MD_RestrictionCode": {
+        "@codeListValue": "intellectualPropertyRights",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+       }
+      }
+     }
+    },
+    "gmd:spatialResolution": {
+     "gmd:MD_Resolution": {
+      "gmd:equivalentScale": {
+       "gmd:MD_RepresentativeFraction": {
+        "gmd:denominator": {
+         "gco:Integer": "50000"
+        }
+       }
+      }
+     }
+    },
+    "gmd:language": {
+     "gmd:LanguageCode": {
+      "@codeList": "http://www.loc.gov/standards/iso639-2/",
+      "@codeListValue": "eng"
+     }
+    },
+    "gmd:characterSet": {
+     "gmd:MD_CharacterSetCode": {
+      "@codeListValue": "utf8",
+      "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+     }
+    },
+    "gmd:topicCategory": {
+     "gmd:MD_TopicCategoryCode": "structure"
+    },
+    "gmd:extent": [
+     {
+      "gmd:EX_Extent": {
+       "gmd:temporalElement": {
+        "gmd:EX_TemporalExtent": {
+         "gmd:extent": {
+          "gml:TimePeriod": {
+           "@gml:id": "d253244e476a1052958",
+           "gml:beginPosition": "2016-06-01"
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:EX_Extent": {
+       "@xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+       "gmd:description": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "France"
+       },
+       "gmd:geographicElement": {
+        "gmd:EX_GeographicBoundingBox": {
+         "gmd:westBoundLongitude": {
+          "gco:Decimal": "-5.7"
+         },
+         "gmd:eastBoundLongitude": {
+          "gco:Decimal": "9.5"
+         },
+         "gmd:southBoundLatitude": {
+          "gco:Decimal": "41.3"
+         },
+         "gmd:northBoundLatitude": {
+          "gco:Decimal": "51"
+         }
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  "gmd:distributionInfo": {
+   "@xmlns:date": "http://exslt.org/dates-and-times",
+   "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+   "gmd:MD_Distribution": {
+    "gmd:distributionFormat": {
+     "gmd:MD_Format": {
+      "gmd:name": {
+       "@gco:nilReason": "missing",
+       "gco:CharacterString": null
+      },
+      "gmd:version": {
+       "@gco:nilReason": "missing",
+       "gco:CharacterString": null
+      }
+     }
+    },
+    "gmd:transferOptions": {
+     "gmd:MD_DigitalTransferOptions": {
+      "gmd:onLine": [
+       {
+        "gmd:CI_OnlineResource": {
+         "gmd:linkage": {
+          "gmd:URL": "https://leca.osug.fr/eDNA-AnaEE-France-272"
+         },
+         "gmd:protocol": {
+          "gco:CharacterString": "WWW:LINK-1.0-http--link"
+         },
+         "gmd:name": {
+          "gco:CharacterString": "web site",
+          "gmd:PT_FreeText": {
+           "gmd:textGroup": {
+            "gmd:LocalisedCharacterString": {
+             "@locale": "#FR",
+             "#text": "site web"
+            }
+           }
+          }
+         }
+        }
+       },
+       {
+        "gmd:CI_OnlineResource": {
+         "gmd:linkage": {
+          "gmd:URL": "http://metabarcoding.org"
+         },
+         "gmd:protocol": {
+          "gco:CharacterString": "WWW:LINK-1.0-http--link"
+         },
+         "gmd:name": {
+          "gco:CharacterString": "site metabracoding",
+          "gmd:PT_FreeText": {
+           "gmd:textGroup": {
+            "gmd:LocalisedCharacterString": {
+             "@locale": "#FR",
+             "#text": "site metabracoding"
+            }
+           }
+          }
+         }
+        }
+       },
+       {
+        "gmd:CI_OnlineResource": {
+         "gmd:linkage": {
+          "gmd:URL": "https://git.metabarcoding.org/obitools/obitools/wikis/home"
+         },
+         "gmd:protocol": {
+          "gco:CharacterString": "WWW:LINK-1.0-http--link"
+         },
+         "gmd:name": {
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null,
+          "gmd:PT_FreeText": {
+           "gmd:textGroup": {
+            "gmd:LocalisedCharacterString": {
+             "@locale": "#FR",
+             "#text": "outils bioinformatiques"
+            }
+           }
+          }
+         }
+        }
+       }
+      ]
+     }
+    }
+   }
+  },
+  "gmd:dataQualityInfo": {
+   "gmd:DQ_DataQuality": {
+    "gmd:scope": {
+     "gmd:DQ_Scope": {
+      "gmd:level": {
+       "gmd:MD_ScopeCode": {
+        "@codeListValue": "dataset",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode"
+       }
+      },
+      "gmd:levelDescription": null
+     }
+    },
+    "gmd:report": {
+     "gmd:DQ_DomainConsistency": {
+      "gmd:result": {
+       "gmd:DQ_ConformanceResult": {
+        "gmd:specification": {
+         "gmd:CI_Citation": {
+          "gmd:title": {
+           "@gco:nilReason": "missing",
+           "gco:CharacterString": null
+          },
+          "gmd:date": {
+           "gmd:CI_Date": {
+            "gmd:date": {
+             "gco:Date": null
+            },
+            "gmd:dateType": {
+             "gmd:CI_DateTypeCode": {
+              "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+              "@codeListValue": "publication"
+             }
+            }
+           }
+          }
+         }
+        },
+        "gmd:explanation": {
+         "@gco:nilReason": "missing",
+         "gco:CharacterString": null
+        }
+       }
+      }
+     }
+    },
+    "gmd:lineage": {
+     "gmd:LI_Lineage": {
+      "gmd:statement": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "no information",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "pas d'information"
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

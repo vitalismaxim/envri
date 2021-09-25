@@ -1,0 +1,5 @@
+Source,NA_score,Mapping_threshold,LDA_passes,Essential_variables_threshold,Rule_file,Domain_variables_file,Config_file
+anaee,68.11494252873564,25.0,151,65.0,rules,essential_domain_variables.json,domain_vocabularies.json
+icos,86.0987424205815,25.0,151,65.0,rules,essential_domain_variables.json,domain_vocabularies.json
+nsidr,92.02033598585324,25.0,151,65.0,rules,essential_domain_variables.json,domain_vocabularies.json
+seadatanet,66.66666666666666,25.0,151,65.0,rules,essential_domain_variables.json,domain_vocabularies.json

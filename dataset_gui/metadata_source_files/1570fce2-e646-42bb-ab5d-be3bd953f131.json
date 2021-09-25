@@ -1,0 +1,1145 @@
+{
+ "gmd:MD_Metadata": {
+  "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+  "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+  "@xmlns:gts": "http://www.isotc211.org/2005/gts",
+  "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xmlns:gml": "http://www.opengis.net/gml",
+  "@xmlns:geonet": "http://www.fao.org/geonetwork",
+  "gmd:fileIdentifier": {
+   "gco:CharacterString": "1570fce2-e646-42bb-ab5d-be3bd953f131"
+  },
+  "gmd:language": {
+   "gmd:LanguageCode": {
+    "@codeList": "http://www.loc.gov/standards/iso639-2/",
+    "@codeListValue": "eng"
+   }
+  },
+  "gmd:characterSet": {
+   "gmd:MD_CharacterSetCode": {
+    "@codeListValue": "utf8",
+    "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+   }
+  },
+  "gmd:hierarchyLevel": {
+   "gmd:MD_ScopeCode": {
+    "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode",
+    "@codeListValue": "dataset"
+   }
+  },
+  "gmd:dateStamp": {
+   "gco:DateTime": "2021-02-04T18:46:57"
+  },
+  "gmd:metadataStandardName": {
+   "gco:CharacterString": "ISO 19115:2003/19139"
+  },
+  "gmd:metadataStandardVersion": {
+   "gco:CharacterString": "1.0"
+  },
+  "gmd:locale": {
+   "gmd:PT_Locale": {
+    "@id": "FR",
+    "gmd:languageCode": {
+     "gmd:LanguageCode": {
+      "@codeList": "http://www.loc.gov/standards/iso639-2/",
+      "@codeListValue": "fre"
+     }
+    },
+    "gmd:characterEncoding": null
+   }
+  },
+  "gmd:referenceSystemInfo": {
+   "gmd:MD_ReferenceSystem": {
+    "gmd:referenceSystemIdentifier": {
+     "gmd:RS_Identifier": {
+      "gmd:code": {
+       "gco:CharacterString": "WGS 84 (EPSG:4326)"
+      }
+     }
+    }
+   }
+  },
+  "gmd:identificationInfo": {
+   "gmd:MD_DataIdentification": {
+    "gmd:citation": {
+     "gmd:CI_Citation": {
+      "gmd:title": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "PTRMS",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "PTRMS"
+         }
+        }
+       }
+      },
+      "gmd:date": {
+       "gmd:CI_Date": {
+        "gmd:date": {
+         "gco:Date": "2015-10-01"
+        },
+        "gmd:dateType": {
+         "gmd:CI_DateTypeCode": {
+          "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+          "@codeListValue": "creation"
+         }
+        }
+       }
+      },
+      "gmd:identifier": [
+       {
+        "gmd:MD_Identifier": {
+         "gmd:code": {
+          "gco:CharacterString": "http://localhost:8082/geonetwork_anaee/a0248f18-bcdc-4bf0-93b3-7779f3797345"
+         }
+        }
+       },
+       {
+        "gmd:MD_Identifier": {
+         "gmd:code": {
+          "gco:CharacterString": "http://w3.avignon.inra.fr/geonetwork_anaee/a0248f18-bcdc-4bf0-93b3-7779f3797345"
+         }
+        }
+       },
+       {
+        "gmd:MD_Identifier": {
+         "gmd:code": {
+          "gco:CharacterString": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/catalog.search#/metadata/1570fce2-e646-42bb-ab5d-be3bd953f131"
+         }
+        }
+       }
+      ]
+     }
+    },
+    "gmd:abstract": {
+     "@xsi:type": "gmd:PT_FreeText_PropertyType",
+     "gco:CharacterString": "The ANAEES PTR-MS service is an exploratory service which aims to promote the measurement of volatile organic compound (VOC) emissions by the various compartments of the ecosystem (soil, plant, fauna, micro-organisms). We have developed methods to use VOC profiles as a tracer of the biological functioning of the ecosystem and to quantify exchanges between compartments of the ecosystem (soil, plant, organisms, atmosphere) in order to study communication between organisms (VOCs are transmitters) and to quantify the role of ecosystems in atmospheric chemistry (VOCs are precursors of ozone and fine particles). \nThree types of measurement methods have been developed in the service: \n(1) Measurements in incubators on soils to identify VOC profiles emitted in relation to microbial populations and their functions (denitrifiers for example). \n(2) On-site measurements to characterise emissions from soils and aerial parts of the ecosystem using dynamic chambers, with the aim of identifying the compounds emitted and absorbed by the different compartments of the ecosystem. \n(3) Total ecosystem flux measurements using the eddy covariance method to characterize integrated exchanges at the scale of several hectares. A profile measurement in the ecosystem is also possible in order to reconstruct the contribution of the different cover strata to the total flux.\nThe selected analyser is a time of flight (TOF) mass spectrometer (MS) with a proton transfer ionization (PTR) source and a quad (Qi) used as an ion guide to improve ion beam focusing in the TOF. This last option allows gaining a sensitivity factor of 10 to 20 compared to previous generation PTR-TOF-MS (sensitivity > 1000 strokes per ppbv). The analyser operates in continuous flow: the air is sampled between 0.1 and 1 L min-1 and is analysed with a frequency of up to 10 times per second, allowing rapid analysis of large samples and also allowing the measurement of canopy scale flows by the turbulent covariance method (\"Eddy Covariances\", EC).\nOne of the difficulties of PTR-MS lies in the identification of molecules: molecular weight alone does not give access to the molecule and this all the more as the molecular weight increases because the number of combinations increases with it. This new PTR-MS has a very good mass resolution which should facilitate identification: the ratio between mass and peak width at half height is greater than 6000, for molecular weights greater than 79 g. An internal mass calibrator ensures optimum mass calibration up to masses of 300 to 500 g per mole. Several integrated options facilitate identification: ionization by NO+ and O2+ which are complementary ionization modes to PTR (breaking molecules more or less, and ionizing molecules that are not ionized with protons). Finally a fast gas chromatograph (fast-GC) is integrated into the apparatus in order to identify the presence of several chemical species having the same mass. An integrated 16-way valve allows multiple measurements on site (chambers, profiles, EC, etc.) or multi-sample scanning in the laboratory. This valve is integrated in the instrument and can be heated to 120\u00c2\u00b0C. To complete the whole, a calibration unit \nThe analyser is relatively compact and consumes only 2.7 A continuously (4.5 A at start-up). Control and acquisition software allows on-line control of all options as well as sampling temperatures and flow rates. All these parameters can be automated. A dedicated acquisition and calculation software was developed by our Labview team to synchronize the analyser with other high 20 Hz measurements (required for Eddy covariance) and control system operation. A data processing suite under Labview, R and spectrum analysis software has also been developed for the specific needs of the service. The analyser and its acquisition devices are integrated in a dedicated caravan that can be transported to an experimental site.\nThe service is open to collaboration regarding in situ measurements given the high technicality of the measurements, data processing and interpretation thereof. As far as microcosm measurements are concerned.\nThe service was used in five field measurement campaigns to quantify VOC fluxes on winter wheat, rapeseed, maize, soil-to-bare cover, as well as to characterize VOC concentrations in an agricultural operation (barn, sheepfold, storage area). The analyzer was also adapted to measure volatilization fluxes of Chlorotalonil on a wheat cover by covariance pattern inversion dispersion. The analyzer was finally used to characterize the VOC profiles emitted by amended soils from organic waste products in microcosms, and the effect of diversity dilution on these profiles.\n\nThemes: plants / organisms communication, atmospheric chemistry, plant ecophysiology, biological functioning of soils.",
+     "gmd:PT_FreeText": {
+      "gmd:textGroup": {
+       "gmd:LocalisedCharacterString": {
+        "@locale": "#FR",
+        "#text": "Le service PTR-MS d\u00e2\u20ac\u2122ANAEES est un service exploratoire qui a pour but de promouvoir la mesure des \u00c3\u00a9missions de compos\u00c3\u00a9s organiques volatils (COV) par les diff\u00c3\u00a9rents compartiments de l\u00e2\u20ac\u2122\u00c3\u00a9cosyst\u00c3\u00a8me (sol, plante, faune, micro-organismes). Nous avons d\u00c3\u00a9velopp\u00c3\u00a9 des m\u00c3\u00a9thodes permettant d\u00e2\u20ac\u2122utiliser les profils de COV comme traceur du fonctionnement biologique de l\u00e2\u20ac\u2122\u00c3\u00a9cosyst\u00c3\u00a8me et de quantifier les \u00c3\u00a9changes entre compartiments de celui-ci (sol, plante, organismes, atmosph\u00c3\u00a8re) afin d\u00e2\u20ac\u2122\u00c3\u00a9tudier la communication entre organismes (les COV sont des transmetteurs) et de quantifier le r\u00c3\u00b4le des \u00c3\u00a9cosyst\u00c3\u00a8mes dans la chimie de l\u00e2\u20ac\u2122atmosph\u00c3\u00a8re (les COV sont des pr\u00c3\u00a9curseurs de l\u00e2\u20ac\u2122ozone et des particules fines). \nTrois types de m\u00c3\u00a9thodes de mesure des flux ont \u00c3\u00a9t\u00c3\u00a9 d\u00c3\u00a9velopp\u00c3\u00a9es dans le service : \n(1)\tDes mesures dans des incubateurs sur des sols visant \u00c3\u00a0 identifier les profils de COV \u00c3\u00a9mis en relation avec les populations microbiennes et leurs fonctions (d\u00c3\u00a9nitrifiantes par exemple). \n(2)\tDes mesures sur site permettant de caract\u00c3\u00a9riser les \u00c3\u00a9missions par les sols et les parties a\u00c3\u00a9riennes de l\u00e2\u20ac\u2122\u00c3\u00a9cosyst\u00c3\u00a8me \u00c3\u00a0 l\u00e2\u20ac\u2122aide de chambres dynamiques, dans le but d\u00e2\u20ac\u2122identifier les compos\u00c3\u00a9s \u00c3\u00a9mis et absorb\u00c3\u00a9s par les diff\u00c3\u00a9rents compartiments de l\u00e2\u20ac\u2122\u00c3\u00a9cosyst\u00c3\u00a8me. \n(3)\tDes mesures de flux total de l\u00e2\u20ac\u2122\u00c3\u00a9cosyst\u00c3\u00a8me par la m\u00c3\u00a9thode des covariances turbulentes permettant de caract\u00c3\u00a9riser les \u00c3\u00a9changes int\u00c3\u00a9gr\u00c3\u00a9s \u00c3\u00a0 l\u00e2\u20ac\u2122\u00c3\u00a9chelle de plusieurs hectares. Une mesure de profil dans l\u00e2\u20ac\u2122\u00c3\u00a9cosyst\u00c3\u00a8me est \u00c3\u00a9galement possible afin de reconstruire la contribution des diff\u00c3\u00a9rentes strates du couvert au flux total.\nL\u00e2\u20ac\u2122analyseur s\u00c3\u00a9lectionn\u00c3\u00a9 est un spectrom\u00c3\u00a8tre de masse (MS) \u00c3\u00a0 temps de vol (TOF) avec une source d\u00e2\u20ac\u2122ionisation par transfert de proton (PTR) et un quad (Qi) utilis\u00c3\u00a9 comme guide d\u00e2\u20ac\u2122ions pour am\u00c3\u00a9liorer la focalisation du faisceau d\u00e2\u20ac\u2122ions dans le TOF. Cette derni\u00c3\u00a8re option permet de gagner un facteur 10 \u00c3\u00a0 20 en sensibilit\u00c3\u00a9 par rapport aux PTR-TOF-MS de g\u00c3\u00a9n\u00c3\u00a9ration pr\u00c3\u00a9c\u00c3\u00a9dente (sensibilit\u00c3\u00a9 > 1000 coups par ppbv). L\u00e2\u20ac\u2122analyseur fonctionne en flux continu : l\u00e2\u20ac\u2122air est \u00c3\u00a9chantillonn\u00c3\u00a9 entre 0.1 et 1 L min-1 et est analys\u00c3\u00a9 avec une fr\u00c3\u00a9quence allant jusqu\u00e2\u20ac\u2122\u00c3\u00a0 10 fois par secondes, permettant d\u00e2\u20ac\u2122analyser rapidement des \u00c3\u00a9chantillons nombreux et permettant aussi la mesure des flux \u00c3\u00a0 l\u00e2\u20ac\u2122\u00c3\u00a9chelle de la canop\u00c3\u00a9e  par la m\u00c3\u00a9thode des covariances turbulentes (\u00c2\u00ab Eddy Covariances \u00c2\u00bb, EC).\nUne des difficult\u00c3\u00a9s du PTR-MS r\u00c3\u00a9side dans l\u00e2\u20ac\u2122identification des mol\u00c3\u00a9cules : la masse mol\u00c3\u00a9culaire uniquement ne donne pas acc\u00c3\u00a8s \u00c3\u00a0 la mol\u00c3\u00a9cule et ce d\u00e2\u20ac\u2122autant plus que la masse mol\u00c3\u00a9culaire augmente car le nombre de combinaison augmente avec. Ce nouveau PTR-MS poss\u00c3\u00a8de une tr\u00c3\u00a8s bonne r\u00c3\u00a9solution en masse  qui devra faciliter l\u00e2\u20ac\u2122identification : le rapport entre la masse et la largeur du pic \u00c3\u00a0 mi-hauteur est sup\u00c3\u00a9rieur \u00c3\u00a0 6000, pour des masses mol\u00c3\u00a9culaires sup\u00c3\u00a9rieures \u00c3\u00a0 79 g. Un calibrant en masse interne permet d\u00e2\u20ac\u2122assurer une calibration en masse optimale jusqu\u00e2\u20ac\u2122\u00c3\u00a0 des masses de 300 \u00c3\u00a0 500 g par mole. Plusieurs options int\u00c3\u00a9gr\u00c3\u00a9es facilitent l\u00e2\u20ac\u2122identification : l\u00e2\u20ac\u2122ionisation par NO+ et par O2+ qui sont des modes d\u00e2\u20ac\u2122ionisation compl\u00c3\u00a9mentaires du PTR (cassant plus ou moins les mol\u00c3\u00a9cules, et ionisant des mol\u00c3\u00a9cules qui ne sont pas ionis\u00c3\u00a9s avec les protons). Enfin un chromatographe en phase gazeuse rapide (fast-GC) est int\u00c3\u00a9gr\u00c3\u00a9 \u00c3\u00a0 l\u00e2\u20ac\u2122appareil afin d\u00e2\u20ac\u2122identifier la pr\u00c3\u00a9sence de plusieurs esp\u00c3\u00a8ces chimiques ayant une m\u00c3\u00aame masse. Une vanne 16 voies int\u00c3\u00a9gr\u00c3\u00a9e permet la multiplicit\u00c3\u00a9 des mesures sur site (chambres, profils, EC, \u00e2\u20ac\u00a6) ou un scan multi-\u00c3\u00a9chantillons au laboratoire. Cette vanne est int\u00c3\u00a9gr\u00c3\u00a9e \u00c3\u00a0 l\u00e2\u20ac\u2122instrument et peut \u00c3\u00aatre chauff\u00c3\u00a9e \u00c3\u00a0 120\u00c2\u00b0C. Pour compl\u00c3\u00a9ter le tout, une unit\u00c3\u00a9 de calibration \nL\u00e2\u20ac\u2122analyseur est relativement compact et ne consomme que 2.7 A en continu (4.5 A au d\u00c3\u00a9marrage). Un logiciel de contr\u00c3\u00b4le et d\u00e2\u20ac\u2122acquisition permet le contr\u00c3\u00b4le en direct de toutes les options ainsi que des temp\u00c3\u00a9ratures et d\u00c3\u00a9bits d\u00e2\u20ac\u2122\u00c3\u00a9chantillonnage. Tous ces param\u00c3\u00a8tres sont automatisables. Un logiciel d\u00c3\u00a9di\u00c3\u00a9 d\u00e2\u20ac\u2122acquisition et de calcula \u00c3\u00a9t\u00c3\u00a9 d\u00c3\u00a9velopp\u00c3\u00a9 par notre \u00c3\u00a9quipe sous Labview afin de synchroniser l\u00e2\u20ac\u2122analyseur avec d\u00e2\u20ac\u2122autres mesures \u00c3\u00a0 haute 20 Hz (n\u00c3\u00a9cessaire pour l\u00e2\u20ac\u2122Eddy covariance) et contr\u00c3\u00b4ler le fonctionnement du syst\u00c3\u00a8me. Une suite de traitement de donn\u00c3\u00a9es sous Labview , R et un logiciel d\u00e2\u20ac\u2122analyse des spectres a \u00c3\u00a9galement \u00c3\u00a9t\u00c3\u00a9 d\u00c3\u00a9velopp\u00c3\u00a9 pour les besoins sp\u00c3\u00a9cifiques du service. L\u00e2\u20ac\u2122analyseur et ses dispositifs d\u00e2\u20ac\u2122acquisition sont int\u00c3\u00a9gr\u00c3\u00a9s dans une caravane d\u00c3\u00a9di\u00c3\u00a9e transportable sur site exp\u00c3\u00a9rimental.\nLe service est ouvert \u00c3\u00a0 collaboration en ce qui concerne les mesures in situ \u00c3\u00a9tant donn\u00c3\u00a9 la grande technicit\u00c3\u00a9 des mesures, des traitements de donn\u00c3\u00a9es et de l\u00e2\u20ac\u2122interpr\u00c3\u00a9tation de ceux-ci. Pour ce qui concerne les mesures en microcosmes.\nLe service a \u00c3\u00a9t\u00c3\u00a9 utilis\u00c3\u00a9 lors de 5 campagnes de mesures de terrain pour quantifier les flux de COV sur couvert de bl\u00c3\u00a9 d\u00e2\u20ac\u2122hivers, colza, ma\u00c3\u00afs, sol-nu, ainsi que pour caract\u00c3\u00a9riser les concentrations en COV dans une exploitation agricole (\u00c3\u00a9table, bergerie, zone de stockage) . L\u00e2\u20ac\u2122analyseur a \u00c3\u00a9t\u00c3\u00a9 \u00c3\u00a9galement adapt\u00c3\u00a9 pour mesurer les flux de volatilisation de Chlorotalonil sur un couvert de bl\u00c3\u00a9 par covariance inversion de mod\u00c3\u00a8le de dispersion. L\u00e2\u20ac\u2122analyseur a enfin \u00c3\u00a9t\u00c3\u00a9 utilis\u00c3\u00a9 pour caract\u00c3\u00a9riser les profils de COV \u00c3\u00a9mis par des sols amend\u00c3\u00a9s de produits r\u00c3\u00a9siduaires organiques dans des microcosmes, et l\u00e2\u20ac\u2122effet de la dilution de diversit\u00c3\u00a9 sur ces profils.\n\nTh\u00c3\u00a9matiques abord\u00c3\u00a9es : communication plantes /organismes, chimie de l'atmosph\u00c3\u00a8re, \u00c3\u00a9cophysiologie des plantes, fonctionnement biologique des sols."
+       }
+      }
+     }
+    },
+    "gmd:pointOfContact": [
+     null,
+     {
+      "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+      "gmd:CI_ResponsibleParty": {
+       "gmd:individualName": {
+        "gco:CharacterString": "Benjamin LOUBET"
+       },
+       "gmd:organisationName": {
+        "gco:CharacterString": "INRA"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+33 (0)1 30 81 55 33"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "INRA, UMR INRA-AgroParisTech ECOSYS Universit\u00c3\u00a9 Paris-Saclay"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Thiverval-Grignon"
+           },
+           "gmd:administrativeArea": {
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "78850"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "France"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "Benjamin.Loubet@inra.fr"
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "./resources/codeList.xml#CI_RoleCode",
+         "@codeListValue": "pointOfContact"
+        }
+       }
+      }
+     }
+    ],
+    "gmd:resourceMaintenance": {
+     "gmd:MD_MaintenanceInformation": {
+      "gmd:maintenanceAndUpdateFrequency": {
+       "gmd:MD_MaintenanceFrequencyCode": {
+        "@codeListValue": "asNeeded",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"
+       }
+      },
+      "gmd:contact": [
+       null,
+       {
+        "gmd:CI_ResponsibleParty": {
+         "gmd:individualName": {
+          "gco:CharacterString": "Benjamin LOUBET"
+         },
+         "gmd:organisationName": {
+          "gco:CharacterString": "INRA"
+         },
+         "gmd:contactInfo": {
+          "gmd:CI_Contact": {
+           "gmd:phone": {
+            "gmd:CI_Telephone": {
+             "gmd:voice": {
+              "@gco:nilReason": "missing",
+              "gco:CharacterString": null
+             },
+             "gmd:facsimile": {
+              "@gco:nilReason": "missing",
+              "gco:CharacterString": null
+             }
+            }
+           },
+           "gmd:address": {
+            "gmd:CI_Address": {
+             "gmd:deliveryPoint": {
+              "gco:CharacterString": "ANDRA 1/7 rue Jean Monnet"
+             },
+             "gmd:city": {
+              "gco:CharacterString": "Grignon"
+             },
+             "gmd:administrativeArea": {
+              "@gco:nilReason": "missing",
+              "gco:CharacterString": null
+             },
+             "gmd:postalCode": {
+              "gco:CharacterString": "92298"
+             },
+             "gmd:country": {
+              "gco:CharacterString": "France"
+             },
+             "gmd:electronicMailAddress": {
+              "gco:CharacterString": "elisabeth.leclerc@andra.fr"
+             }
+            }
+           }
+          }
+         },
+         "gmd:role": {
+          "gmd:CI_RoleCode": {
+           "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode",
+           "@codeListValue": "pointOfContact"
+          }
+         }
+        }
+       }
+      ]
+     }
+    },
+    "gmd:descriptiveKeywords": [
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": [
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "carbon dioxide flux",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "flux de dioxyde de carbone"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "ammoniac flux",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "flux d'ammoniac"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "wind direction",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "direction du vent"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "soil respiration",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "respiration du sol"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "soil gaz analysis",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "analyse des gaz du sol"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "air humidity",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "humidit\u00c3\u00a9 de l'air"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "foliar gaseous exchanges",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "\u00c3\u00a9changes gazeux foliaires"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "wind velocity",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "vitesse du vent"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "mass flux in soil vegetation atmosphere system",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "flux de mati\u00c3\u00a8re dans le syst\u00c3\u00a8me sol v\u00c3\u00a9g\u00c3\u00a9tation atmosph\u00c3\u00a8re"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "nitrogen flux in soil vegetation atmosphere system",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "flux d'azote dans le syst\u00c3\u00a8me sol v\u00c3\u00a9g\u00c3\u00a9tation atmosph\u00c3\u00a8re"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "isotopes (\u00ce\u00b413C, \u00ce\u00b415N \u00e2\u20ac\u00a6)",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "isotopes (\u00ce\u00b413C, \u00ce\u00b415N \u00e2\u20ac\u00a6)"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "silvicultural practices",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "pratiques sylvicoles"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "plant respiration",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "respiration de la plante"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "throughfall",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "pluviolessivat"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "energy flux in soil vegetation atmosphere system",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "flux d'\u00c3\u00a9nergie dans le syst\u00c3\u00a8me sol v\u00c3\u00a9g\u00c3\u00a9tation atmosph\u00c3\u00a8re"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "sensible heat flux",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "sessile oak",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "ch\u00c3\u00aane sessile"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "evapotranspiration",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "\u00c3\u00a9vapotranspiration"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "vegetation water vapour profile",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "profil de vapeur d'eau dans la v\u00c3\u00a9g\u00c3\u00a9tation"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "carbon flux in soil vegetation atmosphere system",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "flux de carbone dans le syst\u00c3\u00a8me sol v\u00c3\u00a9g\u00c3\u00a9tation atmosph\u00c3\u00a8re"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "vegetation carbon dioxide profile",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "profil du dioxyde de carbone dans la v\u00c3\u00a9g\u00c3\u00a9tation"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "agricultural practicies",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "pratiques agricoles"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "corn",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "ma\u00c3\u00afs"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "grazing",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "p\u00c3\u00a2turage"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "barley",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "orge"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "hevea",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "h\u00c3\u00a9v\u00c3\u00a9a"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "holm oak",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "ch\u00c3\u00aane vert"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "alfalfa",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "luzerne"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "land use",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "utilisation des sols"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "fertilisation",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "fertilisation"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "rapeseed",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "colza"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "CIPAN",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "CIPAN"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "stocking rate",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "Chargement animal"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "vegetation thinning",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "\u00c3\u00a9claircie de la v\u00c3\u00a9g\u00c3\u00a9tation"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "temperature",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "temp\u00c3\u00a9rature"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "organic amendment",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "amendement organique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "catch crop species",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "nature des esp\u00c3\u00a8ces en intercultures"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "animal type",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "Type d'animaux"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "pesticide application",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "weed management",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "gestion des adventices"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "precipitation",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "pr\u00c3\u00a9cipitation"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "tree species",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "esp\u00c3\u00a8ces d'arbre"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "rotation",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "rotation"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "wheat",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "bl\u00c3\u00a9"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "soil compaction",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "compactage du sol"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "ecosystem management",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "gestion des \u00c3\u00a9cosyst\u00c3\u00a8mes"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "plant residue management",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "gestion des r\u00c3\u00a9sidus de plante"
+           }
+          }
+         }
+        }
+       ],
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "theme.anaeeThes.rdf"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2018-07-12"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/fre/thesaurus.download?ref=external.theme.anaeeThes",
+             "#text": "geonetwork.thesaurus.external.theme.anaeeThes"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "Environmental monitoring facilities",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "Installations de suivi environnemental"
+          }
+         }
+        }
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "GEMET - INSPIRE themes, version 1.0 INSPIRE themes"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2008-06-01"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=external.theme.inspire-theme",
+             "#text": "geonetwork.thesaurus.external.theme.inspire-theme"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "@gco:nilReason": "missing",
+        "gco:CharacterString": null
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "place"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "AnaEE-France Locations"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2017-10-04"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=local.place.anaee-france_locations",
+             "#text": "geonetwork.thesaurus.local.place.anaee-france_locations"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    ],
+    "gmd:resourceConstraints": {
+     "gmd:MD_LegalConstraints": {
+      "gmd:useLimitation": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "See AnaEE-France charters.",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "Voir les chartes AnaEE-France."
+         }
+        }
+       }
+      },
+      "gmd:accessConstraints": {
+       "gmd:MD_RestrictionCode": {
+        "@codeListValue": "intellectualPropertyRights",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+       }
+      },
+      "gmd:useConstraints": {
+       "gmd:MD_RestrictionCode": {
+        "@codeListValue": "intellectualPropertyRights",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+       }
+      },
+      "gmd:otherConstraints": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "--Optional--",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "--Facultatif--"
+         }
+        }
+       }
+      }
+     }
+    },
+    "gmd:spatialResolution": {
+     "gmd:MD_Resolution": {
+      "gmd:equivalentScale": {
+       "gmd:MD_RepresentativeFraction": {
+        "gmd:denominator": {
+         "gco:Integer": "50000"
+        }
+       }
+      }
+     }
+    },
+    "gmd:language": {
+     "gmd:LanguageCode": {
+      "@codeList": "http://www.loc.gov/standards/iso639-2/",
+      "@codeListValue": "eng"
+     }
+    },
+    "gmd:characterSet": {
+     "gmd:MD_CharacterSetCode": {
+      "@codeListValue": "utf8",
+      "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+     }
+    },
+    "gmd:topicCategory": {
+     "gmd:MD_TopicCategoryCode": "structure"
+    },
+    "gmd:extent": {
+     "gmd:EX_Extent": {
+      "@xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+      "gmd:geographicElement": null,
+      "gmd:temporalElement": {
+       "@xmlns:gn": "http://www.fao.org/geonetwork",
+       "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+       "gmd:EX_TemporalExtent": {
+        "gmd:extent": {
+         "gml:TimePeriod": {
+          "@gml:id": "d443833e814a1052958",
+          "gml:beginPosition": "2015-10-01",
+          "gml:endPosition": "2025-10-01"
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "gmd:distributionInfo": {
+   "@xmlns:date": "http://exslt.org/dates-and-times",
+   "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+   "gmd:MD_Distribution": {
+    "gmd:distributionFormat": {
+     "gmd:MD_Format": {
+      "gmd:name": {
+       "gco:CharacterString": "inapplicable",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "non pertinent"
+         }
+        }
+       }
+      },
+      "gmd:version": {
+       "gco:CharacterString": "inapplicable"
+      }
+     }
+    },
+    "gmd:transferOptions": {
+     "gmd:MD_DigitalTransferOptions": {
+      "gmd:onLine": {
+       "gmd:CI_OnlineResource": {
+        "gmd:linkage": {
+         "gmd:URL": "https://www6.inra.fr/cov3er/"
+        },
+        "gmd:protocol": {
+         "gco:CharacterString": "WWW:LINK-1.0-http--link"
+        },
+        "gmd:name": {
+         "gco:CharacterString": "web site",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "site web"
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "gmd:dataQualityInfo": {
+   "gmd:DQ_DataQuality": {
+    "gmd:scope": {
+     "gmd:DQ_Scope": null
+    },
+    "gmd:report": {
+     "gmd:DQ_DomainConsistency": {
+      "gmd:result": {
+       "@xmlns:gn": "http://www.fao.org/geonetwork",
+       "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+       "gmd:DQ_ConformanceResult": {
+        "gmd:specification": {
+         "gmd:CI_Citation": {
+          "gmd:title": {
+           "@gco:nilReason": "missing",
+           "gco:CharacterString": null
+          },
+          "gmd:date": {
+           "gmd:CI_Date": {
+            "gmd:date": {
+             "gco:Date": null
+            },
+            "gmd:dateType": {
+             "gmd:CI_DateTypeCode": {
+              "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+              "@codeListValue": "publication"
+             }
+            }
+           }
+          }
+         }
+        },
+        "gmd:explanation": {
+         "@gco:nilReason": "missing",
+         "gco:CharacterString": null
+        },
+        "gmd:pass": {
+         "@gco:nilReason": "unknown",
+         "gco:Boolean": null
+        }
+       }
+      }
+     }
+    },
+    "gmd:lineage": {
+     "gmd:LI_Lineage": null
+    }
+   }
+  }
+ }
+}

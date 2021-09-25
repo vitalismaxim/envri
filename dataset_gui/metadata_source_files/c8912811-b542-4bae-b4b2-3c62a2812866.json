@@ -1,0 +1,1416 @@
+{
+ "gmd:MD_Metadata": {
+  "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+  "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+  "@xmlns:gts": "http://www.isotc211.org/2005/gts",
+  "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xmlns:gml": "http://www.opengis.net/gml",
+  "@xmlns:geonet": "http://www.fao.org/geonetwork",
+  "gmd:fileIdentifier": {
+   "gco:CharacterString": "c8912811-b542-4bae-b4b2-3c62a2812866"
+  },
+  "gmd:language": {
+   "gmd:LanguageCode": {
+    "@codeList": "http://www.loc.gov/standards/iso639-2/",
+    "@codeListValue": "eng"
+   }
+  },
+  "gmd:characterSet": {
+   "gmd:MD_CharacterSetCode": {
+    "@codeListValue": "utf8",
+    "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+   }
+  },
+  "gmd:hierarchyLevel": {
+   "gmd:MD_ScopeCode": {
+    "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode",
+    "@codeListValue": "dataset"
+   }
+  },
+  "gmd:contact": {
+   "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+   "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+   "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+   "gmd:CI_ResponsibleParty": {
+    "gmd:individualName": {
+     "gco:CharacterString": "Denis MONTENACH"
+    },
+    "gmd:organisationName": {
+     "gco:CharacterString": "INRA"
+    },
+    "gmd:contactInfo": {
+     "gmd:CI_Contact": {
+      "gmd:phone": {
+       "gmd:CI_Telephone": {
+        "gmd:voice": {
+         "gco:CharacterString": "+33 3 89 22 49 31"
+        },
+        "gmd:facsimile": {
+         "gco:CharacterString": "+33 3 89 22 49 33"
+        }
+       }
+      },
+      "gmd:address": {
+       "gmd:CI_Address": {
+        "gmd:deliveryPoint": {
+         "gco:CharacterString": "INRA 28 rue de Herrlisheim"
+        },
+        "gmd:city": {
+         "gco:CharacterString": "Colmar"
+        },
+        "gmd:administrativeArea": {
+         "gco:CharacterString": null
+        },
+        "gmd:postalCode": {
+         "gco:CharacterString": "68000"
+        },
+        "gmd:country": {
+         "gco:CharacterString": "France"
+        },
+        "gmd:electronicMailAddress": {
+         "gco:CharacterString": "denis.montenach@colmar.inra.fr"
+        }
+       }
+      }
+     }
+    },
+    "gmd:role": {
+     "gmd:CI_RoleCode": {
+      "@codeList": "./resources/codeList.xml#CI_RoleCode",
+      "@codeListValue": "pointOfContact"
+     }
+    }
+   }
+  },
+  "gmd:dateStamp": {
+   "gco:DateTime": "2021-02-04T18:46:59"
+  },
+  "gmd:metadataStandardName": {
+   "gco:CharacterString": "ISO 19115:2003/19139"
+  },
+  "gmd:metadataStandardVersion": {
+   "gco:CharacterString": "1.0"
+  },
+  "gmd:locale": {
+   "gmd:PT_Locale": {
+    "@id": "FR",
+    "gmd:languageCode": {
+     "gmd:LanguageCode": {
+      "@codeList": "http://www.loc.gov/standards/iso639-2/",
+      "@codeListValue": "fre"
+     }
+    },
+    "gmd:characterEncoding": null
+   }
+  },
+  "gmd:referenceSystemInfo": {
+   "gmd:MD_ReferenceSystem": {
+    "gmd:referenceSystemIdentifier": {
+     "gmd:RS_Identifier": {
+      "gmd:code": {
+       "gco:CharacterString": "WGS 84 (EPSG:4326)"
+      }
+     }
+    }
+   }
+  },
+  "gmd:identificationInfo": {
+   "gmd:MD_DataIdentification": {
+    "gmd:citation": {
+     "gmd:CI_Citation": {
+      "gmd:title": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "SOERE PRO Site of Colmar",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "SOERE PRO Site de Colmar"
+         }
+        }
+       }
+      },
+      "gmd:date": {
+       "gmd:CI_Date": {
+        "gmd:date": {
+         "gco:Date": "2001-01-01"
+        },
+        "gmd:dateType": {
+         "gmd:CI_DateTypeCode": {
+          "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+          "@codeListValue": "creation"
+         }
+        }
+       }
+      },
+      "gmd:identifier": [
+       {
+        "gmd:MD_Identifier": {
+         "gmd:code": {
+          "gco:CharacterString": "http://localhost:8082/geonetwork_anaee/c8912811-b542-4bae-b4b2-3c62a2812866"
+         }
+        }
+       },
+       {
+        "gmd:MD_Identifier": {
+         "gmd:code": {
+          "gco:CharacterString": "http://w3.avignon.inra.fr/geonetwork_anaee/c8912811-b542-4bae-b4b2-3c62a2812866"
+         }
+        }
+       },
+       {
+        "gmd:MD_Identifier": {
+         "gmd:code": {
+          "gco:CharacterString": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/catalog.search#/metadata/c8912811-b542-4bae-b4b2-3c62a2812866"
+         }
+        }
+       }
+      ]
+     }
+    },
+    "gmd:abstract": {
+     "@xsi:type": "gmd:PT_FreeText_PropertyType",
+     "gco:CharacterString": "The site of Colmar is part of the French national network SOERE PRO (System of Observation and Experimentation for Environmental Research on Organic Residue Recycling). The objectives of the site of Colmar are to characterize the agronomic value of organic residues and their environmental impacts, in a long-term field experiment.\nIt has been initiated in 2001 (INRA / SMRA68 / ADEME / Agence de l\u00e2\u20ac\u2122Eau Rhin-Meuse partnership).\nThe experimental site is located in Colmar (Alsace, France) with a continental climate. The soil is a calcisoil (surface layer: 24% clay, 69% silt, 7% sand / 2.4 % organic matter / pH 8.3). The trial is composed of 60 plots of 90 m\u00c2\u00b2 (10 m x 9 m) on 2.2 hectares with 4 replicate blocks of 6 organic treatments randomly distributed within each block: Urban sewage sludge, Composted sewage sludge, Biowaste compost, Farmyard manure, Composted Farmyard manure, Control without organic amendment. The organic amendments are spread every 2 years on the same nitrogen rate of 170 kg/ha. The different treatments received 2 levels of additional mineral fertilizer: without or optimum mineral fertilization. The crops rotation is corn maize / winter wheat / sugar beet / malting barley.\nSite and plots are equipped for continuous monitoring of meteorological data, soil humidity, water tension and temperature. One plot of each treatment is equipped with wick lysimeters to a depth of 0.45 m. Since 2009, six large lysimeters (4m\u00c2\u00b2 and 1m deep, bare soil) complete the field experiment, with 2 replicates of 3 organic treatments: Urban sewage sludge, Composted sewage sludge and Control without organic amendment. They are also equipped to measure the hydrodynamic balance: soil humidity, water tension, temperature, volume of leachate.\nA Large set of variables mainly including nutrients and pollutants (trace elements, PAH, PCB), are monitored on different compartments of the agro-system: organic amendments physico-chemical and biochemical characteristics, soils analytical characteristics per layer, crop yields, plants quality, rainwater chemical composition, leachate, microbial biomass and activities.\nData will be stored in a common database specifically developed for the SOERE PRO network and connected with other SOERE.\nSoils, organic amendments and plants samples are kept in collection and available for further measurements.",
+     "gmd:PT_FreeText": {
+      "gmd:textGroup": {
+       "gmd:LocalisedCharacterString": {
+        "@locale": "#FR",
+        "#text": "Le site de Colmar fait partie du r\u00c3\u00a9seau national Fran\u00c3\u00a7ais SOERE PRO (Syst\u00c3\u00a8me d'Observation et d'Exp\u00c3\u00a9rimentation pour la Recherche Environnementale sur le recyclage des Produits R\u00c3\u00a9siduaires Organiques). Les objectifs du site de Colmar sont de caract\u00c3\u00a9riser la valeur agronomique des r\u00c3\u00a9sidus organiques et leurs impacts sur l'environnement, gr\u00c3\u00a2ce \u00c3\u00a0 des exp\u00c3\u00a9rimentations de terrain \u00c3\u00a0 long terme.\nIl a \u00c3\u00a9t\u00c3\u00a9 lanc\u00c3\u00a9 en 2001 (INRA / SMRA68 / ADEME / Agence de l'Eau Rhin de partenariat-Meuse).\nLe site exp\u00c3\u00a9rimental est situ\u00c3\u00a9 \u00c3\u00a0 Colmar (Alsace, France) sous un climat continental. Le sol est un calcisol (couche de surface: 24% d'argile, 69% de limon, de sable 7% / 2,4% de la mati\u00c3\u00a8re organique / pH 8,3). Le site est compos\u00c3\u00a9 de 60 parcelles de 90 m\u00c2\u00b2 (10 mx 9 m) sur 2,2 hectares avec 4 blocs r\u00c3\u00a9p\u00c3\u00a9t\u00c3\u00a9s de 6 traitements organiques distribu\u00c3\u00a9s de fa\u00c3\u00a7on al\u00c3\u00a9atoire au sein de chaque bloc: boues provenant des eaux us\u00c3\u00a9es urbaines, compost de boues d'\u00c3\u00a9puration, compost de bio-d\u00c3\u00a9chets, fumier, compost de fumier t\u00c3\u00a9moin sans amendement organique. Les amendements organiques sont \u00c3\u00a9pandus tous les 2 ans avec le m\u00c3\u00aame taux de 170 kg d'azote / ha. Les diff\u00c3\u00a9rents traitements re\u00c3\u00a7oivent 2 niveaux  d'engrais min\u00c3\u00a9raux : sans fertilisation min\u00c3\u00a9rale ou optimale fertilisation min\u00c3\u00a9rale. La rotation des cultures est la suivante : ma\u00c3\u00afs / bl\u00c3\u00a9 d'hiver / la betterave \u00c3\u00a0 sucre / orge brassicole.\nLes parcelles sont \u00c3\u00a9quip\u00c3\u00a9es pour l\u00e2\u20ac\u2122enregistrement continu des donn\u00c3\u00a9es m\u00c3\u00a9t\u00c3\u00a9orologiques, de l'humidit\u00c3\u00a9 du sol, de la tension de l'eau et de la temp\u00c3\u00a9rature. Une parcelle de chaque traitement est \u00c3\u00a9quip\u00c3\u00a9e de  lysim\u00c3\u00a8tres \u00c3\u00a0 m\u00c3\u00a8che \u00c3\u00a0 une profondeur de 0,45 m. Depuis 2009, six grands lysim\u00c3\u00a8tres (4m\u00c2\u00b2 et 1 m de profondeur, sol nu) compl\u00c3\u00a8tent l'exp\u00c3\u00a9rience sur le terrain, avec 2 r\u00c3\u00a9p\u00c3\u00a9titions de 3 traitements organiques: boues provenant des eaux us\u00c3\u00a9es urbaines, compost de boues d'\u00c3\u00a9puration et le contr\u00c3\u00b4le sans amendement organique. Les parcelles sont \u00c3\u00a9galement \u00c3\u00a9quip\u00c3\u00a9es pour mesurer l'\u00c3\u00a9quilibre hydrodynamique: l'humidit\u00c3\u00a9 du sol, la tension de l'eau, la temp\u00c3\u00a9rature et volume de lixiviats.\nUn grand nombre de variables, incluant principalement les nutriments et les polluants (oligo-\u00c3\u00a9l\u00c3\u00a9ments, HAP, PCB), sont enregistr\u00c3\u00a9es sur les diff\u00c3\u00a9rents compartiments de l\u00e2\u20ac\u2122agrosyst\u00c3\u00a8me: les caract\u00c3\u00a9ristiques physico-chimiques et biochimiques, des amendements organiques, les caract\u00c3\u00a9ristiques analytiques des sols par couche, les rendements des cultures, la qualit\u00c3\u00a9 des plantes, la composition chimique de l'eau de pluie, les lixiviats, la biomasse et les activit\u00c3\u00a9s microbiennes.\nLes donn\u00c3\u00a9es collect\u00c3\u00a9es sont stock\u00c3\u00a9es dans une base de donn\u00c3\u00a9es commune sp\u00c3\u00a9cifiquement d\u00c3\u00a9velopp\u00c3\u00a9s pour le r\u00c3\u00a9seau PRO SOERE et connect\u00c3\u00a9es avec d'autres SOERE.\nDes \u00c3\u00a9chantillons de sols, amendements organiques et plantes sont conserv\u00c3\u00a9s dans une collection et disponibles pour d'autres mesures.\u00e2\u20ac\u0192"
+       }
+      }
+     }
+    },
+    "gmd:pointOfContact": [
+     {
+      "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+      "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+      "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+      "gmd:CI_ResponsibleParty": {
+       "gmd:individualName": {
+        "gco:CharacterString": "Sabine HOUOT"
+       },
+       "gmd:organisationName": {
+        "gco:CharacterString": "INRAE"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+33 1 30 81 54 01"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+33 1 30 81 53 96"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "Avenue Lucien de Br\u00c3\u00a9tigni\u00c3\u00a8res"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Thiverval Grignon"
+           },
+           "gmd:administrativeArea": {
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "78550"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "France"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "sabine.houot@inrae.fr"
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "./resources/codeList.xml#CI_RoleCode",
+         "@codeListValue": "pointOfContact"
+        }
+       }
+      }
+     },
+     {
+      "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+      "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+      "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+      "gmd:CI_ResponsibleParty": {
+       "gmd:individualName": {
+        "gco:CharacterString": "Aur\u00c3\u00a9lia MICHAUD"
+       },
+       "gmd:organisationName": {
+        "gco:CharacterString": "INRAE"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": null
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": null
+           },
+           "gmd:city": {
+            "gco:CharacterString": null
+           },
+           "gmd:administrativeArea": {
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": null
+           },
+           "gmd:country": {
+            "gco:CharacterString": null
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "aurelia.michaud@inrae.fr"
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "./resources/codeList.xml#CI_RoleCode",
+         "@codeListValue": "pointOfContact"
+        }
+       }
+      }
+     },
+     {
+      "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+      "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+      "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+      "gmd:CI_ResponsibleParty": {
+       "gmd:individualName": {
+        "gco:CharacterString": "Denis MONTENACH"
+       },
+       "gmd:organisationName": {
+        "gco:CharacterString": "INRA"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+33 3 89 22 49 31"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+33 3 89 22 49 33"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "INRA 28 rue de Herrlisheim"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Colmar"
+           },
+           "gmd:administrativeArea": {
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "68000"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "France"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "denis.montenach@colmar.inra.fr"
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "./resources/codeList.xml#CI_RoleCode",
+         "@codeListValue": "pointOfContact"
+        }
+       }
+      }
+     }
+    ],
+    "gmd:resourceMaintenance": {
+     "gmd:MD_MaintenanceInformation": {
+      "gmd:maintenanceAndUpdateFrequency": {
+       "gmd:MD_MaintenanceFrequencyCode": {
+        "@codeListValue": "asNeeded",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"
+       }
+      }
+     }
+    },
+    "gmd:graphicOverview": {
+     "gmd:MD_BrowseGraphic": {
+      "gmd:fileName": {
+       "gco:CharacterString": "http://w3.avignon.inra.fr:80/geonetwork_anaee/srv/eng/resources.get?uuid=c8912811-b542-4bae-b4b2-3c62a2812866&fname=Bl1_s.png"
+      },
+      "gmd:fileDescription": {
+       "gco:CharacterString": "thumbnail"
+      },
+      "gmd:fileType": {
+       "gco:CharacterString": "png"
+      }
+     }
+    },
+    "gmd:descriptiveKeywords": [
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": [
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "AnaEE-France",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "AnaEE-France"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "long term monitoring",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "surveillance \u00c3\u00a0 long terme"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "long term experiment",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "exp\u00c3\u00a9rimentation long terme"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "agronomy",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "agronomie"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "soil nutrient",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "nutriment dans le sol"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "pollutant",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "polluant"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "experimental setup",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "montage exp\u00c3\u00a9rimental"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "waste recycling",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "recyclage des d\u00c3\u00a9chets"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "organic amendment",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "fertilisation organique"
+           }
+          }
+         }
+        }
+       ],
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "theme.anaeeThes.rdf"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2017-06-13"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=external.theme.anaeeThes",
+             "#text": "geonetwork.thesaurus.external.theme.anaeeThes"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "Environmental monitoring facilities",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "Installations de suivi environnemental"
+          }
+         }
+        }
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "GEMET - INSPIRE themes, version 1.0 INSPIRE themes"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2008-06-01"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=external.theme.inspire-theme",
+             "#text": "geonetwork.thesaurus.external.theme.inspire-theme"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "France",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "France"
+          }
+         }
+        }
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "place"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "AnaEE-France Locations"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2017-06-02"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=local.place.anaee-france_locations",
+             "#text": "geonetwork.thesaurus.local.place.anaee-france_locations"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": [
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "soil organic contaminants",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "contaminants organiques du sol"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "dry bulk density of the organic amendment",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "masse volumique apparente s\u00c3\u00a8che de l'amendement organique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "P and K content in organic amendment",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "P et K dans l'amendement organique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "soil solution organic contaminants",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "contaminants organiques de la solution du sol"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "air humidity",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "humidit\u00c3\u00a9 de l'air"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "air temperature",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "temp\u00c3\u00a9rature de l'air"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "global radiation",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "rayonnement global"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "pluviometry",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "pluviom\u00c3\u00a9trie"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "wind speed",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "vitesse du vent"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "CO2 flux",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "flux de CO2"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "mass flux in soil vegetation atmosphere system",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "flux de mati\u00c3\u00a8re dans le syst\u00c3\u00a8me sol v\u00c3\u00a9g\u00c3\u00a9tation atmopsh\u00c3\u00a8re"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "nitrogen flux in soil vegetation atmosphere system",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "flux d'azote dans le syst\u00c3\u00a8me sol v\u00c3\u00a9g\u00c3\u00a9tation atmopsh\u00c3\u00a8re"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "phosphorus flux in soil vegetation atmosphere system",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "flux de phosphore  dans le syst\u00c3\u00a8me sol v\u00c3\u00a9g\u00c3\u00a9tation atmopsh\u00c3\u00a8re"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "carbon flux in soil vegetation atmosphere system",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "flux de carbone dans le syst\u00c3\u00a8me sol v\u00c3\u00a9g\u00c3\u00a9tation atmopsh\u00c3\u00a8re"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "soil granulometry",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "granulom\u00c3\u00a9trie du sol"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "soil temperature",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "temp\u00c3\u00a9rature du sol"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "soil moisture",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "humidit\u00c3\u00a9 du sol"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "dry bulk density of soil",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "densit\u00c3\u00a9 apparente du sol"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "physical soil resistance",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "r\u00c3\u00a9sistance physique du sol"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "shrinkage and swelling",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "retrait gonflement"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "perched water table level",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "niveau des nappes perch\u00c3\u00a9es"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "soil hydraulic conductivity",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "conductivit\u00c3\u00a9 hydraulique des sol"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "soil major elements",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "\u00c3\u00a9l\u00c3\u00a9ments majeurs du sol"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "soil solution chemical analysis",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "analyses chimiques de la solution du sol"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "vegetation major element  content",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "teneur en element majeur de la v\u00c3\u00a9g\u00c3\u00a9tation"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "yield",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "rendement"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "N2O flux",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "flux de N2O"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "soil trace elements",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "\u00c3\u00a9l\u00c3\u00a9ments traces du sol"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "soil water retention characteristics",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "caract\u00c3\u00a9ristiques de r\u00c3\u00a9tention en eau du sol"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "soil P and K",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "P et K dans le sol"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "soil solution trace elements",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "\u00c3\u00a9l\u00c3\u00a9ments traces de la solution du sol"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "soil solution major elements",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "\u00c3\u00a9l\u00c3\u00a9ments majeurs de la solution du sol"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "agricultural practicies",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "pratiques agricoles"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "major elements content in organic amendment",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "\u00c3\u00a9l\u00c3\u00a9ments majeurs de l'amendement organique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "soil PH",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "PH du sol"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "trace elements content in  organic amendment",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "\u00c3\u00a9l\u00c3\u00a9ments traces de l'amendement organique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "vegetation carbon content",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "teneur en carbone de la v\u00c3\u00a9g\u00c3\u00a9tation"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "vegetation nitrogen content",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "teneur en azote de la v\u00c3\u00a9g\u00c3\u00a9tation"
+           }
+          }
+         }
+        }
+       ],
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "theme.variableAnaEE.rdf"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2017-07-21"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=external.theme.variableAnaEE",
+             "#text": "geonetwork.thesaurus.external.theme.variableAnaEE"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": [
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "wheat",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "bl\u00c3\u00a9"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "maize",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "ma\u00c3\u00afs"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "sugarbeet",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "betterave sucri\u00c3\u00a8re"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "barley",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "orge"
+           }
+          }
+         }
+        }
+       ],
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "theme.EcosystemAnaEE.rdf"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2017-07-31"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=external.theme.EcosystemAnaEE",
+             "#text": "geonetwork.thesaurus.external.theme.EcosystemAnaEE"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    ],
+    "gmd:resourceConstraints": {
+     "gmd:MD_LegalConstraints": {
+      "gmd:useLimitation": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "See AnaEE-France charters.",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "Voir les chartes AnaEE-France."
+         }
+        }
+       }
+      },
+      "gmd:accessConstraints": {
+       "gmd:MD_RestrictionCode": {
+        "@codeListValue": "intellectualPropertyRights",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+       }
+      },
+      "gmd:useConstraints": {
+       "gmd:MD_RestrictionCode": {
+        "@codeListValue": "intellectualPropertyRights",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+       }
+      }
+     }
+    },
+    "gmd:spatialResolution": {
+     "gmd:MD_Resolution": {
+      "gmd:equivalentScale": {
+       "gmd:MD_RepresentativeFraction": {
+        "gmd:denominator": {
+         "gco:Integer": "50000"
+        }
+       }
+      }
+     }
+    },
+    "gmd:language": {
+     "gmd:LanguageCode": {
+      "@codeList": "http://www.loc.gov/standards/iso639-2/",
+      "@codeListValue": "eng"
+     }
+    },
+    "gmd:characterSet": {
+     "gmd:MD_CharacterSetCode": {
+      "@codeListValue": "utf8",
+      "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+     }
+    },
+    "gmd:topicCategory": {
+     "gmd:MD_TopicCategoryCode": "structure"
+    },
+    "gmd:extent": {
+     "gmd:EX_Extent": {
+      "gmd:description": {
+       "gco:CharacterString": "Colmar"
+      },
+      "gmd:geographicElement": {
+       "gmd:EX_GeographicBoundingBox": {
+        "gmd:westBoundLongitude": {
+         "gco:Decimal": "7.324027064606428"
+        },
+        "gmd:eastBoundLongitude": {
+         "gco:Decimal": "7.349432948395419"
+        },
+        "gmd:southBoundLatitude": {
+         "gco:Decimal": "48.04624263946896"
+        },
+        "gmd:northBoundLatitude": {
+         "gco:Decimal": "48.06505998592947"
+        }
+       }
+      },
+      "gmd:temporalElement": {
+       "gmd:EX_TemporalExtent": {
+        "gmd:extent": {
+         "gml:TimePeriod": {
+          "@gml:id": "d28832e996a1052958",
+          "gml:beginPosition": "2001-01-01",
+          "gml:endPosition": {
+           "@indeterminatePosition": "now"
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "gmd:distributionInfo": {
+   "gmd:MD_Distribution": {
+    "gmd:distributionFormat": {
+     "gmd:MD_Format": {
+      "gmd:name": {
+       "gco:CharacterString": "inapplicable"
+      },
+      "gmd:version": {
+       "gco:CharacterString": "inapplicable"
+      }
+     }
+    },
+    "gmd:transferOptions": {
+     "gmd:MD_DigitalTransferOptions": {
+      "gmd:onLine": {
+       "gmd:CI_OnlineResource": {
+        "gmd:linkage": {
+         "gmd:URL": "http://www.allenvi.fr/groupes-transversaux/infrastructures-de-recherche/pro"
+        },
+        "gmd:protocol": {
+         "gco:CharacterString": "WWW:LINK-1.0-http--link"
+        },
+        "gmd:name": {
+         "gco:CharacterString": "Allenvi SOERE PRO"
+        },
+        "gmd:description": {
+         "@gco:nilReason": "missing",
+         "gco:CharacterString": null
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "gmd:dataQualityInfo": {
+   "gmd:DQ_DataQuality": {
+    "gmd:scope": {
+     "gmd:DQ_Scope": {
+      "gmd:level": {
+       "gmd:MD_ScopeCode": {
+        "@codeListValue": "dataset",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode"
+       }
+      }
+     }
+    },
+    "gmd:report": {
+     "gmd:DQ_DomainConsistency": {
+      "gmd:result": {
+       "gmd:DQ_ConformanceResult": {
+        "gmd:specification": {
+         "gmd:CI_Citation": {
+          "gmd:title": {
+           "gco:CharacterString": "Commission Regulation (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services"
+          },
+          "gmd:date": {
+           "gmd:CI_Date": {
+            "gmd:date": {
+             "gco:Date": "2010-12-08"
+            },
+            "gmd:dateType": {
+             "gmd:CI_DateTypeCode": {
+              "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+              "@codeListValue": "publication"
+             }
+            }
+           }
+          }
+         }
+        },
+        "gmd:explanation": {
+         "gco:CharacterString": "Not evaluated"
+        },
+        "gmd:pass": {
+         "gco:Boolean": "undefined"
+        }
+       }
+      }
+     }
+    },
+    "gmd:lineage": {
+     "gmd:LI_Lineage": {
+      "gmd:statement": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "The SOERE PRO site of Colmar is managed since 2001 by the National Institute of Agronomic Research (INRA), the Syndicat Mixte Recyclage Agricole du Haut-Rhin (SMRA68) and the Association pour la Relance Agronomique en Alsace (ARAA). He receives financial support from ADEME, Agence de l\u00e2\u20ac\u2122Eau Rhin-Meuse, Veolia Environnement Research and Innovation, SITEUCE, Arvalis, SEDE Environnement, Terralys, Brasseries Kronenbourg, R\u00c3\u00a9gion Alsace, Conseil G\u00c3\u00a9n\u00c3\u00a9ral du Haut-Rhin.\nThe objective of this program is to characterize the agronomic value of organic residues and their environmental impacts, from long duration field experimentation.\nQualiAgro is a service of AnaEE-France Infrastructure.",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "--La g\u00c3\u00a9n\u00c3\u00a9alogie fait \u00c3\u00a9tat de l\u00e2\u20ac\u2122historique du traitement de la s\u00c3\u00a9rie/du jeu de donn\u00c3\u00a9es.\n\nDes indications bibliographiques ou relatives \u00c3\u00a0 des donn\u00c3\u00a9es exploit\u00c3\u00a9es pour ce jeu de donn\u00c3\u00a9es doivent \u00c3\u00aatre renseign\u00c3\u00a9s ici.--\n\nXXX est un des services de l'infrastructure AnaEE-France."
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

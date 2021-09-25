@@ -1,0 +1,1046 @@
+{
+ "gmd:MD_Metadata": {
+  "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+  "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+  "@xmlns:gts": "http://www.isotc211.org/2005/gts",
+  "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+  "@xmlns:gml": "http://www.opengis.net/gml",
+  "@xmlns:geonet": "http://www.fao.org/geonetwork",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xsi:schemaLocation": "http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/gmx http://www.isotc211.org/2005/gmx/gmx.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd",
+  "gmd:fileIdentifier": {
+   "gco:CharacterString": "82c748ca-d656-46ac-b883-d353e75a54c7"
+  },
+  "gmd:language": {
+   "gmd:LanguageCode": {
+    "@codeList": "http://www.loc.gov/standards/iso639-2/",
+    "@codeListValue": "eng"
+   }
+  },
+  "gmd:characterSet": {
+   "gmd:MD_CharacterSetCode": {
+    "@codeListValue": "utf8",
+    "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+   }
+  },
+  "gmd:hierarchyLevel": {
+   "gmd:MD_ScopeCode": {
+    "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode",
+    "@codeListValue": "dataset"
+   }
+  },
+  "gmd:contact": {
+   "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+   "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+   "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+   "gmd:CI_ResponsibleParty": {
+    "gmd:individualName": {
+     "gco:CharacterString": "Ghislaine MONET"
+    },
+    "gmd:organisationName": {
+     "gco:CharacterString": "INRA"
+    },
+    "gmd:contactInfo": {
+     "gmd:CI_Contact": {
+      "gmd:phone": {
+       "gmd:CI_Telephone": {
+        "gmd:voice": {
+         "gco:CharacterString": "+33 4 50 26 78 37"
+        },
+        "gmd:facsimile": {
+         "gco:CharacterString": "+33 4 50 26 07 60"
+        }
+       }
+      },
+      "gmd:address": {
+       "gmd:CI_Address": {
+        "gmd:deliveryPoint": {
+         "gco:CharacterString": "INRA UMR CARRTEL 75 avenue de Corzent"
+        },
+        "gmd:city": {
+         "gco:CharacterString": "Thonon-les-Bains"
+        },
+        "gmd:administrativeArea": {
+         "@gco:nilReason": "missing",
+         "gco:CharacterString": null
+        },
+        "gmd:postalCode": {
+         "gco:CharacterString": "74200"
+        },
+        "gmd:country": {
+         "gco:CharacterString": "France"
+        },
+        "gmd:electronicMailAddress": {
+         "gco:CharacterString": "ola@thonon.inra.fr"
+        }
+       }
+      }
+     }
+    },
+    "gmd:role": {
+     "gmd:CI_RoleCode": {
+      "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode",
+      "@codeListValue": "pointOfContact"
+     }
+    }
+   }
+  },
+  "gmd:dateStamp": {
+   "gco:DateTime": "2021-05-11T17:47:51"
+  },
+  "gmd:metadataStandardName": {
+   "gco:CharacterString": "ISO 19115:2003/19139"
+  },
+  "gmd:metadataStandardVersion": {
+   "gco:CharacterString": "1.0"
+  },
+  "gmd:locale": {
+   "gmd:PT_Locale": {
+    "@id": "FR",
+    "gmd:languageCode": {
+     "gmd:LanguageCode": {
+      "@codeList": "http://www.loc.gov/standards/iso639-2/",
+      "@codeListValue": "fre"
+     }
+    },
+    "gmd:characterEncoding": null
+   }
+  },
+  "gmd:referenceSystemInfo": {
+   "gmd:MD_ReferenceSystem": {
+    "gmd:referenceSystemIdentifier": {
+     "gmd:RS_Identifier": {
+      "gmd:code": {
+       "gco:CharacterString": "WGS 84 (EPSG:4326)"
+      },
+      "gmd:codeSpace": {
+       "gco:CharacterString": "EPSG"
+      },
+      "gmd:version": {
+       "gco:CharacterString": "4326"
+      }
+     }
+    }
+   }
+  },
+  "gmd:identificationInfo": {
+   "gmd:MD_DataIdentification": {
+    "gmd:citation": {
+     "gmd:CI_Citation": {
+      "gmd:title": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "SOERE OLA : Data from the Observatory on LAkes for Bourget Lake",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "SOERE OLA : Donn\u00c3\u00a9es de l'Observatoire des LAcs concernant le lac du Bourget"
+         }
+        }
+       }
+      },
+      "gmd:alternateTitle": {
+       "@gco:nilReason": "missing",
+       "gco:CharacterString": null
+      },
+      "gmd:date": {
+       "gmd:CI_Date": {
+        "gmd:date": {
+         "gco:Date": "2016-12-20"
+        },
+        "gmd:dateType": {
+         "gmd:CI_DateTypeCode": {
+          "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+          "@codeListValue": "creation"
+         }
+        }
+       }
+      },
+      "gmd:identifier": {
+       "gmd:MD_Identifier": {
+        "gmd:code": {
+         "gco:CharacterString": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/catalog.search#/metadata/82c748ca-d656-46ac-b883-d353e75a54c7"
+        }
+       }
+      }
+     }
+    },
+    "gmd:abstract": {
+     "@xsi:type": "gmd:PT_FreeText_PropertyType",
+     "gco:CharacterString": "Data obtained from the INRA CARRTEL laboratory in Thonon-les-Bains (SOERE-OLA: Observatory and Experimentation Systems for Environmental Research - LAkes Observatory) in collaboration with CISALB (Inter-Syndical Committee for Sanitation Lake Bourget). These data cover different topics:\n   The variables of the physico-chemistry theme are: nitrogen, calcium, carbon, chlorides, conductivity, magnesium, dissolved oxygen, pH, phosphorus, potassium, reactive silica, sodium, sulphate, temperature, complete alkalimetric titre. Data taken at various depths throughout the lake's water column. The water column is made at the deepest point of the lake (140 m). The samples are taken every 15 days. The period concerns a follow-up from 1999 to the present.\n   The variables of the chlorophyll theme are: chlorophyll a strickland-parsons, chlorophyll c, carotenoids, chlorophyll a scor-unesco, pheopigments. Data taken at various depths throughout the lake's water column. The samples are taken one to three times a month. The period concerns a follow-up from 2006 to the present.\n   The variables of the topic sampling conditions are: air temperature, cloudiness, sunshine, weather, wind direction, wind speed, atmospheric pressure, water aspect, surface condition, transparency, color of water. Studies are carried out approximately once or twice a month. The period concerns a follow-up from 2010 to the present.\n   The variables of the phytoplankton theme are: determiner name, sedimented volume, counting surface, determined taxon, number of counted fields, number of objects counted, number of objects per ml, number of cells per ml, biovolume of species In the sample. Data taken from an integrated depth of 0 to 10m or 0 to 20m depending on the year. Samples are taken once a month. The period concerns a follow-up from 1995 to the present.\n   The variables of the primary production theme are: duration of incubation, primary production by actual incubation duration, primary production per hour, primary production by median third. Data taken at various depths on the lake's water column from 0 to 30m. The samples are taken once or twice a month. The period concerns a follow-up from 2011 to the present.\nThe variables of the probe theme are: depth, temperature, chlorophyll a, pH conductivity, oxygen, oxygen saturation rate, turbidity, transparency, by w, by a, pah, pc. Data obtained at various depths (every 10 cm approximately) over the whole water column of the lake (0 to 140m). Measurements are performed once or twice a month. The period concerns a follow-up from 2003 to the present.\n   The variables of the zooplankton theme are: name of the determiner, sedimented biovolume, name of the taxon determined, stage of development, number of individuals. Data taken from an integrated depth of 0 to 50m. The samples are taken one to three times a month. The period concerns a follow-up from 1996 to the present (absence of data between 1997 and 2003 inclusive).",
+     "gmd:PT_FreeText": {
+      "gmd:textGroup": {
+       "gmd:LocalisedCharacterString": {
+        "@locale": "#FR",
+        "#text": "Donn\u00c3\u00a9es issues du laboratoire INRA CARRTEL de Thonon-les-Bains (SOERE-OLA : Syst\u00c3\u00a8mes d'Observation et d'Exp\u00c3\u00a9rimentation pour la Recherche en Environnement - Observatoire des LAcs) en collaboration avec le CISALB (Comit\u00c3\u00a9 Inter-Syndical pour l'Assainissement du lac du Bourget). Ces donn\u00c3\u00a9es concernent diff\u00c3\u00a9rents th\u00c3\u00a8mes :\n   Les variables du th\u00c3\u00a8me physico-chimie sont : azote, calcium, carbone, chlorures, conductivit\u00c3\u00a9, magn\u00c3\u00a9sium, oxyg\u00c3\u00a8ne dissous, pH, phosphore, potassium, silice r\u00c3\u00a9active, sodium, sulfate, temp\u00c3\u00a9rature, titre alcalim\u00c3\u00a9trique complet. Donn\u00c3\u00a9es pr\u00c3\u00a9lev\u00c3\u00a9es \u00c3\u00a0 diff\u00c3\u00a9rentes profondeurs sur toute la colonne d'eau du lac.  La colonne d'eau est faite au point le plus profond du lac (140 m). Les pr\u00c3\u00a9l\u00c3\u00a8vements sont effectu\u00c3\u00a9s tous les 15 jours. La p\u00c3\u00a9riode concerne un suivi depuis 1999 jusqu'\u00c3\u00a0 nos jours.\n   Les variables du th\u00c3\u00a8me chlorophylle sont : chlorophylle a strickland-parsons, chlorophylle c, carot\u00c3\u00a9no\u00c3\u00afdes, chlorophylle a scor-unesco, ph\u00c3\u00a9opigments. Donn\u00c3\u00a9es pr\u00c3\u00a9lev\u00c3\u00a9es \u00c3\u00a0 diff\u00c3\u00a9rentes profondeurs sur toute la colonne d'eau du lac. Les pr\u00c3\u00a9l\u00c3\u00a8vements sont effectu\u00c3\u00a9s une \u00c3\u00a0 trois fois par mois. La p\u00c3\u00a9riode concerne un suivi depuis 2006 jusqu'\u00c3\u00a0 nos jours.\n   Les variables du th\u00c3\u00a8me conditions de pr\u00c3\u00a9l\u00c3\u00a8vements sont : temp\u00c3\u00a9rature de l'air, n\u00c3\u00a9bulosit\u00c3\u00a9, ensoleillement, temps, direction du vent, vitesse du vent, pression atmosph\u00c3\u00a9rique, aspect de l'eau, \u00c3\u00a9tat de surface, transparence, couleur de l'eau. Les \u00c3\u00a9tudes sont effectu\u00c3\u00a9s une \u00c3\u00a0 deux fois par mois environ. La p\u00c3\u00a9riode concerne un suivi depuis 2010 jusqu'\u00c3\u00a0 nos jours.\n   Les variables du th\u00c3\u00a8me phytoplancton sont  : nom du d\u00c3\u00a9terminateur, volume s\u00c3\u00a9diment\u00c3\u00a9, surface de comptage, taxon d\u00c3\u00a9termin\u00c3\u00a9, nombre de champs compt\u00c3\u00a9s, nombre d'objets compt\u00c3\u00a9s, nombre d'objets par ml, nombre de cellules par ml, biovolume de l'esp\u00c3\u00a8ce dans l'\u00c3\u00a9chantillon. Donn\u00c3\u00a9es pr\u00c3\u00a9lev\u00c3\u00a9es sur une profondeur int\u00c3\u00a9gr\u00c3\u00a9e de 0 \u00c3\u00a0 10m ou 0 \u00c3\u00a0 20m selon les ann\u00c3\u00a9es. Les pr\u00c3\u00a9l\u00c3\u00a8vements sont effectu\u00c3\u00a9s une fois par mois. La p\u00c3\u00a9riode concerne un suivi depuis 1995 jusqu'\u00c3\u00a0 nos jours.\n   Les variables du th\u00c3\u00a8me production primaire sont : dur\u00c3\u00a9e d'incubation, production primaire par dur\u00c3\u00a9e d'incubation r\u00c3\u00a9elle, production primaire par heure, production primaire par tiers m\u00c3\u00a9dian. Donn\u00c3\u00a9es pr\u00c3\u00a9lev\u00c3\u00a9es \u00c3\u00a0 diff\u00c3\u00a9rentes profondeurs sur la colonne d'eau du lac de 0 \u00c3\u00a0 30m. Les pr\u00c3\u00a9l\u00c3\u00a8vements sont effectu\u00c3\u00a9s une \u00c3\u00a0 deux fois par mois. La p\u00c3\u00a9riode concerne un suivi depuis 2011 jusqu'\u00c3\u00a0 nos jours.\nLes variables du th\u00c3\u00a8me sondes sont : profondeur, temp\u00c3\u00a9rature, chlorophylle a, pH conductivit\u00c3\u00a9, oxyg\u00c3\u00a8ne, taux de saturation en oxyg\u00c3\u00a8ne, turbidit\u00c3\u00a9, transparence, par w, par a, pah, pc. Donn\u00c3\u00a9es obtenues \u00c3\u00a0 diff\u00c3\u00a9rentes profondeurs (tous les 10 cm environ) sur toute la colonne d'eau du lac (0 \u00c3\u00a0 140m). Les mesures sont effectu\u00c3\u00a9es une \u00c3\u00a0 deux fois par mois. La p\u00c3\u00a9riode concerne un suivi depuis 2003 jusqu'\u00c3\u00a0 nos jours.\n   Les variables du th\u00c3\u00a8me zooplancton sont : nom du d\u00c3\u00a9terminateur, biovolume s\u00c3\u00a9diment\u00c3\u00a9, nom du taxon d\u00c3\u00a9termin\u00c3\u00a9, stade de d\u00c3\u00a9veloppement, nombre d'individus. Donn\u00c3\u00a9es pr\u00c3\u00a9lev\u00c3\u00a9es sur une profondeur int\u00c3\u00a9gr\u00c3\u00a9e de 0 \u00c3\u00a0 50m. Les pr\u00c3\u00a9l\u00c3\u00a8vements sont effectu\u00c3\u00a9s une \u00c3\u00a0 trois fois par mois environ. La p\u00c3\u00a9riode concerne un suivi depuis 1996 jusqu'\u00c3\u00a0 nos jours (absence de donn\u00c3\u00a9es entre 1997 et 2003 inclus)."
+       }
+      }
+     }
+    },
+    "gmd:pointOfContact": {
+     "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+     "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+     "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+     "gmd:CI_ResponsibleParty": {
+      "gmd:organisationName": {
+       "gco:CharacterString": "INRA"
+      },
+      "gmd:contactInfo": {
+       "gmd:CI_Contact": {
+        "gmd:phone": {
+         "gmd:CI_Telephone": {
+          "gmd:voice": {
+           "gco:CharacterString": "+33 4 50 26 78 72"
+          },
+          "gmd:facsimile": {
+           "gco:CharacterString": "+33 4 50 26 07 60"
+          }
+         }
+        },
+        "gmd:address": {
+         "gmd:CI_Address": {
+          "gmd:deliveryPoint": {
+           "gco:CharacterString": "INRA 75 avenue de Corzent - BP 511"
+          },
+          "gmd:city": {
+           "gco:CharacterString": "Thonon-les-Bains Cedex"
+          },
+          "gmd:administrativeArea": {
+           "@gco:nilReason": "missing",
+           "gco:CharacterString": null
+          },
+          "gmd:postalCode": {
+           "gco:CharacterString": "74203"
+          },
+          "gmd:country": {
+           "gco:CharacterString": "France"
+          },
+          "gmd:electronicMailAddress": {
+           "gco:CharacterString": "ola@thonon.inra.fr"
+          }
+         }
+        }
+       }
+      },
+      "gmd:role": {
+       "gmd:CI_RoleCode": {
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode",
+        "@codeListValue": "pointOfContact"
+       }
+      }
+     }
+    },
+    "gmd:resourceMaintenance": {
+     "gmd:MD_MaintenanceInformation": {
+      "gmd:maintenanceAndUpdateFrequency": {
+       "gmd:MD_MaintenanceFrequencyCode": {
+        "@codeListValue": "asNeeded",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"
+       }
+      }
+     }
+    },
+    "gmd:graphicOverview": {
+     "gmd:MD_BrowseGraphic": {
+      "gmd:fileName": {
+       "gco:CharacterString": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/fre//resources.get?uuid=82c748ca-d656-46ac-b883-d353e75a54c7&fname=Bourget_lac_panoramic-3_2007-08-17.jpg"
+      },
+      "gmd:fileDescription": {
+       "gco:CharacterString": "large_thumbnail"
+      },
+      "gmd:fileType": {
+       "gco:CharacterString": "jpg"
+      }
+     }
+    },
+    "gmd:descriptiveKeywords": [
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": [
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "chlorophyll",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "chlorophylle"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "chemistry",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "chimie"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "transparency",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "transparence"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "probe",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "sonde"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "zooplankton",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "zooplancton"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "Nitrogen",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "Azote"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "primary production",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "Production primaire"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "nutrients",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "nutriments"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "pH",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "potentiel hydrog\u00c3\u00a9nique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "Oxygen",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "Oxyg\u00c3\u00a8ne"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "Phosphorus",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "Phosphore"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "water",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "eau"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "physicochemical analysis",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "analyse physico-chimique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "phytoplankton",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "phytoplancton"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "AnaEE-France",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "AnaEE-France"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "freshwater",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "eau douce"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "lake",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "lac"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "observatory",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "observatoire"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "planktonic crustacea",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "crustac\u00c3\u00a9 planctonique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "plankton",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "picoplankton",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "picoplancton"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "macroplankton",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "macroplancton"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "planktonic community",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "communaut\u00c3\u00a9 planctonique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "microplankton",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "microplancton"
+           }
+          }
+         }
+        }
+       ],
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "theme.anaeeThes.rdf"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2017-06-13"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=external.theme.anaeeThes",
+             "#text": "geonetwork.thesaurus.external.theme.anaeeThes"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "Environmental monitoring facilities",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "Installations de suivi environnemental"
+          }
+         }
+        }
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "GEMET - INSPIRE themes, version 1.0 INSPIRE themes"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2008-06-01"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=external.theme.inspire-theme",
+             "#text": "geonetwork.thesaurus.external.theme.inspire-theme"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": [
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "Lac_Bourget",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "Lac du Bourget"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "Lac_Peri_Alpins",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "Lacs_Peri_Alpins"
+           }
+          }
+         }
+        }
+       ],
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "place"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "AnaEE-France Locations"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2017-06-02"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=local.place.anaee-france_locations",
+             "#text": "geonetwork.thesaurus.local.place.anaee-france_locations"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": [
+        {
+         "gco:CharacterString": "CARRTEL"
+        },
+        {
+         "gco:CharacterString": "SOERE"
+        },
+        {
+         "gco:CharacterString": "OLA"
+        },
+        {
+         "gco:CharacterString": "CISALB"
+        },
+        {
+         "gco:CharacterString": "Campaign of measures"
+        },
+        {
+         "gco:CharacterString": "Observatory"
+        },
+        {
+         "gco:CharacterString": "metals"
+        },
+        {
+         "gco:CharacterString": "Water quality"
+        },
+        {
+         "gco:CharacterString": "envirhonalp"
+        },
+        {
+         "gco:CharacterString": "ecoscope"
+        }
+       ]
+      }
+     }
+    ],
+    "gmd:resourceConstraints": {
+     "gmd:MD_LegalConstraints": {
+      "gmd:useLimitation": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "See AnaEE-France charters.\nSee SOERE-OLA Charter\nSee SOERE-OLA-IS Terms of use",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "Voir les chartes AnaEE-France.\nVoir la charte du SOERE-OLA\nVoir les Conditions Generales d'Utilisation (CGU) des donn\u00c3\u00a9es du SOERE OLA"
+         }
+        }
+       }
+      },
+      "gmd:accessConstraints": {
+       "gmd:MD_RestrictionCode": {
+        "@codeListValue": "intellectualPropertyRights",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+       }
+      },
+      "gmd:useConstraints": {
+       "gmd:MD_RestrictionCode": {
+        "@codeListValue": "intellectualPropertyRights",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+       }
+      }
+     }
+    },
+    "gmd:spatialResolution": {
+     "gmd:MD_Resolution": {
+      "gmd:equivalentScale": {
+       "gmd:MD_RepresentativeFraction": {
+        "gmd:denominator": {
+         "gco:Integer": "50000"
+        }
+       }
+      }
+     }
+    },
+    "gmd:language": {
+     "gmd:LanguageCode": {
+      "@codeList": "http://www.loc.gov/standards/iso639-2/",
+      "@codeListValue": "fre"
+     }
+    },
+    "gmd:characterSet": {
+     "gmd:MD_CharacterSetCode": {
+      "@codeListValue": "utf8",
+      "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+     }
+    },
+    "gmd:topicCategory": {
+     "gmd:MD_TopicCategoryCode": "structure"
+    },
+    "gmd:extent": [
+     {
+      "gmd:EX_Extent": {
+       "@xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+       "gmd:description": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "Great peri alpin lakes:\nBourget lake",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "Les grands lacs peri-alpins :\nLac L\u00c3\u00a9man\nLac d'Annecy\nLac du Bourget"
+          }
+         }
+        }
+       },
+       "gmd:geographicElement": {
+        "gmd:EX_GeographicBoundingBox": {
+         "gmd:westBoundLongitude": {
+          "gco:Decimal": "5.724771112576246"
+         },
+         "gmd:eastBoundLongitude": {
+          "gco:Decimal": "7.021157831326298"
+         },
+         "gmd:southBoundLatitude": {
+          "gco:Decimal": "45.642341356272304"
+         },
+         "gmd:northBoundLatitude": {
+          "gco:Decimal": "46.564027452197344"
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:EX_Extent": {
+       "gmd:temporalElement": {
+        "gmd:EX_TemporalExtent": {
+         "gmd:extent": {
+          "gml:TimePeriod": {
+           "@gml:id": "d409856e706a1050910",
+           "gml:beginPosition": "1995-01-01",
+           "gml:endPosition": {
+            "@indeterminatePosition": "unknown"
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:EX_Extent": {
+       "@xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+       "gmd:description": {
+        "gco:CharacterString": "Bourget_Lake"
+       }
+      }
+     },
+     {
+      "gmd:EX_Extent": {
+       "@xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+       "gmd:description": {
+        "gco:CharacterString": "Lac_Bourget"
+       },
+       "gmd:geographicElement": {
+        "gmd:EX_GeographicBoundingBox": {
+         "gmd:westBoundLongitude": {
+          "gco:Decimal": "5.8139"
+         },
+         "gmd:eastBoundLongitude": {
+          "gco:Decimal": "5.9004"
+         },
+         "gmd:southBoundLatitude": {
+          "gco:Decimal": "45.6425"
+         },
+         "gmd:northBoundLatitude": {
+          "gco:Decimal": "45.8074"
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:EX_Extent": {
+       "@xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+       "gmd:description": {
+        "gco:CharacterString": "Lac_Peri_Alpins"
+       },
+       "gmd:geographicElement": {
+        "gmd:EX_GeographicBoundingBox": {
+         "gmd:westBoundLongitude": {
+          "gco:Decimal": "5.5926"
+         },
+         "gmd:eastBoundLongitude": {
+          "gco:Decimal": "7.7459"
+         },
+         "gmd:southBoundLatitude": {
+          "gco:Decimal": "43.8452"
+         },
+         "gmd:northBoundLatitude": {
+          "gco:Decimal": "46.5207"
+         }
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  "gmd:distributionInfo": {
+   "@xmlns:date": "http://exslt.org/dates-and-times",
+   "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+   "gmd:MD_Distribution": {
+    "gmd:distributionFormat": {
+     "gmd:MD_Format": {
+      "gmd:name": {
+       "gco:CharacterString": "inapplicable"
+      },
+      "gmd:version": {
+       "gco:CharacterString": "missing"
+      }
+     }
+    },
+    "gmd:transferOptions": {
+     "gmd:MD_DigitalTransferOptions": {
+      "gmd:onLine": [
+       {
+        "gmd:CI_OnlineResource": {
+         "gmd:linkage": {
+          "gmd:URL": "https://si-ola.inra.fr"
+         },
+         "gmd:protocol": {
+          "gco:CharacterString": "WWW:LINK-1.0-http--link"
+         },
+         "gmd:name": {
+          "gmx:MimeFileType": {
+           "@type": "",
+           "#text": "SOERE OLA Website"
+          }
+         },
+         "gmd:description": {
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString": "Link to the resource",
+          "gmd:PT_FreeText": {
+           "gmd:textGroup": {
+            "gmd:LocalisedCharacterString": {
+             "@locale": "#FR",
+             "#text": "Lien vers la ressource"
+            }
+           }
+          }
+         }
+        }
+       },
+       {
+        "@xmlns:gn": "http://www.fao.org/geonetwork",
+        "gmd:CI_OnlineResource": {
+         "gmd:linkage": {
+          "gmd:URL": null
+         }
+        }
+       },
+       {
+        "gmd:CI_OnlineResource": {
+         "gmd:linkage": {
+          "gmd:URL": "https://si-ola.inra.fr"
+         },
+         "gmd:protocol": {
+          "gco:CharacterString": "WWW:LINK-1.0-http--link"
+         },
+         "gmd:name": {
+          "gco:CharacterString": "eng#Observatory on Lakes (OLA) Information System  (IS)"
+         },
+         "gmd:description": {
+          "gco:CharacterString": "eng#Observatory on Lakes (OLA) Information System"
+         }
+        }
+       }
+      ]
+     }
+    }
+   }
+  },
+  "gmd:dataQualityInfo": {
+   "gmd:DQ_DataQuality": {
+    "gmd:scope": {
+     "gmd:DQ_Scope": {
+      "gmd:level": {
+       "gmd:MD_ScopeCode": {
+        "@codeListValue": "dataset",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode"
+       }
+      },
+      "gmd:levelDescription": null
+     }
+    },
+    "gmd:report": {
+     "gmd:DQ_DomainConsistency": {
+      "gmd:result": {
+       "gmd:DQ_ConformanceResult": {
+        "gmd:specification": {
+         "gmd:CI_Citation": {
+          "gmd:title": {
+           "gco:CharacterString": "Commission Regulation (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services"
+          },
+          "gmd:date": {
+           "gmd:CI_Date": {
+            "gmd:date": {
+             "gco:Date": "2010-12-08"
+            },
+            "gmd:dateType": {
+             "gmd:CI_DateTypeCode": {
+              "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+              "@codeListValue": "publication"
+             }
+            }
+           }
+          }
+         }
+        },
+        "gmd:explanation": {
+         "gco:CharacterString": "Not evaluated"
+        }
+       }
+      }
+     }
+    },
+    "gmd:lineage": {
+     "gmd:LI_Lineage": {
+      "gmd:statement": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "The  data temporal extents are depending on parameters. Older data are physical chemistry from 1957 on Lake Geneva. They have been validated by scientists  when they are been acquired but  were transcribed from their paper version to a digital version thereafter.\nThe SOERE OLA is a service of AnaEE-France Infrastructure.",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "Les donn\u00c3\u00a9es sont sur des \u00c3\u00a9tendues temporelles variables selon leur type. Les plus anciennes sont des donn\u00c3\u00a9es de physico chimie \u00c3\u00a0 partir de 1957 concernant le lac L\u00c3\u00a9man Elles ont \u00c3\u00a9t\u00c3\u00a9 valid\u00c3\u00a9es par des scientifiques au fur et \u00c3\u00a0 mesure de leur acquisition puis retranscrites de leur version papier vers une version num\u00c3\u00a9rique par la suite.\nLe SOERE OLA est un des services de l'infrastructure AnaEE-France."
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

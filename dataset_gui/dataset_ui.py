@@ -55,10 +55,11 @@ class DatasetIndex:
         self.nsidr_list = []
         self.sdn_list = []
         self.full_list = []
+        self.domain_list = []
 
         # Default files
         self.feature_config_file.set("domain_vocabularies.json")
-        self.domain_vars_file.set("domain_variables.json")
+        self.domain_vars_file.set("essential_domain_variables.json")
         self.metadata_directory.set("No directory choosen")
         self.save_directory.set("No directory choosen")
         self.stats_save_directory.set("No directory choosen")
@@ -300,6 +301,7 @@ class DatasetIndex:
         self.nsidr_files.set(len(self.nsidr_list))
         self.sdn_files.set(len(self.sdn_list))
         self.full_list = [self.anaee_list, self.icos_list, self.nsidr_list, self.sdn_list]
+        self.domain_list = ['biodiversity', 'atmosphere', 'biodiversity', 'oceanography']
 
     # Download files
     def save_config(self):
@@ -375,6 +377,38 @@ class DatasetIndex:
         print(len(self.mapping))
         print(self.mapping_threshold.get())
 
+
+    def domain(self, data, domain_vars, domain_essential, threshold = 0):
+        domain = open_file(domain_vars)
+        data['info'] = []
+        domain_variables = domain[domain_essential]
+        value_list = []
+        try: value_list.append(data['description']) 
+        except: pass
+        try: value_list.append(data['abstract'])
+        except: pass
+        try: value_list.append(data['headline'])
+        except: pass
+        try:
+            for keyword in data['keyword']:
+                value_list.append(keyword)
+        except: pass
+
+        all_matches = mapper(value_list, domain_variables)
+        domain_match = {}
+        for key in all_matches:
+            best_match = max(all_matches[key], key = all_matches[key].get)
+            sim_score = all_matches[key][best_match]
+            domain_match[key] = [best_match, sim_score]
+
+        for key, value in domain_match.items():
+            if value[1] > threshold:
+                data['info'].append(value[0])
+
+        try: data['info'] = list(set(data['info']))
+        except: pass
+        return data
+
     def process_files2(self):
         self.file_process_status.set('Processing files...')
         directory = self.save_directory.get()
@@ -388,13 +422,16 @@ class DatasetIndex:
                     value_dict[key] = content
 
                 value_dict = self.rule_file.run_funcs(value_dict)
+                #domain_file = open_file(self.domain_vars_file.get())
+                #print(domain_file[self.domain_list[i]])
+                value_dict = self.domain(value_dict, self.domain_vars_file.get(), self.domain_list[i], self.essential_vars_threshold.get() / 100)
                 value_dict = topic_miner(value_dict)
-                value_dict = domain(value_dict, self.domain_vars_file.get(), self.essential_vars_threshold.get())
                 write_file(directory + '/' + basename(file) + ".json", value_dict)
         self.file_process_status.set('Processing complete!')
         
         return
 
+    '''
     def process_files(self):
         self.file_process_status.set('Processing files...')
         directory = self.save_directory.get()
@@ -408,10 +445,10 @@ class DatasetIndex:
 
             value_dict = self.rule_file.run_funcs(value_dict)
             value_dict = topic_miner(value_dict, self.lda_passes.get())
-            value_dict = domain(value_dict, self.essential_vars_threshold.get())
+            value_dict = self.domain(value_dict, self.essential_vars_threshold.get())
             write_file(directory + '/' + value_dict['identifier'] +'.json', value_dict)
         self.file_process_status.set('Processing complete!')
-        
+    '''
 
     def calc_stats(self):
         percentage_per_source = []

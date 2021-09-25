@@ -1,0 +1,1364 @@
+{
+ "id": "20.5000.1025/389a4ff49c0a194ff8d6",
+ "type": "DigitalSpecimen",
+ "content": {
+  "physicalSpecimenId": "19700579",
+  "gbifId": "https://www.gbif.org/occurrence/1851891951",
+  "institutionCode": "BR",
+  "collectionDate": "2018-06-18T00:00:00",
+  "id": "20.5000.1025/389a4ff49c0a194ff8d6",
+  "midslevel": 0,
+  "catOfLifeReference": "http://www.catalogueoflife.org/col/details/species/id/055618fe5eff5d60eb68c382064e7131",
+  "locality": "Meise Botanic Garden",
+  "country": "Belgium",
+  "scientificName": "Marcgravia umbellata L.",
+  "countryCode": "BE",
+  "dwcaContent": {
+   "core": {
+    "type": "dwc:Occurrence",
+    "content": {
+     "dwc:geodeticDatum": "WGS84",
+     "dwc:year": "2018",
+     "dwc:occurrenceID": "19700579",
+     "dwc:family": "Marcgraviaceae",
+     "dcterms:modified": "2018-09-11T10:00:00Z",
+     "dwc:class": "Magnoliopsida",
+     "dcterms:rightsHolder": "Meise Botanic Garden",
+     "gbif:acceptedScientificName": "Marcgravia umbellata L.",
+     "dwc:taxonomicStatus": "ACCEPTED",
+     "gbif:hasCoordinate": "false",
+     "gbif:acceptedTaxonKey": "5614537",
+     "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+     "gbif:kingdomKey": "6",
+     "gbif:hasGeospatialIssues": "false",
+     "dwc:countryCode": "BE",
+     "gbif:datasetKey": "68c91b9a-2322-4f60-8d58-2c696a73a11c",
+     "dwc:genus": "Marcgravia",
+     "dwc:day": "18",
+     "dcterms:license": "CC_BY_4_0",
+     "dwc:locality": "Meise Botanic Garden",
+     "gbif:orderKey": "1353",
+     "gbif:taxonKey": "5614537",
+     "dcterms:identifier": "19700579",
+     "dwc:scientificName": "Marcgravia umbellata L.",
+     "dcterms:type": "PhysicalObject",
+     "gbif:publishingCountry": "BE",
+     "dwc:month": "6",
+     "dwc:specificEpithet": "umbellata",
+     "gbif:lastParsed": "2020-10-07T11:28:44.231Z",
+     "gbif:phylumKey": "7707728",
+     "gbif:repatriated": "false",
+     "dwc:phylum": "Tracheophyta",
+     "dwc:eventDate": "2018-06-18T00:00:00",
+     "dwc:kingdom": "Plantae",
+     "gbif:speciesKey": "5614537",
+     "dwc:taxonRank": "SPECIES",
+     "gbif:genericName": "Marcgravia",
+     "gbif:gbifID": "1851891951",
+     "dwc:basisOfRecord": "LIVING_SPECIMEN",
+     "dwc:order": "Ericales",
+     "gbif:protocol": "DWC_ARCHIVE",
+     "gbif:lastInterpreted": "2020-10-07T11:28:44.231Z",
+     "gbif:classKey": "220",
+     "dwc:nomenclaturalCode": "ICBN",
+     "gbif:species": "Marcgravia umbellata",
+     "dwc:institutionCode": "BR",
+     "gbif:genusKey": "3189414",
+     "dcterms:language": "en",
+     "dcterms:references": "http://db.plantentuinmeise.be/RESEARCH/COLLECTIONS/LIVING/LIVCOL/list/n_19700579.html",
+     "dwc:occurrenceStatus": "PRESENT",
+     "gbif:lastCrawled": "2020-10-06T13:27:27.991Z",
+     "http://rs.gbif.org/terms/1.0/verbatimScientificName": "Marcgravia umbellata L.",
+     "gbif:familyKey": "6643"
+    }
+   },
+   "extensions": [
+    {
+     "type": "dwc:Occurrence",
+     "content": [
+      {
+       "dwc:occurrenceID": "19700579",
+       "dwc:family": "Marcgraviaceae",
+       "dcterms:modified": "2018-09-11T10:00:00",
+       "dcterms:rightsHolder": "Meise Botanic Garden",
+       "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+       "dwc:country": "BE",
+       "dcterms:license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+       "dwc:locality": "Meise Botanic Garden",
+       "dcterms:identifier": "19700579",
+       "dwc:scientificName": "Marcgravia umbellata L.",
+       "dcterms:type": "PhysicalObject",
+       "dwc:eventDate": "2018-06-18",
+       "dwc:kingdom": "Plantae",
+       "gbif:gbifID": "1851891951",
+       "dwc:basisOfRecord": "LivingSpecimen",
+       "dwc:nomenclaturalCode": "ICBN",
+       "dwc:institutionCode": "BR",
+       "dcterms:language": "en",
+       "dcterms:references": "http://db.plantentuinmeise.be/RESEARCH/COLLECTIONS/LIVING/LIVCOL/list/n_19700579.html"
+      }
+     ]
+    }
+   ]
+  },
+  "colContent": {
+   "id": "055618fe5eff5d60eb68c382064e7131",
+   "name": "Marcgravia umbellata",
+   "rank": "Species",
+   "name_status": "accepted name",
+   "genus": "Marcgravia",
+   "subgenus": "",
+   "species": "umbellata",
+   "infraspecies_marker": "",
+   "infraspecies": "",
+   "author": "L.",
+   "record_scrutiny_date": {
+    "scrutiny": "2018-11"
+   },
+   "online_resource": "",
+   "is_extinct": "false",
+   "source_database": "World Plants: Synonymic Checklists of the Vascular Plants of the World",
+   "source_database_url": "http://worldplants.webarchiv.kit.edu/",
+   "bibliographic_citation": "Hassler M. (2020). World Plants: Synonymic Checklists of the Vascular Plants of the World (version Nov 2018). In: Species 2000 & ITIS Catalogue of Life, 2020-09-01 Beta (Roskov Y.; Ower G.; Orrell T.; Nicolson D.; Bailly N.; Kirk P.M.; Bourgoin T.; DeWalt R.E.; Decock W.; Nieukerken E. van; Penev L.; eds.). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.",
+   "name_html": "<i>Marcgravia umbellata</i> L.",
+   "url": "http://www.catalogueoflife.org/col/details/species/id/055618fe5eff5d60eb68c382064e7131",
+   "distribution": "Lesser Antilles (Antigua, Dominica, Grenada, Guadeloupe, Martinique, Saba, St. Kitts, St. Lucia, St. Vincent), N-Brazil (Amapa, Para, Amazonas), WC-Brazil (Mato Grosso) 28352 0",
+   "references": [
+    {
+     "author": "L.",
+     "year": "1753",
+     "source": "In: Sp. Pl. 503"
+    }
+   ],
+   "classification": [
+    {
+     "id": "208cf441fe2e1662376a9ce9e80782e1",
+     "name": "Plantae",
+     "rank": "Kingdom",
+     "name_html": "Plantae",
+     "url": "http://www.catalogueoflife.org/col/browse/tree/id/208cf441fe2e1662376a9ce9e80782e1"
+    },
+    {
+     "id": "73328ba4e1446e1ee3602956b66eb127",
+     "name": "Tracheophyta",
+     "rank": "Phylum",
+     "name_html": "Tracheophyta",
+     "url": "http://www.catalogueoflife.org/col/browse/tree/id/73328ba4e1446e1ee3602956b66eb127"
+    },
+    {
+     "id": "53497bb664b89c28e60f020f7f21f882",
+     "name": "Magnoliopsida",
+     "rank": "Class",
+     "name_html": "Magnoliopsida",
+     "url": "http://www.catalogueoflife.org/col/browse/tree/id/53497bb664b89c28e60f020f7f21f882"
+    },
+    {
+     "id": "1cf1fd90d9326849ef78426e68358674",
+     "name": "Ericales",
+     "rank": "Order",
+     "name_html": "Ericales",
+     "url": "http://www.catalogueoflife.org/col/browse/tree/id/1cf1fd90d9326849ef78426e68358674"
+    },
+    {
+     "id": "a19cf0a2ecf066423402430fd3c1b0fa",
+     "name": "Marcgraviaceae",
+     "rank": "Family",
+     "name_html": "Marcgraviaceae",
+     "url": "http://www.catalogueoflife.org/col/browse/tree/id/a19cf0a2ecf066423402430fd3c1b0fa"
+    },
+    {
+     "id": "186749f45e331b4b42046b5eb439907c",
+     "name": "Marcgravia",
+     "rank": "Genus",
+     "name_html": "<i>Marcgravia</i>",
+     "url": "http://www.catalogueoflife.org/col/browse/tree/id/186749f45e331b4b42046b5eb439907c"
+    }
+   ],
+   "child_taxa": [],
+   "synonyms": [],
+   "common_names": []
+  },
+  "ebiSearchResults": [
+   {
+    "acc": "DQ493932",
+    "id": "DQ493932",
+    "source": "emblstandard",
+    "fields": [
+     {
+      "id": "AGRICOLA",
+      "values": []
+     },
+     {
+      "id": "BIOSAMPLE",
+      "values": []
+     },
+     {
+      "id": "CABRI",
+      "values": []
+     },
+     {
+      "id": "CCAP",
+      "values": []
+     },
+     {
+      "id": "COMPARE-REFGENOME",
+      "values": []
+     },
+     {
+      "id": "DOI",
+      "values": [
+       "10.1111/j.1365-313X.2006.02800.x"
+      ]
+     },
+     {
+      "id": "EC",
+      "values": []
+     },
+     {
+      "id": "EMBL-TPA",
+      "values": []
+     },
+     {
+      "id": "EMBL-TSA",
+      "values": []
+     },
+     {
+      "id": "EMBLCDS",
+      "values": [
+       "ABF67491"
+      ]
+     },
+     {
+      "id": "ENA",
+      "values": []
+     },
+     {
+      "id": "ENA-CON",
+      "values": []
+     },
+     {
+      "id": "ENSEMBL-GN",
+      "values": []
+     },
+     {
+      "id": "ENSEMBLGENOMES-GN",
+      "values": []
+     },
+     {
+      "id": "EPD",
+      "values": []
+     },
+     {
+      "id": "EUROPEPMC",
+      "values": []
+     },
+     {
+      "id": "FLYBASE",
+      "values": []
+     },
+     {
+      "id": "FLYBASE-NCRNA",
+      "values": []
+     },
+     {
+      "id": "GENEDB",
+      "values": []
+     },
+     {
+      "id": "GOA",
+      "values": [
+       "Q19R22"
+      ]
+     },
+     {
+      "id": "GRAINGENES",
+      "values": []
+     },
+     {
+      "id": "GTRNADB",
+      "values": []
+     },
+     {
+      "id": "H-INVDB",
+      "values": []
+     },
+     {
+      "id": "HGNC",
+      "values": []
+     },
+     {
+      "id": "INTERPRO",
+      "values": [
+       "IPR002100",
+       "IPR002487",
+       "IPR036879"
+      ]
+     },
+     {
+      "id": "IPD-KIR",
+      "values": []
+     },
+     {
+      "id": "IPD-MHC",
+      "values": []
+     },
+     {
+      "id": "ISHAM-ITS",
+      "values": []
+     },
+     {
+      "id": "LNCRNADB",
+      "values": []
+     },
+     {
+      "id": "MGI",
+      "values": []
+     },
+     {
+      "id": "MIRBASE",
+      "values": []
+     },
+     {
+      "id": "PATENT_NUMBER",
+      "values": []
+     },
+     {
+      "id": "PDB",
+      "values": []
+     },
+     {
+      "id": "PLNCDB",
+      "values": []
+     },
+     {
+      "id": "POMBASE",
+      "values": []
+     },
+     {
+      "id": "PROJECT",
+      "values": []
+     },
+     {
+      "id": "PUBMED",
+      "values": [
+       "16856983"
+      ]
+     },
+     {
+      "id": "RFAM",
+      "values": []
+     },
+     {
+      "id": "SGD",
+      "values": []
+     },
+     {
+      "id": "SILVA-LSU",
+      "values": []
+     },
+     {
+      "id": "SILVA-SSU",
+      "values": []
+     },
+     {
+      "id": "SNOPYDB",
+      "values": []
+     },
+     {
+      "id": "SRPDB",
+      "values": []
+     },
+     {
+      "id": "STRAININFO",
+      "values": []
+     },
+     {
+      "id": "SUBTILIST",
+      "values": []
+     },
+     {
+      "id": "TAIR",
+      "values": []
+     },
+     {
+      "id": "TAXON",
+      "values": [
+       "255211"
+      ]
+     },
+     {
+      "id": "TMRNA-WEBSITE",
+      "values": []
+     },
+     {
+      "id": "UNILIB",
+      "values": []
+     },
+     {
+      "id": "UNIPROTKB_SWISS-PROT",
+      "values": []
+     },
+     {
+      "id": "UNIPROTKB_TREMBL",
+      "values": [
+       "Q19R22"
+      ]
+     },
+     {
+      "id": "UNITE",
+      "values": []
+     },
+     {
+      "id": "VBASE2",
+      "values": []
+     },
+     {
+      "id": "WORMBASE",
+      "values": []
+     },
+     {
+      "id": "ZFIN",
+      "values": []
+     },
+     {
+      "id": "acc",
+      "values": [
+       "DQ493932"
+      ]
+     },
+     {
+      "id": "collection_date",
+      "values": []
+     },
+     {
+      "id": "country",
+      "values": []
+     },
+     {
+      "id": "creation_date",
+      "values": [
+       "20060528"
+      ]
+     },
+     {
+      "id": "description",
+      "values": [
+       "Marcgravia umbellata MADS-domain transcription factor (GLO1) mRNA, partial cds."
+      ]
+     },
+     {
+      "id": "domain_source",
+      "values": [
+       "emblstandard"
+      ]
+     },
+     {
+      "id": "host",
+      "values": []
+     },
+     {
+      "id": "id",
+      "values": [
+       "DQ493932"
+      ]
+     },
+     {
+      "id": "isolate",
+      "values": []
+     },
+     {
+      "id": "last_modification_date",
+      "values": [
+       "20060802"
+      ]
+     },
+     {
+      "id": "lat_lon",
+      "values": []
+     },
+     {
+      "id": "molecule_type",
+      "values": [
+       "mRNA"
+      ]
+     },
+     {
+      "id": "strain",
+      "values": []
+     }
+    ]
+   },
+   {
+    "acc": "DQ493933",
+    "id": "DQ493933",
+    "source": "emblstandard",
+    "fields": [
+     {
+      "id": "AGRICOLA",
+      "values": []
+     },
+     {
+      "id": "BIOSAMPLE",
+      "values": []
+     },
+     {
+      "id": "CABRI",
+      "values": []
+     },
+     {
+      "id": "CCAP",
+      "values": []
+     },
+     {
+      "id": "COMPARE-REFGENOME",
+      "values": []
+     },
+     {
+      "id": "DOI",
+      "values": [
+       "10.1111/j.1365-313X.2006.02800.x"
+      ]
+     },
+     {
+      "id": "EC",
+      "values": []
+     },
+     {
+      "id": "EMBL-TPA",
+      "values": []
+     },
+     {
+      "id": "EMBL-TSA",
+      "values": []
+     },
+     {
+      "id": "EMBLCDS",
+      "values": [
+       "ABF67492"
+      ]
+     },
+     {
+      "id": "ENA",
+      "values": []
+     },
+     {
+      "id": "ENA-CON",
+      "values": []
+     },
+     {
+      "id": "ENSEMBL-GN",
+      "values": []
+     },
+     {
+      "id": "ENSEMBLGENOMES-GN",
+      "values": []
+     },
+     {
+      "id": "EPD",
+      "values": []
+     },
+     {
+      "id": "EUROPEPMC",
+      "values": []
+     },
+     {
+      "id": "FLYBASE",
+      "values": []
+     },
+     {
+      "id": "FLYBASE-NCRNA",
+      "values": []
+     },
+     {
+      "id": "GENEDB",
+      "values": []
+     },
+     {
+      "id": "GOA",
+      "values": [
+       "Q19R21"
+      ]
+     },
+     {
+      "id": "GRAINGENES",
+      "values": []
+     },
+     {
+      "id": "GTRNADB",
+      "values": []
+     },
+     {
+      "id": "H-INVDB",
+      "values": []
+     },
+     {
+      "id": "HGNC",
+      "values": []
+     },
+     {
+      "id": "INTERPRO",
+      "values": [
+       "IPR002100",
+       "IPR002487",
+       "IPR036879"
+      ]
+     },
+     {
+      "id": "IPD-KIR",
+      "values": []
+     },
+     {
+      "id": "IPD-MHC",
+      "values": []
+     },
+     {
+      "id": "ISHAM-ITS",
+      "values": []
+     },
+     {
+      "id": "LNCRNADB",
+      "values": []
+     },
+     {
+      "id": "MGI",
+      "values": []
+     },
+     {
+      "id": "MIRBASE",
+      "values": []
+     },
+     {
+      "id": "PATENT_NUMBER",
+      "values": []
+     },
+     {
+      "id": "PDB",
+      "values": []
+     },
+     {
+      "id": "PLNCDB",
+      "values": []
+     },
+     {
+      "id": "POMBASE",
+      "values": []
+     },
+     {
+      "id": "PROJECT",
+      "values": []
+     },
+     {
+      "id": "PUBMED",
+      "values": [
+       "16856983"
+      ]
+     },
+     {
+      "id": "RFAM",
+      "values": []
+     },
+     {
+      "id": "SGD",
+      "values": []
+     },
+     {
+      "id": "SILVA-LSU",
+      "values": []
+     },
+     {
+      "id": "SILVA-SSU",
+      "values": []
+     },
+     {
+      "id": "SNOPYDB",
+      "values": []
+     },
+     {
+      "id": "SRPDB",
+      "values": []
+     },
+     {
+      "id": "STRAININFO",
+      "values": []
+     },
+     {
+      "id": "SUBTILIST",
+      "values": []
+     },
+     {
+      "id": "TAIR",
+      "values": []
+     },
+     {
+      "id": "TAXON",
+      "values": [
+       "255211"
+      ]
+     },
+     {
+      "id": "TMRNA-WEBSITE",
+      "values": []
+     },
+     {
+      "id": "UNILIB",
+      "values": []
+     },
+     {
+      "id": "UNIPROTKB_SWISS-PROT",
+      "values": []
+     },
+     {
+      "id": "UNIPROTKB_TREMBL",
+      "values": [
+       "Q19R21"
+      ]
+     },
+     {
+      "id": "UNITE",
+      "values": []
+     },
+     {
+      "id": "VBASE2",
+      "values": []
+     },
+     {
+      "id": "WORMBASE",
+      "values": []
+     },
+     {
+      "id": "ZFIN",
+      "values": []
+     },
+     {
+      "id": "acc",
+      "values": [
+       "DQ493933"
+      ]
+     },
+     {
+      "id": "collection_date",
+      "values": []
+     },
+     {
+      "id": "country",
+      "values": []
+     },
+     {
+      "id": "creation_date",
+      "values": [
+       "20060528"
+      ]
+     },
+     {
+      "id": "description",
+      "values": [
+       "Marcgravia umbellata MADS-domain transcription factor (DEF1) mRNA, partial cds."
+      ]
+     },
+     {
+      "id": "domain_source",
+      "values": [
+       "emblstandard"
+      ]
+     },
+     {
+      "id": "host",
+      "values": []
+     },
+     {
+      "id": "id",
+      "values": [
+       "DQ493933"
+      ]
+     },
+     {
+      "id": "isolate",
+      "values": []
+     },
+     {
+      "id": "last_modification_date",
+      "values": [
+       "20060802"
+      ]
+     },
+     {
+      "id": "lat_lon",
+      "values": []
+     },
+     {
+      "id": "molecule_type",
+      "values": [
+       "mRNA"
+      ]
+     },
+     {
+      "id": "strain",
+      "values": []
+     }
+    ]
+   },
+   {
+    "id": "ABF67491",
+    "source": "coding_std",
+    "fields": [
+     {
+      "id": "AGRICOLA",
+      "values": []
+     },
+     {
+      "id": "BIOSAMPLE",
+      "values": []
+     },
+     {
+      "id": "DOI",
+      "values": [
+       "10.1111/j.1365-313X.2006.02800.x"
+      ]
+     },
+     {
+      "id": "EC",
+      "values": []
+     },
+     {
+      "id": "EMBL",
+      "values": [
+       "DQ493932.1"
+      ]
+     },
+     {
+      "id": "EMBLCDS",
+      "values": [
+       "ABF67491"
+      ]
+     },
+     {
+      "id": "ENSEMBLGENOMES-GN",
+      "values": []
+     },
+     {
+      "id": "GENEDB",
+      "values": []
+     },
+     {
+      "id": "GOA",
+      "values": [
+       "Q19R22"
+      ]
+     },
+     {
+      "id": "H-INVDB",
+      "values": []
+     },
+     {
+      "id": "HGNC",
+      "values": []
+     },
+     {
+      "id": "INTERPRO",
+      "values": [
+       "IPR002100",
+       "IPR002487",
+       "IPR036879"
+      ]
+     },
+     {
+      "id": "MGI",
+      "values": []
+     },
+     {
+      "id": "PATENT_NUMBER",
+      "values": []
+     },
+     {
+      "id": "PDB",
+      "values": []
+     },
+     {
+      "id": "POMBASE",
+      "values": []
+     },
+     {
+      "id": "PROJECT",
+      "values": []
+     },
+     {
+      "id": "PUBMED",
+      "values": [
+       "16856983"
+      ]
+     },
+     {
+      "id": "SGD",
+      "values": []
+     },
+     {
+      "id": "SUBTILIST",
+      "values": []
+     },
+     {
+      "id": "TAXON",
+      "values": [
+       "255211"
+      ]
+     },
+     {
+      "id": "UNILIB",
+      "values": []
+     },
+     {
+      "id": "UNIPROTKB_SWISS-PROT",
+      "values": []
+     },
+     {
+      "id": "UNIPROTKB_TREMBL",
+      "values": [
+       "Q19R22"
+      ]
+     },
+     {
+      "id": "WORMBASE",
+      "values": []
+     },
+     {
+      "id": "ZFIN",
+      "values": []
+     },
+     {
+      "id": "description",
+      "values": [
+       "Marcgravia umbellata partial MADS-domain transcription factor"
+      ]
+     },
+     {
+      "id": "domain_source",
+      "values": [
+       "coding_std"
+      ]
+     },
+     {
+      "id": "id",
+      "values": [
+       "ABF67491"
+      ]
+     }
+    ]
+   },
+   {
+    "acc": "AY452669",
+    "id": "AY452669",
+    "source": "emblstandard",
+    "fields": [
+     {
+      "id": "AGRICOLA",
+      "values": []
+     },
+     {
+      "id": "BIOSAMPLE",
+      "values": []
+     },
+     {
+      "id": "CABRI",
+      "values": []
+     },
+     {
+      "id": "CCAP",
+      "values": []
+     },
+     {
+      "id": "COMPARE-REFGENOME",
+      "values": []
+     },
+     {
+      "id": "DOI",
+      "values": [
+       "10.1016/j.ympev.2003.09.014"
+      ]
+     },
+     {
+      "id": "EC",
+      "values": []
+     },
+     {
+      "id": "EMBL-TPA",
+      "values": []
+     },
+     {
+      "id": "EMBL-TSA",
+      "values": []
+     },
+     {
+      "id": "EMBLCDS",
+      "values": []
+     },
+     {
+      "id": "ENA",
+      "values": []
+     },
+     {
+      "id": "ENA-CON",
+      "values": []
+     },
+     {
+      "id": "ENSEMBL-GN",
+      "values": []
+     },
+     {
+      "id": "ENSEMBLGENOMES-GN",
+      "values": []
+     },
+     {
+      "id": "EPD",
+      "values": []
+     },
+     {
+      "id": "EUROPEPMC",
+      "values": []
+     },
+     {
+      "id": "FLYBASE",
+      "values": []
+     },
+     {
+      "id": "FLYBASE-NCRNA",
+      "values": []
+     },
+     {
+      "id": "GENEDB",
+      "values": []
+     },
+     {
+      "id": "GOA",
+      "values": []
+     },
+     {
+      "id": "GRAINGENES",
+      "values": []
+     },
+     {
+      "id": "GTRNADB",
+      "values": []
+     },
+     {
+      "id": "H-INVDB",
+      "values": []
+     },
+     {
+      "id": "HGNC",
+      "values": []
+     },
+     {
+      "id": "INTERPRO",
+      "values": []
+     },
+     {
+      "id": "IPD-KIR",
+      "values": []
+     },
+     {
+      "id": "IPD-MHC",
+      "values": []
+     },
+     {
+      "id": "ISHAM-ITS",
+      "values": []
+     },
+     {
+      "id": "LNCRNADB",
+      "values": []
+     },
+     {
+      "id": "MGI",
+      "values": []
+     },
+     {
+      "id": "MIRBASE",
+      "values": []
+     },
+     {
+      "id": "PATENT_NUMBER",
+      "values": []
+     },
+     {
+      "id": "PDB",
+      "values": []
+     },
+     {
+      "id": "PLNCDB",
+      "values": []
+     },
+     {
+      "id": "POMBASE",
+      "values": []
+     },
+     {
+      "id": "PROJECT",
+      "values": []
+     },
+     {
+      "id": "PUBMED",
+      "values": [
+       "15062805"
+      ]
+     },
+     {
+      "id": "RFAM",
+      "values": [
+       "RF00002"
+      ]
+     },
+     {
+      "id": "SGD",
+      "values": []
+     },
+     {
+      "id": "SILVA-LSU",
+      "values": []
+     },
+     {
+      "id": "SILVA-SSU",
+      "values": []
+     },
+     {
+      "id": "SNOPYDB",
+      "values": []
+     },
+     {
+      "id": "SRPDB",
+      "values": []
+     },
+     {
+      "id": "STRAININFO",
+      "values": []
+     },
+     {
+      "id": "SUBTILIST",
+      "values": []
+     },
+     {
+      "id": "TAIR",
+      "values": []
+     },
+     {
+      "id": "TAXON",
+      "values": [
+       "255211"
+      ]
+     },
+     {
+      "id": "TMRNA-WEBSITE",
+      "values": []
+     },
+     {
+      "id": "UNILIB",
+      "values": []
+     },
+     {
+      "id": "UNIPROTKB_SWISS-PROT",
+      "values": []
+     },
+     {
+      "id": "UNIPROTKB_TREMBL",
+      "values": []
+     },
+     {
+      "id": "UNITE",
+      "values": []
+     },
+     {
+      "id": "VBASE2",
+      "values": []
+     },
+     {
+      "id": "WORMBASE",
+      "values": []
+     },
+     {
+      "id": "ZFIN",
+      "values": []
+     },
+     {
+      "id": "acc",
+      "values": [
+       "AY452669"
+      ]
+     },
+     {
+      "id": "collection_date",
+      "values": []
+     },
+     {
+      "id": "country",
+      "values": []
+     },
+     {
+      "id": "creation_date",
+      "values": [
+       "20031217"
+      ]
+     },
+     {
+      "id": "description",
+      "values": [
+       "Marcgravia umbellata internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence."
+      ]
+     },
+     {
+      "id": "domain_source",
+      "values": [
+       "emblstandard"
+      ]
+     },
+     {
+      "id": "host",
+      "values": []
+     },
+     {
+      "id": "id",
+      "values": [
+       "AY452669"
+      ]
+     },
+     {
+      "id": "isolate",
+      "values": []
+     },
+     {
+      "id": "last_modification_date",
+      "values": [
+       "20040402"
+      ]
+     },
+     {
+      "id": "lat_lon",
+      "values": []
+     },
+     {
+      "id": "molecule_type",
+      "values": [
+       "genomic DNA"
+      ]
+     },
+     {
+      "id": "strain",
+      "values": []
+     }
+    ]
+   }
+  ],
+  "wikidata": "http://www.wikidata.org/entity/Q6756682",
+  "wikidata_info": {
+   "wikidataId": "Q6756682",
+   "wikidataPageURL": "http://www.wikidata.org/entity/Q6756682",
+   "identifiers": [
+    {
+     "name": "NCBI taxonomy ID",
+     "value": "255211",
+     "link": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=255211"
+    },
+    {
+     "name": "Encyclopedia of Life ID",
+     "value": "5713999",
+     "link": "https://eol.org/fi/pages/5713999"
+    },
+    {
+     "name": "Encyclopedia of Life ID",
+     "value": "5713999",
+     "link": "https://eol.org/fr/pages/5713999"
+    },
+    {
+     "name": "Encyclopedia of Life ID",
+     "value": "5713999",
+     "link": "https://eol.org/mk/pages/5713999"
+    },
+    {
+     "name": "Encyclopedia of Life ID",
+     "value": "5713999",
+     "link": "https://eol.org/pages/5713999"
+    },
+    {
+     "name": "Encyclopedia of Life ID",
+     "value": "5713999",
+     "link": "https://eol.org/pt-BR/pages/5713999"
+    },
+    {
+     "name": "Encyclopedia of Life ID",
+     "value": "5713999",
+     "link": "https://eol.org/zh-TW/pages/5713999"
+    },
+    {
+     "name": "Encyclopedia of Life ID",
+     "value": "5713999",
+     "link": "https://eol.org/ar/pages/5713999"
+    },
+    {
+     "name": "Encyclopedia of Life ID",
+     "value": "5713999",
+     "link": "https://eol.org/tr/pages/5713999"
+    },
+    {
+     "name": "Encyclopedia of Life ID",
+     "value": "5713999",
+     "link": "https://eol.org/pms/pages/5713999"
+    },
+    {
+     "name": "BioLib taxon ID",
+     "value": "799999",
+     "link": "https://www.biolib.cz/cz/taxon/id799999"
+    },
+    {
+     "name": "BioLib taxon ID",
+     "value": "799999",
+     "link": "https://www.biolib.cz/en/taxon/id799999"
+    },
+    {
+     "name": "Global Biodiversity Information Facility ID",
+     "value": "5614537",
+     "link": "https://www.gbif.org/species/5614537"
+    },
+    {
+     "name": "IPNI plant ID",
+     "value": "829097-1",
+     "link": "http://www.ipni.org/ipni/idPlantNameSearch.do?id=829097-1"
+    },
+    {
+     "name": "PlantList-ID",
+     "value": "tro-50073663",
+     "link": "http://www.theplantlist.org/tpl1.1/record/tro-50073663"
+    },
+    {
+     "name": "Tropicos ID",
+     "value": "50073663",
+     "link": "http://legacy.tropicos.org/Name/50073663"
+    },
+    {
+     "name": "uBio ID",
+     "value": "1780162",
+     "link": "http://www.ubio.org/browser/details.php?namebankID=1780162"
+    },
+    {
+     "name": "Plants of the World online ID",
+     "value": "urn:lsid:ipni.org:names:829097-1",
+     "link": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:829097-1"
+    },
+    {
+     "name": "TAXREF ID",
+     "value": "630098",
+     "link": "https://inpn.mnhn.fr/espece/cd_nom/630098"
+    },
+    {
+     "name": "iNaturalist taxon ID",
+     "value": "362361",
+     "link": "https://www.inaturalist.org/taxa/362361"
+    }
+   ],
+   "wikipediaURL": "https://en.wikipedia.org/wiki/Marcgravia_umbellata"
+  }
+ },
+ "metadata": {
+  "createdOn": 1605190406386,
+  "createdBy": "20.5000.1025/2ee264a0c5f7bb08bebe",
+  "modifiedOn": 1621678155806,
+  "modifiedBy": "anonymous",
+  "txnId": 1621678155803377
+ }
+}

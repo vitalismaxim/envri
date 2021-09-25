@@ -1,0 +1,932 @@
+{
+ "gmd:MD_Metadata": {
+  "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+  "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+  "@xmlns:gts": "http://www.isotc211.org/2005/gts",
+  "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xmlns:gml": "http://www.opengis.net/gml",
+  "@xmlns:geonet": "http://www.fao.org/geonetwork",
+  "gmd:fileIdentifier": {
+   "gco:CharacterString": "fd85ef74-988e-44c7-bb1b-c3655e6e5137"
+  },
+  "gmd:language": {
+   "gmd:LanguageCode": {
+    "@codeList": "http://www.loc.gov/standards/iso639-2/",
+    "@codeListValue": "eng"
+   }
+  },
+  "gmd:characterSet": {
+   "gmd:MD_CharacterSetCode": {
+    "@codeListValue": "utf8",
+    "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+   }
+  },
+  "gmd:hierarchyLevel": {
+   "gmd:MD_ScopeCode": {
+    "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode",
+    "@codeListValue": "dataset"
+   }
+  },
+  "gmd:contact": {
+   "gmd:CI_ResponsibleParty": {
+    "gmd:individualName": {
+     "gco:CharacterString": "Christian PICHOT"
+    },
+    "gmd:organisationName": {
+     "gco:CharacterString": "INRAE"
+    },
+    "gmd:contactInfo": {
+     "gmd:CI_Contact": {
+      "gmd:phone": {
+       "gmd:CI_Telephone": {
+        "gmd:voice": {
+         "gco:CharacterString": "+33 4 32 72 29 66"
+        },
+        "gmd:facsimile": {
+         "gco:CharacterString": "+33 4 90 13 59 59"
+        }
+       }
+      },
+      "gmd:address": {
+       "gmd:CI_Address": {
+        "gmd:deliveryPoint": {
+         "gco:CharacterString": "INRA - Domaine Saint-Paul - Site Agroparc"
+        },
+        "gmd:city": {
+         "gco:CharacterString": "Avignon Cedex 9"
+        },
+        "gmd:administrativeArea": {
+         "@gco:nilReason": "missing",
+         "gco:CharacterString": null
+        },
+        "gmd:postalCode": {
+         "gco:CharacterString": "84914"
+        },
+        "gmd:country": {
+         "gco:CharacterString": "France"
+        },
+        "gmd:electronicMailAddress": {
+         "gco:CharacterString": "christian.pichot@inrae.fr"
+        }
+       }
+      }
+     }
+    },
+    "gmd:role": {
+     "gmd:CI_RoleCode": {
+      "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode",
+      "@codeListValue": "pointOfContact"
+     }
+    }
+   }
+  },
+  "gmd:dateStamp": {
+   "gco:DateTime": "2021-02-04T18:47:03"
+  },
+  "gmd:metadataStandardName": {
+   "gco:CharacterString": "ISO 19115:2003/19139"
+  },
+  "gmd:metadataStandardVersion": {
+   "gco:CharacterString": "1.0"
+  },
+  "gmd:locale": {
+   "gmd:PT_Locale": {
+    "@id": "FR",
+    "gmd:languageCode": {
+     "gmd:LanguageCode": {
+      "@codeList": "http://www.loc.gov/standards/iso639-2/",
+      "@codeListValue": "fre"
+     }
+    },
+    "gmd:characterEncoding": null
+   }
+  },
+  "gmd:referenceSystemInfo": {
+   "gmd:MD_ReferenceSystem": {
+    "gmd:referenceSystemIdentifier": {
+     "gmd:RS_Identifier": {
+      "gmd:code": {
+       "gco:CharacterString": "WGS 84 (EPSG:4326)"
+      }
+     }
+    }
+   }
+  },
+  "gmd:identificationInfo": {
+   "gmd:MD_DataIdentification": {
+    "gmd:citation": {
+     "gmd:CI_Citation": {
+      "gmd:title": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "Information Systems for the \"Observation and Experimentation Systems for Environmental Research\" (SOERE)",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "Syst\u00c3\u00a8me d'Information des \" Syst\u00c3\u00a8mes d\u00e2\u20ac\u2122observation et d\u00e2\u20ac\u2122exp\u00c3\u00a9rimentation au long terme pour la recherche en environnement\" (SOERE)"
+         }
+        }
+       }
+      },
+      "gmd:date": {
+       "gmd:CI_Date": {
+        "gmd:date": {
+         "gco:Date": "2009-04-01"
+        },
+        "gmd:dateType": {
+         "gmd:CI_DateTypeCode": {
+          "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+          "@codeListValue": "creation"
+         }
+        }
+       }
+      },
+      "gmd:identifier": {
+       "gmd:MD_Identifier": {
+        "gmd:code": {
+         "gco:CharacterString": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/catalog.search#/metadata/fd85ef74-988e-44c7-bb1b-c3655e6e5137"
+        }
+       }
+      }
+     }
+    },
+    "gmd:abstract": {
+     "@xsi:type": "gmd:PT_FreeText_PropertyType",
+     "gco:CharacterString": "Observation and Experimentation Systems for Environmental Research (SOERE, AllEnvi label) are network of sites  devoted to the long term study of environment. \nInformation Systems are developed by the INRA EcoInformatic Group in order to manage data collected from the SOERE and others long-term observatory sites coordinated or jointly coordinated by INRA (F-ORE-T: forest ecosystems; ACBB: grassland and field crop agroecosystems; PRO, soils and impact of organic waste products; OLA, Observatoire des LACs alpins).\nThe process of development of a SOERE Information System is based on a collaborative approach involving a core group of informatics engineers located in INRA Infosol Service Unit and partners from the SOERE.\nThe whole Information System is composed by a core software component (the kernel), common to all IS, and plugins specific to the different types of data  (Climate, Flux, Phytoplankton, Zooplankton...).\nEach IS is accessible through specific web interfaces.\nAll components are based on Java technologies.",
+     "gmd:PT_FreeText": {
+      "gmd:textGroup": {
+       "gmd:LocalisedCharacterString": {
+        "@locale": "#FR",
+        "#text": "Les Syst\u00c3\u00a8mes d'Observation et d'Experimentation pour la Recherche en Environnement (SOERE, label AllEnvi) sont des r\u00c3\u00a9seaux de sites d\u00c3\u00a9di\u00c3\u00a9s \u00c3\u00a0 l'\u00c3\u00a9tude sur le long terme de l'environnement.\nLe Dispositif EcoInformatique de l'Institut National de la Recherche Agronomique (INRA) d\u00c3\u00a9veloppe les syst\u00c3\u00a8mes d'information pour la gestion des donn\u00c3\u00a9es provenant des SOERE ou de dispositifs apparent\u00c3\u00a9s coordonn\u00c3\u00a9s ou co-coordonn\u00c3\u00a9s par l'INRA (F-ORE-T : Fonctionnement des \u00c3\u00a9cosyst\u00c3\u00a8mes forestiers soumis \u00c3\u00a0 des modifications naturelles ou anthropiques\n ; ACBB : Agrosyst\u00c3\u00a8mes, cycles biog\u00c3\u00a9ochimiques, biodiversit\u00c3\u00a9 ; PRO : Impacts environnementaux du recyclage des produits r\u00c3\u00a9siduaires organiques sur les \u00c3\u00a9cosyst\u00c3\u00a8mes cultiv\u00c3\u00a9s ; OLA, Observatoire des LACs alpins).\nLe d\u00c3\u00a9veloppement du Syst\u00c3\u00a8me d'Information d'un SOERE s'effectue de mani\u00c3\u00a8re collaborative en impliquant une cellule d'ing\u00c3\u00a9nieurs informaticiens bas\u00c3\u00a9e dans l'Unit\u00c3\u00a9 de Service InfoSol de l'INRA et des correspondants du SOERE.\nChaque Syst\u00c3\u00a8me d'Information est compos\u00c3\u00a9 d'un noyau central (kernel) commun \u00c3\u00a0 tous les Syst\u00c3\u00a8mes d'Information, et d'extensions (plugins) sp\u00c3\u00a9cifiques aux diff\u00c3\u00a9rents types de donn\u00c3\u00a9es (Climat, Flux, Phytoplancton, Zooplancton...)\nChaque syst\u00c3\u00a8me d'information est accessible au travers d'une interface web.\nLes composants du Syst\u00c3\u00a8me d'Information reposent sur les technologies JAVA."
+       }
+      }
+     }
+    },
+    "gmd:pointOfContact": [
+     {
+      "gmd:CI_ResponsibleParty": {
+       "gmd:individualName": {
+        "gco:CharacterString": "Christian PICHOT"
+       },
+       "gmd:organisationName": {
+        "gco:CharacterString": "INRAE"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+33 4 32 72 29 66"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+33 4 90 13 59 59"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "INRA - Domaine Saint-Paul - Site Agroparc"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Avignon Cedex 9"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "84914"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "France"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "christian.pichot@inrae.fr"
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "pointOfContact"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "gmd:individualName": {
+        "gco:CharacterString": "Antoine SCHELLENBERGER"
+       },
+       "gmd:organisationName": {
+        "gco:CharacterString": "INRAE"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+33 2 38 41 80 44"
+           },
+           "gmd:facsimile": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "INRA Tours"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Nouzilly"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "37380"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "France"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "antoine.schellenberger@inrae.fr"
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "pointOfContact"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "gmd:individualName": {
+        "gco:CharacterString": "Denis BARBET"
+       },
+       "gmd:organisationName": {
+        "gco:CharacterString": "INRAE"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+33 4 50 26 78 14"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+33 4 50 26 07 60"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "INRA UMR CARRTEL 75 avenue de Corzent"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Thonon-les-Bains"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "74200"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "France"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "denis.barbet@inrae.fr"
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "pointOfContact"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "gmd:individualName": {
+        "gco:CharacterString": "Damien MAURICE"
+       },
+       "gmd:organisationName": {
+        "gco:CharacterString": "INRAE"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+33 3 83 39 41 31"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+33 3 83 39 40 00"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "INRA Rue de l'Arbor\u00c3\u00a9tum"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Champenoux"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "54280"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "France"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "damien.maurice@inrae.fr"
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "pointOfContact"
+        }
+       }
+      }
+     }
+    ],
+    "gmd:resourceMaintenance": {
+     "gmd:MD_MaintenanceInformation": {
+      "gmd:maintenanceAndUpdateFrequency": {
+       "gmd:MD_MaintenanceFrequencyCode": {
+        "@codeListValue": "biannually",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"
+       }
+      }
+     }
+    },
+    "gmd:graphicOverview": {
+     "gmd:MD_BrowseGraphic": {
+      "gmd:fileName": {
+       "gco:CharacterString": "http://w3.avignon.inra.fr:80/geonetwork_anaee/srv/eng/resources.get?uuid=fd85ef74-988e-44c7-bb1b-c3655e6e5137&fname=ecoinformatique_ore_s_s.png"
+      },
+      "gmd:fileDescription": {
+       "gco:CharacterString": "thumbnail"
+      },
+      "gmd:fileType": {
+       "gco:CharacterString": "png"
+      }
+     }
+    },
+    "gmd:descriptiveKeywords": [
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "Environmental monitoring facilities",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "Installations de suivi environnemental"
+          }
+         }
+        }
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "GEMET - INSPIRE themes, version 1.0 INSPIRE themes"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2008-06-01"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=external.theme.inspire-theme",
+             "#text": "geonetwork.thesaurus.external.theme.inspire-theme"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "France",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "France"
+          }
+         }
+        }
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "place"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "AnaEE-France Locations"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2017-03-29"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=local.place.anaee-france_locations",
+             "#text": "geonetwork.thesaurus.local.place.anaee-france_locations"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": [
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "web interface development",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "d\u00c3\u00a9veloppement d'interface web"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "data management",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "gestion de donn\u00c3\u00a9es"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "information system",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "syst\u00c3\u00a8me d'information"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "ecoinformatics",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "\u00c3\u00a9coinformatique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "ecological data",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "donn\u00c3\u00a9es \u00c3\u00a9cologiques"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "programming language",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "langage de programmation"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "databases",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "base de donn\u00c3\u00a9es"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "long term monitoring",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "surveillance \u00c3\u00a0 long terme"
+           }
+          }
+         }
+        }
+       ],
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "theme.anaeeThes.rdf"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2017-03-27"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=external.theme.anaeeThes",
+             "#text": "geonetwork.thesaurus.external.theme.anaeeThes"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    ],
+    "gmd:resourceConstraints": {
+     "gmd:MD_LegalConstraints": {
+      "gmd:useLimitation": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "See AnaEE-France charters.",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "Voir les chartes AnaEE-France."
+         }
+        }
+       }
+      },
+      "gmd:accessConstraints": {
+       "gmd:MD_RestrictionCode": {
+        "@codeListValue": "intellectualPropertyRights",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+       }
+      },
+      "gmd:useConstraints": {
+       "gmd:MD_RestrictionCode": {
+        "@codeListValue": "license",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+       }
+      },
+      "gmd:otherConstraints": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "Cecill-C",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "Cecill-C"
+         }
+        }
+       }
+      }
+     }
+    },
+    "gmd:spatialResolution": {
+     "gmd:MD_Resolution": {
+      "gmd:equivalentScale": {
+       "gmd:MD_RepresentativeFraction": {
+        "gmd:denominator": {
+         "gco:Integer": "50000"
+        }
+       }
+      }
+     }
+    },
+    "gmd:language": {
+     "gmd:LanguageCode": {
+      "@codeList": "http://www.loc.gov/standards/iso639-2/",
+      "@codeListValue": "eng"
+     }
+    },
+    "gmd:characterSet": {
+     "gmd:MD_CharacterSetCode": {
+      "@codeListValue": "utf8",
+      "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+     }
+    },
+    "gmd:topicCategory": {
+     "gmd:MD_TopicCategoryCode": "structure"
+    },
+    "gmd:extent": [
+     {
+      "gmd:EX_Extent": {
+       "gmd:temporalElement": {
+        "gmd:EX_TemporalExtent": {
+         "gmd:extent": {
+          "gml:TimePeriod": {
+           "@gml:id": "d248666e633a1052958",
+           "gml:beginPosition": null,
+           "gml:endPosition": null
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:EX_Extent": {
+       "@xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+       "gmd:description": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "France",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "France"
+          }
+         }
+        }
+       },
+       "gmd:geographicElement": {
+        "gmd:EX_GeographicBoundingBox": {
+         "gmd:westBoundLongitude": {
+          "gco:Decimal": "-5.7"
+         },
+         "gmd:eastBoundLongitude": {
+          "gco:Decimal": "9.5"
+         },
+         "gmd:southBoundLatitude": {
+          "gco:Decimal": "41.3"
+         },
+         "gmd:northBoundLatitude": {
+          "gco:Decimal": "51"
+         }
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  "gmd:distributionInfo": {
+   "gmd:MD_Distribution": {
+    "gmd:distributionFormat": {
+     "gmd:MD_Format": {
+      "gmd:name": {
+       "gco:CharacterString": "WAR (Web application ARchive)",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "WAR (Web application ARchive)"
+         }
+        }
+       }
+      },
+      "gmd:version": {
+       "gco:CharacterString": "1312"
+      }
+     }
+    },
+    "gmd:transferOptions": {
+     "gmd:MD_DigitalTransferOptions": {
+      "gmd:onLine": [
+       {
+        "gmd:CI_OnlineResource": {
+         "gmd:linkage": {
+          "gmd:URL": "https://forge.orleans.inra.fr/projects/si-ore-soere-inra"
+         },
+         "gmd:protocol": {
+          "gco:CharacterString": "WWW:LINK-1.0-http--link"
+         },
+         "gmd:name": {
+          "gco:CharacterString": "SOERE IS development Web Site"
+         },
+         "gmd:description": {
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null
+         }
+        }
+       },
+       {
+        "gmd:CI_OnlineResource": {
+         "gmd:linkage": {
+          "gmd:URL": "https://si-foret-ecofor.fr"
+         },
+         "gmd:protocol": {
+          "gco:CharacterString": "WWW:LINK-1.0-http--link"
+         },
+         "gmd:name": {
+          "gco:CharacterString": "SOERE FORET Information System"
+         },
+         "gmd:description": {
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null
+         }
+        }
+       },
+       {
+        "gmd:CI_OnlineResource": {
+         "gmd:linkage": {
+          "gmd:URL": "https://si-acbb.inra.fr"
+         },
+         "gmd:protocol": {
+          "gco:CharacterString": "WWW:LINK-1.0-http--link"
+         },
+         "gmd:name": {
+          "gco:CharacterString": "SOERE ACBB Information System"
+         },
+         "gmd:description": {
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null
+         }
+        }
+       },
+       {
+        "gmd:CI_OnlineResource": {
+         "gmd:linkage": {
+          "gmd:URL": "https://si-ola.inra.fr"
+         },
+         "gmd:protocol": {
+          "gco:CharacterString": "WWW:LINK-1.0-http--link"
+         },
+         "gmd:name": {
+          "gco:CharacterString": "SOERE OLA Information System"
+         },
+         "gmd:description": {
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null
+         }
+        }
+       }
+      ]
+     }
+    }
+   }
+  },
+  "gmd:dataQualityInfo": {
+   "gmd:DQ_DataQuality": {
+    "gmd:scope": {
+     "gmd:DQ_Scope": null
+    },
+    "gmd:report": {
+     "gmd:DQ_DomainConsistency": {
+      "gmd:result": {
+       "gmd:DQ_ConformanceResult": {
+        "gmd:specification": {
+         "gmd:CI_Citation": {
+          "gmd:title": {
+           "gco:CharacterString": "Commission Regulation (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services"
+          },
+          "gmd:date": {
+           "gmd:CI_Date": {
+            "gmd:date": {
+             "gco:Date": "2010-12-08"
+            },
+            "gmd:dateType": {
+             "gmd:CI_DateTypeCode": {
+              "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+              "@codeListValue": "publication"
+             }
+            }
+           }
+          }
+         }
+        },
+        "gmd:explanation": {
+         "gco:CharacterString": "Not evaluated",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "Non \u00c3\u00a9valu\u00c3\u00a9"
+           }
+          }
+         }
+        },
+        "gmd:pass": {
+         "gco:Boolean": "undefined"
+        }
+       }
+      }
+     }
+    },
+    "gmd:lineage": {
+     "gmd:LI_Lineage": {
+      "gmd:statement": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "The INRA Ecoinformatics Group that develops the Information System  for data from long term observatories was created in 2009.\n\nThe INRA Ecoinformatics Group is a service of AnaEE-France Infrastructure.",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "Le \"Dispositif  Ecoinformatique ORE\" dont la mission est de d\u00c3\u00a9velopper les Syst\u00c3\u00a8mes d'Information des dispositifs d'observation sur le long terme a \u00c3\u00a9t\u00c3\u00a9 cr\u00c3\u00a9\u00c3\u00a9 en 2009.\n\nLe \"Dispositif  Ecoinformatique ORE\" est un des services de l'infrastructure AnaEE-France."
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

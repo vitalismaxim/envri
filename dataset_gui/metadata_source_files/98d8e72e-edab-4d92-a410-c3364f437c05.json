@@ -1,0 +1,1020 @@
+{
+ "gmd:MD_Metadata": {
+  "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+  "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+  "@xmlns:gts": "http://www.isotc211.org/2005/gts",
+  "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xmlns:gml": "http://www.opengis.net/gml",
+  "@xmlns:geonet": "http://www.fao.org/geonetwork",
+  "gmd:fileIdentifier": {
+   "gco:CharacterString": "98d8e72e-edab-4d92-a410-c3364f437c05"
+  },
+  "gmd:language": {
+   "gmd:LanguageCode": {
+    "@codeList": "http://www.loc.gov/standards/iso639-2/",
+    "@codeListValue": "eng"
+   }
+  },
+  "gmd:characterSet": {
+   "gmd:MD_CharacterSetCode": {
+    "@codeListValue": "utf8",
+    "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+   }
+  },
+  "gmd:hierarchyLevel": {
+   "gmd:MD_ScopeCode": {
+    "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode",
+    "@codeListValue": "dataset"
+   }
+  },
+  "gmd:contact": [
+   {
+    "gmd:CI_ResponsibleParty": {
+     "gmd:individualName": {
+      "gco:CharacterString": "Christian Mougin"
+     },
+     "gmd:organisationName": {
+      "gco:CharacterString": "INRAE"
+     },
+     "gmd:contactInfo": {
+      "gmd:CI_Contact": {
+       "gmd:phone": {
+        "gmd:CI_Telephone": {
+         "gmd:voice": {
+          "gco:CharacterString": "+33 1 30 83 37 58"
+         },
+         "gmd:facsimile": {
+          "gco:CharacterString": "+33 1 30 83 32 59"
+         }
+        }
+       },
+       "gmd:address": {
+        "gmd:CI_Address": {
+         "gmd:deliveryPoint": {
+          "gco:CharacterString": "INRA Rte de Versailles RD10"
+         },
+         "gmd:city": {
+          "gco:CharacterString": "Versailles"
+         },
+         "gmd:administrativeArea": {
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null
+         },
+         "gmd:postalCode": {
+          "gco:CharacterString": "78026"
+         },
+         "gmd:country": {
+          "gco:CharacterString": "France"
+         },
+         "gmd:electronicMailAddress": {
+          "gco:CharacterString": "christian.mougin@inrae.fr"
+         }
+        }
+       }
+      }
+     },
+     "gmd:role": {
+      "gmd:CI_RoleCode": {
+       "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode",
+       "@codeListValue": "pointOfContact"
+      }
+     }
+    }
+   },
+   {
+    "gmd:CI_ResponsibleParty": {
+     "gmd:individualName": {
+      "gco:CharacterString": "Nathalie CHEVIRON"
+     },
+     "gmd:organisationName": {
+      "gco:CharacterString": "INRAE"
+     },
+     "gmd:contactInfo": {
+      "gmd:CI_Contact": {
+       "gmd:phone": {
+        "gmd:CI_Telephone": {
+         "gmd:voice": {
+          "gco:CharacterString": "+33 1 30 83 39 87"
+         },
+         "gmd:facsimile": {
+          "gco:CharacterString": "+33 1 30 83 32 59"
+         }
+        }
+       },
+       "gmd:address": {
+        "gmd:CI_Address": {
+         "gmd:deliveryPoint": {
+          "gco:CharacterString": "INRA route de Saint-Cyr"
+         },
+         "gmd:city": {
+          "gco:CharacterString": "Versailles"
+         },
+         "gmd:administrativeArea": {
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null
+         },
+         "gmd:postalCode": {
+          "gco:CharacterString": "78026"
+         },
+         "gmd:country": {
+          "gco:CharacterString": "France"
+         },
+         "gmd:electronicMailAddress": {
+          "gco:CharacterString": "nathalie.cheviron@inrae.fr"
+         }
+        }
+       }
+      }
+     },
+     "gmd:role": {
+      "gmd:CI_RoleCode": {
+       "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode",
+       "@codeListValue": "pointOfContact"
+      }
+     }
+    }
+   }
+  ],
+  "gmd:dateStamp": {
+   "gco:DateTime": "2021-02-04T18:47:09"
+  },
+  "gmd:metadataStandardName": {
+   "gco:CharacterString": "ISO 19115:2003/19139"
+  },
+  "gmd:metadataStandardVersion": {
+   "gco:CharacterString": "1.0"
+  },
+  "gmd:locale": {
+   "gmd:PT_Locale": {
+    "@id": "FR",
+    "gmd:languageCode": {
+     "gmd:LanguageCode": {
+      "@codeList": "http://www.loc.gov/standards/iso639-2/",
+      "@codeListValue": "fre"
+     }
+    },
+    "gmd:characterEncoding": null
+   }
+  },
+  "gmd:referenceSystemInfo": {
+   "gmd:MD_ReferenceSystem": {
+    "gmd:referenceSystemIdentifier": {
+     "gmd:RS_Identifier": {
+      "gmd:code": {
+       "gco:CharacterString": "WGS 84 (EPSG:4326)"
+      }
+     }
+    }
+   }
+  },
+  "gmd:identificationInfo": {
+   "gmd:MD_DataIdentification": {
+    "gmd:citation": {
+     "gmd:CI_Citation": {
+      "gmd:title": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "BIOCHEMENV - The environmental biochemistry for Research",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "BIOCHEMENV - La biochimie environnementale au service de la Recherche"
+         }
+        }
+       }
+      },
+      "gmd:date": {
+       "gmd:CI_Date": {
+        "gmd:date": {
+         "gco:Date": "2012-09-01"
+        },
+        "gmd:dateType": {
+         "gmd:CI_DateTypeCode": {
+          "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+          "@codeListValue": "creation"
+         }
+        }
+       }
+      },
+      "gmd:identifier": [
+       {
+        "gmd:MD_Identifier": {
+         "gmd:code": {
+          "gco:CharacterString": "http://localhost:8082/geonetwork_anaee/98d8e72e-edab-4d92-a410-c3364f437c05"
+         }
+        }
+       },
+       {
+        "gmd:MD_Identifier": {
+         "gmd:code": {
+          "gco:CharacterString": "http://w3.avignon.inra.fr/geonetwork_anaee/98d8e72e-edab-4d92-a410-c3364f437c05"
+         }
+        }
+       },
+       {
+        "gmd:MD_Identifier": {
+         "gmd:code": {
+          "gco:CharacterString": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/catalog.search#/metadata/98d8e72e-edab-4d92-a410-c3364f437c05"
+         }
+        }
+       }
+      ],
+      "gmd:citedResponsibleParty": [
+       {
+        "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+        "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+        "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+        "gmd:CI_ResponsibleParty": {
+         "gmd:individualName": {
+          "gco:CharacterString": "Nathalie CHEVIRON"
+         },
+         "gmd:organisationName": {
+          "gco:CharacterString": "INRAE"
+         },
+         "gmd:contactInfo": {
+          "gmd:CI_Contact": {
+           "gmd:phone": {
+            "gmd:CI_Telephone": {
+             "gmd:voice": {
+              "gco:CharacterString": "+33 1 30 83 39 87"
+             },
+             "gmd:facsimile": {
+              "gco:CharacterString": "+33 1 30 83 32 59"
+             }
+            }
+           },
+           "gmd:address": {
+            "gmd:CI_Address": {
+             "gmd:deliveryPoint": {
+              "gco:CharacterString": "INRA route de Saint-Cyr"
+             },
+             "gmd:city": {
+              "gco:CharacterString": "Versailles"
+             },
+             "gmd:administrativeArea": {
+              "gco:CharacterString": null
+             },
+             "gmd:postalCode": {
+              "gco:CharacterString": "78026"
+             },
+             "gmd:country": {
+              "gco:CharacterString": "France"
+             },
+             "gmd:electronicMailAddress": {
+              "gco:CharacterString": "nathalie.cheviron@inrae.fr"
+             }
+            }
+           }
+          }
+         },
+         "gmd:role": {
+          "gmd:CI_RoleCode": {
+           "@codeList": "./resources/codeList.xml#CI_RoleCode",
+           "@codeListValue": "pointOfContact"
+          }
+         }
+        }
+       },
+       {
+        "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+        "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+        "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+        "gmd:CI_ResponsibleParty": {
+         "gmd:individualName": {
+          "gco:CharacterString": "Christian Mougin"
+         },
+         "gmd:organisationName": {
+          "gco:CharacterString": "INRAE"
+         },
+         "gmd:contactInfo": {
+          "gmd:CI_Contact": {
+           "gmd:phone": {
+            "gmd:CI_Telephone": {
+             "gmd:voice": {
+              "gco:CharacterString": "+33 1 30 83 37 58"
+             },
+             "gmd:facsimile": {
+              "gco:CharacterString": "+33 1 30 83 32 59"
+             }
+            }
+           },
+           "gmd:address": {
+            "gmd:CI_Address": {
+             "gmd:deliveryPoint": {
+              "gco:CharacterString": "INRA Rte de Versailles RD10"
+             },
+             "gmd:city": {
+              "gco:CharacterString": "Versailles"
+             },
+             "gmd:administrativeArea": {
+              "gco:CharacterString": null
+             },
+             "gmd:postalCode": {
+              "gco:CharacterString": "78026"
+             },
+             "gmd:country": {
+              "gco:CharacterString": "France"
+             },
+             "gmd:electronicMailAddress": {
+              "gco:CharacterString": "christian.mougin@inrae.fr"
+             }
+            }
+           }
+          }
+         },
+         "gmd:role": {
+          "gmd:CI_RoleCode": {
+           "@codeList": "./resources/codeList.xml#CI_RoleCode",
+           "@codeListValue": "pointOfContact"
+          }
+         }
+        }
+       }
+      ]
+     }
+    },
+    "gmd:abstract": {
+     "@xsi:type": "gmd:PT_FreeText_PropertyType",
+     "gco:CharacterString": "Biochem-Env is a research platform hosted by the EcoSys department from INRA since 2012. \n\nThe platform provides facilities and dedicated services for the biochemical characterization of soils, sediments, and macrofauna, and more generally functional biodiversity. Using robotics, the platform develops high-throughput tools for the biochemical characterization of large sets of samples. The platform focuses its activities on the development of profiles of soil enzymatic activities (e.g., hydrolase activities involved in biogeochemical cycles and oxidases\u00e2\u20ac\u00a6) and biomarkers (terrestrial and benthos macrofauna).\nThe platform is also involved in the standardization of procedures (AFNOR and ISO). The data produced will be stored and managed in a database, and analyzed using bioinformatic and statistical tools. \nBiochem-Env will provide the following services to research partners:\n-Acquisition and characterization of biochemical properties of different matrix (soils, sediments, macrofauna),\n-Developments of high throughput protocols,\n-Development of referentials and tools for data interpretation,\n-Supply of these resources to the scientific community and policy makers,\n-Advice, expertise and training.",
+     "gmd:PT_FreeText": {
+      "gmd:textGroup": {
+       "gmd:LocalisedCharacterString": {
+        "@locale": "#FR",
+        "#text": "Biochem-Env est une plateforme de recherche h\u00c3\u00a9berg\u00c3\u00a9e par l'unit\u00c3\u00a9 EcoSys (anciennement Pessac) depuis 2012.\n\nBiochem-Env fournit des installations et des services pour la caract\u00c3\u00a9risation biochimique des sols, des s\u00c3\u00a9diments et de la macrofaune, et plus g\u00c3\u00a9n\u00c3\u00a9ralement de la biodiversit\u00c3\u00a9 fonctionnelle. Gr\u00c3\u00a2ce \u00c3\u00a0 la une plateforme robotis\u00c3\u00a9e, elle d\u00c3\u00a9veloppe des outils de haut d\u00c3\u00a9bit pour la caract\u00c3\u00a9risation biochimique de grandes quantit\u00c3\u00a9s d'\u00c3\u00a9chantillons. La plateforme concentre ses activit\u00c3\u00a9s sur le d\u00c3\u00a9veloppement de profils d'activit\u00c3\u00a9s enzymatiques des sols (par exemple, les activit\u00c3\u00a9s hydrolase impliqu\u00c3\u00a9es dans des cycles biog\u00c3\u00a9ochimiques et les oxydases \u00e2\u20ac\u00a6) et de biomarqueurs (macrofaune terrestre et benthique).\n\nLa plateforme est \u00c3\u00a9galement impliqu\u00c3\u00a9e dans la normalisation des protocoles (AFNOR et l'ISO). Les donn\u00c3\u00a9es produites seront stock\u00c3\u00a9es et g\u00c3\u00a9r\u00c3\u00a9es dans une base de donn\u00c3\u00a9es et analys\u00c3\u00a9es par bioinformatique et outils statistiques.\nLa plateforme Biochem-Env fournit les services suivants pour d\u00c3\u00a9velopper des projets de recherche avec ses partenaires :\n- Acquisition et caract\u00c3\u00a9risation des propri\u00c3\u00a9t\u00c3\u00a9s biochimiques de diff\u00c3\u00a9rentes matrices (sols, s\u00c3\u00a9diments, macrofaune),\n- D\u00c3\u00a9veloppements de protocoles \u00c3\u00a0 haut d\u00c3\u00a9bit,\n- D\u00c3\u00a9veloppement de r\u00c3\u00a9f\u00c3\u00a9rentiels et d'outils d'interpr\u00c3\u00a9tation des donn\u00c3\u00a9es,\n- Mise \u00c3\u00a0 disposition de ces ressources \u00c3\u00a0 la communaut\u00c3\u00a9 scientifique et aux d\u00c3\u00a9cideurs,\n- Conseil, expertise et formation."
+       }
+      }
+     }
+    },
+    "gmd:pointOfContact": [
+     {
+      "gmd:CI_ResponsibleParty": {
+       "gmd:individualName": {
+        "gco:CharacterString": "Christian Mougin"
+       },
+       "gmd:organisationName": {
+        "gco:CharacterString": "INRAE"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+33 1 30 83 37 58"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+33 1 30 83 32 59"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "INRA Rte de Versailles RD10"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Versailles"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "78026"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "France"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "christian.mougin@inrae.fr"
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "pointOfContact"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "gmd:individualName": {
+        "gco:CharacterString": "Nathalie CHEVIRON"
+       },
+       "gmd:organisationName": {
+        "gco:CharacterString": "INRAE"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+33 1 30 83 39 87"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+33 1 30 83 32 59"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "INRA route de Saint-Cyr"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Versailles"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "78026"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "France"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "nathalie.cheviron@inrae.fr"
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "pointOfContact"
+        }
+       }
+      }
+     }
+    ],
+    "gmd:resourceMaintenance": {
+     "gmd:MD_MaintenanceInformation": {
+      "gmd:maintenanceAndUpdateFrequency": {
+       "gmd:MD_MaintenanceFrequencyCode": {
+        "@codeListValue": "asNeeded",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"
+       }
+      }
+     }
+    },
+    "gmd:graphicOverview": {
+     "gmd:MD_BrowseGraphic": {
+      "gmd:fileName": {
+       "gco:CharacterString": "http://w3.avignon.inra.fr:80/geonetwork_anaee/srv/eng/resources.get?uuid=98d8e72e-edab-4d92-a410-c3364f437c05&fname=Biochem-env_-_Logo_RVB_-_BD_-_fond_blanc_-_Couleur.jpg"
+      },
+      "gmd:fileDescription": {
+       "gco:CharacterString": "large_thumbnail"
+      },
+      "gmd:fileType": {
+       "gco:CharacterString": "jpg"
+      }
+     }
+    },
+    "gmd:descriptiveKeywords": [
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "soil",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "sol"
+          }
+         }
+        }
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "theme.anaeeThes.rdf"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2017-06-13"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=external.theme.anaeeThes",
+             "#text": "geonetwork.thesaurus.external.theme.anaeeThes"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "Environmental monitoring facilities",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "Installations de suivi environnemental"
+          }
+         }
+        }
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "GEMET - INSPIRE themes, version 1.0 INSPIRE themes"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2008-06-01"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=external.theme.inspire-theme",
+             "#text": "geonetwork.thesaurus.external.theme.inspire-theme"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": [
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "Versailles",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "Versailles"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "France",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "France"
+           }
+          }
+         }
+        }
+       ],
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "place"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "AnaEE-France Locations"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2017-06-02"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=local.place.anaee-france_locations",
+             "#text": "geonetwork.thesaurus.local.place.anaee-france_locations"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": [
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "soil enzymatic activity",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "activit\u00c3\u00a9 enzymatique dans le sol"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "water biochemical analysis",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "analyse biochimique de l'eau"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "soil biochemical analysis",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "analyse biochimique du sol"
+           }
+          }
+         }
+        }
+       ],
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "theme.variableAnaEE.rdf"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2017-07-21"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=external.theme.variableAnaEE",
+             "#text": "geonetwork.thesaurus.external.theme.variableAnaEE"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    ],
+    "gmd:resourceConstraints": {
+     "gmd:MD_LegalConstraints": {
+      "gmd:useLimitation": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "See AnaEE-France charters.",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "Voir les chartes AnaEE-France."
+         }
+        }
+       }
+      },
+      "gmd:accessConstraints": {
+       "gmd:MD_RestrictionCode": {
+        "@codeListValue": "intellectualPropertyRights",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+       }
+      },
+      "gmd:useConstraints": {
+       "gmd:MD_RestrictionCode": {
+        "@codeListValue": "intellectualPropertyRights",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+       }
+      },
+      "gmd:otherConstraints": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "In case of participation of technical or scientific staff of the Biochem-Env platform during the experiments, they must be co-authors of publications with their affiliation in both the Biochem-Env platform and the Pessac department.\nIn other cases, users will thank the the Biochem-Env platform and the PESSAC department (INRA Versailles) and the mobilized operator (s) during their use of the platform.",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "En cas de participation de personnels techniques ou scientifiques de la plateforme Biochem-Env aux exp\u00c3\u00a9rimentations, ils doivent \u00c3\u00aatre associ\u00c3\u00a9s comme co-auteurs des publications avec la double affiliation \"plateforme Biochem-Env\" et \"unit\u00c3\u00a9 PESSAC\".\nDans les autres cas, les utilisateurs remercieront la plateforme Biochem-Env, l'unit\u00c3\u00a9 PESSAC (Versailles INRA) ainsi que les personnels mobilis\u00c3\u00a9s lors de l'utilisation de la plateforme."
+         }
+        }
+       }
+      }
+     }
+    },
+    "gmd:spatialResolution": {
+     "gmd:MD_Resolution": {
+      "gmd:equivalentScale": {
+       "gmd:MD_RepresentativeFraction": {
+        "gmd:denominator": {
+         "gco:Integer": "50000"
+        }
+       }
+      }
+     }
+    },
+    "gmd:language": {
+     "gmd:LanguageCode": {
+      "@codeList": "http://www.loc.gov/standards/iso639-2/",
+      "@codeListValue": "eng"
+     }
+    },
+    "gmd:characterSet": {
+     "gmd:MD_CharacterSetCode": {
+      "@codeListValue": "utf8",
+      "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+     }
+    },
+    "gmd:topicCategory": {
+     "gmd:MD_TopicCategoryCode": "structure"
+    },
+    "gmd:extent": [
+     {
+      "gmd:EX_Extent": {
+       "gmd:temporalElement": {
+        "gmd:EX_TemporalExtent": {
+         "gmd:extent": {
+          "gml:TimePeriod": {
+           "@gml:id": "d251498e694a1052958",
+           "gml:beginPosition": "2012-09-01"
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:EX_Extent": {
+       "@xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+       "gmd:description": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "Versailles",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "Versailles"
+          }
+         }
+        }
+       },
+       "gmd:geographicElement": {
+        "gmd:EX_GeographicBoundingBox": {
+         "gmd:westBoundLongitude": {
+          "gco:Decimal": "2.03"
+         },
+         "gmd:eastBoundLongitude": {
+          "gco:Decimal": "2.23"
+         },
+         "gmd:southBoundLatitude": {
+          "gco:Decimal": "48.7"
+         },
+         "gmd:northBoundLatitude": {
+          "gco:Decimal": "48.9"
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:EX_Extent": {
+       "@xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+       "gmd:description": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "France",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "France"
+          }
+         }
+        }
+       },
+       "gmd:geographicElement": {
+        "gmd:EX_GeographicBoundingBox": {
+         "gmd:westBoundLongitude": {
+          "gco:Decimal": "-5.7"
+         },
+         "gmd:eastBoundLongitude": {
+          "gco:Decimal": "9.5"
+         },
+         "gmd:southBoundLatitude": {
+          "gco:Decimal": "41.3"
+         },
+         "gmd:northBoundLatitude": {
+          "gco:Decimal": "51"
+         }
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  "gmd:distributionInfo": {
+   "gmd:MD_Distribution": {
+    "gmd:distributionFormat": [
+     {
+      "gmd:MD_Format": {
+       "gmd:name": {
+        "gco:CharacterString": "inapplicable"
+       },
+       "gmd:version": {
+        "gco:CharacterString": "inapplicable"
+       }
+      }
+     },
+     {
+      "@xmlns:gn": "http://www.fao.org/geonetwork",
+      "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+      "gmd:MD_Format": {
+       "gmd:name": {
+        "gco:CharacterString": "GML"
+       },
+       "gmd:version": {
+        "gco:CharacterString": "3.2.1"
+       }
+      }
+     },
+     {
+      "@xmlns:gn": "http://www.fao.org/geonetwork",
+      "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+      "gmd:MD_Format": {
+       "gmd:name": {
+        "gco:CharacterString": "GML"
+       },
+       "gmd:version": {
+        "gco:CharacterString": "3.2.1"
+       }
+      }
+     }
+    ],
+    "gmd:transferOptions": {
+     "gmd:MD_DigitalTransferOptions": {
+      "gmd:onLine": {
+       "gmd:CI_OnlineResource": {
+        "gmd:linkage": {
+         "gmd:URL": "http://www.biochemenv.fr"
+        },
+        "gmd:protocol": {
+         "gco:CharacterString": "WWW:LINK-1.0-http--link"
+        },
+        "gmd:name": {
+         "gmx:MimeFileType": {
+          "@type": "",
+          "#text": "Biochem-Env website"
+         }
+        },
+        "gmd:description": {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "Link to the resource",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "Lien vers la ressource"
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "gmd:dataQualityInfo": {
+   "gmd:DQ_DataQuality": {
+    "gmd:scope": {
+     "gmd:DQ_Scope": {
+      "gmd:level": {
+       "gmd:MD_ScopeCode": {
+        "@codeListValue": "dataset",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode"
+       }
+      },
+      "gmd:levelDescription": null
+     }
+    },
+    "gmd:report": {
+     "gmd:DQ_DomainConsistency": {
+      "gmd:result": {
+       "gmd:DQ_ConformanceResult": {
+        "gmd:specification": {
+         "gmd:CI_Citation": {
+          "gmd:title": {
+           "gco:CharacterString": "Commission Regulation (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services"
+          },
+          "gmd:date": {
+           "gmd:CI_Date": {
+            "gmd:date": {
+             "gco:Date": "2010-12-08"
+            },
+            "gmd:dateType": {
+             "gmd:CI_DateTypeCode": {
+              "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+              "@codeListValue": "publication"
+             }
+            }
+           }
+          }
+         }
+        },
+        "gmd:explanation": {
+         "gco:CharacterString": "Not evaluated"
+        }
+       }
+      }
+     }
+    },
+    "gmd:lineage": {
+     "gmd:LI_Lineage": {
+      "gmd:statement": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "Biochem-Env has been in operation since 2012 as a platform in the ANAEE-France consortium. It was developed from the technical platform in ecotoxicology of the department Pessac (now: EcoSys), including skills and equipments in soil science, analytical chemistry, biology and ecology. Biochem-Env is dedicated to the biochemical characterization of the continental ecosystems, including soils, sediments and macrofauna. The original tools and the skills developed by the staff allow Biochem-Env to implement multidisciplinary research programs encompassing all the biotic and abiotic components of continental ecosystems. Other main deliverable concerns the development of databases and tools for data interpretation.\nBiochemEnv is a service of AnaEE-France Infrastructure.",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "Biochem-Env fonctionne depuis 2012 en tant que plateforme du consortium ANAEE-France. Elle a \u00c3\u00a9t\u00c3\u00a9 d\u00c3\u00a9velopp\u00c3\u00a9e \u00c3\u00a0 partir du plateau techniques d'\u00c3\u00a9cotoxicologie de l'unit\u00c3\u00a9 PESSAC (d\u00c3\u00a9sormais int\u00c3\u00a9gr\u00c3\u00a9e \u00c3\u00a0 l'UMR EcoSys) qui inclue des comp\u00c3\u00a9tences et \u00c3\u00a9quipements en science du sol, chimie analytique, biologie et \u00c3\u00a9cologie. Biochem-Env est d\u00c3\u00a9di\u00c3\u00a9e \u00c3\u00a0 la caract\u00c3\u00a9risation biochimique des \u00c3\u00a9cosyst\u00c3\u00a8mes continentaux incluant les sols, les s\u00c3\u00a9diments et la macrofaune. Les outils originaux et les comp\u00c3\u00a9tences d\u00c3\u00a9velopp\u00c3\u00a9es par le personnel permettent \u00c3\u00a0 Biochem-Env, de participer \u00c3\u00a0 des programmes de recherches pluridisciplinaires prenant en compte les composantes biologiques et abiotiques des \u00c3\u00a9cosyst\u00c3\u00a8mes continentaux. D'autres livrables comprennent le d\u00c3\u00a9veloppement de bases de donn\u00c3\u00a9es et d'outils d'interpr\u00c3\u00a9tation des donn\u00c3\u00a9es.\nBiochemEnv est un des services de l'infrastructure AnaEE-France."
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,193 +1,1017 @@
 {
- "description": "Rennes",
- "identifier": "http://w3.avignon.inra.fr/geonetwork_anaee/cdf098e3-2ae7-4514-8957-ef3847a21ec2",
- "language": "eng",
- "accessibility": "intellectualPropertyRights",
- "version": "N/A",
- "period": [
-  "1998-01-01",
-  "1998-01-01"
- ],
- "publisher": "N/A",
- "spatial": "N/A",
- "longitude": -1.70489,
- "latitude": 48.11363,
- "license": "N/A",
- "citation": "N/A",
- "genre": [
-  "structure"
- ],
- "creator": "thumbnail",
- "modification": "N/A",
- "distribution": "N/A",
- "image": "N/A",
- "thumbnail": "N/A",
- "headline": "PEARL est l’une des deux infrastructures de recherche gérée par l’U3E (INRA 1036).plus particulièrement orienté vers l’étude des milieux aquatiques continentaux. L’originalité des outils gérés ainsi que les compétences développées par le personnel font qu’actuellement, Pearl, permet la mise en œuvre de programmes de recherche pluridisciplinaires qui abordent l’ensemble des composants biotiques et abiotiques des écosystèmes aquatiques continentaux (lotiques ou lentiques). La station étangs de Le Rheu est fonctionnelle depuis 1988. La mise � disposition des premières installations sur Rennes auprès des communautés scientifiques concernées a débutée en 1992. Elles ont été complétées en 1998 par la plateforme de mésocosmes et microcosmes aquatiques. Depuis, L’U3E s’assure de l’amélioration et la modernisation de l’ensemble ses installations et l’instrumentation associée. PEARL est un des services de l'infrastructure AnaEE-France.",
- "abstract": "Cette plateforme propose un dispositif complet dédié plus particulièrement � l’expérimentation sur les écosystèmes aquatiques continentaux. Composée de différents types de bassins environnés d’instruments de mesures et complétée de structures permettant la production d’organismes modèles. La plateforme Expérimentale Aquatique de Rennes-Le Rheu (PEARL) est un dispositif INRA, géré par l’Unité Expérimentale d’Ecologie et d’Ecotoxicologie aquatique (U3E). L’ensemble des outils et des compétences affecté � cette plateforme permet de répondre � des problématiques de recherche fondamentale ou appliquée en écologie, en écotoxicologie, en biologie évolutive, etc. Des programmes pluridisciplinaires sont mis en œuvre dont les enjeux appliqués permettent de caractériser les évolutions et le devenir de ces écosystèmes face aux différentes pressions qu'ils subissent : pressions locales (liées aux activités agricoles, industrielles, urbaines...) ou/et pressions globales (liées au changement climatique mais également au changement d’occupation des terres ou au regard des invasions biologiques). Le dispositif PEARL est composé : • D'un complexe expérimental de 2 halls polyvalents de 400 m² chacun, de 250 m² de serres et d’un plateau out door de 500 m² de bassins et d’une soixantaine de mésocosmes aquatiques, le tout basé sur Agrocampus Ouest site de Rennes. • D'une station \"étangs\" d'une trentaine de plans d’eau sur 5 ha � Le Rheu près de Rennes.",
- "category": "structure",
- "created": "N/A",
- "credit": "Web site U3E",
- "published": "2010-12-08",
- "producer": "./resources/codeList.xml#CI_RoleCode",
- "author": [
-  "AnaEE-France Locations"
- ],
- "space": "N/A",
- "url": "https://www6.rennes.inrae.fr/u3e",
- "temporal": [
-  "1998-01-01",
-  "1998-01-01"
- ],
- "sponsor": "N/A",
- "size": 50000,
- "similar": "N/A",
- "publication": "Commission Regulation (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services",
- "provider": "N/A",
- "position": "N/A",
- "name": "inapplicable",
- "measurement": "N/A",
- "material": "N/A",
- "maintainer": "N/A",
- "location": "N/A",
- "issn": "N/A",
- "is Part Of": "N/A",
- "is Based On": "N/A",
- "free": "N/A",
- "included": "N/A",
- "editor": "N/A",
- "editEIDR": "N/A",
- "copyright Year": "N/A",
- "copyright Notice": "N/A",
- "copyright Holder": "N/A",
- "contributor": "N/A",
- "content Reference Time": "N/A",
- "character": "N/A",
- "acquire License Page": "N/A",
- "access": "N/A",
- "about": "INRA 65 rue de St Brieuc, CS 84215",
- "rights": "N/A",
- "relation": "N/A",
- "attribution": "N/A",
- "previous": "N/A",
- "referenced": "N/A",
- "series": "N/A",
- "policy": "intellectualPropertyRights",
- "current": "N/A",
- "constraints": "N/A",
- "status": "N/A",
- "spatialRepresentationType": "N/A",
- "spatialRepresentationInfo": "N/A",
- "scope": "N/A",
- "party": "N/A",
- "releasability": "N/A",
- "reference": "N/A",
- "purpose": "N/A",
- "locale": "N/A",
- "metadata Profile": "ISO 19115:2003/19139",
- "metadata Linkage": "N/A",
- "metadata Identifier": "N/A",
- "MD LegalConstraints": "N/A",
- "MD Identification": "N/A",
- "environment Description": "N/A",
- "distributor": [
-  "WWW:LINK-1.0-http--link",
-  "https://www6.rennes.inrae.fr/u3e"
- ],
- "quality": "N/A",
- "info": [
-  "Community abundance",
-  "Physiology",
-  "Ecosystem distribution",
-  "aquatiques",
-  "breeding",
-  "aquatique",
-  "Ecosystem disturbances",
-  "Effective population size",
-  "Species distributions",
-  "rennes",
-  "environnemental",
-  "france",
-  "contr�le",
-  "Inbreeding",
-  "levage",
-  "Ecosystem phenology",
-  "aquatic",
-  "invasive"
- ],
- "contact": null,
- "accountablePerson": [
-  "Nadine HERRARD",
-  "Didier AZAM"
- ],
- "landing_page": "N/A",
- "keywords": [
-  "breeding",
-  "ecotoxicology",
-  "population animale",
-  "natural environment",
-  "environnement naturel",
-  "Le_Rheu",
-  "mésocosme aquatique",
-  "environmental control",
-  "Installations de suivi environnemental",
-  "reproduction de plante",
-  "selective breeding",
-  "serre",
-  "publication",
-  "environnement anthropique",
-  "aquatic organism",
-  "grenouille rieuse",
-  "écotoxicologie",
-  "plant breeding",
-  "génétique",
-  "rivan 92",
-  "gmd:PT_FreeText_PropertyType",
-  "aquatic community",
-  "Chambres climatisées",
-  "mesure de contrôle",
-  "dépression consanguine",
-  "stress environnemental",
-  "marsh frog",
-  "ecophysiology",
-  "aquatic ecosystem",
-  "theme",
-  "contrôle climatique",
-  "technique d'élevage",
-  "green house",
-  "organisme aquatique",
-  "trophic ecology",
-  "microcosme",
-  "microcosm",
-  "AnaEE-France Locations",
-  "genetics",
-  "écologie aquatique",
-  "aquatic ecology",
-  "espèce invasive",
-  "changement global",
-  "aquatic breeding",
-  "communauté aquatique",
-  "animal population",
-  "climate control",
-  "AnaEE-France",
-  "organic contaminant",
-  "environmental stress",
-  "invasive species",
-  "aquatic mesocosm",
-  "anthropogenic environment",
-  "control measurements",
-  "inbreeding depression",
-  "renilis",
-  "contrôle environnemental",
-  "Environmental monitoring facilities",
-  "élevage",
-  "air-conditioned rooms",
-  "écosystème aquatique",
-  "global change",
-  "écologie trophique",
-  "place",
-  "élevage aquatique",
-  "écophysiologie",
-  "Rennes",
-  "contaminant organique"
- ]
+ "gmd:MD_Metadata": {
+  "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+  "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+  "@xmlns:gts": "http://www.isotc211.org/2005/gts",
+  "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xmlns:gml": "http://www.opengis.net/gml",
+  "@xmlns:geonet": "http://www.fao.org/geonetwork",
+  "gmd:fileIdentifier": {
+   "gco:CharacterString": "cdf098e3-2ae7-4514-8957-ef3847a21ec2"
+  },
+  "gmd:language": {
+   "gmd:LanguageCode": {
+    "@codeList": "http://www.loc.gov/standards/iso639-2/",
+    "@codeListValue": "eng"
+   }
+  },
+  "gmd:characterSet": {
+   "gmd:MD_CharacterSetCode": {
+    "@codeListValue": "utf8",
+    "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+   }
+  },
+  "gmd:hierarchyLevel": {
+   "gmd:MD_ScopeCode": {
+    "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode",
+    "@codeListValue": "dataset"
+   }
+  },
+  "gmd:contact": {
+   "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+   "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+   "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+   "gmd:CI_ResponsibleParty": {
+    "gmd:individualName": {
+     "gco:CharacterString": "Nadine HERRARD"
+    },
+    "gmd:organisationName": {
+     "gco:CharacterString": "INRA"
+    },
+    "gmd:contactInfo": {
+     "gmd:CI_Contact": {
+      "gmd:phone": {
+       "gmd:CI_Telephone": {
+        "gmd:voice": {
+         "gco:CharacterString": "+33 2 23 48 57 73"
+        },
+        "gmd:facsimile": {
+         "gco:CharacterString": "+33 2 23 48 54 40"
+        }
+       }
+      },
+      "gmd:address": {
+       "gmd:CI_Address": {
+        "gmd:deliveryPoint": {
+         "gco:CharacterString": "INRA 65 rue de St Brieuc, CS 84215"
+        },
+        "gmd:city": {
+         "gco:CharacterString": "Rennes Cedex"
+        },
+        "gmd:administrativeArea": {
+         "gco:CharacterString": null
+        },
+        "gmd:postalCode": {
+         "gco:CharacterString": "35042"
+        },
+        "gmd:country": {
+         "gco:CharacterString": "France"
+        },
+        "gmd:electronicMailAddress": {
+         "gco:CharacterString": "nadine.herrard@rennes.inra.fr"
+        }
+       }
+      }
+     }
+    },
+    "gmd:role": {
+     "gmd:CI_RoleCode": {
+      "@codeList": "./resources/codeList.xml#CI_RoleCode",
+      "@codeListValue": "pointOfContact"
+     }
+    }
+   }
+  },
+  "gmd:dateStamp": {
+   "gco:DateTime": "2021-02-04T18:47:03"
+  },
+  "gmd:metadataStandardName": {
+   "gco:CharacterString": "ISO 19115:2003/19139"
+  },
+  "gmd:metadataStandardVersion": {
+   "gco:CharacterString": "1.0"
+  },
+  "gmd:locale": {
+   "gmd:PT_Locale": {
+    "@id": "FR",
+    "gmd:languageCode": {
+     "gmd:LanguageCode": {
+      "@codeList": "http://www.loc.gov/standards/iso639-2/",
+      "@codeListValue": "fre"
+     }
+    },
+    "gmd:characterEncoding": null
+   }
+  },
+  "gmd:referenceSystemInfo": {
+   "gmd:MD_ReferenceSystem": {
+    "gmd:referenceSystemIdentifier": {
+     "gmd:RS_Identifier": {
+      "gmd:code": {
+       "gco:CharacterString": "WGS 84 (EPSG:4326)"
+      }
+     }
+    }
+   }
+  },
+  "gmd:identificationInfo": {
+   "gmd:MD_DataIdentification": {
+    "gmd:citation": {
+     "gmd:CI_Citation": {
+      "gmd:title": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "Aquatic Experimental platform of Rennes and Le Rheu (PEARL)",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "Plateforme Exp\u00c3\u00a9rimentale Aquatique de Rennes-Le Rheu (PEARL)"
+         }
+        }
+       }
+      },
+      "gmd:date": {
+       "gmd:CI_Date": {
+        "gmd:date": {
+         "gco:Date": "1998-01-01"
+        },
+        "gmd:dateType": {
+         "gmd:CI_DateTypeCode": {
+          "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+          "@codeListValue": "creation"
+         }
+        }
+       }
+      },
+      "gmd:identifier": [
+       {
+        "gmd:MD_Identifier": {
+         "gmd:code": {
+          "gco:CharacterString": "http://w3.avignon.inra.fr/geonetwork_anaee/cdf098e3-2ae7-4514-8957-ef3847a21ec2"
+         }
+        }
+       },
+       {
+        "gmd:MD_Identifier": {
+         "gmd:code": {
+          "gco:CharacterString": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/catalog.search#/metadata/cdf098e3-2ae7-4514-8957-ef3847a21ec2"
+         }
+        }
+       }
+      ]
+     }
+    },
+    "gmd:abstract": {
+     "@xsi:type": "gmd:PT_FreeText_PropertyType",
+     "gco:CharacterString": "This platform provide all the tools and skills required for answering fundamental or applied research questions in ecology, ecotoxicology, evolutionary biology, etc. It hosts multidisciplinary programs with applied issues concerning the evolutions of aquatic ecosystems under contrasted stressors: local stress (due to agricultural, industrial, urban activities) and/or global stress (due to climate change, but also to changes in land use or biological invasions).\nThe PEARL facility consists in: \n-\tan experimental complex of two multipurpose halls (400 m\u00c2\u00b2 each), greenhouses (250 m\u00c2\u00b2), an outdoor pond platform (500 m\u00c2\u00b2) and about sixty aquatic mesocosms, located on the Rennes Agrocampus Ouest site. \n-\tA \u00e2\u20ac\u0153pond\u00e2\u20ac station of around 30 ponds (total surface of 5ha), in Le Rheu near Rennes.",
+     "gmd:PT_FreeText": {
+      "gmd:textGroup": {
+       "gmd:LocalisedCharacterString": {
+        "@locale": "#FR",
+        "#text": "Cette plateforme propose un dispositif complet d\u00c3\u00a9di\u00c3\u00a9 plus particuli\u00c3\u00a8rement \u00c3\u00a0 l\u00e2\u20ac\u2122exp\u00c3\u00a9rimentation sur les \u00c3\u00a9cosyst\u00c3\u00a8mes aquatiques continentaux. Compos\u00c3\u00a9e de diff\u00c3\u00a9rents types de bassins environn\u00c3\u00a9s d\u00e2\u20ac\u2122instruments de mesures et compl\u00c3\u00a9t\u00c3\u00a9e de structures permettant la production d\u00e2\u20ac\u2122organismes mod\u00c3\u00a8les. La plateforme Exp\u00c3\u00a9rimentale Aquatique de Rennes-Le Rheu (PEARL) est un dispositif INRA,  g\u00c3\u00a9r\u00c3\u00a9 par l\u00e2\u20ac\u2122Unit\u00c3\u00a9 Exp\u00c3\u00a9rimentale d\u00e2\u20ac\u2122Ecologie et d\u00e2\u20ac\u2122Ecotoxicologie aquatique (U3E).\n\nL\u00e2\u20ac\u2122ensemble des outils et des comp\u00c3\u00a9tences affect\u00c3\u00a9 \u00c3\u00a0 cette plateforme permet de r\u00c3\u00a9pondre \u00c3\u00a0 des probl\u00c3\u00a9matiques de recherche fondamentale ou appliqu\u00c3\u00a9e en \u00c3\u00a9cologie, en \u00c3\u00a9cotoxicologie, en biologie \u00c3\u00a9volutive, etc.  Des programmes pluridisciplinaires sont mis en \u00c5\u201cuvre dont les enjeux appliqu\u00c3\u00a9s permettent de caract\u00c3\u00a9riser les \u00c3\u00a9volutions et le devenir de ces \u00c3\u00a9cosyst\u00c3\u00a8mes face aux diff\u00c3\u00a9rentes pressions qu'ils subissent : pressions locales (li\u00c3\u00a9es aux activit\u00c3\u00a9s agricoles, industrielles, urbaines...) ou/et pressions globales (li\u00c3\u00a9es au changement climatique mais \u00c3\u00a9galement au changement d\u00e2\u20ac\u2122occupation des terres ou au regard des invasions biologiques).\n\nLe dispositif PEARL est compos\u00c3\u00a9 :\n\u00e2\u20ac\u00a2\tD'un complexe exp\u00c3\u00a9rimental de 2 halls polyvalents de 400 m\u00c2\u00b2 chacun, de 250 m\u00c2\u00b2 de serres et d\u00e2\u20ac\u2122un plateau out door de 500 m\u00c2\u00b2 de bassins et d\u00e2\u20ac\u2122une soixantaine de m\u00c3\u00a9socosmes aquatiques, le tout bas\u00c3\u00a9 sur Agrocampus Ouest site de Rennes. \n\u00e2\u20ac\u00a2\tD'une station \"\u00c3\u00a9tangs\" d'une trentaine de plans d\u00e2\u20ac\u2122eau sur 5 ha \u00c3\u00a0 Le Rheu pr\u00c3\u00a8s de Rennes."
+       }
+      }
+     }
+    },
+    "gmd:pointOfContact": {
+     "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+     "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+     "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+     "gmd:CI_ResponsibleParty": {
+      "gmd:individualName": {
+       "gco:CharacterString": "Didier AZAM"
+      },
+      "gmd:organisationName": {
+       "gco:CharacterString": "INRA"
+      },
+      "gmd:contactInfo": {
+       "gmd:CI_Contact": {
+        "gmd:phone": {
+         "gmd:CI_Telephone": {
+          "gmd:voice": {
+           "gco:CharacterString": "+33 2 23 48 54 47"
+          },
+          "gmd:facsimile": {
+           "gco:CharacterString": "+33 2 23 48 54 40"
+          }
+         }
+        },
+        "gmd:address": {
+         "gmd:CI_Address": {
+          "gmd:deliveryPoint": {
+           "gco:CharacterString": "INRA 65 rue de St Brieuc, CS 84215"
+          },
+          "gmd:city": {
+           "gco:CharacterString": "Rennes Cedex"
+          },
+          "gmd:administrativeArea": {
+           "gco:CharacterString": null
+          },
+          "gmd:postalCode": {
+           "gco:CharacterString": "35042"
+          },
+          "gmd:country": {
+           "gco:CharacterString": "France"
+          },
+          "gmd:electronicMailAddress": {
+           "gco:CharacterString": "didier.azam@rennes.inra.fr"
+          }
+         }
+        }
+       }
+      },
+      "gmd:role": {
+       "gmd:CI_RoleCode": {
+        "@codeList": "./resources/codeList.xml#CI_RoleCode",
+        "@codeListValue": "pointOfContact"
+       }
+      }
+     }
+    },
+    "gmd:resourceMaintenance": {
+     "gmd:MD_MaintenanceInformation": {
+      "gmd:maintenanceAndUpdateFrequency": {
+       "gmd:MD_MaintenanceFrequencyCode": {
+        "@codeListValue": "asNeeded",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"
+       }
+      }
+     }
+    },
+    "gmd:graphicOverview": {
+     "gmd:MD_BrowseGraphic": {
+      "gmd:fileName": {
+       "gco:CharacterString": "http://w3.avignon.inra.fr:80/geonetwork_anaee/srv/eng/resources.get?uuid=cdf098e3-2ae7-4514-8957-ef3847a21ec2&fname=Logo-INRA_U3E_s.png"
+      },
+      "gmd:fileDescription": {
+       "gco:CharacterString": "thumbnail"
+      },
+      "gmd:fileType": {
+       "gco:CharacterString": "png"
+      }
+     }
+    },
+    "gmd:descriptiveKeywords": [
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": [
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "ecotoxicology",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "\u00c3\u00a9cotoxicologie"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "AnaEE-France",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "AnaEE-France"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "air-conditioned rooms",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "Chambres climatis\u00c3\u00a9es"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "animal population",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "population animale"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "anthropogenic environment",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "environnement anthropique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "aquatic breeding",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "\u00c3\u00a9levage aquatique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "aquatic ecology",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "\u00c3\u00a9cologie aquatique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "aquatic community",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "communaut\u00c3\u00a9 aquatique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "aquatic mesocosm",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "m\u00c3\u00a9socosme aquatique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "aquatic ecosystem",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "\u00c3\u00a9cosyst\u00c3\u00a8me aquatique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "aquatic organism",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "organisme aquatique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "breeding",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "\u00c3\u00a9levage"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "control measurements",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "mesure de contr\u00c3\u00b4le"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "climate control",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "contr\u00c3\u00b4le climatique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "environmental control",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "contr\u00c3\u00b4le environnemental"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "global change",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "changement global"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "environmental stress",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "stress environnemental"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "ecophysiology",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "\u00c3\u00a9cophysiologie"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "green house",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "serre"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "organic contaminant",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "contaminant organique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "natural environment",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "environnement naturel"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "invasive species",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "esp\u00c3\u00a8ce invasive"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "inbreeding depression",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "d\u00c3\u00a9pression consanguine"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "microcosm",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "microcosme"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "plant breeding",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "reproduction de plante"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "renilis",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "renilis"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "selective breeding",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "technique d'\u00c3\u00a9levage"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "trophic ecology",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "\u00c3\u00a9cologie trophique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "genetics",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "g\u00c3\u00a9n\u00c3\u00a9tique"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "rivan 92",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "rivan 92"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "marsh frog",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "grenouille rieuse"
+           }
+          }
+         }
+        }
+       ],
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "theme.anaeeThes.rdf"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2017-06-13"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=external.theme.anaeeThes",
+             "#text": "geonetwork.thesaurus.external.theme.anaeeThes"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "Environmental monitoring facilities",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "Installations de suivi environnemental"
+          }
+         }
+        }
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "GEMET - INSPIRE themes, version 1.0 INSPIRE themes"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2008-06-01"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=external.theme.inspire-theme",
+             "#text": "geonetwork.thesaurus.external.theme.inspire-theme"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": [
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "Rennes",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "Rennes"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "Le_Rheu",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "Le_Rheu"
+           }
+          }
+         }
+        }
+       ],
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "place"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "AnaEE-France Locations"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2017-10-04"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=local.place.anaee-france_locations",
+             "#text": "geonetwork.thesaurus.local.place.anaee-france_locations"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    ],
+    "gmd:resourceConstraints": {
+     "gmd:MD_LegalConstraints": {
+      "gmd:useLimitation": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "See AnaEE-France charters."
+      },
+      "gmd:accessConstraints": {
+       "gmd:MD_RestrictionCode": {
+        "@codeListValue": "intellectualPropertyRights",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+       }
+      },
+      "gmd:useConstraints": {
+       "gmd:MD_RestrictionCode": {
+        "@codeListValue": "intellectualPropertyRights",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+       }
+      },
+      "gmd:otherConstraints": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "For the publications or in the case of a Service, besides the rules of quotations mentioned in the charter \" PEARL D' ANAEE-FRANCE \", users will thank the used department (U3E PEARL) and the mobilized operator (s) during their use of the department.",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "Pour les publications ou dans le cas d\u00e2\u20ac\u2122une Prestation, en plus des r\u00c3\u00a8gles de citations mentionn\u00c3\u00a9es dans la charte \u00c2\u00ab PEARL d\u00e2\u20ac\u2122AnaEE-France \u00c2\u00bb, l\u00e2\u20ac\u2122Utilisateur remerciera le service utilis\u00c3\u00a9 (U3E PEARL) et le(s) op\u00c3\u00a9rateur(s) mobilis\u00c3\u00a9(s) lors de leur utilisation du service."
+         }
+        }
+       }
+      }
+     }
+    },
+    "gmd:spatialResolution": {
+     "gmd:MD_Resolution": {
+      "gmd:equivalentScale": {
+       "gmd:MD_RepresentativeFraction": {
+        "gmd:denominator": {
+         "gco:Integer": "50000"
+        }
+       }
+      }
+     }
+    },
+    "gmd:language": {
+     "gmd:LanguageCode": {
+      "@codeList": "http://www.loc.gov/standards/iso639-2/",
+      "@codeListValue": "fre"
+     }
+    },
+    "gmd:characterSet": {
+     "gmd:MD_CharacterSetCode": {
+      "@codeListValue": "utf8",
+      "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+     }
+    },
+    "gmd:topicCategory": {
+     "gmd:MD_TopicCategoryCode": "structure"
+    },
+    "gmd:extent": [
+     {
+      "gmd:EX_Extent": {
+       "gmd:temporalElement": {
+        "gmd:EX_TemporalExtent": {
+         "gmd:extent": {
+          "gml:TimePeriod": {
+           "@gml:id": "d204868e699a1052958",
+           "gml:beginPosition": "1998-01-01",
+           "gml:endPosition": {
+            "@indeterminatePosition": "now"
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:EX_Extent": {
+       "@xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+       "gmd:description": {
+        "gco:CharacterString": "Rennes"
+       },
+       "gmd:geographicElement": {
+        "gmd:EX_GeographicBoundingBox": {
+         "gmd:westBoundLongitude": {
+          "gco:Decimal": "-1.71026"
+         },
+         "gmd:eastBoundLongitude": {
+          "gco:Decimal": "-1.70489"
+         },
+         "gmd:southBoundLatitude": {
+          "gco:Decimal": "48.11168"
+         },
+         "gmd:northBoundLatitude": {
+          "gco:Decimal": "48.11363"
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:EX_Extent": {
+       "@xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+       "gmd:description": {
+        "gco:CharacterString": "Le_Rheu"
+       },
+       "gmd:geographicElement": {
+        "gmd:EX_GeographicBoundingBox": {
+         "gmd:westBoundLongitude": {
+          "gco:Decimal": "-1.78515"
+         },
+         "gmd:eastBoundLongitude": {
+          "gco:Decimal": "-1.79511"
+         },
+         "gmd:southBoundLatitude": {
+          "gco:Decimal": "48.11768"
+         },
+         "gmd:northBoundLatitude": {
+          "gco:Decimal": "48.12272"
+         }
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  "gmd:distributionInfo": {
+   "gmd:MD_Distribution": {
+    "gmd:distributionFormat": {
+     "gmd:MD_Format": {
+      "gmd:name": {
+       "gco:CharacterString": "inapplicable"
+      },
+      "gmd:version": {
+       "gco:CharacterString": "inapplicable"
+      }
+     }
+    },
+    "gmd:transferOptions": {
+     "gmd:MD_DigitalTransferOptions": {
+      "gmd:onLine": {
+       "gmd:CI_OnlineResource": {
+        "gmd:linkage": {
+         "gmd:URL": "https://www6.rennes.inrae.fr/u3e"
+        },
+        "gmd:protocol": {
+         "gco:CharacterString": "WWW:LINK-1.0-http--link"
+        },
+        "gmd:name": {
+         "gco:CharacterString": "Web site U3E"
+        },
+        "gmd:description": {
+         "@gco:nilReason": "missing",
+         "gco:CharacterString": null
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "gmd:dataQualityInfo": {
+   "gmd:DQ_DataQuality": {
+    "gmd:scope": {
+     "gmd:DQ_Scope": {
+      "gmd:level": {
+       "gmd:MD_ScopeCode": {
+        "@codeListValue": "dataset",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode"
+       }
+      }
+     }
+    },
+    "gmd:report": {
+     "gmd:DQ_DomainConsistency": {
+      "gmd:result": {
+       "gmd:DQ_ConformanceResult": {
+        "gmd:specification": {
+         "gmd:CI_Citation": {
+          "gmd:title": {
+           "gco:CharacterString": "Commission Regulation (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services"
+          },
+          "gmd:date": {
+           "gmd:CI_Date": {
+            "gmd:date": {
+             "gco:Date": "2010-12-08"
+            },
+            "gmd:dateType": {
+             "gmd:CI_DateTypeCode": {
+              "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+              "@codeListValue": "publication"
+             }
+            }
+           }
+          }
+         }
+        },
+        "gmd:explanation": {
+         "gco:CharacterString": "Not evaluated"
+        }
+       }
+      }
+     }
+    },
+    "gmd:lineage": {
+     "gmd:LI_Lineage": {
+      "gmd:statement": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "PEARL is one of the two research facilities managed by the U3E unit (INRA-1036), particularly dedicated to the study of the continental aquatic ecosystems. Original tools and the skills developed by the staff now allow Pearl to implement multidisciplinary research programs encompassing all the biotic and abiotic components of continental aquatic ecosystems (lotic or lentic).\nThe \u00c2\u00ab pond \u00c2\u00bb station in Le Rheu has been in operation since 1988. The first experimental installations in Rennes were accessible to the scientific community in 1992. They were completed in 1998 by the aquatic mesocosms and microcosms platform. Since then, the U3E unit ensures the improvement and modernization of all its facilities and associated monitoring instruments.\n\nPEARL is a service of AnaEE-France Infrastructure.",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "PEARL est l\u00e2\u20ac\u2122une des deux infrastructures de recherche g\u00c3\u00a9r\u00c3\u00a9e par l\u00e2\u20ac\u2122U3E (INRA 1036).plus particuli\u00c3\u00a8rement orient\u00c3\u00a9 vers l\u00e2\u20ac\u2122\u00c3\u00a9tude des milieux aquatiques continentaux. L\u00e2\u20ac\u2122originalit\u00c3\u00a9 des outils g\u00c3\u00a9r\u00c3\u00a9s ainsi que les comp\u00c3\u00a9tences d\u00c3\u00a9velopp\u00c3\u00a9es par le personnel font qu\u00e2\u20ac\u2122actuellement, Pearl, permet la mise en \u00c5\u201cuvre de programmes de recherche pluridisciplinaires qui abordent l\u00e2\u20ac\u2122ensemble des composants biotiques et abiotiques des \u00c3\u00a9cosyst\u00c3\u00a8mes aquatiques continentaux (lotiques ou lentiques).\n\nLa station \u00c3\u00a9tangs de Le Rheu est fonctionnelle depuis 1988. La mise \u00c3\u00a0 disposition des premi\u00c3\u00a8res installations sur Rennes aupr\u00c3\u00a8s des communaut\u00c3\u00a9s scientifiques concern\u00c3\u00a9es a d\u00c3\u00a9but\u00c3\u00a9e en 1992. Elles ont \u00c3\u00a9t\u00c3\u00a9 compl\u00c3\u00a9t\u00c3\u00a9es en 1998 par la plateforme de m\u00c3\u00a9socosmes et microcosmes aquatiques. Depuis, L\u00e2\u20ac\u2122U3E s\u00e2\u20ac\u2122assure de l\u00e2\u20ac\u2122am\u00c3\u00a9lioration et la modernisation de l\u00e2\u20ac\u2122ensemble ses installations et l\u00e2\u20ac\u2122instrumentation associ\u00c3\u00a9e.\n\nPEARL est un des services de l'infrastructure AnaEE-France."
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
 }

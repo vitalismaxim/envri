@@ -1,0 +1,149 @@
+{
+  "coverageGeo": {
+    "coordinates": [1.95191, 48.84422, 125.0],
+    "type": "Point"
+  },
+  "fileName": "FR-Gri_BM_20210403_L04_F01.csv",
+  "hash": "874UwlPUbIpT-IOU7_R7KfLz7SzGEHt5fJySTEJKX-E",
+  "parentCollections": [],
+  "pid": "11676/874UwlPUbIpT-IOU7_R7KfLz",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Benjamin",
+      "lastName": "Loubet",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Benjamin_Loubet"
+      }
+    }, {
+      "firstName": "Pauline",
+      "lastName": "Buysse",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Pauline_Buysse"
+      }
+    }, {
+      "firstName": "Brigitte",
+      "lastName": "Durand",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Brigitte_Durand"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/874UwlPUbIpT-IOU7_R7KfLz,\r\n  author={Loubet, B., Buysse, P., Durand, B.},\r\n  title={ICOS ETC Bio Meteo Raw ASCII, Grignon, 2021-04-03},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/874UwlPUbIpT-IOU7_R7KfLz},\r\n  publisher={Grignon},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/874UwlPUbIpT-IOU7_R7KfLz}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ETC Bio Meteo Raw ASCII, Grignon, 2021-04-03\r\nID - 11676/874UwlPUbIpT-IOU7_R7KfLz\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/874UwlPUbIpT-IOU7_R7KfLz\r\nPB - Grignon\r\nAU - Loubet, B.\r\nAU - Buysse, P.\r\nAU - Durand, B.\r\nER - ",
+    "citationString": "Loubet, B., Buysse, P., Durand, B., ICOS RI, 2021. ICOS ETC Bio Meteo Raw ASCII, Grignon, 2021-04-03, https://hdl.handle.net/11676/874UwlPUbIpT-IOU7_R7KfLz",
+    "temporalCoverageDisplay": "2021-04-03"
+  },
+  "size": 118751,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "DL-Campbell CR1000",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ETC_7_4"
+      },
+      "interval": {
+        "start": "2021-04-02T23:00:00Z",
+        "stop": "2021-04-03T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 125.0,
+          "geo": {
+            "coordinates": [1.95191, 48.84422, 125.0],
+            "type": "Point"
+          },
+          "label": "FR-Gri",
+          "lat": 48.84422,
+          "lon": 1.95191
+        },
+        "id": "FR-Gri",
+        "org": {
+          "name": "Grignon",
+          "self": {
+            "comments": ["The station Grignon, having ICOS code FR-Gri, is located 1 Km east of the namesake tows, about 40 Km west of Paris, in a plateau situated close to a farm cattle. The site is a large cropland field (19 ha) located in the suburb of Paris and it is exposed to heavy atmospheric pollution coming from the Parisian area, the Benelux, as well as the south of England and Germany with east and northerly winds. On the contrary it is exposed to clean ocean air during south-westerly wind (which is the main wind direction). The site itself is representative of the main practice of arable crops farming in France with a crop rotation including wheat, maize and oilseed rape, representing more than 60% of the crops in France."],
+            "label": "FR-Gri",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_FR-Gri"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/ALyJTjZdyK5HyGC/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "countryCode": "FR",
+          "documentation": [],
+          "ecosystemType": {
+            "comments": ["Lands covered with temporary crops followed by harvest and a bare soil period (e.g., single and multiple cropping systems). Note that perennial woody crops will be classified as the appropriate forest or shrub land cover type."],
+            "label": "Croplands",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_CRO"
+          },
+          "meanAnnualPrecip": 597.38,
+          "meanAnnualRad": 135.47,
+          "meanAnnualTemp": 11.0,
+          "stationClass": "2",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Raw ASCII ETC station data",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiEtcRawTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ETC Bio Meteo Raw ASCII",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcBioMeteoRawSeriesCsv"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-04-04T01:00:57.559Z",
+    "stop": "2021-04-04T01:01:00.466Z",
+    "submitter": {
+      "name": "Grignon",
+      "self": {
+        "comments": ["The station Grignon, having ICOS code FR-Gri, is located 1 Km east of the namesake tows, about 40 Km west of Paris, in a plateau situated close to a farm cattle. The site is a large cropland field (19 ha) located in the suburb of Paris and it is exposed to heavy atmospheric pollution coming from the Parisian area, the Benelux, as well as the south of England and Germany with east and northerly winds. On the contrary it is exposed to clean ocean air during south-westerly wind (which is the main wind direction). The site itself is representative of the main practice of arable crops farming in France with a crop rotation including wheat, maize and oilseed rape, representing more than 60% of the crops in France."],
+        "label": "FR-Gri",
+        "uri": "http://meta.icos-cp.eu/resources/stations/ES_FR-Gri"
+      }
+    }
+  }
+}

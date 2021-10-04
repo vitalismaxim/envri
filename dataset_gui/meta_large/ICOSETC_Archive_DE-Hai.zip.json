@@ -1,0 +1,168 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/7mvBcA9m558Jerr-LZqrSHtm",
+  "coverageGeo": {
+    "coordinates": [10.45209, 51.07941, 438.7],
+    "type": "Point"
+  },
+  "fileName": "ICOSETC_Archive_DE-Hai.zip",
+  "hash": "7mvBcA9m558Jerr-LZqrSHtm_fx61-5L07Qsj16MSI4",
+  "nextVersion": "https://meta.icos-cp.eu/objects/WiCY4SusnZoel1_SJugCrXDM",
+  "parentCollections": [{
+    "comments": [],
+    "label": "Ecosystem final quality (L2) product in ETC-Archive format - release 2021-1",
+    "uri": "https://meta.icos-cp.eu/collections/q4V7P1VLZevIrnlsW6SJO1Rz"
+  }],
+  "pid": "11676/7mvBcA9m558Jerr-LZqrSHtm",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Alexander",
+      "lastName": "Knohl",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Alexander_Knohl"
+      }
+    }, {
+      "firstName": "Christian",
+      "lastName": "Markwitz",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Christian_Markwitz"
+      }
+    }, {
+      "firstName": "Lukas",
+      "lastName": "Siebicke",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Lukas_Siebicke"
+      }
+    }, {
+      "firstName": "Frank",
+      "lastName": "Tiedemann",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Frank_Tiedemann"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/7mvBcA9m558Jerr-LZqrSHtm,\r\n  author={Knohl, A., Markwitz, C., Siebicke, L., Tiedemann, F.},\r\n  title={ETC L2 ARCHIVE, Hainich, 2018-12-31–2020-12-31},\r\n  year={2020},\r\n  url={https://hdl.handle.net/11676/7mvBcA9m558Jerr-LZqrSHtm},\r\n  publisher={Ecosystem Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/7mvBcA9m558Jerr-LZqrSHtm}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ETC L2 ARCHIVE, Hainich, 2018-12-31–2020-12-31\r\nID - 11676/7mvBcA9m558Jerr-LZqrSHtm\r\nPY - 2020\r\nUR - https://hdl.handle.net/11676/7mvBcA9m558Jerr-LZqrSHtm\r\nPB - Ecosystem Thematic Centre\r\nAU - Knohl, A.\r\nAU - Markwitz, C.\r\nAU - Siebicke, L.\r\nAU - Tiedemann, F.\r\nER - ",
+    "citationString": "Knohl, A., Markwitz, C., Siebicke, L., Tiedemann, F., ICOS RI, 2020. ETC L2 ARCHIVE, Hainich, 2018-12-31–2020-12-31, https://hdl.handle.net/11676/7mvBcA9m558Jerr-LZqrSHtm",
+    "temporalCoverageDisplay": "2018-12-31–2020-12-31"
+  },
+  "size": 23402193,
+  "specificInfo": {
+    "acquisition": {
+      "interval": {
+        "start": "2018-12-31T23:00:00Z",
+        "stop": "2020-12-31T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 438.7,
+          "geo": {
+            "coordinates": [10.45209, 51.07941, 438.7],
+            "type": "Point"
+          },
+          "label": "DE-Hai",
+          "lat": 51.07941,
+          "lon": 10.45209
+        },
+        "id": "DE-Hai",
+        "org": {
+          "name": "Hainich",
+          "self": {
+            "comments": ["“Until the end of the 19th century, [the Hainich] was managed as a coppice-with-standards system and was subjected to selective cutting until 1965. From 1965–1997, the area was used as a military training base and a large part of the forest was left untouched, with only single and very valuable trees being cut. The forest has never been clear felled and, as a result, it exhibits characteristics of an unmanaged, old-growth forest with highly diverse horizontal and vertical structure, trees covering a wide range of age classes, up to a maximum of around 265 years, and large amounts of dead wood (both standing dead wood and coarse woody debris). The main tree species in the forest are beech (Fagus sylvatica, ca. 64% of tree biomass), ash (Fraxinus excelsior, ca. 28%), and sycamore (Acer pseudoplatanus, ca. 7%), with some single trees of European hornbean (Carpinus betulus), elm (Ulmus glabra), maple (Acer platanoides) and other deciduous species. The main ground vegetation in the forest includes Allium ursinum, Mercurialis perennis and Anemone nemorosa (Mund, 2004).” from Tamrakar et al. (2018, doi: s://doi.org/10.1016/j.agrformet.2018.08.027) Mund et al. (2004, doi: https://doi.org/10.1093/treephys/tpq027)"],
+            "label": "DE-Hai",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_DE-Hai"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/ygsAwbMRekrS44j/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "climateZone": {
+            "comments": [],
+            "label": "Humid continental, warm summer (Dfb)",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/koppen_Dfb"
+          },
+          "countryCode": "DE",
+          "documentation": [{
+            "hash": "_tFsWRgQcO7FkfvOq0OqIC8HfXhBXtYIxuBvSEUlcqs",
+            "name": "DE-Hai Associated ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/_tFsWRgQcO7FkfvOq0OqIC8H"
+          }],
+          "ecosystemType": {
+            "comments": ["Lands dominated by woody vegetation with a percent cover >60% and height exceeding 2 meters. Consists of broadleaf tree communities with an annual cycle of leaf-on and leaf-off periods."],
+            "label": "Deciduous Broadleaf Forests",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_DBF"
+          },
+          "labelingDate": "2020-05-04",
+          "meanAnnualPrecip": 744.0,
+          "meanAnnualRad": 122.4,
+          "meanAnnualTemp": 8.34,
+          "stationClass": "Associated",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    },
+    "nRows": 35088
+  },
+  "specification": {
+    "dataLevel": 2,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Arbitrary ZIP archive",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipArchive"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ETC L2 ARCHIVE",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcArchiveProduct"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-04-30T09:56:29.236Z",
+    "stop": "2021-04-30T09:56:55.560Z",
+    "submitter": {
+      "name": "Ecosystem Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ETC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ETC"
+      }
+    }
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "coverageGeo": {
+    "coordinates": [24.2947, 61.8474, 181.0],
+    "type": "Point"
+  },
+  "fileName": "SMR_1067_1_20210308.zip",
+  "hash": "fqud0CVZDR9h3f4wDuK7qaw1dflH4kYYLCvuPDd1QGY",
+  "parentCollections": [],
+  "pid": "11676/fqud0CVZDR9h3f4wDuK7qaw1",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Ivan",
+      "lastName": "Mammarella",
+      "orcid": "0000-0002-8516-3356",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Ivan_Mammarella"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/fqud0CVZDR9h3f4wDuK7qaw1,\r\n  author={Mammarella, I.},\r\n  title={ICOS ATC Meteorological data csv time series, Hyytiälä, 2021-03-08},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/fqud0CVZDR9h3f4wDuK7qaw1},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/fqud0CVZDR9h3f4wDuK7qaw1}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC Meteorological data csv time series, Hyytiälä, 2021-03-08\r\nID - 11676/fqud0CVZDR9h3f4wDuK7qaw1\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/fqud0CVZDR9h3f4wDuK7qaw1\r\nPB - Atmosphere Thematic Centre\r\nAU - Mammarella, I.\r\nER - ",
+    "citationString": "Mammarella, I., ICOS RI, 2021. ICOS ATC Meteorological data csv time series, Hyytiälä, 2021-03-08, https://hdl.handle.net/11676/fqud0CVZDR9h3f4wDuK7qaw1",
+    "temporalCoverageDisplay": "2021-03-08"
+  },
+  "size": 16541,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "Meteorological station for the first level",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_1067"
+      },
+      "interval": {
+        "start": "2021-03-08T00:00:00Z",
+        "stop": "2021-03-08T23:59:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 181.0,
+          "geo": {
+            "coordinates": [24.2947, 61.8474, 181.0],
+            "type": "Point"
+          },
+          "label": "SMR",
+          "lat": 61.8474,
+          "lon": 24.2947
+        },
+        "id": "SMR",
+        "org": {
+          "name": "Hyytiälä",
+          "self": {
+            "comments": [],
+            "label": "SMR",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_SMR"
+          }
+        },
+        "pictures": ["https://meta.icos-cp.eu/files/GA_BQ41dU2RhM26Duim9RlHT/Smear_II_JAalto_mast.JPG", "https://meta.icos-cp.eu/files/1b9TjasAadPA8K4hms-lk0aK/Smear_II_JAalto_cottage.JPG"],
+        "responsibleOrganization": {
+          "name": "Institute for Atmospheric and Earth System Research / Physics, Faculty of Sciences, University of Helsinki",
+          "self": {
+            "comments": [],
+            "label": "INAR",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/INAR"
+          },
+          "website": "https://www.helsinki.fi/en/faculty-of-science/faculty/institute-for-atmospheric-and-earth-system-research-inar"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "FI",
+          "documentation": [{
+            "hash": "2MnvoVWLo2X2xT-fvI-NU0Pkpk0P29qQDDHISuYqus4",
+            "name": "Hyytiala_STILT_station_characterization.pdf",
+            "res": "https://meta.icos-cp.eu/objects/2MnvoVWLo2X2xT-fvI-NU0Pk"
+          }],
+          "labelingDate": "2017-11-17",
+          "stationClass": "1",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 2
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "ICOS ATC Raw time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ATC Meteorological data csv time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcMeteoL0DataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-03-09T10:43:24.440Z",
+    "stop": "2021-03-09T10:43:26.742Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

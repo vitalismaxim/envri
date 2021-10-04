@@ -1,0 +1,253 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/lHUYPzqYkvl7klkBVHsgQXHY",
+  "coverageGeo": {
+    "coordinates": [24.1157, 67.9733, 565.0],
+    "type": "Point"
+  },
+  "fileName": "ICOS_ATC_L2_L2-2021.1_PAL_12.0_779_14C.zip",
+  "hash": "lHUYPzqYkvl7klkBVHsgQXHY8rBLHqRJUaA6lQIjii4",
+  "parentCollections": [{
+    "comments": [],
+    "label": "ICOS Atmosphere Release 2021-1 of Level 2 Greenhouse Gas Mole Fractions of CO2, CH4, N2O, CO, meteorology and 14CO2",
+    "uri": "https://meta.icos-cp.eu/collections/qrhcaIUVRky49JrFtGFsuYvv"
+  }],
+  "pid": "11676/lHUYPzqYkvl7klkBVHsgQXHY",
+  "previousVersion": "https://meta.icos-cp.eu/objects/M7EIWJJj2aQ_MfagqhxBXS9V",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Juha",
+      "lastName": "Hatakka",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Juha_Hatakka"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/lHUYPzqYkvl7klkBVHsgQXHY,\r\n  author={Hatakka, J.},\r\n  title={ICOS ATC/CAL 14C Release, Pallas (12.0 m), 2017-12-14–2020-02-12},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/lHUYPzqYkvl7klkBVHsgQXHY},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/lHUYPzqYkvl7klkBVHsgQXHY}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC/CAL 14C Release, Pallas (12.0 m), 2017-12-14–2020-02-12\r\nID - 11676/lHUYPzqYkvl7klkBVHsgQXHY\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/lHUYPzqYkvl7klkBVHsgQXHY\r\nPB - Atmosphere Thematic Centre\r\nAU - Hatakka, J.\r\nER - ",
+    "citationString": "Hatakka, J., ICOS RI, 2021. ICOS ATC/CAL 14C Release, Pallas (12.0 m), 2017-12-14–2020-02-12, https://hdl.handle.net/11676/lHUYPzqYkvl7klkBVHsgQXHY",
+    "temporalCoverageDisplay": "2017-12-14–2020-02-12"
+  },
+  "size": 2352,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "ATC_779",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_779"
+      },
+      "interval": {
+        "start": "2017-12-14T00:00:00Z",
+        "stop": "2020-02-12T09:06:00Z"
+      },
+      "samplingHeight": 12.0,
+      "station": {
+        "coverage": {
+          "alt": 565.0,
+          "geo": {
+            "coordinates": [24.1157, 67.9733, 565.0],
+            "type": "Point"
+          },
+          "label": "PAL",
+          "lat": 67.9733,
+          "lon": 24.1157
+        },
+        "id": "PAL",
+        "org": {
+          "name": "Pallas",
+          "self": {
+            "comments": [],
+            "label": "PAL",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_PAL"
+          }
+        },
+        "pictures": ["https://meta.icos-cp.eu/files/UnWNQPTBonW85rP3RVTiNMBb/Pallas_Sammaltunturi_station.jpg"],
+        "responsibleOrganization": {
+          "name": "Finnish Meteorological Institute",
+          "self": {
+            "comments": [],
+            "label": "FMI",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/FMI"
+          },
+          "website": "https://en.ilmatieteenlaitos.fi/greenhouse-gases"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "FI",
+          "documentation": [{
+            "hash": "YbXywVX4KacGmWLSZe5jyAUSQURX0MHE7Kcboh7zL3E",
+            "name": "Pallas_STILT_station_characterization.pdf",
+            "res": "https://meta.icos-cp.eu/objects/YbXywVX4KacGmWLSZe5jyAUS"
+          }],
+          "labelingDate": "2018-11-30",
+          "stationClass": "1",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 2
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, UTC",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStamp"
+        }
+      }
+    }, {
+      "label": "IntegrationTime",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["integer number"],
+          "label": "number",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/number"
+        },
+        "self": {
+          "comments": [],
+          "label": "integration time",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integrationTimeInIntDays"
+        },
+        "unit": "day"
+      }
+    }, {
+      "label": "14C",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "Δ14C",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/c14MixingRatioPpm"
+        },
+        "unit": "per mil"
+      }
+    }, {
+      "label": "WeightedStdErr",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "standard deviation of gas mole fraction",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/moleFractionSdPpm"
+        },
+        "unit": "µmol mol-1"
+      }
+    }, {
+      "label": "NbPoints",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["integer number"],
+          "label": "number",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/number"
+        },
+        "self": {
+          "comments": [],
+          "label": "number of points",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/npoints"
+        }
+      }
+    }, {
+      "label": "Flag",
+      "valueType": {
+        "self": {
+          "comments": ["single-letter quality flag"],
+          "label": "quality flag",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/oneLetterFlag"
+        }
+      }
+    }],
+    "nRows": 51,
+    "productionInfo": {
+      "contributors": [],
+      "creator": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "dateTime": "2021-05-26T09:39:11Z",
+      "host": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "sources": []
+    }
+  },
+  "specification": {
+    "dataLevel": 2,
+    "datasetSpec": {
+      "self": {
+        "comments": [],
+        "label": "Atmospheric 14C time series",
+        "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcC14TimeSer"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": ["Semicolon-separated ASCII, with #-prefixed multi-line header"],
+      "label": "ICOS ATC time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcProductTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": ["The ICOS Central Radiocarbon Laboratory (CRL) central task is the high-precision measurement of the ¹⁴C content in atmospheric CO₂. The ¹⁴CO₂ activity is determined for grab samples (flask) as well as for two-week integrated ambient air samples. Two ¹⁴CO₂ analytical techniques are applied in the CRL: Accelerator Mass Spectrometry (AMS) in collaboration with the CEZA laboratory in Mannheim, Germany (Lux, 2019), and Low-Level gas proportional Counting (LLC) (Kromer & Münnich, 1992). The comparability of both measurement techniques is continuously monitored and was documented in Hammer et al. (2017)", "Lux, J. T. (2018). A new target preparation facility for high precision AMS measurements and strategies for efficient ¹⁴CO₂ sampling (Doctoral dissertation). DOI: https://doi.org/10.11588/heidok.00024767", "Kromer, B., & Münnich, K. O. (1992). CO₂ gas proportional counting in radiocarbon dating—review and perspective. Radiocarbon after four decades, 184-197. DOI: https://doi.org/10.1007/978-1-4757-4249-7_13", "Hammer, S., Friedrich, R., Kromer, B., Cherkinsky, A., Lehman, S. J., Meijer, H. A., ... & Uchida, M. (2017). Compatibility of Atmospheric ¹⁴CO₂ Measurements: Comparing the Heidelberg Low-Level Counting Facility to International Accelerator Mass Spectrometry (AMS) Laboratories. Radiocarbon, 59(3), 875-883. DOI: https://doi.org/10.1017/RDC.2016.62", "See also CEZA laboratory: https://www.ceza.de/en "],
+      "label": "ICOS ATC/CAL 14C Release",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcC14L2DataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-05-25T10:28:32.269Z",
+    "stop": "2021-05-25T10:28:35.363Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

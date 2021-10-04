@@ -1,0 +1,225 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/fdQb2mTbixBBsVb4DDXzLHxy",
+  "coverageGeo": {
+    "coordinates": [11.4429, 53.0657, 70.0],
+    "type": "Point"
+  },
+  "fileName": "ICOS_ATC_NRT_GAT_2021-06-13_2021-06-13_341.0_413_CO2.zip",
+  "hash": "fdQb2mTbixBBsVb4DDXzLHxy3Xz8T8JzE3fC3Uf43VQ",
+  "parentCollections": [],
+  "pid": "11676/fdQb2mTbixBBsVb4DDXzLHxy",
+  "references": {
+    "acknowledgements": [],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/fdQb2mTbixBBsVb4DDXzLHxy,\r\n  title={ICOS ATC NRT CO2 data csv time series, Gartow (341.0 m), 2021-06-13},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/fdQb2mTbixBBsVb4DDXzLHxy},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/fdQb2mTbixBBsVb4DDXzLHxy}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC NRT CO2 data csv time series, Gartow (341.0 m), 2021-06-13\r\nID - 11676/fdQb2mTbixBBsVb4DDXzLHxy\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/fdQb2mTbixBBsVb4DDXzLHxy\r\nPB - Atmosphere Thematic Centre\r\nER - ",
+    "citationString": "Copernicus, 2021. ICOS ATC NRT CO2 data csv time series, Gartow (341.0 m), 2021-06-13, https://hdl.handle.net/11676/fdQb2mTbixBBsVb4DDXzLHxy",
+    "temporalCoverageDisplay": "2021-06-13"
+  },
+  "size": 1781,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "CO2-CH4-H2O Picarro Analyzer",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_413"
+      },
+      "interval": {
+        "start": "2021-06-13T00:00:00Z",
+        "stop": "2021-06-13T23:00:00Z"
+      },
+      "samplingHeight": 341.0,
+      "station": {
+        "coverage": {
+          "alt": 70.0,
+          "geo": {
+            "coordinates": [11.4429, 53.0657, 70.0],
+            "type": "Point"
+          },
+          "label": "GAT",
+          "lat": 53.0657,
+          "lon": 11.4429
+        },
+        "id": "GAT",
+        "org": {
+          "name": "Gartow",
+          "self": {
+            "comments": [],
+            "label": "GAT",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_GAT"
+          }
+        },
+        "pictures": ["https://meta.icos-cp.eu/files/PESz6TQWX3tXmguQRHI7dsdF/GAT1.jpg"],
+        "responsibleOrganization": {
+          "name": "Deutscher Wetterdienst, Hohenpeißenberg Meteorological Observatory",
+          "self": {
+            "comments": [],
+            "label": "MOHp",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/MOHp"
+          },
+          "website": "https://www.dwd.de/mohp"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "DE",
+          "documentation": [{
+            "hash": "GNBwisgVte1EER4DIFa7IcJZUFFH3MjChT-B-0N6ZYA",
+            "name": "Gartow_STILT_station_characterization.pdf",
+            "res": "https://meta.icos-cp.eu/objects/GNBwisgVte1EER4DIFa7IcJZ"
+          }],
+          "labelingDate": "2017-11-17",
+          "stationClass": "1",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, UTC",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStamp"
+        }
+      }
+    }, {
+      "label": "co2",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "CO2 mixing ratio (dry mole fraction)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/co2MixingRatio"
+        },
+        "unit": "µmol mol-1"
+      }
+    }, {
+      "label": "Stdev",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "standard deviation of gas mole fraction",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/moleFractionSdPpm"
+        },
+        "unit": "µmol mol-1"
+      }
+    }, {
+      "label": "Flag",
+      "valueType": {
+        "self": {
+          "comments": ["single-letter quality flag"],
+          "label": "quality flag",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/oneLetterFlag"
+        }
+      }
+    }, {
+      "label": "NbPoints",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["integer number"],
+          "label": "number",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/number"
+        },
+        "self": {
+          "comments": [],
+          "label": "number of points",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/npoints"
+        }
+      }
+    }],
+    "nRows": 24,
+    "productionInfo": {
+      "contributors": [],
+      "creator": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "dateTime": "2021-06-14T05:14:14Z",
+      "host": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "sources": []
+    }
+  },
+  "specification": {
+    "dataLevel": 1,
+    "datasetSpec": {
+      "self": {
+        "comments": [],
+        "label": "Atmospheric CO2 mole fraction time series",
+        "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcCo2MoleFracTimeSer"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": ["Semicolon-separated ASCII, with #-prefixed multi-line header"],
+      "label": "ICOS ATC time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcProductTimeSer"
+    },
+    "keywords": ["CO2", "concentration"],
+    "project": {
+      "self": {
+        "comments": ["European Union's Earth Observation Programme"],
+        "label": "Copernicus",
+        "uri": "http://meta.icos-cp.eu/resources/projects/copernicus"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ATC NRT CO2 data csv time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcCo2NrtDataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-06-14T05:14:15.357482Z",
+    "stop": "2021-06-14T05:14:17.824575Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

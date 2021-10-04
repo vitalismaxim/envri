@@ -1,0 +1,174 @@
+{
+  "coverageGeo": {
+    "coordinates": [3.85043, 51.11218, 6.25],
+    "type": "Point"
+  },
+  "fileName": "BE-Lcr_EC_20210528_L10_F01.zip",
+  "hash": "jU5jf_hbMADEHRxKf451j3w7owVqPfSm0lxYyPCBKYg",
+  "parentCollections": [],
+  "pid": "11676/jU5jf_hbMADEHRxKf451j3w7",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Tim",
+      "lastName": "De Meulder",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Tim_De%20Meulder"
+      }
+    }, {
+      "firstName": "Lodewijk",
+      "lastName": "Lefevre",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Lodewijk_Lefevre"
+      }
+    }, {
+      "firstName": "Marilyn",
+      "lastName": "Roland",
+      "orcid": "0000-0002-5770-3896",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Marilyn_Roland"
+      }
+    }, {
+      "firstName": "Jan",
+      "lastName": "Segers",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jan_Segers"
+      }
+    }, {
+      "firstName": "Jasper",
+      "lastName": "Van Look",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jasper_Van%20Look"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/jU5jf_hbMADEHRxKf451j3w7,\r\n  author={De Meulder, T., Lefevre, L., Roland, M., Segers, J., Van Look, J.},\r\n  title={ICOS ETC Eddy Flux Raw ASCII daily archive, Lochristi, 2021-05-28},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/jU5jf_hbMADEHRxKf451j3w7},\r\n  publisher={Lochristi},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/jU5jf_hbMADEHRxKf451j3w7}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ETC Eddy Flux Raw ASCII daily archive, Lochristi, 2021-05-28\r\nID - 11676/jU5jf_hbMADEHRxKf451j3w7\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/jU5jf_hbMADEHRxKf451j3w7\r\nPB - Lochristi\r\nAU - De Meulder, T.\r\nAU - Lefevre, L.\r\nAU - Roland, M.\r\nAU - Segers, J.\r\nAU - Van Look, J.\r\nER - ",
+    "citationString": "De Meulder, T., Lefevre, L., Roland, M., Segers, J., Van Look, J., ICOS RI, 2021. ICOS ETC Eddy Flux Raw ASCII daily archive, Lochristi, 2021-05-28, https://hdl.handle.net/11676/jU5jf_hbMADEHRxKf451j3w7",
+    "temporalCoverageDisplay": "2021-05-28"
+  },
+  "size": 132585569,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "DL-LI-COR SFlux2",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ETC_42_10"
+      },
+      "interval": {
+        "start": "2021-05-27T23:00:00Z",
+        "stop": "2021-05-28T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 6.25,
+          "geo": {
+            "coordinates": [3.85043, 51.11218, 6.25],
+            "type": "Point"
+          },
+          "label": "BE-Lcr",
+          "lat": 51.11218,
+          "lon": 3.85043
+        },
+        "id": "BE-Lcr",
+        "org": {
+          "name": "Lochristi",
+          "self": {
+            "comments": ["The station Lochristi (ICOS code BE-Lcr) is located in Lochristi, Belgium, about 11 km from the city of Ghent (Province East of Flanders). The site is a short-rotation coppice plantation of poplar ( Populus spp.) with flat topography. The region is pedologically described as a sandy region. The current total area of the plantation is 11 ha and the tree density is 8000 trees ha-1 . Twelve selected poplar genotypes were planted in monoclonal blocks in 2010."],
+            "label": "BE-Lcr",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_BE-Lcr"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/SFBgijoGjCyyFfb/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "climateZone": {
+            "comments": [],
+            "label": "Oceanic subtropical highland (Cfb)",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/koppen_Cfb"
+          },
+          "countryCode": "BE",
+          "documentation": [{
+            "hash": "8W3XlaHePXf6Nc6wQotDs_rrVTBuxTZhAybwnM0kEIo",
+            "name": "BE-Lcr Associated ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/8W3XlaHePXf6Nc6wQotDs_rr"
+          }],
+          "ecosystemType": {
+            "comments": ["Lands dominated by woody vegetation with a percent cover >60% and height exceeding 2 meters. Consists of broadleaf tree communities with an annual cycle of leaf-on and leaf-off periods."],
+            "label": "Deciduous Broadleaf Forests",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_DBF"
+          },
+          "labelingDate": "2020-05-04",
+          "meanAnnualPrecip": 861.3,
+          "meanAnnualRad": 116.7,
+          "meanAnnualTemp": 10.6,
+          "stationClass": "Associated",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Multi-file zip archive with ETC raw time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/etcRawTimeSerMultiZip"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ETC Eddy Flux Raw ASCII daily archive",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcEddyFluxRawSeriesCsv"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-05-28T23:52:11.833534Z",
+    "stop": "2021-05-28T23:52:16.241855Z",
+    "submitter": {
+      "name": "Lochristi",
+      "self": {
+        "comments": ["The station Lochristi (ICOS code BE-Lcr) is located in Lochristi, Belgium, about 11 km from the city of Ghent (Province East of Flanders). The site is a short-rotation coppice plantation of poplar ( Populus spp.) with flat topography. The region is pedologically described as a sandy region. The current total area of the plantation is 11 ha and the tree density is 8000 trees ha-1 . Twelve selected poplar genotypes were planted in monoclonal blocks in 2010."],
+        "label": "BE-Lcr",
+        "uri": "http://meta.icos-cp.eu/resources/stations/ES_BE-Lcr"
+      }
+    }
+  }
+}

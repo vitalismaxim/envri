@@ -1,0 +1,378 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/ERmOAZ-uDtBSgQ3xG4M4luwJ",
+  "coverageGeo": {
+    "coordinates": [13.41897, 56.09763, 115.0],
+    "type": "Point"
+  },
+  "fileName": "SE-Htm_Fluxes_2015_CP_flag.txt",
+  "hash": "ERmOAZ-uDtBSgQ3xG4M4luwJFPgihLXhoFSokOHm4M0",
+  "parentCollections": [],
+  "pid": "11676/ERmOAZ-uDtBSgQ3xG4M4luwJ",
+  "previousVersion": ["https://meta.icos-cp.eu/objects/hmtsOMT493M6qdAs8gnkP2od", "https://meta.icos-cp.eu/objects/9zru5n-ubBZhMLKg--ZcwQSx", "https://meta.icos-cp.eu/objects/L9SOxBbW64hb9YPgipPUbD4U", "https://meta.icos-cp.eu/objects/Na1035AYpDZOkYOt0DwgVOZR", "https://meta.icos-cp.eu/objects/OnOj20DRzPQaAg71-KwJ6IgD", "https://meta.icos-cp.eu/objects/_xHgR5BIY6-D4ocz_mKzeFM0", "https://meta.icos-cp.eu/objects/aBHWK6OL43bNvWlcw3MD_tEU", "https://meta.icos-cp.eu/objects/bgbhmHcB_mJ8hDjQdO01FKyl", "https://meta.icos-cp.eu/objects/g0F_RLf_Q_5pnHKaNorLcH4y", "https://meta.icos-cp.eu/objects/gB1rRGLtj2GGGlAhay76eY4m", "https://meta.icos-cp.eu/objects/kmSfIbYxhkB_wkELI4uQAPcf", "https://meta.icos-cp.eu/objects/yBHgIebOml4CBoqqlOEkYikc", "https://meta.icos-cp.eu/objects/v7c_OJ-d06fPXanRct0Ti9XG"],
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Michal",
+      "lastName": "Heliasz",
+      "orcid": "0000-0003-2635-9604",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Michal_Heliasz"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/ERmOAZ-uDtBSgQ3xG4M4luwJ,\r\n  author={Heliasz, M.},\r\n  title={Ecosystem fluxes time series (ICOS Sweden), Hyltemossa, 2014-12-31–2015-12-31},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/ERmOAZ-uDtBSgQ3xG4M4luwJ},\r\n  publisher={ICOS Sweden},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/ERmOAZ-uDtBSgQ3xG4M4luwJ}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - Ecosystem fluxes time series (ICOS Sweden), Hyltemossa, 2014-12-31–2015-12-31\r\nID - 11676/ERmOAZ-uDtBSgQ3xG4M4luwJ\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/ERmOAZ-uDtBSgQ3xG4M4luwJ\r\nPB - ICOS Sweden\r\nAU - Heliasz, M.\r\nER - ",
+    "citationString": "Heliasz, M., Swedish National Network, 2021. Ecosystem fluxes time series (ICOS Sweden), Hyltemossa, 2014-12-31–2015-12-31, https://hdl.handle.net/11676/ERmOAZ-uDtBSgQ3xG4M4luwJ",
+    "temporalCoverageDisplay": "2014-12-31–2015-12-31"
+  },
+  "size": 3246518,
+  "specificInfo": {
+    "acquisition": {
+      "interval": {
+        "start": "2014-12-31T23:30:00Z",
+        "stop": "2015-12-31T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 115.0,
+          "geo": {
+            "coordinates": [13.41897, 56.09763, 115.0],
+            "type": "Point"
+          },
+          "label": "SE-Htm",
+          "lat": 56.09763,
+          "lon": 13.41897
+        },
+        "funding": [{
+          "awardNumber": "2015-06020",
+          "awardTitle": "National Research Infrastructure ICOS Sweden",
+          "awardUrl": "www.icos-sweden.se",
+          "funder": {
+            "org": {
+              "name": "Swedish Research Council",
+              "self": {
+                "comments": [],
+                "uri": "http://meta.icos-cp.eu/resources/organizations/Swedish%20Research%20Council"
+              }
+            }
+          },
+          "self": {
+            "comments": ["co-financed by Lund University, Gothenburg University, Swedish Polar Research Secretariat, SLU, Stockholm University and Uppsala University"],
+            "label": "National Research Infrastructure ICOS Sweden to Hyltemossa",
+            "uri": "http://meta.icos-cp.eu/resources/fundings/61_2015-06020"
+          },
+          "start": "2016-04-01",
+          "stop": "2020-12-31"
+        }, {
+          "awardNumber": "2019-00205",
+          "awardTitle": "National Research Infrastructure ICOS Sweden",
+          "awardUrl": "www.icos-sweden.se",
+          "funder": {
+            "org": {
+              "name": "Swedish Research Council",
+              "self": {
+                "comments": [],
+                "uri": "http://meta.icos-cp.eu/resources/organizations/Swedish%20Research%20Council"
+              }
+            }
+          },
+          "self": {
+            "comments": ["co-financed by Lund University, SLU, Gothenburg University, Swedish Polar Research Secretariat, Uppsala University and SMHI"],
+            "label": "National Research Infrastructure ICOS Sweden to Hyltemossa",
+            "uri": "http://meta.icos-cp.eu/resources/fundings/61_2019-00205"
+          },
+          "start": "2021-01-01",
+          "stop": "2024-12-31"
+        }],
+        "id": "SE-Htm",
+        "org": {
+          "name": "Hyltemossa",
+          "self": {
+            "comments": ["The station Hyltemossa, with ICOS code SE-Htm, is located in southern Sweden. The site is a evergreen needleleaf managed forest located in a temperate, maritime climate. The forest in the target area composed of two stands, 29 and 34 years old, and dominated by Picea abies (L.) H.Karst (Norway spruce) with a small fraction of Betula spp. (birch) and single occurrence of Pinus sylvestris L. (Scots pine). Understory vegetation is sparse. The forest floor is mainly covered by moss."],
+            "label": "SE-Htm",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_SE-Htm"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/qnPLYMGQYLJW5JR/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "climateZone": {
+            "comments": [],
+            "label": "Oceanic subtropical highland (Cfb)",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/koppen_Cfb"
+          },
+          "countryCode": "SE",
+          "documentation": [{
+            "hash": "i8S47Rr8NTJvjGZ1RjaGtuBrENeVcZ-gUxVHToAhys8",
+            "name": "SE-Htm ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/i8S47Rr8NTJvjGZ1RjaGtuBr"
+          }],
+          "ecosystemType": {
+            "comments": ["Lands dominated by woody vegetation with a percent cover >60% and height exceeding 2 meters. Almost all trees remain green all year. Canopy is never without green foliage."],
+            "label": "Evergreen Needleleaf Forests",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_ENF"
+          },
+          "labelingDate": "2018-04-19",
+          "meanAnnualPrecip": 707.0,
+          "meanAnnualRad": 110.0,
+          "meanAnnualTemp": 7.4,
+          "stationClass": "2",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, UTC",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStamp"
+        }
+      }
+    }, {
+      "label": "date",
+      "valueType": {
+        "self": {
+          "comments": ["calendar date"],
+          "label": "measurement date",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/date"
+        }
+      }
+    }, {
+      "label": "time",
+      "valueType": {
+        "self": {
+          "comments": ["measurement time of day"],
+          "label": "measurement time",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeOfDay"
+        }
+      }
+    }, {
+      "label": "H_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of energy passing through unit area during unit of time"],
+          "label": "energy flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/energyFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "sensible heat flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/sensibleHeatFlux"
+        },
+        "unit": "W m-2"
+      }
+    }, {
+      "label": "LE_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of energy passing through unit area during unit of time"],
+          "label": "energy flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/energyFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "latent heat flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/latentHeatFlux"
+        },
+        "unit": "W m-2"
+      }
+    }, {
+      "label": "Fc_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of particles passing through unit area during unit of time"],
+          "label": "particle flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/particleFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "carbon dioxide (CO2) flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/co2Flux"
+        },
+        "unit": "µmol m-2 s-1"
+      }
+    }, {
+      "label": "Ustar_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["distance per unit time"],
+          "label": "velocity",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/velocity"
+        },
+        "self": {
+          "comments": [],
+          "label": "friction velocity",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/frictionVelocity"
+        },
+        "unit": "m s-1"
+      }
+    }, {
+      "label": "WS_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["distance per unit time"],
+          "label": "velocity",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/velocity"
+        },
+        "self": {
+          "comments": [],
+          "label": "wind speed",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/windSpeed"
+        },
+        "unit": "m s-1"
+      }
+    }, {
+      "label": "WD_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["angle in the trigonometric sense"],
+          "label": "angle",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/angle"
+        },
+        "self": {
+          "comments": [],
+          "label": "wind direction",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/windDirection"
+        },
+        "unit": "°"
+      }
+    }, {
+      "label": "NEE_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of particles passing through unit area during unit of time"],
+          "label": "particle flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/particleFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "net ecosystem exchange",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/netEcosystemExchange"
+        },
+        "unit": "µmol m-2 s-1"
+      }
+    }, {
+      "label": "LE_f_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of energy passing through unit area during unit of time"],
+          "label": "energy flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/energyFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "gap-filled latent heat flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/gapFilledLatentHeatFlux"
+        },
+        "unit": "W m-2"
+      }
+    }, {
+      "label": "H_f_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of energy passing through unit area during unit of time"],
+          "label": "energy flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/energyFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "gap-filled sensible heat flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/gapFilledSensibleHeatFlux"
+        },
+        "unit": "W m-2"
+      }
+    }],
+    "nRows": 17520,
+    "productionInfo": {
+      "comment": "flux measurement height: 27m; ecosystem fluxes calculated by Eddypro 6.0, gapfilling  by REddyProc online gapfilling tool (MPI Jena, http://www.bgc-jena.mpg.de/REddyProc/brew/REddyProc.rhtml); H: sensible heat flux, LE: latent heat flux, Fc: CO2 flux (raw: fluxes without any correction during flux calculation, no post-processing QC), Ustar: friction velocity, WS: wind speed, WD: wind direction, L: Monin-Obukhov length, var_v: variance of cross-wind component; NEE: gap-filled net ecosystem exchange,LE_fgap-filled LE,H_f: gap-filled H,Reco: ecosystem respiration,GPP_f: gross primary production. Timestamp at end of the averaging interval. More information: www.icos-sweden.se",
+      "contributors": [{
+        "firstName": "Michal",
+        "lastName": "Heliasz",
+        "orcid": "0000-0003-2635-9604",
+        "self": {
+          "comments": [],
+          "uri": "http://meta.icos-cp.eu/resources/people/Michal_Heliasz"
+        }
+      }],
+      "creator": {
+        "name": "ICOS Sweden",
+        "self": {
+          "comments": [],
+          "label": "ICOS-SE",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/icosSweden"
+        }
+      },
+      "dateTime": "2021-04-16T00:00:00Z",
+      "sources": []
+    }
+  },
+  "specification": {
+    "dataLevel": 1,
+    "datasetSpec": {
+      "self": {
+        "comments": [],
+        "label": "Ecosystem fluxes time series (ICOS Sweden)",
+        "uri": "http://meta.icos-cp.eu/resources/cpmeta/ecoFluxesDataset"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Time series in ICOS Sweden format",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiEtcTimeSer"
+    },
+    "keywords": ["carbon flux"],
+    "project": {
+      "keywords": ["pre-ICOS", "Sweden"],
+      "self": {
+        "comments": ["Uploads from ICOS Sweden that do not have the official ICOS status"],
+        "label": "Swedish National Network",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos_sweden"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "Ecosystem fluxes time series (ICOS Sweden)",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/ecoFluxesDataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-04-16T13:12:20.047Z",
+    "stop": "2021-04-16T13:12:51.017Z",
+    "submitter": {
+      "name": "ICOS Sweden",
+      "self": {
+        "comments": [],
+        "label": "ICOS-SE",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/icosSweden"
+      }
+    }
+  }
+}

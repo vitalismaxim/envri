@@ -1,0 +1,161 @@
+{
+  "coverageGeo": {
+    "coordinates": [5.5036, 48.5619, 390.0],
+    "type": "Point"
+  },
+  "fileName": "OPE_728_20210305.zip",
+  "hash": "Ix4QB9bZAWCCAv2Tdd0gsnIIOkW_ACaKDiE92ALN65g",
+  "parentCollections": [],
+  "pid": "11676/Ix4QB9bZAWCCAv2Tdd0gsnII",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Michel",
+      "lastName": "Ramonet",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Michel_Ramonet"
+      }
+    }, {
+      "firstName": "Sébastien",
+      "lastName": "Conil",
+      "orcid": "0000-0001-6767-821X",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/S%C3%A9bastien_Conil"
+      }
+    }, {
+      "firstName": "Marc",
+      "lastName": "Delmotte",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Marc_Delmotte"
+      }
+    }, {
+      "firstName": "Olivier",
+      "lastName": "Laurent",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Olivier_Laurent"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/Ix4QB9bZAWCCAv2Tdd0gsnII,\r\n  author={Ramonet, M., Conil, S., Delmotte, M., Laurent, O.},\r\n  title={ICOS ATC Picarro data csv time series, Observatoire pérenne de l'environnement, 2021-03-05},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/Ix4QB9bZAWCCAv2Tdd0gsnII},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/Ix4QB9bZAWCCAv2Tdd0gsnII}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC Picarro data csv time series, Observatoire pérenne de l'environnement, 2021-03-05\r\nID - 11676/Ix4QB9bZAWCCAv2Tdd0gsnII\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/Ix4QB9bZAWCCAv2Tdd0gsnII\r\nPB - Atmosphere Thematic Centre\r\nAU - Ramonet, M.\r\nAU - Conil, S.\r\nAU - Delmotte, M.\r\nAU - Laurent, O.\r\nER - ",
+    "citationString": "Ramonet, M., Conil, S., Delmotte, M., Laurent, O., ICOS RI, 2021. ICOS ATC Picarro data csv time series, Observatoire pérenne de l'environnement, 2021-03-05, https://hdl.handle.net/11676/Ix4QB9bZAWCCAv2Tdd0gsnII",
+    "temporalCoverageDisplay": "2021-03-05"
+  },
+  "size": 9054970,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "RAMCES - G24",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_728"
+      },
+      "interval": {
+        "start": "2021-03-05T00:00:00Z",
+        "stop": "2021-03-05T23:59:59Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 390.0,
+          "geo": {
+            "coordinates": [5.5036, 48.5619, 390.0],
+            "type": "Point"
+          },
+          "label": "OPE",
+          "lat": 48.5619,
+          "lon": 5.5036
+        },
+        "id": "OPE",
+        "org": {
+          "name": "Observatoire pérenne de l'environnement",
+          "self": {
+            "comments": [],
+            "label": "OPE",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_OPE"
+          }
+        },
+        "pictures": ["https://meta.icos-cp.eu/files/2yj3jRgqBfUhewgPXIFk5pAD/OPE_station_shelters_sampling.jpg"],
+        "responsibleOrganization": {
+          "name": "Agence nationale pour la gestion des déchets radioactifs",
+          "self": {
+            "comments": [],
+            "label": "Andra",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/Andra"
+          },
+          "website": "https://www.andra.fr"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "FR",
+          "documentation": [{
+            "hash": "VriRQS496Gl2qOIDiNKRuPR5sfIN0O0zdNLozOzM_Fw",
+            "name": "Observatoire_perenne_STILT_station_characterization.pdf",
+            "res": "https://meta.icos-cp.eu/objects/VriRQS496Gl2qOIDiNKRuPR5"
+          }],
+          "labelingDate": "2017-11-17",
+          "stationClass": "1",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "ICOS ATC Raw time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ATC Picarro data csv time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcPicarroL0DataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-03-06T10:00:49.205Z",
+    "stop": "2021-03-06T10:00:52.791Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

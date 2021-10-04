@@ -1,0 +1,225 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/fftw0MW4krFwgnQh6bOCy105",
+  "coverageGeo": {
+    "coordinates": [24.1157, 67.9733, 565.0],
+    "type": "Point"
+  },
+  "fileName": "ICOS_ATC_NRT_PAL_2021-03-30_2021-03-30_12.0_485_CH4.zip",
+  "hash": "fftw0MW4krFwgnQh6bOCy105Pig1a9H7woZ19nVmeqY",
+  "parentCollections": [],
+  "pid": "11676/fftw0MW4krFwgnQh6bOCy105",
+  "references": {
+    "acknowledgements": [],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/fftw0MW4krFwgnQh6bOCy105,\r\n  title={ICOS ATC NRT CH4 data csv time series, Pallas (12.0 m), 2021-03-30},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/fftw0MW4krFwgnQh6bOCy105},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/fftw0MW4krFwgnQh6bOCy105}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC NRT CH4 data csv time series, Pallas (12.0 m), 2021-03-30\r\nID - 11676/fftw0MW4krFwgnQh6bOCy105\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/fftw0MW4krFwgnQh6bOCy105\r\nPB - Atmosphere Thematic Centre\r\nER - ",
+    "citationString": "Copernicus, 2021. ICOS ATC NRT CH4 data csv time series, Pallas (12.0 m), 2021-03-30, https://hdl.handle.net/11676/fftw0MW4krFwgnQh6bOCy105",
+    "temporalCoverageDisplay": "2021-03-30"
+  },
+  "size": 1693,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "CO2-CH4-CO-H2O Picarro Analyzer",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_485"
+      },
+      "interval": {
+        "start": "2021-03-30T00:00:00Z",
+        "stop": "2021-03-30T23:00:00Z"
+      },
+      "samplingHeight": 12.0,
+      "station": {
+        "coverage": {
+          "alt": 565.0,
+          "geo": {
+            "coordinates": [24.1157, 67.9733, 565.0],
+            "type": "Point"
+          },
+          "label": "PAL",
+          "lat": 67.9733,
+          "lon": 24.1157
+        },
+        "id": "PAL",
+        "org": {
+          "name": "Pallas",
+          "self": {
+            "comments": [],
+            "label": "PAL",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_PAL"
+          }
+        },
+        "pictures": ["https://meta.icos-cp.eu/files/UnWNQPTBonW85rP3RVTiNMBb/Pallas_Sammaltunturi_station.jpg"],
+        "responsibleOrganization": {
+          "name": "Finnish Meteorological Institute",
+          "self": {
+            "comments": [],
+            "label": "FMI",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/FMI"
+          },
+          "website": "https://en.ilmatieteenlaitos.fi/greenhouse-gases"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "FI",
+          "documentation": [{
+            "hash": "YbXywVX4KacGmWLSZe5jyAUSQURX0MHE7Kcboh7zL3E",
+            "name": "Pallas_STILT_station_characterization.pdf",
+            "res": "https://meta.icos-cp.eu/objects/YbXywVX4KacGmWLSZe5jyAUS"
+          }],
+          "labelingDate": "2018-11-30",
+          "stationClass": "1",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 2
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, UTC",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStamp"
+        }
+      }
+    }, {
+      "label": "Flag",
+      "valueType": {
+        "self": {
+          "comments": ["single-letter quality flag"],
+          "label": "quality flag",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/oneLetterFlag"
+        }
+      }
+    }, {
+      "label": "NbPoints",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["integer number"],
+          "label": "number",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/number"
+        },
+        "self": {
+          "comments": [],
+          "label": "number of points",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/npoints"
+        }
+      }
+    }, {
+      "label": "ch4",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "CH4 mixing ratio (dry mole fraction)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/ch4MixingRatioPpb"
+        },
+        "unit": "nmol mol-1"
+      }
+    }, {
+      "label": "Stdev",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "standard deviation of gas mole fraction",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/moleFractionSdPpb"
+        },
+        "unit": "nmol mol-1"
+      }
+    }],
+    "nRows": 24,
+    "productionInfo": {
+      "contributors": [],
+      "creator": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "dateTime": "2021-03-31T05:19:22Z",
+      "host": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "sources": []
+    }
+  },
+  "specification": {
+    "dataLevel": 1,
+    "datasetSpec": {
+      "self": {
+        "comments": [],
+        "label": "Atmospheric CH4 mole fraction time series",
+        "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcCh4MoleFracTimeSer"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": ["Semicolon-separated ASCII, with #-prefixed multi-line header"],
+      "label": "ICOS ATC time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcProductTimeSer"
+    },
+    "keywords": ["CH4", "concentration"],
+    "project": {
+      "self": {
+        "comments": ["European Union's Earth Observation Programme"],
+        "label": "Copernicus",
+        "uri": "http://meta.icos-cp.eu/resources/projects/copernicus"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ATC NRT CH4 data csv time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcCh4NrtDataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-03-31T05:19:22.864Z",
+    "stop": "2021-03-31T05:19:25.699Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

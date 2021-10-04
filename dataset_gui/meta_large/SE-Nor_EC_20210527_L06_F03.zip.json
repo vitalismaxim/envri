@@ -1,0 +1,224 @@
+{
+  "coverageGeo": {
+    "coordinates": [-3.24315, 55.79232, 266.0],
+    "type": "Point"
+  },
+  "fileName": "UK-AMo_EC_20210527_L01_F01.zip",
+  "hash": "h584cylK1Ky6yzK49B3y8uAccqh5HElv4y9k6ex0-gY",
+  "parentCollections": [],
+  "pid": "11676/h584cylK1Ky6yzK49B3y8uAc",
+  "references": {
+    "acknowledgements": ["Work was funded by grant UK-SCAPE (National capability (NC) funding) from Natural Environmental Research Council (NERC)"],
+    "authors": [{
+      "firstName": "Eiko",
+      "lastName": "Nemitz",
+      "orcid": "0000-0002-1765-6298",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Eiko_Nemitz"
+      }
+    }, {
+      "firstName": "Mhairi",
+      "lastName": "Coyle",
+      "orcid": "0000-0002-9440-6524",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Mhairi_Coyle"
+      }
+    }, {
+      "firstName": "Duncan",
+      "lastName": "Harvey",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Duncan_Harvey"
+      }
+    }, {
+      "firstName": "Carole",
+      "lastName": "Helfter",
+      "orcid": "0000-0001-5773-4652",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Carole_Helfter"
+      }
+    }, {
+      "firstName": "Matthew",
+      "lastName": "Jones",
+      "orcid": "0000-0002-2006-8809",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Matthew_Jones"
+      }
+    }, {
+      "firstName": "Sarah",
+      "lastName": "Leeson",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Sarah_Leeson"
+      }
+    }, {
+      "firstName": "Peter",
+      "lastName": "Levy",
+      "orcid": "0000-0002-8505-1901",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Peter_Levy"
+      }
+    }, {
+      "firstName": "Neil",
+      "lastName": "Mullinger",
+      "orcid": "0000-0002-3148-6950",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Neil_Mullinger"
+      }
+    }, {
+      "firstName": "Netty",
+      "lastName": "van Dijk",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Netty_van%20Dijk"
+      }
+    }, {
+      "firstName": "Karen",
+      "lastName": "Yeung",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Karen_Yeung"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/h584cylK1Ky6yzK49B3y8uAc,\r\n  author={Nemitz, E., Coyle, M., Harvey, D., Helfter, C., Jones, M., Leeson, S., Levy, P., Mullinger, N., van Dijk, N., Yeung, K.},\r\n  title={ICOS ETC Eddy Flux Raw ASCII daily archive, Auchencorth Moss, 2021-05-27},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/h584cylK1Ky6yzK49B3y8uAc},\r\n  publisher={Auchencorth Moss},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/h584cylK1Ky6yzK49B3y8uAc}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ETC Eddy Flux Raw ASCII daily archive, Auchencorth Moss, 2021-05-27\r\nID - 11676/h584cylK1Ky6yzK49B3y8uAc\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/h584cylK1Ky6yzK49B3y8uAc\r\nPB - Auchencorth Moss\r\nAU - Nemitz, E.\r\nAU - Coyle, M.\r\nAU - Harvey, D.\r\nAU - Helfter, C.\r\nAU - Jones, M.\r\nAU - Leeson, S.\r\nAU - Levy, P.\r\nAU - Mullinger, N.\r\nAU - van Dijk, N.\r\nAU - Yeung, K.\r\nER - ",
+    "citationString": "Nemitz, E., Coyle, M., Harvey, D., Helfter, C., Jones, M., Leeson, S., Levy, P., Mullinger, N., van Dijk, N., Yeung, K., ICOS RI, 2021. ICOS ETC Eddy Flux Raw ASCII daily archive, Auchencorth Moss, 2021-05-27, https://hdl.handle.net/11676/h584cylK1Ky6yzK49B3y8uAc",
+    "temporalCoverageDisplay": "2021-05-27"
+  },
+  "size": 46963763,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "DL-LI-COR SFlux2",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ETC_74_1"
+      },
+      "interval": {
+        "start": "2021-05-27T00:00:00Z",
+        "stop": "2021-05-28T00:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 266.0,
+          "geo": {
+            "coordinates": [-3.24315, 55.79232, 266.0],
+            "type": "Point"
+          },
+          "label": "UK-AMo",
+          "lat": 55.79232,
+          "lon": -3.24315
+        },
+        "funding": [{
+          "awardNumber": "National capability (NC) funding",
+          "awardTitle": "UK-SCAPE",
+          "funder": {
+            "org": {
+              "name": "Natural Environmental Research Council (NERC)",
+              "self": {
+                "comments": [],
+                "uri": "http://meta.icos-cp.eu/resources/organizations/Natural%20Environmental%20Research%20Council%20(NERC)"
+              }
+            }
+          },
+          "self": {
+            "comments": ["Funding award extended"],
+            "label": "UK-SCAPE to Auchencorth Moss",
+            "uri": "http://meta.icos-cp.eu/resources/fundings/74_National%20capability%20(NC)%20funding"
+          },
+          "start": "2018-04-01",
+          "stop": "2023-03-01"
+        }],
+        "id": "UK-AMo",
+        "org": {
+          "name": "Auchencorth Moss",
+          "self": {
+            "comments": [],
+            "label": "UK-AMo",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_UK-AMo"
+          }
+        },
+        "pictures": [],
+        "specificInfo": {
+          "_type": "etc",
+          "countryCode": "GB",
+          "documentation": [],
+          "ecosystemType": {
+            "comments": ["Lands with a permanent mixture of water and herbaceous or woody vegetation that cover extensive areas. The vegetation can be present in either salt, brackish, or fresh water."],
+            "label": "Permanent Wetlands",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_WET"
+          },
+          "meanAnnualPrecip": 960.0,
+          "meanAnnualRad": 89.79,
+          "meanAnnualTemp": 7.6,
+          "stationClass": "1",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 0
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Multi-file zip archive with ETC raw time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/etcRawTimeSerMultiZip"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ETC Eddy Flux Raw ASCII daily archive",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcEddyFluxRawSeriesCsv"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-05-28T04:00:20.729Z",
+    "stop": "2021-05-28T04:00:25.989Z",
+    "submitter": {
+      "name": "Auchencorth Moss",
+      "self": {
+        "comments": [],
+        "label": "UK-AMo",
+        "uri": "http://meta.icos-cp.eu/resources/stations/ES_UK-AMo"
+      }
+    }
+  }
+}

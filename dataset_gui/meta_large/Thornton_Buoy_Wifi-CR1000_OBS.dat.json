@@ -1,0 +1,932 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/1Mr0pKFtpDMP8pPymKfXMnCQ",
+  "doi": "10.18160/DVGH-1M3D",
+  "fileName": "SD1030_20191017_for SOCAT.csv",
+  "hash": "1Mr0pKFtpDMP8pPymKfXMnCQrtM_5oLvJr0MeTKVVjg",
+  "parentCollections": [],
+  "pid": "11676/1Mr0pKFtpDMP8pPymKfXMnCQ",
+  "references": {
+    "acknowledgements": [],
+    "citationBibTex": "@misc{https://doi.org/10.18160/dvgh-1m3d,\n  doi = {10.18160/DVGH-1M3D},\n  url = {https://meta.icos-cp.eu/objects/1Mr0pKFtpDMP8pPymKfXMnCQ},\n  author = {Skjelvan, Ingunn and Fiedler, Björn and Pfeil, Benjamin and Jones, Steve},\n  title = {Underway physical oceanography and carbon dioxide measurements from SailDrone 1030 during the ALT2MED mission},\n  publisher = {ICOS RI},\n  year = {2021}\n}",
+    "citationRis": "TY  - DATA\r\nT1  - Underway physical oceanography and carbon dioxide measurements from SailDrone 1030 during the ALT2MED mission\r\nAU  - Skjelvan, Ingunn\r\nAU  - Fiedler, Björn\r\nAU  - Pfeil, Benjamin\r\nAU  - Jones, Steve\r\nDO  - 10.18160/DVGH-1M3D\r\nUR  - https://meta.icos-cp.eu/objects/1Mr0pKFtpDMP8pPymKfXMnCQ\r\nPY  - 2021\r\nPB  - ICOS RI\r\nER  -",
+    "citationString": "Skjelvan, I., Fiedler, B., Pfeil, B., & Jones, S. (2021). Underway physical oceanography and carbon dioxide measurements from SailDrone 1030 during the ALT2MED mission [Data set]. ICOS RI. https://doi.org/10.18160/DVGH-1M3D",
+    "temporalCoverageDisplay": "2019-10-18–2020-07-17"
+  },
+  "size": 803083,
+  "specificInfo": {
+    "acquisition": {
+      "interval": {
+        "start": "2019-10-18T11:17:00Z",
+        "stop": "2020-07-17T13:17:00Z"
+      },
+      "station": {
+        "id": "SD1030",
+        "org": {
+          "name": "SailDrone 1030",
+          "self": {
+            "comments": [],
+            "uri": "http://meta.icos-cp.eu/resources/stations/SAILDRONE_SD1030"
+          }
+        },
+        "pictures": [],
+        "specificInfo": {
+
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, UTC",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStamp"
+        }
+      }
+    }, {
+      "label": "Longitude",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["angle in the trigonometric sense"],
+          "label": "angle",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/angle"
+        },
+        "self": {
+          "comments": ["WGS84 longitude"],
+          "label": "longitude",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/longitude"
+        },
+        "unit": "°"
+      }
+    }, {
+      "label": "Latitude",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["angle in the trigonometric sense"],
+          "label": "angle",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/angle"
+        },
+        "self": {
+          "comments": ["WGS84 latitude"],
+          "label": "latitude",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/latitude"
+        },
+        "unit": "°"
+      }
+    }, {
+      "label": "Temp [degC]",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["physical temperature"],
+          "label": "temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "water temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/waterTempCelcius"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "Temp [degC] QC Flag",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "P_sal [psu]",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": ["practical salinity of the water body"],
+          "label": "practical salinity",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/salinity"
+        },
+        "unit": "psu"
+      }
+    }, {
+      "label": "P_sal [psu] QC Flag",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "Atmospheric Pressure [hPa]",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["mechanical pressure, e.g. atmospheric or gas pressure"],
+          "label": "pressure",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/pressure"
+        },
+        "self": {
+          "comments": [],
+          "label": "air pressure",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/airPressure"
+        },
+        "unit": "hPa"
+      }
+    }, {
+      "label": "Atmospheric Pressure [hPa] QC Flag",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "pCO2 [uatm]",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["mechanical pressure, e.g. atmospheric or gas pressure"],
+          "label": "pressure",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/pressure"
+        },
+        "self": {
+          "comments": ["CO2 partial pressure in water body at sea surface temperature"],
+          "label": "CO2 partial pressure (water), SST",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/co2PartPressWaterSST"
+        },
+        "unit": "µatm"
+      }
+    }, {
+      "label": "pCO2 [uatm] QC Flag",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "pCO2 in atmosphere [uatm]",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["mechanical pressure, e.g. atmospheric or gas pressure"],
+          "label": "pressure",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/pressure"
+        },
+        "self": {
+          "comments": [],
+          "label": "CO2 partial pressure (air)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/co2PartPressAir"
+        },
+        "unit": "µatm"
+      }
+    }, {
+      "label": "pCO2 in atmosphere [uatm] QC Flag",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "fCO2 [uatm]",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["mechanical pressure, e.g. atmospheric or gas pressure"],
+          "label": "pressure",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/pressure"
+        },
+        "self": {
+          "comments": ["Fugacity of carbon dioxide (water) at sea surface temperature (wet air)"],
+          "label": "CO2 fugacity (water), SST",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/co2FugacityWater"
+        },
+        "unit": "µatm"
+      }
+    }, {
+      "label": "fCO2 [uatm] QC Flag",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "fCO2 in atmosphere [uatm]",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["mechanical pressure, e.g. atmospheric or gas pressure"],
+          "label": "pressure",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/pressure"
+        },
+        "self": {
+          "comments": [],
+          "label": "CO2 fugacity (air)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/co2FugacityAir"
+        },
+        "unit": "µatm"
+      }
+    }, {
+      "label": "fCO2 in atmosphere [uatm] QC Flag",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }],
+    "nRows": 5783,
+    "productionInfo": {
+      "contributors": [],
+      "creator": {
+        "firstName": "Ingunn",
+        "lastName": "Skjelvan",
+        "orcid": "0000-0001-6761-5016",
+        "self": {
+          "comments": [],
+          "uri": "http://meta.icos-cp.eu/resources/people/Ingunn_Skjelvan"
+        }
+      },
+      "dateTime": "2021-01-22T15:08:00Z",
+      "sources": [{
+        "comments": [],
+        "label": "1030_20191017T160000-20191024T160000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/Y4_GyadmLOeSXssXkk5U-id2"
+      }, {
+        "comments": [],
+        "label": "1030_20191024T160100-20191031T160000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/78SjrxSGbUCFsLs8lleqxVKT"
+      }, {
+        "comments": [],
+        "label": "1030_20191031T160100-20191107T160000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/R0-nSoVCvXEM4yIS6Zih3Wds"
+      }, {
+        "comments": [],
+        "label": "1030_20191107T160100-20191114T160000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/BBB1OgvQXNQeEmNXWC2tr4xf"
+      }, {
+        "comments": [],
+        "label": "1030_20191114T160100-20191121T160000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/CT_7spJXG4FO_nsSEQsF3l6S"
+      }, {
+        "comments": [],
+        "label": "1030_20191121T160100-20191128T160000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/hw5QsjfcU6wQazNAXv2KXzJc"
+      }, {
+        "comments": [],
+        "label": "1030_20191128T160100-20191205T160000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/XnXt07XrtkQIbtS_cHPIzpBE"
+      }, {
+        "comments": [],
+        "label": "1030_20191205T160100-20191212T160000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/zPeyr53cUGSM9oX2480HdovT"
+      }, {
+        "comments": [],
+        "label": "1030_20191212T160100-20191219T160000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/pzuhX7DU3X9gZ1uKq78e5hqX"
+      }, {
+        "comments": [],
+        "label": "1030_20191219T160100-20191226T160000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/XEIil2G7--81ETOIRBrEggva"
+      }, {
+        "comments": [],
+        "label": "1030_20191226T160100-20200102T160000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/kpkQGemYEY34Yo7FguuORgSF"
+      }, {
+        "comments": [],
+        "label": "1030_20200102T160100-20200109T160000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/qKsEfoYxXAZ1Wcep-Webhzdv"
+      }, {
+        "comments": [],
+        "label": "1030_20200109T160100-20200116T160000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/bzc-Rcw_npgPpP-swcA5BXUj"
+      }, {
+        "comments": [],
+        "label": "1030_20200116T160100-20200123T160000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/rGSVW5m8oYN5Afz2xkybZcVB"
+      }, {
+        "comments": [],
+        "label": "1030_20200123T160100-20200130T160000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/bEQaRwyncLwYAP2HegAeq6hn"
+      }, {
+        "comments": [],
+        "label": "1030_20200130T160100-20200206T160000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/YPPTPgN4vEFOfMnF4ZIlCwu3"
+      }, {
+        "comments": [],
+        "label": "1030_20200206T160100-20200213T160000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/67kBEWYqt__vfkesZEuI6T6U"
+      }, {
+        "comments": [],
+        "label": "1030_20200213T160100-20200220T160100.csv",
+        "uri": "https://meta.icos-cp.eu/objects/PIyfv3a1qMkj3CQcqSJRl4YW"
+      }, {
+        "comments": [],
+        "label": "1030_20200220T160200-20200227T160200.csv",
+        "uri": "https://meta.icos-cp.eu/objects/n_Gzj1oUajRazYIHLgxpWU8I"
+      }, {
+        "comments": [],
+        "label": "1030_20200227T160300-20200305T160300.csv",
+        "uri": "https://meta.icos-cp.eu/objects/0-dlDtie0Ovjj63UlxsYcv3i"
+      }, {
+        "comments": [],
+        "label": "1030_20200305T160400-20200308T160400.csv",
+        "uri": "https://meta.icos-cp.eu/objects/PDeAdeJPQR0wxZl5m9OoQUBk"
+      }, {
+        "comments": [],
+        "label": "1030_20200308T160500-20200309T155500.csv",
+        "uri": "https://meta.icos-cp.eu/objects/PDt9VqM0lqXqELnYL1sNc8o0"
+      }, {
+        "comments": [],
+        "label": "1030_20200310T155600-20200311T155500.csv",
+        "uri": "https://meta.icos-cp.eu/objects/AHkR-zVHqItLgmerQvqPd4l_"
+      }, {
+        "comments": [],
+        "label": "1030_20200311T155600-20200312T155500.csv",
+        "uri": "https://meta.icos-cp.eu/objects/t-A0x8y6SbFBNPIKXEceSllR"
+      }, {
+        "comments": [],
+        "label": "1030_20200312T155600-20200313T155600.csv",
+        "uri": "https://meta.icos-cp.eu/objects/D-z5IPdcBxawNK3FHQC3OANV"
+      }, {
+        "comments": [],
+        "label": "1030_20200313T155700-20200314T155600.csv",
+        "uri": "https://meta.icos-cp.eu/objects/gy3Mxmn4hOLxz0DQ4n41Vg6F"
+      }, {
+        "comments": [],
+        "label": "1030_20200314T155700-20200315T155600.csv",
+        "uri": "https://meta.icos-cp.eu/objects/zZDSS7NSZRzDiwSY1qMi4HT1"
+      }, {
+        "comments": [],
+        "label": "1030_20200315T155700-20200316T155600.csv",
+        "uri": "https://meta.icos-cp.eu/objects/Xpx_O0a2YHsx2fXcCNR7_UQj"
+      }, {
+        "comments": [],
+        "label": "1030_20200324T154300-20200325T154300.csv",
+        "uri": "https://meta.icos-cp.eu/objects/1AjToUHis61UJio9j3Iev1AE"
+      }, {
+        "comments": [],
+        "label": "1030_20200325T154400-20200326T154400.csv",
+        "uri": "https://meta.icos-cp.eu/objects/pdSaNJVYPFfW_pHqd1W_w6MD"
+      }, {
+        "comments": [],
+        "label": "1030_20200326T154500-20200327T154500.csv",
+        "uri": "https://meta.icos-cp.eu/objects/mah5huX4MB3Pn7QDl1LsQWWl"
+      }, {
+        "comments": [],
+        "label": "1030_20200327T154600-20200328T154600.csv",
+        "uri": "https://meta.icos-cp.eu/objects/TdswkyKjzv95o_w5Tb8_iCna"
+      }, {
+        "comments": [],
+        "label": "1030_20200328T154700-20200329T154700.csv",
+        "uri": "https://meta.icos-cp.eu/objects/yEF7JPekT_5w2oNZusCmbPv2"
+      }, {
+        "comments": [],
+        "label": "1030_20200329T154800-20200330T154800.csv",
+        "uri": "https://meta.icos-cp.eu/objects/0WBmkHy4eijwTcqmocDA1CBG"
+      }, {
+        "comments": [],
+        "label": "1030_20200330T154900-20200331T154900.csv",
+        "uri": "https://meta.icos-cp.eu/objects/10BVAC1-2kxAvDul79ESJGzN"
+      }, {
+        "comments": [],
+        "label": "1030_20200331T155000-20200401T155000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/yKRPUxCCGuTmCnrqLtM2hBLM"
+      }, {
+        "comments": [],
+        "label": "1030_20200401T155100-20200402T155100.csv",
+        "uri": "https://meta.icos-cp.eu/objects/j0yu53t6z7Vl4j5CmJF1Pukr"
+      }, {
+        "comments": [],
+        "label": "1030_20200402T155200-20200403T155200.csv",
+        "uri": "https://meta.icos-cp.eu/objects/zhhQAIk8EdpHW7zVMExrZkw0"
+      }, {
+        "comments": [],
+        "label": "1030_20200403T155300-20200404T155300.csv",
+        "uri": "https://meta.icos-cp.eu/objects/h-QEPVWammv01sQQCutaOrrT"
+      }, {
+        "comments": [],
+        "label": "1030_20200404T155400-20200405T155400.csv",
+        "uri": "https://meta.icos-cp.eu/objects/3uQYJ44dhS6xdajprMqRgmEU"
+      }, {
+        "comments": [],
+        "label": "1030_20200405T155500-20200406T155500.csv",
+        "uri": "https://meta.icos-cp.eu/objects/xXerFTiuuq3YU5MBh-JQ49KN"
+      }, {
+        "comments": [],
+        "label": "1030_20200406T155600-20200407T155600.csv",
+        "uri": "https://meta.icos-cp.eu/objects/p3oQAC5rWsKpzCVyMjJpLtYi"
+      }, {
+        "comments": [],
+        "label": "1030_20200407T155700-20200408T155700.csv",
+        "uri": "https://meta.icos-cp.eu/objects/XNw-yYohVl2KWkbsaAOWDw2P"
+      }, {
+        "comments": [],
+        "label": "1030_20200408T155800-20200409T155800.csv",
+        "uri": "https://meta.icos-cp.eu/objects/wTyocZah92DBlWJjCCIWQcdl"
+      }, {
+        "comments": [],
+        "label": "1030_20200409T155900-20200410T155900.csv",
+        "uri": "https://meta.icos-cp.eu/objects/V95fxqeELmMGA0e5YmJhobKt"
+      }, {
+        "comments": [],
+        "label": "1030_20200410T160000-20200411T160000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/1Tko5pAtesqdWRGBCfAfIOwT"
+      }, {
+        "comments": [],
+        "label": "1030_20200411T160100-20200412T160100.csv",
+        "uri": "https://meta.icos-cp.eu/objects/ejiSObn-J2rZsU_l5UX7mrWO"
+      }, {
+        "comments": [],
+        "label": "1030_20200412T160200-20200413T160200.csv",
+        "uri": "https://meta.icos-cp.eu/objects/EqCl9td-ZnXHNJi9PB-t_Hk8"
+      }, {
+        "comments": [],
+        "label": "1030_20200413T160300-20200414T160300.csv",
+        "uri": "https://meta.icos-cp.eu/objects/kQC_f1ChbV4zbJ7fyoIQXlf3"
+      }, {
+        "comments": [],
+        "label": "1030_20200414T160400-20200415T160400.csv",
+        "uri": "https://meta.icos-cp.eu/objects/MAv_rM_YCRXgcOGIAxYEm0WI"
+      }, {
+        "comments": [],
+        "label": "1030_20200415T160500-20200416T160500.csv",
+        "uri": "https://meta.icos-cp.eu/objects/_XNycETmSX44iKfmT4zhqoGE"
+      }, {
+        "comments": [],
+        "label": "1030_20200416T160600-20200417T160600.csv",
+        "uri": "https://meta.icos-cp.eu/objects/n6nfnllbx3Jm-lwAv0P6p5T4"
+      }, {
+        "comments": [],
+        "label": "1030_20200417T160700-20200418T160700.csv",
+        "uri": "https://meta.icos-cp.eu/objects/ecsECzX2C4qRW93r60FcKgZM"
+      }, {
+        "comments": [],
+        "label": "1030_20200418T160800-20200419T160800.csv",
+        "uri": "https://meta.icos-cp.eu/objects/JVjz50hp3BNWi9kyfINXDH6J"
+      }, {
+        "comments": [],
+        "label": "1030_20200419T160900-20200420T160900.csv",
+        "uri": "https://meta.icos-cp.eu/objects/7PxC34f19NK9imTMyfv51jJr"
+      }, {
+        "comments": [],
+        "label": "1030_20200420T161000-20200421T161000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/yL4sYGaoFkMN278CQJS5LOqI"
+      }, {
+        "comments": [],
+        "label": "1030_20200421T161100-20200422T155600.csv",
+        "uri": "https://meta.icos-cp.eu/objects/eUptzc3C3nd9El6-zbcn1Ggg"
+      }, {
+        "comments": [],
+        "label": "1030_20200422T155700-20200423T151700.csv",
+        "uri": "https://meta.icos-cp.eu/objects/Aggtxg6FPQyEodrL4WF6bDm9"
+      }, {
+        "comments": [],
+        "label": "1030_20200423T151800-20200424T151800.csv",
+        "uri": "https://meta.icos-cp.eu/objects/LJPE_DQeZxPoAZNSFHOChx6u"
+      }, {
+        "comments": [],
+        "label": "1030_20200424T151900-20200425T151900.csv",
+        "uri": "https://meta.icos-cp.eu/objects/7SntlgNVE5NNB98wIA_958dd"
+      }, {
+        "comments": [],
+        "label": "1030_20200425T152000-20200426T152000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/QvM7KRFkOpFVlLfPUsN0jdLK"
+      }, {
+        "comments": [],
+        "label": "1030_20200426T152100-20200427T152100.csv",
+        "uri": "https://meta.icos-cp.eu/objects/FJMldrU0NZHItQkTDwcGk_7g"
+      }, {
+        "comments": [],
+        "label": "1030_20200427T152200-20200428T152200.csv",
+        "uri": "https://meta.icos-cp.eu/objects/pAyPTIogOxx8uVwwD--nNP6z"
+      }, {
+        "comments": [],
+        "label": "1030_20200428T152300-20200429T152300.csv",
+        "uri": "https://meta.icos-cp.eu/objects/beRNsGq7bJzC1Uci58_UOXNl"
+      }, {
+        "comments": [],
+        "label": "1030_20200429T152400-20200430T152400.csv",
+        "uri": "https://meta.icos-cp.eu/objects/Vc5mvGlkxVCIRIZqpCW1KPda"
+      }, {
+        "comments": [],
+        "label": "1030_20200430T152500-20200501T152500.csv",
+        "uri": "https://meta.icos-cp.eu/objects/75DpBQntluYIjzI0kYQYAGzC"
+      }, {
+        "comments": [],
+        "label": "1030_20200501T152600-20200502T152600.csv",
+        "uri": "https://meta.icos-cp.eu/objects/B8QvEz7Dyndg65CWOrMlatzF"
+      }, {
+        "comments": [],
+        "label": "1030_20200502T152700-20200503T152700.csv",
+        "uri": "https://meta.icos-cp.eu/objects/vHKQezq-1W_U-LLQLOgbhkyO"
+      }, {
+        "comments": [],
+        "label": "1030_20200503T152800-20200504T152800.csv",
+        "uri": "https://meta.icos-cp.eu/objects/wVdqVfVmxQgAXrQT-mRxk-Zu"
+      }, {
+        "comments": [],
+        "label": "1030_20200504T152900-20200505T152900.csv",
+        "uri": "https://meta.icos-cp.eu/objects/6qooOY4FnZ8PN_NGSqWa8vzm"
+      }, {
+        "comments": [],
+        "label": "1030_20200505T153000-20200506T153000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/dnF-0AJZcmOQZPCQ3ebg0kAU"
+      }, {
+        "comments": [],
+        "label": "1030_20200506T153100-20200507T153100.csv",
+        "uri": "https://meta.icos-cp.eu/objects/PMQafNd4L88sATKfsczbAkxL"
+      }, {
+        "comments": [],
+        "label": "1030_20200507T153200-20200508T113800.csv",
+        "uri": "https://meta.icos-cp.eu/objects/V1Q1vYUe_oZojHQZBRU37GXT"
+      }, {
+        "comments": [],
+        "label": "1030_20200508T113900-20200508T133800.csv",
+        "uri": "https://meta.icos-cp.eu/objects/E0Zq0gWlS-2PIl1NJ5zp_VOW"
+      }, {
+        "comments": [],
+        "label": "1030_20200508T133900-20200509T033900.csv",
+        "uri": "https://meta.icos-cp.eu/objects/NJ7-eAbbeLCSHHTY9AmZeR8b"
+      }, {
+        "comments": [],
+        "label": "1030_20200509T034000-20200510T053900.csv",
+        "uri": "https://meta.icos-cp.eu/objects/mfbIwCst0V6AeL4jZiUU9aGU"
+      }, {
+        "comments": [],
+        "label": "1030_20200510T054000-20200511T070900.csv",
+        "uri": "https://meta.icos-cp.eu/objects/LoOg9k461nugWNcMgQkZ393T"
+      }, {
+        "comments": [],
+        "label": "1030_20200511T071000-20200511T213900.csv",
+        "uri": "https://meta.icos-cp.eu/objects/CeJRcmqbChzNqODArsOTY3np"
+      }, {
+        "comments": [],
+        "label": "1030_20200511T214000-20200512T213900.csv",
+        "uri": "https://meta.icos-cp.eu/objects/-ZWqJ4OZ-Wcd_YE0G6ppaGMl"
+      }, {
+        "comments": [],
+        "label": "1030_20200512T214000-20200513T220000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/__I_xV0zNWMKVcvfr1geLKs1"
+      }, {
+        "comments": [],
+        "label": "1030_20200513T220100-20200514T213900.csv",
+        "uri": "https://meta.icos-cp.eu/objects/wcRebyDhBXM5-pjurZIO6d7w"
+      }, {
+        "comments": [],
+        "label": "1030_20200514T214000-20200515T213900.csv",
+        "uri": "https://meta.icos-cp.eu/objects/iiqLm-gKsfZCiF9U0uUXD0FV"
+      }, {
+        "comments": [],
+        "label": "1030_20200515T214000-20200516T213900.csv",
+        "uri": "https://meta.icos-cp.eu/objects/OL08i-0amUyp2KJxqTMuqznO"
+      }, {
+        "comments": [],
+        "label": "1030_20200516T214000-20200517T213900.csv",
+        "uri": "https://meta.icos-cp.eu/objects/nqL4EjXi-kbJaOkeoDkU1-yf"
+      }, {
+        "comments": [],
+        "label": "1030_20200517T214000-20200518T215600.csv",
+        "uri": "https://meta.icos-cp.eu/objects/L1E8CjVOgRDxbHTGm7Cxfi6T"
+      }, {
+        "comments": [],
+        "label": "1030_20200518T215700-20200519T215600.csv",
+        "uri": "https://meta.icos-cp.eu/objects/fBoh8PZ-_VQ7DXEcHB5vmgl0"
+      }, {
+        "comments": [],
+        "label": "1030_20200519T215700-20200520T215600.csv",
+        "uri": "https://meta.icos-cp.eu/objects/Ru-_3lJNZG3izEmCzEiVcsnu"
+      }, {
+        "comments": [],
+        "label": "1030_20200520T215700-20200521T215600.csv",
+        "uri": "https://meta.icos-cp.eu/objects/134DeyWvkbnZffWicStjIcuu"
+      }, {
+        "comments": [],
+        "label": "1030_20200521T215700-20200522T102600.csv",
+        "uri": "https://meta.icos-cp.eu/objects/eHh9vIQTjNPTShQCXN0lauv-"
+      }, {
+        "comments": [],
+        "label": "1030_20200522T102700-20200524T102700.csv",
+        "uri": "https://meta.icos-cp.eu/objects/O-VSXuvKLgjgn8guLeEv3-UR"
+      }, {
+        "comments": [],
+        "label": "1030_20200524T102800-20200526T095600.csv",
+        "uri": "https://meta.icos-cp.eu/objects/O0EXHwT7_1z1WRbuLBphJ8qZ"
+      }, {
+        "comments": [],
+        "label": "1030_20200526T095700-20200526T215600.csv",
+        "uri": "https://meta.icos-cp.eu/objects/2Jo1xShyvz2p6Uq0HwFok7xD"
+      }, {
+        "comments": [],
+        "label": "1030_20200526T215700-20200527T215600.csv",
+        "uri": "https://meta.icos-cp.eu/objects/FS6ZlI0gPy_TIhOxCVF80EGg"
+      }, {
+        "comments": [],
+        "label": "1030_20200527T215700-20200528T220000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/-0ldTfrbfT8iMZWZRPWX2oNt"
+      }, {
+        "comments": [],
+        "label": "1030_20200528T220100-20200529T220000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/L0QJQq-6YQagEck312ZpvUpe"
+      }, {
+        "comments": [],
+        "label": "1030_20200529T220100-20200530T215600.csv",
+        "uri": "https://meta.icos-cp.eu/objects/HUBctb8PdnxJ8ASVy0oaL-xM"
+      }, {
+        "comments": [],
+        "label": "1030_20200530T215700-20200531T215600.csv",
+        "uri": "https://meta.icos-cp.eu/objects/1pIgaFxE_Ne11WbIxiRCuEm5"
+      }, {
+        "comments": [],
+        "label": "1030_20200531T215700-20200601T215700.csv",
+        "uri": "https://meta.icos-cp.eu/objects/nq2KQBtIz8opb1VmnNlFxJ79"
+      }, {
+        "comments": [],
+        "label": "1030_20200601T215800-20200602T220000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/GBIlEs0k4CfTau8ee5zejGfn"
+      }, {
+        "comments": [],
+        "label": "1030_20200602T220100-20200603T215700.csv",
+        "uri": "https://meta.icos-cp.eu/objects/vRaJGM1MBAfp1x9Ib4KMVDIy"
+      }, {
+        "comments": [],
+        "label": "1030_20200603T215800-20200604T065700.csv",
+        "uri": "https://meta.icos-cp.eu/objects/sphWse2JKyNPi4RR9zeTx5lu"
+      }, {
+        "comments": [],
+        "label": "1030_20200604T065800-20200604T082700.csv",
+        "uri": "https://meta.icos-cp.eu/objects/-4k0oR8rz8QXVJOdxizDxI6N"
+      }, {
+        "comments": [],
+        "label": "1030_20200604T082800-20200604T090000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/0-P_84KoReDVxVnw9P8M7-js"
+      }, {
+        "comments": [],
+        "label": "1030_20200604T090100-20200604T102700.csv",
+        "uri": "https://meta.icos-cp.eu/objects/TsPXLuE8IkJth-ZvB1Qn9lWT"
+      }, {
+        "comments": [],
+        "label": "1030_20200604T102800-20200604T105700.csv",
+        "uri": "https://meta.icos-cp.eu/objects/uahkurg0CSIYF0GDIhS5GeJO"
+      }, {
+        "comments": [],
+        "label": "1030_20200604T105800-20200604T112700.csv",
+        "uri": "https://meta.icos-cp.eu/objects/H9G2gWXZW2SiksLKIXa5vkUA"
+      }, {
+        "comments": [],
+        "label": "1030_20200604T112800-20200604T125700.csv",
+        "uri": "https://meta.icos-cp.eu/objects/i_qGT5GIaaMq6PoOKFuahF4q"
+      }, {
+        "comments": [],
+        "label": "1030_20200604T125800-20200604T160000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/VyZ2QDPKBupCWR3ioAxtSJBg"
+      }, {
+        "comments": [],
+        "label": "1030_20200604T160100-20200604T162700.csv",
+        "uri": "https://meta.icos-cp.eu/objects/rx1-yyWW0EYz3V8Et5bP8HlT"
+      }, {
+        "comments": [],
+        "label": "1030_20200604T162800-20200604T170000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/pxgBI-TVvrV9FRsEfg9SBpbA"
+      }, {
+        "comments": [],
+        "label": "1030_20200604T170100-20200604T172700.csv",
+        "uri": "https://meta.icos-cp.eu/objects/V_fB92hlBNr-Pa2ql2kW2xtu"
+      }, {
+        "comments": [],
+        "label": "1030_20200604T172800-20200604T215700.csv",
+        "uri": "https://meta.icos-cp.eu/objects/9c2OI9sCFI1JFHHNuBfWup2J"
+      }, {
+        "comments": [],
+        "label": "1030_20200604T215800-20200605T215700.csv",
+        "uri": "https://meta.icos-cp.eu/objects/N8MYpkI8XRrkVBGKXXhHXHnz"
+      }, {
+        "comments": [],
+        "label": "1030_20200605T215800-20200606T215700.csv",
+        "uri": "https://meta.icos-cp.eu/objects/B31BZJ8fyk24OyVBf17o8qYP"
+      }, {
+        "comments": [],
+        "label": "1030_20200606T215800-20200607T220000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/oOjpxIkCd-XibgCTaBBomZiX"
+      }, {
+        "comments": [],
+        "label": "1030_20200607T220100-20200608T215700.csv",
+        "uri": "https://meta.icos-cp.eu/objects/b7axkSFEkGLGZ0acjPJyKnqV"
+      }, {
+        "comments": [],
+        "label": "1030_20200608T215800-20200609T215700.csv",
+        "uri": "https://meta.icos-cp.eu/objects/1TY94kMsjnbrmmhAPbFsmW_A"
+      }, {
+        "comments": [],
+        "label": "1030_20200609T215800-20200610T215700.csv",
+        "uri": "https://meta.icos-cp.eu/objects/W0aQP4_mzzQ72pTCWBjhbFBE"
+      }, {
+        "comments": [],
+        "label": "1030_20200610T215800-20200611T211700.csv",
+        "uri": "https://meta.icos-cp.eu/objects/iKqJxolTvNuj5SLWW9psd7Au"
+      }, {
+        "comments": [],
+        "label": "1030_20200611T211800-20200612T220000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/ZEUTJEKnKfK4PRaYL-JCMAVV"
+      }, {
+        "comments": [],
+        "label": "1030_20200612T220100-20200613T215800.csv",
+        "uri": "https://meta.icos-cp.eu/objects/sM6qg-_WfDUnysely4F2jvIp"
+      }, {
+        "comments": [],
+        "label": "1030_20200613T215900-20200614T220000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/NZRwzZc8UMV-xU9RpoNe1klZ"
+      }, {
+        "comments": [],
+        "label": "1030_20200614T220100-20200615T215800.csv",
+        "uri": "https://meta.icos-cp.eu/objects/wJQR6ifpS7AbGOYEWRWDYgTl"
+      }, {
+        "comments": [],
+        "label": "1030_20200615T215900-20200616T215800.csv",
+        "uri": "https://meta.icos-cp.eu/objects/S0H8j7VUVVlfc37duGScav0F"
+      }, {
+        "comments": [],
+        "label": "1030_20200616T215900-20200617T215900.csv",
+        "uri": "https://meta.icos-cp.eu/objects/RE2O9T_rz5bBrmiqtGxvUkhQ"
+      }, {
+        "comments": [],
+        "label": "1030_20200617T220000-20200618T215900.csv",
+        "uri": "https://meta.icos-cp.eu/objects/f6_OeO-MsVy0tenxoOO7YzL1"
+      }, {
+        "comments": [],
+        "label": "1030_20200618T220000-20200619T215900.csv",
+        "uri": "https://meta.icos-cp.eu/objects/g0IisNmgKUzw7fM6i60igKCj"
+      }, {
+        "comments": [],
+        "label": "1030_20200619T220000-20200620T215900.csv",
+        "uri": "https://meta.icos-cp.eu/objects/zXILt46hEjx32lULHuAl6szo"
+      }, {
+        "comments": [],
+        "label": "1030_20200620T220000-20200621T220000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/vEQd_FIkPoMfZDzKqhuVgBvs"
+      }, {
+        "comments": [],
+        "label": "1030_20200621T220100-20200622T213900.csv",
+        "uri": "https://meta.icos-cp.eu/objects/0D3X4kxHlKocqETUSf-PR1-W"
+      }, {
+        "comments": [],
+        "label": "1030_20200622T214000-20200623T213900.csv",
+        "uri": "https://meta.icos-cp.eu/objects/kLwi7u4KM98tamCrKyRMweNL"
+      }, {
+        "comments": [],
+        "label": "1030_20200623T214000-20200624T220900.csv",
+        "uri": "https://meta.icos-cp.eu/objects/RjE3z3F29wS85xWK8PjQ8Qiw"
+      }, {
+        "comments": [],
+        "label": "1030_20200624T221000-20200625T213900.csv",
+        "uri": "https://meta.icos-cp.eu/objects/BZm0ll2ZO9o8sl_mM-e_jeyF"
+      }, {
+        "comments": [],
+        "label": "1030_20200625T214000-20200626T213900.csv",
+        "uri": "https://meta.icos-cp.eu/objects/XT1Skt5usLozawbT8sMmpWPK"
+      }, {
+        "comments": [],
+        "label": "1030_20200626T214000-20200627T213900.csv",
+        "uri": "https://meta.icos-cp.eu/objects/PaXYYEBA_SAX6VnEQ2JdNupU"
+      }, {
+        "comments": [],
+        "label": "1030_20200627T214000-20200628T213900.csv",
+        "uri": "https://meta.icos-cp.eu/objects/K37zF2LYT0qglSwoqjK0JVQp"
+      }, {
+        "comments": [],
+        "label": "1030_20200628T214000-20200629T214000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/6PfQ0cxch2qx79wrbXtrNKtZ"
+      }, {
+        "comments": [],
+        "label": "1030_20200629T214100-20200630T214000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/I7KA5PdnFeeAoZrQNpQPDPQG"
+      }, {
+        "comments": [],
+        "label": "1030_20200630T214100-20200701T214000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/cqruzb8ggkAHO0Mb7VV233Oo"
+      }, {
+        "comments": [],
+        "label": "1030_20200701T214100-20200702T214000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/LFZ8k2THQWkipoTvqUAPx1Xv"
+      }, {
+        "comments": [],
+        "label": "1030_20200702T214100-20200703T214000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/9AS-U-vRcNy9qE0gbmtO7uRA"
+      }, {
+        "comments": [],
+        "label": "1030_20200703T214100-20200704T214000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/2sRxmul58D2Jnq9PGjwEZWrR"
+      }, {
+        "comments": [],
+        "label": "1030_20200704T214100-20200705T220000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/0lcm0QUO8Ui0Pg-b_o7fitKu"
+      }, {
+        "comments": [],
+        "label": "1030_20200705T220100-20200706T214000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/RDgZEDfEQnu21LUsXwHqix_R"
+      }, {
+        "comments": [],
+        "label": "1030_20200706T214100-20200707T214000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/HUQr54A-Ie0XhgEt4-ElrTek"
+      }, {
+        "comments": [],
+        "label": "1030_20200707T214100-20200708T214000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/A1xP4B5bBg-YtaU4axAUHqAz"
+      }, {
+        "comments": [],
+        "label": "1030_20200708T214100-20200709T214000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/BjceNFK3FlixECHFXJwTJpE3"
+      }, {
+        "comments": [],
+        "label": "1030_20200709T214100-20200710T214000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/5faqMx3SG7BZwpWqFHVfpW3L"
+      }, {
+        "comments": [],
+        "label": "1030_20200710T214100-20200711T220000.csv",
+        "uri": "https://meta.icos-cp.eu/objects/iLnz3uOOwPX5LQG_a01HQCti"
+      }, {
+        "comments": [],
+        "label": "1030_20200711T220100-20200712T214100.csv",
+        "uri": "https://meta.icos-cp.eu/objects/CwjAWGgTf_f0mJzCKGiK94Dl"
+      }, {
+        "comments": [],
+        "label": "1030_20200712T214200-20200713T214100.csv",
+        "uri": "https://meta.icos-cp.eu/objects/PCr_kXBJ1VV3rLEBsdSQYb22"
+      }, {
+        "comments": [],
+        "label": "1030_20200713T214200-20200714T214100.csv",
+        "uri": "https://meta.icos-cp.eu/objects/-E2xhpv2QEbD3_qc0WdA6vxQ"
+      }, {
+        "comments": [],
+        "label": "1030_20200714T214200-20200716T214100.csv",
+        "uri": "https://meta.icos-cp.eu/objects/yy0aTFsRHhr0k9CBo-edhi8v"
+      }, {
+        "comments": [],
+        "label": "1030_20200716T214200-20200717T171100.csv",
+        "uri": "https://meta.icos-cp.eu/objects/PZooRX7bxevhByqlH5EQth6X"
+      }]
+    }
+  },
+  "specification": {
+    "dataLevel": 2,
+    "datasetSpec": {
+      "self": {
+        "comments": ["valid for QuinCe versions from 2.0.0"],
+        "label": "OTC SOOP dataset",
+        "uri": "http://meta.icos-cp.eu/resources/cpmeta/otcProduct_Dataset_v2"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": ["Single-line comment, first column is UTC ISO-8601 timestamp, NaN for missing values, comma-separated."],
+      "label": "ICOS OTC time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiOtcProductCsv"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS OTC SOOP Release",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/icosOtcL2Product"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/oce.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/os.png",
+      "self": {
+        "comments": [],
+        "label": "Ocean data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ocean"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-03-05T14:24:39.329Z",
+    "stop": "2021-03-05T14:24:42.816Z",
+    "submitter": {
+      "name": "Ocean Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS OTC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/OTC"
+      }
+    }
+  }
+}

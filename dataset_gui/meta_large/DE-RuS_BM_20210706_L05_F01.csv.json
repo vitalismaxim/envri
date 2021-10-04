@@ -1,0 +1,143 @@
+{
+  "coverageGeo": {
+    "coordinates": [3.5957, 43.7413, 271.0],
+    "type": "Point"
+  },
+  "fileName": "FR-Pue_BM_20210706_L02_F01.csv",
+  "hash": "PXFycI7MnYg4iK5TOaGhhn1CkHcq5VxdzyTKztq8ohM",
+  "parentCollections": [],
+  "pid": "11676/PXFycI7MnYg4iK5TOaGhhn1C",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Jean-Marc",
+      "lastName": "Limousin",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jean-Marc_Limousin"
+      }
+    }, {
+      "firstName": "Jean",
+      "lastName": "Kempf",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jean_Kempf"
+      }
+    }, {
+      "firstName": "Jean-Marc",
+      "lastName": "Ourcival",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jean-Marc_Ourcival"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/PXFycI7MnYg4iK5TOaGhhn1C,\r\n  author={Limousin, J., Kempf, J., Ourcival, J.},\r\n  title={ICOS ETC Bio Meteo Raw ASCII, Puechabon, 2021-07-06},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/PXFycI7MnYg4iK5TOaGhhn1C},\r\n  publisher={Puechabon},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/PXFycI7MnYg4iK5TOaGhhn1C}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ETC Bio Meteo Raw ASCII, Puechabon, 2021-07-06\r\nID - 11676/PXFycI7MnYg4iK5TOaGhhn1C\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/PXFycI7MnYg4iK5TOaGhhn1C\r\nPB - Puechabon\r\nAU - Limousin, J.\r\nAU - Kempf, J.\r\nAU - Ourcival, J.\r\nER - ",
+    "citationString": "Limousin, J., Kempf, J., Ourcival, J., ICOS RI, 2021. ICOS ETC Bio Meteo Raw ASCII, Puechabon, 2021-07-06, https://hdl.handle.net/11676/PXFycI7MnYg4iK5TOaGhhn1C",
+    "temporalCoverageDisplay": "2021-07-06"
+  },
+  "size": 1064905,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "DL-Campbell CR3000",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ETC_11_2"
+      },
+      "interval": {
+        "start": "2021-07-05T23:00:00Z",
+        "stop": "2021-07-06T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 271.0,
+          "geo": {
+            "coordinates": [3.5957, 43.7413, 271.0],
+            "type": "Point"
+          },
+          "label": "FR-Pue",
+          "lat": 43.7413,
+          "lon": 3.5957
+        },
+        "id": "FR-Pue",
+        "org": {
+          "name": "Puechabon",
+          "self": {
+            "comments": [],
+            "label": "FR-Pue",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_FR-Pue"
+          }
+        },
+        "pictures": [],
+        "specificInfo": {
+          "_type": "etc",
+          "countryCode": "FR",
+          "documentation": [],
+          "meanAnnualPrecip": 924.0,
+          "meanAnnualTemp": 13.3,
+          "stationClass": "2",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Raw ASCII ETC station data",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiEtcRawTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ETC Bio Meteo Raw ASCII",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcBioMeteoRawSeriesCsv"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-07-07T05:02:45.178130Z",
+    "stop": "2021-07-07T05:02:48.641878Z",
+    "submitter": {
+      "name": "Puechabon",
+      "self": {
+        "comments": [],
+        "label": "FR-Pue",
+        "uri": "http://meta.icos-cp.eu/resources/stations/ES_FR-Pue"
+      }
+    }
+  }
+}

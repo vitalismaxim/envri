@@ -1,0 +1,915 @@
+{
+ "gmd:MD_Metadata": {
+  "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+  "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+  "@xmlns:gts": "http://www.isotc211.org/2005/gts",
+  "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xmlns:gml": "http://www.opengis.net/gml",
+  "@xmlns:geonet": "http://www.fao.org/geonetwork",
+  "gmd:fileIdentifier": {
+   "gco:CharacterString": "c106e898-b8a4-4679-8e2b-eb8fc04e8337"
+  },
+  "gmd:language": {
+   "gmd:LanguageCode": {
+    "@codeList": "http://www.loc.gov/standards/iso639-2/",
+    "@codeListValue": "eng"
+   }
+  },
+  "gmd:characterSet": {
+   "gmd:MD_CharacterSetCode": {
+    "@codeListValue": "utf8",
+    "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+   }
+  },
+  "gmd:hierarchyLevel": {
+   "gmd:MD_ScopeCode": {
+    "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode",
+    "@codeListValue": "dataset"
+   }
+  },
+  "gmd:contact": [
+   {
+    "gmd:CI_ResponsibleParty": {
+     "gmd:individualName": {
+      "gco:CharacterString": "C\u00c3\u00a9cile CALLOU"
+     },
+     "gmd:organisationName": {
+      "gco:CharacterString": "CNRS"
+     },
+     "gmd:contactInfo": {
+      "gmd:CI_Contact": {
+       "gmd:phone": {
+        "gmd:CI_Telephone": {
+         "gmd:voice": {
+          "gco:CharacterString": "+33 1 40 79 32 94"
+         },
+         "gmd:facsimile": {
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null
+         }
+        }
+       },
+       "gmd:address": {
+        "gmd:CI_Address": {
+         "gmd:deliveryPoint": {
+          "gco:CharacterString": "CP 55 Pavillon d'Anatomie Compar\u00c3\u00a9e, 55 rue Buffon"
+         },
+         "gmd:city": {
+          "gco:CharacterString": "Paris"
+         },
+         "gmd:administrativeArea": {
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null
+         },
+         "gmd:postalCode": {
+          "gco:CharacterString": "75005"
+         },
+         "gmd:country": {
+          "gco:CharacterString": "France"
+         },
+         "gmd:electronicMailAddress": {
+          "gco:CharacterString": "callou@mnhn.fr"
+         }
+        }
+       }
+      }
+     },
+     "gmd:role": {
+      "gmd:CI_RoleCode": {
+       "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode",
+       "@codeListValue": "pointOfContact"
+      }
+     }
+    }
+   },
+   {
+    "gmd:CI_ResponsibleParty": {
+     "gmd:individualName": {
+      "gco:CharacterString": "Chlo\u00c3\u00a9 MARTIN"
+     },
+     "gmd:organisationName": {
+      "gco:CharacterString": "CNRS"
+     },
+     "gmd:contactInfo": {
+      "gmd:CI_Contact": {
+       "gmd:phone": {
+        "gmd:CI_Telephone": {
+         "gmd:voice": {
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null
+         },
+         "gmd:facsimile": {
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null
+         }
+        }
+       },
+       "gmd:address": {
+        "gmd:CI_Address": {
+         "gmd:deliveryPoint": {
+          "gco:CharacterString": "CP 55 Pavillon d'Anatomie Compar\u00c3\u00a9e, 55 rue Buffon"
+         },
+         "gmd:city": {
+          "gco:CharacterString": "Paris"
+         },
+         "gmd:administrativeArea": {
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null
+         },
+         "gmd:postalCode": {
+          "gco:CharacterString": "75005"
+         },
+         "gmd:country": {
+          "gco:CharacterString": "France"
+         },
+         "gmd:electronicMailAddress": {
+          "gco:CharacterString": "chloe.martin@mnhn.fr"
+         }
+        }
+       }
+      }
+     },
+     "gmd:role": {
+      "gmd:CI_RoleCode": {
+       "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode",
+       "@codeListValue": "pointOfContact"
+      }
+     }
+    }
+   }
+  ],
+  "gmd:dateStamp": {
+   "gco:DateTime": "2021-02-04T18:46:55"
+  },
+  "gmd:metadataStandardName": {
+   "gco:CharacterString": "ISO 19115:2003/19139"
+  },
+  "gmd:metadataStandardVersion": {
+   "gco:CharacterString": "1.0"
+  },
+  "gmd:locale": {
+   "gmd:PT_Locale": {
+    "@id": "FR",
+    "gmd:languageCode": {
+     "gmd:LanguageCode": {
+      "@codeList": "http://www.loc.gov/standards/iso639-2/",
+      "@codeListValue": "fre"
+     }
+    },
+    "gmd:characterEncoding": null
+   }
+  },
+  "gmd:referenceSystemInfo": {
+   "gmd:MD_ReferenceSystem": {
+    "gmd:referenceSystemIdentifier": {
+     "gmd:RS_Identifier": {
+      "gmd:code": {
+       "gco:CharacterString": "WGS 84 (EPSG:4326)"
+      }
+     }
+    }
+   }
+  },
+  "gmd:identificationInfo": {
+   "gmd:MD_DataIdentification": {
+    "gmd:citation": {
+     "gmd:CI_Citation": {
+      "gmd:title": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "UMS BBEES 3468 - AnaEE-France",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "UMS BBEES 3468 - AnaEE-France"
+         }
+        }
+       }
+      },
+      "gmd:date": [
+       {
+        "gmd:CI_Date": {
+         "gmd:date": {
+          "gco:Date": "2011-09-01"
+         },
+         "gmd:dateType": {
+          "gmd:CI_DateTypeCode": {
+           "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+           "@codeListValue": "creation"
+          }
+         }
+        }
+       },
+       {
+        "@xmlns:gn": "http://www.fao.org/geonetwork",
+        "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+        "gmd:CI_Date": {
+         "gmd:date": {
+          "gco:Date": "2020-01-03"
+         },
+         "gmd:dateType": {
+          "gmd:CI_DateTypeCode": {
+           "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+           "@codeListValue": "revision"
+          }
+         }
+        }
+       }
+      ],
+      "gmd:identifier": [
+       {
+        "gmd:MD_Identifier": {
+         "gmd:code": {
+          "gco:CharacterString": "http://w3.avignon.inra.fr/geonetwork_anaee/c106e898-b8a4-4679-8e2b-eb8fc04e8337"
+         }
+        }
+       },
+       {
+        "gmd:MD_Identifier": {
+         "gmd:code": {
+          "gco:CharacterString": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/catalog.search#/metadata/c106e898-b8a4-4679-8e2b-eb8fc04e8337"
+         }
+        }
+       }
+      ]
+     }
+    },
+    "gmd:abstract": {
+     "@xsi:type": "gmd:PT_FreeText_PropertyType",
+     "gco:CharacterString": "UMS BBEES provides the CNRS and the National Museum of Natural History\u00e2\u20ac\u2122s research units and researchers with technical and scientific supports to structure, perpetuate or pool their databases. Its interventions result in advices or direct actions during several days to several months in order to relaunch or restructure databases.\nIt benefits the environment in place at the Museum (Service du Patrimoine Naturel, Inventaire national du Patrimoine naturel, collections patrimoniales, P\u00c3\u00b4le recherche de la DSI, etc). This structure is not designed to administer databases, which remain the responsibility of the teams that produce them, or to provide them with accommodation, which may be the DSI of the Museum or other suitable structure. However, it can provide guidance on these points.\nTo facilitate the integration of databases in national and international frameworks, the UMS BBEES offers recommendations, including:\n- The constitution of corpus and data processing;\n- The choice of tools;\n- Structuring data;\n- Metadata.\nThese recommendations are in line with the operative standards and norms, such as the European Directive INSPIRE (2007/2 / CE of 14 March 2007) for geographical informations, or the choice of a common taxonomic repository for existing biodiversity databases (INPN, GBIF, collections databases).\nThe issue of identification and accessibility of databases is also at the heart of the concerns of the UMS BBEES, particularly the inactive databases (for example databases developed in the framework of national programs and stored on personal computers) and bases on standby (accessible databases, but are not supplied or operated). Investigations are and will be regularly conducted with the directors of research units in order to identify all the databases produced by the units (inactive standby, developing and active), but also to anticipate and accompany the bases of development applications as part of national and international research programs.\nUMS BBEES gave a particular attention to the implementation of regulations concerning intellectual property in the particular field of databases. Thus, it does not facilitate the dissemination of databases that do not comply with legislation.\n\u00e2\u20ac\u0192",
+     "gmd:PT_FreeText": {
+      "gmd:textGroup": {
+       "gmd:LocalisedCharacterString": {
+        "@locale": "#FR",
+        "#text": "L\u00e2\u20ac\u2122UMS BBEES constitue un soutien technique et scientifique, aupr\u00c3\u00a8s des unit\u00c3\u00a9s et des chercheurs du Mus\u00c3\u00a9um et du CNRS (notamment \u00c3\u00a0 l\u00e2\u20ac\u2122InEE), souhaitant structurer, p\u00c3\u00a9renniser ou mutualiser leur travail. Ses interventions se traduisent par des conseils ou une intervention au sein de l\u00e2\u20ac\u2122unit\u00c3\u00a9, de quelques jours ou quelques mois pour relancer, restructurer une base de donn\u00c3\u00a9es.\n\nElle b\u00c3\u00a9n\u00c3\u00a9ficie de l\u00e2\u20ac\u2122environnement en place au Mus\u00c3\u00a9um (Service du Patrimoine Naturel, Inventaire national du Patrimoine naturel, collections patrimoniales, P\u00c3\u00b4le recherche de la DSI, etc.). Cette structure n\u00e2\u20ac\u2122a pas vocation \u00c3\u00a0 administrer les bases de donn\u00c3\u00a9es, qui restent sous la responsabilit\u00c3\u00a9 des \u00c3\u00a9quipes qui les produisent, ni \u00c3\u00a0 leur fournir un h\u00c3\u00a9bergement, qui peut \u00c3\u00aatre la DSI du Mus\u00c3\u00a9um ou toute autre structure appropri\u00c3\u00a9e. Toutefois, elle peut apporter des conseils sur ces points.\n\nAfin de faciliter l\u00e2\u20ac\u2122insertion des bases de donn\u00c3\u00a9es dans des dispositifs nationaux et internationaux, l\u00e2\u20ac\u2122UMS BBEES propose un certain nombre de recommandations sur, par exemple : \n- la constitution des corpus et le traitement des donn\u00c3\u00a9es ; \n- le choix des outils ; \n- la structuration des donn\u00c3\u00a9es ; \n- les m\u00c3\u00a9tadonn\u00c3\u00a9es.\n\nCes recommandations \u00c3\u00a9tant en lien avec les standards et les normes en vigueur, comme par exemple la Directive europ\u00c3\u00a9enne Inspire (2007/2/CE du 14 mars 2007) pour les informations g\u00c3\u00a9ographiques, ou le choix d\u00e2\u20ac\u2122un r\u00c3\u00a9f\u00c3\u00a9rentiel taxonomique commun aux bases de donn\u00c3\u00a9es existants sur la biodiversit\u00c3\u00a9 (INPN, GBIF, bases de collections).\n\nLa question de l\u00e2\u20ac\u2122identification et de l\u00e2\u20ac\u2122accessibilit\u00c3\u00a9 des bases de donn\u00c3\u00a9es est \u00c3\u00a9galement au c\u00c5\u201cur des pr\u00c3\u00a9occupations le l\u00e2\u20ac\u2122UMS BBEES, en particulier pour ce qui concerne les bases inactives (les bases de donn\u00c3\u00a9es d\u00c3\u00a9velopp\u00c3\u00a9es dans le cadre de programmes nationaux et stock\u00c3\u00a9es sur des ordinateurs personnels par exemple) et les bases en veille (bases de donn\u00c3\u00a9es accessibles, mais qui ne sont plus aliment\u00c3\u00a9es, ni exploit\u00c3\u00a9es). Des enqu\u00c3\u00aates sont et seront r\u00c3\u00a9guli\u00c3\u00a8rement men\u00c3\u00a9es aupr\u00c3\u00a8s des directeurs d\u00e2\u20ac\u2122unit\u00c3\u00a9s de recherche, dans le but d\u00e2\u20ac\u2122identifier l\u00e2\u20ac\u2122ensemble des bases de donn\u00c3\u00a9es produites par les unit\u00c3\u00a9s (inactives, en veille, en d\u00c3\u00a9veloppement et actives), mais aussi pour anticiper et accompagner les demandes de d\u00c3\u00a9veloppement de bases dans le cadre de programmes de recherche nationaux et internationaux.\n\nL\u00e2\u20ac\u2122UMS BBEES porte une attention particuli\u00c3\u00a8re \u00c3\u00a0 l\u00e2\u20ac\u2122application des r\u00c3\u00a8glementations concernant la propri\u00c3\u00a9t\u00c3\u00a9 intellectuelle dans le domaine particulier des bases de donn\u00c3\u00a9es. Ainsi, elle ne facilite pas la diffusion de bases de donn\u00c3\u00a9es ne respectant pas la l\u00c3\u00a9gislation."
+       }
+      }
+     }
+    },
+    "gmd:pointOfContact": [
+     {
+      "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+      "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+      "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+      "gmd:CI_ResponsibleParty": {
+       "gmd:individualName": {
+        "gco:CharacterString": "C\u00c3\u00a9cile CALLOU"
+       },
+       "gmd:organisationName": {
+        "gco:CharacterString": "CNRS"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+33 1 40 79 32 94"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "CP 55 Pavillon d'Anatomie Compar\u00c3\u00a9e, 55 rue Buffon"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Paris"
+           },
+           "gmd:administrativeArea": {
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "75005"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "France"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "callou@mnhn.fr"
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "./resources/codeList.xml#CI_RoleCode",
+         "@codeListValue": "pointOfContact"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "gmd:individualName": {
+        "gco:CharacterString": "C\u00c3\u00a9cile CALLOU"
+       },
+       "gmd:organisationName": {
+        "gco:CharacterString": "CNRS"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+33 1 40 79 32 94"
+           },
+           "gmd:facsimile": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "CP 55 Pavillon d'Anatomie Compar\u00c3\u00a9e, 55 rue Buffon"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Paris"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "75005"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "France"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "callou@mnhn.fr"
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "pointOfContact"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "gmd:individualName": {
+        "gco:CharacterString": "Chlo\u00c3\u00a9 MARTIN"
+       },
+       "gmd:organisationName": {
+        "gco:CharacterString": "CNRS"
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:facsimile": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "gco:CharacterString": "CP 55 Pavillon d'Anatomie Compar\u00c3\u00a9e, 55 rue Buffon"
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Paris"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "75005"
+           },
+           "gmd:country": {
+            "gco:CharacterString": "France"
+           },
+           "gmd:electronicMailAddress": {
+            "gco:CharacterString": "chloe.martin@mnhn.fr"
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "pointOfContact"
+        }
+       }
+      }
+     }
+    ],
+    "gmd:resourceMaintenance": {
+     "gmd:MD_MaintenanceInformation": {
+      "gmd:maintenanceAndUpdateFrequency": {
+       "gmd:MD_MaintenanceFrequencyCode": {
+        "@codeListValue": "asNeeded",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"
+       }
+      }
+     }
+    },
+    "gmd:graphicOverview": {
+     "gmd:MD_BrowseGraphic": {
+      "gmd:fileName": {
+       "gco:CharacterString": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng//resources.get?uuid=c106e898-b8a4-4679-8e2b-eb8fc04e8337&fname=Logo BBEES violet PNG_s.png"
+      },
+      "gmd:fileDescription": {
+       "gco:CharacterString": "thumbnail"
+      },
+      "gmd:fileType": {
+       "gco:CharacterString": "png"
+      }
+     }
+    },
+    "gmd:descriptiveKeywords": [
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": [
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "AnaEE-France",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "AnaEE-France"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "data management",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "gestion de donn\u00c3\u00a9es"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "ecological data",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "donn\u00c3\u00a9es \u00c3\u00a9cologiques"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "environmental information system",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "syst\u00c3\u00a8me d'information environnemental"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "metadata management",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "gestion de m\u00c3\u00a9ta donn\u00c3\u00a9es"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "programming language",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "langage de programmation"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "relational database",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "base de donn\u00c3\u00a9es relationnelle"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "web interface development",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "d\u00c3\u00a9veloppement d'interface web"
+           }
+          }
+         }
+        }
+       ],
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "theme.anaeeThes.rdf"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2017-05-30"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=external.theme.anaeeThes",
+             "#text": "geonetwork.thesaurus.external.theme.anaeeThes"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "Environmental monitoring facilities",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "Installations de suivi environnemental"
+          }
+         }
+        }
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "GEMET - INSPIRE themes, version 1.0 INSPIRE themes"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2008-06-01"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=external.theme.inspire-theme",
+             "#text": "geonetwork.thesaurus.external.theme.inspire-theme"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": [
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "Paris",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "Paris"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "France",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "France"
+           }
+          }
+         }
+        }
+       ],
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "place"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "AnaEE-France Locations"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2017-03-29"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=local.place.anaee-france_locations",
+             "#text": "geonetwork.thesaurus.local.place.anaee-france_locations"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    ],
+    "gmd:resourceConstraints": {
+     "gmd:MD_LegalConstraints": {
+      "gmd:useLimitation": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "See AnaEE-France charters."
+      },
+      "gmd:accessConstraints": {
+       "gmd:MD_RestrictionCode": {
+        "@codeListValue": "intellectualPropertyRights",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+       }
+      },
+      "gmd:useConstraints": {
+       "gmd:MD_RestrictionCode": {
+        "@codeListValue": "intellectualPropertyRights",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+       }
+      }
+     }
+    },
+    "gmd:spatialResolution": {
+     "gmd:MD_Resolution": {
+      "gmd:equivalentScale": {
+       "gmd:MD_RepresentativeFraction": {
+        "gmd:denominator": {
+         "gco:Integer": "50000"
+        }
+       }
+      }
+     }
+    },
+    "gmd:language": {
+     "gmd:LanguageCode": {
+      "@codeList": "http://www.loc.gov/standards/iso639-2/",
+      "@codeListValue": "fre"
+     }
+    },
+    "gmd:characterSet": {
+     "gmd:MD_CharacterSetCode": {
+      "@codeListValue": "utf8",
+      "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+     }
+    },
+    "gmd:topicCategory": {
+     "gmd:MD_TopicCategoryCode": "structure"
+    },
+    "gmd:extent": [
+     {
+      "gmd:EX_Extent": {
+       "gmd:temporalElement": {
+        "gmd:EX_TemporalExtent": {
+         "gmd:extent": {
+          "gml:TimePeriod": {
+           "@gml:id": "d256003e636a1052958",
+           "gml:beginPosition": "2011-09-01",
+           "gml:endPosition": {
+            "@indeterminatePosition": "now"
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:EX_Extent": {
+       "@xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+       "gmd:description": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "Paris"
+       },
+       "gmd:geographicElement": {
+        "gmd:EX_GeographicBoundingBox": {
+         "gmd:westBoundLongitude": {
+          "gco:Decimal": "2.25"
+         },
+         "gmd:eastBoundLongitude": {
+          "gco:Decimal": "2.45"
+         },
+         "gmd:southBoundLatitude": {
+          "gco:Decimal": "48.75"
+         },
+         "gmd:northBoundLatitude": {
+          "gco:Decimal": "48.95"
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:EX_Extent": {
+       "@xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+       "gmd:description": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "France"
+       },
+       "gmd:geographicElement": {
+        "gmd:EX_GeographicBoundingBox": {
+         "gmd:westBoundLongitude": {
+          "gco:Decimal": "-5.7"
+         },
+         "gmd:eastBoundLongitude": {
+          "gco:Decimal": "9.5"
+         },
+         "gmd:southBoundLatitude": {
+          "gco:Decimal": "41.3"
+         },
+         "gmd:northBoundLatitude": {
+          "gco:Decimal": "51"
+         }
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  "gmd:distributionInfo": {
+   "gmd:MD_Distribution": {
+    "gmd:distributionFormat": {
+     "gmd:MD_Format": {
+      "gmd:name": {
+       "gco:CharacterString": "inapplicable"
+      },
+      "gmd:version": {
+       "gco:CharacterString": "inapplicable"
+      }
+     }
+    },
+    "gmd:transferOptions": {
+     "gmd:MD_DigitalTransferOptions": {
+      "gmd:onLine": {
+       "gmd:CI_OnlineResource": {
+        "gmd:linkage": {
+         "gmd:URL": "https://bbees.mnhn.fr/"
+        },
+        "gmd:protocol": {
+         "gco:CharacterString": "WWW:LINK-1.0-http--link"
+        },
+        "gmd:name": {
+         "gco:CharacterString": "Site BBEES"
+        },
+        "gmd:description": {
+         "@gco:nilReason": "missing",
+         "gco:CharacterString": null
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "gmd:dataQualityInfo": {
+   "gmd:DQ_DataQuality": {
+    "gmd:scope": {
+     "gmd:DQ_Scope": {
+      "gmd:level": {
+       "gmd:MD_ScopeCode": {
+        "@codeListValue": "dataset",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode"
+       }
+      }
+     }
+    },
+    "gmd:report": {
+     "gmd:DQ_DomainConsistency": {
+      "gmd:result": {
+       "gmd:DQ_ConformanceResult": {
+        "gmd:specification": {
+         "gmd:CI_Citation": {
+          "gmd:title": {
+           "gco:CharacterString": "Commission Regulation (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services"
+          },
+          "gmd:date": {
+           "gmd:CI_Date": {
+            "gmd:date": {
+             "gco:Date": "2010-12-08"
+            },
+            "gmd:dateType": {
+             "gmd:CI_DateTypeCode": {
+              "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+              "@codeListValue": "publication"
+             }
+            }
+           }
+          }
+         }
+        },
+        "gmd:explanation": {
+         "gco:CharacterString": "Not evaluated"
+        }
+       }
+      }
+     }
+    },
+    "gmd:lineage": {
+     "gmd:LI_Lineage": {
+      "gmd:statement": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "UMS 3468 BBEES \u00c2\u00ab Database on Biodiversity, Ecology, Environments and Societies\u00e2\u20ac\n\nUMS 3468 BBEES was created in September 2011, by the CNRS Institute of Ecology and Environment (INEE), in collaboration with the National Museum of Natural History (MNHN Paris). It is hosted on the site of the Jardin des Plantes (MNHN Paris, 5e arr.)\n\nThe mission of the UMS BBEES is to provide technical and scientific support (advice, but also practical assistance) for research units and researchers from CNRS-INEE and MNHN, wishing to structure, sustain or mutualize their databases on natural and cultural biodiversity.\n\nUMS BBEES is partner of several major programs: ANAEE France, but also French Long Term Ecological Research network (Zones ateliers; www.za-inee.org/ http://) and Human-Environment Observatories network (http://www.ohm-inee.cnrs.fr/).",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "UMS 3468 BBEES \u00c2\u00ab Bases de donn\u00c3\u00a9es sur la Biodiversit\u00c3\u00a9, Ecologie, Environnements et soci\u00c3\u00a9t\u00c3\u00a9s \u00c2\u00ab\n\nL\u00e2\u20ac\u2122UMS 3468 BBEES a \u00c3\u00a9t\u00c3\u00a9 cr\u00c3\u00a9\u00c3\u00a9e en septembre 2011, \u00c3\u00a0 l\u00e2\u20ac\u2122initiative de l\u00e2\u20ac\u2122Institut Ecologie et Environnement du CNRS (InEE), en collaboration avec le Mus\u00c3\u00a9um National d\u00e2\u20ac\u2122Histoire Naturelle. Elle est h\u00c3\u00a9berg\u00c3\u00a9e au Mus\u00c3\u00a9um sur le site du Jardin des Plantes (Paris, 5e).\n\nSa mission est d\u00e2\u20ac\u2122apporter un soutien technique et scientifique (conseils ou interventions) aux unit\u00c3\u00a9s et chercheurs du CNRS-InEE et du Mus\u00c3\u00a9um, souhaitant structurer, p\u00c3\u00a9renniser ou mutualiser des bases de donn\u00c3\u00a9es de recherche sur la Biodiversit\u00c3\u00a9 naturelle et culturelle.\n\nL\u00e2\u20ac\u2122unit\u00c3\u00a9 est partenaire de plusieurs grands programmes : AnaEE-France, amis aussi r\u00c3\u00a9seau des Zones Ateliers (http:// www.za-inee.org/ <http://www.za-inee.org/>) ou encore r\u00c3\u00a9seau des Observatoires Hommes-Milieux (http://www.ohm-inee.cnrs.fr/)."
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

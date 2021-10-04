@@ -1,0 +1,225 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/59JvQMpPy-dvCJNZM1HDS5W3",
+  "coverageGeo": {
+    "coordinates": [10.535, 51.8088, 801.0],
+    "type": "Point"
+  },
+  "fileName": "ICOS_ATC_NRT_TOH_2021-06-22_2021-06-22_110.0_457_CH4.zip",
+  "hash": "59JvQMpPy-dvCJNZM1HDS5W36EEnSM1xGj2rUgoVD3s",
+  "parentCollections": [],
+  "pid": "11676/59JvQMpPy-dvCJNZM1HDS5W3",
+  "references": {
+    "acknowledgements": [],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/59JvQMpPy-dvCJNZM1HDS5W3,\r\n  title={ICOS ATC NRT CH4 data csv time series, Torfhaus (110.0 m), 2021-06-22},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/59JvQMpPy-dvCJNZM1HDS5W3},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/59JvQMpPy-dvCJNZM1HDS5W3}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC NRT CH4 data csv time series, Torfhaus (110.0 m), 2021-06-22\r\nID - 11676/59JvQMpPy-dvCJNZM1HDS5W3\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/59JvQMpPy-dvCJNZM1HDS5W3\r\nPB - Atmosphere Thematic Centre\r\nER - ",
+    "citationString": "Copernicus, 2021. ICOS ATC NRT CH4 data csv time series, Torfhaus (110.0 m), 2021-06-22, https://hdl.handle.net/11676/59JvQMpPy-dvCJNZM1HDS5W3",
+    "temporalCoverageDisplay": "2021-06-22"
+  },
+  "size": 1800,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "CO2-CH4-H2O Picarro Analyzer",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_457"
+      },
+      "interval": {
+        "start": "2021-06-22T00:00:00Z",
+        "stop": "2021-06-22T23:00:00Z"
+      },
+      "samplingHeight": 110.0,
+      "station": {
+        "coverage": {
+          "alt": 801.0,
+          "geo": {
+            "coordinates": [10.535, 51.8088, 801.0],
+            "type": "Point"
+          },
+          "label": "TOH",
+          "lat": 51.8088,
+          "lon": 10.535
+        },
+        "id": "TOH",
+        "org": {
+          "name": "Torfhaus",
+          "self": {
+            "comments": [],
+            "label": "TOH",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_TOH"
+          }
+        },
+        "pictures": ["https://meta.icos-cp.eu/files/g3HlwL6esISVnatT_0xEqhRI/DSCF3283.jpg"],
+        "responsibleOrganization": {
+          "name": "Deutscher Wetterdienst, Hohenpeißenberg Meteorological Observatory",
+          "self": {
+            "comments": [],
+            "label": "MOHp",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/MOHp"
+          },
+          "website": "https://www.dwd.de/mohp"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "DE",
+          "documentation": [{
+            "hash": "vCUlMKo3StluJzWtacd1wpSQiOXZ1a1u6vP7lPghL08",
+            "name": "Torfhaus_STILT_station_characterization.pdf",
+            "res": "https://meta.icos-cp.eu/objects/vCUlMKo3StluJzWtacd1wpSQ"
+          }],
+          "labelingDate": "2018-11-30",
+          "stationClass": "2",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, UTC",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStamp"
+        }
+      }
+    }, {
+      "label": "Flag",
+      "valueType": {
+        "self": {
+          "comments": ["single-letter quality flag"],
+          "label": "quality flag",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/oneLetterFlag"
+        }
+      }
+    }, {
+      "label": "NbPoints",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["integer number"],
+          "label": "number",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/number"
+        },
+        "self": {
+          "comments": [],
+          "label": "number of points",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/npoints"
+        }
+      }
+    }, {
+      "label": "ch4",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "CH4 mixing ratio (dry mole fraction)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/ch4MixingRatioPpb"
+        },
+        "unit": "nmol mol-1"
+      }
+    }, {
+      "label": "Stdev",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "standard deviation of gas mole fraction",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/moleFractionSdPpb"
+        },
+        "unit": "nmol mol-1"
+      }
+    }],
+    "nRows": 24,
+    "productionInfo": {
+      "contributors": [],
+      "creator": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "dateTime": "2021-06-23T05:21:24Z",
+      "host": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "sources": []
+    }
+  },
+  "specification": {
+    "dataLevel": 1,
+    "datasetSpec": {
+      "self": {
+        "comments": [],
+        "label": "Atmospheric CH4 mole fraction time series",
+        "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcCh4MoleFracTimeSer"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": ["Semicolon-separated ASCII, with #-prefixed multi-line header"],
+      "label": "ICOS ATC time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcProductTimeSer"
+    },
+    "keywords": ["CH4", "concentration"],
+    "project": {
+      "self": {
+        "comments": ["European Union's Earth Observation Programme"],
+        "label": "Copernicus",
+        "uri": "http://meta.icos-cp.eu/resources/projects/copernicus"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ATC NRT CH4 data csv time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcCh4NrtDataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-06-23T05:21:24.560875Z",
+    "stop": "2021-06-23T05:21:27.475837Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

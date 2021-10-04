@@ -1,0 +1,229 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/OY-wRgZ5WfVL1mLsJ8r2IsAz",
+  "coverageGeo": {
+    "coordinates": [11.0246, 47.8011, 934.0],
+    "type": "Point"
+  },
+  "fileName": "ICOS_ATC_NRT_HPB_2021-06-21_2021-06-21_50.0_499-382_CO.zip",
+  "hash": "OY-wRgZ5WfVL1mLsJ8r2IsAzxTW0Oz2yFoqHJvijPMs",
+  "parentCollections": [],
+  "pid": "11676/OY-wRgZ5WfVL1mLsJ8r2IsAz",
+  "references": {
+    "acknowledgements": [],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/OY-wRgZ5WfVL1mLsJ8r2IsAz,\r\n  title={ICOS ATC NRT CO data csv time series, Hohenpeissenberg (50.0 m), 2021-06-21},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/OY-wRgZ5WfVL1mLsJ8r2IsAz},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/OY-wRgZ5WfVL1mLsJ8r2IsAz}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC NRT CO data csv time series, Hohenpeissenberg (50.0 m), 2021-06-21\r\nID - 11676/OY-wRgZ5WfVL1mLsJ8r2IsAz\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/OY-wRgZ5WfVL1mLsJ8r2IsAz\r\nPB - Atmosphere Thematic Centre\r\nER - ",
+    "citationString": "Copernicus, 2021. ICOS ATC NRT CO data csv time series, Hohenpeissenberg (50.0 m), 2021-06-21, https://hdl.handle.net/11676/OY-wRgZ5WfVL1mLsJ8r2IsAz",
+    "temporalCoverageDisplay": "2021-06-21"
+  },
+  "size": 1869,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": [{
+        "comments": [],
+        "label": "CO2-CH4-CO-H2O Picarro Analyzer",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_382"
+      }, {
+        "comments": [],
+        "label": "German N2O-CO LGR Analyzer",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_499"
+      }],
+      "interval": {
+        "start": "2021-06-21T00:00:00Z",
+        "stop": "2021-06-21T23:00:00Z"
+      },
+      "samplingHeight": 50.0,
+      "station": {
+        "coverage": {
+          "alt": 934.0,
+          "geo": {
+            "coordinates": [11.0246, 47.8011, 934.0],
+            "type": "Point"
+          },
+          "label": "HPB",
+          "lat": 47.8011,
+          "lon": 11.0246
+        },
+        "id": "HPB",
+        "org": {
+          "name": "Hohenpeissenberg",
+          "self": {
+            "comments": [],
+            "label": "HPB",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_HPB"
+          }
+        },
+        "pictures": ["https://meta.icos-cp.eu/files/362ZiYSf1ohveUzKo0VsNSI7/HPB.png"],
+        "responsibleOrganization": {
+          "name": "Deutscher Wetterdienst, Hohenpeißenberg Meteorological Observatory",
+          "self": {
+            "comments": [],
+            "label": "MOHp",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/MOHp"
+          },
+          "website": "https://www.dwd.de/mohp"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "DE",
+          "documentation": [{
+            "hash": "6v6vroWEaSt_MNodE-pKZVyum2OCK5NCHLBLxGGLkBk",
+            "name": "Hohenpeissenberg_STILT_station_characterization.pdf",
+            "res": "https://meta.icos-cp.eu/objects/6v6vroWEaSt_MNodE-pKZVyu"
+          }],
+          "labelingDate": "2017-11-17",
+          "stationClass": "1",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, UTC",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStamp"
+        }
+      }
+    }, {
+      "label": "Flag",
+      "valueType": {
+        "self": {
+          "comments": ["single-letter quality flag"],
+          "label": "quality flag",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/oneLetterFlag"
+        }
+      }
+    }, {
+      "label": "NbPoints",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["integer number"],
+          "label": "number",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/number"
+        },
+        "self": {
+          "comments": [],
+          "label": "number of points",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/npoints"
+        }
+      }
+    }, {
+      "label": "Stdev",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "standard deviation of gas mole fraction",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/moleFractionSdPpb"
+        },
+        "unit": "nmol mol-1"
+      }
+    }, {
+      "label": "co",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "CO mixing ratio (dry mole fraction)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/coMixingRatioPpb"
+        },
+        "unit": "nmol mol-1"
+      }
+    }],
+    "nRows": 24,
+    "productionInfo": {
+      "contributors": [],
+      "creator": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "dateTime": "2021-06-22T05:14:53Z",
+      "host": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "sources": []
+    }
+  },
+  "specification": {
+    "dataLevel": 1,
+    "datasetSpec": {
+      "self": {
+        "comments": [],
+        "label": "Atmospheric CO mole fraction time series",
+        "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcCoMoleFracTimeSer"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": ["Semicolon-separated ASCII, with #-prefixed multi-line header"],
+      "label": "ICOS ATC time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcProductTimeSer"
+    },
+    "keywords": ["CO", "concentration"],
+    "project": {
+      "self": {
+        "comments": ["European Union's Earth Observation Programme"],
+        "label": "Copernicus",
+        "uri": "http://meta.icos-cp.eu/resources/projects/copernicus"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ATC NRT CO data csv time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcCoNrtDataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-06-22T05:14:53.635443Z",
+    "stop": "2021-06-22T05:14:57.346369Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

@@ -1,0 +1,528 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/6f2Jc9rM7KREoQwREyVYSWuG",
+  "coverageGeo": {
+    "coordinates": [13.41897, 56.09763, 115.0],
+    "type": "Point"
+  },
+  "fileName": "SE-Htm_meteo_2015_CP_flag.txt",
+  "hash": "6f2Jc9rM7KREoQwREyVYSWuG6rfHAQWKS8wLq7vZzb4",
+  "parentCollections": [],
+  "pid": "11676/6f2Jc9rM7KREoQwREyVYSWuG",
+  "previousVersion": ["https://meta.icos-cp.eu/objects/22mgOuJGcofss7N71bU8Ev6b", "https://meta.icos-cp.eu/objects/9uHcBSiZY8OHjhIxg8W21R48", "https://meta.icos-cp.eu/objects/DbztzDmAi0mdeW1nRkQ_U6BE", "https://meta.icos-cp.eu/objects/KZciH8sikeoTigRpuhea1deC", "https://meta.icos-cp.eu/objects/MOR1HlR31NQVU7agUTu7VIXE", "https://meta.icos-cp.eu/objects/P9f_PUW5tH1nW2c_rILPH5kW", "https://meta.icos-cp.eu/objects/S8Bhs301F2iT2Fv5MYIh9xq_", "https://meta.icos-cp.eu/objects/gNV_NOO_yuKHKuDiRdRAEerV", "https://meta.icos-cp.eu/objects/k3-qNaRay251stKmbV9KJMPB", "https://meta.icos-cp.eu/objects/ki562o1SYEPj4emh1q6ZS6cI", "https://meta.icos-cp.eu/objects/sNkKqtice7BWtUpAHF1RdBph", "https://meta.icos-cp.eu/objects/vKFwWrwLlq-Oclb9QfyMMOoy", "https://meta.icos-cp.eu/objects/RWkviV7bOE06FS-QlHBEBPN8"],
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Michal",
+      "lastName": "Heliasz",
+      "orcid": "0000-0003-2635-9604",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Michal_Heliasz"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/6f2Jc9rM7KREoQwREyVYSWuG,\r\n  author={Heliasz, M.},\r\n  title={Ecosystem meteo time series (ICOS Sweden), Hyltemossa, 2014-12-31–2015-12-31},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/6f2Jc9rM7KREoQwREyVYSWuG},\r\n  publisher={ICOS Sweden},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/6f2Jc9rM7KREoQwREyVYSWuG}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - Ecosystem meteo time series (ICOS Sweden), Hyltemossa, 2014-12-31–2015-12-31\r\nID - 11676/6f2Jc9rM7KREoQwREyVYSWuG\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/6f2Jc9rM7KREoQwREyVYSWuG\r\nPB - ICOS Sweden\r\nAU - Heliasz, M.\r\nER - ",
+    "citationString": "Heliasz, M., Swedish National Network, 2021. Ecosystem meteo time series (ICOS Sweden), Hyltemossa, 2014-12-31–2015-12-31, https://hdl.handle.net/11676/6f2Jc9rM7KREoQwREyVYSWuG",
+    "temporalCoverageDisplay": "2014-12-31–2015-12-31"
+  },
+  "size": 3425363,
+  "specificInfo": {
+    "acquisition": {
+      "interval": {
+        "start": "2014-12-31T23:30:00Z",
+        "stop": "2015-12-31T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 115.0,
+          "geo": {
+            "coordinates": [13.41897, 56.09763, 115.0],
+            "type": "Point"
+          },
+          "label": "SE-Htm",
+          "lat": 56.09763,
+          "lon": 13.41897
+        },
+        "funding": [{
+          "awardNumber": "2015-06020",
+          "awardTitle": "National Research Infrastructure ICOS Sweden",
+          "awardUrl": "www.icos-sweden.se",
+          "funder": {
+            "org": {
+              "name": "Swedish Research Council",
+              "self": {
+                "comments": [],
+                "uri": "http://meta.icos-cp.eu/resources/organizations/Swedish%20Research%20Council"
+              }
+            }
+          },
+          "self": {
+            "comments": ["co-financed by Lund University, Gothenburg University, Swedish Polar Research Secretariat, SLU, Stockholm University and Uppsala University"],
+            "label": "National Research Infrastructure ICOS Sweden to Hyltemossa",
+            "uri": "http://meta.icos-cp.eu/resources/fundings/61_2015-06020"
+          },
+          "start": "2016-04-01",
+          "stop": "2020-12-31"
+        }, {
+          "awardNumber": "2019-00205",
+          "awardTitle": "National Research Infrastructure ICOS Sweden",
+          "awardUrl": "www.icos-sweden.se",
+          "funder": {
+            "org": {
+              "name": "Swedish Research Council",
+              "self": {
+                "comments": [],
+                "uri": "http://meta.icos-cp.eu/resources/organizations/Swedish%20Research%20Council"
+              }
+            }
+          },
+          "self": {
+            "comments": ["co-financed by Lund University, SLU, Gothenburg University, Swedish Polar Research Secretariat, Uppsala University and SMHI"],
+            "label": "National Research Infrastructure ICOS Sweden to Hyltemossa",
+            "uri": "http://meta.icos-cp.eu/resources/fundings/61_2019-00205"
+          },
+          "start": "2021-01-01",
+          "stop": "2024-12-31"
+        }],
+        "id": "SE-Htm",
+        "org": {
+          "name": "Hyltemossa",
+          "self": {
+            "comments": ["The station Hyltemossa, with ICOS code SE-Htm, is located in southern Sweden. The site is a evergreen needleleaf managed forest located in a temperate, maritime climate. The forest in the target area composed of two stands, 29 and 34 years old, and dominated by Picea abies (L.) H.Karst (Norway spruce) with a small fraction of Betula spp. (birch) and single occurrence of Pinus sylvestris L. (Scots pine). Understory vegetation is sparse. The forest floor is mainly covered by moss."],
+            "label": "SE-Htm",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_SE-Htm"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/qnPLYMGQYLJW5JR/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "climateZone": {
+            "comments": [],
+            "label": "Oceanic subtropical highland (Cfb)",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/koppen_Cfb"
+          },
+          "countryCode": "SE",
+          "documentation": [{
+            "hash": "i8S47Rr8NTJvjGZ1RjaGtuBrENeVcZ-gUxVHToAhys8",
+            "name": "SE-Htm ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/i8S47Rr8NTJvjGZ1RjaGtuBr"
+          }],
+          "ecosystemType": {
+            "comments": ["Lands dominated by woody vegetation with a percent cover >60% and height exceeding 2 meters. Almost all trees remain green all year. Canopy is never without green foliage."],
+            "label": "Evergreen Needleleaf Forests",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_ENF"
+          },
+          "labelingDate": "2018-04-19",
+          "meanAnnualPrecip": 707.0,
+          "meanAnnualRad": 110.0,
+          "meanAnnualTemp": 7.4,
+          "stationClass": "2",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, UTC",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStamp"
+        }
+      }
+    }, {
+      "label": "date",
+      "valueType": {
+        "self": {
+          "comments": ["calendar date"],
+          "label": "measurement date",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/date"
+        }
+      }
+    }, {
+      "label": "time",
+      "valueType": {
+        "self": {
+          "comments": ["measurement time of day"],
+          "label": "measurement time",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeOfDay"
+        }
+      }
+    }, {
+      "label": "Swin_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of energy passing through unit area during unit of time"],
+          "label": "energy flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/energyFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "incoming shortwave radiation, pyranometer",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/incomingSwRadiationPyranometer"
+        },
+        "unit": "W m-2"
+      }
+    }, {
+      "label": "D_SNOW_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["spatial length"],
+          "label": "length",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/length"
+        },
+        "self": {
+          "comments": [],
+          "label": "snow depth",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/snowDepth"
+        },
+        "unit": "m"
+      }
+    }, {
+      "label": "Lwin_1_2_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of energy passing through unit area during unit of time"],
+          "label": "energy flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/energyFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "incoming long-wave radiation, net radiometer",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/incomingLwRadiationRadiometer"
+        },
+        "unit": "W m-2"
+      }
+    }, {
+      "label": "Lwnet_1_2_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of energy passing through unit area during unit of time"],
+          "label": "energy flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/energyFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "net long-wave radiation, net radiometer",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/netLwRadiationRadiometer"
+        },
+        "unit": "W m-2"
+      }
+    }, {
+      "label": "Lwout_1_2_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of energy passing through unit area during unit of time"],
+          "label": "energy flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/energyFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "outgoing long-wave radiation, net radiometer",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/outgoingLwRadiationRadiometer"
+        },
+        "unit": "W m-2"
+      }
+    }, {
+      "label": "NetRad_1_2_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of energy passing through unit area during unit of time"],
+          "label": "energy flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/energyFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "net radiation, net radiometer",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/netRadiationRadiometer"
+        },
+        "unit": "W m-2"
+      }
+    }, {
+      "label": "PPFD_DIFF_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of particles passing through unit area during unit of time"],
+          "label": "particle flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/particleFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "photosynthetic photon flux density diffuse",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/ppfdDif"
+        },
+        "unit": "µmol m-2 s-1"
+      }
+    }, {
+      "label": "PPFD_DIR_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of particles passing through unit area during unit of time"],
+          "label": "particle flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/particleFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "photosynthetic photon flux density incoming",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/ppfdIn"
+        },
+        "unit": "µmol m-2 s-1"
+      }
+    }, {
+      "label": "PPFD_IN_1_2_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of particles passing through unit area during unit of time"],
+          "label": "particle flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/particleFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "photosynthetic photon flux density incoming",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/ppfdIn"
+        },
+        "unit": "µmol m-2 s-1"
+      }
+    }, {
+      "label": "PPFD_OUT_1_2_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of particles passing through unit area during unit of time"],
+          "label": "particle flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/particleFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "photosynthetic photon flux density outgoing",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/ppfdOut"
+        },
+        "unit": "µmol m-2 s-1"
+      }
+    }, {
+      "label": "P_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["spatial length"],
+          "label": "length",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/length"
+        },
+        "self": {
+          "comments": [],
+          "label": "precipitation (total)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/precipitation"
+        },
+        "unit": "mm"
+      }
+    }, {
+      "label": "Pa_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["mechanical pressure, e.g. atmospheric or gas pressure"],
+          "label": "pressure",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/pressure"
+        },
+        "self": {
+          "comments": [],
+          "label": "air pressure",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/airPressure"
+        },
+        "unit": "hPa"
+      }
+    }, {
+      "label": "RH_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "relative humidity",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/relativeHumidity"
+        },
+        "unit": "%"
+      }
+    }, {
+      "label": "Sun_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "sunshine duration, sunshine sensor",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/sunshineTimeFraction"
+        },
+        "unit": "1"
+      }
+    }, {
+      "label": "Swin_1_2_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of energy passing through unit area during unit of time"],
+          "label": "energy flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/energyFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "incoming shortwave radiation, net radiometer",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/incomingSwRadiationRadiometer"
+        },
+        "unit": "W m-2"
+      }
+    }, {
+      "label": "Swnet_1_2_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of energy passing through unit area during unit of time"],
+          "label": "energy flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/energyFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "net shortwave radiation, net radiometer",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/netSwRadiationRadiometer"
+        },
+        "unit": "W m-2"
+      }
+    }, {
+      "label": "Swout_1_2_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of energy passing through unit area during unit of time"],
+          "label": "energy flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/energyFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "outgoing shortwave radiation, net radiometer",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/outgoingSwRadiationRadiometer"
+        },
+        "unit": "W m-2"
+      }
+    }, {
+      "label": "T_canopy_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["physical temperature"],
+          "label": "temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "target surface temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/targetSurfaceTemp"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "Ta_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["physical temperature"],
+          "label": "temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "air temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/airTempCelsius"
+        },
+        "unit": "°C"
+      }
+    }],
+    "nRows": 17520,
+    "productionInfo": {
+      "comment": "above canopy data. Swin: incoming solar radiation (150 m),Swnet: net short-wave radiation (50m),Lwnet: net longwave radiation (50m),NetRad: net radiation (50m),Swin: incoming short-wave radiation (50m),Swout: reflected SW radiation (50 m),Lwin: downward long-wave radiation (50m),Lwout: LW  emitted radiation (50m),Pa: air pressure (3.5 m),PPFD_IN: incoming photosynthetically active radiation (150m),PPFD_OUT: reflected PPFD (50m),PPFD_DIR: direct PPFD (50m),PPFD_DIFF: diffuse PPFD(50m),Sun: sunshine duration (50m),T_canopy: canopy surface temperature (50m),Ta: air temperature (24 m),RH: relative humidity (24 m),P: precipitation,D_SNOW: snow depth during winter. Timestamp at end of the averaging interval. More information: www.icos-sweden.se",
+      "contributors": [{
+        "firstName": "Michal",
+        "lastName": "Heliasz",
+        "orcid": "0000-0003-2635-9604",
+        "self": {
+          "comments": [],
+          "uri": "http://meta.icos-cp.eu/resources/people/Michal_Heliasz"
+        }
+      }],
+      "creator": {
+        "name": "ICOS Sweden",
+        "self": {
+          "comments": [],
+          "label": "ICOS-SE",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/icosSweden"
+        }
+      },
+      "dateTime": "2021-04-16T00:00:00Z",
+      "sources": []
+    }
+  },
+  "specification": {
+    "dataLevel": 1,
+    "datasetSpec": {
+      "self": {
+        "comments": [],
+        "label": "Ecosystem meteo time series (ICOS Sweden)",
+        "uri": "http://meta.icos-cp.eu/resources/cpmeta/ecoMeteoDataset"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Time series in ICOS Sweden format",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiEtcTimeSer"
+    },
+    "keywords": ["meteo"],
+    "project": {
+      "keywords": ["pre-ICOS", "Sweden"],
+      "self": {
+        "comments": ["Uploads from ICOS Sweden that do not have the official ICOS status"],
+        "label": "Swedish National Network",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos_sweden"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "Ecosystem meteo time series (ICOS Sweden)",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/ecoMeteoDataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-04-16T12:09:49.097Z",
+    "stop": "2021-04-16T12:10:53.802Z",
+    "submitter": {
+      "name": "ICOS Sweden",
+      "self": {
+        "comments": [],
+        "label": "ICOS-SE",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/icosSweden"
+      }
+    }
+  }
+}

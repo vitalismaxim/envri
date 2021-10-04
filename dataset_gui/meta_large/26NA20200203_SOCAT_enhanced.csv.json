@@ -1,0 +1,438 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/QcHtuEpwij0G73zl4F12jHHH",
+  "coverageGeo": {
+    "coordinates": [[-52.336, 64.086], [-51.83, 64.136], [-51.561, 63.92], [-51.706, 63.499], [-49.279, 61.29], [-48.332, 60.502], [-47.363, 59.912], [-46.541, 59.68], [-44.611, 59.395], [-43.326, 59.039], [-41.296, 58.768], [-26.212, 58.454], [-23.177, 58.415], [-20.682, 58.34], [-13.877, 58.212], [-6.248, 58.646], [-2.984, 58.643], [3.616, 57.816], [3.8, 57.79], [3.984, 57.767]],
+    "type": "LineString"
+  },
+  "fileName": "26NA20200407_SOCAT_enhanced.csv",
+  "hash": "QcHtuEpwij0G73zl4F12jHHHuQGo6dtVOyo1VUtnTus",
+  "parentCollections": [{
+    "comments": [],
+    "label": "NO-SOOP-Nuka Arctica 2020",
+    "uri": "https://meta.icos-cp.eu/collections/l0mlbpxBvROASjeVV6eV-rPW"
+  }],
+  "pid": "11676/QcHtuEpwij0G73zl4F12jHHH",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Meike",
+      "lastName": "Becker",
+      "orcid": "0000-0001-7650-0923",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Meike_Becker"
+      }
+    }, {
+      "firstName": "Are",
+      "lastName": "Olsen",
+      "orcid": "0000-0003-1696-9142",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Are_Olsen"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/QcHtuEpwij0G73zl4F12jHHH,\r\n  author={Becker, M., Olsen, A.},\r\n  title={ICOS OTC SOOP Release, NO-SOOP-Nuka Arctica, 2020-04-08–2020-04-15},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/QcHtuEpwij0G73zl4F12jHHH},\r\n  publisher={Ocean Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/QcHtuEpwij0G73zl4F12jHHH}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS OTC SOOP Release, NO-SOOP-Nuka Arctica, 2020-04-08–2020-04-15\r\nID - 11676/QcHtuEpwij0G73zl4F12jHHH\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/QcHtuEpwij0G73zl4F12jHHH\r\nPB - Ocean Thematic Centre\r\nAU - Becker, M.\r\nAU - Olsen, A.\r\nER - ",
+    "citationString": "Becker, M., Olsen, A., ICOS RI, 2021. ICOS OTC SOOP Release, NO-SOOP-Nuka Arctica, 2020-04-08–2020-04-15, https://hdl.handle.net/11676/QcHtuEpwij0G73zl4F12jHHH",
+    "temporalCoverageDisplay": "2020-04-08–2020-04-15"
+  },
+  "size": 766586,
+  "specificInfo": {
+    "acquisition": {
+      "interval": {
+        "start": "2020-04-08T19:08:46Z",
+        "stop": "2020-04-15T12:10:30Z"
+      },
+      "station": {
+        "coverage": {
+          "geo": {
+            "coordinates": [[10.705091, 57.507771], [10.754388, 57.788897], [6.297171, 57.976484], [-20.273365, 61.502349], [-44.225233, 59.610244], [-49.432987, 60.835854], [-54.791268, 66.468184], [-54.518581, 68.878036], [-51.522277, 68.988916], [-54.757689, 69.030894], [-69.792466, 76.395006]],
+            "type": "LineString"
+          },
+          "label": "NO-SOOP-Nuka Arctica geo-coverage",
+          "points": [{
+            "lat": 57.50777060730879,
+            "lon": 10.70509126883342
+          }, {
+            "lat": 57.78889739598785,
+            "lon": 10.75438839684813
+          }, {
+            "lat": 57.97648359460186,
+            "lon": 6.297171229119649
+          }, {
+            "lat": 61.5023487943951,
+            "lon": -20.2733648732331
+          }, {
+            "lat": 59.61024421628845,
+            "lon": -44.22523257447214
+          }, {
+            "lat": 60.83585402176858,
+            "lon": -49.43298697702522
+          }, {
+            "lat": 66.4681837038358,
+            "lon": -54.79126818500632
+          }, {
+            "lat": 68.87803586128449,
+            "lon": -54.51858117452302
+          }, {
+            "lat": 68.98891581697524,
+            "lon": -51.52227711122041
+          }, {
+            "lat": 69.03089355671858,
+            "lon": -54.75768893628396
+          }, {
+            "lat": 76.39500623641551,
+            "lon": -69.792466236591
+          }]
+        },
+        "id": "26NA",
+        "org": {
+          "name": "NO-SOOP-Nuka Arctica",
+          "self": {
+            "comments": ["The cargo ship M/S Nuka Arctica is a voluntary observing ship (VOS) run by the Royal Arctic Line A/S, Denmark. The station began measuring sea surface pCO2 20th January, 2004, and University of Bergen, Norway, is the responsible institution for this effort, with Dr. Meike Becker and Prof. Are Olsen as PIs. Nuka Arctica regularly transports cargo between Aalborg, Denmark and Nuke, Greenland, stopping occasionally at, or passing South of Iceland (Figure 1). The route Aalborg-Nuke-Aalborg takes approximately 3 weeks. The station’s geographical region includes the North Sea, northern North Atlantic, and Greenland’s west coast."],
+            "label": "26NA",
+            "uri": "http://meta.icos-cp.eu/resources/stations/OS_26NA"
+          },
+          "website": "http://nuka.uib.no/"
+        },
+        "pictures": [],
+        "responsibleOrganization": {
+          "name": "University of Bergen",
+          "self": {
+            "comments": [],
+            "label": "University of Bergen",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/UoB"
+          }
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "NO",
+          "documentation": [],
+          "labelingDate": "2018-04-23",
+          "stationClass": "1",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/oce.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/os.png",
+            "self": {
+              "comments": [],
+              "label": "Ocean data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ocean"
+            }
+          }
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, UTC",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStamp"
+        }
+      }
+    }, {
+      "label": "Longitude",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["angle in the trigonometric sense"],
+          "label": "angle",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/angle"
+        },
+        "self": {
+          "comments": ["WGS84 longitude"],
+          "label": "longitude",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/longitude"
+        },
+        "unit": "°"
+      }
+    }, {
+      "label": "Latitude",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["angle in the trigonometric sense"],
+          "label": "angle",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/angle"
+        },
+        "self": {
+          "comments": ["WGS84 latitude"],
+          "label": "latitude",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/latitude"
+        },
+        "unit": "°"
+      }
+    }, {
+      "label": "P_sal [psu]",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": ["practical salinity of the water body"],
+          "label": "practical salinity",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/salinity"
+        },
+        "unit": "psu"
+      }
+    }, {
+      "label": "Temp [degC]",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["physical temperature"],
+          "label": "temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "water temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/waterTempCelcius"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "Atmospheric Pressure [hPa]",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["mechanical pressure, e.g. atmospheric or gas pressure"],
+          "label": "pressure",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/pressure"
+        },
+        "self": {
+          "comments": [],
+          "label": "air pressure",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/airPressure"
+        },
+        "unit": "hPa"
+      }
+    }, {
+      "label": "pCO2 [uatm]",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["mechanical pressure, e.g. atmospheric or gas pressure"],
+          "label": "pressure",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/pressure"
+        },
+        "self": {
+          "comments": ["CO2 partial pressure in water body at sea surface temperature"],
+          "label": "CO2 partial pressure (water), SST",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/co2PartPressWaterSST"
+        },
+        "unit": "µatm"
+      }
+    }, {
+      "label": "fCO2 [uatm]",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["mechanical pressure, e.g. atmospheric or gas pressure"],
+          "label": "pressure",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/pressure"
+        },
+        "self": {
+          "comments": ["Fugacity of carbon dioxide (water) at sea surface temperature (wet air)"],
+          "label": "CO2 fugacity (water), SST",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/co2FugacityWater"
+        },
+        "unit": "µatm"
+      }
+    }, {
+      "label": "fCO2 [uatm] QC Flag",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "pCO2 [uatm] QC Flag",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "P_sal [psu] QC Flag",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "Temp [degC] QC Flag",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }],
+    "coverage": {
+      "geo": {
+        "coordinates": [[-52.336, 64.086], [-51.83, 64.136], [-51.561, 63.92], [-51.706, 63.499], [-49.279, 61.29], [-48.332, 60.502], [-47.363, 59.912], [-46.541, 59.68], [-44.611, 59.395], [-43.326, 59.039], [-41.296, 58.768], [-26.212, 58.454], [-23.177, 58.415], [-20.682, 58.34], [-13.877, 58.212], [-6.248, 58.646], [-2.984, 58.643], [3.616, 57.816], [3.8, 57.79], [3.984, 57.767]],
+        "type": "LineString"
+      },
+      "points": [{
+        "lat": 64.086,
+        "lon": -52.336
+      }, {
+        "lat": 64.136,
+        "lon": -51.83
+      }, {
+        "lat": 63.92,
+        "lon": -51.561
+      }, {
+        "lat": 63.499,
+        "lon": -51.706
+      }, {
+        "lat": 61.29,
+        "lon": -49.279
+      }, {
+        "lat": 60.502,
+        "lon": -48.332
+      }, {
+        "lat": 59.912,
+        "lon": -47.363
+      }, {
+        "lat": 59.68,
+        "lon": -46.541
+      }, {
+        "lat": 59.395,
+        "lon": -44.611
+      }, {
+        "lat": 59.039,
+        "lon": -43.326
+      }, {
+        "lat": 58.768,
+        "lon": -41.296
+      }, {
+        "lat": 58.454,
+        "lon": -26.212
+      }, {
+        "lat": 58.415,
+        "lon": -23.177
+      }, {
+        "lat": 58.34,
+        "lon": -20.682
+      }, {
+        "lat": 58.212,
+        "lon": -13.877
+      }, {
+        "lat": 58.646,
+        "lon": -6.248
+      }, {
+        "lat": 58.643,
+        "lon": -2.984
+      }, {
+        "lat": 57.816,
+        "lon": 3.616
+      }, {
+        "lat": 57.79,
+        "lon": 3.8
+      }, {
+        "lat": 57.767,
+        "lon": 3.984
+      }]
+    },
+    "nRows": 4534,
+    "productionInfo": {
+      "comment": "Becker, M., and Olsen, A. (2021). Underway physical oceanography and carbon dioxide measurements during Nuka Arctica cruise",
+      "contributors": [{
+        "firstName": "Meike",
+        "lastName": "Becker",
+        "orcid": "0000-0001-7650-0923",
+        "self": {
+          "comments": [],
+          "uri": "http://meta.icos-cp.eu/resources/people/Meike_Becker"
+        }
+      }, {
+        "firstName": "Are",
+        "lastName": "Olsen",
+        "orcid": "0000-0003-1696-9142",
+        "self": {
+          "comments": [],
+          "uri": "http://meta.icos-cp.eu/resources/people/Are_Olsen"
+        }
+      }],
+      "creator": {
+        "name": "Ocean Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS OTC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/OTC"
+        }
+      },
+      "dateTime": "2021-05-31T15:38:00Z",
+      "host": {
+        "name": "University of Bergen",
+        "self": {
+          "comments": [],
+          "label": "University of Bergen",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/UoB"
+        }
+      },
+      "sources": []
+    }
+  },
+  "specification": {
+    "dataLevel": 2,
+    "datasetSpec": {
+      "self": {
+        "comments": ["valid for QuinCe versions from 2.0.0"],
+        "label": "OTC SOOP dataset",
+        "uri": "http://meta.icos-cp.eu/resources/cpmeta/otcProduct_Dataset_v2"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": ["Single-line comment, first column is UTC ISO-8601 timestamp, NaN for missing values, comma-separated."],
+      "label": "ICOS OTC time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiOtcProductCsv"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS OTC SOOP Release",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/icosOtcL2Product"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/oce.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/os.png",
+      "self": {
+        "comments": [],
+        "label": "Ocean data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ocean"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-05-31T13:38:06.364603Z",
+    "stop": "2021-05-31T13:38:10.859247Z",
+    "submitter": {
+      "name": "Ocean Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS OTC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/OTC"
+      }
+    }
+  }
+}

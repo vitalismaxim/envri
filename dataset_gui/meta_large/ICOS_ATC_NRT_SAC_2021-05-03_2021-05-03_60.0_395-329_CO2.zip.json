@@ -1,0 +1,233 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/7UV9XZGCVAl9Y3UJUb8cxRMS",
+  "coverageGeo": {
+    "coordinates": [2.142, 48.7227, 160.0],
+    "type": "Point"
+  },
+  "fileName": "ICOS_ATC_NRT_SAC_2021-05-03_2021-05-03_60.0_781-395-329_CO.zip",
+  "hash": "7UV9XZGCVAl9Y3UJUb8cxRMSSHVf3iVWLgZA9UAOStM",
+  "parentCollections": [],
+  "pid": "11676/7UV9XZGCVAl9Y3UJUb8cxRMS",
+  "references": {
+    "acknowledgements": [],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/7UV9XZGCVAl9Y3UJUb8cxRMS,\r\n  title={ICOS ATC NRT CO data csv time series, Saclay (60.0 m), 2021-05-03},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/7UV9XZGCVAl9Y3UJUb8cxRMS},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/7UV9XZGCVAl9Y3UJUb8cxRMS}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC NRT CO data csv time series, Saclay (60.0 m), 2021-05-03\r\nID - 11676/7UV9XZGCVAl9Y3UJUb8cxRMS\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/7UV9XZGCVAl9Y3UJUb8cxRMS\r\nPB - Atmosphere Thematic Centre\r\nER - ",
+    "citationString": "Copernicus, 2021. ICOS ATC NRT CO data csv time series, Saclay (60.0 m), 2021-05-03, https://hdl.handle.net/11676/7UV9XZGCVAl9Y3UJUb8cxRMS",
+    "temporalCoverageDisplay": "2021-05-03"
+  },
+  "size": 1835,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": [{
+        "comments": [],
+        "label": "RAMCES - G24",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_329"
+      }, {
+        "comments": [],
+        "label": "RAMCES - G53",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_781"
+      }, {
+        "comments": [],
+        "label": "RAMCES - G24",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_395"
+      }],
+      "interval": {
+        "start": "2021-05-03T00:00:00Z",
+        "stop": "2021-05-03T23:00:00Z"
+      },
+      "samplingHeight": 60.0,
+      "station": {
+        "coverage": {
+          "alt": 160.0,
+          "geo": {
+            "coordinates": [2.142, 48.7227, 160.0],
+            "type": "Point"
+          },
+          "label": "SAC",
+          "lat": 48.7227,
+          "lon": 2.142
+        },
+        "id": "SAC",
+        "org": {
+          "name": "Saclay",
+          "self": {
+            "comments": [],
+            "label": "SAC",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_SAC"
+          }
+        },
+        "pictures": ["https://meta.icos-cp.eu/files/RZMOSj6rgMtludCF7N3V-o7Y/SAC.tower.jpg", "https://meta.icos-cp.eu/files/vkaBwYtZcnXJyBL_w6qAL1ky/SAC.oct2017_SouthEast.jpg"],
+        "responsibleOrganization": {
+          "name": "Commissariat à l'énergie atomique et aux énergies alternatives",
+          "self": {
+            "comments": [],
+            "label": "CEA",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/CEA"
+          },
+          "website": "https://www.cea.fr"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "FR",
+          "documentation": [{
+            "hash": "y21ItRu8xBZ3c64ABZs-xzPUy2EsmxdQTifgRmzofug",
+            "name": "Saclay_STILT_station_characterization.pdf",
+            "res": "https://meta.icos-cp.eu/objects/y21ItRu8xBZ3c64ABZs-xzPU"
+          }],
+          "labelingDate": "2020-06-15",
+          "stationClass": "1",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, UTC",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStamp"
+        }
+      }
+    }, {
+      "label": "Flag",
+      "valueType": {
+        "self": {
+          "comments": ["single-letter quality flag"],
+          "label": "quality flag",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/oneLetterFlag"
+        }
+      }
+    }, {
+      "label": "NbPoints",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["integer number"],
+          "label": "number",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/number"
+        },
+        "self": {
+          "comments": [],
+          "label": "number of points",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/npoints"
+        }
+      }
+    }, {
+      "label": "Stdev",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "standard deviation of gas mole fraction",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/moleFractionSdPpb"
+        },
+        "unit": "nmol mol-1"
+      }
+    }, {
+      "label": "co",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "CO mixing ratio (dry mole fraction)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/coMixingRatioPpb"
+        },
+        "unit": "nmol mol-1"
+      }
+    }],
+    "nRows": 24,
+    "productionInfo": {
+      "contributors": [],
+      "creator": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "dateTime": "2021-05-04T05:19:59Z",
+      "host": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "sources": []
+    }
+  },
+  "specification": {
+    "dataLevel": 1,
+    "datasetSpec": {
+      "self": {
+        "comments": [],
+        "label": "Atmospheric CO mole fraction time series",
+        "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcCoMoleFracTimeSer"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": ["Semicolon-separated ASCII, with #-prefixed multi-line header"],
+      "label": "ICOS ATC time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcProductTimeSer"
+    },
+    "keywords": ["CO", "concentration"],
+    "project": {
+      "self": {
+        "comments": ["European Union's Earth Observation Programme"],
+        "label": "Copernicus",
+        "uri": "http://meta.icos-cp.eu/resources/projects/copernicus"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ATC NRT CO data csv time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcCoNrtDataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-05-04T05:20:00.132Z",
+    "stop": "2021-05-04T05:20:03.053Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

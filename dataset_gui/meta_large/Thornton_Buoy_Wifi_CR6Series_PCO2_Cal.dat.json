@@ -1,0 +1,148 @@
+{
+  "coverageGeo": {
+    "coordinates": [2.993217, 51.57989],
+    "type": "Point"
+  },
+  "fileName": "Thornton_Buoy_Wifi_CR6Series_PCO2_Cal.dat",
+  "hash": "yohnJj58m2tGzJQHYqoBZufLOvnzh-wcDuefypaFmT0",
+  "parentCollections": [],
+  "pid": "11676/yohnJj58m2tGzJQHYqoBZufL",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Thanos",
+      "lastName": "Gkritzalis",
+      "orcid": "0000-0002-7897-4230",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Thanos_Gkritzalis"
+      }
+    }, {
+      "firstName": "Hannelore",
+      "lastName": "Theetaert",
+      "orcid": "0000-0003-2307-884X",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Hannelore_Theetaert"
+      }
+    }, {
+      "firstName": "Andre",
+      "lastName": "Cattrijsse",
+      "orcid": "0000-0003-0772-3087",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Andre_Cattrijsse"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/yohnJj58m2tGzJQHYqoBZufL,\r\n  author={Gkritzalis, T., Theetaert, H., Cattrijsse, A.},\r\n  title={ICOS OTC Raw Data, BE-FOS-Thornton Buoy, 2019-03-22–2019-05-23},\r\n  year={2019},\r\n  url={https://hdl.handle.net/11676/yohnJj58m2tGzJQHYqoBZufL},\r\n  publisher={Ocean Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/yohnJj58m2tGzJQHYqoBZufL}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS OTC Raw Data, BE-FOS-Thornton Buoy, 2019-03-22–2019-05-23\r\nID - 11676/yohnJj58m2tGzJQHYqoBZufL\r\nPY - 2019\r\nUR - https://hdl.handle.net/11676/yohnJj58m2tGzJQHYqoBZufL\r\nPB - Ocean Thematic Centre\r\nAU - Gkritzalis, T.\r\nAU - Theetaert, H.\r\nAU - Cattrijsse, A.\r\nER - ",
+    "citationString": "Gkritzalis, T., Theetaert, H., Cattrijsse, A., ICOS RI, 2019. ICOS OTC Raw Data, BE-FOS-Thornton Buoy, 2019-03-22–2019-05-23, https://hdl.handle.net/11676/yohnJj58m2tGzJQHYqoBZufL",
+    "temporalCoverageDisplay": "2019-03-22–2019-05-23"
+  },
+  "size": 5287,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "Thornton Buoy Pro-OCEANUS CO2-Pro",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/OTC_Thornton_Pro-OCEANUS"
+      },
+      "interval": {
+        "start": "2019-03-22T00:03:00.800Z",
+        "stop": "2019-05-23T00:02:51.100Z"
+      },
+      "station": {
+        "coverage": {
+          "geo": {
+            "coordinates": [2.993217, 51.57989],
+            "type": "Point"
+          },
+          "label": "1199",
+          "lat": 51.57989,
+          "lon": 2.993217
+        },
+        "id": "1199",
+        "org": {
+          "name": "BE-FOS-Thornton Buoy",
+          "self": {
+            "comments": ["Moored surface buoy that serves both ERICs ICOS and LifeWatch. The buoy is equipped with sensors for pCO2, dissolved oxygen, temperature, salinity, fluorescence (chl-a), turbidity, passive acoustic receiver. Sensors are deployed approx 1m below sea surface. Station is visited on a monthly basis in order to collect samples for validation/calibration of sensors and maintain/replace equipment. Station has a secure and stable communication with VLIZ servers for NRT data transmission and overall interactive communication with in situ equipment "],
+            "label": "1199",
+            "uri": "http://meta.icos-cp.eu/resources/stations/OS_1199"
+          }
+        },
+        "pictures": [],
+        "responsibleOrganization": {
+          "name": "Vlaams Instituut voor de Zee (Flanders Marine Institute), VLIZ",
+          "self": {
+            "comments": [],
+            "uri": "http://meta.icos-cp.eu/resources/organizations/vliz"
+          }
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "BE",
+          "documentation": [],
+          "labelingDate": "2018-10-30",
+          "stationClass": "1",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/oce.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/os.png",
+            "self": {
+              "comments": [],
+              "label": "Ocean data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ocean"
+            }
+          }
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "ICOS OTC Raw Data",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/otcRawData"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS OTC Raw Data",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/otcL0DataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/oce.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/os.png",
+      "self": {
+        "comments": [],
+        "label": "Ocean data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ocean"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-03-05T15:06:43.083Z",
+    "stop": "2021-03-05T15:06:45.768Z",
+    "submitter": {
+      "name": "Ocean Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS OTC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/OTC"
+      }
+    }
+  }
+}

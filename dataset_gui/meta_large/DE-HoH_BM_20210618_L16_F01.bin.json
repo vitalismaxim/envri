@@ -1,0 +1,169 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/wHaWj2HAKK8diNdjUsPyurIG",
+  "coverageGeo": {
+    "coordinates": [[[-15.0, 33.0], [-15.0, 73.0], [35.0, 73.0], [35.0, 33.0], [-15.0, 33.0]]],
+    "type": "Polygon"
+  },
+  "fileName": "VPRM_ECMWF_RESP_2018_CP.nc",
+  "hash": "wHaWj2HAKK8diNdjUsPyurIGmcdYyLkdDyImHIVWmdo",
+  "parentCollections": [{
+    "comments": [],
+    "label": "Biosphere-atmosphere exchange fluxes for CO2 from the Vegetation Photosynthesis and Respiration Model VPRM for 2006-2020",
+    "uri": "https://meta.icos-cp.eu/collections/V57OCYUGanileRMTJDJ9yMfz"
+  }],
+  "pid": "11676/wHaWj2HAKK8diNdjUsPyurIG",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Christoph",
+      "lastName": "Gerbig",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Christoph_Gerbig"
+      }
+    }, {
+      "firstName": "Frank-Thomas",
+      "lastName": "Koch",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Thomas_Koch"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/wHaWj2HAKK8diNdjUsPyurIG,\r\n  author={Gerbig, C., Koch, F.},\r\n  title={VPRM biosphere model result: ecosystem respiration of CO2 },\r\n  year={2020},\r\n  note={Biosphere-atmosphere exchange fluxes for CO2 simulated with the Vegetation Photosynthesis and Respiration Model VPRM (Mahadevan et al., 2008, https://doi.org/10.1029/2006GB002735) for the European domain. \n Simulations were performed using the following datasets:\n - Vegetation Photosynthesis and Respiration Model (VPRM) parameters optimized for the year 2007 using 46 sites within Europe (available from www.europe-fluxdata.eu) \n - VPRM preprocessor code version Rev.116 \n - VPRM optimization code version Rev.7 \n - VPRM offline code version Rev. 13 \n - MODIS Terra MOD09A1 surface reflectances version 6 \n - Downward shortwave radiation and 2m Temperature extracted from analysis and short-term forecast fields from the ECMWF IFS model \n - Landcover classification based on SYNMAP (Jung et al., 2006, https://doi.org/10.1016/j.rse.2006.01.020)},\r\n  keywords={CO2},\r\n  url={https://hdl.handle.net/11676/wHaWj2HAKK8diNdjUsPyurIG},\r\n  publisher={Carbon Portal},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/wHaWj2HAKK8diNdjUsPyurIG}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - VPRM biosphere model result: ecosystem respiration of CO2 \r\nID - 11676/wHaWj2HAKK8diNdjUsPyurIG\r\nPY - 2020\r\nAB - Biosphere-atmosphere exchange fluxes for CO2 simulated with the Vegetation Photosynthesis and Respiration Model VPRM (Mahadevan et al., 2008, https://doi.org/10.1029/2006GB002735) for the European domain. \n Simulations were performed using the following datasets:\n - Vegetation Photosynthesis and Respiration Model (VPRM) parameters optimized for the year 2007 using 46 sites within Europe (available from www.europe-fluxdata.eu) \n - VPRM preprocessor code version Rev.116 \n - VPRM optimization code version Rev.7 \n - VPRM offline code version Rev. 13 \n - MODIS Terra MOD09A1 surface reflectances version 6 \n - Downward shortwave radiation and 2m Temperature extracted from analysis and short-term forecast fields from the ECMWF IFS model \n - Landcover classification based on SYNMAP (Jung et al., 2006, https://doi.org/10.1016/j.rse.2006.01.020)\r\nUR - https://hdl.handle.net/11676/wHaWj2HAKK8diNdjUsPyurIG\r\nPB - Carbon Portal\r\nAU - Gerbig, C.\r\nAU - Koch, F.\r\nKW - CO2\r\nER - ",
+    "citationString": "Gerbig, C., Koch, F., Miscellaneous, 2020. VPRM biosphere model result: ecosystem respiration of CO2 , https://hdl.handle.net/11676/wHaWj2HAKK8diNdjUsPyurIG",
+    "keywords": ["CO2"],
+    "temporalCoverageDisplay": "2018"
+  },
+  "size": 6727724324,
+  "specificInfo": {
+    "description": "Biosphere-atmosphere exchange fluxes for CO2 simulated with the Vegetation Photosynthesis and Respiration Model VPRM (Mahadevan et al., 2008, https://doi.org/10.1029/2006GB002735) for the European domain. \n Simulations were performed using the following datasets:\n - Vegetation Photosynthesis and Respiration Model (VPRM) parameters optimized for the year 2007 using 46 sites within Europe (available from www.europe-fluxdata.eu) \n - VPRM preprocessor code version Rev.116 \n - VPRM optimization code version Rev.7 \n - VPRM offline code version Rev. 13 \n - MODIS Terra MOD09A1 surface reflectances version 6 \n - Downward shortwave radiation and 2m Temperature extracted from analysis and short-term forecast fields from the ECMWF IFS model \n - Landcover classification based on SYNMAP (Jung et al., 2006, https://doi.org/10.1016/j.rse.2006.01.020)",
+    "productionInfo": {
+      "contributors": [{
+        "firstName": "Christoph",
+        "lastName": "Gerbig",
+        "self": {
+          "comments": [],
+          "uri": "http://meta.icos-cp.eu/resources/people/Christoph_Gerbig"
+        }
+      }, {
+        "firstName": "Frank-Thomas",
+        "lastName": "Koch",
+        "self": {
+          "comments": [],
+          "uri": "http://meta.icos-cp.eu/resources/people/Thomas_Koch"
+        }
+      }],
+      "creator": {
+        "firstName": "Christoph",
+        "lastName": "Gerbig",
+        "self": {
+          "comments": [],
+          "uri": "http://meta.icos-cp.eu/resources/people/Christoph_Gerbig"
+        }
+      },
+      "dateTime": "2020-11-06T11:00:00Z",
+      "host": {
+        "name": "Max Planck Institute for Biogeochemistry",
+        "self": {
+          "comments": [],
+          "label": "MPI-BGC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/MPI-BGC"
+        }
+      },
+      "sources": []
+    },
+    "spatial": {
+      "label": "Europe",
+      "max": {
+        "lat": 73.0,
+        "lon": 35.0
+      },
+      "min": {
+        "lat": 33.0,
+        "lon": -15.0
+      },
+      "uri": "http://meta.icos-cp.eu/resources/spcov_wHaWj2HAKK8diNdjUsPyurIG"
+    },
+    "temporal": {
+      "interval": {
+        "start": "2018-01-01T00:00:00Z",
+        "stop": "2019-01-01T00:00:00Z"
+      },
+      "resolution": "hourly"
+    },
+    "title": "VPRM biosphere model result: ecosystem respiration of CO2 ",
+    "variables": [{
+      "label": "RESP",
+      "minMax": [0.0, 8.490102767944336],
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of particles passing through unit area during unit of time"],
+          "label": "particle flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/particleFlux"
+        },
+        "self": {
+          "comments": ["CO2 molecule flux"],
+          "label": "ecosystem respiration",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/ecosystemRespiration"
+        },
+        "unit": "µmol m-2 s-1"
+      }
+    }]
+  },
+  "specification": {
+    "dataLevel": 3,
+    "datasetSpec": {
+      "self": {
+        "comments": [],
+        "label": "Biosphere-Modeling spatial dataset",
+        "uri": "http://meta.icos-cp.eu/resources/cpmeta/biosphereModelingSpatialDataset"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "NetCDF (spatial)",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/netcdf"
+    },
+    "keywords": ["carbon flux", "biosphere modeling"],
+    "project": {
+      "self": {
+        "comments": ["Various other data not associated with a specific project"],
+        "label": "Miscellaneous",
+        "uri": "http://meta.icos-cp.eu/resources/projects/misc"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "Biosphere modeling spatial result",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/biosphereModelingSpatial"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-06-18T16:59:14.223312Z",
+    "stop": "2021-06-18T20:13:29.172854Z",
+    "submitter": {
+      "name": "Carbon Portal",
+      "self": {
+        "comments": [],
+        "label": "CP",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/CP"
+      }
+    }
+  }
+}

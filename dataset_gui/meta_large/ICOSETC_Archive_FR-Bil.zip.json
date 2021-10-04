@@ -1,0 +1,181 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/J9dwIEpZs3JBIvsWI3VbRyHe",
+  "coverageGeo": {
+    "coordinates": [-0.956082, 44.49367, 39.18],
+    "type": "Point"
+  },
+  "fileName": "ICOSETC_Archive_FR-Bil.zip",
+  "hash": "J9dwIEpZs3JBIvsWI3VbRyHeX30lI8UK-GU23lOryAw",
+  "parentCollections": [{
+    "comments": [],
+    "label": "Ecosystem final quality (L2) product in ETC-Archive format - release 2021-1",
+    "uri": "https://meta.icos-cp.eu/collections/Yljl66tHIJM-XlCmvTvMU3vi"
+  }],
+  "pid": "11676/J9dwIEpZs3JBIvsWI3VbRyHe",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Denis",
+      "lastName": "Loustau",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Denis_Loustau"
+      }
+    }, {
+      "firstName": "Christelle",
+      "lastName": "Aluome",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Christelle_Aluome"
+      }
+    }, {
+      "firstName": "Christophe",
+      "lastName": "Chipeaux",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Christophe_Chipeaux"
+      }
+    }, {
+      "firstName": "Jean-Luc",
+      "lastName": "Denou",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jean-Luc_Denou"
+      }
+    }, {
+      "firstName": "Alain",
+      "lastName": "Kruszewski",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Alain_Kruszewski"
+      }
+    }, {
+      "firstName": "Sebastien",
+      "lastName": "Lafont",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Sebastien_Lafont"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/J9dwIEpZs3JBIvsWI3VbRyHe,\r\n  author={Loustau, D., Aluome, C., Chipeaux, C., Denou, J., Kruszewski, A., Lafont, S.},\r\n  title={ETC L2 ARCHIVE, Bilos, 2018-12-31–2020-12-31},\r\n  year={2020},\r\n  url={https://hdl.handle.net/11676/J9dwIEpZs3JBIvsWI3VbRyHe},\r\n  publisher={Ecosystem Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/J9dwIEpZs3JBIvsWI3VbRyHe}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ETC L2 ARCHIVE, Bilos, 2018-12-31–2020-12-31\r\nID - 11676/J9dwIEpZs3JBIvsWI3VbRyHe\r\nPY - 2020\r\nUR - https://hdl.handle.net/11676/J9dwIEpZs3JBIvsWI3VbRyHe\r\nPB - Ecosystem Thematic Centre\r\nAU - Loustau, D.\r\nAU - Aluome, C.\r\nAU - Chipeaux, C.\r\nAU - Denou, J.\r\nAU - Kruszewski, A.\r\nAU - Lafont, S.\r\nER - ",
+    "citationString": "Loustau, D., Aluome, C., Chipeaux, C., Denou, J., Kruszewski, A., Lafont, S., ICOS RI, 2020. ETC L2 ARCHIVE, Bilos, 2018-12-31–2020-12-31, https://hdl.handle.net/11676/J9dwIEpZs3JBIvsWI3VbRyHe",
+    "temporalCoverageDisplay": "2018-12-31–2020-12-31"
+  },
+  "size": 25868977,
+  "specificInfo": {
+    "acquisition": {
+      "interval": {
+        "start": "2018-12-31T23:00:00Z",
+        "stop": "2020-12-31T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 39.18,
+          "geo": {
+            "coordinates": [-0.956082, 44.49367, 39.18],
+            "type": "Point"
+          },
+          "label": "FR-Bil",
+          "lat": 44.49367,
+          "lon": -0.956082
+        },
+        "id": "FR-Bil",
+        "org": {
+          "name": "Bilos",
+          "self": {
+            "comments": ["The Bilos site, code ICOS FR-Bil, is located in the Landes forest, 50 Km south west of Bordeaux, France. The site is a managed Pine forest plantation. The soil is a sandy podzol with a discontinuous layer of iron hard pan at 75 cm depth that limits root extension."],
+            "label": "FR-Bil",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_FR-Bil"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/43CdoB5zM3zTrN9/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "climateZone": {
+            "comments": [],
+            "label": "Oceanic subtropical highland (Cfb)",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/koppen_Cfb"
+          },
+          "countryCode": "FR",
+          "documentation": [{
+            "hash": "w6ohHvo3_cgeDOu-PBLg1ZHCKYIZPPuglNEprbIWVMU",
+            "name": "FR-Bil ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/w6ohHvo3_cgeDOu-PBLg1ZHC"
+          }],
+          "ecosystemType": {
+            "comments": ["Lands dominated by woody vegetation with a percent cover >60% and height exceeding 2 meters. Almost all trees remain green all year. Canopy is never without green foliage."],
+            "label": "Evergreen Needleleaf Forests",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_ENF"
+          },
+          "labelingDate": "2019-10-28",
+          "meanAnnualPrecip": 960.1,
+          "meanAnnualRad": 140.9,
+          "meanAnnualTemp": 12.9,
+          "stationClass": "2",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    },
+    "nRows": 35088
+  },
+  "specification": {
+    "dataLevel": 2,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Arbitrary ZIP archive",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipArchive"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ETC L2 ARCHIVE",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcArchiveProduct"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-04-30T10:21:16.719Z",
+    "stop": "2021-04-30T10:21:45.186Z",
+    "submitter": {
+      "name": "Ecosystem Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ETC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ETC"
+      }
+    }
+  }
+}

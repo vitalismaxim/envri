@@ -1,0 +1,160 @@
+{
+  "coverageGeo": {
+    "coordinates": [2.1125, 47.9647, 131.0],
+    "type": "Point"
+  },
+  "fileName": "TRN_804_1_20210320.zip",
+  "hash": "0Ifanqnb2pbYGG2Fwg7fMXq-v4BrhggCqieZJgWAhIk",
+  "parentCollections": [],
+  "pid": "11676/0Ifanqnb2pbYGG2Fwg7fMXq-",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Michel",
+      "lastName": "Ramonet",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Michel_Ramonet"
+      }
+    }, {
+      "firstName": "Morgan",
+      "lastName": "Lopez",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Morgan_Lopez"
+      }
+    }, {
+      "firstName": "Victor",
+      "lastName": "Kazan",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Victor_Kazan"
+      }
+    }, {
+      "firstName": "Marc",
+      "lastName": "Delmotte",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Marc_Delmotte"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/0Ifanqnb2pbYGG2Fwg7fMXq-,\r\n  author={Ramonet, M., Lopez, M., Kazan, V., Delmotte, M.},\r\n  title={ICOS ATC Meteorological data csv time series, Trainou, 2021-03-20},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/0Ifanqnb2pbYGG2Fwg7fMXq-},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/0Ifanqnb2pbYGG2Fwg7fMXq-}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC Meteorological data csv time series, Trainou, 2021-03-20\r\nID - 11676/0Ifanqnb2pbYGG2Fwg7fMXq-\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/0Ifanqnb2pbYGG2Fwg7fMXq-\r\nPB - Atmosphere Thematic Centre\r\nAU - Ramonet, M.\r\nAU - Lopez, M.\r\nAU - Kazan, V.\r\nAU - Delmotte, M.\r\nER - ",
+    "citationString": "Ramonet, M., Lopez, M., Kazan, V., Delmotte, M., ICOS RI, 2021. ICOS ATC Meteorological data csv time series, Trainou, 2021-03-20, https://hdl.handle.net/11676/0Ifanqnb2pbYGG2Fwg7fMXq-",
+    "temporalCoverageDisplay": "2021-03-20"
+  },
+  "size": 15615,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "Trainou meteorological station 2",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_804"
+      },
+      "interval": {
+        "start": "2021-03-20T00:00:00Z",
+        "stop": "2021-03-20T23:59:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 131.0,
+          "geo": {
+            "coordinates": [2.1125, 47.9647, 131.0],
+            "type": "Point"
+          },
+          "label": "TRN",
+          "lat": 47.9647,
+          "lon": 2.1125
+        },
+        "id": "TRN",
+        "org": {
+          "name": "Trainou",
+          "self": {
+            "comments": [],
+            "label": "TRN",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_TRN"
+          }
+        },
+        "pictures": ["https://meta.icos-cp.eu/files/FC00iUkTvfon6mPrahl0xkWg/TRN_obs_apr2010.jpg", "https://meta.icos-cp.eu/files/Q-5CDo5p0oFWeM3gs_1GwCtk/TR3_meteoinlet.JPG"],
+        "responsibleOrganization": {
+          "name": "Laboratoire des Sciences du Climat et de l'Environnement",
+          "self": {
+            "comments": [],
+            "label": "LSCE",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/LSCE"
+          },
+          "website": "https://www.lsce.ipsl.fr"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "FR",
+          "documentation": [{
+            "hash": "o0RbAXr33uErB_hquozbUZx9DBCAGZnNhiEMJH_LL3M",
+            "name": "Trainou_STILT_station_characterization.pdf",
+            "res": "https://meta.icos-cp.eu/objects/o0RbAXr33uErB_hquozbUZx9"
+          }],
+          "labelingDate": "2018-11-30",
+          "stationClass": "2",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "ICOS ATC Raw time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ATC Meteorological data csv time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcMeteoL0DataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-03-21T10:44:37.964Z",
+    "stop": "2021-03-21T10:44:40.203Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

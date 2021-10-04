@@ -1,0 +1,215 @@
+{
+  "coverageGeo": {
+    "coordinates": [4.746234, 50.55162, 170.0],
+    "type": "Point"
+  },
+  "fileName": "BE-Lon_BM_20210422_L04_F21.zip",
+  "hash": "Ptu2uBWqdlsWieRX-eKyFVtF2NfjpUgqlXjjF4YGA8A",
+  "parentCollections": [],
+  "pid": "11676/Ptu2uBWqdlsWieRX-eKyFVtF",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Benjamin",
+      "lastName": "Dumont",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Benjamin_Dumont"
+      }
+    }, {
+      "firstName": "Bernard",
+      "lastName": "Bodson",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Bernard_Bodson"
+      }
+    }, {
+      "firstName": "Henri",
+      "lastName": "Chopin",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Henri_Chopin"
+      }
+    }, {
+      "firstName": "Anne",
+      "lastName": "De Ligne",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Anne_De%20Ligne"
+      }
+    }, {
+      "firstName": "Loïc",
+      "lastName": "Demoulin",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Lo%C3%AFc_Demoulin"
+      }
+    }, {
+      "firstName": "Thibaut",
+      "lastName": "Engelmann",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Thibaut_Engelmann"
+      }
+    }, {
+      "firstName": "Ariane",
+      "lastName": "Faurès",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Ariane_Faur%C3%A8s"
+      }
+    }, {
+      "firstName": "Bernard",
+      "lastName": "Heinesch",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Bernard_Heinesch"
+      }
+    }, {
+      "firstName": "Bernard",
+      "lastName": "Longdoz",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Bernard_Longdoz"
+      }
+    }, {
+      "firstName": "Tanguy",
+      "lastName": "Manise",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Tanguy_Manise"
+      }
+    }, {
+      "firstName": "André",
+      "lastName": "Piret",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Andr%C3%A9_Piret"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/Ptu2uBWqdlsWieRX-eKyFVtF,\r\n  author={Dumont, B., Bodson, B., Chopin, H., De Ligne, A., Demoulin, L., Engelmann, T., Faurès, A., Heinesch, B., Longdoz, B., Manise, T., Piret, A.},\r\n  title={ICOS ETC Bio Meteo Raw ASCII, Lonzee, 2021-04-22},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/Ptu2uBWqdlsWieRX-eKyFVtF},\r\n  publisher={Lonzee},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/Ptu2uBWqdlsWieRX-eKyFVtF}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ETC Bio Meteo Raw ASCII, Lonzee, 2021-04-22\r\nID - 11676/Ptu2uBWqdlsWieRX-eKyFVtF\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/Ptu2uBWqdlsWieRX-eKyFVtF\r\nPB - Lonzee\r\nAU - Dumont, B.\r\nAU - Bodson, B.\r\nAU - Chopin, H.\r\nAU - De Ligne, A.\r\nAU - Demoulin, L.\r\nAU - Engelmann, T.\r\nAU - Faurès, A.\r\nAU - Heinesch, B.\r\nAU - Longdoz, B.\r\nAU - Manise, T.\r\nAU - Piret, A.\r\nER - ",
+    "citationString": "Dumont, B., Bodson, B., Chopin, H., De Ligne, A., Demoulin, L., Engelmann, T., Faurès, A., Heinesch, B., Longdoz, B., Manise, T., Piret, A., ICOS RI, 2021. ICOS ETC Bio Meteo Raw ASCII, Lonzee, 2021-04-22, https://hdl.handle.net/11676/Ptu2uBWqdlsWieRX-eKyFVtF",
+    "temporalCoverageDisplay": "2021-04-22"
+  },
+  "size": 173733,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "DL-Campbell CR3000",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ETC_22_4"
+      },
+      "interval": {
+        "start": "2021-04-21T23:00:00Z",
+        "stop": "2021-04-22T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 170.0,
+          "geo": {
+            "coordinates": [4.746234, 50.55162, 170.0],
+            "type": "Point"
+          },
+          "label": "BE-Lon",
+          "lat": 50.55162,
+          "lon": 4.746234
+        },
+        "id": "BE-Lon",
+        "org": {
+          "name": "Lonzee",
+          "self": {
+            "comments": ["The station with ICOS code BE-Lon is called Lonzée and located in the Vallonia part of Belgium, in the Province of Namur, Hesbaye region. It is a cropland of 11.8 ha that has a 4-year rotation between sugar beet (Beta vulgaris L.), winter wheat (Triticum aestivum L.), potato (Solanum tuberosum L.), and winter wheat (Triticum aestivum L.)."],
+            "label": "BE-Lon",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_BE-Lon"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/cEoCM4qb3czNo9j/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "climateZone": {
+            "comments": [],
+            "label": "Oceanic subtropical highland (Cfb)",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/koppen_Cfb"
+          },
+          "countryCode": "BE",
+          "documentation": [{
+            "hash": "eo_cBxOeMONH2G8z4g0G_60JIOVZHoL0UkevisvXFyc",
+            "name": "BE-Lon ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/eo_cBxOeMONH2G8z4g0G_60J"
+          }],
+          "ecosystemType": {
+            "comments": ["Lands covered with temporary crops followed by harvest and a bare soil period (e.g., single and multiple cropping systems). Note that perennial woody crops will be classified as the appropriate forest or shrub land cover type."],
+            "label": "Croplands",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_CRO"
+          },
+          "labelingDate": "2017-10-25",
+          "meanAnnualPrecip": 742.6,
+          "meanAnnualRad": 110.2,
+          "meanAnnualTemp": 10.2,
+          "stationClass": "2",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Raw ASCII ETC station data",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiEtcRawTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ETC Bio Meteo Raw ASCII",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcBioMeteoRawSeriesCsv"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-04-22T23:55:53.235Z",
+    "stop": "2021-04-22T23:55:56.606Z",
+    "submitter": {
+      "name": "Lonzee",
+      "self": {
+        "comments": ["The station with ICOS code BE-Lon is called Lonzée and located in the Vallonia part of Belgium, in the Province of Namur, Hesbaye region. It is a cropland of 11.8 ha that has a 4-year rotation between sugar beet (Beta vulgaris L.), winter wheat (Triticum aestivum L.), potato (Solanum tuberosum L.), and winter wheat (Triticum aestivum L.)."],
+        "label": "BE-Lon",
+        "uri": "http://meta.icos-cp.eu/resources/stations/ES_BE-Lon"
+      }
+    }
+  }
+}

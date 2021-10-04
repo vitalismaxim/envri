@@ -1,0 +1,414 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/xNvcoM0BPk5hAo8BNThWIcKl",
+  "coverageGeo": {
+    "coordinates": [[5.261, 61.084], [5.408, 61.043], [4.913, 61.277], [5.071, 61.317], [4.951, 61.583], [5.114, 61.917], [5.243, 62.233], [5.381, 62.162], [5.899, 62.219], [6.146, 62.502], [6.443, 62.621], [6.756, 62.908], [6.735, 63.617], [7.111, 64.998], [7.621, 65.257], [2.794, 62.728], [2.785, 62.529], [2.605, 62.627], [2.605, 62.627], [2.606, 62.626]],
+    "type": "LineString"
+  },
+  "fileName": "58G2_NRT_20210405.csv",
+  "hash": "xNvcoM0BPk5hAo8BNThWIcKl7H_P_ssQp4Ix01lbzEM",
+  "nextVersion": "https://meta.icos-cp.eu/objects/fgeHcBYmALq0VNJWLlYQqdVu",
+  "parentCollections": [],
+  "pid": "11676/xNvcoM0BPk5hAo8BNThWIcKl",
+  "previousVersion": "https://meta.icos-cp.eu/objects/BV1zfHnRsothaLs0kuBM9z0o",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Ingunn",
+      "lastName": "Skjelvan",
+      "orcid": "0000-0001-6761-5016",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Ingunn_Skjelvan"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/xNvcoM0BPk5hAo8BNThWIcKl,\r\n  author={Skjelvan, I.},\r\n  title={ICOS OTC SOOP NRT Product, NO-SOOP-G.O.Sars, 2021-04-05–2021-04-21},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/xNvcoM0BPk5hAo8BNThWIcKl},\r\n  publisher={Ocean Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/xNvcoM0BPk5hAo8BNThWIcKl}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS OTC SOOP NRT Product, NO-SOOP-G.O.Sars, 2021-04-05–2021-04-21\r\nID - 11676/xNvcoM0BPk5hAo8BNThWIcKl\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/xNvcoM0BPk5hAo8BNThWIcKl\r\nPB - Ocean Thematic Centre\r\nAU - Skjelvan, I.\r\nER - ",
+    "citationString": "Skjelvan, I., ICOS RI, 2021. ICOS OTC SOOP NRT Product, NO-SOOP-G.O.Sars, 2021-04-05–2021-04-21, https://hdl.handle.net/11676/xNvcoM0BPk5hAo8BNThWIcKl",
+    "temporalCoverageDisplay": "2021-04-05–2021-04-21"
+  },
+  "size": 1556371,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "G.O.Sars Seabird TSG",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/OTC_G.O.Sars_TSG"
+      },
+      "interval": {
+        "start": "2021-04-05T09:17:08Z",
+        "stop": "2021-04-21T01:00:11Z"
+      },
+      "station": {
+        "coverage": {
+          "geo": {
+            "coordinates": [[[5.393312, 61.94448], [8.782622, 63.323233], [11.024797, 64.820894], [14.489523, 67.39348], [18.474118, 69.582492], [24.263308, 70.557995], [31.876264, 69.94404], [41.219911, 72.994279], [41.041588, 74.957965], [40.861192, 78.307526], [30.06866, 78.274233], [12.476931, 78.224705], [1.136358, 72.568556], [-1.531106, 65.024969], [-1.439185, 63.097033], [-1.347265, 61.169097], [0.540976, 60.143269], [4.977852, 60.083997], [5.393312, 61.94448]]],
+            "type": "Polygon"
+          },
+          "label": "NO-SOOP-G.O.Sars geo-coverage",
+          "vertices": [{
+            "lat": 61.94447969518681,
+            "lon": 5.393312082190009
+          }, {
+            "lat": 63.32323269525019,
+            "lon": 8.782621916651836
+          }, {
+            "lat": 64.82089378857266,
+            "lon": 11.02479738688358
+          }, {
+            "lat": 67.39348030852469,
+            "lon": 14.48952302100266
+          }, {
+            "lat": 69.58249238654543,
+            "lon": 18.47411772693458
+          }, {
+            "lat": 70.55799516305484,
+            "lon": 24.2633075570063
+          }, {
+            "lat": 69.94404009766046,
+            "lon": 31.8762635652961
+          }, {
+            "lat": 72.99427875873558,
+            "lon": 41.21991103898648
+          }, {
+            "lat": 74.95796506184975,
+            "lon": 41.04158752716256
+          }, {
+            "lat": 78.30752603852461,
+            "lon": 40.8611916893262
+          }, {
+            "lat": 78.27423256021248,
+            "lon": 30.06866027202807
+          }, {
+            "lat": 78.22470451765018,
+            "lon": 12.47693067833072
+          }, {
+            "lat": 72.56855619734009,
+            "lon": 1.136357617922144
+          }, {
+            "lat": 65.0249694472891,
+            "lon": -1.53110573875458
+          }, {
+            "lat": 63.09703316478571,
+            "lon": -1.439185227263877
+          }, {
+            "lat": 61.16909688228232,
+            "lon": -1.347264715773173
+          }, {
+            "lat": 60.14326920210807,
+            "lon": 0.5409759616440613
+          }, {
+            "lat": 60.08399661175024,
+            "lon": 4.977851583442014
+          }]
+        },
+        "id": "58G2",
+        "org": {
+          "name": "NO-SOOP-G.O.Sars",
+          "self": {
+            "comments": ["The research vessel (R/V) G.O. Sars is own and run by the  Institute of Marine Research, Norway. The station began measuring sea surface pCO2 in 2003, and NORCE is the responsible institution for this effort, with Dr. Ingunn Skjelvan as PI. Carbon-VOS G.O. Sars sails primarily in the Nordic Seas including the North Sea and the Barents Sea."],
+            "label": "58G2",
+            "uri": "http://meta.icos-cp.eu/resources/stations/OS_GOSars"
+          },
+          "website": "https://www.hi.no/hi/om-oss/fasiliteter/vare-fartoy/g.o.-sars"
+        },
+        "pictures": [],
+        "responsibleOrganization": {
+          "name": "NORCE Norwegian Research Centre AS",
+          "self": {
+            "comments": [],
+            "uri": "http://meta.icos-cp.eu/resources/organizations/NORCE"
+          }
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "NO",
+          "documentation": [],
+          "labelingDate": "2018-10-31",
+          "stationClass": "1",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/oce.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/os.png",
+            "self": {
+              "comments": [],
+              "label": "Ocean data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ocean"
+            }
+          }
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, UTC",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStamp"
+        }
+      }
+    }, {
+      "label": "Longitude",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["angle in the trigonometric sense"],
+          "label": "angle",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/angle"
+        },
+        "self": {
+          "comments": ["WGS84 longitude"],
+          "label": "longitude",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/longitude"
+        },
+        "unit": "°"
+      }
+    }, {
+      "label": "Latitude",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["angle in the trigonometric sense"],
+          "label": "angle",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/angle"
+        },
+        "self": {
+          "comments": ["WGS84 latitude"],
+          "label": "latitude",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/latitude"
+        },
+        "unit": "°"
+      }
+    }, {
+      "label": "Temp [degC]",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["physical temperature"],
+          "label": "temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "water temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/waterTempCelcius"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "Temp [degC] QC Flag",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "P_sal [psu]",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": ["practical salinity of the water body"],
+          "label": "practical salinity",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/salinity"
+        },
+        "unit": "psu"
+      }
+    }, {
+      "label": "P_sal [psu] QC Flag",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "pCO2 [uatm]",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["mechanical pressure, e.g. atmospheric or gas pressure"],
+          "label": "pressure",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/pressure"
+        },
+        "self": {
+          "comments": ["CO2 partial pressure in water body at sea surface temperature"],
+          "label": "CO2 partial pressure (water), SST",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/co2PartPressWaterSST"
+        },
+        "unit": "µatm"
+      }
+    }, {
+      "label": "pCO2 [uatm] QC Flag",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "fCO2 [uatm]",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["mechanical pressure, e.g. atmospheric or gas pressure"],
+          "label": "pressure",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/pressure"
+        },
+        "self": {
+          "comments": ["Fugacity of carbon dioxide (water) at sea surface temperature (wet air)"],
+          "label": "CO2 fugacity (water), SST",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/co2FugacityWater"
+        },
+        "unit": "µatm"
+      }
+    }, {
+      "label": "fCO2 [uatm] QC Flag",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }],
+    "coverage": {
+      "geo": {
+        "coordinates": [[5.261, 61.084], [5.408, 61.043], [4.913, 61.277], [5.071, 61.317], [4.951, 61.583], [5.114, 61.917], [5.243, 62.233], [5.381, 62.162], [5.899, 62.219], [6.146, 62.502], [6.443, 62.621], [6.756, 62.908], [6.735, 63.617], [7.111, 64.998], [7.621, 65.257], [2.794, 62.728], [2.785, 62.529], [2.605, 62.627], [2.605, 62.627], [2.606, 62.626]],
+        "type": "LineString"
+      },
+      "points": [{
+        "lat": 61.084,
+        "lon": 5.261
+      }, {
+        "lat": 61.043,
+        "lon": 5.408
+      }, {
+        "lat": 61.277,
+        "lon": 4.913
+      }, {
+        "lat": 61.317,
+        "lon": 5.071
+      }, {
+        "lat": 61.583,
+        "lon": 4.951
+      }, {
+        "lat": 61.917,
+        "lon": 5.114
+      }, {
+        "lat": 62.233,
+        "lon": 5.243
+      }, {
+        "lat": 62.162,
+        "lon": 5.381
+      }, {
+        "lat": 62.219,
+        "lon": 5.899
+      }, {
+        "lat": 62.502,
+        "lon": 6.146
+      }, {
+        "lat": 62.621,
+        "lon": 6.443
+      }, {
+        "lat": 62.908,
+        "lon": 6.756
+      }, {
+        "lat": 63.617,
+        "lon": 6.735
+      }, {
+        "lat": 64.998,
+        "lon": 7.111
+      }, {
+        "lat": 65.257,
+        "lon": 7.621
+      }, {
+        "lat": 62.728,
+        "lon": 2.794
+      }, {
+        "lat": 62.529,
+        "lon": 2.785
+      }, {
+        "lat": 62.627,
+        "lon": 2.605
+      }, {
+        "lat": 62.627,
+        "lon": 2.605
+      }, {
+        "lat": 62.626,
+        "lon": 2.606
+      }]
+    },
+    "nRows": 9434,
+    "productionInfo": {
+      "comment": "Data processed using QuinCe version v8.0.3",
+      "contributors": [],
+      "creator": {
+        "name": "Ocean Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS OTC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/OTC"
+        }
+      },
+      "dateTime": "2021-04-21T08:46:27.631175Z",
+      "sources": []
+    }
+  },
+  "specification": {
+    "dataLevel": 1,
+    "datasetSpec": {
+      "self": {
+        "comments": ["valid for QuinCe versions from 2.0.0"],
+        "label": "OTC SOOP dataset",
+        "uri": "http://meta.icos-cp.eu/resources/cpmeta/otcProduct_Dataset_v2"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": ["Single-line comment, first column is UTC ISO-8601 timestamp, NaN for missing values, comma-separated."],
+      "label": "ICOS OTC time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiOtcProductCsv"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": ["valid for QuinCe versions from 2.0.0"],
+      "label": "ICOS OTC SOOP NRT Product",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/icosOtcL1Product_v2"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/oce.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/os.png",
+      "self": {
+        "comments": [],
+        "label": "Ocean data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ocean"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-04-21T08:46:27.703Z",
+    "stop": "2021-04-21T08:46:31.474Z",
+    "submitter": {
+      "name": "Ocean Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS OTC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/OTC"
+      }
+    }
+  }
+}

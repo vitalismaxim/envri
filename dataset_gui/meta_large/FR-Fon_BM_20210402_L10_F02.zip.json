@@ -1,0 +1,267 @@
+{
+  "coverageGeo": {
+    "coordinates": [9.85591, 46.81533, 1689.0],
+    "type": "Point"
+  },
+  "fileName": "CH-Dav_EC_20210402_L01_F05.zip",
+  "hash": "SC3o7zAHBddlTXJEicxTo_CSDTJ-CbI3GqmNsGAyLl8",
+  "parentCollections": [],
+  "pid": "11676/SC3o7zAHBddlTXJEicxTo_CS",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Mana",
+      "lastName": "Gharun",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Mana_Gharun"
+      }
+    }, {
+      "firstName": "Thomas",
+      "lastName": "Baur",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Thomas_Baur"
+      }
+    }, {
+      "firstName": "Sophia",
+      "lastName": "Etzold",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Sophia_Etzold"
+      }
+    }, {
+      "firstName": "Werner",
+      "lastName": "Eugster",
+      "orcid": "0000-0001-6067-0741",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Werner_Eugster"
+      }
+    }, {
+      "firstName": "Arthur",
+      "lastName": "Gessler",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Arthur_Gessler"
+      }
+    }, {
+      "firstName": "Christian",
+      "lastName": "Hug",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Christian_Hug"
+      }
+    }, {
+      "firstName": "Lukas",
+      "lastName": "Hörtnagl",
+      "orcid": "0000-0002-5569-0761",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Lukas_H%C3%B6rtnagl"
+      }
+    }, {
+      "firstName": "Käthi",
+      "lastName": "Liechti",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/K%C3%A4thi_Liechti"
+      }
+    }, {
+      "firstName": "Mauro",
+      "lastName": "Marty",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Mauro_Marty"
+      }
+    }, {
+      "firstName": "Philip",
+      "lastName": "Meier",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Philip_Meier"
+      }
+    }, {
+      "firstName": "Maria",
+      "lastName": "Schmitt Oehler",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Maria_Schmitt%20Oehler"
+      }
+    }, {
+      "firstName": "Tanja",
+      "lastName": "Stutz",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Tanja_Stutz"
+      }
+    }, {
+      "firstName": "Flurin",
+      "lastName": "Sutter",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Flurin_Sutter"
+      }
+    }, {
+      "firstName": "Anne",
+      "lastName": "Thimonier Rickenmann",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Anne_Thimonier%20Rickenmann"
+      }
+    }, {
+      "firstName": "Volodymyr",
+      "lastName": "Trotsiuk",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Volodymyr_Trotsiuk"
+      }
+    }, {
+      "firstName": "Peter",
+      "lastName": "Waldner",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Peter_Waldner"
+      }
+    }, {
+      "firstName": "Stephan",
+      "lastName": "Zimmermann",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Stephan_Zimmermann"
+      }
+    }, {
+      "firstName": "Roman",
+      "lastName": "Zweifel",
+      "orcid": "0000-0001-9438-0582",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Roman_Zweifel"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/SC3o7zAHBddlTXJEicxTo_CS,\r\n  author={Gharun, M., Baur, T., Etzold, S., Eugster, W., Gessler, A., Hug, C., Hörtnagl, L., Liechti, K., Marty, M., Meier, P., Schmitt Oehler, M., Stutz, T., Sutter, F., Thimonier Rickenmann, A., Trotsiuk, V., Waldner, P., Zimmermann, S., Zweifel, R.},\r\n  title={ICOS ETC Eddy Flux Raw ASCII daily archive, Davos, 2021-04-02},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/SC3o7zAHBddlTXJEicxTo_CS},\r\n  publisher={Davos},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/SC3o7zAHBddlTXJEicxTo_CS}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ETC Eddy Flux Raw ASCII daily archive, Davos, 2021-04-02\r\nID - 11676/SC3o7zAHBddlTXJEicxTo_CS\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/SC3o7zAHBddlTXJEicxTo_CS\r\nPB - Davos\r\nAU - Gharun, M.\r\nAU - Baur, T.\r\nAU - Etzold, S.\r\nAU - Eugster, W.\r\nAU - Gessler, A.\r\nAU - Hug, C.\r\nAU - Hörtnagl, L.\r\nAU - Liechti, K.\r\nAU - Marty, M.\r\nAU - Meier, P.\r\nAU - Schmitt Oehler, M.\r\nAU - Stutz, T.\r\nAU - Sutter, F.\r\nAU - Thimonier Rickenmann, A.\r\nAU - Trotsiuk, V.\r\nAU - Waldner, P.\r\nAU - Zimmermann, S.\r\nAU - Zweifel, R.\r\nER - ",
+    "citationString": "Gharun, M., Baur, T., Etzold, S., Eugster, W., Gessler, A., Hug, C., Hörtnagl, L., Liechti, K., Marty, M., Meier, P., Schmitt Oehler, M., Stutz, T., Sutter, F., Thimonier Rickenmann, A., Trotsiuk, V., Waldner, P., Zimmermann, S., Zweifel, R., ICOS RI, 2021. ICOS ETC Eddy Flux Raw ASCII daily archive, Davos, 2021-04-02, https://hdl.handle.net/11676/SC3o7zAHBddlTXJEicxTo_CS",
+    "temporalCoverageDisplay": "2021-04-02"
+  },
+  "size": 81943872,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "DL-PC",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ETC_35_1"
+      },
+      "interval": {
+        "start": "2021-04-01T23:00:00Z",
+        "stop": "2021-04-02T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 1689.0,
+          "geo": {
+            "coordinates": [9.85591, 46.81533, 1689.0],
+            "type": "Point"
+          },
+          "label": "CH-Dav",
+          "lat": 46.81533,
+          "lon": 9.85591
+        },
+        "id": "CH-Dav",
+        "org": {
+          "name": "Davos",
+          "self": {
+            "comments": ["The station Davos, with ICOS code CH-Dav, is located in the eastern part of the Swiss Alps, in the Canton of Graubünden. The site is an evergreen needleleaf forest in sub-alpine ecosystem dominated by Norway spruce ( Picea abies (L.) Karst.) with a maximum canopy height of 27 m, and a leaf area index of about 3.9 m 2 m -2 . Tree age of the dominant trees ranges between 250 and 400 years. The understorey vegetation is rather patchy, covering roughly 30% of the forest floor, and is mainly composed of dwarf shrubs, primarily Vaccinium myrtillus L. as well as mosses."],
+            "label": "CH-Dav",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_CH-Dav"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/PZZFa4aSHzknpSm/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "climateZone": {
+            "comments": [],
+            "label": "Subacrtic (Dfc)",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/koppen_Dfc"
+          },
+          "countryCode": "CH",
+          "documentation": [{
+            "hash": "zaZVfSq6ceazMhgjO4YeXxGXU7NBBCCbPRBIP0-WofY",
+            "name": "CH-Dav ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/zaZVfSq6ceazMhgjO4YeXxGX"
+          }],
+          "ecosystemType": {
+            "comments": ["Lands dominated by woody vegetation with a percent cover >60% and height exceeding 2 meters. Almost all trees remain green all year. Canopy is never without green foliage."],
+            "label": "Evergreen Needleleaf Forests",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_ENF"
+          },
+          "labelingDate": "2019-11-18",
+          "meanAnnualPrecip": 833.0,
+          "meanAnnualRad": 151.0,
+          "meanAnnualTemp": 4.1,
+          "stationClass": "1",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Multi-file zip archive with ETC raw time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/etcRawTimeSerMultiZip"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ETC Eddy Flux Raw ASCII daily archive",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcEddyFluxRawSeriesCsv"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-04-03T01:36:45.653Z",
+    "stop": "2021-04-03T01:36:53.507Z",
+    "submitter": {
+      "name": "Davos",
+      "self": {
+        "comments": ["The station Davos, with ICOS code CH-Dav, is located in the eastern part of the Swiss Alps, in the Canton of Graubünden. The site is an evergreen needleleaf forest in sub-alpine ecosystem dominated by Norway spruce ( Picea abies (L.) Karst.) with a maximum canopy height of 27 m, and a leaf area index of about 3.9 m 2 m -2 . Tree age of the dominant trees ranges between 250 and 400 years. The understorey vegetation is rather patchy, covering roughly 30% of the forest floor, and is mainly composed of dwarf shrubs, primarily Vaccinium myrtillus L. as well as mosses."],
+        "label": "CH-Dav",
+        "uri": "http://meta.icos-cp.eu/resources/stations/ES_CH-Dav"
+      }
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "coverageGeo": {
+    "coordinates": [10.9796, 47.4165, 2666.0],
+    "type": "Point"
+  },
+  "fileName": "ZSF_880_20210618.zip",
+  "hash": "MTKE7balvW2U9VvCqH7HdfGDIg7WiLuRLt8tOJe6GcU",
+  "parentCollections": [],
+  "pid": "11676/MTKE7balvW2U9VvCqH7HdfGD",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Martina",
+      "lastName": "Schmidt",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Martina_Schmidt_2"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/MTKE7balvW2U9VvCqH7HdfGD,\r\n  author={Schmidt, M.},\r\n  title={ICOS ATC Picarro data csv time series, Zugspitze, 2021-06-18},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/MTKE7balvW2U9VvCqH7HdfGD},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/MTKE7balvW2U9VvCqH7HdfGD}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC Picarro data csv time series, Zugspitze, 2021-06-18\r\nID - 11676/MTKE7balvW2U9VvCqH7HdfGD\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/MTKE7balvW2U9VvCqH7HdfGD\r\nPB - Atmosphere Thematic Centre\r\nAU - Schmidt, M.\r\nER - ",
+    "citationString": "Schmidt, M., ICOS RI, 2021. ICOS ATC Picarro data csv time series, Zugspitze, 2021-06-18, https://hdl.handle.net/11676/MTKE7balvW2U9VvCqH7HdfGD",
+    "temporalCoverageDisplay": "2021-06-18"
+  },
+  "size": 6508490,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "CO2-CH4-H2O Picarro Analyzer",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_880"
+      },
+      "interval": {
+        "start": "2021-06-18T00:00:00Z",
+        "stop": "2021-06-18T23:59:59Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 2666.0,
+          "geo": {
+            "coordinates": [10.9796, 47.4165, 2666.0],
+            "type": "Point"
+          },
+          "label": "ZSF",
+          "lat": 47.4165,
+          "lon": 10.9796
+        },
+        "id": "ZSF",
+        "org": {
+          "name": "Zugspitze",
+          "self": {
+            "comments": [],
+            "label": "ZSF",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_ZSF"
+          }
+        },
+        "pictures": [],
+        "responsibleOrganization": {
+          "name": "Umweltbundesamt (Federal Environment Agency) – UBA",
+          "self": {
+            "comments": [],
+            "uri": "http://meta.icos-cp.eu/resources/organizations/Umweltbundesamt%20(Federal%20Environment%20Agency)%20%E2%80%93%20UBA"
+          },
+          "website": "https://www.umweltbundesamt.de"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "DE",
+          "documentation": [],
+          "labelingDate": "2021-05-25",
+          "stationClass": "2",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "ICOS ATC Raw time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ATC Picarro data csv time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcPicarroL0DataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-06-19T09:01:55.523785Z",
+    "stop": "2021-06-19T09:01:58.446954Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

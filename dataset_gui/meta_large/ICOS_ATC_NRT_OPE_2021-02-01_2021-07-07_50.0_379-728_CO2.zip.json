@@ -1,0 +1,262 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/0t7AZAiMRDDhfT-UCARdzv49",
+  "coverageGeo": {
+    "coordinates": [5.5036, 48.5619, 390.0],
+    "type": "Point"
+  },
+  "fileName": "ICOS_ATC_NRT_OPE_2021-02-01_2021-07-07_50.0_728-967_CO.zip",
+  "hash": "0t7AZAiMRDDhfT-UCARdzv49OXKt18it5ZPUUVPDupw",
+  "nextVersion": "https://meta.icos-cp.eu/objects/Hc_dTtpyFP15lxMqFonAFiaQ",
+  "parentCollections": [],
+  "pid": "11676/0t7AZAiMRDDhfT-UCARdzv49",
+  "previousVersion": "https://meta.icos-cp.eu/objects/Ss043m3lsn6ukEUC3t3JSyk8",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Michel",
+      "lastName": "Ramonet",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Michel_Ramonet"
+      }
+    }, {
+      "firstName": "Sébastien",
+      "lastName": "Conil",
+      "orcid": "0000-0001-6767-821X",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/S%C3%A9bastien_Conil"
+      }
+    }, {
+      "firstName": "Marc",
+      "lastName": "Delmotte",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Marc_Delmotte"
+      }
+    }, {
+      "firstName": "Olivier",
+      "lastName": "Laurent",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Olivier_Laurent"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/0t7AZAiMRDDhfT-UCARdzv49,\r\n  author={Ramonet, M., Conil, S., Delmotte, M., Laurent, O.},\r\n  title={ICOS ATC NRT CO growing time series, Observatoire pérenne de l'environnement (50.0 m), 2021-02-01–2021-07-07},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/0t7AZAiMRDDhfT-UCARdzv49},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/0t7AZAiMRDDhfT-UCARdzv49}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC NRT CO growing time series, Observatoire pérenne de l'environnement (50.0 m), 2021-02-01–2021-07-07\r\nID - 11676/0t7AZAiMRDDhfT-UCARdzv49\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/0t7AZAiMRDDhfT-UCARdzv49\r\nPB - Atmosphere Thematic Centre\r\nAU - Ramonet, M.\r\nAU - Conil, S.\r\nAU - Delmotte, M.\r\nAU - Laurent, O.\r\nER - ",
+    "citationString": "Ramonet, M., Conil, S., Delmotte, M., Laurent, O., ICOS RI, 2021. ICOS ATC NRT CO growing time series, Observatoire pérenne de l'environnement (50.0 m), 2021-02-01–2021-07-07, https://hdl.handle.net/11676/0t7AZAiMRDDhfT-UCARdzv49",
+    "temporalCoverageDisplay": "2021-02-01–2021-07-07"
+  },
+  "size": 54657,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": [{
+        "comments": [],
+        "label": "RAMCES - G24",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_728"
+      }, {
+        "comments": [],
+        "label": "RAMCES - G53",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_967"
+      }],
+      "interval": {
+        "start": "2021-02-01T00:00:00Z",
+        "stop": "2021-07-07T23:00:00Z"
+      },
+      "samplingHeight": 50.0,
+      "station": {
+        "coverage": {
+          "alt": 390.0,
+          "geo": {
+            "coordinates": [5.5036, 48.5619, 390.0],
+            "type": "Point"
+          },
+          "label": "OPE",
+          "lat": 48.5619,
+          "lon": 5.5036
+        },
+        "id": "OPE",
+        "org": {
+          "name": "Observatoire pérenne de l'environnement",
+          "self": {
+            "comments": [],
+            "label": "OPE",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_OPE"
+          }
+        },
+        "pictures": ["https://meta.icos-cp.eu/files/2yj3jRgqBfUhewgPXIFk5pAD/OPE_station_shelters_sampling.jpg"],
+        "responsibleOrganization": {
+          "name": "Agence nationale pour la gestion des déchets radioactifs",
+          "self": {
+            "comments": [],
+            "label": "Andra",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/Andra"
+          },
+          "website": "https://www.andra.fr"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "FR",
+          "documentation": [{
+            "hash": "VriRQS496Gl2qOIDiNKRuPR5sfIN0O0zdNLozOzM_Fw",
+            "name": "Observatoire_perenne_STILT_station_characterization.pdf",
+            "res": "https://meta.icos-cp.eu/objects/VriRQS496Gl2qOIDiNKRuPR5"
+          }],
+          "labelingDate": "2017-11-17",
+          "stationClass": "1",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, UTC",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStamp"
+        }
+      }
+    }, {
+      "label": "Flag",
+      "valueType": {
+        "self": {
+          "comments": ["single-letter quality flag"],
+          "label": "quality flag",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/oneLetterFlag"
+        }
+      }
+    }, {
+      "label": "NbPoints",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["integer number"],
+          "label": "number",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/number"
+        },
+        "self": {
+          "comments": [],
+          "label": "number of points",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/npoints"
+        }
+      }
+    }, {
+      "label": "Stdev",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "standard deviation of gas mole fraction",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/moleFractionSdPpb"
+        },
+        "unit": "nmol mol-1"
+      }
+    }, {
+      "label": "co",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "CO mixing ratio (dry mole fraction)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/coMixingRatioPpb"
+        },
+        "unit": "nmol mol-1"
+      }
+    }],
+    "nRows": 3768,
+    "productionInfo": {
+      "contributors": [],
+      "creator": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "dateTime": "2021-07-08T10:13:45Z",
+      "host": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "sources": []
+    }
+  },
+  "specification": {
+    "dataLevel": 1,
+    "datasetSpec": {
+      "self": {
+        "comments": [],
+        "label": "Atmospheric CO mole fraction time series",
+        "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcCoMoleFracTimeSer"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": ["Semicolon-separated ASCII, with #-prefixed multi-line header"],
+      "label": "ICOS ATC time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcProductTimeSer"
+    },
+    "keywords": ["CO", "concentration"],
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ATC NRT CO growing time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcCoNrtGrowingDataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-07-08T10:13:45.362157Z",
+    "stop": "2021-07-08T10:13:48.509734Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

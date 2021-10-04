@@ -1,0 +1,127 @@
+{
+  "coverageGeo": {
+    "coordinates": [27.6549, 62.9096, 232.0],
+    "type": "Point"
+  },
+  "fileName": "PUI_951_3_20210607.zip",
+  "hash": "3TnZ9L8mMBj_FLj-gcSyFySPTdqnljrWSOg6N0T_cys",
+  "parentCollections": [],
+  "pid": "11676/3TnZ9L8mMBj_FLj-gcSyFySP",
+  "references": {
+    "acknowledgements": [],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/3TnZ9L8mMBj_FLj-gcSyFySP,\r\n  title={ICOS ATC Meteorological data csv time series, Puijo, 2021-06-07},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/3TnZ9L8mMBj_FLj-gcSyFySP},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/3TnZ9L8mMBj_FLj-gcSyFySP}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC Meteorological data csv time series, Puijo, 2021-06-07\r\nID - 11676/3TnZ9L8mMBj_FLj-gcSyFySP\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/3TnZ9L8mMBj_FLj-gcSyFySP\r\nPB - Atmosphere Thematic Centre\r\nER - ",
+    "citationString": "ICOS RI, 2021. ICOS ATC Meteorological data csv time series, Puijo, 2021-06-07, https://hdl.handle.net/11676/3TnZ9L8mMBj_FLj-gcSyFySP",
+    "temporalCoverageDisplay": "2021-06-07"
+  },
+  "size": 20326,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "PUI meteorological station for the third level",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_951"
+      },
+      "interval": {
+        "start": "2021-06-07T00:00:00Z",
+        "stop": "2021-06-07T23:59:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 232.0,
+          "geo": {
+            "coordinates": [27.6549, 62.9096, 232.0],
+            "type": "Point"
+          },
+          "label": "PUI",
+          "lat": 62.9096,
+          "lon": 27.6549
+        },
+        "id": "PUI",
+        "org": {
+          "name": "Puijo",
+          "self": {
+            "comments": [],
+            "label": "PUI",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_PUI"
+          }
+        },
+        "pictures": [],
+        "responsibleOrganization": {
+          "name": "Finnish Meteorological Institute",
+          "self": {
+            "comments": [],
+            "label": "FMI",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/FMI"
+          },
+          "website": "https://en.ilmatieteenlaitos.fi/greenhouse-gases"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "FI",
+          "documentation": [],
+          "labelingDate": "2021-05-25",
+          "stationClass": "2",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 2
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "ICOS ATC Raw time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ATC Meteorological data csv time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcMeteoL0DataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-06-08T09:43:38.532774Z",
+    "stop": "2021-06-08T09:43:42.097829Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "coverageGeo": {
+    "coordinates": [8.4588, 53.0431, 29.0],
+    "type": "Point"
+  },
+  "fileName": "STE_833_4_20210508.zip",
+  "hash": "lx3ZafvUTSi54NGeDaJDIbtyKxiv6bXzYXf_0P9-CME",
+  "parentCollections": [],
+  "pid": "11676/lx3ZafvUTSi54NGeDaJDIbty",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Dagmar",
+      "lastName": "Kubistin",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Dagmar_Kubistin"
+      }
+    }, {
+      "firstName": "Christian",
+      "lastName": "Plaß-Dülmer",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Christian_Pla%C3%9F-D%C3%BClmer"
+      }
+    }, {
+      "firstName": "Matthias",
+      "lastName": "Lindauer",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Matthias_Lindauer"
+      }
+    }, {
+      "firstName": "Jennifer",
+      "lastName": "Müller-Williams",
+      "orcid": "0000-0002-4840-7729",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jennifer_M%C3%BCller-Williams"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/lx3ZafvUTSi54NGeDaJDIbty,\r\n  author={Kubistin, D., Plaß-Dülmer, C., Lindauer, M., Müller-Williams, J.},\r\n  title={ICOS ATC Meteorological data csv time series, Steinkimmen, 2021-05-08},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/lx3ZafvUTSi54NGeDaJDIbty},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/lx3ZafvUTSi54NGeDaJDIbty}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC Meteorological data csv time series, Steinkimmen, 2021-05-08\r\nID - 11676/lx3ZafvUTSi54NGeDaJDIbty\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/lx3ZafvUTSi54NGeDaJDIbty\r\nPB - Atmosphere Thematic Centre\r\nAU - Kubistin, D.\r\nAU - Plaß-Dülmer, C.\r\nAU - Lindauer, M.\r\nAU - Müller-Williams, J.\r\nER - ",
+    "citationString": "Kubistin, D., Plaß-Dülmer, C., Lindauer, M., Müller-Williams, J., ICOS RI, 2021. ICOS ATC Meteorological data csv time series, Steinkimmen, 2021-05-08, https://hdl.handle.net/11676/lx3ZafvUTSi54NGeDaJDIbty",
+    "temporalCoverageDisplay": "2021-05-08"
+  },
+  "size": 18900,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "Meteorological station for the fourth level",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_833"
+      },
+      "interval": {
+        "start": "2021-05-08T00:00:00Z",
+        "stop": "2021-05-08T23:59:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 29.0,
+          "geo": {
+            "coordinates": [8.4588, 53.0431, 29.0],
+            "type": "Point"
+          },
+          "label": "STE",
+          "lat": 53.0431,
+          "lon": 8.4588
+        },
+        "id": "STE",
+        "org": {
+          "name": "Steinkimmen",
+          "self": {
+            "comments": [],
+            "label": "STE",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_STE"
+          }
+        },
+        "pictures": ["https://meta.icos-cp.eu/files/_XhEjOwR2Xr6EhUzR-9nSDxR/Steinkimmen%20285m%20Mast%20NDR_2.jpg"],
+        "responsibleOrganization": {
+          "name": "Deutscher Wetterdienst, Hohenpeißenberg Meteorological Observatory",
+          "self": {
+            "comments": [],
+            "label": "MOHp",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/MOHp"
+          },
+          "website": "https://www.dwd.de/mohp"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "DE",
+          "documentation": [{
+            "hash": "e7vXKnoyLP-6pO6PWgTzUEnYCPw85lNkAuLNN-Rt3UY",
+            "name": "Steinkimmen_STILT_station_characterization.pdf",
+            "res": "https://meta.icos-cp.eu/objects/e7vXKnoyLP-6pO6PWgTzUEnY"
+          }],
+          "labelingDate": "2019-11-28",
+          "stationClass": "1",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "ICOS ATC Raw time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ATC Meteorological data csv time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcMeteoL0DataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-05-09T09:43:43.255Z",
+    "stop": "2021-05-09T09:43:46.747Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

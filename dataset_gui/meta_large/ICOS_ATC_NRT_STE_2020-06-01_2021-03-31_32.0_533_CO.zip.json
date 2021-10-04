@@ -1,0 +1,258 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/juMRiPEBhq01QLwX8tOe1IlF",
+  "coverageGeo": {
+    "coordinates": [8.4588, 53.0431, 29.0],
+    "type": "Point"
+  },
+  "fileName": "ICOS_ATC_NRT_STE_2020-06-01_2021-03-31_32.0_533_CO.zip",
+  "hash": "juMRiPEBhq01QLwX8tOe1IlFY-x6_gwT2EmvtgOvIeE",
+  "nextVersion": "https://meta.icos-cp.eu/objects/Lko8cd0bnYUXVAnDRtdddxTR",
+  "parentCollections": [],
+  "pid": "11676/juMRiPEBhq01QLwX8tOe1IlF",
+  "previousVersion": "https://meta.icos-cp.eu/objects/FOsmyJ0jb_Vj1hj8wkNhWgEb",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Dagmar",
+      "lastName": "Kubistin",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Dagmar_Kubistin"
+      }
+    }, {
+      "firstName": "Christian",
+      "lastName": "Plaß-Dülmer",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Christian_Pla%C3%9F-D%C3%BClmer"
+      }
+    }, {
+      "firstName": "Matthias",
+      "lastName": "Lindauer",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Matthias_Lindauer"
+      }
+    }, {
+      "firstName": "Jennifer",
+      "lastName": "Müller-Williams",
+      "orcid": "0000-0002-4840-7729",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jennifer_M%C3%BCller-Williams"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/juMRiPEBhq01QLwX8tOe1IlF,\r\n  author={Kubistin, D., Plaß-Dülmer, C., Lindauer, M., Müller-Williams, J.},\r\n  title={ICOS ATC NRT CO growing time series, Steinkimmen (32.0 m), 2020-06-01–2021-03-31},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/juMRiPEBhq01QLwX8tOe1IlF},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/juMRiPEBhq01QLwX8tOe1IlF}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC NRT CO growing time series, Steinkimmen (32.0 m), 2020-06-01–2021-03-31\r\nID - 11676/juMRiPEBhq01QLwX8tOe1IlF\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/juMRiPEBhq01QLwX8tOe1IlF\r\nPB - Atmosphere Thematic Centre\r\nAU - Kubistin, D.\r\nAU - Plaß-Dülmer, C.\r\nAU - Lindauer, M.\r\nAU - Müller-Williams, J.\r\nER - ",
+    "citationString": "Kubistin, D., Plaß-Dülmer, C., Lindauer, M., Müller-Williams, J., ICOS RI, 2021. ICOS ATC NRT CO growing time series, Steinkimmen (32.0 m), 2020-06-01–2021-03-31, https://hdl.handle.net/11676/juMRiPEBhq01QLwX8tOe1IlF",
+    "temporalCoverageDisplay": "2020-06-01–2021-03-31"
+  },
+  "size": 114148,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "German N2O-CO LGR Analyzer",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_533"
+      },
+      "interval": {
+        "start": "2020-06-01T00:00:00Z",
+        "stop": "2021-03-31T23:00:00Z"
+      },
+      "samplingHeight": 32.0,
+      "station": {
+        "coverage": {
+          "alt": 29.0,
+          "geo": {
+            "coordinates": [8.4588, 53.0431, 29.0],
+            "type": "Point"
+          },
+          "label": "STE",
+          "lat": 53.0431,
+          "lon": 8.4588
+        },
+        "id": "STE",
+        "org": {
+          "name": "Steinkimmen",
+          "self": {
+            "comments": [],
+            "label": "STE",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_STE"
+          }
+        },
+        "pictures": ["https://meta.icos-cp.eu/files/_XhEjOwR2Xr6EhUzR-9nSDxR/Steinkimmen%20285m%20Mast%20NDR_2.jpg"],
+        "responsibleOrganization": {
+          "name": "Deutscher Wetterdienst, Hohenpeißenberg Meteorological Observatory",
+          "self": {
+            "comments": [],
+            "label": "MOHp",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/MOHp"
+          },
+          "website": "https://www.dwd.de/mohp"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "DE",
+          "documentation": [{
+            "hash": "e7vXKnoyLP-6pO6PWgTzUEnYCPw85lNkAuLNN-Rt3UY",
+            "name": "Steinkimmen_STILT_station_characterization.pdf",
+            "res": "https://meta.icos-cp.eu/objects/e7vXKnoyLP-6pO6PWgTzUEnY"
+          }],
+          "labelingDate": "2019-11-28",
+          "stationClass": "1",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, UTC",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStamp"
+        }
+      }
+    }, {
+      "label": "Flag",
+      "valueType": {
+        "self": {
+          "comments": ["single-letter quality flag"],
+          "label": "quality flag",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/oneLetterFlag"
+        }
+      }
+    }, {
+      "label": "NbPoints",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["integer number"],
+          "label": "number",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/number"
+        },
+        "self": {
+          "comments": [],
+          "label": "number of points",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/npoints"
+        }
+      }
+    }, {
+      "label": "Stdev",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "standard deviation of gas mole fraction",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/moleFractionSdPpb"
+        },
+        "unit": "nmol mol-1"
+      }
+    }, {
+      "label": "co",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "CO mixing ratio (dry mole fraction)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/coMixingRatioPpb"
+        },
+        "unit": "nmol mol-1"
+      }
+    }],
+    "nRows": 7296,
+    "productionInfo": {
+      "contributors": [],
+      "creator": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "dateTime": "2021-04-01T10:12:43Z",
+      "host": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "sources": []
+    }
+  },
+  "specification": {
+    "dataLevel": 1,
+    "datasetSpec": {
+      "self": {
+        "comments": [],
+        "label": "Atmospheric CO mole fraction time series",
+        "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcCoMoleFracTimeSer"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": ["Semicolon-separated ASCII, with #-prefixed multi-line header"],
+      "label": "ICOS ATC time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcProductTimeSer"
+    },
+    "keywords": ["CO", "concentration"],
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ATC NRT CO growing time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcCoNrtGrowingDataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-04-01T10:12:43.782Z",
+    "stop": "2021-04-01T10:12:47.045Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

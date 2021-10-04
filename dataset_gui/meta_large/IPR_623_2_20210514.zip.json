@@ -1,0 +1,139 @@
+{
+  "coverageGeo": {
+    "coordinates": [8.636, 45.8147, 210.0],
+    "type": "Point"
+  },
+  "fileName": "IPR_623_2_20210514.zip",
+  "hash": "NSDV1m5DL9n9n2OwyzWYhSqXEfUYvGN5_NSllguHkBs",
+  "parentCollections": [],
+  "pid": "11676/NSDV1m5DL9n9n2OwyzWYhSqX",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Giovanni",
+      "lastName": "Manca",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Giovanni_Manca"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/NSDV1m5DL9n9n2OwyzWYhSqX,\r\n  author={Manca, G.},\r\n  title={ICOS ATC Meteorological data csv time series, Ispra, 2021-05-14},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/NSDV1m5DL9n9n2OwyzWYhSqX},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/NSDV1m5DL9n9n2OwyzWYhSqX}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC Meteorological data csv time series, Ispra, 2021-05-14\r\nID - 11676/NSDV1m5DL9n9n2OwyzWYhSqX\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/NSDV1m5DL9n9n2OwyzWYhSqX\r\nPB - Atmosphere Thematic Centre\r\nAU - Manca, G.\r\nER - ",
+    "citationString": "Manca, G., ICOS RI, 2021. ICOS ATC Meteorological data csv time series, Ispra, 2021-05-14, https://hdl.handle.net/11676/NSDV1m5DL9n9n2OwyzWYhSqX",
+    "temporalCoverageDisplay": "2021-05-14"
+  },
+  "size": 10265,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "Humidity and temperature probe",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_623"
+      },
+      "interval": {
+        "start": "2021-05-14T00:00:00Z",
+        "stop": "2021-05-14T23:59:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 210.0,
+          "geo": {
+            "coordinates": [8.636, 45.8147, 210.0],
+            "type": "Point"
+          },
+          "label": "IPR",
+          "lat": 45.8147,
+          "lon": 8.636
+        },
+        "id": "IPR",
+        "org": {
+          "name": "Ispra",
+          "self": {
+            "comments": [],
+            "label": "IPR",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_IPR"
+          }
+        },
+        "pictures": ["https://meta.icos-cp.eu/files/NngtXNhHL6zu_BbqNeZmmEHW/DSC_0139_LR.JPG"],
+        "responsibleOrganization": {
+          "name": "European Commission Joint Research Centre",
+          "self": {
+            "comments": [],
+            "label": "JRC",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/ecJointResearchCentre"
+          },
+          "website": "https://ec.europa.eu/jrc/en/about/jrc-site/ispra"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "IT",
+          "documentation": [{
+            "hash": "hH9gjTbjkxaIsIu1Q4rPoNzVr_vl8YCH00lgAcz2REE",
+            "name": "Ispra_STILT_station_characterization.pdf",
+            "res": "https://meta.icos-cp.eu/objects/hH9gjTbjkxaIsIu1Q4rPoNzV"
+          }],
+          "labelingDate": "2018-11-30",
+          "stationClass": "2",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "ICOS ATC Raw time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ATC Meteorological data csv time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcMeteoL0DataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-05-15T09:40:44.506Z",
+    "stop": "2021-05-15T09:40:47.219Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

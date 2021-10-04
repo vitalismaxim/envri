@@ -1,0 +1,204 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/ng7MugJ46qdpyu51dxiq1rHy",
+  "coverageGeo": {
+    "coordinates": [24.2804, 61.84662, 141.0],
+    "type": "Point"
+  },
+  "fileName": "ICOSETC_Archive_FI-Kvr.zip",
+  "hash": "ng7MugJ46qdpyu51dxiq1rHyBVRh2PYMJDbt62-lQZs",
+  "parentCollections": [{
+    "comments": [],
+    "label": "Ecosystem final quality (L2) product in ETC-Archive format - release 2021-1",
+    "uri": "https://meta.icos-cp.eu/collections/Yljl66tHIJM-XlCmvTvMU3vi"
+  }],
+  "pid": "11676/ng7MugJ46qdpyu51dxiq1rHy",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Anne",
+      "lastName": "Ojala",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Anne_Ojala"
+      }
+    }, {
+      "firstName": "Pasi",
+      "lastName": "Kolari",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Pasi_Kolari"
+      }
+    }, {
+      "firstName": "Heikki",
+      "lastName": "Laakso",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Heikki_Laakso"
+      }
+    }, {
+      "firstName": "Janne",
+      "lastName": "Levula",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Janne_Levula"
+      }
+    }, {
+      "firstName": "Ivan",
+      "lastName": "Mammarella",
+      "orcid": "0000-0002-8516-3356",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Ivan_Mammarella"
+      }
+    }, {
+      "firstName": "Reijo",
+      "lastName": "Pilkottu",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Reijo_Pilkottu"
+      }
+    }, {
+      "firstName": "Risto",
+      "lastName": "Taipale",
+      "orcid": "0000-0002-4225-256X",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Risto_Taipale_2"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/ng7MugJ46qdpyu51dxiq1rHy,\r\n  author={Ojala, A., Kolari, P., Laakso, H., Levula, J., Mammarella, I., Pilkottu, R., Taipale, R.},\r\n  title={ETC L2 ARCHIVE, Kuivajarvi, 2018-12-31–2020-12-31},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/ng7MugJ46qdpyu51dxiq1rHy},\r\n  publisher={Ecosystem Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/ng7MugJ46qdpyu51dxiq1rHy}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ETC L2 ARCHIVE, Kuivajarvi, 2018-12-31–2020-12-31\r\nID - 11676/ng7MugJ46qdpyu51dxiq1rHy\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/ng7MugJ46qdpyu51dxiq1rHy\r\nPB - Ecosystem Thematic Centre\r\nAU - Ojala, A.\r\nAU - Kolari, P.\r\nAU - Laakso, H.\r\nAU - Levula, J.\r\nAU - Mammarella, I.\r\nAU - Pilkottu, R.\r\nAU - Taipale, R.\r\nER - ",
+    "citationString": "Ojala, A., Kolari, P., Laakso, H., Levula, J., Mammarella, I., Pilkottu, R., Taipale, R., ICOS RI, 2021. ETC L2 ARCHIVE, Kuivajarvi, 2018-12-31–2020-12-31, https://hdl.handle.net/11676/ng7MugJ46qdpyu51dxiq1rHy",
+    "temporalCoverageDisplay": "2018-12-31–2020-12-31"
+  },
+  "size": 6481318,
+  "specificInfo": {
+    "acquisition": {
+      "interval": {
+        "start": "2018-12-31T22:00:00Z",
+        "stop": "2020-12-31T22:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 141.0,
+          "geo": {
+            "coordinates": [24.2804, 61.84662, 141.0],
+            "type": "Point"
+          },
+          "label": "FI-Kvr",
+          "lat": 61.84662,
+          "lon": 24.2804
+        },
+        "id": "FI-Kvr",
+        "org": {
+          "name": "Kuivajarvi",
+          "self": {
+            "comments": ["The lake site Kuivajärvi with ICOS code FI-Kvr, is situated in southern Finland in the middle of a managed mixed coniferous forest. Lake Kuivajärvi is humic boreal lake with low water clarity due to high dissolved organic carbon and is oblong in shape with the surface area of 0.62 km 2 and the length of 2.6 km and maximum width approximately 500 m. The lake has a maximum depth of 13.2 m and the mean depth of 6.3 m. The catchment area of the lake is 8.7 km 2 of which 0.86 km 2 is covered by water. The rest of it consists of natural and drained peatlands, and Scots pine ( Pinus sylvestris L.) and Norway spruce ( Picea abies (L). Karst) dominated managed forests. Total area of agricultural fields in the catchment is only 0.032 km 2 . The terrain around the lake is mostly flat but has height variations of up to 40 m. The primary soil type is haplic podzol and a thin layer of soil at most 2 m deep sits above igneous and metamorphic bedrock. There were no recent major disturbances but silvicultural activities in the catchment area may be reflected in the water quality."],
+            "label": "FI-Kvr",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_FI-Kvr"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/6Q9WGobswZSyK9r/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "climateZone": {
+            "comments": [],
+            "label": "Humid continental, warm summer (Dfb)",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/koppen_Dfb"
+          },
+          "countryCode": "FI",
+          "documentation": [{
+            "hash": "08sVVtutPXplVaqwVY8cG7OL3b5ZWBwpTEBskjZZ4Yg",
+            "name": "FI-Kvr Associated ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/08sVVtutPXplVaqwVY8cG7OL"
+          }],
+          "ecosystemType": {
+            "comments": [],
+            "label": "Water Bodies",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_WAT"
+          },
+          "labelingDate": "2020-05-04",
+          "meanAnnualPrecip": 711.0,
+          "meanAnnualRad": 100.0,
+          "meanAnnualTemp": 3.5,
+          "stationClass": "Associated",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 2
+        }
+      }
+    },
+    "nRows": 52608,
+    "productionInfo": {
+      "comment": "UTC offset updated",
+      "contributors": [],
+      "creator": {
+        "name": "Ecosystem Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ETC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ETC"
+        }
+      },
+      "dateTime": "2021-05-31T11:11:47Z",
+      "sources": []
+    }
+  },
+  "specification": {
+    "dataLevel": 2,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Arbitrary ZIP archive",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipArchive"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ETC L2 ARCHIVE",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcArchiveProduct"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-04-30T10:10:14.362Z",
+    "stop": "2021-04-30T10:10:21.966Z",
+    "submitter": {
+      "name": "Ecosystem Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ETC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ETC"
+      }
+    }
+  }
+}

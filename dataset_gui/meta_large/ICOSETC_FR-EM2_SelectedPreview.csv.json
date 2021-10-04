@@ -1,0 +1,387 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/JoNLrqEAf6a1ET9yi1MBKqAS",
+  "coverageGeo": {
+    "coordinates": [3.02065, 49.87211, 85.0],
+    "type": "Point"
+  },
+  "fileName": "ICOSETC_FR-EM2_SelectedPreview.csv",
+  "hash": "JoNLrqEAf6a1ET9yi1MBKqAS_vGSnGPcmcUaI9Iz_8k",
+  "parentCollections": [],
+  "pid": "11676/JoNLrqEAf6a1ET9yi1MBKqAS",
+  "previousVersion": "https://meta.icos-cp.eu/objects/3J7y2tW2hzj6ulL70VxcYiJ4",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Joel",
+      "lastName": "Leonard",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Joel_Leonard"
+      }
+    }, {
+      "firstName": "Frédéric",
+      "lastName": "Bornet",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Fr%C3%A9d%C3%A9ric_Bornet"
+      }
+    }, {
+      "firstName": "Eric",
+      "lastName": "Grehan",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Eric_Grehan"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/JoNLrqEAf6a1ET9yi1MBKqAS,\r\n  author={Leonard, J., Bornet, F., Grehan, E.},\r\n  title={ICOS ETC Fluxdata Preview Selection, Estrees-Mons A28, 2016-12-31–2020-12-31},\r\n  year={2020},\r\n  url={https://hdl.handle.net/11676/JoNLrqEAf6a1ET9yi1MBKqAS},\r\n  publisher={Ecosystem Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/JoNLrqEAf6a1ET9yi1MBKqAS}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ETC Fluxdata Preview Selection, Estrees-Mons A28, 2016-12-31–2020-12-31\r\nID - 11676/JoNLrqEAf6a1ET9yi1MBKqAS\r\nPY - 2020\r\nUR - https://hdl.handle.net/11676/JoNLrqEAf6a1ET9yi1MBKqAS\r\nPB - Ecosystem Thematic Centre\r\nAU - Leonard, J.\r\nAU - Bornet, F.\r\nAU - Grehan, E.\r\nER - ",
+    "citationString": "Leonard, J., Bornet, F., Grehan, E., ICOS RI, 2020. ICOS ETC Fluxdata Preview Selection, Estrees-Mons A28, 2016-12-31–2020-12-31, https://hdl.handle.net/11676/JoNLrqEAf6a1ET9yi1MBKqAS",
+    "temporalCoverageDisplay": "2016-12-31–2020-12-31"
+  },
+  "size": 7789150,
+  "specificInfo": {
+    "acquisition": {
+      "interval": {
+        "start": "2016-12-31T23:00:00Z",
+        "stop": "2020-12-31T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 85.0,
+          "geo": {
+            "coordinates": [3.02065, 49.87211, 85.0],
+            "type": "Point"
+          },
+          "label": "FR-EM2",
+          "lat": 49.87211,
+          "lon": 3.02065
+        },
+        "id": "FR-EM2",
+        "org": {
+          "name": "Estrees-Mons A28",
+          "self": {
+            "comments": ["The station Estrees-Mons A28 (ICOS code FR-EM2) is located in Picardie region, about 200 km north-east of Paris, in an INRA research station which includes 150 ha of experiments on arable crops (both annual food crops and perennial bioenergy crops). The ICOS station is part of the “SOERE ACBB” long-term experiment which includes two eddy covariance towers. Soil is deep loamy soil."],
+            "label": "FR-EM2",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_FR-EM2"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/W84YLG52FC9ctW9/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "climateZone": {
+            "comments": [],
+            "label": "Oceanic subtropical highland (Cfb)",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/koppen_Cfb"
+          },
+          "countryCode": "FR",
+          "documentation": [{
+            "hash": "iFrHZC8K_-lgFIKzoAQOXoc9yBYLtX7EXNmNI7DFNm4",
+            "name": "FR-EM2 Associated ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/iFrHZC8K_-lgFIKzoAQOXoc9"
+          }],
+          "ecosystemType": {
+            "comments": ["Lands covered with temporary crops followed by harvest and a bare soil period (e.g., single and multiple cropping systems). Note that perennial woody crops will be classified as the appropriate forest or shrub land cover type."],
+            "label": "Croplands",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_CRO"
+          },
+          "labelingDate": "2018-11-06",
+          "meanAnnualPrecip": 680.0,
+          "meanAnnualRad": 125.0,
+          "meanAnnualTemp": 10.8,
+          "stationClass": "Associated",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, UTC",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStamp"
+        }
+      }
+    }, {
+      "label": "TIMESTAMP_END",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, local non-DST time",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStampLocalNoDst"
+        }
+      }
+    }, {
+      "label": "TA_F",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["physical temperature"],
+          "label": "temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "air temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/airTempCelsius"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "SW_IN_F",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of energy passing through unit area during unit of time"],
+          "label": "energy flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/energyFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "incoming shortwave radiation",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/incomingSwRadiation"
+        },
+        "unit": "W m-2"
+      }
+    }, {
+      "label": "LE_F_MDS",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of energy passing through unit area during unit of time"],
+          "label": "energy flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/energyFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "latent heat flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/latentHeatFlux"
+        },
+        "unit": "W m-2"
+      }
+    }, {
+      "label": "H_F_MDS",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of energy passing through unit area during unit of time"],
+          "label": "energy flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/energyFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "sensible heat flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/sensibleHeatFlux"
+        },
+        "unit": "W m-2"
+      }
+    }, {
+      "label": "NEE_VUT_REF",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of particles passing through unit area during unit of time"],
+          "label": "particle flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/particleFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "net ecosystem exchange",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/netEcosystemExchange"
+        },
+        "unit": "µmol m-2 s-1"
+      }
+    }, {
+      "label": "VPD_F",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["mechanical pressure, e.g. atmospheric or gas pressure"],
+          "label": "pressure",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/pressure"
+        },
+        "self": {
+          "comments": [],
+          "label": "vapour pressure deficit",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/vapourPressureDeficit"
+        },
+        "unit": "hPa"
+      }
+    }, {
+      "label": "RECO_NT_VUT_REF",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of particles passing through unit area during unit of time"],
+          "label": "particle flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/particleFlux"
+        },
+        "self": {
+          "comments": ["CO2 molecule flux"],
+          "label": "ecosystem respiration",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/ecosystemRespiration"
+        },
+        "unit": "µmol m-2 s-1"
+      }
+    }, {
+      "label": "RECO_DT_VUT_REF",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of particles passing through unit area during unit of time"],
+          "label": "particle flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/particleFlux"
+        },
+        "self": {
+          "comments": ["CO2 molecule flux"],
+          "label": "ecosystem respiration",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/ecosystemRespiration"
+        },
+        "unit": "µmol m-2 s-1"
+      }
+    }, {
+      "label": "GPP_NT_VUT_REF",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of particles passing through unit area during unit of time"],
+          "label": "particle flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/particleFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "gross primary CO2 production",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/grossPrimaryProduction"
+        },
+        "unit": "µmol m-2 s-1"
+      }
+    }, {
+      "label": "GPP_DT_VUT_REF",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of particles passing through unit area during unit of time"],
+          "label": "particle flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/particleFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "gross primary CO2 production",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/grossPrimaryProduction"
+        },
+        "unit": "µmol m-2 s-1"
+      }
+    }, {
+      "label": "VPD_F_QC",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "NEE_VUT_REF_QC",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "H_F_MDS_QC",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "LE_F_MDS_QC",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "SW_IN_F_QC",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "TA_F_QC",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }],
+    "nRows": 70128
+  },
+  "specification": {
+    "dataLevel": 2,
+    "datasetSpec": {
+      "self": {
+        "comments": [],
+        "label": "ETC Fluxnet (preview selection, Drought-2018)",
+        "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcFluxnetDataset"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": ["The first two columns are expected to be the beginning and the end of the averaging period in yyyyMMddHHmm format (no DST)"],
+      "label": "ICOS ETC half-hourly product CSV",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiEtcHalfHourlyProductTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": ["half-hourly processing results of ICOS ecosystem Fluxdata"],
+      "label": "ICOS ETC Fluxdata Preview Selection",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcFluxnetProduct"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-04-30T10:29:47.236Z",
+    "stop": "2021-04-30T10:29:56.378Z",
+    "submitter": {
+      "name": "Ecosystem Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ETC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ETC"
+      }
+    }
+  }
+}

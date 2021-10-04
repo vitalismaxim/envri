@@ -1,0 +1,415 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/GAFk4K-k1KhPlN4RbSVCUyIg",
+  "coverageGeo": {
+    "coordinates": [2.780096, 48.47636, 103.0],
+    "type": "Point"
+  },
+  "fileName": "ICOSETC_FR-Fon_SelectedPreview.csv",
+  "hash": "GAFk4K-k1KhPlN4RbSVCUyIg9ZSP2_yQyaG0LU8-d1I",
+  "parentCollections": [],
+  "pid": "11676/GAFk4K-k1KhPlN4RbSVCUyIg",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Eric",
+      "lastName": "Dufrêne",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Eric_Dufr%C3%AAne"
+      }
+    }, {
+      "firstName": "Nicolas",
+      "lastName": "Delpierre",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Nicolas_Delpierre"
+      }
+    }, {
+      "firstName": "Alexandre",
+      "lastName": "Morfin",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Alexandre_Morfin"
+      }
+    }, {
+      "firstName": "Gaëlle",
+      "lastName": "Vincent",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Ga%C3%ABlle_Vincent"
+      }
+    }, {
+      "firstName": "Stéphane",
+      "lastName": "Bazot",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/St%C3%A9phane_Bazot"
+      }
+    }, {
+      "firstName": "Kamel",
+      "lastName": "Soudani",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Kamel_Soudani"
+      }
+    }, {
+      "firstName": "Daniel",
+      "lastName": "Berveiller",
+      "orcid": "0000-0001-7461-6420",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Daniel_Berveiller"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/GAFk4K-k1KhPlN4RbSVCUyIg,\r\n  author={Dufrêne, E., Delpierre, N., Morfin, A., Vincent, G., Bazot, S., Soudani, K., Berveiller, D.},\r\n  title={ICOS ETC Fluxdata Preview Selection, Fontainebleau-Barbeau, 2018-12-31–2020-12-31},\r\n  year={2020},\r\n  url={https://hdl.handle.net/11676/GAFk4K-k1KhPlN4RbSVCUyIg},\r\n  publisher={Ecosystem Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/GAFk4K-k1KhPlN4RbSVCUyIg}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ETC Fluxdata Preview Selection, Fontainebleau-Barbeau, 2018-12-31–2020-12-31\r\nID - 11676/GAFk4K-k1KhPlN4RbSVCUyIg\r\nPY - 2020\r\nUR - https://hdl.handle.net/11676/GAFk4K-k1KhPlN4RbSVCUyIg\r\nPB - Ecosystem Thematic Centre\r\nAU - Dufrêne, E.\r\nAU - Delpierre, N.\r\nAU - Morfin, A.\r\nAU - Vincent, G.\r\nAU - Bazot, S.\r\nAU - Soudani, K.\r\nAU - Berveiller, D.\r\nER - ",
+    "citationString": "Dufrêne, E., Delpierre, N., Morfin, A., Vincent, G., Bazot, S., Soudani, K., Berveiller, D., ICOS RI, 2020. ICOS ETC Fluxdata Preview Selection, Fontainebleau-Barbeau, 2018-12-31–2020-12-31, https://hdl.handle.net/11676/GAFk4K-k1KhPlN4RbSVCUyIg",
+    "temporalCoverageDisplay": "2018-12-31–2020-12-31"
+  },
+  "size": 3767495,
+  "specificInfo": {
+    "acquisition": {
+      "interval": {
+        "start": "2018-12-31T23:00:00Z",
+        "stop": "2020-12-31T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 103.0,
+          "geo": {
+            "coordinates": [2.780096, 48.47636, 103.0],
+            "type": "Point"
+          },
+          "label": "FR-Fon",
+          "lat": 48.47636,
+          "lon": 2.780096
+        },
+        "id": "FR-Fon",
+        "org": {
+          "name": "Fontainebleau-Barbeau",
+          "self": {
+            "comments": ["The Fontainebleau-Barbeau station, with ICOS code FR-Fon, is located about 50 km South-East of Paris (France), within the Atlantic Biogeographical Region and it is a deciduous oak forest. The climate is temperate oceanic, well representative of a large North-Western part of Europe. The forest is dominated by Quercus petraea (Matt.) Liebl. and Quercus robur L., with a hornbeam coppice understory established on a gleyic luvisol."],
+            "label": "FR-Fon",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_FR-Fon"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/6RP26rRzWYsqYHX/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "climateZone": {
+            "comments": [],
+            "label": "Oceanic subtropical highland (Cfb)",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/koppen_Cfb"
+          },
+          "countryCode": "FR",
+          "documentation": [{
+            "hash": "ZJ8O5RfOJ9JS75ckCKDUJD-fD302iYMbU7A7vJM1zh0",
+            "name": "FR-Fon ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/ZJ8O5RfOJ9JS75ckCKDUJD-f"
+          }],
+          "ecosystemType": {
+            "comments": ["Lands dominated by woody vegetation with a percent cover >60% and height exceeding 2 meters. Consists of broadleaf tree communities with an annual cycle of leaf-on and leaf-off periods."],
+            "label": "Deciduous Broadleaf Forests",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_DBF"
+          },
+          "labelingDate": "2019-10-28",
+          "meanAnnualPrecip": 678.99,
+          "meanAnnualRad": 134.97,
+          "meanAnnualTemp": 11.44,
+          "stationClass": "1",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, UTC",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStamp"
+        }
+      }
+    }, {
+      "label": "TIMESTAMP_END",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, local non-DST time",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStampLocalNoDst"
+        }
+      }
+    }, {
+      "label": "TA_F",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["physical temperature"],
+          "label": "temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "air temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/airTempCelsius"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "SW_IN_F",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of energy passing through unit area during unit of time"],
+          "label": "energy flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/energyFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "incoming shortwave radiation",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/incomingSwRadiation"
+        },
+        "unit": "W m-2"
+      }
+    }, {
+      "label": "LE_F_MDS",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of energy passing through unit area during unit of time"],
+          "label": "energy flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/energyFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "latent heat flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/latentHeatFlux"
+        },
+        "unit": "W m-2"
+      }
+    }, {
+      "label": "H_F_MDS",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of energy passing through unit area during unit of time"],
+          "label": "energy flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/energyFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "sensible heat flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/sensibleHeatFlux"
+        },
+        "unit": "W m-2"
+      }
+    }, {
+      "label": "NEE_VUT_REF",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of particles passing through unit area during unit of time"],
+          "label": "particle flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/particleFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "net ecosystem exchange",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/netEcosystemExchange"
+        },
+        "unit": "µmol m-2 s-1"
+      }
+    }, {
+      "label": "VPD_F",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["mechanical pressure, e.g. atmospheric or gas pressure"],
+          "label": "pressure",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/pressure"
+        },
+        "self": {
+          "comments": [],
+          "label": "vapour pressure deficit",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/vapourPressureDeficit"
+        },
+        "unit": "hPa"
+      }
+    }, {
+      "label": "RECO_NT_VUT_REF",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of particles passing through unit area during unit of time"],
+          "label": "particle flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/particleFlux"
+        },
+        "self": {
+          "comments": ["CO2 molecule flux"],
+          "label": "ecosystem respiration",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/ecosystemRespiration"
+        },
+        "unit": "µmol m-2 s-1"
+      }
+    }, {
+      "label": "RECO_DT_VUT_REF",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of particles passing through unit area during unit of time"],
+          "label": "particle flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/particleFlux"
+        },
+        "self": {
+          "comments": ["CO2 molecule flux"],
+          "label": "ecosystem respiration",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/ecosystemRespiration"
+        },
+        "unit": "µmol m-2 s-1"
+      }
+    }, {
+      "label": "GPP_NT_VUT_REF",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of particles passing through unit area during unit of time"],
+          "label": "particle flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/particleFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "gross primary CO2 production",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/grossPrimaryProduction"
+        },
+        "unit": "µmol m-2 s-1"
+      }
+    }, {
+      "label": "GPP_DT_VUT_REF",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of particles passing through unit area during unit of time"],
+          "label": "particle flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/particleFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "gross primary CO2 production",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/grossPrimaryProduction"
+        },
+        "unit": "µmol m-2 s-1"
+      }
+    }, {
+      "label": "VPD_F_QC",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "NEE_VUT_REF_QC",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "H_F_MDS_QC",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "LE_F_MDS_QC",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "SW_IN_F_QC",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "TA_F_QC",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }],
+    "nRows": 35088
+  },
+  "specification": {
+    "dataLevel": 2,
+    "datasetSpec": {
+      "self": {
+        "comments": [],
+        "label": "ETC Fluxnet (preview selection, Drought-2018)",
+        "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcFluxnetDataset"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": ["The first two columns are expected to be the beginning and the end of the averaging period in yyyyMMddHHmm format (no DST)"],
+      "label": "ICOS ETC half-hourly product CSV",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiEtcHalfHourlyProductTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": ["half-hourly processing results of ICOS ecosystem Fluxdata"],
+      "label": "ICOS ETC Fluxdata Preview Selection",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcFluxnetProduct"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-04-30T10:32:06.053Z",
+    "stop": "2021-04-30T10:32:10.593Z",
+    "submitter": {
+      "name": "Ecosystem Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ETC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ETC"
+      }
+    }
+  }
+}

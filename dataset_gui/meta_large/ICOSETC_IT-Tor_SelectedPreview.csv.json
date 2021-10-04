@@ -1,0 +1,178 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/gj3Od2Dlj6eFXLb41TlFXm69",
+  "coverageGeo": {
+    "coordinates": [12.7503, 45.74048, 1.0],
+    "type": "Point"
+  },
+  "fileName": "ICOSETC_Archive_IT-Lsn.zip",
+  "hash": "gj3Od2Dlj6eFXLb41TlFXm69zXyh1uaUWXDyFwfX5dU",
+  "parentCollections": [{
+    "comments": [],
+    "label": "Ecosystem final quality (L2) product in ETC-Archive format - release 2021-1",
+    "uri": "https://meta.icos-cp.eu/collections/Yljl66tHIJM-XlCmvTvMU3vi"
+  }],
+  "pid": "11676/gj3Od2Dlj6eFXLb41TlFXm69",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Andrea",
+      "lastName": "Pitacco",
+      "orcid": "0000-0002-7260-6242",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Andrea_Pitacco"
+      }
+    }, {
+      "firstName": "Franco",
+      "lastName": "Meggio",
+      "orcid": "0000-0002-1693-7709",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Franco_Meggio"
+      }
+    }, {
+      "firstName": "Alessandro",
+      "lastName": "Peressotti",
+      "orcid": "0000-0001-8804-7935",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Alessandro_Peressotti"
+      }
+    }, {
+      "firstName": "Luca",
+      "lastName": "Tezza",
+      "orcid": "0000-0001-7291-9487",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Luca_Tezza"
+      }
+    }, {
+      "firstName": "Nadia",
+      "lastName": "Vendrame",
+      "orcid": "0000-0002-2772-6755",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Nadia_Vendrame"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/gj3Od2Dlj6eFXLb41TlFXm69,\r\n  author={Pitacco, A., Meggio, F., Peressotti, A., Tezza, L., Vendrame, N.},\r\n  title={ETC L2 ARCHIVE, Lison, 2018-12-31–2020-12-31},\r\n  year={2020},\r\n  url={https://hdl.handle.net/11676/gj3Od2Dlj6eFXLb41TlFXm69},\r\n  publisher={Ecosystem Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/gj3Od2Dlj6eFXLb41TlFXm69}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ETC L2 ARCHIVE, Lison, 2018-12-31–2020-12-31\r\nID - 11676/gj3Od2Dlj6eFXLb41TlFXm69\r\nPY - 2020\r\nUR - https://hdl.handle.net/11676/gj3Od2Dlj6eFXLb41TlFXm69\r\nPB - Ecosystem Thematic Centre\r\nAU - Pitacco, A.\r\nAU - Meggio, F.\r\nAU - Peressotti, A.\r\nAU - Tezza, L.\r\nAU - Vendrame, N.\r\nER - ",
+    "citationString": "Pitacco, A., Meggio, F., Peressotti, A., Tezza, L., Vendrame, N., ICOS RI, 2020. ETC L2 ARCHIVE, Lison, 2018-12-31–2020-12-31, https://hdl.handle.net/11676/gj3Od2Dlj6eFXLb41TlFXm69",
+    "temporalCoverageDisplay": "2018-12-31–2020-12-31"
+  },
+  "size": 19492558,
+  "specificInfo": {
+    "acquisition": {
+      "interval": {
+        "start": "2018-12-31T23:00:00Z",
+        "stop": "2020-12-31T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 1.0,
+          "geo": {
+            "coordinates": [12.7503, 45.74048, 1.0],
+            "type": "Point"
+          },
+          "label": "IT-Lsn",
+          "lat": 45.74048,
+          "lon": 12.7503
+        },
+        "id": "IT-Lsn",
+        "org": {
+          "name": "Lison",
+          "self": {
+            "comments": ["The station Lison (ICOS code IT-Lsn) is located in the middle of an extended vineyard, on a flat terrain of Venice region (Lison di Portogruaro, province of Venice), North-East Italy. The vineyard, established in 2001, is about 33 ha and surrounded by other vineyards, has the vine rows oriented to 35 ? 125 N. Rows are spaced 2.2 m apart and are approximately 0.5 m wide; plant spacing is 0.9 m and the canopy height at full development is 2 m. The vineyard alleys are covered by permanent grass, regularly mowed during the season, while the soil below plants on the row is chemically weeded for a strip of about 0.7 m width. Eddy covariance measurements started in May 2014. Canopy height at full development is 2 m, the vine growing season is from April to September. The alleys are covered with spontaneous herbaceous vegetation."],
+            "label": "IT-Lsn",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_IT-Lsn"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/Kt37WZG34SpMook/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "climateZone": {
+            "comments": [],
+            "label": "Humid subtropical (Cfa)",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/koppen_Cfa"
+          },
+          "countryCode": "IT",
+          "documentation": [{
+            "hash": "FrGEV3GCxbHHHrcieYjaHqA_mPqKhJtCdGxYrT5RME4",
+            "name": "IT-Lsn Associated ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/FrGEV3GCxbHHHrcieYjaHqA_"
+          }],
+          "ecosystemType": {
+            "comments": ["Lands with woody vegetation less than 2 meters tall and with shrub canopy cover between 10-60%. The shrub foliage can be either evergreen or deciduous."],
+            "label": "Open Shrublands",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_OSH"
+          },
+          "labelingDate": "2020-10-26",
+          "meanAnnualPrecip": 1100.0,
+          "meanAnnualTemp": 13.0,
+          "stationClass": "Associated",
+          "stationDocs": [],
+          "stationPubs": ["https://doi.org/10.1016/j.agee.2018.11.002", "https://doi.org/10.5344/ajev.2018.18006"],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    },
+    "nRows": 35088
+  },
+  "specification": {
+    "dataLevel": 2,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Arbitrary ZIP archive",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipArchive"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ETC L2 ARCHIVE",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcArchiveProduct"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-04-30T10:40:38.845Z",
+    "stop": "2021-04-30T10:41:01.488Z",
+    "submitter": {
+      "name": "Ecosystem Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ETC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ETC"
+      }
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "coverageGeo": {
+    "coordinates": [19.775, 64.256, 269.0],
+    "type": "Point"
+  },
+  "fileName": "SVB_638_1_20210625.zip",
+  "hash": "2eOShWDznCtbE0ka0VUmDgVK-Y1Tzn7owTw-T0py5j8",
+  "parentCollections": [],
+  "pid": "11676/2eOShWDznCtbE0ka0VUmDgVK",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Paul",
+      "lastName": "Smith",
+      "orcid": "0000-0002-3773-1419",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Paul_Smith"
+      }
+    }, {
+      "firstName": "Per",
+      "lastName": "Marklund",
+      "orcid": "0000-0001-7264-5498",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Per_Marklund"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/2eOShWDznCtbE0ka0VUmDgVK,\r\n  author={Smith, P., Marklund, P.},\r\n  title={ICOS ATC Meteorological data csv time series, Svartberget, 2021-06-25},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/2eOShWDznCtbE0ka0VUmDgVK},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/2eOShWDznCtbE0ka0VUmDgVK}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC Meteorological data csv time series, Svartberget, 2021-06-25\r\nID - 11676/2eOShWDznCtbE0ka0VUmDgVK\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/2eOShWDznCtbE0ka0VUmDgVK\r\nPB - Atmosphere Thematic Centre\r\nAU - Smith, P.\r\nAU - Marklund, P.\r\nER - ",
+    "citationString": "Smith, P., Marklund, P., ICOS RI, 2021. ICOS ATC Meteorological data csv time series, Svartberget, 2021-06-25, https://hdl.handle.net/11676/2eOShWDznCtbE0ka0VUmDgVK",
+    "temporalCoverageDisplay": "2021-06-25"
+  },
+  "size": 19514,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "Meteorological station for the first level",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_638"
+      },
+      "interval": {
+        "start": "2021-06-25T00:00:00Z",
+        "stop": "2021-06-25T23:59:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 269.0,
+          "geo": {
+            "coordinates": [19.775, 64.256, 269.0],
+            "type": "Point"
+          },
+          "label": "SVB",
+          "lat": 64.256,
+          "lon": 19.775
+        },
+        "id": "SVB",
+        "org": {
+          "name": "Svartberget",
+          "self": {
+            "comments": [],
+            "label": "SVB",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_SVB"
+          }
+        },
+        "pictures": ["https://meta.icos-cp.eu/files/roL56JviMlYbmnWKK6dXUtH7/SE-Svb_tower_from_below.JPG", "https://meta.icos-cp.eu/files/psmSdflNKK6bcOpub5hzwec6/Svartberget_tower.jpg"],
+        "responsibleOrganization": {
+          "name": "Forest Ecology and Management, SLU Umeå",
+          "self": {
+            "comments": [],
+            "uri": "http://meta.icos-cp.eu/resources/organizations/Forest%20Ecology%20and%20Management,%20SLU%20Ume%C3%A5"
+          },
+          "website": "https://www.slu.se/en/departments/forest-ecology-management"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "SE",
+          "documentation": [{
+            "hash": "KD9pVgbsT-obWakC6e-50IYIzUjrEJzLLReVlcI2vFo",
+            "name": "Svartberget_STILT_station_characterization.pdf",
+            "res": "https://meta.icos-cp.eu/objects/KD9pVgbsT-obWakC6e-50IYI"
+          }],
+          "labelingDate": "2018-04-20",
+          "stationClass": "1",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "ICOS ATC Raw time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ATC Meteorological data csv time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcMeteoL0DataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-06-26T09:44:12.105213Z",
+    "stop": "2021-06-26T09:44:15.028244Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

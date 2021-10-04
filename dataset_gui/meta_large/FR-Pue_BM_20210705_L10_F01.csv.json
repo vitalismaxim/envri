@@ -1,0 +1,618 @@
+{
+  "accessUrl": "https://data.fieldsites.se/objects/8dl5cJWVN1KrT8iudnAXPT7v",
+  "coverageGeo": {
+    "geometries": [{
+      "coordinates": [13.10403, 55.67112],
+      "type": "Point"
+    }, {
+      "coordinates": [[[13.0998, 55.6705], [13.1016, 55.6708], [13.1017, 55.6708], [13.1044, 55.6712], [13.1039, 55.6691], [13.112, 55.6698], [13.1122, 55.6701], [13.1163, 55.6694], [13.1163, 55.669], [13.115, 55.6691], [13.1148, 55.6681], [13.1159, 55.668], [13.1213, 55.6652], [13.1165, 55.6624], [13.1164, 55.6623], [13.112, 55.6662], [13.1109, 55.6661], [13.1107, 55.666], [13.1098, 55.666], [13.1093, 55.666], [13.1038, 55.6645], [13.1031, 55.6645], [13.1028, 55.6645], [13.1027, 55.666], [13.1022, 55.666], [13.1014, 55.6658], [13.1004, 55.6656], [13.0999, 55.6656], [13.1, 55.6662], [13.1, 55.6668], [13.1, 55.6678], [13.0998, 55.6705]]],
+      "type": "Polygon"
+    }],
+    "type": "GeometryCollection"
+  },
+  "fileName": "SITES_MET_LON_AWS_20180101-20181231_L2_15min.csv",
+  "hash": "8dl5cJWVN1KrT8iudnAXPT7vEQ-_lUNFoEsK3SRFUR0",
+  "parentCollections": [],
+  "pid": "11676.1/8dl5cJWVN1KrT8iudnAXPT7v",
+  "previousVersion": "https://meta.fieldsites.se/objects/RLqRZyfEpsQBkSsqLztI0LiS",
+  "references": {
+    "acknowledgements": [],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676.1/8dl5cJWVN1KrT8iudnAXPT7v,\r\n  title={Lönnstorp Research Station (2021). Meteorological data from Lönnstorp, AWS, 2018-01-01–2018-12-31},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676.1/8dl5cJWVN1KrT8iudnAXPT7v},\r\n  publisher={Lönnstorp Research Station},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676.1/8dl5cJWVN1KrT8iudnAXPT7v}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - Lönnstorp Research Station (2021). Meteorological data from Lönnstorp, AWS, 2018-01-01–2018-12-31\r\nID - 11676.1/8dl5cJWVN1KrT8iudnAXPT7v\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676.1/8dl5cJWVN1KrT8iudnAXPT7v\r\nPB - Lönnstorp Research Station\r\nER - ",
+    "citationString": "Lönnstorp Research Station (2021). Meteorological data from Lönnstorp, AWS, 2018-01-01–2018-12-31 [Data set]. Swedish Infrastructure for Ecosystem Science (SITES). https://hdl.handle.net/11676.1/8dl5cJWVN1KrT8iudnAXPT7v",
+    "temporalCoverageDisplay": "2018-01-01–2018-12-31"
+  },
+  "size": 2337791,
+  "specificInfo": {
+    "acquisition": {
+      "interval": {
+        "start": "2017-12-31T23:00:00Z",
+        "stop": "2018-12-31T22:45:00Z"
+      },
+      "samplingPoint": {
+        "label": "Lönnstorp, AWS",
+        "lat": 55.67112,
+        "lon": 13.10403
+      },
+      "site": {
+        "ecosystem": {
+          "comments": [],
+          "label": "Arable land",
+          "uri": "https://meta.fieldsites.se/resources/ecosystems/arable"
+        },
+        "location": {
+          "geometry": {
+            "geo": {
+              "coordinates": [[[13.0998, 55.6705], [13.1016, 55.6708], [13.1017, 55.6708], [13.1044, 55.6712], [13.1039, 55.6691], [13.112, 55.6698], [13.1122, 55.6701], [13.1163, 55.6694], [13.1163, 55.669], [13.115, 55.6691], [13.1148, 55.6681], [13.1159, 55.668], [13.1213, 55.6652], [13.1165, 55.6624], [13.1164, 55.6623], [13.112, 55.6662], [13.1109, 55.6661], [13.1107, 55.666], [13.1098, 55.666], [13.1093, 55.666], [13.1038, 55.6645], [13.1031, 55.6645], [13.1028, 55.6645], [13.1027, 55.666], [13.1022, 55.666], [13.1014, 55.6658], [13.1004, 55.6656], [13.0999, 55.6656], [13.1, 55.6662], [13.1, 55.6668], [13.1, 55.6678], [13.0998, 55.6705]]],
+              "type": "Polygon"
+            },
+            "label": "Lönnstorp Experimental Fields",
+            "vertices": [{
+              "lat": 55.6705,
+              "lon": 13.0998
+            }, {
+              "lat": 55.6708,
+              "lon": 13.1016
+            }, {
+              "lat": 55.6708,
+              "lon": 13.1017
+            }, {
+              "lat": 55.6712,
+              "lon": 13.1044
+            }, {
+              "lat": 55.6691,
+              "lon": 13.1039
+            }, {
+              "lat": 55.6698,
+              "lon": 13.112
+            }, {
+              "lat": 55.6701,
+              "lon": 13.1122
+            }, {
+              "lat": 55.6694,
+              "lon": 13.1163
+            }, {
+              "lat": 55.669,
+              "lon": 13.1163
+            }, {
+              "lat": 55.6691,
+              "lon": 13.115
+            }, {
+              "lat": 55.6681,
+              "lon": 13.1148
+            }, {
+              "lat": 55.668,
+              "lon": 13.1159
+            }, {
+              "lat": 55.6652,
+              "lon": 13.1213
+            }, {
+              "lat": 55.6624,
+              "lon": 13.1165
+            }, {
+              "lat": 55.6623,
+              "lon": 13.1164
+            }, {
+              "lat": 55.6662,
+              "lon": 13.112
+            }, {
+              "lat": 55.6661,
+              "lon": 13.1109
+            }, {
+              "lat": 55.666,
+              "lon": 13.1107
+            }, {
+              "lat": 55.666,
+              "lon": 13.1098
+            }, {
+              "lat": 55.666,
+              "lon": 13.1093
+            }, {
+              "lat": 55.6645,
+              "lon": 13.1038
+            }, {
+              "lat": 55.6645,
+              "lon": 13.1031
+            }, {
+              "lat": 55.6645,
+              "lon": 13.1028
+            }, {
+              "lat": 55.666,
+              "lon": 13.1027
+            }, {
+              "lat": 55.666,
+              "lon": 13.1022
+            }, {
+              "lat": 55.6658,
+              "lon": 13.1014
+            }, {
+              "lat": 55.6656,
+              "lon": 13.1004
+            }, {
+              "lat": 55.6656,
+              "lon": 13.0999
+            }, {
+              "lat": 55.6662,
+              "lon": 13.1
+            }, {
+              "lat": 55.6668,
+              "lon": 13.1
+            }, {
+              "lat": 55.6678,
+              "lon": 13.1
+            }]
+          },
+          "label": "Lönnstorp Experimental Fields"
+        },
+        "self": {
+          "comments": [],
+          "label": "Lönnstorp - Arable land",
+          "uri": "https://meta.fieldsites.se/resources/sites/lonnstorp"
+        }
+      },
+      "station": {
+        "coverage": {
+          "alt": 18.0,
+          "geo": {
+            "coordinates": [13.1027, 55.66917, 18.0],
+            "type": "Point"
+          },
+          "lat": 55.66917,
+          "lon": 13.1027
+        },
+        "id": "LON",
+        "org": {
+          "email": "data@fieldsites.se",
+          "name": "Lönnstorp Research Station",
+          "self": {
+            "comments": [],
+            "uri": "https://meta.fieldsites.se/resources/stations/Lonnstorp"
+          },
+          "website": "https://www.fieldsites.se/en-GB/research-stations/l%C3%B6nnstorp-32652365"
+        },
+        "pictures": ["https://data.fieldsites.se/objects/TqT-vcYA7Dm7p-35DG98aAmH"],
+        "responsibleOrganization": {
+          "name": "Swedish University of Agricultural Sciences",
+          "self": {
+            "comments": [],
+            "uri": "https://meta.fieldsites.se/resources/organizations/slu"
+          }
+        },
+        "specificInfo": {
+          "_type": "sites",
+          "climateZone": {
+            "comments": [],
+            "label": "Temperate",
+            "uri": "https://meta.fieldsites.se/resources/climatezones/temperate"
+          },
+          "documentation": [],
+          "ecosystems": [{
+            "comments": [],
+            "label": "Agriculture",
+            "uri": "https://meta.fieldsites.se/resources/ecosystems/agriculture"
+          }],
+          "meanAnnualTemp": 5.5,
+          "operationalPeriod": "Year-round",
+          "sites": [{
+            "ecosystem": {
+              "comments": [],
+              "label": "Arable land",
+              "uri": "https://meta.fieldsites.se/resources/ecosystems/arable"
+            },
+            "location": {
+              "geometry": {
+                "geo": {
+                  "coordinates": [[[13.0998, 55.6705], [13.1016, 55.6708], [13.1017, 55.6708], [13.1044, 55.6712], [13.1039, 55.6691], [13.112, 55.6698], [13.1122, 55.6701], [13.1163, 55.6694], [13.1163, 55.669], [13.115, 55.6691], [13.1148, 55.6681], [13.1159, 55.668], [13.1213, 55.6652], [13.1165, 55.6624], [13.1164, 55.6623], [13.112, 55.6662], [13.1109, 55.6661], [13.1107, 55.666], [13.1098, 55.666], [13.1093, 55.666], [13.1038, 55.6645], [13.1031, 55.6645], [13.1028, 55.6645], [13.1027, 55.666], [13.1022, 55.666], [13.1014, 55.6658], [13.1004, 55.6656], [13.0999, 55.6656], [13.1, 55.6662], [13.1, 55.6668], [13.1, 55.6678], [13.0998, 55.6705]]],
+                  "type": "Polygon"
+                },
+                "label": "Lönnstorp Experimental Fields",
+                "vertices": [{
+                  "lat": 55.6705,
+                  "lon": 13.0998
+                }, {
+                  "lat": 55.6708,
+                  "lon": 13.1016
+                }, {
+                  "lat": 55.6708,
+                  "lon": 13.1017
+                }, {
+                  "lat": 55.6712,
+                  "lon": 13.1044
+                }, {
+                  "lat": 55.6691,
+                  "lon": 13.1039
+                }, {
+                  "lat": 55.6698,
+                  "lon": 13.112
+                }, {
+                  "lat": 55.6701,
+                  "lon": 13.1122
+                }, {
+                  "lat": 55.6694,
+                  "lon": 13.1163
+                }, {
+                  "lat": 55.669,
+                  "lon": 13.1163
+                }, {
+                  "lat": 55.6691,
+                  "lon": 13.115
+                }, {
+                  "lat": 55.6681,
+                  "lon": 13.1148
+                }, {
+                  "lat": 55.668,
+                  "lon": 13.1159
+                }, {
+                  "lat": 55.6652,
+                  "lon": 13.1213
+                }, {
+                  "lat": 55.6624,
+                  "lon": 13.1165
+                }, {
+                  "lat": 55.6623,
+                  "lon": 13.1164
+                }, {
+                  "lat": 55.6662,
+                  "lon": 13.112
+                }, {
+                  "lat": 55.6661,
+                  "lon": 13.1109
+                }, {
+                  "lat": 55.666,
+                  "lon": 13.1107
+                }, {
+                  "lat": 55.666,
+                  "lon": 13.1098
+                }, {
+                  "lat": 55.666,
+                  "lon": 13.1093
+                }, {
+                  "lat": 55.6645,
+                  "lon": 13.1038
+                }, {
+                  "lat": 55.6645,
+                  "lon": 13.1031
+                }, {
+                  "lat": 55.6645,
+                  "lon": 13.1028
+                }, {
+                  "lat": 55.666,
+                  "lon": 13.1027
+                }, {
+                  "lat": 55.666,
+                  "lon": 13.1022
+                }, {
+                  "lat": 55.6658,
+                  "lon": 13.1014
+                }, {
+                  "lat": 55.6656,
+                  "lon": 13.1004
+                }, {
+                  "lat": 55.6656,
+                  "lon": 13.0999
+                }, {
+                  "lat": 55.6662,
+                  "lon": 13.1
+                }, {
+                  "lat": 55.6668,
+                  "lon": 13.1
+                }, {
+                  "lat": 55.6678,
+                  "lon": 13.1
+                }]
+              },
+              "label": "Lönnstorp Experimental Fields"
+            },
+            "self": {
+              "comments": [],
+              "label": "Lönnstorp - Arable land",
+              "uri": "https://meta.fieldsites.se/resources/sites/lonnstorp"
+            }
+          }, {
+            "ecosystem": {
+              "comments": [],
+              "label": "Arable land",
+              "uri": "https://meta.fieldsites.se/resources/ecosystems/arable"
+            },
+            "location": {
+              "geometry": {
+                "geo": {
+                  "coordinates": [[[13.0748, 55.6633], [13.0762, 55.6632], [13.0776, 55.663], [13.0791, 55.6629], [13.0805, 55.6627], [13.0808, 55.6591], [13.0793, 55.6592], [13.0792, 55.6598], [13.0777, 55.6597], [13.0777, 55.6608], [13.075, 55.6608], [13.0748, 55.6633]]],
+                  "type": "Polygon"
+                },
+                "label": "Organic Experimental Field",
+                "vertices": [{
+                  "lat": 55.6633,
+                  "lon": 13.0748
+                }, {
+                  "lat": 55.6632,
+                  "lon": 13.0762
+                }, {
+                  "lat": 55.663,
+                  "lon": 13.0776
+                }, {
+                  "lat": 55.6629,
+                  "lon": 13.0791
+                }, {
+                  "lat": 55.6627,
+                  "lon": 13.0805
+                }, {
+                  "lat": 55.6591,
+                  "lon": 13.0808
+                }, {
+                  "lat": 55.6592,
+                  "lon": 13.0793
+                }, {
+                  "lat": 55.6598,
+                  "lon": 13.0792
+                }, {
+                  "lat": 55.6597,
+                  "lon": 13.0777
+                }, {
+                  "lat": 55.6608,
+                  "lon": 13.0777
+                }, {
+                  "lat": 55.6608,
+                  "lon": 13.075
+                }]
+              },
+              "label": "Organic Experimental Field"
+            },
+            "self": {
+              "comments": [],
+              "label": "Organic Experimental Field - Arable land",
+              "uri": "https://meta.fieldsites.se/resources/sites/lonnstorp-organic"
+            }
+          }]
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": ["ISO8601 dateTime"],
+          "label": "Time instant",
+          "uri": "https://meta.fieldsites.se/resources/timeStamp"
+        }
+      }
+    }, {
+      "label": "TA_1.5m",
+      "valueType": {
+        "quantityKind": {
+          "comments": [],
+          "label": "temperature",
+          "uri": "https://meta.fieldsites.se/resources/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "Air temperature",
+          "uri": "https://meta.fieldsites.se/resources/airTempCelcius"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "TA_0.2m",
+      "valueType": {
+        "quantityKind": {
+          "comments": [],
+          "label": "temperature",
+          "uri": "https://meta.fieldsites.se/resources/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "Air temperature",
+          "uri": "https://meta.fieldsites.se/resources/airTempCelcius"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "RH_1.5m",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "https://meta.fieldsites.se/resources/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "Relative humidity",
+          "uri": "https://meta.fieldsites.se/resources/relativeHumidity"
+        },
+        "unit": "%"
+      }
+    }, {
+      "label": "RH_0.2m",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "https://meta.fieldsites.se/resources/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "Relative humidity",
+          "uri": "https://meta.fieldsites.se/resources/relativeHumidity"
+        },
+        "unit": "%"
+      }
+    }, {
+      "label": "P",
+      "valueType": {
+        "quantityKind": {
+          "comments": [],
+          "label": "length",
+          "uri": "https://meta.fieldsites.se/resources/length"
+        },
+        "self": {
+          "comments": [],
+          "label": "Precipitation",
+          "uri": "https://meta.fieldsites.se/resources/precipitation"
+        },
+        "unit": "mm"
+      }
+    }, {
+      "label": "WS",
+      "valueType": {
+        "quantityKind": {
+          "comments": [],
+          "label": "velocity",
+          "uri": "https://meta.fieldsites.se/resources/velocity"
+        },
+        "self": {
+          "comments": [],
+          "label": "Wind speed",
+          "uri": "https://meta.fieldsites.se/resources/windSpeed"
+        },
+        "unit": "m s-1"
+      }
+    }, {
+      "label": "WS_MAX",
+      "valueType": {
+        "quantityKind": {
+          "comments": [],
+          "label": "velocity",
+          "uri": "https://meta.fieldsites.se/resources/velocity"
+        },
+        "self": {
+          "comments": [],
+          "label": "Wind speed",
+          "uri": "https://meta.fieldsites.se/resources/windSpeed"
+        },
+        "unit": "m s-1"
+      }
+    }, {
+      "label": "WD",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["angle in the trigonometric sense"],
+          "label": "angle",
+          "uri": "https://meta.fieldsites.se/resources/angle"
+        },
+        "self": {
+          "comments": [],
+          "label": "Wind direction",
+          "uri": "https://meta.fieldsites.se/resources/windDirection"
+        },
+        "unit": "°"
+      }
+    }, {
+      "label": "TS_-0.05m",
+      "valueType": {
+        "quantityKind": {
+          "comments": [],
+          "label": "temperature",
+          "uri": "https://meta.fieldsites.se/resources/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "Soil temperature",
+          "uri": "https://meta.fieldsites.se/resources/soil_temp"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "TS_-0.2m",
+      "valueType": {
+        "quantityKind": {
+          "comments": [],
+          "label": "temperature",
+          "uri": "https://meta.fieldsites.se/resources/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "Soil temperature",
+          "uri": "https://meta.fieldsites.se/resources/soil_temp"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "SW_IN",
+      "valueType": {
+        "quantityKind": {
+          "comments": [],
+          "label": "energy flux",
+          "uri": "https://meta.fieldsites.se/resources/energyFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "Incoming shortwave radiation",
+          "uri": "https://meta.fieldsites.se/resources/incomingSwRadiation"
+        },
+        "unit": "W m-2"
+      }
+    }, {
+      "label": "PA",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["mechanical pressure, e.g. atmospheric or gas pressure"],
+          "label": "pressure",
+          "uri": "https://meta.fieldsites.se/resources/pressure"
+        },
+        "self": {
+          "comments": [],
+          "label": "Air pressure",
+          "uri": "https://meta.fieldsites.se/resources/airPressure"
+        },
+        "unit": "Pa"
+      }
+    }],
+    "nRows": 35040
+  },
+  "specification": {
+    "dataLevel": 2,
+    "datasetSpec": {
+      "resolution": "(Sub-)hourly",
+      "self": {
+        "comments": [],
+        "label": "Hourly meteorological dataset",
+        "uri": "https://meta.fieldsites.se/resources/hourlyMeteorologicalDataset"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Character delimited header csv",
+      "uri": "https://meta.fieldsites.se/ontologies/sites/delimitedHeaderCsv"
+    },
+    "keywords": ["Air temperature", "Precipitation", "Surface Winds", "Humidity", "Atmospheric radiation"],
+    "project": {
+      "self": {
+        "comments": ["Basic measurements from the SITES stations"],
+        "label": "Station base programme",
+        "uri": "https://meta.fieldsites.se/resources/projects/station"
+      }
+    },
+    "self": {
+      "comments": ["Automatic weather station data from locations within the distributed Swedish research infrastructure SITES. Check preview or file for the specific parameters included at this location. Data has been quality controlled and cleaned from outliers and other events producing unrealistic data. Gaps have not been filled. "],
+      "label": "Meteorological data, sub-hourly, Station",
+      "uri": "https://meta.fieldsites.se/resources/objspecs/stationHourlyMeteorological"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/cloud.svg",
+      "self": {
+        "comments": [],
+        "label": "Atmosphere",
+        "uri": "https://meta.fieldsites.se/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-07-06T12:39:21.711238Z",
+    "stop": "2021-07-06T12:39:25.102179Z",
+    "submitter": {
+      "email": "data@fieldsites.se",
+      "name": "Lönnstorp Research Station",
+      "self": {
+        "comments": [],
+        "uri": "https://meta.fieldsites.se/resources/stations/Lonnstorp"
+      },
+      "website": "https://www.fieldsites.se/en-GB/research-stations/l%C3%B6nnstorp-32652365"
+    }
+  }
+}

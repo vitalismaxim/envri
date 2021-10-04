@@ -1,0 +1,161 @@
+{
+  "coverageGeo": {
+    "coordinates": [8.4249, 49.0915, 110.0],
+    "type": "Point"
+  },
+  "fileName": "KIT_935_4_20210305.zip",
+  "hash": "F0zu-c5nF8xDohxxRdbfexuKlh1_Ohif2H-VKTLTuqM",
+  "parentCollections": [],
+  "pid": "11676/F0zu-c5nF8xDohxxRdbfexuK",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Dagmar",
+      "lastName": "Kubistin",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Dagmar_Kubistin"
+      }
+    }, {
+      "firstName": "Christian",
+      "lastName": "Plaß-Dülmer",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Christian_Pla%C3%9F-D%C3%BClmer"
+      }
+    }, {
+      "firstName": "Matthias",
+      "lastName": "Lindauer",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Matthias_Lindauer"
+      }
+    }, {
+      "firstName": "Jennifer",
+      "lastName": "Müller-Williams",
+      "orcid": "0000-0002-4840-7729",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jennifer_M%C3%BCller-Williams"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/F0zu-c5nF8xDohxxRdbfexuK,\r\n  author={Kubistin, D., Plaß-Dülmer, C., Lindauer, M., Müller-Williams, J.},\r\n  title={ICOS ATC Meteorological data csv time series, Karlsruhe, 2021-03-05},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/F0zu-c5nF8xDohxxRdbfexuK},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/F0zu-c5nF8xDohxxRdbfexuK}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC Meteorological data csv time series, Karlsruhe, 2021-03-05\r\nID - 11676/F0zu-c5nF8xDohxxRdbfexuK\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/F0zu-c5nF8xDohxxRdbfexuK\r\nPB - Atmosphere Thematic Centre\r\nAU - Kubistin, D.\r\nAU - Plaß-Dülmer, C.\r\nAU - Lindauer, M.\r\nAU - Müller-Williams, J.\r\nER - ",
+    "citationString": "Kubistin, D., Plaß-Dülmer, C., Lindauer, M., Müller-Williams, J., ICOS RI, 2021. ICOS ATC Meteorological data csv time series, Karlsruhe, 2021-03-05, https://hdl.handle.net/11676/F0zu-c5nF8xDohxxRdbfexuK",
+    "temporalCoverageDisplay": "2021-03-05"
+  },
+  "size": 21930,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "Meteorological station for the fourth level",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_935"
+      },
+      "interval": {
+        "start": "2021-03-05T00:00:00Z",
+        "stop": "2021-03-05T23:59:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 110.0,
+          "geo": {
+            "coordinates": [8.4249, 49.0915, 110.0],
+            "type": "Point"
+          },
+          "label": "KIT",
+          "lat": 49.0915,
+          "lon": 8.4249
+        },
+        "id": "KIT",
+        "org": {
+          "name": "Karlsruhe",
+          "self": {
+            "comments": [],
+            "label": "KIT",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_KIT"
+          }
+        },
+        "pictures": ["https://meta.icos-cp.eu/files/1HB5WlINdlsTi4sKLx-dPGqF/KIT.png"],
+        "responsibleOrganization": {
+          "name": "Deutscher Wetterdienst, Hohenpeißenberg Meteorological Observatory",
+          "self": {
+            "comments": [],
+            "label": "MOHp",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/MOHp"
+          },
+          "website": "https://www.dwd.de/mohp"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "DE",
+          "documentation": [{
+            "hash": "OD4iHkK6ryseSqPkxRJdrLmoCiwe5aqPzvTsjYIVUpk",
+            "name": "Karlsruhe_STILT_station_characterization.pdf",
+            "res": "https://meta.icos-cp.eu/objects/OD4iHkK6ryseSqPkxRJdrLmo"
+          }],
+          "labelingDate": "2019-11-28",
+          "stationClass": "1",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "ICOS ATC Raw time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ATC Meteorological data csv time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcMeteoL0DataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-03-06T10:41:24.827Z",
+    "stop": "2021-03-06T10:41:28.197Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

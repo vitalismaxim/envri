@@ -1,0 +1,251 @@
+{
+  "coverageGeo": {
+    "coordinates": [18.53688, 49.50208, 875.0],
+    "type": "Point"
+  },
+  "fileName": "CZ-BK1_EC_20210623_L01_F01.zip",
+  "hash": "1uyniUyfyY6UUVO0GRezzviG2-ED1RhxFceKYh6sC0M",
+  "parentCollections": [],
+  "pid": "11676/1uyniUyfyY6UUVO0GRezzviG",
+  "references": {
+    "acknowledgements": ["Work was funded by grant CzeCOS (LM2018123) from Ministry of Education, Youth and Sports of the Czech Republic"],
+    "authors": [{
+      "firstName": "Ladislav",
+      "lastName": "Šigut",
+      "orcid": "0000-0003-1951-4100",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Ladislav_%C5%A0igut"
+      }
+    }, {
+      "firstName": "Radek",
+      "lastName": "Czerný",
+      "orcid": "0000-0002-0381-8620",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Radek_Czern%C3%BD"
+      }
+    }, {
+      "firstName": "Eva",
+      "lastName": "Darenová",
+      "orcid": "0000-0002-2666-6869",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Eva_Darenov%C3%A1"
+      }
+    }, {
+      "firstName": "Milan",
+      "lastName": "Fischer",
+      "orcid": "0000-0002-7841-9317",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Milan_Fischer"
+      }
+    }, {
+      "firstName": "Lenka",
+      "lastName": "Foltýnová",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Lenka_Folt%C3%BDnov%C3%A1"
+      }
+    }, {
+      "firstName": "Georg",
+      "lastName": "Jocher",
+      "orcid": "0000-0003-2667-6140",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Georg_Jocher"
+      }
+    }, {
+      "firstName": "Natalia",
+      "lastName": "Kowalska",
+      "orcid": "0000-0002-7366-7231",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Natalia_Kowalska"
+      }
+    }, {
+      "firstName": "Jan",
+      "lastName": "Krejza",
+      "orcid": "0000-0003-2475-2111",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jan_Krejza"
+      }
+    }, {
+      "firstName": "Michal",
+      "lastName": "Marek",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Michal_Marek"
+      }
+    }, {
+      "firstName": "Ondrej",
+      "lastName": "Nezval",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Ondrej_Nezval"
+      }
+    }, {
+      "firstName": "Marian",
+      "lastName": "Pavelka",
+      "orcid": "0000-0002-7339-3410",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Marian_Pavelka"
+      }
+    }, {
+      "firstName": "Karel",
+      "lastName": "Staník",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Karel_Stan%C3%ADk"
+      }
+    }, {
+      "firstName": "Jan",
+      "lastName": "Trusina",
+      "orcid": "0000-0001-9703-6250",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jan_Trusina"
+      }
+    }, {
+      "firstName": "Jirí",
+      "lastName": "Šlížek",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jir%C3%AD_%C5%A0l%C3%AD%C5%BEek"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/1uyniUyfyY6UUVO0GRezzviG,\r\n  author={Šigut, L., Czerný, R., Darenová, E., Fischer, M., Foltýnová, L., Jocher, G., Kowalska, N., Krejza, J., Marek, M., Nezval, O., Pavelka, M., Staník, K., Trusina, J., Šlížek, J.},\r\n  title={ICOS ETC Eddy Flux Raw ASCII daily archive, Bily Kriz forest, 2021-06-23},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/1uyniUyfyY6UUVO0GRezzviG},\r\n  publisher={Bily Kriz forest},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/1uyniUyfyY6UUVO0GRezzviG}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ETC Eddy Flux Raw ASCII daily archive, Bily Kriz forest, 2021-06-23\r\nID - 11676/1uyniUyfyY6UUVO0GRezzviG\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/1uyniUyfyY6UUVO0GRezzviG\r\nPB - Bily Kriz forest\r\nAU - Šigut, L.\r\nAU - Czerný, R.\r\nAU - Darenová, E.\r\nAU - Fischer, M.\r\nAU - Foltýnová, L.\r\nAU - Jocher, G.\r\nAU - Kowalska, N.\r\nAU - Krejza, J.\r\nAU - Marek, M.\r\nAU - Nezval, O.\r\nAU - Pavelka, M.\r\nAU - Staník, K.\r\nAU - Trusina, J.\r\nAU - Šlížek, J.\r\nER - ",
+    "citationString": "Šigut, L., Czerný, R., Darenová, E., Fischer, M., Foltýnová, L., Jocher, G., Kowalska, N., Krejza, J., Marek, M., Nezval, O., Pavelka, M., Staník, K., Trusina, J., Šlížek, J., ICOS RI, 2021. ICOS ETC Eddy Flux Raw ASCII daily archive, Bily Kriz forest, 2021-06-23, https://hdl.handle.net/11676/1uyniUyfyY6UUVO0GRezzviG",
+    "temporalCoverageDisplay": "2021-06-23"
+  },
+  "size": 128576637,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "DL-LI-COR SFlux2",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ETC_27_1"
+      },
+      "interval": {
+        "start": "2021-06-22T23:00:00Z",
+        "stop": "2021-06-23T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 875.0,
+          "geo": {
+            "coordinates": [18.53688, 49.50208, 875.0],
+            "type": "Point"
+          },
+          "label": "CZ-BK1",
+          "lat": 49.50208,
+          "lon": 18.53688
+        },
+        "funding": [{
+          "awardNumber": "LM2018123",
+          "awardTitle": "CzeCOS",
+          "awardUrl": "https://starfos.tacr.cz/en/project/LM2018123",
+          "funder": {
+            "org": {
+              "name": "Ministry of Education, Youth and Sports of the Czech Republic",
+              "self": {
+                "comments": [],
+                "uri": "http://meta.icos-cp.eu/resources/organizations/Ministry%20of%20Education,%20Youth%20and%20Sports%20of%20the%20Czech%20Republic"
+              }
+            }
+          },
+          "self": {
+            "comments": [],
+            "label": "CzeCOS to Bily Kriz forest",
+            "uri": "http://meta.icos-cp.eu/resources/fundings/27_LM2018123"
+          },
+          "start": "2020-01-01",
+          "stop": "2022-12-31"
+        }],
+        "id": "CZ-BK1",
+        "org": {
+          "name": "Bily Kriz forest",
+          "self": {
+            "comments": ["The station Bily Kriz, with IOS code CZ-BK1, is located in the north eastern part of the Czech Republic. The site is a evergreen needleleaf forest  dominated by Norway Spruce (Picea abies (L.) Karst.) covering 99% of the investigated area with 1% addition of silver fir (Abies alba Mill.). According to FAO soil classification, soil type is haplic podzol, medium deep, sandy-clay (loamy-sand to sandy-loam) with high content of soil skeleton in the low layers."],
+            "label": "CZ-BK1",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_CZ-BK1"
+          }
+        },
+        "pictures": [],
+        "specificInfo": {
+          "_type": "etc",
+          "countryCode": "CZ",
+          "documentation": [],
+          "meanAnnualPrecip": 1338.12,
+          "meanAnnualRad": 116.45,
+          "meanAnnualTemp": 6.29,
+          "stationClass": "2",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Multi-file zip archive with ETC raw time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/etcRawTimeSerMultiZip"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ETC Eddy Flux Raw ASCII daily archive",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcEddyFluxRawSeriesCsv"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-06-23T23:16:31.621290Z",
+    "stop": "2021-06-23T23:16:36.072531Z",
+    "submitter": {
+      "name": "Bily Kriz forest",
+      "self": {
+        "comments": ["The station Bily Kriz, with IOS code CZ-BK1, is located in the north eastern part of the Czech Republic. The site is a evergreen needleleaf forest  dominated by Norway Spruce (Picea abies (L.) Karst.) covering 99% of the investigated area with 1% addition of silver fir (Abies alba Mill.). According to FAO soil classification, soil type is haplic podzol, medium deep, sandy-clay (loamy-sand to sandy-loam) with high content of soil skeleton in the low layers."],
+        "label": "CZ-BK1",
+        "uri": "http://meta.icos-cp.eu/resources/stations/ES_CZ-BK1"
+      }
+    }
+  }
+}

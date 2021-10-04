@@ -1,0 +1,266 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/njf9ZTKwEM781m6iRGERLDa8",
+  "coverageGeo": {
+    "coordinates": [2.9658, 45.7719, 1465.0],
+    "type": "Point"
+  },
+  "fileName": "ICOS_ATC_NRT_PUY_2020-06-01_2021-04-29_10.0_473_CH4.zip",
+  "hash": "njf9ZTKwEM781m6iRGERLDa8QN8gSE6AWemfWgoXKzQ",
+  "nextVersion": "https://meta.icos-cp.eu/objects/Nwz2sM-W__I1hKLURI1kXbus",
+  "parentCollections": [],
+  "pid": "11676/njf9ZTKwEM781m6iRGERLDa8",
+  "previousVersion": "https://meta.icos-cp.eu/objects/_a19v7NwiyqC9JL-pmzHtSxO",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Aurélie",
+      "lastName": "Colomb",
+      "orcid": "0000-0002-2595-3911",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Aur%C3%A9lie_Colomb"
+      }
+    }, {
+      "firstName": "Michel",
+      "lastName": "Ramonet",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Michel_Ramonet"
+      }
+    }, {
+      "firstName": "Camille",
+      "lastName": "Yver-Kwok",
+      "orcid": "0000-0002-2181-2863",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Camille_Yver-Kwok"
+      }
+    }, {
+      "firstName": "Marc",
+      "lastName": "Delmotte",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Marc_Delmotte"
+      }
+    }, {
+      "firstName": "Jean-Marc",
+      "lastName": "Pichon",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jean-Marc_Pichon"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/njf9ZTKwEM781m6iRGERLDa8,\r\n  author={Colomb, A., Ramonet, M., Yver-Kwok, C., Delmotte, M., Pichon, J.},\r\n  title={ICOS ATC NRT CH4 growing time series, Puy de Dôme (10.0 m), 2020-06-01–2021-04-29},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/njf9ZTKwEM781m6iRGERLDa8},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/njf9ZTKwEM781m6iRGERLDa8}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC NRT CH4 growing time series, Puy de Dôme (10.0 m), 2020-06-01–2021-04-29\r\nID - 11676/njf9ZTKwEM781m6iRGERLDa8\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/njf9ZTKwEM781m6iRGERLDa8\r\nPB - Atmosphere Thematic Centre\r\nAU - Colomb, A.\r\nAU - Ramonet, M.\r\nAU - Yver-Kwok, C.\r\nAU - Delmotte, M.\r\nAU - Pichon, J.\r\nER - ",
+    "citationString": "Colomb, A., Ramonet, M., Yver-Kwok, C., Delmotte, M., Pichon, J., ICOS RI, 2021. ICOS ATC NRT CH4 growing time series, Puy de Dôme (10.0 m), 2020-06-01–2021-04-29, https://hdl.handle.net/11676/njf9ZTKwEM781m6iRGERLDa8",
+    "temporalCoverageDisplay": "2020-06-01–2021-04-29"
+  },
+  "size": 120015,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "PUY",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_473"
+      },
+      "interval": {
+        "start": "2020-06-01T00:00:00Z",
+        "stop": "2021-04-29T23:00:00Z"
+      },
+      "samplingHeight": 10.0,
+      "station": {
+        "coverage": {
+          "alt": 1465.0,
+          "geo": {
+            "coordinates": [2.9658, 45.7719, 1465.0],
+            "type": "Point"
+          },
+          "label": "PUY",
+          "lat": 45.7719,
+          "lon": 2.9658
+        },
+        "id": "PUY",
+        "org": {
+          "name": "Puy de Dôme",
+          "self": {
+            "comments": [],
+            "label": "PUY",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_PUY"
+          }
+        },
+        "pictures": ["https://meta.icos-cp.eu/files/8yy9MYBj3WqNTksG6iNdq4Mz/IMG_1318.JPG"],
+        "responsibleOrganization": {
+          "name": "Laboratoire des Sciences du Climat et de l'Environnement",
+          "self": {
+            "comments": [],
+            "label": "LSCE",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/LSCE"
+          },
+          "website": "https://www.lsce.ipsl.fr"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "FR",
+          "documentation": [{
+            "hash": "iR7Y7iaZOfyuotkbxXK8-vEB6j3On3lkRaosvg0wkP0",
+            "name": "Puy_de_Dome_STILT_station_characterization.pdf",
+            "res": "https://meta.icos-cp.eu/objects/iR7Y7iaZOfyuotkbxXK8-vEB"
+          }],
+          "labelingDate": "2018-04-20",
+          "stationClass": "2",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, UTC",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStamp"
+        }
+      }
+    }, {
+      "label": "Flag",
+      "valueType": {
+        "self": {
+          "comments": ["single-letter quality flag"],
+          "label": "quality flag",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/oneLetterFlag"
+        }
+      }
+    }, {
+      "label": "NbPoints",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["integer number"],
+          "label": "number",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/number"
+        },
+        "self": {
+          "comments": [],
+          "label": "number of points",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/npoints"
+        }
+      }
+    }, {
+      "label": "ch4",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "CH4 mixing ratio (dry mole fraction)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/ch4MixingRatioPpb"
+        },
+        "unit": "nmol mol-1"
+      }
+    }, {
+      "label": "Stdev",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "standard deviation of gas mole fraction",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/moleFractionSdPpb"
+        },
+        "unit": "nmol mol-1"
+      }
+    }],
+    "nRows": 7988,
+    "productionInfo": {
+      "contributors": [],
+      "creator": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "dateTime": "2021-04-30T10:11:58Z",
+      "host": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "sources": []
+    }
+  },
+  "specification": {
+    "dataLevel": 1,
+    "datasetSpec": {
+      "self": {
+        "comments": [],
+        "label": "Atmospheric CH4 mole fraction time series",
+        "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcCh4MoleFracTimeSer"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": ["Semicolon-separated ASCII, with #-prefixed multi-line header"],
+      "label": "ICOS ATC time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcProductTimeSer"
+    },
+    "keywords": ["CH4", "concentration"],
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": ["Automatically-produced, daily-growing (by data object deprecation) data on molar fraction of atmospheric CH4. The data starts from the last respective L2 release."],
+      "label": "ICOS ATC NRT CH4 growing time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcCh4NrtGrowingDataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-04-30T10:11:58.384Z",
+    "stop": "2021-04-30T10:12:01.854Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

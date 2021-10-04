@@ -1,0 +1,161 @@
+{
+  "coverageGeo": {
+    "coordinates": [11.43369, 46.58686, 1735.6],
+    "type": "Point"
+  },
+  "fileName": "IT-Ren_BM_20210607_L02_F01.bin",
+  "hash": "x0Vdj1Tj9BlsnyxuoenbC67BAYdFERMVX1Zi872MavE",
+  "parentCollections": [],
+  "pid": "11676/x0Vdj1Tj9BlsnyxuoenbC67B",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Leonardo",
+      "lastName": "Montagnani",
+      "orcid": "0000-0003-2957-9071",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Leonardo_Montagnani"
+      }
+    }, {
+      "firstName": "Massimo",
+      "lastName": "Bortoli",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Massimo_Bortoli"
+      }
+    }, {
+      "firstName": "Ivo",
+      "lastName": "Cobbe",
+      "orcid": "0000-0001-7898-380X",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Ivo_Cobbe"
+      }
+    }, {
+      "firstName": "Martin",
+      "lastName": "Stecher",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Martin_Stecher"
+      }
+    }, {
+      "firstName": "Fabio",
+      "lastName": "Tenca",
+      "orcid": "0000-0002-2062-9020",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Fabio_Tenca"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/x0Vdj1Tj9BlsnyxuoenbC67B,\r\n  author={Montagnani, L., Bortoli, M., Cobbe, I., Stecher, M., Tenca, F.},\r\n  title={ICOS ETC Bio Meteo Raw binary, Renon, 2021-06-07},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/x0Vdj1Tj9BlsnyxuoenbC67B},\r\n  publisher={Renon},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/x0Vdj1Tj9BlsnyxuoenbC67B}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ETC Bio Meteo Raw binary, Renon, 2021-06-07\r\nID - 11676/x0Vdj1Tj9BlsnyxuoenbC67B\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/x0Vdj1Tj9BlsnyxuoenbC67B\r\nPB - Renon\r\nAU - Montagnani, L.\r\nAU - Bortoli, M.\r\nAU - Cobbe, I.\r\nAU - Stecher, M.\r\nAU - Tenca, F.\r\nER - ",
+    "citationString": "Montagnani, L., Bortoli, M., Cobbe, I., Stecher, M., Tenca, F., ICOS RI, 2021. ICOS ETC Bio Meteo Raw binary, Renon, 2021-06-07, https://hdl.handle.net/11676/x0Vdj1Tj9BlsnyxuoenbC67B",
+    "temporalCoverageDisplay": "2021-06-07"
+  },
+  "size": 898560,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "DL-Campbell CR3000",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ETC_15_2"
+      },
+      "interval": {
+        "start": "2021-06-06T23:00:00Z",
+        "stop": "2021-06-07T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 1735.6,
+          "geo": {
+            "coordinates": [11.43369, 46.58686, 1735.6],
+            "type": "Point"
+          },
+          "label": "IT-Ren",
+          "lat": 46.58686,
+          "lon": 11.43369
+        },
+        "id": "IT-Ren",
+        "org": {
+          "name": "Renon",
+          "self": {
+            "comments": ["The station Renon, with ICOS code IT-Ren, is located in the Italian Alps at about 7 Km north of Bolzano. The site is a typical subalpine forest (Picea abies (L.) Karst.), with an un-evenaged structure and presence of Larix decidua Mill. and Pinus cembra L. at 1735 m above sea. It is covered by snow on average 120 days a year. The dominant trees are about 200 years old and the ecosystem is characterized by understory vegetation with shrubs (Vaccinium mirtyllum St., Rhododendron ferrugineum L.), herbs (Deschampsia flexuosa (L.) Trin.) and forbs."],
+            "label": "IT-Ren",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_IT-Ren"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/ttQ3kTQYxKsrXqw/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "countryCode": "IT",
+          "documentation": [],
+          "meanAnnualPrecip": 970.8,
+          "meanAnnualRad": 167.59,
+          "meanAnnualTemp": 4.9,
+          "stationClass": "2",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Raw binary ETC station data",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/binEtcRawTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ETC Bio Meteo Raw binary",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcBioMeteoRawSeriesBin"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-06-08T01:38:29.565387Z",
+    "stop": "2021-06-08T01:38:32.341978Z",
+    "submitter": {
+      "name": "Renon",
+      "self": {
+        "comments": ["The station Renon, with ICOS code IT-Ren, is located in the Italian Alps at about 7 Km north of Bolzano. The site is a typical subalpine forest (Picea abies (L.) Karst.), with an un-evenaged structure and presence of Larix decidua Mill. and Pinus cembra L. at 1735 m above sea. It is covered by snow on average 120 days a year. The dominant trees are about 200 years old and the ecosystem is characterized by understory vegetation with shrubs (Vaccinium mirtyllum St., Rhododendron ferrugineum L.), herbs (Deschampsia flexuosa (L.) Trin.) and forbs."],
+        "label": "IT-Ren",
+        "uri": "http://meta.icos-cp.eu/resources/stations/ES_IT-Ren"
+      }
+    }
+  }
+}

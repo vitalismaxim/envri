@@ -1,0 +1,250 @@
+{
+  "coverageGeo": {
+    "coordinates": [16.94633, 48.68155, 150.0],
+    "type": "Point"
+  },
+  "fileName": "CZ-Lnz_EC_20210709_L01_F01.zip",
+  "hash": "Ll-EPzg0Jw2_Rv64_e928109np6IAPiC6vBhFSaPtKo",
+  "parentCollections": [],
+  "pid": "11676/Ll-EPzg0Jw2_Rv64_e928109",
+  "references": {
+    "acknowledgements": ["Work was funded by grant CzeCOS (LM2018123) from Ministry of Education, Youth and Sports of the Czech Republic"],
+    "authors": [{
+      "firstName": "Natalia",
+      "lastName": "Kowalska",
+      "orcid": "0000-0002-7366-7231",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Natalia_Kowalska"
+      }
+    }, {
+      "firstName": "Radek",
+      "lastName": "Czerný",
+      "orcid": "0000-0002-0381-8620",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Radek_Czern%C3%BD"
+      }
+    }, {
+      "firstName": "Eva",
+      "lastName": "Darenová",
+      "orcid": "0000-0002-2666-6869",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Eva_Darenov%C3%A1"
+      }
+    }, {
+      "firstName": "Milan",
+      "lastName": "Fischer",
+      "orcid": "0000-0002-7841-9317",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Milan_Fischer"
+      }
+    }, {
+      "firstName": "Lenka",
+      "lastName": "Foltýnová",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Lenka_Folt%C3%BDnov%C3%A1"
+      }
+    }, {
+      "firstName": "Georg",
+      "lastName": "Jocher",
+      "orcid": "0000-0003-2667-6140",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Georg_Jocher"
+      }
+    }, {
+      "firstName": "Jan",
+      "lastName": "Krejza",
+      "orcid": "0000-0003-2475-2111",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jan_Krejza"
+      }
+    }, {
+      "firstName": "Caleb",
+      "lastName": "Mensah",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Caleb_Mensah"
+      }
+    }, {
+      "firstName": "Ondrej",
+      "lastName": "Nezval",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Ondrej_Nezval"
+      }
+    }, {
+      "firstName": "Marian",
+      "lastName": "Pavelka",
+      "orcid": "0000-0002-7339-3410",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Marian_Pavelka"
+      }
+    }, {
+      "firstName": "Karel",
+      "lastName": "Staník",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Karel_Stan%C3%ADk"
+      }
+    }, {
+      "firstName": "Jan",
+      "lastName": "Trusina",
+      "orcid": "0000-0001-9703-6250",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jan_Trusina"
+      }
+    }, {
+      "firstName": "Ladislav",
+      "lastName": "Šigut",
+      "orcid": "0000-0003-1951-4100",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Ladislav_%C5%A0igut"
+      }
+    }, {
+      "firstName": "Jirí",
+      "lastName": "Šlížek",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jir%C3%AD_%C5%A0l%C3%AD%C5%BEek"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/Ll-EPzg0Jw2_Rv64_e928109,\r\n  author={Kowalska, N., Czerný, R., Darenová, E., Fischer, M., Foltýnová, L., Jocher, G., Krejza, J., Mensah, C., Nezval, O., Pavelka, M., Staník, K., Trusina, J., Šigut, L., Šlížek, J.},\r\n  title={ICOS ETC Eddy Flux Raw ASCII daily archive, Lanzhot, 2021-07-09},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/Ll-EPzg0Jw2_Rv64_e928109},\r\n  publisher={Lanzhot},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/Ll-EPzg0Jw2_Rv64_e928109}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ETC Eddy Flux Raw ASCII daily archive, Lanzhot, 2021-07-09\r\nID - 11676/Ll-EPzg0Jw2_Rv64_e928109\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/Ll-EPzg0Jw2_Rv64_e928109\r\nPB - Lanzhot\r\nAU - Kowalska, N.\r\nAU - Czerný, R.\r\nAU - Darenová, E.\r\nAU - Fischer, M.\r\nAU - Foltýnová, L.\r\nAU - Jocher, G.\r\nAU - Krejza, J.\r\nAU - Mensah, C.\r\nAU - Nezval, O.\r\nAU - Pavelka, M.\r\nAU - Staník, K.\r\nAU - Trusina, J.\r\nAU - Šigut, L.\r\nAU - Šlížek, J.\r\nER - ",
+    "citationString": "Kowalska, N., Czerný, R., Darenová, E., Fischer, M., Foltýnová, L., Jocher, G., Krejza, J., Mensah, C., Nezval, O., Pavelka, M., Staník, K., Trusina, J., Šigut, L., Šlížek, J., ICOS RI, 2021. ICOS ETC Eddy Flux Raw ASCII daily archive, Lanzhot, 2021-07-09, https://hdl.handle.net/11676/Ll-EPzg0Jw2_Rv64_e928109",
+    "temporalCoverageDisplay": "2021-07-09"
+  },
+  "size": 130341436,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "DL-LI-COR SFlux2",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ETC_46_1"
+      },
+      "interval": {
+        "start": "2021-07-08T23:00:00Z",
+        "stop": "2021-07-09T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 150.0,
+          "geo": {
+            "coordinates": [16.94633, 48.68155, 150.0],
+            "type": "Point"
+          },
+          "label": "CZ-Lnz",
+          "lat": 48.68155,
+          "lon": 16.94633
+        },
+        "funding": [{
+          "awardNumber": "LM2018123",
+          "awardTitle": "CzeCOS",
+          "awardUrl": "https://starfos.tacr.cz/en/project/LM2018123",
+          "funder": {
+            "org": {
+              "name": "Ministry of Education, Youth and Sports of the Czech Republic",
+              "self": {
+                "comments": [],
+                "uri": "http://meta.icos-cp.eu/resources/organizations/Ministry%20of%20Education,%20Youth%20and%20Sports%20of%20the%20Czech%20Republic"
+              }
+            }
+          },
+          "self": {
+            "comments": [],
+            "label": "CzeCOS to Lanzhot",
+            "uri": "http://meta.icos-cp.eu/resources/fundings/46_LM2018123"
+          },
+          "start": "2020-01-01",
+          "stop": "2022-12-31"
+        }],
+        "id": "CZ-Lnz",
+        "org": {
+          "name": "Lanzhot",
+          "self": {
+            "comments": ["Ecosystem station Lanžhot (ICOS code CZ-Lnz) is located in the south eastern part of the Czech Republic, closed to the confluence of rivers Thaya and Morava. Study site is a Panonian hard-wood floodplain forest with semi-natural tree species composition characterized by rich biodiversity. The stand is situated in a flat area."],
+            "label": "CZ-Lnz",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_CZ-Lnz"
+          }
+        },
+        "pictures": [],
+        "specificInfo": {
+          "_type": "etc",
+          "countryCode": "CZ",
+          "documentation": [],
+          "meanAnnualPrecip": 518.031,
+          "meanAnnualTemp": 9.804,
+          "stationClass": "1",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Multi-file zip archive with ETC raw time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/etcRawTimeSerMultiZip"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ETC Eddy Flux Raw ASCII daily archive",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcEddyFluxRawSeriesCsv"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-07-09T23:16:27.816215Z",
+    "stop": "2021-07-09T23:16:33.455005Z",
+    "submitter": {
+      "name": "Lanzhot",
+      "self": {
+        "comments": ["Ecosystem station Lanžhot (ICOS code CZ-Lnz) is located in the south eastern part of the Czech Republic, closed to the confluence of rivers Thaya and Morava. Study site is a Panonian hard-wood floodplain forest with semi-natural tree species composition characterized by rich biodiversity. The stand is situated in a flat area."],
+        "label": "CZ-Lnz",
+        "uri": "http://meta.icos-cp.eu/resources/stations/ES_CZ-Lnz"
+      }
+    }
+  }
+}

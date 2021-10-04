@@ -1,0 +1,226 @@
+{
+  "coverageGeo": {
+    "coordinates": [13.41897, 56.09763, 115.0],
+    "type": "Point"
+  },
+  "fileName": "SE-Htm_BM_20210709_L07_F02.dat",
+  "hash": "UR_wfbS-zEPR-Sdh_dS-vSOsOj2iek-OCUSeCROO9EA",
+  "parentCollections": [],
+  "pid": "11676/UR_wfbS-zEPR-Sdh_dS-vSOs",
+  "references": {
+    "acknowledgements": ["Work was funded by grant National Research Infrastructure ICOS Sweden (2019-00205) from Swedish Research Council"],
+    "authors": [{
+      "firstName": "Michal",
+      "lastName": "Heliasz",
+      "orcid": "0000-0003-2635-9604",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Michal_Heliasz"
+      }
+    }, {
+      "firstName": "Tobias",
+      "lastName": "Biermann",
+      "orcid": "0000-0001-8538-1495",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Tobias_Biermann"
+      }
+    }, {
+      "firstName": "Jutta",
+      "lastName": "Holst",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jutta_Holst"
+      }
+    }, {
+      "firstName": "Thomas",
+      "lastName": "Holst",
+      "orcid": "0000-0002-3360-9395",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Thomas_Holst"
+      }
+    }, {
+      "firstName": "Meelis",
+      "lastName": "Mölder",
+      "orcid": "0000-0001-6767-3195",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Meelis_M%C3%B6lder"
+      }
+    }, {
+      "firstName": "Janne",
+      "lastName": "Rinne",
+      "orcid": "0000-0003-1168-7138",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Janne_Rinne"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/UR_wfbS-zEPR-Sdh_dS-vSOs,\r\n  author={Heliasz, M., Biermann, T., Holst, J., Holst, T., Mölder, M., Rinne, J.},\r\n  title={ICOS ETC Bio Meteo Raw ASCII, Hyltemossa, 2021-07-09},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/UR_wfbS-zEPR-Sdh_dS-vSOs},\r\n  publisher={Hyltemossa},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/UR_wfbS-zEPR-Sdh_dS-vSOs}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ETC Bio Meteo Raw ASCII, Hyltemossa, 2021-07-09\r\nID - 11676/UR_wfbS-zEPR-Sdh_dS-vSOs\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/UR_wfbS-zEPR-Sdh_dS-vSOs\r\nPB - Hyltemossa\r\nAU - Heliasz, M.\r\nAU - Biermann, T.\r\nAU - Holst, J.\r\nAU - Holst, T.\r\nAU - Mölder, M.\r\nAU - Rinne, J.\r\nER - ",
+    "citationString": "Heliasz, M., Biermann, T., Holst, J., Holst, T., Mölder, M., Rinne, J., ICOS RI, 2021. ICOS ETC Bio Meteo Raw ASCII, Hyltemossa, 2021-07-09, https://hdl.handle.net/11676/UR_wfbS-zEPR-Sdh_dS-vSOs",
+    "temporalCoverageDisplay": "2021-07-09"
+  },
+  "size": 1113065,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "DL-Campbell CR800",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ETC_61_7"
+      },
+      "interval": {
+        "start": "2021-07-08T23:00:00Z",
+        "stop": "2021-07-09T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 115.0,
+          "geo": {
+            "coordinates": [13.41897, 56.09763, 115.0],
+            "type": "Point"
+          },
+          "label": "SE-Htm",
+          "lat": 56.09763,
+          "lon": 13.41897
+        },
+        "funding": [{
+          "awardNumber": "2015-06020",
+          "awardTitle": "National Research Infrastructure ICOS Sweden",
+          "awardUrl": "www.icos-sweden.se",
+          "funder": {
+            "org": {
+              "name": "Swedish Research Council",
+              "self": {
+                "comments": [],
+                "uri": "http://meta.icos-cp.eu/resources/organizations/Swedish%20Research%20Council"
+              }
+            }
+          },
+          "self": {
+            "comments": ["co-financed by Lund University, Gothenburg University, Swedish Polar Research Secretariat, SLU, Stockholm University and Uppsala University"],
+            "label": "National Research Infrastructure ICOS Sweden to Hyltemossa",
+            "uri": "http://meta.icos-cp.eu/resources/fundings/61_2015-06020"
+          },
+          "start": "2016-04-01",
+          "stop": "2020-12-31"
+        }, {
+          "awardNumber": "2019-00205",
+          "awardTitle": "National Research Infrastructure ICOS Sweden",
+          "awardUrl": "www.icos-sweden.se",
+          "funder": {
+            "org": {
+              "name": "Swedish Research Council",
+              "self": {
+                "comments": [],
+                "uri": "http://meta.icos-cp.eu/resources/organizations/Swedish%20Research%20Council"
+              }
+            }
+          },
+          "self": {
+            "comments": ["co-financed by Lund University, SLU, Gothenburg University, Swedish Polar Research Secretariat, Uppsala University and SMHI"],
+            "label": "National Research Infrastructure ICOS Sweden to Hyltemossa",
+            "uri": "http://meta.icos-cp.eu/resources/fundings/61_2019-00205"
+          },
+          "start": "2021-01-01",
+          "stop": "2024-12-31"
+        }],
+        "id": "SE-Htm",
+        "org": {
+          "name": "Hyltemossa",
+          "self": {
+            "comments": ["The station Hyltemossa, with ICOS code SE-Htm, is located in southern Sweden. The site is a evergreen needleleaf managed forest located in a temperate, maritime climate. The forest in the target area composed of two stands, 29 and 34 years old, and dominated by Picea abies (L.) H.Karst (Norway spruce) with a small fraction of Betula spp. (birch) and single occurrence of Pinus sylvestris L. (Scots pine). Understory vegetation is sparse. The forest floor is mainly covered by moss."],
+            "label": "SE-Htm",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_SE-Htm"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/qnPLYMGQYLJW5JR/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "climateZone": {
+            "comments": [],
+            "label": "Oceanic subtropical highland (Cfb)",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/koppen_Cfb"
+          },
+          "countryCode": "SE",
+          "documentation": [{
+            "hash": "i8S47Rr8NTJvjGZ1RjaGtuBrENeVcZ-gUxVHToAhys8",
+            "name": "SE-Htm ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/i8S47Rr8NTJvjGZ1RjaGtuBr"
+          }],
+          "ecosystemType": {
+            "comments": ["Lands dominated by woody vegetation with a percent cover >60% and height exceeding 2 meters. Almost all trees remain green all year. Canopy is never without green foliage."],
+            "label": "Evergreen Needleleaf Forests",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_ENF"
+          },
+          "labelingDate": "2018-04-19",
+          "meanAnnualPrecip": 707.0,
+          "meanAnnualRad": 110.0,
+          "meanAnnualTemp": 7.4,
+          "stationClass": "2",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Raw ASCII ETC station data",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiEtcRawTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ETC Bio Meteo Raw ASCII",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcBioMeteoRawSeriesCsv"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-07-10T02:13:51.875764Z",
+    "stop": "2021-07-10T02:13:53.981553Z",
+    "submitter": {
+      "name": "Hyltemossa",
+      "self": {
+        "comments": ["The station Hyltemossa, with ICOS code SE-Htm, is located in southern Sweden. The site is a evergreen needleleaf managed forest located in a temperate, maritime climate. The forest in the target area composed of two stands, 29 and 34 years old, and dominated by Picea abies (L.) H.Karst (Norway spruce) with a small fraction of Betula spp. (birch) and single occurrence of Pinus sylvestris L. (Scots pine). Understory vegetation is sparse. The forest floor is mainly covered by moss."],
+        "label": "SE-Htm",
+        "uri": "http://meta.icos-cp.eu/resources/stations/ES_SE-Htm"
+      }
+    }
+  }
+}

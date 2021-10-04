@@ -1,0 +1,183 @@
+{
+  "coverageGeo": {
+    "coordinates": [1.237878, 43.49644, 180.0],
+    "type": "Point"
+  },
+  "fileName": "FR-Lam_BM_20210406_L03_F01.csv",
+  "hash": "TS6uE2rl4pPdjbiRPWGySWkdGSk18p9NDnlz-dpp4ao",
+  "parentCollections": [],
+  "pid": "11676/TS6uE2rl4pPdjbiRPWGySWkd",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Aurore",
+      "lastName": "Brut",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Aurore_Brut"
+      }
+    }, {
+      "firstName": "Eric",
+      "lastName": "Ceschia",
+      "orcid": "0000-0001-5941-752X",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Eric_Ceschia"
+      }
+    }, {
+      "firstName": "Nicole",
+      "lastName": "Claverie",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Nicole_Claverie"
+      }
+    }, {
+      "firstName": "Franck",
+      "lastName": "Granouillac",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Franck_Granouillac"
+      }
+    }, {
+      "firstName": "Baptiste",
+      "lastName": "Lemaire",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Baptiste_Lemaire"
+      }
+    }, {
+      "firstName": "Tiphaine",
+      "lastName": "Tallec",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Tiphaine_Tallec"
+      }
+    }, {
+      "firstName": "Bartosz",
+      "lastName": "Zawilski",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Bartosz_Zawilski"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/TS6uE2rl4pPdjbiRPWGySWkd,\r\n  author={Brut, A., Ceschia, E., Claverie, N., Granouillac, F., Lemaire, B., Tallec, T., Zawilski, B.},\r\n  title={ICOS ETC Bio Meteo Raw ASCII, Lamasquere, 2021-04-06},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/TS6uE2rl4pPdjbiRPWGySWkd},\r\n  publisher={Lamasquere},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/TS6uE2rl4pPdjbiRPWGySWkd}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ETC Bio Meteo Raw ASCII, Lamasquere, 2021-04-06\r\nID - 11676/TS6uE2rl4pPdjbiRPWGySWkd\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/TS6uE2rl4pPdjbiRPWGySWkd\r\nPB - Lamasquere\r\nAU - Brut, A.\r\nAU - Ceschia, E.\r\nAU - Claverie, N.\r\nAU - Granouillac, F.\r\nAU - Lemaire, B.\r\nAU - Tallec, T.\r\nAU - Zawilski, B.\r\nER - ",
+    "citationString": "Brut, A., Ceschia, E., Claverie, N., Granouillac, F., Lemaire, B., Tallec, T., Zawilski, B., ICOS RI, 2021. ICOS ETC Bio Meteo Raw ASCII, Lamasquere, 2021-04-06, https://hdl.handle.net/11676/TS6uE2rl4pPdjbiRPWGySWkd",
+    "temporalCoverageDisplay": "2021-04-06"
+  },
+  "size": 552480,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "DL-Campbell CR1000",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ETC_31_3"
+      },
+      "interval": {
+        "start": "2021-04-05T23:00:00Z",
+        "stop": "2021-04-06T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 180.0,
+          "geo": {
+            "coordinates": [1.237878, 43.49644, 180.0],
+            "type": "Point"
+          },
+          "label": "FR-Lam",
+          "lat": 43.49644,
+          "lon": 1.237878
+        },
+        "id": "FR-Lam",
+        "org": {
+          "name": "Lamasquere",
+          "self": {
+            "comments": ["The Lamasquere station, with ICOS code FR-Lam, is located at 25 km from Toulouse city (southwestern France), in a flat large alluvial valley and on the border of the “Touch” river. The site is a cropland plot characterized by a maize (Zea mays L.) / winter wheat (Triticum aestivum L.) / maize (Zea mays L.) / winter wheat (Triticum aestivum L.) rotation."],
+            "label": "FR-Lam",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_FR-Lam"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/kWSqWs68nRQ6dL7/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "countryCode": "FR",
+          "documentation": [{
+            "hash": "7WGNEcqpODsIXmZfRvQxboSmrIcqlrqYJmHIcpsaiiI",
+            "name": "FR-Lam ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/7WGNEcqpODsIXmZfRvQxboSm"
+          }],
+          "ecosystemType": {
+            "comments": ["Lands covered with temporary crops followed by harvest and a bare soil period (e.g., single and multiple cropping systems). Note that perennial woody crops will be classified as the appropriate forest or shrub land cover type."],
+            "label": "Croplands",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_CRO"
+          },
+          "labelingDate": "2020-10-26",
+          "meanAnnualPrecip": 677.0,
+          "meanAnnualRad": 157.0,
+          "meanAnnualTemp": 13.4,
+          "stationClass": "1",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Raw ASCII ETC station data",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiEtcRawTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ETC Bio Meteo Raw ASCII",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcBioMeteoRawSeriesCsv"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-04-07T03:07:10.198Z",
+    "stop": "2021-04-07T03:07:13.293Z",
+    "submitter": {
+      "name": "Lamasquere",
+      "self": {
+        "comments": ["The Lamasquere station, with ICOS code FR-Lam, is located at 25 km from Toulouse city (southwestern France), in a flat large alluvial valley and on the border of the “Touch” river. The site is a cropland plot characterized by a maize (Zea mays L.) / winter wheat (Triticum aestivum L.) / maize (Zea mays L.) / winter wheat (Triticum aestivum L.) rotation."],
+        "label": "FR-Lam",
+        "uri": "http://meta.icos-cp.eu/resources/stations/ES_FR-Lam"
+      }
+    }
+  }
+}

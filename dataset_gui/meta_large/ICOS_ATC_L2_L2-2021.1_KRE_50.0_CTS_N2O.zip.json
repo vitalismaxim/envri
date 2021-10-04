@@ -1,0 +1,276 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/iIOeSjafFSP2F0XSBWhtytL1",
+  "coverageGeo": {
+    "coordinates": [14.1226, 52.1663, 73.0],
+    "type": "Point"
+  },
+  "fileName": "ICOS_ATC_L2_L2-2021.1_LIN_2.5_CTS_CH4.zip",
+  "hash": "iIOeSjafFSP2F0XSBWhtytL1BVyRLdx7wLVZOC0jU5A",
+  "parentCollections": [{
+    "comments": [],
+    "label": "ICOS Atmosphere Release 2021-1 of Level 2 Greenhouse Gas Mole Fractions of CO2, CH4, N2O, CO, meteorology and 14CO2",
+    "uri": "https://meta.icos-cp.eu/collections/qrhcaIUVRky49JrFtGFsuYvv"
+  }],
+  "pid": "11676/iIOeSjafFSP2F0XSBWhtytL1",
+  "previousVersion": ["https://meta.icos-cp.eu/objects/Z-LUtm5lliQR2mf2dPes2YIP", "https://meta.icos-cp.eu/objects/0zMn3X784QEleSyh3BZtsy_X"],
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Dagmar",
+      "lastName": "Kubistin",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Dagmar_Kubistin"
+      }
+    }, {
+      "firstName": "Christian",
+      "lastName": "Plaß-Dülmer",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Christian_Pla%C3%9F-D%C3%BClmer"
+      }
+    }, {
+      "firstName": "Sabrina",
+      "lastName": "Arnold",
+      "orcid": "0000-0001-6797-1715",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Sabrina_Arnold"
+      }
+    }, {
+      "firstName": "Matthias",
+      "lastName": "Lindauer",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Matthias_Lindauer"
+      }
+    }, {
+      "firstName": "Jennifer",
+      "lastName": "Müller-Williams",
+      "orcid": "0000-0002-4840-7729",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jennifer_M%C3%BCller-Williams"
+      }
+    }, {
+      "firstName": "Marcus",
+      "lastName": "Schumacher",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Marcus_Schumacher"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/iIOeSjafFSP2F0XSBWhtytL1,\r\n  author={Kubistin, D., Plaß-Dülmer, C., Arnold, S., Lindauer, M., Müller-Williams, J., Schumacher, M.},\r\n  title={ICOS ATC CH4 Release, Lindenberg (2.5 m), 2015-10-08–2021-01-31},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/iIOeSjafFSP2F0XSBWhtytL1},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/iIOeSjafFSP2F0XSBWhtytL1}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC CH4 Release, Lindenberg (2.5 m), 2015-10-08–2021-01-31\r\nID - 11676/iIOeSjafFSP2F0XSBWhtytL1\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/iIOeSjafFSP2F0XSBWhtytL1\r\nPB - Atmosphere Thematic Centre\r\nAU - Kubistin, D.\r\nAU - Plaß-Dülmer, C.\r\nAU - Arnold, S.\r\nAU - Lindauer, M.\r\nAU - Müller-Williams, J.\r\nAU - Schumacher, M.\r\nER - ",
+    "citationString": "Kubistin, D., Plaß-Dülmer, C., Arnold, S., Lindauer, M., Müller-Williams, J., Schumacher, M., ICOS RI, 2021. ICOS ATC CH4 Release, Lindenberg (2.5 m), 2015-10-08–2021-01-31, https://hdl.handle.net/11676/iIOeSjafFSP2F0XSBWhtytL1",
+    "temporalCoverageDisplay": "2015-10-08–2021-01-31"
+  },
+  "size": 1003687,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "CO2-CH4-H2O Picarro Analyzer",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_399"
+      },
+      "interval": {
+        "start": "2015-10-08T00:00:00Z",
+        "stop": "2021-01-31T23:00:00Z"
+      },
+      "samplingHeight": 2.5,
+      "station": {
+        "coverage": {
+          "alt": 73.0,
+          "geo": {
+            "coordinates": [14.1226, 52.1663, 73.0],
+            "type": "Point"
+          },
+          "label": "LIN",
+          "lat": 52.1663,
+          "lon": 14.1226
+        },
+        "id": "LIN",
+        "org": {
+          "name": "Lindenberg",
+          "self": {
+            "comments": [],
+            "label": "LIN",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_LIN"
+          }
+        },
+        "pictures": ["https://meta.icos-cp.eu/files/ItKsvKFrt2WHc2vrIuFsuQQW/LIN3.png"],
+        "responsibleOrganization": {
+          "name": "Deutscher Wetterdienst, Hohenpeißenberg Meteorological Observatory",
+          "self": {
+            "comments": [],
+            "label": "MOHp",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/MOHp"
+          },
+          "website": "https://www.dwd.de/mohp"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "DE",
+          "documentation": [{
+            "hash": "dYm0OBy9IoqA0duk9wTJpTJRie7kfZ-WbPILxIsKvdo",
+            "name": "Lindenberg_STILT_station_characterization.pdf",
+            "res": "https://meta.icos-cp.eu/objects/dYm0OBy9IoqA0duk9wTJpTJR"
+          }],
+          "labelingDate": "2018-11-30",
+          "stationClass": "1",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, UTC",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStamp"
+        }
+      }
+    }, {
+      "label": "Flag",
+      "valueType": {
+        "self": {
+          "comments": ["single-letter quality flag"],
+          "label": "quality flag",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/oneLetterFlag"
+        }
+      }
+    }, {
+      "label": "NbPoints",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["integer number"],
+          "label": "number",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/number"
+        },
+        "self": {
+          "comments": [],
+          "label": "number of points",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/npoints"
+        }
+      }
+    }, {
+      "label": "ch4",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "CH4 mixing ratio (dry mole fraction)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/ch4MixingRatioPpb"
+        },
+        "unit": "nmol mol-1"
+      }
+    }, {
+      "label": "Stdev",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "standard deviation of gas mole fraction",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/moleFractionSdPpb"
+        },
+        "unit": "nmol mol-1"
+      }
+    }],
+    "nRows": 46632,
+    "productionInfo": {
+      "contributors": [],
+      "creator": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "dateTime": "2021-05-26T10:03:03Z",
+      "host": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "sources": []
+    }
+  },
+  "specification": {
+    "dataLevel": 2,
+    "datasetSpec": {
+      "self": {
+        "comments": [],
+        "label": "Atmospheric CH4 mole fraction time series",
+        "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcCh4MoleFracTimeSer"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": ["Semicolon-separated ASCII, with #-prefixed multi-line header"],
+      "label": "ICOS ATC time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcProductTimeSer"
+    },
+    "keywords": ["CH4", "concentration"],
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": ["Quality-controlled data on molar fraction of atmospheric CH4"],
+      "label": "ICOS ATC CH4 Release",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcCh4L2DataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-05-26T07:37:45.229Z",
+    "stop": "2021-05-26T07:37:49.021Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

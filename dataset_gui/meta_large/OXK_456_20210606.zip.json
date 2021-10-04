@@ -1,0 +1,127 @@
+{
+  "coverageGeo": {
+    "coordinates": [7.7, 45.93, 3480.0],
+    "type": "Point"
+  },
+  "fileName": "PRS_692_20210606.zip",
+  "hash": "07Hk_1Cwtea9R8nnbpVD6C8JhVjt-_WnKPa-0b2tK74",
+  "parentCollections": [],
+  "pid": "11676/07Hk_1Cwtea9R8nnbpVD6C8J",
+  "references": {
+    "acknowledgements": [],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/07Hk_1Cwtea9R8nnbpVD6C8J,\r\n  title={ICOS ATC Picarro data csv time series, Plateau Rosa, 2021-06-06},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/07Hk_1Cwtea9R8nnbpVD6C8J},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/07Hk_1Cwtea9R8nnbpVD6C8J}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC Picarro data csv time series, Plateau Rosa, 2021-06-06\r\nID - 11676/07Hk_1Cwtea9R8nnbpVD6C8J\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/07Hk_1Cwtea9R8nnbpVD6C8J\r\nPB - Atmosphere Thematic Centre\r\nER - ",
+    "citationString": "ICOS RI, 2021. ICOS ATC Picarro data csv time series, Plateau Rosa, 2021-06-06, https://hdl.handle.net/11676/07Hk_1Cwtea9R8nnbpVD6C8J",
+    "temporalCoverageDisplay": "2021-06-06"
+  },
+  "size": 6812592,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "CO2-CH4-H2O Picarro Analyzer",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_692"
+      },
+      "interval": {
+        "start": "2021-06-06T00:00:00Z",
+        "stop": "2021-06-06T23:59:57Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 3480.0,
+          "geo": {
+            "coordinates": [7.7, 45.93, 3480.0],
+            "type": "Point"
+          },
+          "label": "PRS",
+          "lat": 45.93,
+          "lon": 7.7
+        },
+        "id": "PRS",
+        "org": {
+          "name": "Plateau Rosa",
+          "self": {
+            "comments": [],
+            "label": "PRS",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_PRS"
+          }
+        },
+        "pictures": [],
+        "responsibleOrganization": {
+          "name": "Ricerca sul Sistema Energetico",
+          "self": {
+            "comments": [],
+            "label": "RSE",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/RSE"
+          },
+          "website": "https://www.rse-web.it"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "IT",
+          "documentation": [],
+          "labelingDate": "2021-05-25",
+          "stationClass": "2",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "ICOS ATC Raw time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ATC Picarro data csv time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcPicarroL0DataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-06-07T09:01:06.071618Z",
+    "stop": "2021-06-07T09:01:08.948951Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

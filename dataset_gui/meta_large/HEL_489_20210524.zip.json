@@ -1,0 +1,181 @@
+{
+  "coverageGeo": {
+    "coordinates": [[[3.490085, 51.4195], [3.859583, 51.341723], [3.98443, 51.407737], [4.129314, 51.38915], [4.406813, 51.249782], [4.143052, 51.39734], [3.980889, 51.450037], [3.733259, 51.412944], [3.198701, 51.500922], [3.000542, 51.602947], [2.800769, 51.647011], [2.299241, 51.499901], [2.565305, 51.110266], [2.896795, 51.226358], [3.490085, 51.4195]]],
+    "type": "Polygon"
+  },
+  "fileName": "ICOS_210524.sqlite.csv",
+  "hash": "v-a8L_6yhIIl3474UZfkMMi0sPEwDmXXVDV3L3xpCfI",
+  "parentCollections": [],
+  "pid": "11676/v-a8L_6yhIIl3474UZfkMMi0",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Thanos",
+      "lastName": "Gkritzalis",
+      "orcid": "0000-0002-7897-4230",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Thanos_Gkritzalis"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/v-a8L_6yhIIl3474UZfkMMi0,\r\n  author={Gkritzalis, T.},\r\n  title={ICOS OTC Raw Data, BE-SOOP-Simon-Stevin, 2021-05-24},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/v-a8L_6yhIIl3474UZfkMMi0},\r\n  publisher={Ocean Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/v-a8L_6yhIIl3474UZfkMMi0}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS OTC Raw Data, BE-SOOP-Simon-Stevin, 2021-05-24\r\nID - 11676/v-a8L_6yhIIl3474UZfkMMi0\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/v-a8L_6yhIIl3474UZfkMMi0\r\nPB - Ocean Thematic Centre\r\nAU - Gkritzalis, T.\r\nER - ",
+    "citationString": "Gkritzalis, T., ICOS RI, 2021. ICOS OTC Raw Data, BE-SOOP-Simon-Stevin, 2021-05-24, https://hdl.handle.net/11676/v-a8L_6yhIIl3474UZfkMMi0",
+    "temporalCoverageDisplay": "2021-05-24"
+  },
+  "size": 84290,
+  "specificInfo": {
+    "acquisition": {
+      "interval": {
+        "start": "2021-05-24T05:00:15.353Z",
+        "stop": "2021-05-24T20:10:00.400Z"
+      },
+      "station": {
+        "coverage": {
+          "geo": {
+            "coordinates": [[[3.490085, 51.4195], [3.859583, 51.341723], [3.98443, 51.407737], [4.129314, 51.38915], [4.406813, 51.249782], [4.143052, 51.39734], [3.980889, 51.450037], [3.733259, 51.412944], [3.198701, 51.500922], [3.000542, 51.602947], [2.800769, 51.647011], [2.299241, 51.499901], [2.565305, 51.110266], [2.896795, 51.226358], [3.490085, 51.4195]]],
+            "type": "Polygon"
+          },
+          "label": "BE-SOOP-Simon-Stevin geo-coverage",
+          "vertices": [{
+            "lat": 51.41949960818871,
+            "lon": 3.490085208432572
+          }, {
+            "lat": 51.34172263683735,
+            "lon": 3.859583091589593
+          }, {
+            "lat": 51.40773659230818,
+            "lon": 3.98443049067291
+          }, {
+            "lat": 51.38915022745717,
+            "lon": 4.129313632872345
+          }, {
+            "lat": 51.24978152014358,
+            "lon": 4.40681299969971
+          }, {
+            "lat": 51.39733989736678,
+            "lon": 4.143052428413235
+          }, {
+            "lat": 51.45003713382696,
+            "lon": 3.980888637333553
+          }, {
+            "lat": 51.41294384905285,
+            "lon": 3.73325857474573
+          }, {
+            "lat": 51.50092155907684,
+            "lon": 3.198700622223785
+          }, {
+            "lat": 51.60294667542817,
+            "lon": 3.000541867156135
+          }, {
+            "lat": 51.64701056402158,
+            "lon": 2.800768765694421
+          }, {
+            "lat": 51.49990096485632,
+            "lon": 2.299240699154941
+          }, {
+            "lat": 51.1102658517664,
+            "lon": 2.565304722034822
+          }, {
+            "lat": 51.22635781994379,
+            "lon": 2.89679468420347
+          }]
+        },
+        "id": "11SS",
+        "org": {
+          "name": "BE-SOOP-Simon-Stevin",
+          "self": {
+            "comments": [],
+            "label": "11SS",
+            "uri": "http://meta.icos-cp.eu/resources/stations/OS_11SS"
+          }
+        },
+        "pictures": [],
+        "responsibleOrganization": {
+          "name": "Vlaams Instituut voor de Zee (Flanders Marine Institute), VLIZ",
+          "self": {
+            "comments": [],
+            "uri": "http://meta.icos-cp.eu/resources/organizations/vliz"
+          }
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "BE",
+          "documentation": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/oce.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/os.png",
+            "self": {
+              "comments": [],
+              "label": "Ocean data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ocean"
+            }
+          }
+        }
+      }
+    },
+    "nRows": 79339,
+    "productionInfo": {
+      "comment": "Data processed using QuinCe version v9.0.0",
+      "contributors": [],
+      "creator": {
+        "name": "Ocean Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS OTC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/OTC"
+        }
+      },
+      "dateTime": "2021-05-25T08:43:24.228974Z",
+      "sources": []
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "ICOS OTC Raw Data",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/otcRawData"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS OTC Raw Data",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/otcL0DataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/oce.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/os.png",
+      "self": {
+        "comments": [],
+        "label": "Ocean data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ocean"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-05-25T08:43:24.316Z",
+    "stop": "2021-05-25T08:43:27.537Z",
+    "submitter": {
+      "name": "Ocean Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS OTC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/OTC"
+      }
+    }
+  }
+}

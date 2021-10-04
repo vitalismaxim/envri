@@ -1,0 +1,248 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/itl-ttcr0rTcXEh8n0RTphlH",
+  "coverageGeo": {
+    "coordinates": [-0.44495, 52.23483],
+    "type": "Point"
+  },
+  "doi": "10.18160/hr89-ks44",
+  "fileName": "Defratyka_et_al-C2H6_study.zip",
+  "hash": "itl-ttcr0rTcXEh8n0RTphlHIDU8RXmUTViuRnJxp4I",
+  "parentCollections": [],
+  "pid": "11676/itl-ttcr0rTcXEh8n0RTphlH",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Philippe",
+      "lastName": "Bousquet",
+      "orcid": "0000-0002-4444-2703",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Philippe_Bousquet"
+      }
+    }, {
+      "firstName": "Sara",
+      "lastName": "Defratyka",
+      "orcid": "0000-0002-9488-4518",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Sara_Defratyka"
+      }
+    }, {
+      "firstName": "James",
+      "lastName": "France",
+      "orcid": "0000-0002-8785-1240",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/James_France"
+      }
+    }, {
+      "firstName": "Valérie",
+      "lastName": "Gros",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Valerie_Gros"
+      }
+    }, {
+      "firstName": "Jon",
+      "lastName": "Helmore",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jon_Helmore"
+      }
+    }, {
+      "firstName": "Daniel",
+      "lastName": "Loeb",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Daniel_Loeb"
+      }
+    }, {
+      "firstName": "Jean-Daniel",
+      "lastName": "Paris",
+      "orcid": "0000-0003-2164-4916",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jean-Daniel_Paris"
+      }
+    }, {
+      "firstName": "Nigel",
+      "lastName": "Yarrow",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Nigel_Yarrow"
+      }
+    }, {
+      "firstName": "Camille",
+      "lastName": "Yver",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Camille_Yver"
+      }
+    }],
+    "citationBibTex": "@misc{https://doi.org/10.18160/hr89-ks44,\n  doi = {10.18160/HR89-KS44},\n  url = {https://meta.icos-cp.eu/objects/itl-ttcr0rTcXEh8n0RTphlH},\n  author = {Defratyka, Sara and Paris, Jean-Daniel and Yver Kwok, Camille and Loeb, Daniel and France, James and Helmore, Jon and Yarrow, Nigel and Gros, Valérie and Bousquet, Philippe},\n  keywords = {FOS: Earth and related environmental sciences},\n  title = {Data supplement to: Defratyka et al (2021); Ethane measurement by Picarro CRDS G2201-i in laboratory and field conditions: potential and limitations. https://doi.org/10.5194/amt-2020-410 },\n  publisher = {ICOS ERIC - Carbon Portal},\n  year = {2021},\n  copyright = {Creative Commons Attribution 4.0 International}\n}",
+    "citationRis": "TY  - DATA\r\nT1  - Data supplement to: Defratyka et al (2021); Ethane measurement by Picarro CRDS G2201-i in laboratory and field conditions: potential and limitations. https://doi.org/10.5194/amt-2020-410 \r\nAU  - Defratyka, Sara\r\nAU  - Paris, Jean-Daniel\r\nAU  - Yver Kwok, Camille\r\nAU  - Loeb, Daniel\r\nAU  - France, James\r\nAU  - Helmore, Jon\r\nAU  - Yarrow, Nigel\r\nAU  - Gros, Valérie\r\nAU  - Bousquet, Philippe\r\nDO  - 10.18160/HR89-KS44\r\nUR  - https://meta.icos-cp.eu/objects/itl-ttcr0rTcXEh8n0RTphlH\r\nAB  - Ethane can be used as a tracer gas to distinguish methane sources, both at the local and global scale. Currently, ethane can be successfully measured using flasks or dedicated in-situ analyzers. In our study, we consider the possibility of using the CRDS Picarro G2201-i instrument, dedicated to isotopic CH4 and CO2, for suitable measurements of ethane:methane ratio in mobile field, near-source conditions. Our work was divided into three steps. First, laboratory tests were run to characterize the instrument in stationary conditions. Then the instrument performance was tested in the field, as part of a controlled release experiment and finally during mobile measurements focused on gas compressor stations. The results from the field are compared with the results from other instruments, dedicated to ethane measurements. Our study clearly shows the potential of using the CRDS G2201-i instrument to determine the ethane:methane ratio in methane plumes in mobile condition with an ethane uncertainty of 50 ppb. Assuming typical ethane to methane ratio ranging between 0 and 0.1 ppb ppb-1 we conclude that the instrument can correctly estimate the “true” ethane to methane ratio within 1-sigma uncertainty in CH4 enhancements of 1 ppm or more as can be found in the vicinity of strongly emitting sites (such as natural gas compressor station).\r\nKW  - FOS: Earth and related environmental sciences\r\nPY  - 2021\r\nPB  - ICOS ERIC - Carbon Portal\r\nER  -",
+    "citationString": "Defratyka, S., Paris, J.-D., Yver Kwok, C., Loeb, D., France, J., Helmore, J., Yarrow, N., Gros, V., & Bousquet, P. (2021). Data supplement to: Defratyka et al (2021); Ethane measurement by Picarro CRDS G2201-i in laboratory and field conditions: potential and limitations. https://doi.org/10.5194/amt-2020-410  (1.0) [Data set]. ICOS ERIC - Carbon Portal. https://doi.org/10.18160/HR89-KS44",
+    "keywords": ["CH4", "C2H6", "CRDS"],
+    "temporalCoverageDisplay": "2019-09-10–2019-09-14"
+  },
+  "size": 335727643,
+  "specificInfo": {
+    "acquisition": {
+      "interval": {
+        "start": "2019-09-10T11:27:00Z",
+        "stop": "2019-09-14T14:46:00Z"
+      },
+      "station": {
+        "coverage": {
+          "geo": {
+            "coordinates": [-0.44495, 52.23483],
+            "type": "Point"
+          },
+          "lat": 52.23483,
+          "lon": -0.44495
+        },
+        "id": "BEDFORD",
+        "org": {
+          "name": "Bedford Aerodrome, UK",
+          "self": {
+            "comments": [],
+            "uri": "http://meta.icos-cp.eu/resources/stations/BEDFORD_UK"
+          }
+        },
+        "pictures": [],
+        "specificInfo": {
+
+        }
+      }
+    },
+    "productionInfo": {
+      "contributors": [{
+        "firstName": "Camille",
+        "lastName": "Yver",
+        "self": {
+          "comments": [],
+          "uri": "http://meta.icos-cp.eu/resources/people/Camille_Yver"
+        }
+      }, {
+        "firstName": "Jean-Daniel",
+        "lastName": "Paris",
+        "orcid": "0000-0003-2164-4916",
+        "self": {
+          "comments": [],
+          "uri": "http://meta.icos-cp.eu/resources/people/Jean-Daniel_Paris"
+        }
+      }, {
+        "firstName": "Daniel",
+        "lastName": "Loeb",
+        "self": {
+          "comments": [],
+          "uri": "http://meta.icos-cp.eu/resources/people/Daniel_Loeb"
+        }
+      }, {
+        "firstName": "James",
+        "lastName": "France",
+        "orcid": "0000-0002-8785-1240",
+        "self": {
+          "comments": [],
+          "uri": "http://meta.icos-cp.eu/resources/people/James_France"
+        }
+      }, {
+        "firstName": "Jon",
+        "lastName": "Helmore",
+        "self": {
+          "comments": [],
+          "uri": "http://meta.icos-cp.eu/resources/people/Jon_Helmore"
+        }
+      }, {
+        "firstName": "Nigel",
+        "lastName": "Yarrow",
+        "self": {
+          "comments": [],
+          "uri": "http://meta.icos-cp.eu/resources/people/Nigel_Yarrow"
+        }
+      }, {
+        "firstName": "Valérie",
+        "lastName": "Gros",
+        "self": {
+          "comments": [],
+          "uri": "http://meta.icos-cp.eu/resources/people/Valerie_Gros"
+        }
+      }, {
+        "firstName": "Philippe",
+        "lastName": "Bousquet",
+        "orcid": "0000-0002-4444-2703",
+        "self": {
+          "comments": [],
+          "uri": "http://meta.icos-cp.eu/resources/people/Philippe_Bousquet"
+        }
+      }],
+      "creator": {
+        "firstName": "Sara",
+        "lastName": "Defratyka",
+        "orcid": "0000-0002-9488-4518",
+        "self": {
+          "comments": [],
+          "uri": "http://meta.icos-cp.eu/resources/people/Sara_Defratyka"
+        }
+      },
+      "dateTime": "2020-10-12T12:00:00Z",
+      "host": {
+        "name": "Laboratoire des Sciences du Climat et de l'Environnement",
+        "self": {
+          "comments": [],
+          "label": "LSCE",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/LSCE"
+        },
+        "website": "https://www.lsce.ipsl.fr"
+      },
+      "sources": []
+    }
+  },
+  "specification": {
+    "dataLevel": 2,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Arbitrary ZIP archive",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipArchive"
+    },
+    "project": {
+      "self": {
+        "comments": ["Various other data not associated with a specific project"],
+        "label": "Miscellaneous",
+        "uri": "http://meta.icos-cp.eu/resources/projects/misc"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "Atmospheric measurements results archive",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atmoMeasResultsArchive"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-06-24T09:06:11.392901Z",
+    "stop": "2021-06-24T09:06:57.658489Z",
+    "submitter": {
+      "name": "Carbon Portal",
+      "self": {
+        "comments": [],
+        "label": "CP",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/CP"
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+ "id": "20.5000.1025/f22fec45-7b47-11e4-8ef3-782bcb9cd5b5",
+ "type": "DigitalSpecimen",
+ "content": {
+  "physicalSpecimenId": "96427",
+  "comment": "(For CETAF SI, VertNet uri used as couldn't find KUBI uri for this specimen. update 1st june replaced http://portal.vertnet.org/o/ku/birds?id=96427 with the uri that uses the occurrenceId guid instead of catalog number. But then changed it back again becuase the guid doesn't point to same bird!);  secondary forest; parasite # 901",
+  "gbifId": " https://www.gbif.org/occurrence/686311246",
+  "creator": "20.5000.1025/alex",
+  "stableIdentifier": "http://portal.vertnet.org/o/ku/birds?id=96427",
+  "wikipedia": "https://en.wikipedia.org/wiki/Light-vented_bulbul",
+  "institutionCode": "KU",
+  "collectionCode": "Birds",
+  "collectionDate": "2005-04-20",
+  "commonName": "Light vented Bulbul",
+  "creationdatetime": "2020-05-05T11:39:40.418Z",
+  "id": "20.5000.1025/f22fec45-7b47-11e4-8ef3-782bcb9cd5b5",
+  "midslevel": 2,
+  "catOfLifeReference": "http://www.catalogueoflife.org/col/details/species/id/13be2763a31f1e2f8237682ef7b04852",
+  "locality": "Shiwandashan National Nature Preserve",
+  "country": "China",
+  "scientificName": "Pycnonotus sinensis",
+  "catalogNumber": "96427",
+  "availableImages": [
+   [
+    "",
+    "jpg",
+    "",
+    "",
+    "",
+    "http://biimages.biodiversity.ku.edu/fileget?coll=Ornithology&type=T&filename=sp66239317340867458595.att.JPG&scale=200"
+   ],
+   [
+    "",
+    "jpg",
+    "",
+    "",
+    "",
+    "http://biimages.biodiversity.ku.edu/fileget?coll=Ornithology&type=T&filename=sp6183951720765124634.att.JPG&scale=200"
+   ]
+  ],
+  "decimalLatLon": [
+   21.84,
+   107.88
+  ]
+ },
+ "metadata": {
+  "createdOn": 1588678780418,
+  "createdBy": "20.5000.1025/alex",
+  "modifiedOn": 1621667071324,
+  "modifiedBy": "anonymous",
+  "txnId": 1621667071322370
+ }
+}

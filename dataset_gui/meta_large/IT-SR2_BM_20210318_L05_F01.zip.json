@@ -1,0 +1,390 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/O7GPNBGilu1qk6vv_PNJfUtX",
+  "coverageGeo": {
+    "coordinates": [19.55654, 64.18203, 270.0],
+    "type": "Point"
+  },
+  "fileName": "SE-Deg_Fluxes_2020_CP_flag.txt",
+  "hash": "O7GPNBGilu1qk6vv_PNJfUtXKc_Jrk6tXgO8spSwpEE",
+  "parentCollections": [],
+  "pid": "11676/O7GPNBGilu1qk6vv_PNJfUtX",
+  "references": {
+    "acknowledgements": ["Work was funded by grant National Research Infrastructure ICOS Sweden (2015-06020) from Swedish Research Council"],
+    "authors": [{
+      "firstName": "Mats",
+      "lastName": "Nilsson",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Mats%20B._Nilsson"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/O7GPNBGilu1qk6vv_PNJfUtX,\r\n  author={Nilsson, M.},\r\n  title={Ecosystem fluxes time series (ICOS Sweden), Degero, 2019-12-31–2020-12-31},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/O7GPNBGilu1qk6vv_PNJfUtX},\r\n  publisher={ICOS Sweden},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/O7GPNBGilu1qk6vv_PNJfUtX}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - Ecosystem fluxes time series (ICOS Sweden), Degero, 2019-12-31–2020-12-31\r\nID - 11676/O7GPNBGilu1qk6vv_PNJfUtX\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/O7GPNBGilu1qk6vv_PNJfUtX\r\nPB - ICOS Sweden\r\nAU - Nilsson, M.\r\nER - ",
+    "citationString": "Nilsson, M., Swedish National Network, 2021. Ecosystem fluxes time series (ICOS Sweden), Degero, 2019-12-31–2020-12-31, https://hdl.handle.net/11676/O7GPNBGilu1qk6vv_PNJfUtX",
+    "temporalCoverageDisplay": "2019-12-31–2020-12-31"
+  },
+  "size": 4067138,
+  "specificInfo": {
+    "acquisition": {
+      "interval": {
+        "start": "2019-12-31T23:30:00Z",
+        "stop": "2020-12-31T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 270.0,
+          "geo": {
+            "coordinates": [19.55654, 64.18203, 270.0],
+            "type": "Point"
+          },
+          "label": "SE-Deg",
+          "lat": 64.18203,
+          "lon": 19.55654
+        },
+        "funding": [{
+          "awardNumber": "2015-06020",
+          "awardTitle": "National Research Infrastructure ICOS Sweden",
+          "awardUrl": "www.icos-sweden.se",
+          "funder": {
+            "org": {
+              "name": "Swedish Research Council",
+              "self": {
+                "comments": [],
+                "uri": "http://meta.icos-cp.eu/resources/organizations/Swedish%20Research%20Council"
+              }
+            }
+          },
+          "self": {
+            "comments": ["co-financed by Lund University, Gothenburg University, Swedish Polar Research Secretariat, SLU, Stockholm University and Uppsala University"],
+            "label": "National Research Infrastructure ICOS Sweden to Degero",
+            "uri": "http://meta.icos-cp.eu/resources/fundings/18_2015-06020"
+          },
+          "start": "2016-04-01",
+          "stop": "2020-12-31"
+        }, {
+          "awardNumber": "2019-00205",
+          "awardTitle": "National Research Infrastructure ICOS Sweden",
+          "awardUrl": "www.icos-sweden.se",
+          "funder": {
+            "org": {
+              "name": "Swedish Research Council",
+              "self": {
+                "comments": [],
+                "uri": "http://meta.icos-cp.eu/resources/organizations/Swedish%20Research%20Council"
+              }
+            }
+          },
+          "self": {
+            "comments": ["co-financed by Lund University, SLU, Gothenburg University, Swedish Polar Research Secretariat, Uppsala University and SMHI"],
+            "label": "National Research Infrastructure ICOS Sweden to Degero",
+            "uri": "http://meta.icos-cp.eu/resources/fundings/18_2019-00205"
+          },
+          "start": "2021-01-01",
+          "stop": "2024-12-31"
+        }],
+        "id": "SE-Deg",
+        "org": {
+          "name": "Degero",
+          "self": {
+            "comments": ["The station Degerö, with ICOS code SE-Deg, is located in the northern Sweden boreal region, about 70 km west of the Gulf of Bothnia, NW of the city Umeå, situated on highland between the major rivers, Ume and Vindeln River. The site is an oligotrophic mire consisting of a rather complex system of interconnected smaller mires, divided by islets and ridges of glacial till. The area around the Eddy Covariance tower is dominated by flat lawn plants communities with bog moss dominating the bottom layer."],
+            "label": "SE-Deg",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_SE-Deg"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/YJo24JYb8gSGEiN/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "climateZone": {
+            "comments": [],
+            "label": "Subacrtic (Dfc)",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/koppen_Dfc"
+          },
+          "countryCode": "SE",
+          "documentation": [{
+            "hash": "EAPVFrRI9ULnrrwOm9-H_7hE-pode-32LjTdonkx-kg",
+            "name": "SE-Deg ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/EAPVFrRI9ULnrrwOm9-H_7hE"
+          }],
+          "ecosystemType": {
+            "comments": ["Lands with a permanent mixture of water and herbaceous or woody vegetation that cover extensive areas. The vegetation can be present in either salt, brackish, or fresh water."],
+            "label": "Permanent Wetlands",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_WET"
+          },
+          "labelingDate": "2019-10-28",
+          "meanAnnualPrecip": 523.0,
+          "meanAnnualRad": 93.4,
+          "meanAnnualTemp": 1.2,
+          "stationClass": "2",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, UTC",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStamp"
+        }
+      }
+    }, {
+      "label": "date",
+      "valueType": {
+        "self": {
+          "comments": ["calendar date"],
+          "label": "measurement date",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/date"
+        }
+      }
+    }, {
+      "label": "time",
+      "valueType": {
+        "self": {
+          "comments": ["measurement time of day"],
+          "label": "measurement time",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeOfDay"
+        }
+      }
+    }, {
+      "label": "H_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of energy passing through unit area during unit of time"],
+          "label": "energy flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/energyFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "sensible heat flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/sensibleHeatFlux"
+        },
+        "unit": "W m-2"
+      }
+    }, {
+      "label": "LE_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of energy passing through unit area during unit of time"],
+          "label": "energy flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/energyFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "latent heat flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/latentHeatFlux"
+        },
+        "unit": "W m-2"
+      }
+    }, {
+      "label": "Fc_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of particles passing through unit area during unit of time"],
+          "label": "particle flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/particleFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "carbon dioxide (CO2) flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/co2Flux"
+        },
+        "unit": "µmol m-2 s-1"
+      }
+    }, {
+      "label": "Fch4_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of particles passing through unit area during unit of time"],
+          "label": "particle flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/particleFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "methane (CH4) flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/ch4Flux"
+        },
+        "unit": "µmol m-2 s-1"
+      }
+    }, {
+      "label": "Ustar_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["distance per unit time"],
+          "label": "velocity",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/velocity"
+        },
+        "self": {
+          "comments": [],
+          "label": "friction velocity",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/frictionVelocity"
+        },
+        "unit": "m s-1"
+      }
+    }, {
+      "label": "WS_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["distance per unit time"],
+          "label": "velocity",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/velocity"
+        },
+        "self": {
+          "comments": [],
+          "label": "wind speed",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/windSpeed"
+        },
+        "unit": "m s-1"
+      }
+    }, {
+      "label": "WD_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["angle in the trigonometric sense"],
+          "label": "angle",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/angle"
+        },
+        "self": {
+          "comments": [],
+          "label": "wind direction",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/windDirection"
+        },
+        "unit": "°"
+      }
+    }, {
+      "label": "NEE_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of particles passing through unit area during unit of time"],
+          "label": "particle flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/particleFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "net ecosystem exchange",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/netEcosystemExchange"
+        },
+        "unit": "µmol m-2 s-1"
+      }
+    }, {
+      "label": "LE_f_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of energy passing through unit area during unit of time"],
+          "label": "energy flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/energyFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "gap-filled latent heat flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/gapFilledLatentHeatFlux"
+        },
+        "unit": "W m-2"
+      }
+    }, {
+      "label": "H_f_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of energy passing through unit area during unit of time"],
+          "label": "energy flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/energyFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "gap-filled sensible heat flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/gapFilledSensibleHeatFlux"
+        },
+        "unit": "W m-2"
+      }
+    }],
+    "nRows": 17568,
+    "productionInfo": {
+      "comment": "ecosystem fluxes calculated by Eddypro 6.0, gapfilling  by REddyProc online gapfilling tool (MPI Jena, http://www.bgc-jena.mpg.de/REddyProc/brew/REddyProc.rhtml); H: sensible heat flux, LE: latent heat flux, Fc: carbon dioxide flux, Fch4: methane flux (raw: fluxes without any correction during flux calculation, no post-processing QC), Ustar: friction velocity, WS: wind speed, WD: wind direction, L: Monin-Obukhov length, var_v: variance of cross-wind component; NEE: gap-filled net ecosystem exchange,LE_f:gap-filled LE,H_f: gap-filled H, Fch4_f:gap-filled Fch4, Reco: ecosystem respiration,GPP_f: gross primary production. Timestamp at end of the averaging interval, flux measurement height: 3m. More information: www.icos-sweden.se",
+      "contributors": [{
+        "firstName": "Mats",
+        "lastName": "Nilsson",
+        "self": {
+          "comments": [],
+          "uri": "http://meta.icos-cp.eu/resources/people/Mats%20B._Nilsson"
+        }
+      }],
+      "creator": {
+        "name": "ICOS Sweden",
+        "self": {
+          "comments": [],
+          "label": "ICOS-SE",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/icosSweden"
+        }
+      },
+      "dateTime": "2021-03-19T00:00:00Z",
+      "sources": []
+    }
+  },
+  "specification": {
+    "dataLevel": 1,
+    "datasetSpec": {
+      "self": {
+        "comments": [],
+        "label": "Ecosystem fluxes time series (ICOS Sweden)",
+        "uri": "http://meta.icos-cp.eu/resources/cpmeta/ecoFluxesDataset"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Time series in ICOS Sweden format",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiEtcTimeSer"
+    },
+    "keywords": ["carbon flux"],
+    "project": {
+      "keywords": ["pre-ICOS", "Sweden"],
+      "self": {
+        "comments": ["Uploads from ICOS Sweden that do not have the official ICOS status"],
+        "label": "Swedish National Network",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos_sweden"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "Ecosystem fluxes time series (ICOS Sweden)",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/ecoFluxesDataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-03-19T09:44:58.053Z",
+    "stop": "2021-03-19T09:46:02.830Z",
+    "submitter": {
+      "name": "ICOS Sweden",
+      "self": {
+        "comments": [],
+        "label": "ICOS-SE",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/icosSweden"
+      }
+    }
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/Tqp5JVUCzYUmyUimss8n5gOE",
+  "coverageGeo": {
+    "coordinates": [13.4189, 56.0976, 115.0],
+    "type": "Point"
+  },
+  "fileName": "ICOS_ATC_L2_L2-2021.1_HTM_150.0_779_14C.zip",
+  "hash": "Tqp5JVUCzYUmyUimss8n5gOEV6xxWMQJpMGzHrdZpho",
+  "parentCollections": [{
+    "comments": [],
+    "label": "ICOS Atmosphere Release 2021-1 of Level 2 Greenhouse Gas Mole Fractions of CO2, CH4, N2O, CO, meteorology and 14CO2",
+    "uri": "https://meta.icos-cp.eu/collections/qrhcaIUVRky49JrFtGFsuYvv"
+  }],
+  "pid": "11676/Tqp5JVUCzYUmyUimss8n5gOE",
+  "previousVersion": "https://meta.icos-cp.eu/objects/WE07MZ3UlYcJau76jaTIW_Sg",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Michal",
+      "lastName": "Heliasz",
+      "orcid": "0000-0003-2635-9604",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Michal_Heliasz"
+      }
+    }, {
+      "firstName": "Tobias",
+      "lastName": "Biermann",
+      "orcid": "0000-0001-8538-1495",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Tobias_Biermann"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/Tqp5JVUCzYUmyUimss8n5gOE,\r\n  author={Heliasz, M., Biermann, T.},\r\n  title={ICOS ATC/CAL 14C Release, Hyltemossa (150.0 m), 2016-12-22–2019-10-08},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/Tqp5JVUCzYUmyUimss8n5gOE},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/Tqp5JVUCzYUmyUimss8n5gOE}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC/CAL 14C Release, Hyltemossa (150.0 m), 2016-12-22–2019-10-08\r\nID - 11676/Tqp5JVUCzYUmyUimss8n5gOE\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/Tqp5JVUCzYUmyUimss8n5gOE\r\nPB - Atmosphere Thematic Centre\r\nAU - Heliasz, M.\r\nAU - Biermann, T.\r\nER - ",
+    "citationString": "Heliasz, M., Biermann, T., ICOS RI, 2021. ICOS ATC/CAL 14C Release, Hyltemossa (150.0 m), 2016-12-22–2019-10-08, https://hdl.handle.net/11676/Tqp5JVUCzYUmyUimss8n5gOE",
+    "temporalCoverageDisplay": "2016-12-22–2019-10-08"
+  },
+  "size": 2801,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "ATC_779",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_779"
+      },
+      "interval": {
+        "start": "2016-12-22T00:00:00Z",
+        "stop": "2019-10-08T00:00:00Z"
+      },
+      "samplingHeight": 150.0,
+      "station": {
+        "coverage": {
+          "alt": 115.0,
+          "geo": {
+            "coordinates": [13.4189, 56.0976, 115.0],
+            "type": "Point"
+          },
+          "label": "HTM",
+          "lat": 56.0976,
+          "lon": 13.4189
+        },
+        "id": "HTM",
+        "org": {
+          "name": "Hyltemossa",
+          "self": {
+            "comments": [],
+            "label": "HTM",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_HTM"
+          }
+        },
+        "pictures": ["https://meta.icos-cp.eu/files/655_ISiY9jPRX2HHmCEW1_ux/Hyltemossa%202.JPG"],
+        "responsibleOrganization": {
+          "name": "Centre for Environmental and Climate Research, Lund University",
+          "self": {
+            "comments": [],
+            "label": "CEC",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/CEC"
+          },
+          "website": "https://www.cec.lu.se"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "SE",
+          "documentation": [{
+            "hash": "4YEMD8pwsYQvSTt3lgKKs9Cf8nZFn_8KDfOOcQ2WqQU",
+            "name": "Hyltemossa_STILT_station_characterization.pdf",
+            "res": "https://meta.icos-cp.eu/objects/4YEMD8pwsYQvSTt3lgKKs9Cf"
+          }],
+          "labelingDate": "2018-04-20",
+          "stationClass": "1",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, UTC",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStamp"
+        }
+      }
+    }, {
+      "label": "IntegrationTime",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["integer number"],
+          "label": "number",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/number"
+        },
+        "self": {
+          "comments": [],
+          "label": "integration time",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integrationTimeInIntDays"
+        },
+        "unit": "day"
+      }
+    }, {
+      "label": "14C",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "Δ14C",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/c14MixingRatioPpm"
+        },
+        "unit": "per mil"
+      }
+    }, {
+      "label": "WeightedStdErr",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "standard deviation of gas mole fraction",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/moleFractionSdPpm"
+        },
+        "unit": "µmol mol-1"
+      }
+    }, {
+      "label": "NbPoints",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["integer number"],
+          "label": "number",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/number"
+        },
+        "self": {
+          "comments": [],
+          "label": "number of points",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/npoints"
+        }
+      }
+    }, {
+      "label": "Flag",
+      "valueType": {
+        "self": {
+          "comments": ["single-letter quality flag"],
+          "label": "quality flag",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/oneLetterFlag"
+        }
+      }
+    }],
+    "nRows": 74,
+    "productionInfo": {
+      "contributors": [],
+      "creator": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "dateTime": "2021-05-26T09:39:02Z",
+      "host": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "sources": []
+    }
+  },
+  "specification": {
+    "dataLevel": 2,
+    "datasetSpec": {
+      "self": {
+        "comments": [],
+        "label": "Atmospheric 14C time series",
+        "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcC14TimeSer"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": ["Semicolon-separated ASCII, with #-prefixed multi-line header"],
+      "label": "ICOS ATC time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcProductTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": ["The ICOS Central Radiocarbon Laboratory (CRL) central task is the high-precision measurement of the ¹⁴C content in atmospheric CO₂. The ¹⁴CO₂ activity is determined for grab samples (flask) as well as for two-week integrated ambient air samples. Two ¹⁴CO₂ analytical techniques are applied in the CRL: Accelerator Mass Spectrometry (AMS) in collaboration with the CEZA laboratory in Mannheim, Germany (Lux, 2019), and Low-Level gas proportional Counting (LLC) (Kromer & Münnich, 1992). The comparability of both measurement techniques is continuously monitored and was documented in Hammer et al. (2017)", "Lux, J. T. (2018). A new target preparation facility for high precision AMS measurements and strategies for efficient ¹⁴CO₂ sampling (Doctoral dissertation). DOI: https://doi.org/10.11588/heidok.00024767", "Kromer, B., & Münnich, K. O. (1992). CO₂ gas proportional counting in radiocarbon dating—review and perspective. Radiocarbon after four decades, 184-197. DOI: https://doi.org/10.1007/978-1-4757-4249-7_13", "Hammer, S., Friedrich, R., Kromer, B., Cherkinsky, A., Lehman, S. J., Meijer, H. A., ... & Uchida, M. (2017). Compatibility of Atmospheric ¹⁴CO₂ Measurements: Comparing the Heidelberg Low-Level Counting Facility to International Accelerator Mass Spectrometry (AMS) Laboratories. Radiocarbon, 59(3), 875-883. DOI: https://doi.org/10.1017/RDC.2016.62", "See also CEZA laboratory: https://www.ceza.de/en "],
+      "label": "ICOS ATC/CAL 14C Release",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcC14L2DataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-05-25T10:28:07.980Z",
+    "stop": "2021-05-25T10:28:10.926Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

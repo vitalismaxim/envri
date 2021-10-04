@@ -1,0 +1,900 @@
+{
+ "gmd:MD_Metadata": {
+  "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+  "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xmlns:gts": "http://www.isotc211.org/2005/gts",
+  "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+  "@xmlns:gml": "http://www.opengis.net/gml",
+  "@xmlns:geonet": "http://www.fao.org/geonetwork",
+  "@xsi:schemaLocation": "http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd",
+  "gmd:fileIdentifier": {
+   "gco:CharacterString": "08b1c286-760a-46fa-94f7-1c113c6e5aa4"
+  },
+  "gmd:language": {
+   "gmd:LanguageCode": {
+    "@codeList": "http://www.loc.gov/standards/iso639-2/",
+    "@codeListValue": "eng"
+   }
+  },
+  "gmd:characterSet": {
+   "gmd:MD_CharacterSetCode": {
+    "@codeListValue": "utf8",
+    "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+   }
+  },
+  "gmd:hierarchyLevel": {
+   "@xmlns:gn": "http://www.fao.org/geonetwork",
+   "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+   "gmd:MD_ScopeCode": {
+    "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode",
+    "@codeListValue": "dataset"
+   }
+  },
+  "gmd:contact": [
+   {
+    "gmd:CI_ResponsibleParty": {
+     "gmd:individualName": {
+      "gco:CharacterString": "\u00c3\u2030lodie COURTOIS"
+     },
+     "gmd:organisationName": {
+      "gco:CharacterString": "CNRS"
+     },
+     "gmd:contactInfo": {
+      "gmd:CI_Contact": {
+       "gmd:phone": {
+        "gmd:CI_Telephone": {
+         "gmd:voice": {
+          "gco:CharacterString": "+594 05 94 27 39 42"
+         },
+         "gmd:facsimile": {
+          "gco:CharacterString": "+594 05 94 35 65 22"
+         }
+        }
+       },
+       "gmd:address": {
+        "gmd:CI_Address": {
+         "gmd:deliveryPoint": {
+          "gco:CharacterString": "CNRS Guyane, 2, avenue Gustave Charlery"
+         },
+         "gmd:city": {
+          "gco:CharacterString": "Cayenne"
+         },
+         "gmd:administrativeArea": {
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null
+         },
+         "gmd:postalCode": {
+          "gco:CharacterString": "97300"
+         },
+         "gmd:country": {
+          "gco:CharacterString": "France"
+         },
+         "gmd:electronicMailAddress": {
+          "gco:CharacterString": "elodie.courtois@cnrs.fr"
+         }
+        }
+       }
+      }
+     },
+     "gmd:role": {
+      "gmd:CI_RoleCode": {
+       "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode",
+       "@codeListValue": "pointOfContact"
+      }
+     }
+    }
+   },
+   {
+    "gmd:CI_ResponsibleParty": {
+     "gmd:individualName": {
+      "gco:CharacterString": "J\u00c3\u00a9r\u00c3\u00b4me CHAVE"
+     },
+     "gmd:organisationName": {
+      "gco:CharacterString": "CNRS"
+     },
+     "gmd:contactInfo": {
+      "gmd:CI_Contact": {
+       "gmd:phone": {
+        "gmd:CI_Telephone": {
+         "gmd:voice": {
+          "gco:CharacterString": "+594 5 61 55 67 60"
+         },
+         "gmd:facsimile": {
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null
+         }
+        }
+       },
+       "gmd:address": {
+        "gmd:CI_Address": {
+         "gmd:deliveryPoint": {
+          "gco:CharacterString": "2, avenue Gustave Charlery"
+         },
+         "gmd:city": {
+          "gco:CharacterString": "Cayenne"
+         },
+         "gmd:administrativeArea": {
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null
+         },
+         "gmd:postalCode": {
+          "gco:CharacterString": "97300"
+         },
+         "gmd:country": {
+          "gco:CharacterString": "Guyanne, France"
+         },
+         "gmd:electronicMailAddress": {
+          "gco:CharacterString": "Jerome.Chave@Univ-Tlse3.Fr"
+         }
+        }
+       }
+      }
+     },
+     "gmd:role": {
+      "gmd:CI_RoleCode": {
+       "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode",
+       "@codeListValue": "pointOfContact"
+      }
+     }
+    }
+   }
+  ],
+  "gmd:dateStamp": {
+   "gco:DateTime": "2021-02-04T18:47:04"
+  },
+  "gmd:metadataStandardName": {
+   "gco:CharacterString": "ISO 19115:2003/19139"
+  },
+  "gmd:metadataStandardVersion": {
+   "gco:CharacterString": "1.0"
+  },
+  "gmd:locale": {
+   "gmd:PT_Locale": {
+    "@id": "FR",
+    "gmd:languageCode": {
+     "gmd:LanguageCode": {
+      "@codeList": "http://www.loc.gov/standards/iso639-2/",
+      "@codeListValue": "fre"
+     }
+    },
+    "gmd:characterEncoding": null
+   }
+  },
+  "gmd:referenceSystemInfo": {
+   "gmd:MD_ReferenceSystem": {
+    "gmd:referenceSystemIdentifier": {
+     "gmd:RS_Identifier": {
+      "gmd:code": {
+       "gco:CharacterString": "WGS 84 (EPSG:4326)"
+      }
+     }
+    }
+   }
+  },
+  "gmd:identificationInfo": {
+   "gmd:MD_DataIdentification": {
+    "gmd:citation": {
+     "gmd:CI_Citation": {
+      "gmd:title": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "Nouragues ecological research stations",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "La Station des Nouragues"
+         }
+        }
+       }
+      },
+      "gmd:date": {
+       "gmd:CI_Date": {
+        "gmd:date": {
+         "gco:Date": "2015-06-25"
+        },
+        "gmd:dateType": {
+         "gmd:CI_DateTypeCode": {
+          "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+          "@codeListValue": "creation"
+         }
+        }
+       }
+      },
+      "gmd:identifier": [
+       {
+        "gmd:MD_Identifier": {
+         "gmd:code": {
+          "gco:CharacterString": "http://w3.avignon.inra.fr/geonetwork_anaee/08b1c286-760a-46fa-94f7-1c113c6e5aa4"
+         }
+        }
+       },
+       {
+        "gmd:MD_Identifier": {
+         "gmd:code": {
+          "gco:CharacterString": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/catalog.search#/metadata/08b1c286-760a-46fa-94f7-1c113c6e5aa4"
+         }
+        }
+       }
+      ]
+     }
+    },
+    "gmd:abstract": {
+     "@xsi:type": "gmd:PT_FreeText_PropertyType",
+     "gco:CharacterString": "The Nouragues Ecological Research Station is a scientific station managed by Centre National de la Recherche Scientifique. It is located at the heart of a tropical rain forest, in the Nouragues Natural Reserve, French Guiana. It is a privileged equipment for the study of the functioning of tropical forests and their biodiversity. The Nouragues station is organized around two permanent camps (Inselberg camp and Parar\u00c3\u00a9 camp), 8 km away from each other. These two sites are equipped to welcome scientists from a few days to several months.",
+     "gmd:PT_FreeText": {
+      "gmd:textGroup": {
+       "gmd:LocalisedCharacterString": {
+        "@locale": "#FR",
+        "#text": "La station de recherche en \u00c3\u00a9cologie des Nouragues est une station scientifique du Centre national de la Recherche scientifique (CNRS). Elle est implant\u00c3\u00a9e au coeur de la for\u00c3\u00aat tropicale, dans la R\u00c3\u00a9serve Naturelle des Nouragues, en Guyane fran\u00c3\u00a7aise. Ce lieu est privil\u00c3\u00a9gi\u00c3\u00a9 pour l\u00e2\u20ac\u2122\u00c3\u00a9tude du fonctionnement des for\u00c3\u00aats tropicales et de leur biodiversit\u00c3\u00a9. La station des Nouragues dispose de deux camps de s\u00c3\u00a9jour, distants de 8 kilom\u00c3\u00a8tres. Ces deux sites sont \u00c3\u00a9quip\u00c3\u00a9s pour accueillir des scientifiques pendant quelques jours, jusqu\u00e2\u20ac\u2122\u00c3\u00a0 plusieurs mois."
+       }
+      }
+     }
+    },
+    "gmd:pointOfContact": [
+     {
+      "gmd:CI_ResponsibleParty": {
+       "gmd:individualName": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "\u00c3\u2030lodie COURTOIS",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "\u00c3\u2030lodie COURTOIS"
+          }
+         }
+        }
+       },
+       "gmd:organisationName": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "CNRS",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "CNRS"
+          }
+         }
+        }
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+594 05 94 27 39 42"
+           },
+           "gmd:facsimile": {
+            "gco:CharacterString": "+594 05 94 35 65 22"
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "CNRS Guyane, 2, avenue Gustave Charlery",
+            "gmd:PT_FreeText": {
+             "gmd:textGroup": {
+              "gmd:LocalisedCharacterString": {
+               "@locale": "#FR",
+               "#text": "CNRS Guyane, 2, avenue Gustave Charlery"
+              }
+             }
+            }
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Cayenne"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "97300"
+           },
+           "gmd:country": {
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "France",
+            "gmd:PT_FreeText": {
+             "gmd:textGroup": {
+              "gmd:LocalisedCharacterString": {
+               "@locale": "#FR",
+               "#text": "France"
+              }
+             }
+            }
+           },
+           "gmd:electronicMailAddress": {
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "elodie.courtois@cnrs.fr",
+            "gmd:PT_FreeText": {
+             "gmd:textGroup": {
+              "gmd:LocalisedCharacterString": {
+               "@locale": "#FR",
+               "#text": "elodie.courtois@cnrs.fr"
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "pointOfContact"
+        }
+       }
+      }
+     },
+     {
+      "gmd:CI_ResponsibleParty": {
+       "gmd:individualName": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "J\u00c3\u00a9r\u00c3\u00b4me CHAVE",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "J\u00c3\u00a9r\u00c3\u00b4me CHAVE"
+          }
+         }
+        }
+       },
+       "gmd:organisationName": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "CNRS",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "CNRS"
+          }
+         }
+        }
+       },
+       "gmd:contactInfo": {
+        "gmd:CI_Contact": {
+         "gmd:phone": {
+          "gmd:CI_Telephone": {
+           "gmd:voice": {
+            "gco:CharacterString": "+594 5 61 55 67 60"
+           },
+           "gmd:facsimile": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           }
+          }
+         },
+         "gmd:address": {
+          "gmd:CI_Address": {
+           "gmd:deliveryPoint": {
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "2, avenue Gustave Charlery",
+            "gmd:PT_FreeText": {
+             "gmd:textGroup": {
+              "gmd:LocalisedCharacterString": {
+               "@locale": "#FR",
+               "#text": "2, avenue Gustave Charlery"
+              }
+             }
+            }
+           },
+           "gmd:city": {
+            "gco:CharacterString": "Cayenne"
+           },
+           "gmd:administrativeArea": {
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+           },
+           "gmd:postalCode": {
+            "gco:CharacterString": "97300"
+           },
+           "gmd:country": {
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "Guyanne, France",
+            "gmd:PT_FreeText": {
+             "gmd:textGroup": {
+              "gmd:LocalisedCharacterString": {
+               "@locale": "#FR",
+               "#text": "Guyanne, France"
+              }
+             }
+            }
+           },
+           "gmd:electronicMailAddress": {
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "Jerome.Chave@Univ-Tlse3.Fr",
+            "gmd:PT_FreeText": {
+             "gmd:textGroup": {
+              "gmd:LocalisedCharacterString": {
+               "@locale": "#FR",
+               "#text": "Jerome.Chave@Univ-Tlse3.Fr"
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       },
+       "gmd:role": {
+        "gmd:CI_RoleCode": {
+         "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode",
+         "@codeListValue": "pointOfContact"
+        }
+       }
+      }
+     }
+    ],
+    "gmd:resourceMaintenance": {
+     "gmd:MD_MaintenanceInformation": {
+      "gmd:maintenanceAndUpdateFrequency": {
+       "gmd:MD_MaintenanceFrequencyCode": {
+        "@codeListValue": "asNeeded",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"
+       }
+      }
+     }
+    },
+    "gmd:graphicOverview": {
+     "gmd:MD_BrowseGraphic": {
+      "gmd:fileName": {
+       "gco:CharacterString": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/fre//resources.get?uuid=08b1c286-760a-46fa-94f7-1c113c6e5aa4&fname=\"Photos Nouragues Quentin Martinez-21.JPG\""
+      },
+      "gmd:fileDescription": {
+       "gco:CharacterString": "large_thumbnail"
+      },
+      "gmd:fileType": {
+       "gco:CharacterString": "JPG"
+      }
+     }
+    },
+    "gmd:descriptiveKeywords": [
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": [
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "AnaEE-France",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "AnaEE-France"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "community ecology",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "\u00c3\u00a9cologie communautaire"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "animal ecology",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "\u00c3\u00a9cologie animale"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "biotic interactions",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "interactions biotiques"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "tropical ecology",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "\u00c3\u00a9cologie tropicale"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "population ecology",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "\u00c3\u00a9cologie des populations"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "tropical forest ecosystem",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "\u00c3\u00a9cosyst\u00c3\u00a8me forestier tropical"
+           }
+          }
+         }
+        },
+        {
+         "@xsi:type": "gmd:PT_FreeText_PropertyType",
+         "gco:CharacterString": "forest ecology",
+         "gmd:PT_FreeText": {
+          "gmd:textGroup": {
+           "gmd:LocalisedCharacterString": {
+            "@locale": "#FR",
+            "#text": "\u00c3\u00a9cologie foresti\u00c3\u00a8re"
+           }
+          }
+         }
+        }
+       ],
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "theme.anaeeThes.rdf"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2017-06-13"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=external.theme.anaeeThes",
+             "#text": "geonetwork.thesaurus.external.theme.anaeeThes"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "Environmental monitoring facilities",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "Installations de suivi environnemental"
+          }
+         }
+        }
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "theme"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "GEMET - INSPIRE themes, version 1.0 INSPIRE themes"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2008-06-01"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=external.theme.inspire-theme",
+             "#text": "geonetwork.thesaurus.external.theme.inspire-theme"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:MD_Keywords": {
+       "gmd:keyword": {
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString": "Guyane",
+        "gmd:PT_FreeText": {
+         "gmd:textGroup": {
+          "gmd:LocalisedCharacterString": {
+           "@locale": "#FR",
+           "#text": "Guyane"
+          }
+         }
+        }
+       },
+       "gmd:type": {
+        "gmd:MD_KeywordTypeCode": {
+         "@codeList": "http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode",
+         "@codeListValue": "place"
+        }
+       },
+       "gmd:thesaurusName": {
+        "gmd:CI_Citation": {
+         "gmd:title": {
+          "gco:CharacterString": "AnaEE-France Locations"
+         },
+         "gmd:date": {
+          "gmd:CI_Date": {
+           "gmd:date": {
+            "gco:Date": "2018-07-12"
+           },
+           "gmd:dateType": {
+            "gmd:CI_DateTypeCode": {
+             "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+             "@codeListValue": "publication"
+            }
+           }
+          }
+         },
+         "gmd:identifier": {
+          "gmd:MD_Identifier": {
+           "gmd:code": {
+            "gmx:Anchor": {
+             "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+             "@xlink:href": "http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/thesaurus.download?ref=local.place.anaee-france_locations",
+             "#text": "geonetwork.thesaurus.local.place.anaee-france_locations"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    ],
+    "gmd:resourceConstraints": {
+     "gmd:MD_LegalConstraints": {
+      "gmd:useLimitation": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "See AnaEE-France charters.",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "Voir les chartes AnaEE-France."
+         }
+        }
+       }
+      },
+      "gmd:accessConstraints": {
+       "gmd:MD_RestrictionCode": {
+        "@codeListValue": "intellectualPropertyRights",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+       }
+      },
+      "gmd:useConstraints": {
+       "gmd:MD_RestrictionCode": {
+        "@codeListValue": "intellectualPropertyRights",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+       }
+      }
+     }
+    },
+    "gmd:spatialResolution": {
+     "gmd:MD_Resolution": {
+      "gmd:equivalentScale": {
+       "gmd:MD_RepresentativeFraction": {
+        "gmd:denominator": {
+         "gco:Integer": "50000"
+        }
+       }
+      }
+     }
+    },
+    "gmd:language": {
+     "gmd:LanguageCode": {
+      "@codeList": "http://www.loc.gov/standards/iso639-2/",
+      "@codeListValue": "eng"
+     }
+    },
+    "gmd:characterSet": {
+     "gmd:MD_CharacterSetCode": {
+      "@codeListValue": "utf8",
+      "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+     }
+    },
+    "gmd:topicCategory": {
+     "gmd:MD_TopicCategoryCode": "structure"
+    },
+    "gmd:extent": [
+     {
+      "gmd:EX_Extent": {
+       "gmd:temporalElement": {
+        "gmd:EX_TemporalExtent": {
+         "gmd:extent": {
+          "gml:TimePeriod": {
+           "@gml:id": "d239612e575a1052958",
+           "gml:beginPosition": "1989-01-01",
+           "gml:endPosition": "2100-01-01"
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "gmd:EX_Extent": {
+       "@xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+       "gmd:description": {
+        "gco:CharacterString": "Guyane"
+       },
+       "gmd:geographicElement": {
+        "gmd:EX_GeographicBoundingBox": {
+         "gmd:westBoundLongitude": {
+          "gco:Decimal": "-54.6"
+         },
+         "gmd:eastBoundLongitude": {
+          "gco:Decimal": "-51.6"
+         },
+         "gmd:southBoundLatitude": {
+          "gco:Decimal": "5.7"
+         },
+         "gmd:northBoundLatitude": {
+          "gco:Decimal": "2.1"
+         }
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  "gmd:distributionInfo": {
+   "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+   "@xmlns:date": "http://exslt.org/dates-and-times",
+   "gmd:MD_Distribution": {
+    "gmd:distributionFormat": {
+     "gmd:MD_Format": {
+      "gmd:name": {
+       "gco:CharacterString": "inapplicable"
+      },
+      "gmd:version": {
+       "gco:CharacterString": "inapplicable"
+      }
+     }
+    },
+    "gmd:transferOptions": {
+     "gmd:MD_DigitalTransferOptions": {
+      "gmd:onLine": {
+       "gmd:CI_OnlineResource": {
+        "gmd:linkage": {
+         "gmd:URL": "http://www.nouragues.cnrs.fr"
+        },
+        "gmd:protocol": {
+         "gco:CharacterString": "WWW:LINK-1.0-http--link"
+        },
+        "gmd:name": {
+         "gco:CharacterString": "Nouragues website"
+        },
+        "gmd:description": {
+         "@gco:nilReason": "missing",
+         "gco:CharacterString": null
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "gmd:dataQualityInfo": {
+   "gmd:DQ_DataQuality": {
+    "gmd:scope": {
+     "gmd:DQ_Scope": {
+      "gmd:level": {
+       "gmd:MD_ScopeCode": {
+        "@codeListValue": "dataset",
+        "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode"
+       }
+      }
+     }
+    },
+    "gmd:report": {
+     "gmd:DQ_DomainConsistency": {
+      "gmd:result": {
+       "gmd:DQ_ConformanceResult": {
+        "gmd:specification": {
+         "gmd:CI_Citation": {
+          "gmd:title": {
+           "gco:CharacterString": "Commission Regulation (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services"
+          },
+          "gmd:date": {
+           "gmd:CI_Date": {
+            "gmd:date": {
+             "gco:Date": "2010-12-08"
+            },
+            "gmd:dateType": {
+             "gmd:CI_DateTypeCode": {
+              "@codeList": "http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode",
+              "@codeListValue": "publication"
+             }
+            }
+           }
+          }
+         }
+        },
+        "gmd:explanation": {
+         "gco:CharacterString": "Not evaluated"
+        }
+       }
+      }
+     }
+    },
+    "gmd:lineage": {
+     "gmd:LI_Lineage": {
+      "gmd:statement": {
+       "@xsi:type": "gmd:PT_FreeText_PropertyType",
+       "gco:CharacterString": "Following upon the creation of a temporary research camp of the Museum National d\u00e2\u20ac\u2122Histoire Naturelle (MNHN), on the Arataie River between 1978 and 1985, the Nouragues Station (today referred to as Inselberg Camp) was created in 1986 based upon a 2-yr scientific project funded by the French Environment Ministry, additional funds from CNRS and MNHN, and support from IRD. \n\nPermanent constructions at the site were completed in 1989, and the station has built upon the research activities of the ecology lab of Brunoy, near Paris (MNHN/CNRS), with funds from various CNRS programs (Programme Environnement Vie et Soci\u00c3\u00a9t\u00c3\u00a9s of CNRS and D\u00c3\u00a9partement des Sciences de la Vie of CNRS until 2002). In 1997, The Nouragues Research Station has acquired the status of Unit\u00c3\u00a9 Propre de Service of the CNRS, until 2002. \n\nIn 1995, the Nouragues area has been created as a Natural Reserve (creation n\u00c2\u00b0 95-1299 18 december 1995). With over 1000 km2 of protected pristine rainforest, the Nouragues Reserve has long remained the largest Natural Reserve in France.\n\nToday, the research area managed by CNRS within the Nouragues Natural Reserve is a 8 x 10 km area, devoted to scientific research. By decree, this area is under sole the responsability of CNRS. \n\nSince 2003, the Nouragues Ecological Research Station is managed operationally by the Unit\u00c3\u00a9 de Service et de Recherche CNRS-Guyane of the Institut Ecologie and Environnement (InEE) at CNRS.\n\nThe Nouragues Ecological Research Station is a service of AnaEE-France Infrastructure.",
+       "gmd:PT_FreeText": {
+        "gmd:textGroup": {
+         "gmd:LocalisedCharacterString": {
+          "@locale": "#FR",
+          "#text": "Une premi\u00c3\u00a8re implantation scientifique temporaire a \u00c3\u00a9t\u00c3\u00a9 r\u00c3\u00a9alis\u00c3\u00a9e par le Mus\u00c3\u00a9um national d\u00e2\u20ac\u2122Histoire naturelle au bord de la rivi\u00c3\u00a8re Arataye, entre les ann\u00c3\u00a9es 1978 et 1985. Faisant suite \u00c3\u00a0 cette premi\u00c3\u00a8re implantation, la station des Nouragues a \u00c3\u00a9t\u00c3\u00a9 cr\u00c3\u00a9\u00c3\u00a9e en 1986 sur la base d\u00e2\u20ac\u2122un projet scientifique de deux ans (1986-1988), financ\u00c3\u00a9 par le minist\u00c3\u00a8re de l\u00e2\u20ac\u2122Environnement , avec la participation financi\u00c3\u00a8re du CNRS et du MNHN, et le soutien de l\u00e2\u20ac\u2122IRD (ex-ORSTOM).\n\nLes dispositifs permanents de la station ont \u00c3\u00a9t\u00c3\u00a9 achev\u00c3\u00a9s en 1989, et la station a pu se d\u00c3\u00a9velopper dans le cadre des activit\u00c3\u00a9s du laboratoire d\u00e2\u20ac\u2122\u00c3\u00a9cologie de Brunoy (MNHN/CNRS), avec le soutien financier du Programme Environnement Vie et Soci\u00c3\u00a9t\u00c3\u00a9s du CNRS et du D\u00c3\u00a9partement des Sciences de la Vie du CNRS. En 1997, la station de recherche des Nouragues acquiert un statut d\u00e2\u20ac\u2122unit\u00c3\u00a9 propre de service du CNRS, jusqu\u00e2\u20ac\u2122en 2002.\n\nEn 1995, la zone des Nouragues a \u00c3\u00a9t\u00c3\u00a9 class\u00c3\u00a9e en R\u00c3\u00a9serve Naturelle (d\u00c3\u00a9cret de cr\u00c3\u00a9ation n\u00c2\u00b0 95-1299 du 18 d\u00c3\u00a9cembre 1995). Avec plus de 1000 km2 d\u00e2\u20ac\u2122espace prot\u00c3\u00a9g\u00c3\u00a9, ce site est longtemps rest\u00c3\u00a9 la plus grande R\u00c3\u00a9serve Naturelle de France.\n\nLa station de recherche des Nouragues est incluse dans une aire de 8 kmx10 km situ\u00c3\u00a9e au centre de la r\u00c3\u00a9serve et d\u00c3\u00a9volue au d\u00c3\u00a9roulement des activit\u00c3\u00a9s de recherche scientifique.\n\nDepuis 2003, la Station de Recherche en Ecologie des Nouragues est rattach\u00c3\u00a9e au CNRS-Guyane, peu apr\u00c3\u00a8s la cr\u00c3\u00a9ation de cette structure r\u00c3\u00a9gionale de repr\u00c3\u00a9sentation permanente du CNRS (aujourd\u00e2\u20ac\u2122hui USR CNRS 3456). Le CNRS-Guyane d\u00c3\u00a9pend de l\u00e2\u20ac\u2122Institut Ecologie et Environnement (InEE) au CNRS.\n\nLa station des Nouragues est un des services de l'infrastructure AnaEE-France."
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

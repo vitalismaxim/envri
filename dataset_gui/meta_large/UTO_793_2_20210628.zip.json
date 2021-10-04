@@ -1,0 +1,158 @@
+{
+  "coverageGeo": {
+    "coordinates": [11.8867, 78.9072, 474.0],
+    "type": "Point"
+  },
+  "fileName": "ZEP_715_1_20210628.zip",
+  "hash": "Ppt-E7LXj1icUCxf0jpU4LbHGmnqbeE4rivYHMfzO2w",
+  "parentCollections": [],
+  "pid": "11676/Ppt-E7LXj1icUCxf0jpU4LbH",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Cathrine",
+      "lastName": "Lund Myhre",
+      "orcid": "0000-0003-3587-5926",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Cathrine_Lund%20Myhre"
+      }
+    }, {
+      "firstName": "Stephen Matthew",
+      "lastName": "Platt",
+      "orcid": "0000-0002-8439-6633",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Stephen%20Matthew_Platt"
+      }
+    }, {
+      "firstName": "Ove",
+      "lastName": "Hermansen",
+      "orcid": "0000-0001-7353-057X",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Ove_Hermansen"
+      }
+    }, {
+      "firstName": "Chris",
+      "lastName": "Lunder",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Chris_Lunder"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/Ppt-E7LXj1icUCxf0jpU4LbH,\r\n  author={Lund Myhre, C., Platt, S., Hermansen, O., Lunder, C.},\r\n  title={ICOS ATC Meteorological data csv time series, Zeppelin, 2021-06-28},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/Ppt-E7LXj1icUCxf0jpU4LbH},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/Ppt-E7LXj1icUCxf0jpU4LbH}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC Meteorological data csv time series, Zeppelin, 2021-06-28\r\nID - 11676/Ppt-E7LXj1icUCxf0jpU4LbH\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/Ppt-E7LXj1icUCxf0jpU4LbH\r\nPB - Atmosphere Thematic Centre\r\nAU - Lund Myhre, C.\r\nAU - Platt, S.\r\nAU - Hermansen, O.\r\nAU - Lunder, C.\r\nER - ",
+    "citationString": "Lund Myhre, C., Platt, S., Hermansen, O., Lunder, C., ICOS RI, 2021. ICOS ATC Meteorological data csv time series, Zeppelin, 2021-06-28, https://hdl.handle.net/11676/Ppt-E7LXj1icUCxf0jpU4LbH",
+    "temporalCoverageDisplay": "2021-06-28"
+  },
+  "size": 21529,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "Meteorological station",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_715"
+      },
+      "interval": {
+        "start": "2021-06-28T00:00:00Z",
+        "stop": "2021-06-28T23:59:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 474.0,
+          "geo": {
+            "coordinates": [11.8867, 78.9072, 474.0],
+            "type": "Point"
+          },
+          "label": "ZEP",
+          "lat": 78.9072,
+          "lon": 11.8867
+        },
+        "id": "ZEP",
+        "org": {
+          "name": "Zeppelin",
+          "self": {
+            "comments": [],
+            "label": "ZEP",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_ZEP"
+          }
+        },
+        "pictures": ["https://meta.icos-cp.eu/files/a4uTkSUkjFhtJtaAqups4hwg/ZeppStatMay2014d.jpg", "https://meta.icos-cp.eu/files/-a91yaow8SMs_VEDEcQSs7w3/DSC_0848.JPG"],
+        "responsibleOrganization": {
+          "name": "NILU - Norwegian Institute for Air Research",
+          "self": {
+            "comments": [],
+            "uri": "http://meta.icos-cp.eu/resources/organizations/NILU%20-%20Norwegian%20Institute%20for%20Air%20Research"
+          },
+          "website": "https://www.nilu.no"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "NO",
+          "documentation": [],
+          "labelingDate": "2018-04-20",
+          "stationClass": "1",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "ICOS ATC Raw time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ATC Meteorological data csv time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcMeteoL0DataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-06-29T09:44:59.788530Z",
+    "stop": "2021-06-29T09:45:03.114190Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

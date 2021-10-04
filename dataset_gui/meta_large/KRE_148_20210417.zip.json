@@ -1,0 +1,202 @@
+{
+  "coverageGeo": {
+    "coordinates": [[[5.393312, 61.94448], [8.782622, 63.323233], [11.024797, 64.820894], [14.489523, 67.39348], [18.474118, 69.582492], [24.263308, 70.557995], [31.876264, 69.94404], [41.219911, 72.994279], [41.041588, 74.957965], [40.861192, 78.307526], [30.06866, 78.274233], [12.476931, 78.224705], [1.136358, 72.568556], [-1.531106, 65.024969], [-1.439185, 63.097033], [-1.347265, 61.169097], [0.540976, 60.143269], [4.977852, 60.083997], [5.393312, 61.94448]]],
+    "type": "Polygon"
+  },
+  "fileName": "GOS_2021-107-0000dat.txt",
+  "hash": "nZg3gr3GY4un2CdPnCSSpwS_ay3OBOOuw-LzlBEWkvg",
+  "parentCollections": [],
+  "pid": "11676/nZg3gr3GY4un2CdPnCSSpwS_",
+  "previousVersion": "https://meta.icos-cp.eu/objects/UgYH04C-9BIPyAbs0b00D2Tb",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Ingunn",
+      "lastName": "Skjelvan",
+      "orcid": "0000-0001-6761-5016",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Ingunn_Skjelvan"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/nZg3gr3GY4un2CdPnCSSpwS_,\r\n  author={Skjelvan, I.},\r\n  title={ICOS OTC Raw Data, NO-SOOP-G.O.Sars, 2021-04-17},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/nZg3gr3GY4un2CdPnCSSpwS_},\r\n  publisher={Ocean Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/nZg3gr3GY4un2CdPnCSSpwS_}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS OTC Raw Data, NO-SOOP-G.O.Sars, 2021-04-17\r\nID - 11676/nZg3gr3GY4un2CdPnCSSpwS_\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/nZg3gr3GY4un2CdPnCSSpwS_\r\nPB - Ocean Thematic Centre\r\nAU - Skjelvan, I.\r\nER - ",
+    "citationString": "Skjelvan, I., ICOS RI, 2021. ICOS OTC Raw Data, NO-SOOP-G.O.Sars, 2021-04-17, https://hdl.handle.net/11676/nZg3gr3GY4un2CdPnCSSpwS_",
+    "temporalCoverageDisplay": "2021-04-17"
+  },
+  "size": 168239,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "G.O.Sars Seabird TSG",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/OTC_G.O.Sars_TSG"
+      },
+      "interval": {
+        "start": "2021-04-17T00:01:48Z",
+        "stop": "2021-04-18T00:00:58Z"
+      },
+      "station": {
+        "coverage": {
+          "geo": {
+            "coordinates": [[[5.393312, 61.94448], [8.782622, 63.323233], [11.024797, 64.820894], [14.489523, 67.39348], [18.474118, 69.582492], [24.263308, 70.557995], [31.876264, 69.94404], [41.219911, 72.994279], [41.041588, 74.957965], [40.861192, 78.307526], [30.06866, 78.274233], [12.476931, 78.224705], [1.136358, 72.568556], [-1.531106, 65.024969], [-1.439185, 63.097033], [-1.347265, 61.169097], [0.540976, 60.143269], [4.977852, 60.083997], [5.393312, 61.94448]]],
+            "type": "Polygon"
+          },
+          "label": "NO-SOOP-G.O.Sars geo-coverage",
+          "vertices": [{
+            "lat": 61.94447969518681,
+            "lon": 5.393312082190009
+          }, {
+            "lat": 63.32323269525019,
+            "lon": 8.782621916651836
+          }, {
+            "lat": 64.82089378857266,
+            "lon": 11.02479738688358
+          }, {
+            "lat": 67.39348030852469,
+            "lon": 14.48952302100266
+          }, {
+            "lat": 69.58249238654543,
+            "lon": 18.47411772693458
+          }, {
+            "lat": 70.55799516305484,
+            "lon": 24.2633075570063
+          }, {
+            "lat": 69.94404009766046,
+            "lon": 31.8762635652961
+          }, {
+            "lat": 72.99427875873558,
+            "lon": 41.21991103898648
+          }, {
+            "lat": 74.95796506184975,
+            "lon": 41.04158752716256
+          }, {
+            "lat": 78.30752603852461,
+            "lon": 40.8611916893262
+          }, {
+            "lat": 78.27423256021248,
+            "lon": 30.06866027202807
+          }, {
+            "lat": 78.22470451765018,
+            "lon": 12.47693067833072
+          }, {
+            "lat": 72.56855619734009,
+            "lon": 1.136357617922144
+          }, {
+            "lat": 65.0249694472891,
+            "lon": -1.53110573875458
+          }, {
+            "lat": 63.09703316478571,
+            "lon": -1.439185227263877
+          }, {
+            "lat": 61.16909688228232,
+            "lon": -1.347264715773173
+          }, {
+            "lat": 60.14326920210807,
+            "lon": 0.5409759616440613
+          }, {
+            "lat": 60.08399661175024,
+            "lon": 4.977851583442014
+          }]
+        },
+        "id": "58G2",
+        "org": {
+          "name": "NO-SOOP-G.O.Sars",
+          "self": {
+            "comments": ["The research vessel (R/V) G.O. Sars is own and run by the  Institute of Marine Research, Norway. The station began measuring sea surface pCO2 in 2003, and NORCE is the responsible institution for this effort, with Dr. Ingunn Skjelvan as PI. Carbon-VOS G.O. Sars sails primarily in the Nordic Seas including the North Sea and the Barents Sea."],
+            "label": "58G2",
+            "uri": "http://meta.icos-cp.eu/resources/stations/OS_GOSars"
+          },
+          "website": "https://www.hi.no/hi/om-oss/fasiliteter/vare-fartoy/g.o.-sars"
+        },
+        "pictures": [],
+        "responsibleOrganization": {
+          "name": "NORCE Norwegian Research Centre AS",
+          "self": {
+            "comments": [],
+            "uri": "http://meta.icos-cp.eu/resources/organizations/NORCE"
+          }
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "NO",
+          "documentation": [],
+          "labelingDate": "2018-10-31",
+          "stationClass": "1",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/oce.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/os.png",
+            "self": {
+              "comments": [],
+              "label": "Ocean data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ocean"
+            }
+          }
+        }
+      }
+    },
+    "nRows": 7325,
+    "productionInfo": {
+      "comment": "Data processed using QuinCe version v8.0.3",
+      "contributors": [],
+      "creator": {
+        "name": "Ocean Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS OTC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/OTC"
+        }
+      },
+      "dateTime": "2021-04-18T08:46:08.489325Z",
+      "sources": []
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "ICOS OTC Raw Data",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/otcRawData"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS OTC Raw Data",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/otcL0DataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/oce.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/os.png",
+      "self": {
+        "comments": [],
+        "label": "Ocean data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ocean"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-04-18T08:46:08.600Z",
+    "stop": "2021-04-18T08:46:11.517Z",
+    "submitter": {
+      "name": "Ocean Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS OTC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/OTC"
+      }
+    }
+  }
+}

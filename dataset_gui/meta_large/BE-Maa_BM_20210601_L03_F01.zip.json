@@ -1,0 +1,174 @@
+{
+  "coverageGeo": {
+    "coordinates": [5.631851, 50.97987, 87.0],
+    "type": "Point"
+  },
+  "fileName": "BE-Maa_BM_20210601_L03_F01.zip",
+  "hash": "IEfiR3IVVhFg7INZyvgiCJwseXjqzbKnSPg-e7Rc1OY",
+  "parentCollections": [],
+  "pid": "11676/IEfiR3IVVhFg7INZyvgiCJws",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Marilyn",
+      "lastName": "Roland",
+      "orcid": "0000-0002-5770-3896",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Marilyn_Roland"
+      }
+    }, {
+      "firstName": "Tim",
+      "lastName": "De Meulder",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Tim_De%20Meulder"
+      }
+    }, {
+      "firstName": "Lodewijk",
+      "lastName": "Lefevre",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Lodewijk_Lefevre"
+      }
+    }, {
+      "firstName": "Jan",
+      "lastName": "Segers",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jan_Segers"
+      }
+    }, {
+      "firstName": "Jasper",
+      "lastName": "Van Look",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jasper_Van%20Look"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/IEfiR3IVVhFg7INZyvgiCJws,\r\n  author={Roland, M., De Meulder, T., Lefevre, L., Segers, J., Van Look, J.},\r\n  title={ICOS ETC Bio Meteo Raw ASCII, Maasmechelen, 2021-06-01},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/IEfiR3IVVhFg7INZyvgiCJws},\r\n  publisher={Maasmechelen},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/IEfiR3IVVhFg7INZyvgiCJws}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ETC Bio Meteo Raw ASCII, Maasmechelen, 2021-06-01\r\nID - 11676/IEfiR3IVVhFg7INZyvgiCJws\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/IEfiR3IVVhFg7INZyvgiCJws\r\nPB - Maasmechelen\r\nAU - Roland, M.\r\nAU - De Meulder, T.\r\nAU - Lefevre, L.\r\nAU - Segers, J.\r\nAU - Van Look, J.\r\nER - ",
+    "citationString": "Roland, M., De Meulder, T., Lefevre, L., Segers, J., Van Look, J., ICOS RI, 2021. ICOS ETC Bio Meteo Raw ASCII, Maasmechelen, 2021-06-01, https://hdl.handle.net/11676/IEfiR3IVVhFg7INZyvgiCJws",
+    "temporalCoverageDisplay": "2021-06-01"
+  },
+  "size": 85926,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "DL-Campbell CR3000",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ETC_47_3"
+      },
+      "interval": {
+        "start": "2021-05-31T23:00:00Z",
+        "stop": "2021-06-01T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 87.0,
+          "geo": {
+            "coordinates": [5.631851, 50.97987, 87.0],
+            "type": "Point"
+          },
+          "label": "BE-Maa",
+          "lat": 50.97987,
+          "lon": 5.631851
+        },
+        "id": "BE-Maa",
+        "org": {
+          "name": "Maasmechelen",
+          "self": {
+            "comments": ["The station with ICOS code BE-Maa, is located in Maasmechelen, 10 Km northeast of the city of Genk on the Belgian Campine plateau or High Campine, a region that stretches over north-eastern Belgium and the south-eastern Netherlands. A national park of 60 Km2 now encompasses part of this region, founded in 2006. The site is situated in a 400ha heathland called “Mechelse heide”, and it is a shrubland dominated by common heather (Calluna vulgaris L.), that grows up to one meter high. Other typical species are cross-leaved heath (Erica tetralix L.), bell heather (Erica cinerea L.) and common broom (Cytisus scoparius L.)."],
+            "label": "BE-Maa",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_BE-Maa"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/qspXYwgTtwemdoJ/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "climateZone": {
+            "comments": [],
+            "label": "Oceanic subtropical highland (Cfb)",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/koppen_Cfb"
+          },
+          "countryCode": "BE",
+          "documentation": [{
+            "hash": "hYoHpccaPJv8R7cUeAnBnBV0kOa2UBJtOlAOBEE8N34",
+            "name": "BE-Maa ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/hYoHpccaPJv8R7cUeAnBnBV0"
+          }],
+          "ecosystemType": {
+            "comments": ["Lands with woody vegetation less than 2 meters tall and with shrub canopy cover >60%. The shrub foliage can be either evergreen or deciduous."],
+            "label": "Closed Shrublands",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_CSH"
+          },
+          "labelingDate": "2020-05-04",
+          "meanAnnualPrecip": 839.1,
+          "meanAnnualRad": 116.7,
+          "meanAnnualTemp": 10.3,
+          "stationClass": "2",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Raw ASCII ETC station data",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiEtcRawTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ETC Bio Meteo Raw ASCII",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcBioMeteoRawSeriesCsv"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-06-01T23:42:03.123673Z",
+    "stop": "2021-06-01T23:42:06.477766Z",
+    "submitter": {
+      "name": "Maasmechelen",
+      "self": {
+        "comments": ["The station with ICOS code BE-Maa, is located in Maasmechelen, 10 Km northeast of the city of Genk on the Belgian Campine plateau or High Campine, a region that stretches over north-eastern Belgium and the south-eastern Netherlands. A national park of 60 Km2 now encompasses part of this region, founded in 2006. The site is situated in a 400ha heathland called “Mechelse heide”, and it is a shrubland dominated by common heather (Calluna vulgaris L.), that grows up to one meter high. Other typical species are cross-leaved heath (Erica tetralix L.), bell heather (Erica cinerea L.) and common broom (Cytisus scoparius L.)."],
+        "label": "BE-Maa",
+        "uri": "http://meta.icos-cp.eu/resources/stations/ES_BE-Maa"
+      }
+    }
+  }
+}

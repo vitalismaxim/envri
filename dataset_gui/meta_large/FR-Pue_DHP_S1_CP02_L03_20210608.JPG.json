@@ -1,0 +1,138 @@
+{
+  "coverageGeo": {
+    "coordinates": [3.5957, 43.7413, 271.0],
+    "type": "Point"
+  },
+  "fileName": "FR-Pue_DHP_S1_CP02_L03_20210608.NEF",
+  "hash": "GOXXS2YDME17wE4ut6OKLaoL_mK3ZExDtyL6S1h-we0",
+  "parentCollections": [],
+  "pid": "11676/GOXXS2YDME17wE4ut6OKLaoL",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Jean-Marc",
+      "lastName": "Limousin",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jean-Marc_Limousin"
+      }
+    }, {
+      "firstName": "Jean",
+      "lastName": "Kempf",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jean_Kempf"
+      }
+    }, {
+      "firstName": "Jean-Marc",
+      "lastName": "Ourcival",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jean-Marc_Ourcival"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/GOXXS2YDME17wE4ut6OKLaoL,\r\n  author={Limousin, J., Kempf, J., Ourcival, J.},\r\n  title={Digital Hemispherical Pictures, Puechabon, 2021-06-08},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/GOXXS2YDME17wE4ut6OKLaoL},\r\n  publisher={Ecosystem Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/GOXXS2YDME17wE4ut6OKLaoL}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - Digital Hemispherical Pictures, Puechabon, 2021-06-08\r\nID - 11676/GOXXS2YDME17wE4ut6OKLaoL\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/GOXXS2YDME17wE4ut6OKLaoL\r\nPB - Ecosystem Thematic Centre\r\nAU - Limousin, J.\r\nAU - Kempf, J.\r\nAU - Ourcival, J.\r\nER - ",
+    "citationString": "Limousin, J., Kempf, J., Ourcival, J., ICOS RI, 2021. Digital Hemispherical Pictures, Puechabon, 2021-06-08, https://hdl.handle.net/11676/GOXXS2YDME17wE4ut6OKLaoL",
+    "temporalCoverageDisplay": "2021-06-08"
+  },
+  "size": 9693146,
+  "specificInfo": {
+    "acquisition": {
+      "interval": {
+        "start": "2021-06-08T00:00:00Z",
+        "stop": "2021-06-08T23:59:59.999Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 271.0,
+          "geo": {
+            "coordinates": [3.5957, 43.7413, 271.0],
+            "type": "Point"
+          },
+          "label": "FR-Pue",
+          "lat": 43.7413,
+          "lon": 3.5957
+        },
+        "id": "FR-Pue",
+        "org": {
+          "name": "Puechabon",
+          "self": {
+            "comments": [],
+            "label": "FR-Pue",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_FR-Pue"
+          }
+        },
+        "pictures": [],
+        "specificInfo": {
+          "_type": "etc",
+          "countryCode": "FR",
+          "documentation": [],
+          "meanAnnualPrecip": 924.0,
+          "meanAnnualTemp": 13.3,
+          "stationClass": "2",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Image of an unspecified format",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/image"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "Digital Hemispherical Pictures",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/digHemispherPics"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-06-10T21:02:33.045557Z",
+    "stop": "2021-06-10T21:02:35.877516Z",
+    "submitter": {
+      "name": "Ecosystem Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ETC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ETC"
+      }
+    }
+  }
+}

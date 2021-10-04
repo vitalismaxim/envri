@@ -1,0 +1,258 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/nXFNmmyg8mTm7KTmJtR66S7N",
+  "coverageGeo": {
+    "coordinates": [11.4429, 53.0657, 70.0],
+    "type": "Point"
+  },
+  "fileName": "ICOS_ATC_NRT_GAT_2020-06-01_2021-02-28_341.0_413_CH4.zip",
+  "hash": "nXFNmmyg8mTm7KTmJtR66S7NaBGVi-LLdC8oL0Lb55M",
+  "nextVersion": "https://meta.icos-cp.eu/objects/s8VAmEfrfdsp_2YLBoOInTx5",
+  "parentCollections": [],
+  "pid": "11676/nXFNmmyg8mTm7KTmJtR66S7N",
+  "previousVersion": "https://meta.icos-cp.eu/objects/OpmDY4JDY76jMMrj1yPrJms8",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Dagmar",
+      "lastName": "Kubistin",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Dagmar_Kubistin"
+      }
+    }, {
+      "firstName": "Christian",
+      "lastName": "Plaß-Dülmer",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Christian_Pla%C3%9F-D%C3%BClmer"
+      }
+    }, {
+      "firstName": "Matthias",
+      "lastName": "Lindauer",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Matthias_Lindauer"
+      }
+    }, {
+      "firstName": "Jennifer",
+      "lastName": "Müller-Williams",
+      "orcid": "0000-0002-4840-7729",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jennifer_M%C3%BCller-Williams"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/nXFNmmyg8mTm7KTmJtR66S7N,\r\n  author={Kubistin, D., Plaß-Dülmer, C., Lindauer, M., Müller-Williams, J.},\r\n  title={ICOS ATC NRT CH4 growing time series, Gartow (341.0 m), 2020-06-01–2021-02-28},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/nXFNmmyg8mTm7KTmJtR66S7N},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/nXFNmmyg8mTm7KTmJtR66S7N}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC NRT CH4 growing time series, Gartow (341.0 m), 2020-06-01–2021-02-28\r\nID - 11676/nXFNmmyg8mTm7KTmJtR66S7N\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/nXFNmmyg8mTm7KTmJtR66S7N\r\nPB - Atmosphere Thematic Centre\r\nAU - Kubistin, D.\r\nAU - Plaß-Dülmer, C.\r\nAU - Lindauer, M.\r\nAU - Müller-Williams, J.\r\nER - ",
+    "citationString": "Kubistin, D., Plaß-Dülmer, C., Lindauer, M., Müller-Williams, J., ICOS RI, 2021. ICOS ATC NRT CH4 growing time series, Gartow (341.0 m), 2020-06-01–2021-02-28, https://hdl.handle.net/11676/nXFNmmyg8mTm7KTmJtR66S7N",
+    "temporalCoverageDisplay": "2020-06-01–2021-02-28"
+  },
+  "size": 100155,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "CO2-CH4-H2O Picarro Analyzer",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_413"
+      },
+      "interval": {
+        "start": "2020-06-01T00:00:00Z",
+        "stop": "2021-02-28T23:00:00Z"
+      },
+      "samplingHeight": 341.0,
+      "station": {
+        "coverage": {
+          "alt": 70.0,
+          "geo": {
+            "coordinates": [11.4429, 53.0657, 70.0],
+            "type": "Point"
+          },
+          "label": "GAT",
+          "lat": 53.0657,
+          "lon": 11.4429
+        },
+        "id": "GAT",
+        "org": {
+          "name": "Gartow",
+          "self": {
+            "comments": [],
+            "label": "GAT",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_GAT"
+          }
+        },
+        "pictures": ["https://meta.icos-cp.eu/files/PESz6TQWX3tXmguQRHI7dsdF/GAT1.jpg"],
+        "responsibleOrganization": {
+          "name": "Deutscher Wetterdienst, Hohenpeißenberg Meteorological Observatory",
+          "self": {
+            "comments": [],
+            "label": "MOHp",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/MOHp"
+          },
+          "website": "https://www.dwd.de/mohp"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "DE",
+          "documentation": [{
+            "hash": "GNBwisgVte1EER4DIFa7IcJZUFFH3MjChT-B-0N6ZYA",
+            "name": "Gartow_STILT_station_characterization.pdf",
+            "res": "https://meta.icos-cp.eu/objects/GNBwisgVte1EER4DIFa7IcJZ"
+          }],
+          "labelingDate": "2017-11-17",
+          "stationClass": "1",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, UTC",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStamp"
+        }
+      }
+    }, {
+      "label": "Flag",
+      "valueType": {
+        "self": {
+          "comments": ["single-letter quality flag"],
+          "label": "quality flag",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/oneLetterFlag"
+        }
+      }
+    }, {
+      "label": "NbPoints",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["integer number"],
+          "label": "number",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/number"
+        },
+        "self": {
+          "comments": [],
+          "label": "number of points",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/npoints"
+        }
+      }
+    }, {
+      "label": "ch4",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "CH4 mixing ratio (dry mole fraction)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/ch4MixingRatioPpb"
+        },
+        "unit": "nmol mol-1"
+      }
+    }, {
+      "label": "Stdev",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "standard deviation of gas mole fraction",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/moleFractionSdPpb"
+        },
+        "unit": "nmol mol-1"
+      }
+    }],
+    "nRows": 6552,
+    "productionInfo": {
+      "contributors": [],
+      "creator": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "dateTime": "2021-03-01T11:05:38Z",
+      "host": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "sources": []
+    }
+  },
+  "specification": {
+    "dataLevel": 1,
+    "datasetSpec": {
+      "self": {
+        "comments": [],
+        "label": "Atmospheric CH4 mole fraction time series",
+        "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcCh4MoleFracTimeSer"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": ["Semicolon-separated ASCII, with #-prefixed multi-line header"],
+      "label": "ICOS ATC time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcProductTimeSer"
+    },
+    "keywords": ["CH4", "concentration"],
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": ["Automatically-produced, daily-growing (by data object deprecation) data on molar fraction of atmospheric CH4. The data starts from the last respective L2 release."],
+      "label": "ICOS ATC NRT CH4 growing time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcCh4NrtGrowingDataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-03-01T11:05:39.130Z",
+    "stop": "2021-03-01T11:05:41.756Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

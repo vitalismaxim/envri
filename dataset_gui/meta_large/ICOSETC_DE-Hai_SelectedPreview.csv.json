@@ -1,0 +1,393 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/i_xFxPp8RVLo5KsM9idr4wCa",
+  "coverageGeo": {
+    "coordinates": [10.45209, 51.07941, 438.7],
+    "type": "Point"
+  },
+  "fileName": "ICOSETC_DE-Hai_SelectedPreview.csv",
+  "hash": "i_xFxPp8RVLo5KsM9idr4wCa71z0t7vJrg1RlmQXPWI",
+  "parentCollections": [],
+  "pid": "11676/i_xFxPp8RVLo5KsM9idr4wCa",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Alexander",
+      "lastName": "Knohl",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Alexander_Knohl"
+      }
+    }, {
+      "firstName": "Christian",
+      "lastName": "Markwitz",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Christian_Markwitz"
+      }
+    }, {
+      "firstName": "Lukas",
+      "lastName": "Siebicke",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Lukas_Siebicke"
+      }
+    }, {
+      "firstName": "Frank",
+      "lastName": "Tiedemann",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Frank_Tiedemann"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/i_xFxPp8RVLo5KsM9idr4wCa,\r\n  author={Knohl, A., Markwitz, C., Siebicke, L., Tiedemann, F.},\r\n  title={ICOS ETC Fluxdata Preview Selection, Hainich, 2018-12-31–2020-12-31},\r\n  year={2020},\r\n  url={https://hdl.handle.net/11676/i_xFxPp8RVLo5KsM9idr4wCa},\r\n  publisher={Ecosystem Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/i_xFxPp8RVLo5KsM9idr4wCa}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ETC Fluxdata Preview Selection, Hainich, 2018-12-31–2020-12-31\r\nID - 11676/i_xFxPp8RVLo5KsM9idr4wCa\r\nPY - 2020\r\nUR - https://hdl.handle.net/11676/i_xFxPp8RVLo5KsM9idr4wCa\r\nPB - Ecosystem Thematic Centre\r\nAU - Knohl, A.\r\nAU - Markwitz, C.\r\nAU - Siebicke, L.\r\nAU - Tiedemann, F.\r\nER - ",
+    "citationString": "Knohl, A., Markwitz, C., Siebicke, L., Tiedemann, F., ICOS RI, 2020. ICOS ETC Fluxdata Preview Selection, Hainich, 2018-12-31–2020-12-31, https://hdl.handle.net/11676/i_xFxPp8RVLo5KsM9idr4wCa",
+    "temporalCoverageDisplay": "2018-12-31–2020-12-31"
+  },
+  "size": 4073843,
+  "specificInfo": {
+    "acquisition": {
+      "interval": {
+        "start": "2018-12-31T23:00:00Z",
+        "stop": "2020-12-31T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 438.7,
+          "geo": {
+            "coordinates": [10.45209, 51.07941, 438.7],
+            "type": "Point"
+          },
+          "label": "DE-Hai",
+          "lat": 51.07941,
+          "lon": 10.45209
+        },
+        "id": "DE-Hai",
+        "org": {
+          "name": "Hainich",
+          "self": {
+            "comments": ["“Until the end of the 19th century, [the Hainich] was managed as a coppice-with-standards system and was subjected to selective cutting until 1965. From 1965–1997, the area was used as a military training base and a large part of the forest was left untouched, with only single and very valuable trees being cut. The forest has never been clear felled and, as a result, it exhibits characteristics of an unmanaged, old-growth forest with highly diverse horizontal and vertical structure, trees covering a wide range of age classes, up to a maximum of around 265 years, and large amounts of dead wood (both standing dead wood and coarse woody debris). The main tree species in the forest are beech (Fagus sylvatica, ca. 64% of tree biomass), ash (Fraxinus excelsior, ca. 28%), and sycamore (Acer pseudoplatanus, ca. 7%), with some single trees of European hornbean (Carpinus betulus), elm (Ulmus glabra), maple (Acer platanoides) and other deciduous species. The main ground vegetation in the forest includes Allium ursinum, Mercurialis perennis and Anemone nemorosa (Mund, 2004).” from Tamrakar et al. (2018, doi: s://doi.org/10.1016/j.agrformet.2018.08.027) Mund et al. (2004, doi: https://doi.org/10.1093/treephys/tpq027)"],
+            "label": "DE-Hai",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_DE-Hai"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/ygsAwbMRekrS44j/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "climateZone": {
+            "comments": [],
+            "label": "Humid continental, warm summer (Dfb)",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/koppen_Dfb"
+          },
+          "countryCode": "DE",
+          "documentation": [{
+            "hash": "_tFsWRgQcO7FkfvOq0OqIC8HfXhBXtYIxuBvSEUlcqs",
+            "name": "DE-Hai Associated ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/_tFsWRgQcO7FkfvOq0OqIC8H"
+          }],
+          "ecosystemType": {
+            "comments": ["Lands dominated by woody vegetation with a percent cover >60% and height exceeding 2 meters. Consists of broadleaf tree communities with an annual cycle of leaf-on and leaf-off periods."],
+            "label": "Deciduous Broadleaf Forests",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_DBF"
+          },
+          "labelingDate": "2020-05-04",
+          "meanAnnualPrecip": 744.0,
+          "meanAnnualRad": 122.4,
+          "meanAnnualTemp": 8.34,
+          "stationClass": "Associated",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, UTC",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStamp"
+        }
+      }
+    }, {
+      "label": "TIMESTAMP_END",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, local non-DST time",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStampLocalNoDst"
+        }
+      }
+    }, {
+      "label": "TA_F",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["physical temperature"],
+          "label": "temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "air temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/airTempCelsius"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "SW_IN_F",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of energy passing through unit area during unit of time"],
+          "label": "energy flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/energyFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "incoming shortwave radiation",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/incomingSwRadiation"
+        },
+        "unit": "W m-2"
+      }
+    }, {
+      "label": "LE_F_MDS",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of energy passing through unit area during unit of time"],
+          "label": "energy flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/energyFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "latent heat flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/latentHeatFlux"
+        },
+        "unit": "W m-2"
+      }
+    }, {
+      "label": "H_F_MDS",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of energy passing through unit area during unit of time"],
+          "label": "energy flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/energyFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "sensible heat flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/sensibleHeatFlux"
+        },
+        "unit": "W m-2"
+      }
+    }, {
+      "label": "NEE_VUT_REF",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of particles passing through unit area during unit of time"],
+          "label": "particle flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/particleFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "net ecosystem exchange",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/netEcosystemExchange"
+        },
+        "unit": "µmol m-2 s-1"
+      }
+    }, {
+      "label": "VPD_F",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["mechanical pressure, e.g. atmospheric or gas pressure"],
+          "label": "pressure",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/pressure"
+        },
+        "self": {
+          "comments": [],
+          "label": "vapour pressure deficit",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/vapourPressureDeficit"
+        },
+        "unit": "hPa"
+      }
+    }, {
+      "label": "RECO_NT_VUT_REF",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of particles passing through unit area during unit of time"],
+          "label": "particle flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/particleFlux"
+        },
+        "self": {
+          "comments": ["CO2 molecule flux"],
+          "label": "ecosystem respiration",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/ecosystemRespiration"
+        },
+        "unit": "µmol m-2 s-1"
+      }
+    }, {
+      "label": "RECO_DT_VUT_REF",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of particles passing through unit area during unit of time"],
+          "label": "particle flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/particleFlux"
+        },
+        "self": {
+          "comments": ["CO2 molecule flux"],
+          "label": "ecosystem respiration",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/ecosystemRespiration"
+        },
+        "unit": "µmol m-2 s-1"
+      }
+    }, {
+      "label": "GPP_NT_VUT_REF",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of particles passing through unit area during unit of time"],
+          "label": "particle flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/particleFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "gross primary CO2 production",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/grossPrimaryProduction"
+        },
+        "unit": "µmol m-2 s-1"
+      }
+    }, {
+      "label": "GPP_DT_VUT_REF",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of particles passing through unit area during unit of time"],
+          "label": "particle flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/particleFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "gross primary CO2 production",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/grossPrimaryProduction"
+        },
+        "unit": "µmol m-2 s-1"
+      }
+    }, {
+      "label": "VPD_F_QC",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "NEE_VUT_REF_QC",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "H_F_MDS_QC",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "LE_F_MDS_QC",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "SW_IN_F_QC",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "TA_F_QC",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }],
+    "nRows": 35088
+  },
+  "specification": {
+    "dataLevel": 2,
+    "datasetSpec": {
+      "self": {
+        "comments": [],
+        "label": "ETC Fluxnet (preview selection, Drought-2018)",
+        "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcFluxnetDataset"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": ["The first two columns are expected to be the beginning and the end of the averaging period in yyyyMMddHHmm format (no DST)"],
+      "label": "ICOS ETC half-hourly product CSV",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiEtcHalfHourlyProductTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": ["half-hourly processing results of ICOS ecosystem Fluxdata"],
+      "label": "ICOS ETC Fluxdata Preview Selection",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcFluxnetProduct"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-04-30T09:56:06.603Z",
+    "stop": "2021-04-30T09:56:11.468Z",
+    "submitter": {
+      "name": "Ecosystem Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ETC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ETC"
+      }
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "coverageGeo": {
+    "coordinates": [55.3841, -21.0796, 2154.0],
+    "type": "Point"
+  },
+  "fileName": "RUN_249_20210427.zip",
+  "hash": "OXUz0fywy-9larnHsu6unQfLeiCKOPeGT3-oUis07Ks",
+  "parentCollections": [],
+  "pid": "11676/OXUz0fywy-9larnHsu6unQfL",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Martine",
+      "lastName": "De Mazière",
+      "orcid": "0000-0003-4889-5889",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Martine_De%20Mazi%C3%A8re"
+      }
+    }, {
+      "firstName": "Mahesh Kumar",
+      "lastName": "Sha",
+      "orcid": "0000-0003-1440-1529",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Mahesh%20Kumar_Sha"
+      }
+    }, {
+      "firstName": "Michel",
+      "lastName": "Ramonet",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Michel_Ramonet"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/OXUz0fywy-9larnHsu6unQfL,\r\n  author={De Mazière, M., Sha, M., Ramonet, M.},\r\n  title={ICOS ATC Picarro data csv time series, La Réunion, 2021-04-27},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/OXUz0fywy-9larnHsu6unQfL},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/OXUz0fywy-9larnHsu6unQfL}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC Picarro data csv time series, La Réunion, 2021-04-27\r\nID - 11676/OXUz0fywy-9larnHsu6unQfL\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/OXUz0fywy-9larnHsu6unQfL\r\nPB - Atmosphere Thematic Centre\r\nAU - De Mazière, M.\r\nAU - Sha, M.\r\nAU - Ramonet, M.\r\nER - ",
+    "citationString": "De Mazière, M., Sha, M., Ramonet, M., ICOS RI, 2021. ICOS ATC Picarro data csv time series, La Réunion, 2021-04-27, https://hdl.handle.net/11676/OXUz0fywy-9larnHsu6unQfL",
+    "temporalCoverageDisplay": "2021-04-27"
+  },
+  "size": 8848184,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "CO2-CH4-CO-H2O Picarro Analyzer for RUN",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_249"
+      },
+      "interval": {
+        "start": "2021-04-27T00:00:00Z",
+        "stop": "2021-04-27T23:59:59Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 2154.0,
+          "geo": {
+            "coordinates": [55.3841, -21.0796, 2154.0],
+            "type": "Point"
+          },
+          "label": "RUN",
+          "lat": -21.0796,
+          "lon": 55.3841
+        },
+        "id": "RUN",
+        "org": {
+          "name": "La Réunion",
+          "self": {
+            "comments": [],
+            "label": "RUN",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_RUN"
+          }
+        },
+        "pictures": ["https://meta.icos-cp.eu/files/6SgFsiSLTk_rOjZ2EY_Q7NYD/Maido_station.JPG"],
+        "responsibleOrganization": {
+          "name": "Observatoire de Physique de l'Atmosphère de la Réunion",
+          "self": {
+            "comments": [],
+            "label": "OPAR",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/OPAR"
+          },
+          "website": "https://opar.univ-reunion.fr"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "FR",
+          "documentation": [],
+          "labelingDate": "2019-11-28",
+          "stationClass": "2",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 4
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "ICOS ATC Raw time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ATC Picarro data csv time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcPicarroL0DataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-04-28T09:01:15.565Z",
+    "stop": "2021-04-28T09:01:18.620Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

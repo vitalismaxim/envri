@@ -1,0 +1,161 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/JH0-vWTsMd9i3Rd3S6FVU2zi",
+  "coverageGeo": {
+    "coordinates": [7.578055, 45.84444, 2168.0],
+    "type": "Point"
+  },
+  "fileName": "ICOSETC_Archive_IT-Tor.zip",
+  "hash": "JH0-vWTsMd9i3Rd3S6FVU2zigNW_42dTCS3hR7tQtr8",
+  "parentCollections": [{
+    "comments": [],
+    "label": "Ecosystem final quality (L2) product in ETC-Archive format - release 2021-1",
+    "uri": "https://meta.icos-cp.eu/collections/Yljl66tHIJM-XlCmvTvMU3vi"
+  }],
+  "pid": "11676/JH0-vWTsMd9i3Rd3S6FVU2zi",
+  "previousVersion": "https://meta.icos-cp.eu/objects/Ro0clmx7cccHLJ5UVrcZ_-uk",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Edoardo",
+      "lastName": "Cremonese",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Edoardo_Cremonese"
+      }
+    }, {
+      "firstName": "Marta",
+      "lastName": "Galvagno",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Marta_Galvagno"
+      }
+    }, {
+      "firstName": "Umberto",
+      "lastName": "Morra di Cella",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Umberto_Morra%20di%20Cella"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/JH0-vWTsMd9i3Rd3S6FVU2zi,\r\n  author={Cremonese, E., Galvagno, M., Morra di Cella, U.},\r\n  title={ETC L2 ARCHIVE, Torgnon, 2015-12-31–2020-12-31},\r\n  year={2020},\r\n  url={https://hdl.handle.net/11676/JH0-vWTsMd9i3Rd3S6FVU2zi},\r\n  publisher={Ecosystem Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/JH0-vWTsMd9i3Rd3S6FVU2zi}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ETC L2 ARCHIVE, Torgnon, 2015-12-31–2020-12-31\r\nID - 11676/JH0-vWTsMd9i3Rd3S6FVU2zi\r\nPY - 2020\r\nUR - https://hdl.handle.net/11676/JH0-vWTsMd9i3Rd3S6FVU2zi\r\nPB - Ecosystem Thematic Centre\r\nAU - Cremonese, E.\r\nAU - Galvagno, M.\r\nAU - Morra di Cella, U.\r\nER - ",
+    "citationString": "Cremonese, E., Galvagno, M., Morra di Cella, U., ICOS RI, 2020. ETC L2 ARCHIVE, Torgnon, 2015-12-31–2020-12-31, https://hdl.handle.net/11676/JH0-vWTsMd9i3Rd3S6FVU2zi",
+    "temporalCoverageDisplay": "2015-12-31–2020-12-31"
+  },
+  "size": 62985354,
+  "specificInfo": {
+    "acquisition": {
+      "interval": {
+        "start": "2015-12-31T23:00:00Z",
+        "stop": "2020-12-31T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 2168.0,
+          "geo": {
+            "coordinates": [7.578055, 45.84444, 2168.0],
+            "type": "Point"
+          },
+          "label": "IT-Tor",
+          "lat": 45.84444,
+          "lon": 7.578055
+        },
+        "id": "IT-Tor",
+        "org": {
+          "name": "Torgnon",
+          "self": {
+            "comments": ["The station (code IT-Tor) is located in Torgnon, small village in the Valle d'Aosta in the western Alps, on a abandoned grassland in European Alps dominated by Nardus stricta. 2160 m a.s.l."],
+            "label": "IT-Tor",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_IT-Tor"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/DPyrrNCfk3kXd3H/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "climateZone": {
+            "comments": [],
+            "label": "Subacrtic (Dfc)",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/koppen_Dfc"
+          },
+          "countryCode": "IT",
+          "documentation": [{
+            "hash": "nVjfQZMYKGULpp2nrlH-IU0ulqDVUZJbEqO9QEBgDQY",
+            "name": "IT-Tor Associated ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/nVjfQZMYKGULpp2nrlH-IU0u"
+          }],
+          "ecosystemType": {
+            "comments": ["Lands with herbaceous types of cover. Tree and shrub cover is less than 10%. Permanent wetlands lands with a permanent mixture of water and herbaceous or woody vegetation. The vegetation can be present in either salt, brackish, or fresh water."],
+            "label": "Grasslands",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_GRA"
+          },
+          "labelingDate": "2017-10-25",
+          "meanAnnualPrecip": 945.0,
+          "meanAnnualRad": 165.0,
+          "meanAnnualTemp": 3.27,
+          "stationClass": "Associated",
+          "stationDocs": [],
+          "stationPubs": ["https://doi.org/10.1016/j.agrformet.2011.05.012", "https://doi.org/10.1088/1748-9326/8/2/025008", "https://doi.org/10.5194/bg-9-2565-2012"],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    },
+    "nRows": 87696
+  },
+  "specification": {
+    "dataLevel": 2,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Arbitrary ZIP archive",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipArchive"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ETC L2 ARCHIVE",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcArchiveProduct"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-04-30T10:44:28.046Z",
+    "stop": "2021-04-30T10:45:37.785Z",
+    "submitter": {
+      "name": "Ecosystem Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ETC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ETC"
+      }
+    }
+  }
+}

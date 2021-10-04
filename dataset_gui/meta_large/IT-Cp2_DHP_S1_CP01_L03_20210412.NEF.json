@@ -1,0 +1,391 @@
+{
+  "accessUrl": "https://data.fieldsites.se/objects/zcVcqnTZEjYJ6DBbE0TQ6If1",
+  "coverageGeo": {
+    "geometries": [{
+      "coordinates": [14.738164, 57.14975],
+      "type": "Point"
+    }, {
+      "coordinates": [14.738164, 57.14975],
+      "type": "Point"
+    }],
+    "type": "GeometryCollection"
+  },
+  "fileName": "SITES_U01-RGB_ASA_NYB_20180416_PTC_L2.zip",
+  "hash": "zcVcqnTZEjYJ6DBbE0TQ6If1y_IpdCXhtVndQY4xGz0",
+  "parentCollections": [],
+  "pid": "11676.1/zcVcqnTZEjYJ6DBbE0TQ6If1",
+  "references": {
+    "acknowledgements": [],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676.1/zcVcqnTZEjYJ6DBbE0TQ6If1,\r\n  title={Asa Research Station (2021). UAV - RGB point cloud from Nybygget, 2018-04-16},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676.1/zcVcqnTZEjYJ6DBbE0TQ6If1},\r\n  publisher={SITES Spectral},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676.1/zcVcqnTZEjYJ6DBbE0TQ6If1}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - Asa Research Station (2021). UAV - RGB point cloud from Nybygget, 2018-04-16\r\nID - 11676.1/zcVcqnTZEjYJ6DBbE0TQ6If1\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676.1/zcVcqnTZEjYJ6DBbE0TQ6If1\r\nPB - SITES Spectral\r\nER - ",
+    "citationString": "Asa Research Station (2021). UAV - RGB point cloud from Nybygget, 2018-04-16 [Data set]. Swedish Infrastructure for Ecosystem Science (SITES). https://hdl.handle.net/11676.1/zcVcqnTZEjYJ6DBbE0TQ6If1",
+    "temporalCoverageDisplay": "2018-04-16"
+  },
+  "size": 2574847237,
+  "specificInfo": {
+    "acquisition": {
+      "interval": {
+        "start": "2018-04-16T12:18:33Z",
+        "stop": "2018-04-16T12:43:22Z"
+      },
+      "samplingPoint": {
+        "lat": 57.14975,
+        "lon": 14.738164
+      },
+      "site": {
+        "ecosystem": {
+          "comments": [],
+          "label": "Forest - else",
+          "uri": "https://meta.fieldsites.se/resources/ecosystems/forest-else"
+        },
+        "location": {
+          "geometry": {
+            "geo": {
+              "coordinates": [14.738164, 57.14975],
+              "type": "Point"
+            },
+            "label": "Nybygget",
+            "lat": 57.14975,
+            "lon": 14.738164
+          },
+          "label": "Nybygget"
+        },
+        "self": {
+          "comments": [],
+          "label": "Nybygget - Forest",
+          "uri": "https://meta.fieldsites.se/resources/sites/nybbeget-forest"
+        }
+      },
+      "station": {
+        "coverage": {
+          "alt": 182.0,
+          "geo": {
+            "coordinates": [14.7827, 57.1645, 182.0],
+            "type": "Point"
+          },
+          "lat": 57.1645,
+          "lon": 14.7827
+        },
+        "id": "ASA",
+        "org": {
+          "email": "data@fieldsites.se",
+          "name": "Asa Research Station",
+          "self": {
+            "comments": [],
+            "uri": "https://meta.fieldsites.se/resources/stations/Asa"
+          },
+          "website": "https://www.fieldsites.se/en-GB/research-stations/asa-32652326"
+        },
+        "pictures": ["https://data.fieldsites.se/objects/H1hUgyjM_wMxdMah9sKfcVXd"],
+        "responsibleOrganization": {
+          "name": "Swedish University of Agricultural Sciences",
+          "self": {
+            "comments": [],
+            "uri": "https://meta.fieldsites.se/resources/organizations/slu"
+          }
+        },
+        "specificInfo": {
+          "_type": "sites",
+          "climateZone": {
+            "comments": [],
+            "label": "Hemiboreal",
+            "uri": "https://meta.fieldsites.se/resources/climatezones/hemiboreal"
+          },
+          "documentation": [],
+          "ecosystems": [{
+            "comments": [],
+            "label": "Forest",
+            "uri": "https://meta.fieldsites.se/resources/ecosystems/forest"
+          }, {
+            "comments": [],
+            "label": "Lakes and Streams",
+            "uri": "https://meta.fieldsites.se/resources/ecosystems/lakes-and-streams"
+          }, {
+            "comments": [],
+            "label": "Wetland",
+            "uri": "https://meta.fieldsites.se/resources/ecosystems/wetland"
+          }],
+          "meanAnnualTemp": 5.6,
+          "operationalPeriod": "Year-round",
+          "sites": [{
+            "ecosystem": {
+              "comments": [],
+              "label": "Forest - else",
+              "uri": "https://meta.fieldsites.se/resources/ecosystems/forest-else"
+            },
+            "location": {
+              "geometry": {
+                "geo": {
+                  "coordinates": [14.738164, 57.14975],
+                  "type": "Point"
+                },
+                "label": "Nybygget",
+                "lat": 57.14975,
+                "lon": 14.738164
+              },
+              "label": "Nybygget"
+            },
+            "self": {
+              "comments": [],
+              "label": "Nybygget - Forest",
+              "uri": "https://meta.fieldsites.se/resources/sites/nybbeget-forest"
+            }
+          }, {
+            "ecosystem": {
+              "comments": [],
+              "label": "Forest - else",
+              "uri": "https://meta.fieldsites.se/resources/ecosystems/forest-else"
+            },
+            "location": {
+              "geometry": {
+                "geo": {
+                  "coordinates": [14.564447, 57.118259],
+                  "type": "Point"
+                },
+                "label": "Aneboda",
+                "lat": 57.118259,
+                "lon": 14.564447
+              },
+              "label": "Aneboda"
+            },
+            "self": {
+              "comments": [],
+              "label": "Aneboda - Forest",
+              "uri": "https://meta.fieldsites.se/resources/sites/aneboda"
+            }
+          }, {
+            "ecosystem": {
+              "comments": [],
+              "label": "Forest - else",
+              "uri": "https://meta.fieldsites.se/resources/ecosystems/forest-else"
+            },
+            "location": {
+              "geometry": {
+                "geo": {
+                  "coordinates": [[[14.7835, 57.1653], [14.7819, 57.1654], [14.7806, 57.1644], [14.7808, 57.1636], [14.7832, 57.1635], [14.7846, 57.1635], [14.7848, 57.1652], [14.7835, 57.1653]]],
+                  "type": "Polygon"
+                },
+                "label": "Asa Research Station",
+                "vertices": [{
+                  "lat": 57.1653,
+                  "lon": 14.7835
+                }, {
+                  "lat": 57.1654,
+                  "lon": 14.7819
+                }, {
+                  "lat": 57.1644,
+                  "lon": 14.7806
+                }, {
+                  "lat": 57.1636,
+                  "lon": 14.7808
+                }, {
+                  "lat": 57.1635,
+                  "lon": 14.7832
+                }, {
+                  "lat": 57.1635,
+                  "lon": 14.7846
+                }, {
+                  "lat": 57.1652,
+                  "lon": 14.7848
+                }]
+              },
+              "label": "Asa Research Station"
+            },
+            "self": {
+              "comments": [],
+              "label": "Asa - Forest",
+              "uri": "https://meta.fieldsites.se/resources/sites/asa"
+            }
+          }, {
+            "ecosystem": {
+              "comments": [],
+              "label": "Mesocosm platform",
+              "uri": "https://meta.fieldsites.se/resources/ecosystems/mesocosm"
+            },
+            "location": {
+              "geometry": {
+                "geo": {
+                  "coordinates": [14.80531, 57.18035],
+                  "type": "Point"
+                },
+                "label": "Feresjön AquaNet platform",
+                "lat": 57.18035,
+                "lon": 14.80531
+              },
+              "label": "Feresjön AquaNet platform"
+            },
+            "self": {
+              "comments": [],
+              "label": "Asa - Aquanet",
+              "uri": "https://meta.fieldsites.se/resources/sites/asa-aquanet"
+            }
+          }, {
+            "ecosystem": {
+              "comments": [],
+              "label": "Lake",
+              "uri": "https://meta.fieldsites.se/resources/ecosystems/lake"
+            },
+            "location": {
+              "geometry": {
+                "geo": {
+                  "coordinates": [[[14.8105, 57.1666], [14.8171, 57.1565], [14.8252, 57.1565], [14.8343, 57.1619], [14.8426, 57.1695], [14.8469, 57.1653], [14.8477, 57.1618], [14.8585, 57.1619], [14.8686, 57.1614], [14.8865, 57.1552], [14.9113, 57.1529], [14.9113, 57.1558], [14.9165, 57.1549], [14.9162, 57.1506], [14.921, 57.1509], [14.9249, 57.1528], [14.9192, 57.1578], [14.9209, 57.1601], [14.9299, 57.1679], [14.9124, 57.1779], [14.8963, 57.1845], [14.8769, 57.178], [14.8484, 57.1866], [14.855, 57.1897], [14.8596, 57.1992], [14.8251, 57.2008], [14.8236, 57.1891], [14.8116, 57.1886], [14.8096, 57.1942], [14.8041, 57.195], [14.7993, 57.1832], [14.8039, 57.171], [14.8105, 57.1666]]],
+                  "type": "Polygon"
+                },
+                "label": "Feresjön",
+                "vertices": [{
+                  "lat": 57.1666,
+                  "lon": 14.8105
+                }, {
+                  "lat": 57.1565,
+                  "lon": 14.8171
+                }, {
+                  "lat": 57.1565,
+                  "lon": 14.8252
+                }, {
+                  "lat": 57.1619,
+                  "lon": 14.8343
+                }, {
+                  "lat": 57.1695,
+                  "lon": 14.8426
+                }, {
+                  "lat": 57.1653,
+                  "lon": 14.8469
+                }, {
+                  "lat": 57.1618,
+                  "lon": 14.8477
+                }, {
+                  "lat": 57.1619,
+                  "lon": 14.8585
+                }, {
+                  "lat": 57.1614,
+                  "lon": 14.8686
+                }, {
+                  "lat": 57.1552,
+                  "lon": 14.8865
+                }, {
+                  "lat": 57.1529,
+                  "lon": 14.9113
+                }, {
+                  "lat": 57.1558,
+                  "lon": 14.9113
+                }, {
+                  "lat": 57.1549,
+                  "lon": 14.9165
+                }, {
+                  "lat": 57.1506,
+                  "lon": 14.9162
+                }, {
+                  "lat": 57.1509,
+                  "lon": 14.921
+                }, {
+                  "lat": 57.1528,
+                  "lon": 14.9249
+                }, {
+                  "lat": 57.1578,
+                  "lon": 14.9192
+                }, {
+                  "lat": 57.1601,
+                  "lon": 14.9209
+                }, {
+                  "lat": 57.1679,
+                  "lon": 14.9299
+                }, {
+                  "lat": 57.1779,
+                  "lon": 14.9124
+                }, {
+                  "lat": 57.1845,
+                  "lon": 14.8963
+                }, {
+                  "lat": 57.178,
+                  "lon": 14.8769
+                }, {
+                  "lat": 57.1866,
+                  "lon": 14.8484
+                }, {
+                  "lat": 57.1897,
+                  "lon": 14.855
+                }, {
+                  "lat": 57.1992,
+                  "lon": 14.8596
+                }, {
+                  "lat": 57.2008,
+                  "lon": 14.8251
+                }, {
+                  "lat": 57.1891,
+                  "lon": 14.8236
+                }, {
+                  "lat": 57.1886,
+                  "lon": 14.8116
+                }, {
+                  "lat": 57.1942,
+                  "lon": 14.8096
+                }, {
+                  "lat": 57.195,
+                  "lon": 14.8041
+                }, {
+                  "lat": 57.1832,
+                  "lon": 14.7993
+                }, {
+                  "lat": 57.171,
+                  "lon": 14.8039
+                }]
+              },
+              "label": "Feresjön"
+            },
+            "self": {
+              "comments": [],
+              "label": "Feresjön - Lake",
+              "uri": "https://meta.fieldsites.se/resources/sites/feresjon-lake"
+            }
+          }]
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 2,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "SITES Spectral point cloud",
+      "uri": "https://meta.fieldsites.se/ontologies/sites/spectralPointCloud"
+    },
+    "keywords": ["Calibration/Validation", "Reflectance", "Ecosystem functions", "Plant Phenology", "Digital Elevation / Digital Surface Models"],
+    "project": {
+      "self": {
+        "comments": [],
+        "label": "SITES Spectral",
+        "uri": "https://meta.fieldsites.se/resources/projects/spectral"
+      }
+    },
+    "self": {
+      "comments": ["Point cloud generated from photos taken from an UAV platform using photo-stereography techniques. Nominal pixel size is 5 cm. The points contain a value for color, from RGB photos."],
+      "label": "UAV - RGB point cloud",
+      "uri": "https://meta.fieldsites.se/resources/objspecs/uav-rgb-point-cloud"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "self": {
+        "comments": [],
+        "label": "Terrestrial",
+        "uri": "https://meta.fieldsites.se/resources/themes/terrestrial"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-04-12T15:32:59.269Z",
+    "stop": "2021-04-12T15:40:33.938Z",
+    "submitter": {
+      "name": "SITES Spectral",
+      "self": {
+        "comments": [],
+        "uri": "https://meta.fieldsites.se/resources/organizations/sitesSpectral"
+      }
+    }
+  }
+}

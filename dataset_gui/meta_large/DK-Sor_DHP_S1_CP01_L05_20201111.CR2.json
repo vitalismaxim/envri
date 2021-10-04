@@ -1,0 +1,152 @@
+{
+  "coverageGeo": {
+    "coordinates": [11.64464, 55.48587, 40.0],
+    "type": "Point"
+  },
+  "fileName": "DK-Sor_DHP_S1_CP01_L08_20201111.CR2",
+  "hash": "AK7Z_p_2AkhbOTj-fcFdoRImXABQ1IlNmHBaldUt4to",
+  "parentCollections": [],
+  "pid": "11676/AK7Z_p_2AkhbOTj-fcFdoRIm",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Andreas",
+      "lastName": "Ibrom",
+      "orcid": "0000-0002-1341-921X",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Andreas_Ibrom"
+      }
+    }, {
+      "firstName": "Flemming",
+      "lastName": "Møller",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Flemming_M%C3%B8ller"
+      }
+    }, {
+      "firstName": "Kim",
+      "lastName": "Pilegaard",
+      "orcid": "0000-0002-5169-5717",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Kim_Pilegaard"
+      }
+    }, {
+      "firstName": "Erik",
+      "lastName": "Rønn Lange",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Erik%20R%C3%B8nn_Lange"
+      }
+    }, {
+      "firstName": "Jens",
+      "lastName": "Schaarup Sørensen",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jens%20Shaarup_S%C3%B8rensen"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/AK7Z_p_2AkhbOTj-fcFdoRIm,\r\n  author={Ibrom, A., Møller, F., Pilegaard, K., Rønn Lange, E., Schaarup Sørensen, J.},\r\n  title={Digital Hemispherical Pictures, Soroe, 2020-11-11},\r\n  year={2020},\r\n  url={https://hdl.handle.net/11676/AK7Z_p_2AkhbOTj-fcFdoRIm},\r\n  publisher={Ecosystem Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/AK7Z_p_2AkhbOTj-fcFdoRIm}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - Digital Hemispherical Pictures, Soroe, 2020-11-11\r\nID - 11676/AK7Z_p_2AkhbOTj-fcFdoRIm\r\nPY - 2020\r\nUR - https://hdl.handle.net/11676/AK7Z_p_2AkhbOTj-fcFdoRIm\r\nPB - Ecosystem Thematic Centre\r\nAU - Ibrom, A.\r\nAU - Møller, F.\r\nAU - Pilegaard, K.\r\nAU - Rønn Lange, E.\r\nAU - Schaarup Sørensen, J.\r\nER - ",
+    "citationString": "Ibrom, A., Møller, F., Pilegaard, K., Rønn Lange, E., Schaarup Sørensen, J., ICOS RI, 2020. Digital Hemispherical Pictures, Soroe, 2020-11-11, https://hdl.handle.net/11676/AK7Z_p_2AkhbOTj-fcFdoRIm",
+    "temporalCoverageDisplay": "2020-11-11"
+  },
+  "size": 24938815,
+  "specificInfo": {
+    "acquisition": {
+      "interval": {
+        "start": "2020-11-11T00:00:00Z",
+        "stop": "2020-11-11T23:59:59.999Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 40.0,
+          "geo": {
+            "coordinates": [11.64464, 55.48587, 40.0],
+            "type": "Point"
+          },
+          "label": "DK-Sor",
+          "lat": 55.48587,
+          "lon": 11.64464
+        },
+        "id": "DK-Sor",
+        "org": {
+          "name": "Soroe",
+          "self": {
+            "comments": ["The Sorø site (ICOS code DK-Sor) was established in 1996 and it located in the forest “Lille Bøgeskov” on the island of Zealand. The forest is privately owned by the foundation Sorø Akademi. The climate is temperate maritime, it is dominated by westerly winds and frequent passes of frontal systems. The forest is dominated by European beech (Fagus sylvatica L.) and the tree immediately around the station were planted in 1921. The main part of the surrounding forest consists of beech tree of varying age with small scattered stands of Norway spruce (Picea abies (L.) Karst.) as well as single trees of other conifers such as European larch (Larix decidua Mill.). The soils are brown soil classified as either Alfisols or Mollisols, with a 10-40 cm deep organic layer."],
+            "label": "DK-Sor",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_DK-Sor"
+          }
+        },
+        "pictures": [],
+        "specificInfo": {
+          "_type": "etc",
+          "countryCode": "DK",
+          "documentation": [],
+          "stationClass": "1",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Image of an unspecified format",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/image"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "Digital Hemispherical Pictures",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/digHemispherPics"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-03-25T22:00:52.860Z",
+    "stop": "2021-03-25T22:00:57.011Z",
+    "submitter": {
+      "name": "Ecosystem Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ETC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ETC"
+      }
+    }
+  }
+}

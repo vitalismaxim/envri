@@ -1,0 +1,157 @@
+{
+  "coverageGeo": {
+    "coordinates": [9.160709, 56.03748, 67.7],
+    "type": "Point"
+  },
+  "fileName": "DK-Vng_EC_20210324_L04_F01.zip",
+  "hash": "3kmnb7iGNgn_Xio6XWAGnAtOZ0MfgiaOxoh5Jtu8o68",
+  "parentCollections": [],
+  "pid": "11676/3kmnb7iGNgn_Xio6XWAGnAtO",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Thomas",
+      "lastName": "Friborg",
+      "orcid": "0000-0001-5633-6097",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Thomas_Friborg"
+      }
+    }, {
+      "firstName": "Rasmus",
+      "lastName": "Jensen",
+      "orcid": "0000-0001-8478-644X",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Rasmus_Jensen"
+      }
+    }, {
+      "firstName": "Lars",
+      "lastName": "Rasmussen",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Lars_Rasmussen"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/3kmnb7iGNgn_Xio6XWAGnAtO,\r\n  author={Friborg, T., Jensen, R., Rasmussen, L.},\r\n  title={ICOS ETC Eddy Flux Raw ASCII daily archive, Voulundgaard, 2021-03-24},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/3kmnb7iGNgn_Xio6XWAGnAtO},\r\n  publisher={Voulundgaard},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/3kmnb7iGNgn_Xio6XWAGnAtO}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ETC Eddy Flux Raw ASCII daily archive, Voulundgaard, 2021-03-24\r\nID - 11676/3kmnb7iGNgn_Xio6XWAGnAtO\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/3kmnb7iGNgn_Xio6XWAGnAtO\r\nPB - Voulundgaard\r\nAU - Friborg, T.\r\nAU - Jensen, R.\r\nAU - Rasmussen, L.\r\nER - ",
+    "citationString": "Friborg, T., Jensen, R., Rasmussen, L., ICOS RI, 2021. ICOS ETC Eddy Flux Raw ASCII daily archive, Voulundgaard, 2021-03-24, https://hdl.handle.net/11676/3kmnb7iGNgn_Xio6XWAGnAtO",
+    "temporalCoverageDisplay": "2021-03-24"
+  },
+  "size": 123844455,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "DL-LI-COR SFlux2",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ETC_69_4"
+      },
+      "interval": {
+        "start": "2021-03-23T23:00:00Z",
+        "stop": "2021-03-24T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 67.7,
+          "geo": {
+            "coordinates": [9.160709, 56.03748, 67.7],
+            "type": "Point"
+          },
+          "label": "DK-Vng",
+          "lat": 56.03748,
+          "lon": 9.160709
+        },
+        "id": "DK-Vng",
+        "org": {
+          "name": "Voulundgaard",
+          "self": {
+            "comments": ["The site Voulundgaard (ICOS code DK-Vng) is a cropland located in Eastern part of Skjern River catchment in central Jutland, west of the margin for the ice extent of the last glacial maximum, characterized by flat terrain on sandy soil. The station has been running as part of the Hobe Hydrological Observatory and as typical for agricultural fields in this part of the country hedgerows running North-South are located between the fields to prevent Aeolian erosion."],
+            "label": "DK-Vng",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_DK-Vng"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/rqfeS228zxxTfeB/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "climateZone": {
+            "comments": [],
+            "label": "Oceanic subtropical highland (Cfb)",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/koppen_Cfb"
+          },
+          "countryCode": "DK",
+          "documentation": [],
+          "ecosystemType": {
+            "comments": ["Lands covered with temporary crops followed by harvest and a bare soil period (e.g., single and multiple cropping systems). Note that perennial woody crops will be classified as the appropriate forest or shrub land cover type."],
+            "label": "Croplands",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_CRO"
+          },
+          "labelingDate": "2020-10-26",
+          "meanAnnualPrecip": 961.0,
+          "meanAnnualRad": 108.0,
+          "meanAnnualTemp": 8.1,
+          "stationClass": "1",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Multi-file zip archive with ETC raw time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/etcRawTimeSerMultiZip"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ETC Eddy Flux Raw ASCII daily archive",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcEddyFluxRawSeriesCsv"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-03-24T23:17:09.896Z",
+    "stop": "2021-03-24T23:17:20.391Z",
+    "submitter": {
+      "name": "Voulundgaard",
+      "self": {
+        "comments": ["The site Voulundgaard (ICOS code DK-Vng) is a cropland located in Eastern part of Skjern River catchment in central Jutland, west of the margin for the ice extent of the last glacial maximum, characterized by flat terrain on sandy soil. The station has been running as part of the Hobe Hydrological Observatory and as typical for agricultural fields in this part of the country hedgerows running North-South are located between the fields to prevent Aeolian erosion."],
+        "label": "DK-Vng",
+        "uri": "http://meta.icos-cp.eu/resources/stations/ES_DK-Vng"
+      }
+    }
+  }
+}

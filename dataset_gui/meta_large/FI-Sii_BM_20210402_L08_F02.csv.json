@@ -1,0 +1,195 @@
+{
+  "coverageGeo": {
+    "coordinates": [24.19285, 61.83265, 160.0],
+    "type": "Point"
+  },
+  "fileName": "FI-Sii_BM_20210402_L08_F02.csv",
+  "hash": "A89E4a2RN5cKMVBi4w0zwLi2Pe2BGQQywA92N1eYSFk",
+  "parentCollections": [],
+  "pid": "11676/A89E4a2RN5cKMVBi4w0zwLi2",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Eeva-Stiina",
+      "lastName": "Tuittila",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Eeva-Stiina_Tuittila"
+      }
+    }, {
+      "firstName": "Pasi",
+      "lastName": "Kolari",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Pasi_Kolari"
+      }
+    }, {
+      "firstName": "Aino",
+      "lastName": "Korrensalo",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Aino_Korrensalo"
+      }
+    }, {
+      "firstName": "Heikki",
+      "lastName": "Laakso",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Heikki_Laakso"
+      }
+    }, {
+      "firstName": "Ivan",
+      "lastName": "Mammarella",
+      "orcid": "0000-0002-8516-3356",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Ivan_Mammarella"
+      }
+    }, {
+      "firstName": "Teemu",
+      "lastName": "Matilainen",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Teemu_Matilainen"
+      }
+    }, {
+      "firstName": "Risto",
+      "lastName": "Taipale",
+      "orcid": "0000-0002-4225-256X",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Risto_Taipale_2"
+      }
+    }, {
+      "firstName": "Timo",
+      "lastName": "Vesala",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Timo_Vesala"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/A89E4a2RN5cKMVBi4w0zwLi2,\r\n  author={Tuittila, E., Kolari, P., Korrensalo, A., Laakso, H., Mammarella, I., Matilainen, T., Taipale, R., Vesala, T.},\r\n  title={ICOS ETC Bio Meteo Raw ASCII, Siikaneva, 2021-04-02},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/A89E4a2RN5cKMVBi4w0zwLi2},\r\n  publisher={Siikaneva},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/A89E4a2RN5cKMVBi4w0zwLi2}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ETC Bio Meteo Raw ASCII, Siikaneva, 2021-04-02\r\nID - 11676/A89E4a2RN5cKMVBi4w0zwLi2\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/A89E4a2RN5cKMVBi4w0zwLi2\r\nPB - Siikaneva\r\nAU - Tuittila, E.\r\nAU - Kolari, P.\r\nAU - Korrensalo, A.\r\nAU - Laakso, H.\r\nAU - Mammarella, I.\r\nAU - Matilainen, T.\r\nAU - Taipale, R.\r\nAU - Vesala, T.\r\nER - ",
+    "citationString": "Tuittila, E., Kolari, P., Korrensalo, A., Laakso, H., Mammarella, I., Matilainen, T., Taipale, R., Vesala, T., ICOS RI, 2021. ICOS ETC Bio Meteo Raw ASCII, Siikaneva, 2021-04-02, https://hdl.handle.net/11676/A89E4a2RN5cKMVBi4w0zwLi2",
+    "temporalCoverageDisplay": "2021-04-02"
+  },
+  "size": 84139,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "DL-PC",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ETC_39_8"
+      },
+      "interval": {
+        "start": "2021-04-01T22:00:00Z",
+        "stop": "2021-04-02T22:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 160.0,
+          "geo": {
+            "coordinates": [24.19285, 61.83265, 160.0],
+            "type": "Point"
+          },
+          "label": "FI-Sii",
+          "lat": 61.83265,
+          "lon": 24.19285
+        },
+        "id": "FI-Sii",
+        "org": {
+          "name": "Siikaneva",
+          "self": {
+            "comments": ["FI-Sii, called Siikaneva, is located in Southern Finland and it is a fen belonging to an oligotrophic peatland massif of 1300 ha with few isolated ombrotrophic bogs. Vegetation is characterized by sedges (e.g. Carex limosa, C. rostrata, etc) and continuous Sphagnum moss cover (e.g. Sphagnum papillosum). In addition, dwarf shrubs of Andromeda polifolia and Betula nana are common. Vegetation can be divided into five community types (from drier to wetter): hummock, Eriophorum vaginatum lawn, C. rostrata lawn, C. lasiocarpa lawn, and hollow."],
+            "label": "FI-Sii",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_FI-Sii"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/SPYyCeNKxQWoB8Q/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "climateZone": {
+            "comments": [],
+            "label": "Subacrtic (Dfc)",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/koppen_Dfc"
+          },
+          "countryCode": "FI",
+          "documentation": [{
+            "hash": "KwWwOssYEgPCpIw6Zb4554Q5lznykIbTQM3yIofFhrg",
+            "name": "FI-Sii ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/KwWwOssYEgPCpIw6Zb4554Q5"
+          }],
+          "ecosystemType": {
+            "comments": ["Lands with a permanent mixture of water and herbaceous or woody vegetation that cover extensive areas. The vegetation can be present in either salt, brackish, or fresh water."],
+            "label": "Permanent Wetlands",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_WET"
+          },
+          "labelingDate": "2017-10-25",
+          "meanAnnualPrecip": 711.0,
+          "meanAnnualTemp": 3.5,
+          "stationClass": "2",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 2
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Raw ASCII ETC station data",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiEtcRawTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ETC Bio Meteo Raw ASCII",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcBioMeteoRawSeriesCsv"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-04-03T03:25:10.784Z",
+    "stop": "2021-04-03T03:25:13.591Z",
+    "submitter": {
+      "name": "Siikaneva",
+      "self": {
+        "comments": ["FI-Sii, called Siikaneva, is located in Southern Finland and it is a fen belonging to an oligotrophic peatland massif of 1300 ha with few isolated ombrotrophic bogs. Vegetation is characterized by sedges (e.g. Carex limosa, C. rostrata, etc) and continuous Sphagnum moss cover (e.g. Sphagnum papillosum). In addition, dwarf shrubs of Andromeda polifolia and Betula nana are common. Vegetation can be divided into five community types (from drier to wetter): hummock, Eriophorum vaginatum lawn, C. rostrata lawn, C. lasiocarpa lawn, and hollow."],
+        "label": "FI-Sii",
+        "uri": "http://meta.icos-cp.eu/resources/stations/ES_FI-Sii"
+      }
+    }
+  }
+}

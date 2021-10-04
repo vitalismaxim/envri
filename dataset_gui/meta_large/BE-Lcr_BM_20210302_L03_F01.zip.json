@@ -1,0 +1,181 @@
+{
+  "coverageGeo": {
+    "coordinates": [4.51984, 51.30761, 16.0],
+    "type": "Point"
+  },
+  "fileName": "BE-Bra_BM_20210302_L03_F02.zip",
+  "hash": "OTUUYVMIjECv8LoK7XBjTURRXbIXjGUsXaNLlZCSOcM",
+  "parentCollections": [],
+  "pid": "11676/OTUUYVMIjECv8LoK7XBjTURR",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Ivan",
+      "lastName": "Janssens",
+      "orcid": "0000-0002-5705-1787",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Ivan_Janssens"
+      }
+    }, {
+      "firstName": "Tim",
+      "lastName": "De Meulder",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Tim_De%20Meulder"
+      }
+    }, {
+      "firstName": "Lodewijk",
+      "lastName": "Lefevre",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Lodewijk_Lefevre"
+      }
+    }, {
+      "firstName": "Marilyn",
+      "lastName": "Roland",
+      "orcid": "0000-0002-5770-3896",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Marilyn_Roland"
+      }
+    }, {
+      "firstName": "Jan",
+      "lastName": "Segers",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jan_Segers"
+      }
+    }, {
+      "firstName": "Jasper",
+      "lastName": "Van Look",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jasper_Van%20Look"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/OTUUYVMIjECv8LoK7XBjTURR,\r\n  author={Janssens, I., De Meulder, T., Lefevre, L., Roland, M., Segers, J., Van Look, J.},\r\n  title={ICOS ETC Bio Meteo Raw ASCII, Brasschaat, 2021-03-02},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/OTUUYVMIjECv8LoK7XBjTURR},\r\n  publisher={Brasschaat},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/OTUUYVMIjECv8LoK7XBjTURR}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ETC Bio Meteo Raw ASCII, Brasschaat, 2021-03-02\r\nID - 11676/OTUUYVMIjECv8LoK7XBjTURR\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/OTUUYVMIjECv8LoK7XBjTURR\r\nPB - Brasschaat\r\nAU - Janssens, I.\r\nAU - De Meulder, T.\r\nAU - Lefevre, L.\r\nAU - Roland, M.\r\nAU - Segers, J.\r\nAU - Van Look, J.\r\nER - ",
+    "citationString": "Janssens, I., De Meulder, T., Lefevre, L., Roland, M., Segers, J., Van Look, J., ICOS RI, 2021. ICOS ETC Bio Meteo Raw ASCII, Brasschaat, 2021-03-02, https://hdl.handle.net/11676/OTUUYVMIjECv8LoK7XBjTURR",
+    "temporalCoverageDisplay": "2021-03-02"
+  },
+  "size": 50849,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "DL-Campbell CR1000",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ETC_20_3"
+      },
+      "interval": {
+        "start": "2021-03-01T23:00:00Z",
+        "stop": "2021-03-02T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 16.0,
+          "geo": {
+            "coordinates": [4.51984, 51.30761, 16.0],
+            "type": "Point"
+          },
+          "label": "BE-Bra",
+          "lat": 51.30761,
+          "lon": 4.51984
+        },
+        "id": "BE-Bra",
+        "org": {
+          "name": "Brasschaat",
+          "self": {
+            "comments": ["The station Brasschaat (ICOS code BE-Bra) is an experimental forest located 20 Km northeast of Antwerp in the Belgian Campine region. The region has a temperate maritime climate. The study site consists of a 2 ha, even-aged Scots pine stand (Pinus sylvestris L.) situated within a 150 ha mixed coniferous/deciduous forest dominated by Scots pine. The forest surrounding the site consists of several broadleaf species, some native, such as Betula pendula Roth., Sorbus aucuparia L., Quercus robur L. and some – for this region – alien species such as Quercus rubra L. and Castanea sativa Mill. The soil has been classified as Albic Hypoluvic Arenosol, it is covered with an organic surface layer of 6 cm depth."],
+            "label": "BE-Bra",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_BE-Bra"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/E7pmTzGrScBmC5k/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "countryCode": "BE",
+          "documentation": [{
+            "hash": "T912nGHHcY7sUDyuKHs1p_5719YMn5JMqChWvfiOebk",
+            "name": "BE-Bra ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/T912nGHHcY7sUDyuKHs1p_57"
+          }, {
+            "hash": "oMOdHvj907CLRKdmFZcjI9CgqPRj4Y_lkVBclte6s28",
+            "name": "BE-Bra.kmz",
+            "res": "https://meta.icos-cp.eu/objects/oMOdHvj907CLRKdmFZcjI9Cg"
+          }],
+          "ecosystemType": {
+            "comments": ["Lands dominated by woody vegetation with a percent cover >60% and height exceeding 2 meters. Almost all trees remain green all year. Canopy is never without green foliage."],
+            "label": "Evergreen Needleleaf Forests",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_ENF"
+          },
+          "labelingDate": "2020-10-26",
+          "meanAnnualPrecip": 920.7,
+          "meanAnnualRad": 112.5,
+          "meanAnnualTemp": 10.5,
+          "stationClass": "1",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Raw ASCII ETC station data",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiEtcRawTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ETC Bio Meteo Raw ASCII",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcBioMeteoRawSeriesCsv"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-03-02T23:45:04.881Z",
+    "stop": "2021-03-02T23:45:05.104Z",
+    "submitter": {
+      "name": "Brasschaat",
+      "self": {
+        "comments": ["The station Brasschaat (ICOS code BE-Bra) is an experimental forest located 20 Km northeast of Antwerp in the Belgian Campine region. The region has a temperate maritime climate. The study site consists of a 2 ha, even-aged Scots pine stand (Pinus sylvestris L.) situated within a 150 ha mixed coniferous/deciduous forest dominated by Scots pine. The forest surrounding the site consists of several broadleaf species, some native, such as Betula pendula Roth., Sorbus aucuparia L., Quercus robur L. and some – for this region – alien species such as Quercus rubra L. and Castanea sativa Mill. The soil has been classified as Albic Hypoluvic Arenosol, it is covered with an organic surface layer of 6 cm depth."],
+        "label": "BE-Bra",
+        "uri": "http://meta.icos-cp.eu/resources/stations/ES_BE-Bra"
+      }
+    }
+  }
+}

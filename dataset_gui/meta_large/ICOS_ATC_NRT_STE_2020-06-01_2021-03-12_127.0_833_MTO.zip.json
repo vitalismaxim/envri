@@ -1,0 +1,232 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/22mJAbU9zyvtskcHREvrm21s",
+  "coverageGeo": {
+    "coordinates": [7.8833, 54.1804, 43.0],
+    "type": "Point"
+  },
+  "fileName": "ICOS_ATC_NRT_HEL_2020-11-17_2021-03-12_110.0_532-489_CO.zip",
+  "hash": "22mJAbU9zyvtskcHREvrm21sTAmy_OHOhaTgtEephGk",
+  "nextVersion": "https://meta.icos-cp.eu/objects/UlGeZfkvMYPWeeTIsclMAMXi",
+  "parentCollections": [],
+  "pid": "11676/22mJAbU9zyvtskcHREvrm21s",
+  "previousVersion": "https://meta.icos-cp.eu/objects/an0-0cGwztn-rCK6pxniYT62",
+  "references": {
+    "acknowledgements": [],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/22mJAbU9zyvtskcHREvrm21s,\r\n  title={ICOS ATC NRT CO growing time series, Helgoland (110.0 m), 2020-11-17–2021-03-12},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/22mJAbU9zyvtskcHREvrm21s},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/22mJAbU9zyvtskcHREvrm21s}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC NRT CO growing time series, Helgoland (110.0 m), 2020-11-17–2021-03-12\r\nID - 11676/22mJAbU9zyvtskcHREvrm21s\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/22mJAbU9zyvtskcHREvrm21s\r\nPB - Atmosphere Thematic Centre\r\nER - ",
+    "citationString": "ICOS RI, 2021. ICOS ATC NRT CO growing time series, Helgoland (110.0 m), 2020-11-17–2021-03-12, https://hdl.handle.net/11676/22mJAbU9zyvtskcHREvrm21s",
+    "temporalCoverageDisplay": "2020-11-17–2021-03-12"
+  },
+  "size": 45032,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": [{
+        "comments": [],
+        "label": "CO2-CH4-CO-H2O Picarro Analyzer",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_489"
+      }, {
+        "comments": [],
+        "label": "German N2O-CO LGR Analyzer",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_532"
+      }],
+      "interval": {
+        "start": "2020-11-17T00:00:00Z",
+        "stop": "2021-03-12T23:00:00Z"
+      },
+      "samplingHeight": 110.0,
+      "station": {
+        "coverage": {
+          "alt": 43.0,
+          "geo": {
+            "coordinates": [7.8833, 54.1804, 43.0],
+            "type": "Point"
+          },
+          "label": "HEL",
+          "lat": 54.1804,
+          "lon": 7.8833
+        },
+        "id": "HEL",
+        "org": {
+          "name": "Helgoland",
+          "self": {
+            "comments": [],
+            "label": "HEL",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_HEL"
+          }
+        },
+        "pictures": [],
+        "responsibleOrganization": {
+          "name": "Deutscher Wetterdienst, Hohenpeißenberg Meteorological Observatory",
+          "self": {
+            "comments": [],
+            "label": "MOHp",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/MOHp"
+          },
+          "website": "https://www.dwd.de/mohp"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "DE",
+          "documentation": [{
+            "hash": "3U90h79P_7J_AwKPJpHC2oUjBanJu1Xb0j6xSRiDJ4o",
+            "name": "Helgoland_STILT_station_characterization.pdf",
+            "res": "https://meta.icos-cp.eu/objects/3U90h79P_7J_AwKPJpHC2oUj"
+          }],
+          "labelingDate": "2020-11-17",
+          "stationClass": "2",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, UTC",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStamp"
+        }
+      }
+    }, {
+      "label": "Flag",
+      "valueType": {
+        "self": {
+          "comments": ["single-letter quality flag"],
+          "label": "quality flag",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/oneLetterFlag"
+        }
+      }
+    }, {
+      "label": "NbPoints",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["integer number"],
+          "label": "number",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/number"
+        },
+        "self": {
+          "comments": [],
+          "label": "number of points",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/npoints"
+        }
+      }
+    }, {
+      "label": "Stdev",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "standard deviation of gas mole fraction",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/moleFractionSdPpb"
+        },
+        "unit": "nmol mol-1"
+      }
+    }, {
+      "label": "co",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "CO mixing ratio (dry mole fraction)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/coMixingRatioPpb"
+        },
+        "unit": "nmol mol-1"
+      }
+    }],
+    "nRows": 2784,
+    "productionInfo": {
+      "contributors": [],
+      "creator": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "dateTime": "2021-03-13T11:05:59Z",
+      "host": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "sources": []
+    }
+  },
+  "specification": {
+    "dataLevel": 1,
+    "datasetSpec": {
+      "self": {
+        "comments": [],
+        "label": "Atmospheric CO mole fraction time series",
+        "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcCoMoleFracTimeSer"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": ["Semicolon-separated ASCII, with #-prefixed multi-line header"],
+      "label": "ICOS ATC time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcProductTimeSer"
+    },
+    "keywords": ["CO", "concentration"],
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ATC NRT CO growing time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcCoNrtGrowingDataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-03-13T11:05:59.483Z",
+    "stop": "2021-03-13T11:06:02.369Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

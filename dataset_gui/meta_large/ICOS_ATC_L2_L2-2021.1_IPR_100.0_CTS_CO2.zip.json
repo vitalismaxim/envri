@@ -1,0 +1,246 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/36LdPE4ASUAJKyNS1G3ki6GH",
+  "coverageGeo": {
+    "coordinates": [8.636, 45.8147, 210.0],
+    "type": "Point"
+  },
+  "fileName": "ICOS_ATC_L2_L2-2021.1_IPR_100.0_CTS_CH4.zip",
+  "hash": "36LdPE4ASUAJKyNS1G3ki6GHTZy3i6Eo9aCYsbb9fj4",
+  "parentCollections": [{
+    "comments": [],
+    "label": "ICOS Atmosphere Release 2021-1 of Level 2 Greenhouse Gas Mole Fractions of CO2, CH4, N2O, CO, meteorology and 14CO2",
+    "uri": "https://meta.icos-cp.eu/collections/qrhcaIUVRky49JrFtGFsuYvv"
+  }],
+  "pid": "11676/36LdPE4ASUAJKyNS1G3ki6GH",
+  "previousVersion": ["https://meta.icos-cp.eu/objects/xx8Mf6E2sZy6qA4hSX5sB6t2", "https://meta.icos-cp.eu/objects/TttvPGPHhym0FFdN2DTkCUqk"],
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Peter",
+      "lastName": "Bergamaschi",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Peter_Bergamaschi"
+      }
+    }, {
+      "firstName": "Giovanni",
+      "lastName": "Manca",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Giovanni_Manca"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/36LdPE4ASUAJKyNS1G3ki6GH,\r\n  author={Bergamaschi, P., Manca, G.},\r\n  title={ICOS ATC CH4 Release, Ispra (100.0 m), 2017-12-15–2021-01-31},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/36LdPE4ASUAJKyNS1G3ki6GH},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/36LdPE4ASUAJKyNS1G3ki6GH}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC CH4 Release, Ispra (100.0 m), 2017-12-15–2021-01-31\r\nID - 11676/36LdPE4ASUAJKyNS1G3ki6GH\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/36LdPE4ASUAJKyNS1G3ki6GH\r\nPB - Atmosphere Thematic Centre\r\nAU - Bergamaschi, P.\r\nAU - Manca, G.\r\nER - ",
+    "citationString": "Bergamaschi, P., Manca, G., ICOS RI, 2021. ICOS ATC CH4 Release, Ispra (100.0 m), 2017-12-15–2021-01-31, https://hdl.handle.net/11676/36LdPE4ASUAJKyNS1G3ki6GH",
+    "temporalCoverageDisplay": "2017-12-15–2021-01-31"
+  },
+  "size": 588640,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "CO2-CH4-CO-H2O Picarro Analyzer for Ispra",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_619"
+      },
+      "interval": {
+        "start": "2017-12-15T00:00:00Z",
+        "stop": "2021-01-31T23:00:00Z"
+      },
+      "samplingHeight": 100.0,
+      "station": {
+        "coverage": {
+          "alt": 210.0,
+          "geo": {
+            "coordinates": [8.636, 45.8147, 210.0],
+            "type": "Point"
+          },
+          "label": "IPR",
+          "lat": 45.8147,
+          "lon": 8.636
+        },
+        "id": "IPR",
+        "org": {
+          "name": "Ispra",
+          "self": {
+            "comments": [],
+            "label": "IPR",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_IPR"
+          }
+        },
+        "pictures": ["https://meta.icos-cp.eu/files/NngtXNhHL6zu_BbqNeZmmEHW/DSC_0139_LR.JPG"],
+        "responsibleOrganization": {
+          "name": "European Commission Joint Research Centre",
+          "self": {
+            "comments": [],
+            "label": "JRC",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/ecJointResearchCentre"
+          },
+          "website": "https://ec.europa.eu/jrc/en/about/jrc-site/ispra"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "IT",
+          "documentation": [{
+            "hash": "hH9gjTbjkxaIsIu1Q4rPoNzVr_vl8YCH00lgAcz2REE",
+            "name": "Ispra_STILT_station_characterization.pdf",
+            "res": "https://meta.icos-cp.eu/objects/hH9gjTbjkxaIsIu1Q4rPoNzV"
+          }],
+          "labelingDate": "2018-11-30",
+          "stationClass": "2",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, UTC",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStamp"
+        }
+      }
+    }, {
+      "label": "Flag",
+      "valueType": {
+        "self": {
+          "comments": ["single-letter quality flag"],
+          "label": "quality flag",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/oneLetterFlag"
+        }
+      }
+    }, {
+      "label": "NbPoints",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["integer number"],
+          "label": "number",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/number"
+        },
+        "self": {
+          "comments": [],
+          "label": "number of points",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/npoints"
+        }
+      }
+    }, {
+      "label": "ch4",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "CH4 mixing ratio (dry mole fraction)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/ch4MixingRatioPpb"
+        },
+        "unit": "nmol mol-1"
+      }
+    }, {
+      "label": "Stdev",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "standard deviation of gas mole fraction",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/moleFractionSdPpb"
+        },
+        "unit": "nmol mol-1"
+      }
+    }],
+    "nRows": 27456,
+    "productionInfo": {
+      "contributors": [],
+      "creator": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "dateTime": "2021-05-26T10:01:27Z",
+      "host": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "sources": []
+    }
+  },
+  "specification": {
+    "dataLevel": 2,
+    "datasetSpec": {
+      "self": {
+        "comments": [],
+        "label": "Atmospheric CH4 mole fraction time series",
+        "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcCh4MoleFracTimeSer"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": ["Semicolon-separated ASCII, with #-prefixed multi-line header"],
+      "label": "ICOS ATC time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcProductTimeSer"
+    },
+    "keywords": ["CH4", "concentration"],
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": ["Quality-controlled data on molar fraction of atmospheric CH4"],
+      "label": "ICOS ATC CH4 Release",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcCh4L2DataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-05-26T07:34:54.260Z",
+    "stop": "2021-05-26T07:34:57.210Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

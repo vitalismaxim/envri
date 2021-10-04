@@ -1,0 +1,247 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/LCBboNoeQaJD58X6DnXITivS",
+  "coverageGeo": {
+    "coordinates": [2.142, 48.7227, 160.0],
+    "type": "Point"
+  },
+  "fileName": "ICOS_ATC_NRT_SAC_2020-06-01_2021-04-23_60.0_329-395_CH4.zip",
+  "hash": "LCBboNoeQaJD58X6DnXITivSDAUG6jZjJatzeDQiXUk",
+  "nextVersion": "https://meta.icos-cp.eu/objects/exIJXK8iXzkVW7wzVo2_GJVw",
+  "parentCollections": [],
+  "pid": "11676/LCBboNoeQaJD58X6DnXITivS",
+  "previousVersion": "https://meta.icos-cp.eu/objects/Tud1gDVZ2sYiD-HtVoqPSbPz",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Michel",
+      "lastName": "Ramonet",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Michel_Ramonet"
+      }
+    }, {
+      "firstName": "Marc",
+      "lastName": "Delmotte",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Marc_Delmotte"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/LCBboNoeQaJD58X6DnXITivS,\r\n  author={Ramonet, M., Delmotte, M.},\r\n  title={ICOS ATC NRT CH4 growing time series, Saclay (60.0 m), 2020-06-01–2021-04-23},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/LCBboNoeQaJD58X6DnXITivS},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/LCBboNoeQaJD58X6DnXITivS}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC NRT CH4 growing time series, Saclay (60.0 m), 2020-06-01–2021-04-23\r\nID - 11676/LCBboNoeQaJD58X6DnXITivS\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/LCBboNoeQaJD58X6DnXITivS\r\nPB - Atmosphere Thematic Centre\r\nAU - Ramonet, M.\r\nAU - Delmotte, M.\r\nER - ",
+    "citationString": "Ramonet, M., Delmotte, M., ICOS RI, 2021. ICOS ATC NRT CH4 growing time series, Saclay (60.0 m), 2020-06-01–2021-04-23, https://hdl.handle.net/11676/LCBboNoeQaJD58X6DnXITivS",
+    "temporalCoverageDisplay": "2020-06-01–2021-04-23"
+  },
+  "size": 122352,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": [{
+        "comments": [],
+        "label": "RAMCES - G24",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_329"
+      }, {
+        "comments": [],
+        "label": "RAMCES - G24",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_395"
+      }],
+      "interval": {
+        "start": "2020-06-01T00:00:00Z",
+        "stop": "2021-04-23T23:00:00Z"
+      },
+      "samplingHeight": 60.0,
+      "station": {
+        "coverage": {
+          "alt": 160.0,
+          "geo": {
+            "coordinates": [2.142, 48.7227, 160.0],
+            "type": "Point"
+          },
+          "label": "SAC",
+          "lat": 48.7227,
+          "lon": 2.142
+        },
+        "id": "SAC",
+        "org": {
+          "name": "Saclay",
+          "self": {
+            "comments": [],
+            "label": "SAC",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_SAC"
+          }
+        },
+        "pictures": ["https://meta.icos-cp.eu/files/RZMOSj6rgMtludCF7N3V-o7Y/SAC.tower.jpg", "https://meta.icos-cp.eu/files/vkaBwYtZcnXJyBL_w6qAL1ky/SAC.oct2017_SouthEast.jpg"],
+        "responsibleOrganization": {
+          "name": "Commissariat à l'énergie atomique et aux énergies alternatives",
+          "self": {
+            "comments": [],
+            "label": "CEA",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/CEA"
+          },
+          "website": "https://www.cea.fr"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "FR",
+          "documentation": [{
+            "hash": "y21ItRu8xBZ3c64ABZs-xzPUy2EsmxdQTifgRmzofug",
+            "name": "Saclay_STILT_station_characterization.pdf",
+            "res": "https://meta.icos-cp.eu/objects/y21ItRu8xBZ3c64ABZs-xzPU"
+          }],
+          "labelingDate": "2020-06-15",
+          "stationClass": "1",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, UTC",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStamp"
+        }
+      }
+    }, {
+      "label": "Flag",
+      "valueType": {
+        "self": {
+          "comments": ["single-letter quality flag"],
+          "label": "quality flag",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/oneLetterFlag"
+        }
+      }
+    }, {
+      "label": "NbPoints",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["integer number"],
+          "label": "number",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/number"
+        },
+        "self": {
+          "comments": [],
+          "label": "number of points",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/npoints"
+        }
+      }
+    }, {
+      "label": "ch4",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "CH4 mixing ratio (dry mole fraction)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/ch4MixingRatioPpb"
+        },
+        "unit": "nmol mol-1"
+      }
+    }, {
+      "label": "Stdev",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "standard deviation of gas mole fraction",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/moleFractionSdPpb"
+        },
+        "unit": "nmol mol-1"
+      }
+    }],
+    "nRows": 7848,
+    "productionInfo": {
+      "contributors": [],
+      "creator": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "dateTime": "2021-04-24T10:12:22Z",
+      "host": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "sources": []
+    }
+  },
+  "specification": {
+    "dataLevel": 1,
+    "datasetSpec": {
+      "self": {
+        "comments": [],
+        "label": "Atmospheric CH4 mole fraction time series",
+        "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcCh4MoleFracTimeSer"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": ["Semicolon-separated ASCII, with #-prefixed multi-line header"],
+      "label": "ICOS ATC time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcProductTimeSer"
+    },
+    "keywords": ["CH4", "concentration"],
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": ["Automatically-produced, daily-growing (by data object deprecation) data on molar fraction of atmospheric CH4. The data starts from the last respective L2 release."],
+      "label": "ICOS ATC NRT CH4 growing time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcCh4NrtGrowingDataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-04-24T10:12:22.766Z",
+    "stop": "2021-04-24T10:12:25.632Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

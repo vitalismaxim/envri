@@ -1,0 +1,180 @@
+{
+  "coverageGeo": {
+    "coordinates": [11.22235, 52.08656, 193.0],
+    "type": "Point"
+  },
+  "fileName": "DE-HoH_BM_20210309_L13_F03.csv",
+  "hash": "cZL5VGCJqPPvcpc41z0JYCkkaCbDsrTKTNfrJaIoXdo",
+  "parentCollections": [],
+  "pid": "11676/cZL5VGCJqPPvcpc41z0JYCkk",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Corinna",
+      "lastName": "Rebmann",
+      "orcid": "0000-0002-8665-0375",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Corinna_Rebmann"
+      }
+    }, {
+      "firstName": "Laura",
+      "lastName": "Dienstbach",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Laura_Dienstbach"
+      }
+    }, {
+      "firstName": "Inmaculada",
+      "lastName": "García Quirós",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Inmaculada_Garc%C3%ADa%20Quir%C3%B3s"
+      }
+    }, {
+      "firstName": "Sebastian",
+      "lastName": "Gimper",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Sebastian_Gimper"
+      }
+    }, {
+      "firstName": "Julia",
+      "lastName": "Meis",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Julia_Meis"
+      }
+    }, {
+      "firstName": "Patrick",
+      "lastName": "Schmidt",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Patrick_Schmidt"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/cZL5VGCJqPPvcpc41z0JYCkk,\r\n  author={Rebmann, C., Dienstbach, L., García Quirós, I., Gimper, S., Meis, J., Schmidt, P.},\r\n  title={ICOS ETC Bio Meteo Raw ASCII, Hohes Holz, 2021-03-09},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/cZL5VGCJqPPvcpc41z0JYCkk},\r\n  publisher={Hohes Holz},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/cZL5VGCJqPPvcpc41z0JYCkk}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ETC Bio Meteo Raw ASCII, Hohes Holz, 2021-03-09\r\nID - 11676/cZL5VGCJqPPvcpc41z0JYCkk\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/cZL5VGCJqPPvcpc41z0JYCkk\r\nPB - Hohes Holz\r\nAU - Rebmann, C.\r\nAU - Dienstbach, L.\r\nAU - García Quirós, I.\r\nAU - Gimper, S.\r\nAU - Meis, J.\r\nAU - Schmidt, P.\r\nER - ",
+    "citationString": "Rebmann, C., Dienstbach, L., García Quirós, I., Gimper, S., Meis, J., Schmidt, P., ICOS RI, 2021. ICOS ETC Bio Meteo Raw ASCII, Hohes Holz, 2021-03-09, https://hdl.handle.net/11676/cZL5VGCJqPPvcpc41z0JYCkk",
+    "temporalCoverageDisplay": "2021-03-09"
+  },
+  "size": 354536,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "DL-Other",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ETC_50_13"
+      },
+      "interval": {
+        "start": "2021-03-08T23:00:00Z",
+        "stop": "2021-03-09T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 193.0,
+          "geo": {
+            "coordinates": [11.22235, 52.08656, 193.0],
+            "type": "Point"
+          },
+          "label": "DE-HoH",
+          "lat": 52.08656,
+          "lon": 11.22235
+        },
+        "id": "DE-HoH",
+        "org": {
+          "name": "Hohes Holz",
+          "self": {
+            "comments": ["The station Hohes Holz, with code (DE-HoH) is located at the northern border of the water catchment Bode. The site is an alluvional forest, with dominant species Fagus sylvatica L., Quercus petraea (Matt.) Liebl. with Betula pendula Roth, Carpinus betulus L ., in afforestations Picea abies (L.)H.Karst. and Larix decidua Mill. The soils are Luvisoles."],
+            "label": "DE-HoH",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_DE-HoH"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/MiRQy3CBfCm8Zxx/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "climateZone": {
+            "comments": [],
+            "label": "Oceanic subtropical highland (Cfb)",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/koppen_Cfb"
+          },
+          "countryCode": "DE",
+          "documentation": [{
+            "hash": "vsf9rxfag4bpbJBGlry2ZCcPRFwTxyB_JsksuBmdSqs",
+            "name": "DE-HoH ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/vsf9rxfag4bpbJBGlry2ZCcP"
+          }],
+          "ecosystemType": {
+            "comments": ["Lands dominated by woody vegetation with a percent cover >60% and height exceeding 2 meters. Consists of broadleaf tree communities with an annual cycle of leaf-on and leaf-off periods."],
+            "label": "Deciduous Broadleaf Forests",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_DBF"
+          },
+          "labelingDate": "2019-01-17",
+          "meanAnnualPrecip": 563.0,
+          "meanAnnualTemp": 9.1,
+          "stationClass": "1",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Raw ASCII ETC station data",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiEtcRawTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ETC Bio Meteo Raw ASCII",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcBioMeteoRawSeriesCsv"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-03-10T00:45:09.267Z",
+    "stop": "2021-03-10T00:45:12.438Z",
+    "submitter": {
+      "name": "Hohes Holz",
+      "self": {
+        "comments": ["The station Hohes Holz, with code (DE-HoH) is located at the northern border of the water catchment Bode. The site is an alluvional forest, with dominant species Fagus sylvatica L., Quercus petraea (Matt.) Liebl. with Betula pendula Roth, Carpinus betulus L ., in afforestations Picea abies (L.)H.Karst. and Larix decidua Mill. The soils are Luvisoles."],
+        "label": "DE-HoH",
+        "uri": "http://meta.icos-cp.eu/resources/stations/ES_DE-HoH"
+      }
+    }
+  }
+}

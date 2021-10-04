@@ -1,0 +1,157 @@
+{
+  "coverageGeo": {
+    "coordinates": [10.91463, 51.09973, 161.5],
+    "type": "Point"
+  },
+  "fileName": "DE-Geb_BM_20210528_L10_F03.csv",
+  "hash": "IUrYEW684ypqfaiO_Pypdp8v1gSdC8HAivq7s3Pyik0",
+  "parentCollections": [],
+  "pid": "11676/IUrYEW684ypqfaiO_Pypdp8v",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Christian",
+      "lastName": "Brümmer",
+      "orcid": "0000-0001-6621-5010",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Christian_Bruemmer"
+      }
+    }, {
+      "firstName": "Jean-Pierre",
+      "lastName": "Delorme",
+      "orcid": "0000-0002-3287-8622",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jean-Pierre_Delorme"
+      }
+    }, {
+      "firstName": "Frederik",
+      "lastName": "Schrader",
+      "orcid": "0000-0002-5668-3467",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Frederik_Schrader"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/IUrYEW684ypqfaiO_Pypdp8v,\r\n  author={Brümmer, C., Delorme, J., Schrader, F.},\r\n  title={ICOS ETC Bio Meteo Raw ASCII, Gebesee, 2021-05-28},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/IUrYEW684ypqfaiO_Pypdp8v},\r\n  publisher={Gebesee},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/IUrYEW684ypqfaiO_Pypdp8v}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ETC Bio Meteo Raw ASCII, Gebesee, 2021-05-28\r\nID - 11676/IUrYEW684ypqfaiO_Pypdp8v\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/IUrYEW684ypqfaiO_Pypdp8v\r\nPB - Gebesee\r\nAU - Brümmer, C.\r\nAU - Delorme, J.\r\nAU - Schrader, F.\r\nER - ",
+    "citationString": "Brümmer, C., Delorme, J., Schrader, F., ICOS RI, 2021. ICOS ETC Bio Meteo Raw ASCII, Gebesee, 2021-05-28, https://hdl.handle.net/11676/IUrYEW684ypqfaiO_Pypdp8v",
+    "temporalCoverageDisplay": "2021-05-28"
+  },
+  "size": 25943,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "DL-Other",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ETC_2_10"
+      },
+      "interval": {
+        "start": "2021-05-27T23:00:00Z",
+        "stop": "2021-05-28T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 161.5,
+          "geo": {
+            "coordinates": [10.91463, 51.09973, 161.5],
+            "type": "Point"
+          },
+          "label": "DE-Geb",
+          "lat": 51.09973,
+          "lon": 10.91463
+        },
+        "id": "DE-Geb",
+        "org": {
+          "name": "Gebesee",
+          "self": {
+            "comments": ["The station Gebesee (ICOS code DE-Geb) is located near Gebesee ca. 20 km northwest of Erfurt in the Thuringian Plain, Germany. The site is an agricultural site with crop rotation since 2001 (when the eddy flux measurements started) included winter wheat (Triticum aestivum L.), potatoes (Solanum tuberosum L.), rape (Brassica napus L.), winter barley (Hordeum vulgare L.), sugar beet (Beta vulgaris L.), peppermint (Mentha × piperita L.), durum (Triticum durum DESF.), and spring wheat (Triticum aestivum L.). The soil is classified as Chernozem (FAO) with a silty clay loam texture (~30 % clay) and granular structure."],
+            "label": "DE-Geb",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_DE-Geb"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/dN7Gy782sdKNkN7/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "countryCode": "DE",
+          "documentation": [{
+            "hash": "ICpbHZew62rMezJ0DdGd1QZzMAsQNfjtdG6twy3xao4",
+            "name": "DE-Geb ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/ICpbHZew62rMezJ0DdGd1QZz"
+          }],
+          "ecosystemType": {
+            "comments": ["Lands covered with temporary crops followed by harvest and a bare soil period (e.g., single and multiple cropping systems). Note that perennial woody crops will be classified as the appropriate forest or shrub land cover type."],
+            "label": "Croplands",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_CRO"
+          },
+          "labelingDate": "2020-10-26",
+          "meanAnnualPrecip": 534.0,
+          "meanAnnualRad": 119.1,
+          "meanAnnualTemp": 9.2,
+          "stationClass": "1",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Raw ASCII ETC station data",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiEtcRawTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ETC Bio Meteo Raw ASCII",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcBioMeteoRawSeriesCsv"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-05-28T23:20:04.128508Z",
+    "stop": "2021-05-28T23:20:06.721736Z",
+    "submitter": {
+      "name": "Gebesee",
+      "self": {
+        "comments": ["The station Gebesee (ICOS code DE-Geb) is located near Gebesee ca. 20 km northwest of Erfurt in the Thuringian Plain, Germany. The site is an agricultural site with crop rotation since 2001 (when the eddy flux measurements started) included winter wheat (Triticum aestivum L.), potatoes (Solanum tuberosum L.), rape (Brassica napus L.), winter barley (Hordeum vulgare L.), sugar beet (Beta vulgaris L.), peppermint (Mentha × piperita L.), durum (Triticum durum DESF.), and spring wheat (Triticum aestivum L.). The soil is classified as Chernozem (FAO) with a silty clay loam texture (~30 % clay) and granular structure."],
+        "label": "DE-Geb",
+        "uri": "http://meta.icos-cp.eu/resources/stations/ES_DE-Geb"
+      }
+    }
+  }
+}

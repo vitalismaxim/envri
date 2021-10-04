@@ -1,0 +1,162 @@
+{
+  "coverageGeo": {
+    "coordinates": [13.56515, 50.96256, 380.0],
+    "type": "Point"
+  },
+  "fileName": "DE-Tha_BM_20210321_L01_F02.zip",
+  "hash": "R9FG64HeW438kzmjbN2I3DpmkheyOGEZ4M9QlVrjh8w",
+  "parentCollections": [],
+  "pid": "11676/R9FG64HeW438kzmjbN2I3Dpm",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Thomas",
+      "lastName": "Grünwald",
+      "orcid": "0000-0003-2263-0073",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Thomas_Gr%C3%BCnwald"
+      }
+    }, {
+      "firstName": "Markus",
+      "lastName": "Hehn",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Markus_Hehn"
+      }
+    }, {
+      "firstName": "Uta",
+      "lastName": "Moderow",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Uta_Moderow"
+      }
+    }, {
+      "firstName": "Heiko",
+      "lastName": "Prasse",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Heiko_Prasse"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/R9FG64HeW438kzmjbN2I3Dpm,\r\n  author={Grünwald, T., Hehn, M., Moderow, U., Prasse, H.},\r\n  title={ICOS ETC Bio Meteo Raw ASCII, Tharandt, 2021-03-21},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/R9FG64HeW438kzmjbN2I3Dpm},\r\n  publisher={Tharandt},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/R9FG64HeW438kzmjbN2I3Dpm}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ETC Bio Meteo Raw ASCII, Tharandt, 2021-03-21\r\nID - 11676/R9FG64HeW438kzmjbN2I3Dpm\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/R9FG64HeW438kzmjbN2I3Dpm\r\nPB - Tharandt\r\nAU - Grünwald, T.\r\nAU - Hehn, M.\r\nAU - Moderow, U.\r\nAU - Prasse, H.\r\nER - ",
+    "citationString": "Grünwald, T., Hehn, M., Moderow, U., Prasse, H., ICOS RI, 2021. ICOS ETC Bio Meteo Raw ASCII, Tharandt, 2021-03-21, https://hdl.handle.net/11676/R9FG64HeW438kzmjbN2I3Dpm",
+    "temporalCoverageDisplay": "2021-03-21"
+  },
+  "size": 149896,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "DL-Campbell CR3000",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ETC_3_1"
+      },
+      "interval": {
+        "start": "2021-03-20T23:00:00Z",
+        "stop": "2021-03-21T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 380.0,
+          "geo": {
+            "coordinates": [13.56515, 50.96256, 380.0],
+            "type": "Point"
+          },
+          "label": "DE-Tha",
+          "lat": 50.96256,
+          "lon": 13.56515
+        },
+        "id": "DE-Tha",
+        "org": {
+          "name": "Tharandt",
+          "self": {
+            "comments": ["The station Tharandt, with ICOS code DE-Tha, is located in the Eastern part of a large forested area, near the city of Tharandt, about 25 Km SW of Dresden. The site is an evergreen needleleaf forest located in the suboceanic/subcontinental climate. The present species are composed of 87% coniferous evergreen (72% Picea abies (L.) H.Karst., 15% Pinus sylvestris L.) and 13% deciduous (10% Larix decidua Mill., 1% Betula spec., 2% others)."],
+            "label": "DE-Tha",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_DE-Tha"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/sofN93ERQ3MgTya/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "countryCode": "DE",
+          "documentation": [{
+            "hash": "hadWD39jqynaUUI1cYwtzKuzmuohi9HQnE_lTr5k9do",
+            "name": "DE-Tha ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/hadWD39jqynaUUI1cYwtzKuz"
+          }],
+          "ecosystemType": {
+            "comments": ["Lands dominated by woody vegetation with a percent cover >60% and height exceeding 2 meters. Almost all trees remain green all year. Canopy is never without green foliage."],
+            "label": "Evergreen Needleleaf Forests",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_ENF"
+          },
+          "labelingDate": "2020-10-26",
+          "meanAnnualPrecip": 865.0,
+          "meanAnnualRad": 126.0,
+          "meanAnnualTemp": 9.0,
+          "stationClass": "1",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Raw ASCII ETC station data",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiEtcRawTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ETC Bio Meteo Raw ASCII",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcBioMeteoRawSeriesCsv"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-03-22T03:26:26.038Z",
+    "stop": "2021-03-22T03:26:28.641Z",
+    "submitter": {
+      "name": "Tharandt",
+      "self": {
+        "comments": ["The station Tharandt, with ICOS code DE-Tha, is located in the Eastern part of a large forested area, near the city of Tharandt, about 25 Km SW of Dresden. The site is an evergreen needleleaf forest located in the suboceanic/subcontinental climate. The present species are composed of 87% coniferous evergreen (72% Picea abies (L.) H.Karst., 15% Pinus sylvestris L.) and 13% deciduous (10% Larix decidua Mill., 1% Betula spec., 2% others)."],
+        "label": "DE-Tha",
+        "uri": "http://meta.icos-cp.eu/resources/stations/ES_DE-Tha"
+      }
+    }
+  }
+}

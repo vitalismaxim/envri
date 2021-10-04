@@ -1,0 +1,169 @@
+{
+  "coverageGeo": {
+    "coordinates": [7.9851, 46.5475, 3580.0],
+    "type": "Point"
+  },
+  "fileName": "JFJ_226_20210705.zip",
+  "hash": "UaGdX5Cs00y8eZFTOG4hDSffygfD_TL4nUL1jVnknGU",
+  "parentCollections": [],
+  "pid": "11676/UaGdX5Cs00y8eZFTOG4hDSff",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Lukas",
+      "lastName": "Emmenegger",
+      "orcid": "0000-0002-9812-3986",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Lukas_Emmenegger"
+      }
+    }, {
+      "firstName": "Markus",
+      "lastName": "Leuenberger",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Markus_Leuenberger"
+      }
+    }, {
+      "firstName": "Martin",
+      "lastName": "Steinbacher",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Martin_Steinbacher"
+      }
+    }, {
+      "firstName": "Franz",
+      "lastName": "Conen",
+      "orcid": "0000-0003-4821-5775",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Franz_Conen"
+      }
+    }, {
+      "firstName": "Yves-Alain",
+      "lastName": "Roulet",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Yves-Alain_Roulet"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/UaGdX5Cs00y8eZFTOG4hDSff,\r\n  author={Emmenegger, L., Leuenberger, M., Steinbacher, M., Conen, F., Roulet, Y.},\r\n  title={ICOS ATC Picarro data csv time series, Jungfraujoch, 2021-07-05},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/UaGdX5Cs00y8eZFTOG4hDSff},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/UaGdX5Cs00y8eZFTOG4hDSff}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC Picarro data csv time series, Jungfraujoch, 2021-07-05\r\nID - 11676/UaGdX5Cs00y8eZFTOG4hDSff\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/UaGdX5Cs00y8eZFTOG4hDSff\r\nPB - Atmosphere Thematic Centre\r\nAU - Emmenegger, L.\r\nAU - Leuenberger, M.\r\nAU - Steinbacher, M.\r\nAU - Conen, F.\r\nAU - Roulet, Y.\r\nER - ",
+    "citationString": "Emmenegger, L., Leuenberger, M., Steinbacher, M., Conen, F., Roulet, Y., ICOS RI, 2021. ICOS ATC Picarro data csv time series, Jungfraujoch, 2021-07-05, https://hdl.handle.net/11676/UaGdX5Cs00y8eZFTOG4hDSff",
+    "temporalCoverageDisplay": "2021-07-05"
+  },
+  "size": 6689632,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "CO2-CH4-CO-H2O Picarro Analyzer for Jungfraujoch",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_226"
+      },
+      "interval": {
+        "start": "2021-07-05T00:00:00Z",
+        "stop": "2021-07-05T23:59:58Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 3580.0,
+          "geo": {
+            "coordinates": [7.9851, 46.5475, 3580.0],
+            "type": "Point"
+          },
+          "label": "JFJ",
+          "lat": 46.5475,
+          "lon": 7.9851
+        },
+        "id": "JFJ",
+        "org": {
+          "name": "Jungfraujoch",
+          "self": {
+            "comments": [],
+            "label": "JFJ",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_JFJ"
+          }
+        },
+        "pictures": ["https://www.icos-cp.eu/sites/default/files/2017-08/Jungfraujoch_Observatory.jpg"],
+        "responsibleOrganization": {
+          "name": "International Foundation High Altitude Research Stations Jungfraujoch and Gornergrat",
+          "self": {
+            "comments": [],
+            "label": "HFSJG",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/HFSJG_2"
+          },
+          "website": "https://www.ifjungo.ch"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "CH",
+          "documentation": [{
+            "hash": "0PlIoVzSRhGXu0ptXvHNfIeu82e0X1-S4xNYvo-LAsI",
+            "name": "Jungfraujoch_STILT_station_characterization.pdf",
+            "res": "https://meta.icos-cp.eu/objects/0PlIoVzSRhGXu0ptXvHNfIeu"
+          }],
+          "labelingDate": "2018-04-20",
+          "stationClass": "1",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "ICOS ATC Raw time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ATC Picarro data csv time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcPicarroL0DataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-07-06T09:00:31.586951Z",
+    "stop": "2021-07-06T09:00:34.047020Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

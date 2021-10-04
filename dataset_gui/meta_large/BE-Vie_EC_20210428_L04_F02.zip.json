@@ -1,0 +1,196 @@
+{
+  "coverageGeo": {
+    "coordinates": [5.998099, 50.30496, 490.0],
+    "type": "Point"
+  },
+  "fileName": "BE-Vie_EC_20210428_L04_F02.zip",
+  "hash": "9EN8PNBA4ijesDF5iDghhOPDiJ-nC5Dqvzv3_qUu24Q",
+  "parentCollections": [],
+  "pid": "11676/9EN8PNBA4ijesDF5iDghhOPD",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Caroline",
+      "lastName": "Vincke",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Caroline_Vincke"
+      }
+    }, {
+      "firstName": "Wafa",
+      "lastName": "Chebbi",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Wafa_Chebbi"
+      }
+    }, {
+      "firstName": "Henri",
+      "lastName": "Chopin",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Henri_Chopin"
+      }
+    }, {
+      "firstName": "Loïc",
+      "lastName": "Demoulin",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Lo%C3%AFc_Demoulin"
+      }
+    }, {
+      "firstName": "Thibaut",
+      "lastName": "Engelmann",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Thibaut_Engelmann"
+      }
+    }, {
+      "firstName": "Ariane",
+      "lastName": "Faurès",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Ariane_Faur%C3%A8s"
+      }
+    }, {
+      "firstName": "Bernard",
+      "lastName": "Heinesch",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Bernard_Heinesch"
+      }
+    }, {
+      "firstName": "Tanguy",
+      "lastName": "Manise",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Tanguy_Manise"
+      }
+    }, {
+      "firstName": "André",
+      "lastName": "Piret",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Andr%C3%A9_Piret"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/9EN8PNBA4ijesDF5iDghhOPD,\r\n  author={Vincke, C., Chebbi, W., Chopin, H., Demoulin, L., Engelmann, T., Faurès, A., Heinesch, B., Manise, T., Piret, A.},\r\n  title={ICOS ETC Eddy Flux Raw ASCII daily archive, Vielsalm, 2021-04-28},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/9EN8PNBA4ijesDF5iDghhOPD},\r\n  publisher={Vielsalm},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/9EN8PNBA4ijesDF5iDghhOPD}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ETC Eddy Flux Raw ASCII daily archive, Vielsalm, 2021-04-28\r\nID - 11676/9EN8PNBA4ijesDF5iDghhOPD\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/9EN8PNBA4ijesDF5iDghhOPD\r\nPB - Vielsalm\r\nAU - Vincke, C.\r\nAU - Chebbi, W.\r\nAU - Chopin, H.\r\nAU - Demoulin, L.\r\nAU - Engelmann, T.\r\nAU - Faurès, A.\r\nAU - Heinesch, B.\r\nAU - Manise, T.\r\nAU - Piret, A.\r\nER - ",
+    "citationString": "Vincke, C., Chebbi, W., Chopin, H., Demoulin, L., Engelmann, T., Faurès, A., Heinesch, B., Manise, T., Piret, A., ICOS RI, 2021. ICOS ETC Eddy Flux Raw ASCII daily archive, Vielsalm, 2021-04-28, https://hdl.handle.net/11676/9EN8PNBA4ijesDF5iDghhOPD",
+    "temporalCoverageDisplay": "2021-04-28"
+  },
+  "size": 26648,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "DL-Campbell CR1000",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ETC_21_4"
+      },
+      "interval": {
+        "start": "2021-04-27T23:00:00Z",
+        "stop": "2021-04-28T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 490.0,
+          "geo": {
+            "coordinates": [5.998099, 50.30496, 490.0],
+            "type": "Point"
+          },
+          "label": "BE-Vie",
+          "lat": 50.30496,
+          "lon": 5.998099
+        },
+        "id": "BE-Vie",
+        "org": {
+          "name": "Vielsalm",
+          "self": {
+            "comments": ["The station Vielsalm, with the ICOS code BE-Vie, is located in the province of Luxembourg, in the natural region of Ardenne. The site is a mature broadleaf forest with beech (Fagus Sylvatica L.) and Douglas fire (Pseudotsuga Menziesii (Mirb.) Franco) mainly, other species are also present in the overstory (Picea abies (L.) Karst, Pinus sylvestris L. , Abies alba Mill., Tsuga Heterophylla (Raf.) Sarg, Betula pendula Roth. and Quercus sp.). Thinnings are conducted every 6 years."],
+            "label": "BE-Vie",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_BE-Vie"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/gNALZjLwze5sdjq/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "countryCode": "BE",
+          "documentation": [{
+            "hash": "xiiL_kyPVoN35ecLfEMOPrEVN3xO8xnFyRFLYInu2a4",
+            "name": "BE-Vie ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/xiiL_kyPVoN35ecLfEMOPrEV"
+          }],
+          "ecosystemType": {
+            "comments": ["Lands dominated by trees with a percent cover >60% and height exceeding 2 meters. Consists of tree communities with interspersed mixtures or mosaics of the other four forest types. None of the forest types exceeds 60% of landscape."],
+            "label": "Mixed Forests",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_MF"
+          },
+          "labelingDate": "2020-10-26",
+          "meanAnnualPrecip": 915.6,
+          "meanAnnualRad": 96.4,
+          "meanAnnualTemp": 8.2,
+          "stationClass": "2",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Multi-file zip archive with ETC raw time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/etcRawTimeSerMultiZip"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ETC Eddy Flux Raw ASCII daily archive",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcEddyFluxRawSeriesCsv"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-04-29T00:18:39.327Z",
+    "stop": "2021-04-29T00:18:41.308Z",
+    "submitter": {
+      "name": "Vielsalm",
+      "self": {
+        "comments": ["The station Vielsalm, with the ICOS code BE-Vie, is located in the province of Luxembourg, in the natural region of Ardenne. The site is a mature broadleaf forest with beech (Fagus Sylvatica L.) and Douglas fire (Pseudotsuga Menziesii (Mirb.) Franco) mainly, other species are also present in the overstory (Picea abies (L.) Karst, Pinus sylvestris L. , Abies alba Mill., Tsuga Heterophylla (Raf.) Sarg, Betula pendula Roth. and Quercus sp.). Thinnings are conducted every 6 years."],
+        "label": "BE-Vie",
+        "uri": "http://meta.icos-cp.eu/resources/stations/ES_BE-Vie"
+      }
+    }
+  }
+}

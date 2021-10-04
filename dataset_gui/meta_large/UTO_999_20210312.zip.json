@@ -1,0 +1,161 @@
+{
+  "coverageGeo": {
+    "coordinates": [11.4429, 53.0657, 70.0],
+    "type": "Point"
+  },
+  "fileName": "GAT_703_20210312.zip",
+  "hash": "tRu4jWSFa7ABlkPZ6aIqgb3aE4Giygs22i9QekzNtB8",
+  "parentCollections": [],
+  "pid": "11676/tRu4jWSFa7ABlkPZ6aIqgb3a",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Dagmar",
+      "lastName": "Kubistin",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Dagmar_Kubistin"
+      }
+    }, {
+      "firstName": "Christian",
+      "lastName": "Plaß-Dülmer",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Christian_Pla%C3%9F-D%C3%BClmer"
+      }
+    }, {
+      "firstName": "Matthias",
+      "lastName": "Lindauer",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Matthias_Lindauer"
+      }
+    }, {
+      "firstName": "Jennifer",
+      "lastName": "Müller-Williams",
+      "orcid": "0000-0002-4840-7729",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jennifer_M%C3%BCller-Williams"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/tRu4jWSFa7ABlkPZ6aIqgb3a,\r\n  author={Kubistin, D., Plaß-Dülmer, C., Lindauer, M., Müller-Williams, J.},\r\n  title={ICOS ATC Los Gatos data csv time series, Gartow, 2021-03-12},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/tRu4jWSFa7ABlkPZ6aIqgb3a},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/tRu4jWSFa7ABlkPZ6aIqgb3a}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC Los Gatos data csv time series, Gartow, 2021-03-12\r\nID - 11676/tRu4jWSFa7ABlkPZ6aIqgb3a\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/tRu4jWSFa7ABlkPZ6aIqgb3a\r\nPB - Atmosphere Thematic Centre\r\nAU - Kubistin, D.\r\nAU - Plaß-Dülmer, C.\r\nAU - Lindauer, M.\r\nAU - Müller-Williams, J.\r\nER - ",
+    "citationString": "Kubistin, D., Plaß-Dülmer, C., Lindauer, M., Müller-Williams, J., ICOS RI, 2021. ICOS ATC Los Gatos data csv time series, Gartow, 2021-03-12, https://hdl.handle.net/11676/tRu4jWSFa7ABlkPZ6aIqgb3a",
+    "temporalCoverageDisplay": "2021-03-12"
+  },
+  "size": 1832836,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "German N2O-CO LGR Analyzer",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_703"
+      },
+      "interval": {
+        "start": "2021-03-12T00:00:00Z",
+        "stop": "2021-03-12T23:59:55Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 70.0,
+          "geo": {
+            "coordinates": [11.4429, 53.0657, 70.0],
+            "type": "Point"
+          },
+          "label": "GAT",
+          "lat": 53.0657,
+          "lon": 11.4429
+        },
+        "id": "GAT",
+        "org": {
+          "name": "Gartow",
+          "self": {
+            "comments": [],
+            "label": "GAT",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_GAT"
+          }
+        },
+        "pictures": ["https://meta.icos-cp.eu/files/PESz6TQWX3tXmguQRHI7dsdF/GAT1.jpg"],
+        "responsibleOrganization": {
+          "name": "Deutscher Wetterdienst, Hohenpeißenberg Meteorological Observatory",
+          "self": {
+            "comments": [],
+            "label": "MOHp",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/MOHp"
+          },
+          "website": "https://www.dwd.de/mohp"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "DE",
+          "documentation": [{
+            "hash": "GNBwisgVte1EER4DIFa7IcJZUFFH3MjChT-B-0N6ZYA",
+            "name": "Gartow_STILT_station_characterization.pdf",
+            "res": "https://meta.icos-cp.eu/objects/GNBwisgVte1EER4DIFa7IcJZ"
+          }],
+          "labelingDate": "2017-11-17",
+          "stationClass": "1",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "ICOS ATC Raw time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ATC Los Gatos data csv time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcLosGatosL0DataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-03-13T10:20:06.529Z",
+    "stop": "2021-03-13T10:20:10.182Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

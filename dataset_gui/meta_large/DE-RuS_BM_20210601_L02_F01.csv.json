@@ -1,0 +1,180 @@
+{
+  "coverageGeo": {
+    "coordinates": [6.447145, 50.86591, 103.2],
+    "type": "Point"
+  },
+  "fileName": "DE-RuS_BM_20210601_L01_F01.csv",
+  "hash": "Asn8CUYac00mQzvohAlq2pVHw09J9P2WJGA4pUDYsyY",
+  "parentCollections": [],
+  "pid": "11676/Asn8CUYac00mQzvohAlq2pVH",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Marius",
+      "lastName": "Schmidt",
+      "orcid": "0000-0001-5292-7092",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Marius_Schmidt"
+      }
+    }, {
+      "firstName": "Nils",
+      "lastName": "Becker",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Nils_Becker"
+      }
+    }, {
+      "firstName": "Daniel",
+      "lastName": "Dolfus",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Daniel_Dolfus"
+      }
+    }, {
+      "firstName": "Odilia",
+      "lastName": "Esser",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Odilia_Esser"
+      }
+    }, {
+      "firstName": "Alexander",
+      "lastName": "Graf",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Alexander_Graf"
+      }
+    }, {
+      "firstName": "Judith",
+      "lastName": "Mattes",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Judith_Mattes"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/Asn8CUYac00mQzvohAlq2pVH,\r\n  author={Schmidt, M., Becker, N., Dolfus, D., Esser, O., Graf, A., Mattes, J.},\r\n  title={ICOS ETC Bio Meteo Raw ASCII, Selhausen Juelich, 2021-06-01},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/Asn8CUYac00mQzvohAlq2pVH},\r\n  publisher={Selhausen Juelich},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/Asn8CUYac00mQzvohAlq2pVH}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ETC Bio Meteo Raw ASCII, Selhausen Juelich, 2021-06-01\r\nID - 11676/Asn8CUYac00mQzvohAlq2pVH\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/Asn8CUYac00mQzvohAlq2pVH\r\nPB - Selhausen Juelich\r\nAU - Schmidt, M.\r\nAU - Becker, N.\r\nAU - Dolfus, D.\r\nAU - Esser, O.\r\nAU - Graf, A.\r\nAU - Mattes, J.\r\nER - ",
+    "citationString": "Schmidt, M., Becker, N., Dolfus, D., Esser, O., Graf, A., Mattes, J., ICOS RI, 2021. ICOS ETC Bio Meteo Raw ASCII, Selhausen Juelich, 2021-06-01, https://hdl.handle.net/11676/Asn8CUYac00mQzvohAlq2pVH",
+    "temporalCoverageDisplay": "2021-06-01"
+  },
+  "size": 362053,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "DL-Other",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ETC_54_1"
+      },
+      "interval": {
+        "start": "2021-05-31T23:00:00Z",
+        "stop": "2021-06-01T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 103.2,
+          "geo": {
+            "coordinates": [6.447145, 50.86591, 103.2],
+            "type": "Point"
+          },
+          "label": "DE-RuS",
+          "lat": 50.86591,
+          "lon": 6.447145
+        },
+        "id": "DE-RuS",
+        "org": {
+          "name": "Selhausen Juelich",
+          "self": {
+            "comments": ["The station Selhausen Juelich, with ICOS code DE-RuS, is a crop site located in the catchment of the river Rur, between the cities of Duren and Juelich. The climate is maritime temperate and the field has a size of 9.7 ha, a slope of about 0.3°, and is surrounded by fields with the same type of crop rotation, occasionally including additional crops such as rapeseed, potatoes, maize oat and white mustard."],
+            "label": "DE-RuS",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_DE-RuS"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/LwjSCyZk97oypCd/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "climateZone": {
+            "comments": [],
+            "label": "Oceanic subtropical highland (Cfb)",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/koppen_Cfb"
+          },
+          "countryCode": "DE",
+          "documentation": [{
+            "hash": "HE7Nj8_yV0xTr1zYLvOchSR1td9RgkqP2l2Gm_FXw6Y",
+            "name": "DE-RuS ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/HE7Nj8_yV0xTr1zYLvOchSR1"
+          }],
+          "ecosystemType": {
+            "comments": ["Lands covered with temporary crops followed by harvest and a bare soil period (e.g., single and multiple cropping systems). Note that perennial woody crops will be classified as the appropriate forest or shrub land cover type."],
+            "label": "Croplands",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_CRO"
+          },
+          "labelingDate": "2019-04-29",
+          "meanAnnualPrecip": 698.0,
+          "meanAnnualTemp": 10.0,
+          "stationClass": "1",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Raw ASCII ETC station data",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiEtcRawTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ETC Bio Meteo Raw ASCII",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcBioMeteoRawSeriesCsv"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-06-02T03:30:19.205541Z",
+    "stop": "2021-06-02T03:30:22.111604Z",
+    "submitter": {
+      "name": "Selhausen Juelich",
+      "self": {
+        "comments": ["The station Selhausen Juelich, with ICOS code DE-RuS, is a crop site located in the catchment of the river Rur, between the cities of Duren and Juelich. The climate is maritime temperate and the field has a size of 9.7 ha, a slope of about 0.3°, and is surrounded by fields with the same type of crop rotation, occasionally including additional crops such as rapeseed, potatoes, maize oat and white mustard."],
+        "label": "DE-RuS",
+        "uri": "http://meta.icos-cp.eu/resources/stations/ES_DE-RuS"
+      }
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "coverageGeo": {
+    "coordinates": [17.4794, 60.0864, 46.0],
+    "type": "Point"
+  },
+  "fileName": "NOR_602_1_20210407.zip",
+  "hash": "70OCQB1YH3oNXPVTERcRPlyN4kp7EzK8RPG90J8kuEQ",
+  "parentCollections": [],
+  "pid": "11676/70OCQB1YH3oNXPVTERcRPlyN",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Irene",
+      "lastName": "Lehner",
+      "orcid": "0000-0002-2263-6734",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Irene_Lehner"
+      }
+    }, {
+      "firstName": "Meelis",
+      "lastName": "Mölder",
+      "orcid": "0000-0001-6767-3195",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Meelis_M%C3%B6lder"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/70OCQB1YH3oNXPVTERcRPlyN,\r\n  author={Lehner, I., Mölder, M.},\r\n  title={ICOS ATC Meteorological data csv time series, Norunda, 2021-04-07},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/70OCQB1YH3oNXPVTERcRPlyN},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/70OCQB1YH3oNXPVTERcRPlyN}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC Meteorological data csv time series, Norunda, 2021-04-07\r\nID - 11676/70OCQB1YH3oNXPVTERcRPlyN\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/70OCQB1YH3oNXPVTERcRPlyN\r\nPB - Atmosphere Thematic Centre\r\nAU - Lehner, I.\r\nAU - Mölder, M.\r\nER - ",
+    "citationString": "Lehner, I., Mölder, M., ICOS RI, 2021. ICOS ATC Meteorological data csv time series, Norunda, 2021-04-07, https://hdl.handle.net/11676/70OCQB1YH3oNXPVTERcRPlyN",
+    "temporalCoverageDisplay": "2021-04-07"
+  },
+  "size": 29877,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "Meteorological station for the first level",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_602"
+      },
+      "interval": {
+        "start": "2021-04-07T00:00:00Z",
+        "stop": "2021-04-07T23:59:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 46.0,
+          "geo": {
+            "coordinates": [17.4794, 60.0864, 46.0],
+            "type": "Point"
+          },
+          "label": "NOR",
+          "lat": 60.0864,
+          "lon": 17.4794
+        },
+        "id": "NOR",
+        "org": {
+          "name": "Norunda",
+          "self": {
+            "comments": [],
+            "label": "NOR",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_NOR"
+          }
+        },
+        "pictures": ["https://meta.icos-cp.eu/files/bU34Op3a_w3nKWEYEeD2MAHR/Norunda_tower_1.JPG"],
+        "responsibleOrganization": {
+          "name": "Centre for Environmental and Climate Research, Lund University",
+          "self": {
+            "comments": [],
+            "label": "CEC",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/CEC"
+          },
+          "website": "https://www.cec.lu.se"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "SE",
+          "documentation": [{
+            "hash": "YokiAB3_OQNrA3zRoMwsoxi39gpNl87v2EMS7olqYLo",
+            "name": "Norunda_STILT_station_characterization.pdf",
+            "res": "https://meta.icos-cp.eu/objects/YokiAB3_OQNrA3zRoMwsoxi3"
+          }],
+          "labelingDate": "2018-04-20",
+          "stationClass": "1",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "ICOS ATC Raw time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ATC Meteorological data csv time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcMeteoL0DataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-04-08T09:43:28.733Z",
+    "stop": "2021-04-08T09:43:31.638Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

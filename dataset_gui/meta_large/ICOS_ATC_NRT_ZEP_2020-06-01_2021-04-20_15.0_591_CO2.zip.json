@@ -1,0 +1,935 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/XRq40xWVhAdGeyoPz6qQUkKs",
+  "coverageGeo": {
+    "coordinates": [19.04521, 68.35594, 351.893],
+    "type": "Point"
+  },
+  "fileName": "SE-Sto_eco_2020_CP_flag.txt",
+  "hash": "XRq40xWVhAdGeyoPz6qQUkKsO26Bp7_vNuhE9nhbNkU",
+  "parentCollections": [],
+  "pid": "11676/XRq40xWVhAdGeyoPz6qQUkKs",
+  "references": {
+    "acknowledgements": ["Work was funded by grant National Research Infrastructure ICOS Sweden (2015-06020) from Swedish Research Council"],
+    "authors": [{
+      "firstName": "Janne",
+      "lastName": "Rinne",
+      "orcid": "0000-0003-1168-7138",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Janne_Rinne"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/XRq40xWVhAdGeyoPz6qQUkKs,\r\n  author={Rinne, J.},\r\n  title={Ecosystem eco time series (ICOS Sweden), Abisko-Stordalen Palsa Bog, 2019-12-31–2020-12-31},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/XRq40xWVhAdGeyoPz6qQUkKs},\r\n  publisher={ICOS Sweden},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/XRq40xWVhAdGeyoPz6qQUkKs}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - Ecosystem eco time series (ICOS Sweden), Abisko-Stordalen Palsa Bog, 2019-12-31–2020-12-31\r\nID - 11676/XRq40xWVhAdGeyoPz6qQUkKs\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/XRq40xWVhAdGeyoPz6qQUkKs\r\nPB - ICOS Sweden\r\nAU - Rinne, J.\r\nER - ",
+    "citationString": "Rinne, J., Swedish National Network, 2021. Ecosystem eco time series (ICOS Sweden), Abisko-Stordalen Palsa Bog, 2019-12-31–2020-12-31, https://hdl.handle.net/11676/XRq40xWVhAdGeyoPz6qQUkKs",
+    "temporalCoverageDisplay": "2019-12-31–2020-12-31"
+  },
+  "size": 6711708,
+  "specificInfo": {
+    "acquisition": {
+      "interval": {
+        "start": "2019-12-31T23:30:00Z",
+        "stop": "2020-12-31T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 351.893,
+          "geo": {
+            "coordinates": [19.04521, 68.35594, 351.893],
+            "type": "Point"
+          },
+          "label": "SE-Sto",
+          "lat": 68.35594,
+          "lon": 19.04521
+        },
+        "funding": [{
+          "awardNumber": "2015-06020",
+          "awardTitle": "National Research Infrastructure ICOS Sweden",
+          "awardUrl": "www.icos-sweden.se",
+          "funder": {
+            "org": {
+              "name": "Swedish Research Council",
+              "self": {
+                "comments": [],
+                "uri": "http://meta.icos-cp.eu/resources/organizations/Swedish%20Research%20Council"
+              }
+            }
+          },
+          "self": {
+            "comments": ["co-financed by Lund University, Gothenburg University, Swedish Polar Research Secretariat, SLU, Stockholm University and Uppsala University"],
+            "label": "National Research Infrastructure ICOS Sweden to Abisko-Stordalen Palsa Bog",
+            "uri": "http://meta.icos-cp.eu/resources/fundings/60_2015-06020"
+          },
+          "start": "2016-04-01",
+          "stop": "2020-12-31"
+        }, {
+          "awardNumber": "2019-00205",
+          "awardTitle": "National Research Infrastructure ICOS Sweden",
+          "awardUrl": "www.icos-sweden.se",
+          "funder": {
+            "org": {
+              "name": "Swedish Research Council",
+              "self": {
+                "comments": [],
+                "uri": "http://meta.icos-cp.eu/resources/organizations/Swedish%20Research%20Council"
+              }
+            }
+          },
+          "self": {
+            "comments": ["co-financed by Lund University, SLU, Gothenburg University, Swedish Polar Research Secretariat, Uppsala University and SMHI"],
+            "label": "National Research Infrastructure ICOS Sweden to Abisko-Stordalen Palsa Bog",
+            "uri": "http://meta.icos-cp.eu/resources/fundings/60_2019-00205"
+          },
+          "start": "2021-01-01",
+          "stop": "2024-12-31"
+        }],
+        "id": "SE-Sto",
+        "org": {
+          "name": "Abisko-Stordalen Palsa Bog",
+          "self": {
+            "comments": ["The Abisko-Stordalen Palsa Bog station (with ICOS code SE-Sto) is located 10 Km east of the town of Abisko in the 1100 Ha nature reserve of Stordalen. The area is located at the 0°C isotherm which causes the permafrost in the mire to be of sporadic and of very dynamic nature. As a result of recent years warming in the area permafrost has been observed to degrade in many parts of the mires. The site is a mixed palsa-mire underlayed by sporadic permafrost under rapid degradation. Vegetation in the mire consists of sedges and sphagnum mosses in the wet parts and lichens and dwarf birch in more elevated parts of the mire."],
+            "label": "SE-Sto",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_SE-Sto"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/BoH8FgHbDazdAgn/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "countryCode": "SE",
+          "documentation": [],
+          "ecosystemType": {
+            "comments": ["Lands with a permanent mixture of water and herbaceous or woody vegetation that cover extensive areas. The vegetation can be present in either salt, brackish, or fresh water."],
+            "label": "Permanent Wetlands",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_WET"
+          },
+          "meanAnnualPrecip": 332.0,
+          "meanAnnualTemp": -0.1,
+          "stationClass": "2",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, UTC",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStamp"
+        }
+      }
+    }, {
+      "label": "date",
+      "valueType": {
+        "self": {
+          "comments": ["calendar date"],
+          "label": "measurement date",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/date"
+        }
+      }
+    }, {
+      "label": "time",
+      "valueType": {
+        "self": {
+          "comments": ["measurement time of day"],
+          "label": "measurement time",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeOfDay"
+        }
+      }
+    }, {
+      "label": "TS_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["physical temperature"],
+          "label": "temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "soil temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilTempCelsius"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "TS_1_2_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["physical temperature"],
+          "label": "temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "soil temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilTempCelsius"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "TS_1_3_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["physical temperature"],
+          "label": "temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "soil temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilTempCelsius"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "TS_1_4_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["physical temperature"],
+          "label": "temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "soil temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilTempCelsius"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "TS_1_5_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["physical temperature"],
+          "label": "temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "soil temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilTempCelsius"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "TS_2_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["physical temperature"],
+          "label": "temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "soil temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilTempCelsius"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "TS_2_2_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["physical temperature"],
+          "label": "temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "soil temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilTempCelsius"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "TS_2_3_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["physical temperature"],
+          "label": "temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "soil temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilTempCelsius"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "TS_2_4_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["physical temperature"],
+          "label": "temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "soil temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilTempCelsius"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "TS_2_5_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["physical temperature"],
+          "label": "temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "soil temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilTempCelsius"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "TS_3_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["physical temperature"],
+          "label": "temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "soil temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilTempCelsius"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "TS_3_2_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["physical temperature"],
+          "label": "temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "soil temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilTempCelsius"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "TS_3_3_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["physical temperature"],
+          "label": "temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "soil temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilTempCelsius"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "TS_3_4_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["physical temperature"],
+          "label": "temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "soil temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilTempCelsius"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "TS_3_5_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["physical temperature"],
+          "label": "temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "soil temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilTempCelsius"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "TS_4_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["physical temperature"],
+          "label": "temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "soil temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilTempCelsius"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "TS_4_2_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["physical temperature"],
+          "label": "temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "soil temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilTempCelsius"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "TS_4_3_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["physical temperature"],
+          "label": "temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "soil temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilTempCelsius"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "TS_4_5_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["physical temperature"],
+          "label": "temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "soil temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilTempCelsius"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "G_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of energy passing through unit area during unit of time"],
+          "label": "energy flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/energyFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "soil heat flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilHeatFlux"
+        },
+        "unit": "W m-2"
+      }
+    }, {
+      "label": "G_2_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of energy passing through unit area during unit of time"],
+          "label": "energy flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/energyFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "soil heat flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilHeatFlux"
+        },
+        "unit": "W m-2"
+      }
+    }, {
+      "label": "G_3_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of energy passing through unit area during unit of time"],
+          "label": "energy flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/energyFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "soil heat flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilHeatFlux"
+        },
+        "unit": "W m-2"
+      }
+    }, {
+      "label": "G_4_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["amount of energy passing through unit area during unit of time"],
+          "label": "energy flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/energyFlux"
+        },
+        "self": {
+          "comments": [],
+          "label": "soil heat flux",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilHeatFlux"
+        },
+        "unit": "W m-2"
+      }
+    }, {
+      "label": "SWC_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "volumetric soil water content",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilWaterContentByVolume"
+        },
+        "unit": "%"
+      }
+    }, {
+      "label": "SWC_1_2_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "volumetric soil water content",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilWaterContentByVolume"
+        },
+        "unit": "%"
+      }
+    }, {
+      "label": "SWC_1_3_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "volumetric soil water content",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilWaterContentByVolume"
+        },
+        "unit": "%"
+      }
+    }, {
+      "label": "SWC_1_4_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "volumetric soil water content",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilWaterContentByVolume"
+        },
+        "unit": "%"
+      }
+    }, {
+      "label": "SWC_1_5_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "volumetric soil water content",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilWaterContentByVolume"
+        },
+        "unit": "%"
+      }
+    }, {
+      "label": "SWC_2_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "volumetric soil water content",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilWaterContentByVolume"
+        },
+        "unit": "%"
+      }
+    }, {
+      "label": "SWC_2_2_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "volumetric soil water content",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilWaterContentByVolume"
+        },
+        "unit": "%"
+      }
+    }, {
+      "label": "SWC_2_3_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "volumetric soil water content",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilWaterContentByVolume"
+        },
+        "unit": "%"
+      }
+    }, {
+      "label": "SWC_2_4_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "volumetric soil water content",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilWaterContentByVolume"
+        },
+        "unit": "%"
+      }
+    }, {
+      "label": "SWC_2_5_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "volumetric soil water content",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilWaterContentByVolume"
+        },
+        "unit": "%"
+      }
+    }, {
+      "label": "SWC_3_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "volumetric soil water content",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilWaterContentByVolume"
+        },
+        "unit": "%"
+      }
+    }, {
+      "label": "SWC_3_2_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "volumetric soil water content",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilWaterContentByVolume"
+        },
+        "unit": "%"
+      }
+    }, {
+      "label": "SWC_3_3_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "volumetric soil water content",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilWaterContentByVolume"
+        },
+        "unit": "%"
+      }
+    }, {
+      "label": "SWC_3_4_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "volumetric soil water content",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilWaterContentByVolume"
+        },
+        "unit": "%"
+      }
+    }, {
+      "label": "SWC_3_5_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "volumetric soil water content",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilWaterContentByVolume"
+        },
+        "unit": "%"
+      }
+    }, {
+      "label": "SWC_4_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "volumetric soil water content",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilWaterContentByVolume"
+        },
+        "unit": "%"
+      }
+    }, {
+      "label": "SWC_4_2_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "volumetric soil water content",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilWaterContentByVolume"
+        },
+        "unit": "%"
+      }
+    }, {
+      "label": "SWC_4_3_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "volumetric soil water content",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilWaterContentByVolume"
+        },
+        "unit": "%"
+      }
+    }, {
+      "label": "SWC_4_4_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "volumetric soil water content",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilWaterContentByVolume"
+        },
+        "unit": "%"
+      }
+    }, {
+      "label": "SWC_4_5_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "volumetric soil water content",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/soilWaterContentByVolume"
+        },
+        "unit": "%"
+      }
+    }, {
+      "label": "GWL_1_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["spatial length"],
+          "label": "length",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/length"
+        },
+        "self": {
+          "comments": [],
+          "label": "water table depth",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/waterTableDepth"
+        },
+        "unit": "m"
+      }
+    }, {
+      "label": "GWL_2_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["spatial length"],
+          "label": "length",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/length"
+        },
+        "self": {
+          "comments": [],
+          "label": "water table depth",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/waterTableDepth"
+        },
+        "unit": "m"
+      }
+    }, {
+      "label": "GWL_3_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["spatial length"],
+          "label": "length",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/length"
+        },
+        "self": {
+          "comments": [],
+          "label": "water table depth",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/waterTableDepth"
+        },
+        "unit": "m"
+      }
+    }, {
+      "label": "GWL_4_1_1",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["spatial length"],
+          "label": "length",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/length"
+        },
+        "self": {
+          "comments": [],
+          "label": "water table depth",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/waterTableDepth"
+        },
+        "unit": "m"
+      }
+    }],
+    "nRows": 17568,
+    "productionInfo": {
+      "comment": "below canopy data. Ts: soil temperature (depths: -0.02m, -0.05m, -0.10m, -0.3m, -0.5m), SWC: vol. soil moisture (depth: vertical 0- -0.06m), G: soil heat flux plate (-0.05m); GWL: ground water level above sea level. Indices _horPlace_vertPlace_repetition. Timestamp at end of the averaging interval. More information: www.icos-sweden.se",
+      "contributors": [{
+        "firstName": "Janne",
+        "lastName": "Rinne",
+        "orcid": "0000-0003-1168-7138",
+        "self": {
+          "comments": [],
+          "uri": "http://meta.icos-cp.eu/resources/people/Janne_Rinne"
+        }
+      }],
+      "creator": {
+        "name": "ICOS Sweden",
+        "self": {
+          "comments": [],
+          "label": "ICOS-SE",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/icosSweden"
+        }
+      },
+      "dateTime": "2021-04-21T00:00:00Z",
+      "sources": []
+    }
+  },
+  "specification": {
+    "dataLevel": 1,
+    "datasetSpec": {
+      "self": {
+        "comments": [],
+        "label": "Ecosystem eco time series (ICOS Sweden)",
+        "uri": "http://meta.icos-cp.eu/resources/cpmeta/ecoEcoDataset"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Time series in ICOS Sweden format",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiEtcTimeSer"
+    },
+    "project": {
+      "keywords": ["pre-ICOS", "Sweden"],
+      "self": {
+        "comments": ["Uploads from ICOS Sweden that do not have the official ICOS status"],
+        "label": "Swedish National Network",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos_sweden"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "Ecosystem eco time series (ICOS Sweden)",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/ecoEcoDataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-04-21T15:11:32.317Z",
+    "stop": "2021-04-21T15:12:55.766Z",
+    "submitter": {
+      "name": "ICOS Sweden",
+      "self": {
+        "comments": [],
+        "label": "ICOS-SE",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/icosSweden"
+      }
+    }
+  }
+}

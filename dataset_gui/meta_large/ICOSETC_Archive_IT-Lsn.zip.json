@@ -1,0 +1,167 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/xsn55wvnOdLD_ta5UE19v42M",
+  "coverageGeo": {
+    "coordinates": [10.29091, 43.73202, 4.0],
+    "type": "Point"
+  },
+  "fileName": "ICOSETC_Archive_IT-SR2.zip",
+  "hash": "xsn55wvnOdLD_ta5UE19v42M9SCExRxNlXV0BlUHAAc",
+  "parentCollections": [{
+    "comments": [],
+    "label": "Ecosystem final quality (L2) product in ETC-Archive format - release 2021-1",
+    "uri": "https://meta.icos-cp.eu/collections/Yljl66tHIJM-XlCmvTvMU3vi"
+  }],
+  "pid": "11676/xsn55wvnOdLD_ta5UE19v42M",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Nicola",
+      "lastName": "Arriga",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Nicola_Arriga"
+      }
+    }, {
+      "firstName": "Ignacio",
+      "lastName": "Goded",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Ignacio_Goded"
+      }
+    }, {
+      "firstName": "Alessandro",
+      "lastName": "Dell'Acqua",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Alessandro_Dell'Acqua"
+      }
+    }, {
+      "firstName": "Marco",
+      "lastName": "Matteucci",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Marco_Matteucci"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/xsn55wvnOdLD_ta5UE19v42M,\r\n  author={Arriga, N., Goded, I., Dell'Acqua, A., Matteucci, M.},\r\n  title={ETC L2 ARCHIVE, San Rossore 2, 2018-12-31–2020-12-31},\r\n  year={2020},\r\n  url={https://hdl.handle.net/11676/xsn55wvnOdLD_ta5UE19v42M},\r\n  publisher={Ecosystem Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/xsn55wvnOdLD_ta5UE19v42M}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ETC L2 ARCHIVE, San Rossore 2, 2018-12-31–2020-12-31\r\nID - 11676/xsn55wvnOdLD_ta5UE19v42M\r\nPY - 2020\r\nUR - https://hdl.handle.net/11676/xsn55wvnOdLD_ta5UE19v42M\r\nPB - Ecosystem Thematic Centre\r\nAU - Arriga, N.\r\nAU - Goded, I.\r\nAU - Dell'Acqua, A.\r\nAU - Matteucci, M.\r\nER - ",
+    "citationString": "Arriga, N., Goded, I., Dell'Acqua, A., Matteucci, M., ICOS RI, 2020. ETC L2 ARCHIVE, San Rossore 2, 2018-12-31–2020-12-31, https://hdl.handle.net/11676/xsn55wvnOdLD_ta5UE19v42M",
+    "temporalCoverageDisplay": "2018-12-31–2020-12-31"
+  },
+  "size": 22376121,
+  "specificInfo": {
+    "acquisition": {
+      "interval": {
+        "start": "2018-12-31T23:00:00Z",
+        "stop": "2020-12-31T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 4.0,
+          "geo": {
+            "coordinates": [10.29091, 43.73202, 4.0],
+            "type": "Point"
+          },
+          "label": "IT-SR2",
+          "lat": 43.73202,
+          "lon": 10.29091
+        },
+        "id": "IT-SR2",
+        "org": {
+          "name": "San Rossore 2",
+          "self": {
+            "comments": ["The site San Rossore 2, with ICOS code IT-SR2, is located inside the Parco Regionale Migliarino, San Rossore, Massaciuccoli approximately 8 Km west of Pisa. The ecosystem under investigation is a very homogeneous and dense stand of Pinus pinea L., in addition only scarce occurrences of Quercus ilex L., Fraxinus excelsior L. and Alnus glutinosa (L.)Gaertn."],
+            "label": "IT-SR2",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_IT-SR2"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/nKYFGM5Ygr4ro35/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "climateZone": {
+            "comments": [],
+            "label": "Hot-summer mediterranean (Csa)",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/koppen_Csa"
+          },
+          "countryCode": "IT",
+          "documentation": [{
+            "hash": "AOMLxEUp5yxyI3fSoekpXfGnGHhpH_OLlwJF7o9NDMA",
+            "name": "IT-SR2 ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/AOMLxEUp5yxyI3fSoekpXfGn"
+          }],
+          "ecosystemType": {
+            "comments": ["Lands dominated by woody vegetation with a percent cover >60% and height exceeding 2 meters. Almost all trees remain green all year. Canopy is never without green foliage."],
+            "label": "Evergreen Needleleaf Forests",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_ENF"
+          },
+          "labelingDate": "2019-10-28",
+          "meanAnnualPrecip": 950.0,
+          "meanAnnualRad": 175.0,
+          "meanAnnualTemp": 15.3,
+          "stationClass": "2",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    },
+    "nRows": 35088
+  },
+  "specification": {
+    "dataLevel": 2,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Arbitrary ZIP archive",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipArchive"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ETC L2 ARCHIVE",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcArchiveProduct"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-04-30T10:41:58.252Z",
+    "stop": "2021-04-30T10:42:26.568Z",
+    "submitter": {
+      "name": "Ecosystem Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ETC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ETC"
+      }
+    }
+  }
+}

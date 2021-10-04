@@ -1,0 +1,139 @@
+{
+  "coverageGeo": {
+    "coordinates": [24.1157, 67.9733, 565.0],
+    "type": "Point"
+  },
+  "fileName": "PAL_485_20210329.zip",
+  "hash": "r0GNPkY-QwNRfaOcnGCBUPUammdVi4TKZ2oEfc7-qgc",
+  "parentCollections": [],
+  "pid": "11676/r0GNPkY-QwNRfaOcnGCBUPUa",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Juha",
+      "lastName": "Hatakka",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Juha_Hatakka"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/r0GNPkY-QwNRfaOcnGCBUPUa,\r\n  author={Hatakka, J.},\r\n  title={ICOS ATC Picarro data csv time series, Pallas, 2021-03-29},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/r0GNPkY-QwNRfaOcnGCBUPUa},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/r0GNPkY-QwNRfaOcnGCBUPUa}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC Picarro data csv time series, Pallas, 2021-03-29\r\nID - 11676/r0GNPkY-QwNRfaOcnGCBUPUa\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/r0GNPkY-QwNRfaOcnGCBUPUa\r\nPB - Atmosphere Thematic Centre\r\nAU - Hatakka, J.\r\nER - ",
+    "citationString": "Hatakka, J., ICOS RI, 2021. ICOS ATC Picarro data csv time series, Pallas, 2021-03-29, https://hdl.handle.net/11676/r0GNPkY-QwNRfaOcnGCBUPUa",
+    "temporalCoverageDisplay": "2021-03-29"
+  },
+  "size": 7195191,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "CO2-CH4-CO-H2O Picarro Analyzer",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_485"
+      },
+      "interval": {
+        "start": "2021-03-29T00:00:00Z",
+        "stop": "2021-03-29T23:59:59Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 565.0,
+          "geo": {
+            "coordinates": [24.1157, 67.9733, 565.0],
+            "type": "Point"
+          },
+          "label": "PAL",
+          "lat": 67.9733,
+          "lon": 24.1157
+        },
+        "id": "PAL",
+        "org": {
+          "name": "Pallas",
+          "self": {
+            "comments": [],
+            "label": "PAL",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_PAL"
+          }
+        },
+        "pictures": ["https://meta.icos-cp.eu/files/UnWNQPTBonW85rP3RVTiNMBb/Pallas_Sammaltunturi_station.jpg"],
+        "responsibleOrganization": {
+          "name": "Finnish Meteorological Institute",
+          "self": {
+            "comments": [],
+            "label": "FMI",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/FMI"
+          },
+          "website": "https://en.ilmatieteenlaitos.fi/greenhouse-gases"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "FI",
+          "documentation": [{
+            "hash": "YbXywVX4KacGmWLSZe5jyAUSQURX0MHE7Kcboh7zL3E",
+            "name": "Pallas_STILT_station_characterization.pdf",
+            "res": "https://meta.icos-cp.eu/objects/YbXywVX4KacGmWLSZe5jyAUS"
+          }],
+          "labelingDate": "2018-11-30",
+          "stationClass": "1",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 2
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "ICOS ATC Raw time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ATC Picarro data csv time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcPicarroL0DataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-03-30T09:00:53.304Z",
+    "stop": "2021-03-30T09:00:56.516Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

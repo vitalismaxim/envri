@@ -1,0 +1,254 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/iVJ8H4Z7xReuJ7cFrcP88hRb",
+  "coverageGeo": {
+    "coordinates": [2.1125, 47.9647, 131.0],
+    "type": "Point"
+  },
+  "fileName": "ICOS_ATC_NRT_TRN_2021-05-30_2021-05-30_180.0_55_RN.zip",
+  "hash": "iVJ8H4Z7xReuJ7cFrcP88hRbZ5Rdr3B6ApKXqjaeNwI",
+  "parentCollections": [],
+  "pid": "11676/iVJ8H4Z7xReuJ7cFrcP88hRb",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Michel",
+      "lastName": "Ramonet",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Michel_Ramonet"
+      }
+    }, {
+      "firstName": "Morgan",
+      "lastName": "Lopez",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Morgan_Lopez"
+      }
+    }, {
+      "firstName": "Victor",
+      "lastName": "Kazan",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Victor_Kazan"
+      }
+    }, {
+      "firstName": "Marc",
+      "lastName": "Delmotte",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Marc_Delmotte"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/iVJ8H4Z7xReuJ7cFrcP88hRb,\r\n  author={Ramonet, M., Lopez, M., Kazan, V., Delmotte, M.},\r\n  title={ICOS ATC NRT radon data csv time series, Trainou (180.0 m), 2021-05-30},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/iVJ8H4Z7xReuJ7cFrcP88hRb},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/iVJ8H4Z7xReuJ7cFrcP88hRb}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC NRT radon data csv time series, Trainou (180.0 m), 2021-05-30\r\nID - 11676/iVJ8H4Z7xReuJ7cFrcP88hRb\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/iVJ8H4Z7xReuJ7cFrcP88hRb\r\nPB - Atmosphere Thematic Centre\r\nAU - Ramonet, M.\r\nAU - Lopez, M.\r\nAU - Kazan, V.\r\nAU - Delmotte, M.\r\nER - ",
+    "citationString": "Ramonet, M., Lopez, M., Kazan, V., Delmotte, M., ICOS RI, 2021. ICOS ATC NRT radon data csv time series, Trainou (180.0 m), 2021-05-30, https://hdl.handle.net/11676/iVJ8H4Z7xReuJ7cFrcP88hRb",
+    "temporalCoverageDisplay": "2021-05-30"
+  },
+  "size": 1625,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "Radon gas analyzer",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_55"
+      },
+      "interval": {
+        "start": "2021-05-30T00:00:00Z",
+        "stop": "2021-05-30T23:00:00Z"
+      },
+      "samplingHeight": 180.0,
+      "station": {
+        "coverage": {
+          "alt": 131.0,
+          "geo": {
+            "coordinates": [2.1125, 47.9647, 131.0],
+            "type": "Point"
+          },
+          "label": "TRN",
+          "lat": 47.9647,
+          "lon": 2.1125
+        },
+        "id": "TRN",
+        "org": {
+          "name": "Trainou",
+          "self": {
+            "comments": [],
+            "label": "TRN",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_TRN"
+          }
+        },
+        "pictures": ["https://meta.icos-cp.eu/files/FC00iUkTvfon6mPrahl0xkWg/TRN_obs_apr2010.jpg", "https://meta.icos-cp.eu/files/Q-5CDo5p0oFWeM3gs_1GwCtk/TR3_meteoinlet.JPG"],
+        "responsibleOrganization": {
+          "name": "Laboratoire des Sciences du Climat et de l'Environnement",
+          "self": {
+            "comments": [],
+            "label": "LSCE",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/LSCE"
+          },
+          "website": "https://www.lsce.ipsl.fr"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "FR",
+          "documentation": [{
+            "hash": "o0RbAXr33uErB_hquozbUZx9DBCAGZnNhiEMJH_LL3M",
+            "name": "Trainou_STILT_station_characterization.pdf",
+            "res": "https://meta.icos-cp.eu/objects/o0RbAXr33uErB_hquozbUZx9"
+          }],
+          "labelingDate": "2018-11-30",
+          "stationClass": "2",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, UTC",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStamp"
+        }
+      }
+    }, {
+      "label": "Flag",
+      "valueType": {
+        "self": {
+          "comments": ["single-letter quality flag"],
+          "label": "quality flag",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/oneLetterFlag"
+        }
+      }
+    }, {
+      "label": "NbPoints",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["integer number"],
+          "label": "number",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/number"
+        },
+        "self": {
+          "comments": [],
+          "label": "number of points",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/npoints"
+        }
+      }
+    }, {
+      "label": "rn",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["frequency of radioactive atomic decay occurence in a unit volume"],
+          "label": "radioactivity concentration",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/radioactivityConcentration"
+        },
+        "self": {
+          "comments": ["radon concentration in atmosphere, measured as frequency of radioactive decays per cubic meter"],
+          "label": "radon concentration",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/radonConcentration"
+        },
+        "unit": "Bq m-3"
+      }
+    }, {
+      "label": "Stdev",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["frequency of radioactive atomic decay occurence in a unit volume"],
+          "label": "radioactivity concentration",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/radioactivityConcentration"
+        },
+        "self": {
+          "comments": [],
+          "label": "standard deviation of radon concentration",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/radonConcentrationSd"
+        },
+        "unit": "Bq m-3"
+      }
+    }],
+    "nRows": 24,
+    "productionInfo": {
+      "contributors": [],
+      "creator": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "dateTime": "2021-05-31T05:24:26Z",
+      "host": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "sources": []
+    }
+  },
+  "specification": {
+    "dataLevel": 1,
+    "datasetSpec": {
+      "self": {
+        "comments": [],
+        "label": "Atmospheric radon time series",
+        "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcRnTimeSer"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": ["Semicolon-separated ASCII, with #-prefixed multi-line header"],
+      "label": "ICOS ATC time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcProductTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ATC NRT radon data csv time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcRnNrtDataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-05-31T05:24:26.793048Z",
+    "stop": "2021-05-31T05:24:29.209969Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/2cl64WSwIeJa1BpqoEW6LgW-",
+  "coverageGeo": {
+    "coordinates": [21.3672, 59.7839, 8.0],
+    "type": "Point"
+  },
+  "fileName": "ICOS_ATC_NRT_UTO_2020-06-01_2021-04-10_57.0_486-999_CH4.zip",
+  "hash": "2cl64WSwIeJa1BpqoEW6LgW-IRLS8wFjcyDAqE8GBbA",
+  "nextVersion": "https://meta.icos-cp.eu/objects/DbxerIxEAttcWV6-s4YoiLeY",
+  "parentCollections": [],
+  "pid": "11676/2cl64WSwIeJa1BpqoEW6LgW-",
+  "previousVersion": "https://meta.icos-cp.eu/objects/Pddn9t4T8gu7q7zSiMoBrSMD",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Tuomas",
+      "lastName": "Laurila",
+      "orcid": "0000-0002-1967-0624",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Tuomas_Laurila"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/2cl64WSwIeJa1BpqoEW6LgW-,\r\n  author={Laurila, T.},\r\n  title={ICOS ATC NRT CH4 growing time series, Utö - Baltic sea (57.0 m), 2020-06-01–2021-04-10},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/2cl64WSwIeJa1BpqoEW6LgW-},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/2cl64WSwIeJa1BpqoEW6LgW-}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC NRT CH4 growing time series, Utö - Baltic sea (57.0 m), 2020-06-01–2021-04-10\r\nID - 11676/2cl64WSwIeJa1BpqoEW6LgW-\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/2cl64WSwIeJa1BpqoEW6LgW-\r\nPB - Atmosphere Thematic Centre\r\nAU - Laurila, T.\r\nER - ",
+    "citationString": "Laurila, T., ICOS RI, 2021. ICOS ATC NRT CH4 growing time series, Utö - Baltic sea (57.0 m), 2020-06-01–2021-04-10, https://hdl.handle.net/11676/2cl64WSwIeJa1BpqoEW6LgW-",
+    "temporalCoverageDisplay": "2020-06-01–2021-04-10"
+  },
+  "size": 107287,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": [{
+        "comments": [],
+        "label": "CO2-CH4-CO-H2O Picarro Analyzer",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_486"
+      }, {
+        "comments": [],
+        "label": "CO2-CH4-H2O Picarro Analyzer",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_999"
+      }],
+      "interval": {
+        "start": "2020-06-01T00:00:00Z",
+        "stop": "2021-04-10T23:00:00Z"
+      },
+      "samplingHeight": 57.0,
+      "station": {
+        "coverage": {
+          "alt": 8.0,
+          "geo": {
+            "coordinates": [21.3672, 59.7839, 8.0],
+            "type": "Point"
+          },
+          "label": "UTO",
+          "lat": 59.7839,
+          "lon": 21.3672
+        },
+        "id": "UTO",
+        "org": {
+          "name": "Utö - Baltic sea",
+          "self": {
+            "comments": [],
+            "label": "UTO",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_UTO"
+          }
+        },
+        "pictures": ["https://meta.icos-cp.eu/files/7zOAqMV8AqesUsUe76Gmx132/UtoSamplingTower.jpg"],
+        "responsibleOrganization": {
+          "name": "Finnish Meteorological Institute",
+          "self": {
+            "comments": [],
+            "label": "FMI",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/FMI"
+          },
+          "website": "https://en.ilmatieteenlaitos.fi/greenhouse-gases"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "FI",
+          "documentation": [{
+            "hash": "VwL6aY7EoVR3_5ugXdmdaM_2-VbPDPSo3lFOLpojSc8",
+            "name": "Uto_Baltic_sea_STILT_station_characterization.pdf",
+            "res": "https://meta.icos-cp.eu/objects/VwL6aY7EoVR3_5ugXdmdaM_2"
+          }],
+          "labelingDate": "2019-05-22",
+          "stationClass": "2",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 2
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, UTC",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStamp"
+        }
+      }
+    }, {
+      "label": "Flag",
+      "valueType": {
+        "self": {
+          "comments": ["single-letter quality flag"],
+          "label": "quality flag",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/oneLetterFlag"
+        }
+      }
+    }, {
+      "label": "NbPoints",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["integer number"],
+          "label": "number",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/number"
+        },
+        "self": {
+          "comments": [],
+          "label": "number of points",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/npoints"
+        }
+      }
+    }, {
+      "label": "ch4",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "CH4 mixing ratio (dry mole fraction)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/ch4MixingRatioPpb"
+        },
+        "unit": "nmol mol-1"
+      }
+    }, {
+      "label": "Stdev",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "standard deviation of gas mole fraction",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/moleFractionSdPpb"
+        },
+        "unit": "nmol mol-1"
+      }
+    }],
+    "nRows": 7536,
+    "productionInfo": {
+      "contributors": [],
+      "creator": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "dateTime": "2021-04-11T10:16:20Z",
+      "host": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "sources": []
+    }
+  },
+  "specification": {
+    "dataLevel": 1,
+    "datasetSpec": {
+      "self": {
+        "comments": [],
+        "label": "Atmospheric CH4 mole fraction time series",
+        "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcCh4MoleFracTimeSer"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": ["Semicolon-separated ASCII, with #-prefixed multi-line header"],
+      "label": "ICOS ATC time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcProductTimeSer"
+    },
+    "keywords": ["CH4", "concentration"],
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": ["Automatically-produced, daily-growing (by data object deprecation) data on molar fraction of atmospheric CH4. The data starts from the last respective L2 release."],
+      "label": "ICOS ATC NRT CH4 growing time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcCh4NrtGrowingDataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-04-11T10:16:21.313Z",
+    "stop": "2021-04-11T10:16:24.316Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

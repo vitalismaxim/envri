@@ -1,0 +1,131 @@
+{
+  "coverageGeo": {
+    "coordinates": [7.8833, 54.1804, 43.0],
+    "type": "Point"
+  },
+  "fileName": "HEL_1097_2_20210527.zip",
+  "hash": "Lgg-PqsEEKrYLB3dBiUOMaLbtdoULtrg0OTxwUMChO4",
+  "parentCollections": [],
+  "pid": "11676/Lgg-PqsEEKrYLB3dBiUOMaLb",
+  "references": {
+    "acknowledgements": [],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/Lgg-PqsEEKrYLB3dBiUOMaLb,\r\n  title={ICOS ATC Meteorological data csv time series, Helgoland, 2021-05-27},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/Lgg-PqsEEKrYLB3dBiUOMaLb},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/Lgg-PqsEEKrYLB3dBiUOMaLb}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC Meteorological data csv time series, Helgoland, 2021-05-27\r\nID - 11676/Lgg-PqsEEKrYLB3dBiUOMaLb\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/Lgg-PqsEEKrYLB3dBiUOMaLb\r\nPB - Atmosphere Thematic Centre\r\nER - ",
+    "citationString": "ICOS RI, 2021. ICOS ATC Meteorological data csv time series, Helgoland, 2021-05-27, https://hdl.handle.net/11676/Lgg-PqsEEKrYLB3dBiUOMaLb",
+    "temporalCoverageDisplay": "2021-05-27"
+  },
+  "size": 16898,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "Meteorological station for the second level",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_1097"
+      },
+      "interval": {
+        "start": "2021-05-27T00:00:00Z",
+        "stop": "2021-05-27T23:59:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 43.0,
+          "geo": {
+            "coordinates": [7.8833, 54.1804, 43.0],
+            "type": "Point"
+          },
+          "label": "HEL",
+          "lat": 54.1804,
+          "lon": 7.8833
+        },
+        "id": "HEL",
+        "org": {
+          "name": "Helgoland",
+          "self": {
+            "comments": [],
+            "label": "HEL",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_HEL"
+          }
+        },
+        "pictures": [],
+        "responsibleOrganization": {
+          "name": "Deutscher Wetterdienst, Hohenpeißenberg Meteorological Observatory",
+          "self": {
+            "comments": [],
+            "label": "MOHp",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/MOHp"
+          },
+          "website": "https://www.dwd.de/mohp"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "DE",
+          "documentation": [{
+            "hash": "3U90h79P_7J_AwKPJpHC2oUjBanJu1Xb0j6xSRiDJ4o",
+            "name": "Helgoland_STILT_station_characterization.pdf",
+            "res": "https://meta.icos-cp.eu/objects/3U90h79P_7J_AwKPJpHC2oUj"
+          }],
+          "labelingDate": "2020-11-17",
+          "stationClass": "2",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "ICOS ATC Raw time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ATC Meteorological data csv time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcMeteoL0DataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-05-28T09:40:33.745Z",
+    "stop": "2021-05-28T09:40:37.151Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

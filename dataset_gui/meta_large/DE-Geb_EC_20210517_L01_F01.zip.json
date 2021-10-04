@@ -1,0 +1,195 @@
+{
+  "coverageGeo": {
+    "coordinates": [2.780096, 48.47636, 103.0],
+    "type": "Point"
+  },
+  "fileName": "FR-Fon_EC_20210517_L01_F01.zip",
+  "hash": "PE32Lf-GNx563_dmoNlXCIPPYDDL8wH86D2oAARg8ko",
+  "parentCollections": [],
+  "pid": "11676/PE32Lf-GNx563_dmoNlXCIPP",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Daniel",
+      "lastName": "Berveiller",
+      "orcid": "0000-0001-7461-6420",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Daniel_Berveiller"
+      }
+    }, {
+      "firstName": "Nicolas",
+      "lastName": "Delpierre",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Nicolas_Delpierre"
+      }
+    }, {
+      "firstName": "Alexandre",
+      "lastName": "Morfin",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Alexandre_Morfin"
+      }
+    }, {
+      "firstName": "Gaëlle",
+      "lastName": "Vincent",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Ga%C3%ABlle_Vincent"
+      }
+    }, {
+      "firstName": "Eric",
+      "lastName": "Dufrêne",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Eric_Dufr%C3%AAne"
+      }
+    }, {
+      "firstName": "Stéphane",
+      "lastName": "Bazot",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/St%C3%A9phane_Bazot"
+      }
+    }, {
+      "firstName": "Kamel",
+      "lastName": "Soudani",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Kamel_Soudani"
+      }
+    }, {
+      "firstName": "Clotilde",
+      "lastName": "Perot-Guillaume",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Clotilde_Perot-Guillaume"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/PE32Lf-GNx563_dmoNlXCIPP,\r\n  author={Berveiller, D., Delpierre, N., Morfin, A., Vincent, G., Dufrêne, E., Bazot, S., Soudani, K., Perot-Guillaume, C.},\r\n  title={ICOS ETC Eddy Flux Raw ASCII daily archive, Fontainebleau-Barbeau, 2021-05-17},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/PE32Lf-GNx563_dmoNlXCIPP},\r\n  publisher={Fontainebleau-Barbeau},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/PE32Lf-GNx563_dmoNlXCIPP}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ETC Eddy Flux Raw ASCII daily archive, Fontainebleau-Barbeau, 2021-05-17\r\nID - 11676/PE32Lf-GNx563_dmoNlXCIPP\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/PE32Lf-GNx563_dmoNlXCIPP\r\nPB - Fontainebleau-Barbeau\r\nAU - Berveiller, D.\r\nAU - Delpierre, N.\r\nAU - Morfin, A.\r\nAU - Vincent, G.\r\nAU - Dufrêne, E.\r\nAU - Bazot, S.\r\nAU - Soudani, K.\r\nAU - Perot-Guillaume, C.\r\nER - ",
+    "citationString": "Berveiller, D., Delpierre, N., Morfin, A., Vincent, G., Dufrêne, E., Bazot, S., Soudani, K., Perot-Guillaume, C., ICOS RI, 2021. ICOS ETC Eddy Flux Raw ASCII daily archive, Fontainebleau-Barbeau, 2021-05-17, https://hdl.handle.net/11676/PE32Lf-GNx563_dmoNlXCIPP",
+    "temporalCoverageDisplay": "2021-05-17"
+  },
+  "size": 130694188,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "DL-LI-COR SFlux2",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ETC_8_1"
+      },
+      "interval": {
+        "start": "2021-05-16T23:00:00Z",
+        "stop": "2021-05-17T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 103.0,
+          "geo": {
+            "coordinates": [2.780096, 48.47636, 103.0],
+            "type": "Point"
+          },
+          "label": "FR-Fon",
+          "lat": 48.47636,
+          "lon": 2.780096
+        },
+        "id": "FR-Fon",
+        "org": {
+          "name": "Fontainebleau-Barbeau",
+          "self": {
+            "comments": ["The Fontainebleau-Barbeau station, with ICOS code FR-Fon, is located about 50 km South-East of Paris (France), within the Atlantic Biogeographical Region and it is a deciduous oak forest. The climate is temperate oceanic, well representative of a large North-Western part of Europe. The forest is dominated by Quercus petraea (Matt.) Liebl. and Quercus robur L., with a hornbeam coppice understory established on a gleyic luvisol."],
+            "label": "FR-Fon",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_FR-Fon"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/6RP26rRzWYsqYHX/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "climateZone": {
+            "comments": [],
+            "label": "Oceanic subtropical highland (Cfb)",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/koppen_Cfb"
+          },
+          "countryCode": "FR",
+          "documentation": [{
+            "hash": "ZJ8O5RfOJ9JS75ckCKDUJD-fD302iYMbU7A7vJM1zh0",
+            "name": "FR-Fon ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/ZJ8O5RfOJ9JS75ckCKDUJD-f"
+          }],
+          "ecosystemType": {
+            "comments": ["Lands dominated by woody vegetation with a percent cover >60% and height exceeding 2 meters. Consists of broadleaf tree communities with an annual cycle of leaf-on and leaf-off periods."],
+            "label": "Deciduous Broadleaf Forests",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_DBF"
+          },
+          "labelingDate": "2019-10-28",
+          "meanAnnualPrecip": 678.99,
+          "meanAnnualRad": 134.97,
+          "meanAnnualTemp": 11.44,
+          "stationClass": "1",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Multi-file zip archive with ETC raw time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/etcRawTimeSerMultiZip"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ETC Eddy Flux Raw ASCII daily archive",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcEddyFluxRawSeriesCsv"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-05-17T23:16:41.314Z",
+    "stop": "2021-05-17T23:16:52.467Z",
+    "submitter": {
+      "name": "Fontainebleau-Barbeau",
+      "self": {
+        "comments": ["The Fontainebleau-Barbeau station, with ICOS code FR-Fon, is located about 50 km South-East of Paris (France), within the Atlantic Biogeographical Region and it is a deciduous oak forest. The climate is temperate oceanic, well representative of a large North-Western part of Europe. The forest is dominated by Quercus petraea (Matt.) Liebl. and Quercus robur L., with a hornbeam coppice understory established on a gleyic luvisol."],
+        "label": "FR-Fon",
+        "uri": "http://meta.icos-cp.eu/resources/stations/ES_FR-Fon"
+      }
+    }
+  }
+}

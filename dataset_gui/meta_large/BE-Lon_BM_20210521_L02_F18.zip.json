@@ -1,0 +1,178 @@
+{
+  "coverageGeo": {
+    "coordinates": [12.35729, 41.70427, 19.0],
+    "type": "Point"
+  },
+  "fileName": "IT-Cp2_BM_20210521_L04_F01.dat",
+  "hash": "Rp7xQPEvRbvzb8Dqp8Nlm4AJEkCvyUzYbdqVKB34UrY",
+  "parentCollections": [],
+  "pid": "11676/Rp7xQPEvRbvzb8Dqp8Nlm4AJ",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Silvano",
+      "lastName": "Fares",
+      "orcid": "0000-0002-1990-0928",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Silvano_Fares"
+      }
+    }, {
+      "firstName": "Alessandro",
+      "lastName": "Alivernini",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Alessandro_Alivernini"
+      }
+    }, {
+      "firstName": "Francesco",
+      "lastName": "Chianucci",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Francesco_Chianucci"
+      }
+    }, {
+      "firstName": "Adriano",
+      "lastName": "Conte",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Adriano_Conte"
+      }
+    }, {
+      "firstName": "Filippo",
+      "lastName": "Ilardi",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Filippo_Ilardi"
+      }
+    }, {
+      "firstName": "Valerio",
+      "lastName": "Moretti",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Valerio_Moretti"
+      }
+    }, {
+      "firstName": "Tiziano",
+      "lastName": "Sorgi",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Tiziano_Sorgi"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/Rp7xQPEvRbvzb8Dqp8Nlm4AJ,\r\n  author={Fares, S., Alivernini, A., Chianucci, F., Conte, A., Ilardi, F., Moretti, V., Sorgi, T.},\r\n  title={ICOS ETC Bio Meteo Raw ASCII, Castelporziano2, 2021-05-21},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/Rp7xQPEvRbvzb8Dqp8Nlm4AJ},\r\n  publisher={Castelporziano2},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/Rp7xQPEvRbvzb8Dqp8Nlm4AJ}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ETC Bio Meteo Raw ASCII, Castelporziano2, 2021-05-21\r\nID - 11676/Rp7xQPEvRbvzb8Dqp8Nlm4AJ\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/Rp7xQPEvRbvzb8Dqp8Nlm4AJ\r\nPB - Castelporziano2\r\nAU - Fares, S.\r\nAU - Alivernini, A.\r\nAU - Chianucci, F.\r\nAU - Conte, A.\r\nAU - Ilardi, F.\r\nAU - Moretti, V.\r\nAU - Sorgi, T.\r\nER - ",
+    "citationString": "Fares, S., Alivernini, A., Chianucci, F., Conte, A., Ilardi, F., Moretti, V., Sorgi, T., ICOS RI, 2021. ICOS ETC Bio Meteo Raw ASCII, Castelporziano2, 2021-05-21, https://hdl.handle.net/11676/Rp7xQPEvRbvzb8Dqp8Nlm4AJ",
+    "temporalCoverageDisplay": "2021-05-21"
+  },
+  "size": 38694,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "DL-Campbell CR300",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ETC_44_4"
+      },
+      "interval": {
+        "start": "2021-05-20T23:00:00Z",
+        "stop": "2021-05-21T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 19.0,
+          "geo": {
+            "coordinates": [12.35729, 41.70427, 19.0],
+            "type": "Point"
+          },
+          "label": "IT-Cp2",
+          "lat": 41.70427,
+          "lon": 12.35729
+        },
+        "id": "IT-Cp2",
+        "org": {
+          "name": "Castelporziano2",
+          "self": {
+            "comments": ["The station Castelporziano (ICOS code IT-Cp2) is located in the Presidential Estate of Castelporziano, 25 km SW from the center of Rome, Italy and covers an area of about 6000 ha. The undisturbed Mediterranean oak forest of Castelporziano Estate hosts an experimental tower 20 m tall. The forest is a pure Holm Oak stand with some shrubs in the understory."],
+            "label": "IT-Cp2",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_IT-Cp2"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/5CEjYs7TC2exrfQ/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "countryCode": "IT",
+          "documentation": [],
+          "ecosystemType": {
+            "comments": ["Lands dominated by trees with a percent cover >60% and height exceeding 2 meters. Consists of tree communities with interspersed mixtures or mosaics of the other four forest types. None of the forest types exceeds 60% of landscape."],
+            "label": "Mixed Forests",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_MF"
+          },
+          "meanAnnualPrecip": 601.0,
+          "meanAnnualRad": 175.67,
+          "meanAnnualTemp": 16.43,
+          "stationClass": "1",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Raw ASCII ETC station data",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiEtcRawTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ETC Bio Meteo Raw ASCII",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcBioMeteoRawSeriesCsv"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-05-22T00:01:31.684Z",
+    "stop": "2021-05-22T00:01:35.250Z",
+    "submitter": {
+      "name": "Castelporziano2",
+      "self": {
+        "comments": ["The station Castelporziano (ICOS code IT-Cp2) is located in the Presidential Estate of Castelporziano, 25 km SW from the center of Rome, Italy and covers an area of about 6000 ha. The undisturbed Mediterranean oak forest of Castelporziano Estate hosts an experimental tower 20 m tall. The forest is a pure Holm Oak stand with some shrubs in the understory."],
+        "label": "IT-Cp2",
+        "uri": "http://meta.icos-cp.eu/resources/stations/ES_IT-Cp2"
+      }
+    }
+  }
+}

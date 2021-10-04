@@ -1,0 +1,167 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/Fb0ul3CV65FWe0Xu5uWiwSqb",
+  "coverageGeo": {
+    "coordinates": [-52.9248, 5.2787, 40.0],
+    "type": "Point"
+  },
+  "fileName": "ICOSETC_Archive_GF-Guy.zip",
+  "hash": "Fb0ul3CV65FWe0Xu5uWiwSqbKZkZOhfMb3e-fWoP3xk",
+  "parentCollections": [{
+    "comments": [],
+    "label": "Ecosystem final quality (L2) product in ETC-Archive format - release 2021-1",
+    "uri": "https://meta.icos-cp.eu/collections/Yljl66tHIJM-XlCmvTvMU3vi"
+  }],
+  "pid": "11676/Fb0ul3CV65FWe0Xu5uWiwSqb",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Damien",
+      "lastName": "Bonal",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Damien_Bonal"
+      }
+    }, {
+      "firstName": "Benoit",
+      "lastName": "Burban",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Benoit_Burban"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/Fb0ul3CV65FWe0Xu5uWiwSqb,\r\n  author={Bonal, D., Burban, B.},\r\n  title={ETC L2 ARCHIVE, Guyaflux, 2017–2020},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/Fb0ul3CV65FWe0Xu5uWiwSqb},\r\n  publisher={Ecosystem Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/Fb0ul3CV65FWe0Xu5uWiwSqb}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ETC L2 ARCHIVE, Guyaflux, 2017–2020\r\nID - 11676/Fb0ul3CV65FWe0Xu5uWiwSqb\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/Fb0ul3CV65FWe0Xu5uWiwSqb\r\nPB - Ecosystem Thematic Centre\r\nAU - Bonal, D.\r\nAU - Burban, B.\r\nER - ",
+    "citationString": "Bonal, D., Burban, B., ICOS RI, 2021. ETC L2 ARCHIVE, Guyaflux, 2017–2020, https://hdl.handle.net/11676/Fb0ul3CV65FWe0Xu5uWiwSqb",
+    "temporalCoverageDisplay": "2017–2020"
+  },
+  "size": 28281661,
+  "specificInfo": {
+    "acquisition": {
+      "interval": {
+        "start": "2017-01-01T03:00:00Z",
+        "stop": "2021-01-01T03:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 40.0,
+          "geo": {
+            "coordinates": [-52.9248, 5.2787, 40.0],
+            "type": "Point"
+          },
+          "label": "GF-Guy",
+          "lat": 5.2787,
+          "lon": -52.9248
+        },
+        "id": "GF-Guy",
+        "org": {
+          "name": "Guyaflux",
+          "self": {
+            "comments": ["The site is located in the northernmost part of a region on the Guiana Plateau, characterized by a succession of small, elliptical hills rising to 10-40 m above sea level. The soils are mostly nutrient-poor acrisol. The flux tower site is standing in an area of more than 400 ha undisturbed tropical rainforest. Human activity in the footprint of the flux tower are not known since 1-2 centuries, except a few trees that were illegally logged in the 1880''s."],
+            "label": "GF-Guy",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_GF-Guy"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/oWNJYnKnDXFd5Pj/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "climateZone": {
+            "comments": [],
+            "label": "Tropical rainforest (Af)",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/koppen_Af"
+          },
+          "countryCode": "GF",
+          "documentation": [{
+            "hash": "m2EbP1equoPDyNte3HwefAG-A8PKs-61BgNhBoGkccc",
+            "name": "GF-Guy Associated ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/m2EbP1equoPDyNte3HwefAG-"
+          }],
+          "ecosystemType": {
+            "comments": ["Lands dominated by woody vegetation with a percent cover >60% and height exceeding 2 meters. Almost all trees and shrubs remain green year round. Canopy is never without green foliage."],
+            "label": "Evergreen Broadleaf Forests",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_EBF"
+          },
+          "labelingDate": "2019-11-15",
+          "meanAnnualPrecip": 3101.0,
+          "meanAnnualRad": 191.44,
+          "meanAnnualTemp": 25.73,
+          "stationClass": "Associated",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": -3
+        }
+      }
+    },
+    "nRows": 70128,
+    "productionInfo": {
+      "comment": "UTC offset updated",
+      "contributors": [],
+      "creator": {
+        "name": "Ecosystem Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ETC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ETC"
+        }
+      },
+      "dateTime": "2021-05-31T11:11:47Z",
+      "sources": []
+    }
+  },
+  "specification": {
+    "dataLevel": 2,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Arbitrary ZIP archive",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipArchive"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ETC L2 ARCHIVE",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcArchiveProduct"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-04-30T10:39:05.474Z",
+    "stop": "2021-04-30T10:39:36.936Z",
+    "submitter": {
+      "name": "Ecosystem Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ETC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ETC"
+      }
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "coverageGeo": {
+    "coordinates": [10.29091, 43.73202, 4.0],
+    "type": "Point"
+  },
+  "fileName": "IT-SR2_BM_20210308_L05_F02.zip",
+  "hash": "UkWAF0T6Omq0ncRKu5sNDAKu670nWElJPOF4vjEtLiA",
+  "parentCollections": [],
+  "pid": "11676/UkWAF0T6Omq0ncRKu5sNDAKu",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Nicola",
+      "lastName": "Arriga",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Nicola_Arriga"
+      }
+    }, {
+      "firstName": "Alessandro",
+      "lastName": "Dell'Acqua",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Alessandro_Dell'Acqua"
+      }
+    }, {
+      "firstName": "Marco",
+      "lastName": "Matteucci",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Marco_Matteucci"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/UkWAF0T6Omq0ncRKu5sNDAKu,\r\n  author={Arriga, N., Dell'Acqua, A., Matteucci, M.},\r\n  title={ICOS ETC Bio Meteo Raw ASCII, San Rossore 2, 2021-03-08},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/UkWAF0T6Omq0ncRKu5sNDAKu},\r\n  publisher={San Rossore 2},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/UkWAF0T6Omq0ncRKu5sNDAKu}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ETC Bio Meteo Raw ASCII, San Rossore 2, 2021-03-08\r\nID - 11676/UkWAF0T6Omq0ncRKu5sNDAKu\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/UkWAF0T6Omq0ncRKu5sNDAKu\r\nPB - San Rossore 2\r\nAU - Arriga, N.\r\nAU - Dell'Acqua, A.\r\nAU - Matteucci, M.\r\nER - ",
+    "citationString": "Arriga, N., Dell'Acqua, A., Matteucci, M., ICOS RI, 2021. ICOS ETC Bio Meteo Raw ASCII, San Rossore 2, 2021-03-08, https://hdl.handle.net/11676/UkWAF0T6Omq0ncRKu5sNDAKu",
+    "temporalCoverageDisplay": "2021-03-08"
+  },
+  "size": 45012,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "DL-Campbell CR3000",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ETC_48_5"
+      },
+      "interval": {
+        "start": "2021-03-07T23:00:00Z",
+        "stop": "2021-03-08T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 4.0,
+          "geo": {
+            "coordinates": [10.29091, 43.73202, 4.0],
+            "type": "Point"
+          },
+          "label": "IT-SR2",
+          "lat": 43.73202,
+          "lon": 10.29091
+        },
+        "id": "IT-SR2",
+        "org": {
+          "name": "San Rossore 2",
+          "self": {
+            "comments": ["The site San Rossore 2, with ICOS code IT-SR2, is located inside the Parco Regionale Migliarino, San Rossore, Massaciuccoli approximately 8 Km west of Pisa. The ecosystem under investigation is a very homogeneous and dense stand of Pinus pinea L., in addition only scarce occurrences of Quercus ilex L., Fraxinus excelsior L. and Alnus glutinosa (L.)Gaertn."],
+            "label": "IT-SR2",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_IT-SR2"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/nKYFGM5Ygr4ro35/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "climateZone": {
+            "comments": [],
+            "label": "Hot-summer mediterranean (Csa)",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/koppen_Csa"
+          },
+          "countryCode": "IT",
+          "documentation": [{
+            "hash": "AOMLxEUp5yxyI3fSoekpXfGnGHhpH_OLlwJF7o9NDMA",
+            "name": "IT-SR2 ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/AOMLxEUp5yxyI3fSoekpXfGn"
+          }],
+          "ecosystemType": {
+            "comments": ["Lands dominated by woody vegetation with a percent cover >60% and height exceeding 2 meters. Almost all trees remain green all year. Canopy is never without green foliage."],
+            "label": "Evergreen Needleleaf Forests",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_ENF"
+          },
+          "labelingDate": "2019-10-28",
+          "meanAnnualPrecip": 950.0,
+          "meanAnnualRad": 175.0,
+          "meanAnnualTemp": 15.3,
+          "stationClass": "2",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Raw ASCII ETC station data",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiEtcRawTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ETC Bio Meteo Raw ASCII",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcBioMeteoRawSeriesCsv"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-03-08T23:21:50.090Z",
+    "stop": "2021-03-08T23:21:52.534Z",
+    "submitter": {
+      "name": "San Rossore 2",
+      "self": {
+        "comments": ["The site San Rossore 2, with ICOS code IT-SR2, is located inside the Parco Regionale Migliarino, San Rossore, Massaciuccoli approximately 8 Km west of Pisa. The ecosystem under investigation is a very homogeneous and dense stand of Pinus pinea L., in addition only scarce occurrences of Quercus ilex L., Fraxinus excelsior L. and Alnus glutinosa (L.)Gaertn."],
+        "label": "IT-SR2",
+        "uri": "http://meta.icos-cp.eu/resources/stations/ES_IT-SR2"
+      }
+    }
+  }
+}

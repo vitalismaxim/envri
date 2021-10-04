@@ -1,0 +1,203 @@
+{
+  "coverageGeo": {
+    "coordinates": [24.29477, 61.84741, 181.0],
+    "type": "Point"
+  },
+  "fileName": "FI-Hyy_BM_20210625_L08_F02.csv",
+  "hash": "rQ_rbqhBdnjMX0rGJYf4XCE_NHHqF2HsT-vMSaG9sK4",
+  "parentCollections": [],
+  "pid": "11676/rQ_rbqhBdnjMX0rGJYf4XCE_",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Ivan",
+      "lastName": "Mammarella",
+      "orcid": "0000-0002-8516-3356",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Ivan_Mammarella"
+      }
+    }, {
+      "firstName": "Juho",
+      "lastName": "Aalto",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Juho_Aalto"
+      }
+    }, {
+      "firstName": "Jaana",
+      "lastName": "Back",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jaana_Back"
+      }
+    }, {
+      "firstName": "Pasi",
+      "lastName": "Kolari",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Pasi_Kolari"
+      }
+    }, {
+      "firstName": "Heikki",
+      "lastName": "Laakso",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Heikki_Laakso"
+      }
+    }, {
+      "firstName": "Teemu",
+      "lastName": "Matilainen",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Teemu_Matilainen"
+      }
+    }, {
+      "firstName": "Mari",
+      "lastName": "Pihlatie",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Mari_Pihlatie"
+      }
+    }, {
+      "firstName": "Risto",
+      "lastName": "Taipale",
+      "orcid": "0000-0002-4225-256X",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Risto_Taipale_2"
+      }
+    }, {
+      "firstName": "Timo",
+      "lastName": "Vesala",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Timo_Vesala"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/rQ_rbqhBdnjMX0rGJYf4XCE_,\r\n  author={Mammarella, I., Aalto, J., Back, J., Kolari, P., Laakso, H., Matilainen, T., Pihlatie, M., Taipale, R., Vesala, T.},\r\n  title={ICOS ETC Bio Meteo Raw ASCII, Hyytiala, 2021-06-25},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/rQ_rbqhBdnjMX0rGJYf4XCE_},\r\n  publisher={Hyytiala},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/rQ_rbqhBdnjMX0rGJYf4XCE_}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ETC Bio Meteo Raw ASCII, Hyytiala, 2021-06-25\r\nID - 11676/rQ_rbqhBdnjMX0rGJYf4XCE_\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/rQ_rbqhBdnjMX0rGJYf4XCE_\r\nPB - Hyytiala\r\nAU - Mammarella, I.\r\nAU - Aalto, J.\r\nAU - Back, J.\r\nAU - Kolari, P.\r\nAU - Laakso, H.\r\nAU - Matilainen, T.\r\nAU - Pihlatie, M.\r\nAU - Taipale, R.\r\nAU - Vesala, T.\r\nER - ",
+    "citationString": "Mammarella, I., Aalto, J., Back, J., Kolari, P., Laakso, H., Matilainen, T., Pihlatie, M., Taipale, R., Vesala, T., ICOS RI, 2021. ICOS ETC Bio Meteo Raw ASCII, Hyytiala, 2021-06-25, https://hdl.handle.net/11676/rQ_rbqhBdnjMX0rGJYf4XCE_",
+    "temporalCoverageDisplay": "2021-06-25"
+  },
+  "size": 313322,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "DL-PC",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ETC_24_8"
+      },
+      "interval": {
+        "start": "2021-06-24T22:00:00Z",
+        "stop": "2021-06-25T22:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 181.0,
+          "geo": {
+            "coordinates": [24.29477, 61.84741, 181.0],
+            "type": "Point"
+          },
+          "label": "FI-Hyy",
+          "lat": 61.84741,
+          "lon": 24.29477
+        },
+        "id": "FI-Hyy",
+        "org": {
+          "name": "Hyytiala",
+          "self": {
+            "comments": ["The station with ICOS code FI-Hyy, is called Hyytiälä and is located in the Hyytiälä Forestry Field Station of the University of Helsinki, 220 km NW from Helsinki. The station is located in a rather homogenous Scots pine (Pinus sylvestris L.) stand on a slightly hilly terrain."],
+            "label": "FI-Hyy",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_FI-Hyy"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/mEsrYDF4EDijnie/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "climateZone": {
+            "comments": [],
+            "label": "Subacrtic (Dfc)",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/koppen_Dfc"
+          },
+          "countryCode": "FI",
+          "documentation": [{
+            "hash": "V1dIG1MK5wm_Hj5FUMmPD72T1isIi1IDrZBl-rP9rU8",
+            "name": "FI-Hyy ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/V1dIG1MK5wm_Hj5FUMmPD72T"
+          }],
+          "ecosystemType": {
+            "comments": ["Lands dominated by woody vegetation with a percent cover >60% and height exceeding 2 meters. Almost all trees remain green all year. Canopy is never without green foliage."],
+            "label": "Evergreen Needleleaf Forests",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_ENF"
+          },
+          "labelingDate": "2018-11-06",
+          "meanAnnualPrecip": 711.0,
+          "meanAnnualRad": 100.0,
+          "meanAnnualTemp": 3.5,
+          "stationClass": "1",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 2
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Raw ASCII ETC station data",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiEtcRawTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ETC Bio Meteo Raw ASCII",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcBioMeteoRawSeriesCsv"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-06-26T03:26:50.946286Z",
+    "stop": "2021-06-26T03:26:53.826769Z",
+    "submitter": {
+      "name": "Hyytiala",
+      "self": {
+        "comments": ["The station with ICOS code FI-Hyy, is called Hyytiälä and is located in the Hyytiälä Forestry Field Station of the University of Helsinki, 220 km NW from Helsinki. The station is located in a rather homogenous Scots pine (Pinus sylvestris L.) stand on a slightly hilly terrain."],
+        "label": "FI-Hyy",
+        "uri": "http://meta.icos-cp.eu/resources/stations/ES_FI-Hyy"
+      }
+    }
+  }
+}

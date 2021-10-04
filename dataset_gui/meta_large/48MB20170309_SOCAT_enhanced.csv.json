@@ -1,0 +1,283 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/whuBAp1Xg1mVzaYZs41BmJ5d",
+  "coverageGeo": {
+    "coordinates": [13.5658, 45.6204],
+    "type": "Point"
+  },
+  "fileName": "48MB20170309_SOCAT_enhanced.csv",
+  "hash": "whuBAp1Xg1mVzaYZs41BmJ5dLUNHpOrwIYUQhIWL2FE",
+  "parentCollections": [],
+  "pid": "11676/whuBAp1Xg1mVzaYZs41BmJ5d",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Anna",
+      "lastName": "Luchetta",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Anna_Luchetta"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/whuBAp1Xg1mVzaYZs41BmJ5d,\r\n  author={Luchetta, A.},\r\n  title={ICOS OTC FOS Release, IT-FOS-PALOMA, 2017-03-09–2017-11-16},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/whuBAp1Xg1mVzaYZs41BmJ5d},\r\n  publisher={Ocean Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/whuBAp1Xg1mVzaYZs41BmJ5d}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS OTC FOS Release, IT-FOS-PALOMA, 2017-03-09–2017-11-16\r\nID - 11676/whuBAp1Xg1mVzaYZs41BmJ5d\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/whuBAp1Xg1mVzaYZs41BmJ5d\r\nPB - Ocean Thematic Centre\r\nAU - Luchetta, A.\r\nER - ",
+    "citationString": "Luchetta, A., ICOS RI, 2021. ICOS OTC FOS Release, IT-FOS-PALOMA, 2017-03-09–2017-11-16, https://hdl.handle.net/11676/whuBAp1Xg1mVzaYZs41BmJ5d",
+    "temporalCoverageDisplay": "2017-03-09–2017-11-16"
+  },
+  "size": 121050,
+  "specificInfo": {
+    "acquisition": {
+      "interval": {
+        "start": "2017-03-09T10:54:49Z",
+        "stop": "2017-11-16T05:06:59Z"
+      },
+      "station": {
+        "coverage": {
+          "geo": {
+            "coordinates": [13.5658, 45.6204],
+            "type": "Point"
+          },
+          "label": "48MB",
+          "lat": 45.6204,
+          "lon": 13.5658
+        },
+        "id": "48MB",
+        "org": {
+          "name": "IT-FOS-PALOMA",
+          "self": {
+            "comments": ["Coastal station in the centre of the Gulf of Trieste  (North Adriatic Sea), Lat 45.6204 N and  Long  13.5658, located on a 25 m deep seafloor at 8 nm from land.                                                                              Affected by meteorological conditions leading to large variations of both air and sea surface temperature and to dense water formation during severe winters.                                                                      Area characterized by intense air sea CO2 fluxes and high p.p. Marine waters receive the inflow of several rivers, transporting high alkalinity and  nutrients to the sea.  ", "The FOS PALOMA (Piattaforma Avanzata LabOratorio Mare Adriatico) makes continuous and discrete measurements of the carbonate chemistry and complementary variables in the Gulf of Trieste in the northern Mediterranean Sea. The station is run by the CNR-ISMAR (National Research Council of Italy - Marine Sciences Institute), and Dr. Anna Luchetta is PI for the carbon measurements while Dr.Carolina Cantoni is the operational manager for the station. Physical and biogeochemical measurements was initiated at the station in 2008, and in 2012, the station was upgraded with new sensors for temperature and pCO2 measurements. "],
+            "label": "48MB",
+            "uri": "http://meta.icos-cp.eu/resources/stations/OS_PALOMA"
+          }
+        },
+        "pictures": [],
+        "responsibleOrganization": {
+          "name": "ISMAR Istituto di Scienze Marine",
+          "self": {
+            "comments": [],
+            "uri": "http://meta.icos-cp.eu/resources/organizations/ISMAR"
+          }
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "IT",
+          "documentation": [],
+          "labelingDate": "2018-09-06",
+          "stationClass": "1",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/oce.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/os.png",
+            "self": {
+              "comments": [],
+              "label": "Ocean data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ocean"
+            }
+          }
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, UTC",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStamp"
+        }
+      }
+    }, {
+      "label": "P_sal [psu]",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": ["practical salinity of the water body"],
+          "label": "practical salinity",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/salinity"
+        },
+        "unit": "psu"
+      }
+    }, {
+      "label": "Temp [degC]",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["physical temperature"],
+          "label": "temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "water temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/waterTempCelcius"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "Atmospheric Pressure [hPa]",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["mechanical pressure, e.g. atmospheric or gas pressure"],
+          "label": "pressure",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/pressure"
+        },
+        "self": {
+          "comments": [],
+          "label": "air pressure",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/airPressure"
+        },
+        "unit": "hPa"
+      }
+    }, {
+      "label": "pCO2 [uatm]",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["mechanical pressure, e.g. atmospheric or gas pressure"],
+          "label": "pressure",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/pressure"
+        },
+        "self": {
+          "comments": ["CO2 partial pressure in water body at sea surface temperature"],
+          "label": "CO2 partial pressure (water), SST",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/co2PartPressWaterSST"
+        },
+        "unit": "µatm"
+      }
+    }, {
+      "label": "fCO2 [uatm]",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["mechanical pressure, e.g. atmospheric or gas pressure"],
+          "label": "pressure",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/pressure"
+        },
+        "self": {
+          "comments": ["Fugacity of carbon dioxide (water) at sea surface temperature (wet air)"],
+          "label": "CO2 fugacity (water), SST",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/co2FugacityWater"
+        },
+        "unit": "µatm"
+      }
+    }, {
+      "label": "fCO2 [uatm] QC Flag",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "pCO2 [uatm] QC Flag",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "P_sal [psu] QC Flag",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "Temp [degC] QC Flag",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }],
+    "nRows": 720,
+    "productionInfo": {
+      "contributors": [{
+        "firstName": "Anna",
+        "lastName": "Luchetta",
+        "self": {
+          "comments": [],
+          "uri": "http://meta.icos-cp.eu/resources/people/Anna_Luchetta"
+        }
+      }],
+      "creator": {
+        "name": "Ocean Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS OTC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/OTC"
+        }
+      },
+      "dateTime": "2021-05-31T16:01:00Z",
+      "host": {
+        "name": "ISMAR Istituto di Scienze Marine",
+        "self": {
+          "comments": [],
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ISMAR"
+        }
+      },
+      "sources": []
+    }
+  },
+  "specification": {
+    "dataLevel": 2,
+    "datasetSpec": {
+      "self": {
+        "comments": [],
+        "label": "OTC FOS dataset",
+        "uri": "http://meta.icos-cp.eu/resources/cpmeta/otcFosDataset"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": ["Single-line comment, first column is UTC ISO-8601 timestamp, NaN for missing values, comma-separated."],
+      "label": "ICOS OTC time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiOtcProductCsv"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS OTC FOS Release",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/icosOtcFosL2Product"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/oce.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/os.png",
+      "self": {
+        "comments": [],
+        "label": "Ocean data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ocean"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-05-31T14:01:41.585312Z",
+    "stop": "2021-05-31T14:01:44.446326Z",
+    "submitter": {
+      "name": "Ocean Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS OTC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/OTC"
+      }
+    }
+  }
+}

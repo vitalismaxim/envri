@@ -1,0 +1,439 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/QRJuHSQbjV1Dp6PJeGlJ7LA2",
+  "coverageGeo": {
+    "coordinates": [[-43.785, -23.684], [-41.922, -23.074], [-39.773, -21.352], [-37.765, -17.132], [-31.995, -5.881], [-24.284, 9.444], [-20.941, 15.938], [-17.809, 21.873], [-16.551, 24.062], [-13.609, 28.095], [-10.529, 31.804], [-8.212, 34.238], [-6.209, 35.749], [-5.523, 35.918], [-9.256, 36.83], [-9.799, 40.232], [-9.503, 43.591], [-4.662, 49.15], [1.398, 50.716], [3.708, 51.995]],
+    "type": "LineString"
+  },
+  "fileName": "65DK20201111_SOCAT_enhanced.csv",
+  "hash": "QRJuHSQbjV1Dp6PJeGlJ7LA2-9hLHBXKUkCsDhCaOsM",
+  "parentCollections": [{
+    "comments": [],
+    "label": "FR-SOOP-France-Brazil 2020",
+    "uri": "https://meta.icos-cp.eu/collections/VPBx5y2fcFQ6D6K-FH5lX3pd"
+  }],
+  "pid": "11676/QRJuHSQbjV1Dp6PJeGlJ7LA2",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Denis",
+      "lastName": "Diverres",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Denis_Diverres"
+      }
+    }, {
+      "firstName": "Nathalie",
+      "lastName": "Lefèvre",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Nathalie_Lef%C3%A8vre"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/QRJuHSQbjV1Dp6PJeGlJ7LA2,\r\n  author={Diverres, D., Lefèvre, N.},\r\n  title={ICOS OTC SOOP Release, FR-SOOP-France-Brazil , 2020-11-11–2020-11-26},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/QRJuHSQbjV1Dp6PJeGlJ7LA2},\r\n  publisher={Ocean Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/QRJuHSQbjV1Dp6PJeGlJ7LA2}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS OTC SOOP Release, FR-SOOP-France-Brazil , 2020-11-11–2020-11-26\r\nID - 11676/QRJuHSQbjV1Dp6PJeGlJ7LA2\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/QRJuHSQbjV1Dp6PJeGlJ7LA2\r\nPB - Ocean Thematic Centre\r\nAU - Diverres, D.\r\nAU - Lefèvre, N.\r\nER - ",
+    "citationString": "Diverres, D., Lefèvre, N., ICOS RI, 2021. ICOS OTC SOOP Release, FR-SOOP-France-Brazil , 2020-11-11–2020-11-26, https://hdl.handle.net/11676/QRJuHSQbjV1Dp6PJeGlJ7LA2",
+    "temporalCoverageDisplay": "2020-11-11–2020-11-26"
+  },
+  "size": 1299000,
+  "specificInfo": {
+    "acquisition": {
+      "interval": {
+        "start": "2020-11-11T03:33:00Z",
+        "stop": "2020-11-26T03:49:00Z"
+      },
+      "station": {
+        "coverage": {
+          "geo": {
+            "coordinates": [[-43.18531, -23.190267], [-41.92045, -23.095946], [-41.730238, -22.859749], [-40.629457, -22.063687], [-12.617198, 29.549424], [-6.360235, 35.816757], [-5.141833, 36.011075], [-6.489987, 35.915628], [-9.418092, 36.924702], [-9.520755, 43.34767], [-4.927954, 48.798758], [-1.798947, 50.009494], [1.607545, 51.006639], [3.999554, 52.012293], [4.036437, 52.0101]],
+            "type": "LineString"
+          },
+          "label": "FR-SOOP-France-Brazil  geo-coverage",
+          "points": [{
+            "lat": -23.19026683920883,
+            "lon": -43.18531048193327
+          }, {
+            "lat": -23.09594641136239,
+            "lon": -41.92044972513906
+          }, {
+            "lat": -22.85974878792686,
+            "lon": -41.73023840219803
+          }, {
+            "lat": -22.06368726533428,
+            "lon": -40.6294566682349
+          }, {
+            "lat": 29.54942394972928,
+            "lon": -12.61719826325987
+          }, {
+            "lat": 35.81675680145769,
+            "lon": -6.360234945418749
+          }, {
+            "lat": 36.01107466642331,
+            "lon": -5.141832622210205
+          }, {
+            "lat": 35.91562810671547,
+            "lon": -6.489987451310354
+          }, {
+            "lat": 36.92470223711176,
+            "lon": -9.41809158775295
+          }, {
+            "lat": 43.34766998824524,
+            "lon": -9.52075513659701
+          }, {
+            "lat": 48.79875841355596,
+            "lon": -4.927954318904724
+          }, {
+            "lat": 50.0094937463128,
+            "lon": -1.798946650285019
+          }, {
+            "lat": 51.00663900225214,
+            "lon": 1.607545263525367
+          }, {
+            "lat": 52.01229314487173,
+            "lon": 3.999554333272204
+          }, {
+            "lat": 52.01009965197781,
+            "lon": 4.036436685869726
+          }]
+        },
+        "id": "65DK",
+        "org": {
+          "name": "FR-SOOP-France-Brazil ",
+          "self": {
+            "comments": ["The France-Brazil line makes underway carbonate chemistry measurements on the cargo ship Cap San Lorenzo, which is run by the Maersk company, Denmark. The France-Brazil VOS line began measuring sea surface pCO2 in July 2014, and LOCEAN/IPSL in France is the responsible institution for this effort, with Dr. Nathalie Lefèvre as PI. The ship sails between Hamburg and Buenos Aires and pCO2 measurements are performed between Le Havre, France and Santos, Brazil, to avoid polluted water. The route between Le Havre and Santos takes approximately 2 weeks. The station’s geographical region includes the British Channel and subtropical and tropical regions of the Atlantic Ocean."],
+            "label": "65DK",
+            "uri": "http://meta.icos-cp.eu/resources/stations/OS_VOS%20France-Brazil"
+          },
+          "website": "https://ecom.hamburgsud.com/ecom/en/ecommerce_portal/schedules_2/ep_vessel_popup_3915.html"
+        },
+        "pictures": [],
+        "responsibleOrganization": {
+          "name": "LOCEAN, Université P. et M. Curie, ",
+          "self": {
+            "comments": [],
+            "label": "LOCEAN",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/locean"
+          }
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "FR",
+          "documentation": [],
+          "labelingDate": "2018-04-06",
+          "stationClass": "1",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/oce.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/os.png",
+            "self": {
+              "comments": [],
+              "label": "Ocean data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ocean"
+            }
+          }
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, UTC",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStamp"
+        }
+      }
+    }, {
+      "label": "Longitude",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["angle in the trigonometric sense"],
+          "label": "angle",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/angle"
+        },
+        "self": {
+          "comments": ["WGS84 longitude"],
+          "label": "longitude",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/longitude"
+        },
+        "unit": "°"
+      }
+    }, {
+      "label": "Latitude",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["angle in the trigonometric sense"],
+          "label": "angle",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/angle"
+        },
+        "self": {
+          "comments": ["WGS84 latitude"],
+          "label": "latitude",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/latitude"
+        },
+        "unit": "°"
+      }
+    }, {
+      "label": "P_sal [psu]",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": ["practical salinity of the water body"],
+          "label": "practical salinity",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/salinity"
+        },
+        "unit": "psu"
+      }
+    }, {
+      "label": "Temp [degC]",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["physical temperature"],
+          "label": "temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "water temperature",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/waterTempCelcius"
+        },
+        "unit": "°C"
+      }
+    }, {
+      "label": "Atmospheric Pressure [hPa]",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["mechanical pressure, e.g. atmospheric or gas pressure"],
+          "label": "pressure",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/pressure"
+        },
+        "self": {
+          "comments": [],
+          "label": "air pressure",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/airPressure"
+        },
+        "unit": "hPa"
+      }
+    }, {
+      "label": "pCO2 [uatm]",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["mechanical pressure, e.g. atmospheric or gas pressure"],
+          "label": "pressure",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/pressure"
+        },
+        "self": {
+          "comments": ["CO2 partial pressure in water body at sea surface temperature"],
+          "label": "CO2 partial pressure (water), SST",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/co2PartPressWaterSST"
+        },
+        "unit": "µatm"
+      }
+    }, {
+      "label": "fCO2 [uatm]",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["mechanical pressure, e.g. atmospheric or gas pressure"],
+          "label": "pressure",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/pressure"
+        },
+        "self": {
+          "comments": ["Fugacity of carbon dioxide (water) at sea surface temperature (wet air)"],
+          "label": "CO2 fugacity (water), SST",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/co2FugacityWater"
+        },
+        "unit": "µatm"
+      }
+    }, {
+      "label": "fCO2 [uatm] QC Flag",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "pCO2 [uatm] QC Flag",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "P_sal [psu] QC Flag",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }, {
+      "label": "Temp [degC] QC Flag",
+      "valueType": {
+        "self": {
+          "comments": ["small positive integer number"],
+          "label": "quality flag (int)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/integerQualityFlag"
+        }
+      }
+    }],
+    "coverage": {
+      "geo": {
+        "coordinates": [[-43.785, -23.684], [-41.922, -23.074], [-39.773, -21.352], [-37.765, -17.132], [-31.995, -5.881], [-24.284, 9.444], [-20.941, 15.938], [-17.809, 21.873], [-16.551, 24.062], [-13.609, 28.095], [-10.529, 31.804], [-8.212, 34.238], [-6.209, 35.749], [-5.523, 35.918], [-9.256, 36.83], [-9.799, 40.232], [-9.503, 43.591], [-4.662, 49.15], [1.398, 50.716], [3.708, 51.995]],
+        "type": "LineString"
+      },
+      "points": [{
+        "lat": -23.684,
+        "lon": -43.785
+      }, {
+        "lat": -23.074,
+        "lon": -41.922
+      }, {
+        "lat": -21.352,
+        "lon": -39.773
+      }, {
+        "lat": -17.132,
+        "lon": -37.765
+      }, {
+        "lat": -5.881,
+        "lon": -31.995
+      }, {
+        "lat": 9.444,
+        "lon": -24.284
+      }, {
+        "lat": 15.938,
+        "lon": -20.941
+      }, {
+        "lat": 21.873,
+        "lon": -17.809
+      }, {
+        "lat": 24.062,
+        "lon": -16.551
+      }, {
+        "lat": 28.095,
+        "lon": -13.609
+      }, {
+        "lat": 31.804,
+        "lon": -10.529
+      }, {
+        "lat": 34.238,
+        "lon": -8.212
+      }, {
+        "lat": 35.749,
+        "lon": -6.209
+      }, {
+        "lat": 35.918,
+        "lon": -5.523
+      }, {
+        "lat": 36.83,
+        "lon": -9.256
+      }, {
+        "lat": 40.232,
+        "lon": -9.799
+      }, {
+        "lat": 43.591,
+        "lon": -9.503
+      }, {
+        "lat": 49.15,
+        "lon": -4.662
+      }, {
+        "lat": 50.716,
+        "lon": 1.398
+      }, {
+        "lat": 51.995,
+        "lon": 3.708
+      }]
+    },
+    "nRows": 7323,
+    "productionInfo": {
+      "comment": "Lefèvre, N. (2021). Underway physical oceanography and carbon dioxide measurements during Cap San Lorenzo cruise",
+      "contributors": [{
+        "firstName": "Nathalie",
+        "lastName": "Lefèvre",
+        "self": {
+          "comments": [],
+          "uri": "http://meta.icos-cp.eu/resources/people/Nathalie_Lef%C3%A8vre"
+        }
+      }],
+      "creator": {
+        "name": "Ocean Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS OTC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/OTC"
+        }
+      },
+      "dateTime": "2021-05-31T15:40:00Z",
+      "host": {
+        "name": "LOCEAN, Université P. et M. Curie, ",
+        "self": {
+          "comments": [],
+          "label": "LOCEAN",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/locean"
+        }
+      },
+      "sources": []
+    }
+  },
+  "specification": {
+    "dataLevel": 2,
+    "datasetSpec": {
+      "self": {
+        "comments": ["valid for QuinCe versions from 2.0.0"],
+        "label": "OTC SOOP dataset",
+        "uri": "http://meta.icos-cp.eu/resources/cpmeta/otcProduct_Dataset_v2"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": ["Single-line comment, first column is UTC ISO-8601 timestamp, NaN for missing values, comma-separated."],
+      "label": "ICOS OTC time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiOtcProductCsv"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS OTC SOOP Release",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/icosOtcL2Product"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/oce.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/os.png",
+      "self": {
+        "comments": [],
+        "label": "Ocean data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ocean"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-05-31T13:40:51.356655Z",
+    "stop": "2021-05-31T13:40:57.667809Z",
+    "submitter": {
+      "name": "Ocean Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS OTC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/OTC"
+      }
+    }
+  }
+}

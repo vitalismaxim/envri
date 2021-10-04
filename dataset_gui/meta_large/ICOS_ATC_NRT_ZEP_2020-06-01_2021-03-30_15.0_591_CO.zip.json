@@ -1,0 +1,607 @@
+{
+  "accessUrl": "https://data.fieldsites.se/objects/HjEcAhRt3yhPknuCRRLLe2kN",
+  "coverageGeo": {
+    "geometries": [{
+      "coordinates": [20.219861, 63.804951],
+      "type": "Point"
+    }, {
+      "coordinates": [[[20.16387, 63.827237], [20.159269, 63.826808], [20.152308, 63.821281], [20.141476, 63.819958], [20.148558, 63.814146], [20.140892, 63.81208], [20.142946, 63.804828], [20.139375, 63.795077], [20.142419, 63.794591], [20.143703, 63.791594], [20.152564, 63.791098], [20.154817, 63.79296], [20.172163, 63.795685], [20.171743, 63.798939], [20.167322, 63.798576], [20.164969, 63.800172], [20.178289, 63.804876], [20.183815, 63.804155], [20.196753, 63.799928], [20.195855, 63.797711], [20.199535, 63.796481], [20.197908, 63.793841], [20.203067, 63.791585], [20.196456, 63.787955], [20.198033, 63.785919], [20.196365, 63.785475], [20.196755, 63.783842], [20.193208, 63.78181], [20.193711, 63.78145], [20.212523, 63.791675], [20.243334, 63.80461], [20.247413, 63.807269], [20.245903, 63.810311], [20.239765, 63.812118], [20.236951, 63.816251], [20.233007, 63.816502], [20.237945, 63.8194], [20.237592, 63.821878], [20.227093, 63.821935], [20.219332, 63.8238], [20.220141, 63.822889], [20.212028, 63.822193], [20.176537, 63.822572], [20.172255, 63.825425], [20.16387, 63.827237]]],
+      "type": "Polygon"
+    }],
+    "type": "GeometryCollection"
+  },
+  "fileName": "SITES_WB-SL_RBD_SP6_20200508-20201014_L2_60min.csv",
+  "hash": "HjEcAhRt3yhPknuCRRLLe2kNI4HWgr1Y6uKgoXMlU2U",
+  "parentCollections": [],
+  "pid": "11676.1/HjEcAhRt3yhPknuCRRLLe2kN",
+  "references": {
+    "acknowledgements": [],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676.1/HjEcAhRt3yhPknuCRRLLe2kN,\r\n  title={Röbäcksdalen Field Research Station (2021). Water balance - stream water level from Röbäcksdalen Catchment, Sampling point 6, 2020-05-08–2020-10-14},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676.1/HjEcAhRt3yhPknuCRRLLe2kN},\r\n  publisher={Röbäcksdalen Field Research Station},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676.1/HjEcAhRt3yhPknuCRRLLe2kN}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - Röbäcksdalen Field Research Station (2021). Water balance - stream water level from Röbäcksdalen Catchment, Sampling point 6, 2020-05-08–2020-10-14\r\nID - 11676.1/HjEcAhRt3yhPknuCRRLLe2kN\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676.1/HjEcAhRt3yhPknuCRRLLe2kN\r\nPB - Röbäcksdalen Field Research Station\r\nER - ",
+    "citationString": "Röbäcksdalen Field Research Station (2021). Water balance - stream water level from Röbäcksdalen Catchment, Sampling point 6, 2020-05-08–2020-10-14 [Data set]. Swedish Infrastructure for Ecosystem Science (SITES). https://hdl.handle.net/11676.1/HjEcAhRt3yhPknuCRRLLe2kN",
+    "temporalCoverageDisplay": "2020-05-08–2020-10-14"
+  },
+  "size": 104131,
+  "specificInfo": {
+    "acquisition": {
+      "interval": {
+        "start": "2020-05-08T11:00:00Z",
+        "stop": "2020-10-14T09:00:00Z"
+      },
+      "samplingPoint": {
+        "label": "Röbäcksdalen Catchment, Sampling point 6",
+        "lat": 63.80495056,
+        "lon": 20.21986057
+      },
+      "site": {
+        "ecosystem": {
+          "comments": [],
+          "label": "Arable land",
+          "uri": "https://meta.fieldsites.se/resources/ecosystems/arable"
+        },
+        "location": {
+          "geometry": {
+            "geo": {
+              "coordinates": [[[20.16387, 63.827237], [20.159269, 63.826808], [20.152308, 63.821281], [20.141476, 63.819958], [20.148558, 63.814146], [20.140892, 63.81208], [20.142946, 63.804828], [20.139375, 63.795077], [20.142419, 63.794591], [20.143703, 63.791594], [20.152564, 63.791098], [20.154817, 63.79296], [20.172163, 63.795685], [20.171743, 63.798939], [20.167322, 63.798576], [20.164969, 63.800172], [20.178289, 63.804876], [20.183815, 63.804155], [20.196753, 63.799928], [20.195855, 63.797711], [20.199535, 63.796481], [20.197908, 63.793841], [20.203067, 63.791585], [20.196456, 63.787955], [20.198033, 63.785919], [20.196365, 63.785475], [20.196755, 63.783842], [20.193208, 63.78181], [20.193711, 63.78145], [20.212523, 63.791675], [20.243334, 63.80461], [20.247413, 63.807269], [20.245903, 63.810311], [20.239765, 63.812118], [20.236951, 63.816251], [20.233007, 63.816502], [20.237945, 63.8194], [20.237592, 63.821878], [20.227093, 63.821935], [20.219332, 63.8238], [20.220141, 63.822889], [20.212028, 63.822193], [20.176537, 63.822572], [20.172255, 63.825425], [20.16387, 63.827237]]],
+              "type": "Polygon"
+            },
+            "label": "Röbäcksdalen Catchment",
+            "vertices": [{
+              "lat": 63.82723680332463,
+              "lon": 20.163869663200742
+            }, {
+              "lat": 63.82680776331655,
+              "lon": 20.159268798228247
+            }, {
+              "lat": 63.82128095299709,
+              "lon": 20.15230825942827
+            }, {
+              "lat": 63.81995841707556,
+              "lon": 20.141476490343724
+            }, {
+              "lat": 63.81414579968832,
+              "lon": 20.148558394687406
+            }, {
+              "lat": 63.812080421567444,
+              "lon": 20.140892069522227
+            }, {
+              "lat": 63.80482798240985,
+              "lon": 20.142946133635128
+            }, {
+              "lat": 63.79507738113148,
+              "lon": 20.1393748172055
+            }, {
+              "lat": 63.794590868232774,
+              "lon": 20.14241931198294
+            }, {
+              "lat": 63.79159419742825,
+              "lon": 20.143703107735586
+            }, {
+              "lat": 63.79109754315093,
+              "lon": 20.15256359551473
+            }, {
+              "lat": 63.792960162615145,
+              "lon": 20.154816810132456
+            }, {
+              "lat": 63.7956850322715,
+              "lon": 20.17216313118486
+            }, {
+              "lat": 63.79893890730638,
+              "lon": 20.171743390982893
+            }, {
+              "lat": 63.79857577934125,
+              "lon": 20.167321908536273
+            }, {
+              "lat": 63.80017158810762,
+              "lon": 20.16496923699494
+            }, {
+              "lat": 63.804875504226516,
+              "lon": 20.17828905106667
+            }, {
+              "lat": 63.80415497016844,
+              "lon": 20.18381482518418
+            }, {
+              "lat": 63.79992813592918,
+              "lon": 20.19675297704458
+            }, {
+              "lat": 63.7977112929238,
+              "lon": 20.19585541744432
+            }, {
+              "lat": 63.79648087896606,
+              "lon": 20.19953527360236
+            }, {
+              "lat": 63.79384053015748,
+              "lon": 20.197908340399017
+            }, {
+              "lat": 63.791584973663056,
+              "lon": 20.203066567054275
+            }, {
+              "lat": 63.78795498790236,
+              "lon": 20.196456058861518
+            }, {
+              "lat": 63.785918747842224,
+              "lon": 20.198033155994004
+            }, {
+              "lat": 63.78547514088226,
+              "lon": 20.196364741132907
+            }, {
+              "lat": 63.78384161609756,
+              "lon": 20.196754976939182
+            }, {
+              "lat": 63.7818103572149,
+              "lon": 20.193207618561914
+            }, {
+              "lat": 63.78145032885706,
+              "lon": 20.193710710826984
+            }, {
+              "lat": 63.791674852967624,
+              "lon": 20.2125233485216
+            }, {
+              "lat": 63.804610106311934,
+              "lon": 20.243334303889412
+            }, {
+              "lat": 63.80726878024043,
+              "lon": 20.24741252654382
+            }, {
+              "lat": 63.81031085945597,
+              "lon": 20.245903162195187
+            }, {
+              "lat": 63.812117722972836,
+              "lon": 20.23976534454347
+            }, {
+              "lat": 63.81625079763362,
+              "lon": 20.236951174395415
+            }, {
+              "lat": 63.81650205882606,
+              "lon": 20.233006662893523
+            }, {
+              "lat": 63.819399712072,
+              "lon": 20.237944773813833
+            }, {
+              "lat": 63.82187779387327,
+              "lon": 20.23759158992859
+            }, {
+              "lat": 63.82193504819302,
+              "lon": 20.227092574441325
+            }, {
+              "lat": 63.82379976300529,
+              "lon": 20.21933240059498
+            }, {
+              "lat": 63.822888765475476,
+              "lon": 20.22014099644227
+            }, {
+              "lat": 63.82219270478181,
+              "lon": 20.21202775819469
+            }, {
+              "lat": 63.82257203403629,
+              "lon": 20.176536753197833
+            }, {
+              "lat": 63.82542475319581,
+              "lon": 20.17225478904504
+            }]
+          },
+          "label": "Röbäcksdalen Catchment"
+        },
+        "self": {
+          "comments": [],
+          "label": "Röbäcksdalen Catchment",
+          "uri": "https://meta.fieldsites.se/resources/sites/robacksdalen-catchment"
+        }
+      },
+      "station": {
+        "coverage": {
+          "alt": 12.0,
+          "geo": {
+            "coordinates": [20.24199, 63.81083, 12.0],
+            "type": "Point"
+          },
+          "lat": 63.81083,
+          "lon": 20.24199
+        },
+        "id": "RBD",
+        "org": {
+          "email": "data@fieldsites.se",
+          "name": "Röbäcksdalen Field Research Station",
+          "self": {
+            "comments": [],
+            "uri": "https://meta.fieldsites.se/resources/stations/Robacksdalen"
+          },
+          "website": "https://www.fieldsites.se/en-GB/research-stations/r%C3%B6b%C3%A4cksdalen-32652380"
+        },
+        "pictures": ["https://data.fieldsites.se/objects/HLsIeetFzInGMup2cq8SM57F"],
+        "responsibleOrganization": {
+          "name": "Swedish University of Agricultural Sciences",
+          "self": {
+            "comments": [],
+            "uri": "https://meta.fieldsites.se/resources/organizations/slu"
+          }
+        },
+        "specificInfo": {
+          "_type": "sites",
+          "climateZone": {
+            "comments": [],
+            "label": "Boreal",
+            "uri": "https://meta.fieldsites.se/resources/climatezones/boreal"
+          },
+          "documentation": [],
+          "ecosystems": [{
+            "comments": [],
+            "label": "Agriculture",
+            "uri": "https://meta.fieldsites.se/resources/ecosystems/agriculture"
+          }, {
+            "comments": [],
+            "label": "Lakes and Streams",
+            "uri": "https://meta.fieldsites.se/resources/ecosystems/lakes-and-streams"
+          }],
+          "meanAnnualTemp": 2.8,
+          "operationalPeriod": "Year-round",
+          "sites": [{
+            "ecosystem": {
+              "comments": [],
+              "label": "Arable land",
+              "uri": "https://meta.fieldsites.se/resources/ecosystems/arable"
+            },
+            "location": {
+              "geometry": {
+                "geo": {
+                  "coordinates": [[[20.2273, 63.7983], [20.2433, 63.7975], [20.253, 63.8037], [20.2414, 63.8122], [20.2326, 63.8164], [20.2145, 63.8174], [20.2042, 63.817], [20.1894, 63.8162], [20.1886, 63.8143], [20.1905, 63.8115], [20.2024, 63.8074], [20.2137, 63.8053], [20.2163, 63.8036], [20.2273, 63.7983]]],
+                  "type": "Polygon"
+                },
+                "label": "Röbäcksdalen North",
+                "vertices": [{
+                  "lat": 63.7983,
+                  "lon": 20.2273
+                }, {
+                  "lat": 63.7975,
+                  "lon": 20.2433
+                }, {
+                  "lat": 63.8037,
+                  "lon": 20.253
+                }, {
+                  "lat": 63.8122,
+                  "lon": 20.2414
+                }, {
+                  "lat": 63.8164,
+                  "lon": 20.2326
+                }, {
+                  "lat": 63.8174,
+                  "lon": 20.2145
+                }, {
+                  "lat": 63.817,
+                  "lon": 20.2042
+                }, {
+                  "lat": 63.8162,
+                  "lon": 20.1894
+                }, {
+                  "lat": 63.8143,
+                  "lon": 20.1886
+                }, {
+                  "lat": 63.8115,
+                  "lon": 20.1905
+                }, {
+                  "lat": 63.8074,
+                  "lon": 20.2024
+                }, {
+                  "lat": 63.8053,
+                  "lon": 20.2137
+                }, {
+                  "lat": 63.8036,
+                  "lon": 20.2163
+                }]
+              },
+              "label": "Röbäcksdalen North"
+            },
+            "self": {
+              "comments": [],
+              "label": "Röbäcksdalen North",
+              "uri": "https://meta.fieldsites.se/resources/sites/robacksdalen-north"
+            }
+          }, {
+            "ecosystem": {
+              "comments": [],
+              "label": "Arable land",
+              "uri": "https://meta.fieldsites.se/resources/ecosystems/arable"
+            },
+            "location": {
+              "geometry": {
+                "geo": {
+                  "coordinates": [[[20.2199, 63.7968], [20.2264, 63.798], [20.2462, 63.797], [20.2651, 63.7948], [20.2682, 63.7896], [20.2708, 63.7818], [20.2662, 63.7781], [20.2485, 63.7803], [20.2263, 63.7822], [20.2185, 63.7885], [20.2199, 63.7968]]],
+                  "type": "Polygon"
+                },
+                "label": "Röbäcksdalen South",
+                "vertices": [{
+                  "lat": 63.7968,
+                  "lon": 20.2199
+                }, {
+                  "lat": 63.798,
+                  "lon": 20.2264
+                }, {
+                  "lat": 63.797,
+                  "lon": 20.2462
+                }, {
+                  "lat": 63.7948,
+                  "lon": 20.2651
+                }, {
+                  "lat": 63.7896,
+                  "lon": 20.2682
+                }, {
+                  "lat": 63.7818,
+                  "lon": 20.2708
+                }, {
+                  "lat": 63.7781,
+                  "lon": 20.2662
+                }, {
+                  "lat": 63.7803,
+                  "lon": 20.2485
+                }, {
+                  "lat": 63.7822,
+                  "lon": 20.2263
+                }, {
+                  "lat": 63.7885,
+                  "lon": 20.2185
+                }]
+              },
+              "label": "Röbäcksdalen South"
+            },
+            "self": {
+              "comments": [],
+              "label": "Röbäcksdalen South",
+              "uri": "https://meta.fieldsites.se/resources/sites/robacksdalen-south"
+            }
+          }, {
+            "ecosystem": {
+              "comments": [],
+              "label": "Arable land",
+              "uri": "https://meta.fieldsites.se/resources/ecosystems/arable"
+            },
+            "location": {
+              "geometry": {
+                "geo": {
+                  "coordinates": [[[20.16387, 63.827237], [20.159269, 63.826808], [20.152308, 63.821281], [20.141476, 63.819958], [20.148558, 63.814146], [20.140892, 63.81208], [20.142946, 63.804828], [20.139375, 63.795077], [20.142419, 63.794591], [20.143703, 63.791594], [20.152564, 63.791098], [20.154817, 63.79296], [20.172163, 63.795685], [20.171743, 63.798939], [20.167322, 63.798576], [20.164969, 63.800172], [20.178289, 63.804876], [20.183815, 63.804155], [20.196753, 63.799928], [20.195855, 63.797711], [20.199535, 63.796481], [20.197908, 63.793841], [20.203067, 63.791585], [20.196456, 63.787955], [20.198033, 63.785919], [20.196365, 63.785475], [20.196755, 63.783842], [20.193208, 63.78181], [20.193711, 63.78145], [20.212523, 63.791675], [20.243334, 63.80461], [20.247413, 63.807269], [20.245903, 63.810311], [20.239765, 63.812118], [20.236951, 63.816251], [20.233007, 63.816502], [20.237945, 63.8194], [20.237592, 63.821878], [20.227093, 63.821935], [20.219332, 63.8238], [20.220141, 63.822889], [20.212028, 63.822193], [20.176537, 63.822572], [20.172255, 63.825425], [20.16387, 63.827237]]],
+                  "type": "Polygon"
+                },
+                "label": "Röbäcksdalen Catchment",
+                "vertices": [{
+                  "lat": 63.82723680332463,
+                  "lon": 20.163869663200742
+                }, {
+                  "lat": 63.82680776331655,
+                  "lon": 20.159268798228247
+                }, {
+                  "lat": 63.82128095299709,
+                  "lon": 20.15230825942827
+                }, {
+                  "lat": 63.81995841707556,
+                  "lon": 20.141476490343724
+                }, {
+                  "lat": 63.81414579968832,
+                  "lon": 20.148558394687406
+                }, {
+                  "lat": 63.812080421567444,
+                  "lon": 20.140892069522227
+                }, {
+                  "lat": 63.80482798240985,
+                  "lon": 20.142946133635128
+                }, {
+                  "lat": 63.79507738113148,
+                  "lon": 20.1393748172055
+                }, {
+                  "lat": 63.794590868232774,
+                  "lon": 20.14241931198294
+                }, {
+                  "lat": 63.79159419742825,
+                  "lon": 20.143703107735586
+                }, {
+                  "lat": 63.79109754315093,
+                  "lon": 20.15256359551473
+                }, {
+                  "lat": 63.792960162615145,
+                  "lon": 20.154816810132456
+                }, {
+                  "lat": 63.7956850322715,
+                  "lon": 20.17216313118486
+                }, {
+                  "lat": 63.79893890730638,
+                  "lon": 20.171743390982893
+                }, {
+                  "lat": 63.79857577934125,
+                  "lon": 20.167321908536273
+                }, {
+                  "lat": 63.80017158810762,
+                  "lon": 20.16496923699494
+                }, {
+                  "lat": 63.804875504226516,
+                  "lon": 20.17828905106667
+                }, {
+                  "lat": 63.80415497016844,
+                  "lon": 20.18381482518418
+                }, {
+                  "lat": 63.79992813592918,
+                  "lon": 20.19675297704458
+                }, {
+                  "lat": 63.7977112929238,
+                  "lon": 20.19585541744432
+                }, {
+                  "lat": 63.79648087896606,
+                  "lon": 20.19953527360236
+                }, {
+                  "lat": 63.79384053015748,
+                  "lon": 20.197908340399017
+                }, {
+                  "lat": 63.791584973663056,
+                  "lon": 20.203066567054275
+                }, {
+                  "lat": 63.78795498790236,
+                  "lon": 20.196456058861518
+                }, {
+                  "lat": 63.785918747842224,
+                  "lon": 20.198033155994004
+                }, {
+                  "lat": 63.78547514088226,
+                  "lon": 20.196364741132907
+                }, {
+                  "lat": 63.78384161609756,
+                  "lon": 20.196754976939182
+                }, {
+                  "lat": 63.7818103572149,
+                  "lon": 20.193207618561914
+                }, {
+                  "lat": 63.78145032885706,
+                  "lon": 20.193710710826984
+                }, {
+                  "lat": 63.791674852967624,
+                  "lon": 20.2125233485216
+                }, {
+                  "lat": 63.804610106311934,
+                  "lon": 20.243334303889412
+                }, {
+                  "lat": 63.80726878024043,
+                  "lon": 20.24741252654382
+                }, {
+                  "lat": 63.81031085945597,
+                  "lon": 20.245903162195187
+                }, {
+                  "lat": 63.812117722972836,
+                  "lon": 20.23976534454347
+                }, {
+                  "lat": 63.81625079763362,
+                  "lon": 20.236951174395415
+                }, {
+                  "lat": 63.81650205882606,
+                  "lon": 20.233006662893523
+                }, {
+                  "lat": 63.819399712072,
+                  "lon": 20.237944773813833
+                }, {
+                  "lat": 63.82187779387327,
+                  "lon": 20.23759158992859
+                }, {
+                  "lat": 63.82193504819302,
+                  "lon": 20.227092574441325
+                }, {
+                  "lat": 63.82379976300529,
+                  "lon": 20.21933240059498
+                }, {
+                  "lat": 63.822888765475476,
+                  "lon": 20.22014099644227
+                }, {
+                  "lat": 63.82219270478181,
+                  "lon": 20.21202775819469
+                }, {
+                  "lat": 63.82257203403629,
+                  "lon": 20.176536753197833
+                }, {
+                  "lat": 63.82542475319581,
+                  "lon": 20.17225478904504
+                }]
+              },
+              "label": "Röbäcksdalen Catchment"
+            },
+            "self": {
+              "comments": [],
+              "label": "Röbäcksdalen Catchment",
+              "uri": "https://meta.fieldsites.se/resources/sites/robacksdalen-catchment"
+            }
+          }]
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": ["ISO8601 dateTime"],
+          "label": "Time instant",
+          "uri": "https://meta.fieldsites.se/resources/timeStamp"
+        }
+      }
+    }, {
+      "label": "SL",
+      "valueType": {
+        "quantityKind": {
+          "comments": [],
+          "label": "length",
+          "uri": "https://meta.fieldsites.se/resources/length"
+        },
+        "self": {
+          "comments": [],
+          "label": "Stream level",
+          "uri": "https://meta.fieldsites.se/resources/stream-level"
+        },
+        "unit": "m"
+      }
+    }, {
+      "label": "TW",
+      "valueType": {
+        "quantityKind": {
+          "comments": [],
+          "label": "temperature",
+          "uri": "https://meta.fieldsites.se/resources/temperature"
+        },
+        "self": {
+          "comments": [],
+          "label": "Water temperature",
+          "uri": "https://meta.fieldsites.se/resources/waterTemperature"
+        },
+        "unit": "°C"
+      }
+    }],
+    "nRows": 3815
+  },
+  "specification": {
+    "dataLevel": 2,
+    "datasetSpec": {
+      "resolution": "(Sub-)hourly",
+      "self": {
+        "comments": [],
+        "label": "Stream water level dataset",
+        "uri": "https://meta.fieldsites.se/resources/stream-water-level-dataset"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Character delimited header csv",
+      "uri": "https://meta.fieldsites.se/ontologies/sites/delimitedHeaderCsv"
+    },
+    "keywords": ["Stream"],
+    "project": {
+      "self": {
+        "comments": [],
+        "label": "SITES Water",
+        "uri": "https://meta.fieldsites.se/resources/projects/water"
+      }
+    },
+    "self": {
+      "comments": ["Accurate measurements of the stream level of the main inflow and outflow of the lakes of SITES Water."],
+      "label": "Water balance - stream water level",
+      "uri": "https://meta.fieldsites.se/resources/objspecs/stream-water-level"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/oce.svg",
+      "self": {
+        "comments": [],
+        "label": "Aquatic",
+        "uri": "https://meta.fieldsites.se/resources/themes/aquatic"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-03-31T10:56:04.364Z",
+    "stop": "2021-03-31T10:56:07.732Z",
+    "submitter": {
+      "email": "data@fieldsites.se",
+      "name": "Röbäcksdalen Field Research Station",
+      "self": {
+        "comments": [],
+        "uri": "https://meta.fieldsites.se/resources/stations/Robacksdalen"
+      },
+      "website": "https://www.fieldsites.se/en-GB/research-stations/r%C3%B6b%C3%A4cksdalen-32652380"
+    }
+  }
+}

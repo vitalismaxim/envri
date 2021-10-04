@@ -1,0 +1,154 @@
+{
+  "coverageGeo": {
+    "coordinates": [15.08, 49.572, 534.0],
+    "type": "Point"
+  },
+  "fileName": "KRE_1101_3_20210523.zip",
+  "hash": "hMs0ktf4MnLUZZ2EL95WEMl2_ZO6QalzDmPSO5TeuFM",
+  "parentCollections": [],
+  "pid": "11676/hMs0ktf4MnLUZZ2EL95WEMl2",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Michal",
+      "lastName": "Marek",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Michal_Marek"
+      }
+    }, {
+      "firstName": "Gabriela",
+      "lastName": "Vítková",
+      "orcid": "0000-0002-1022-0256",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Gabriela_V%C3%ADtkov%C3%A1"
+      }
+    }, {
+      "firstName": "Kateřina",
+      "lastName": "Komínková",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Kate%C5%99ina_Kom%C3%ADnkov%C3%A1"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/hMs0ktf4MnLUZZ2EL95WEMl2,\r\n  author={Marek, M., Vítková, G., Komínková, K.},\r\n  title={ICOS ATC Meteorological data csv time series, Křešín u Pacova, 2021-05-23},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/hMs0ktf4MnLUZZ2EL95WEMl2},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/hMs0ktf4MnLUZZ2EL95WEMl2}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC Meteorological data csv time series, Křešín u Pacova, 2021-05-23\r\nID - 11676/hMs0ktf4MnLUZZ2EL95WEMl2\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/hMs0ktf4MnLUZZ2EL95WEMl2\r\nPB - Atmosphere Thematic Centre\r\nAU - Marek, M.\r\nAU - Vítková, G.\r\nAU - Komínková, K.\r\nER - ",
+    "citationString": "Marek, M., Vítková, G., Komínková, K., ICOS RI, 2021. ICOS ATC Meteorological data csv time series, Křešín u Pacova, 2021-05-23, https://hdl.handle.net/11676/hMs0ktf4MnLUZZ2EL95WEMl2",
+    "temporalCoverageDisplay": "2021-05-23"
+  },
+  "size": 40436,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "Meteorological station for the third level",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_1101"
+      },
+      "interval": {
+        "start": "2021-05-23T00:00:00Z",
+        "stop": "2021-05-23T23:59:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 534.0,
+          "geo": {
+            "coordinates": [15.08, 49.572, 534.0],
+            "type": "Point"
+          },
+          "label": "KRE",
+          "lat": 49.572,
+          "lon": 15.08
+        },
+        "id": "KRE",
+        "org": {
+          "name": "Křešín u Pacova",
+          "self": {
+            "comments": [],
+            "label": "KRE",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_KRE"
+          }
+        },
+        "pictures": ["https://meta.icos-cp.eu/files/GcnZWlSJ1kE0nWNpUDeyIgDu/Kresin%20u%20Pacova%20from%20ground.png"],
+        "responsibleOrganization": {
+          "name": "Global Change Research Institute",
+          "self": {
+            "comments": [],
+            "label": "CAS",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/CAS"
+          },
+          "website": "https://www.czechglobe.cz"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "CZ",
+          "documentation": [{
+            "hash": "NeBaiWMAucTqNFRIRP8Oiv1mLsLbBsHQ4bnu_caBdJE",
+            "name": "Kresin_Pacova_STILT_station_characterization.pdf",
+            "res": "https://meta.icos-cp.eu/objects/NeBaiWMAucTqNFRIRP8Oiv1m"
+          }],
+          "labelingDate": "2018-04-20",
+          "stationClass": "1",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "ICOS ATC Raw time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ATC Meteorological data csv time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcMeteoL0DataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-05-24T09:41:56.498Z",
+    "stop": "2021-05-24T09:41:59.372Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/HXp3cR6Vp03PkK46S2kA2HjF",
+  "coverageGeo": {
+    "coordinates": [21.3672, 59.7839, 8.0],
+    "type": "Point"
+  },
+  "fileName": "ICOS_ATC_NRT_UTO_2021-03-26_2021-03-26_57.0_999_CO.zip",
+  "hash": "HXp3cR6Vp03PkK46S2kA2HjFVDgJpbxlby6SpZ1nIoI",
+  "parentCollections": [],
+  "pid": "11676/HXp3cR6Vp03PkK46S2kA2HjF",
+  "references": {
+    "acknowledgements": [],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/HXp3cR6Vp03PkK46S2kA2HjF,\r\n  title={ICOS ATC NRT CO data csv time series, Utö - Baltic sea (57.0 m), 2021-03-26},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/HXp3cR6Vp03PkK46S2kA2HjF},\r\n  publisher={Atmosphere Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/HXp3cR6Vp03PkK46S2kA2HjF}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ATC NRT CO data csv time series, Utö - Baltic sea (57.0 m), 2021-03-26\r\nID - 11676/HXp3cR6Vp03PkK46S2kA2HjF\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/HXp3cR6Vp03PkK46S2kA2HjF\r\nPB - Atmosphere Thematic Centre\r\nER - ",
+    "citationString": "Copernicus, 2021. ICOS ATC NRT CO data csv time series, Utö - Baltic sea (57.0 m), 2021-03-26, https://hdl.handle.net/11676/HXp3cR6Vp03PkK46S2kA2HjF",
+    "temporalCoverageDisplay": "2021-03-26"
+  },
+  "size": 1688,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "CO2-CH4-H2O Picarro Analyzer",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ATC_999"
+      },
+      "interval": {
+        "start": "2021-03-26T00:00:00Z",
+        "stop": "2021-03-26T23:00:00Z"
+      },
+      "samplingHeight": 57.0,
+      "station": {
+        "coverage": {
+          "alt": 8.0,
+          "geo": {
+            "coordinates": [21.3672, 59.7839, 8.0],
+            "type": "Point"
+          },
+          "label": "UTO",
+          "lat": 59.7839,
+          "lon": 21.3672
+        },
+        "id": "UTO",
+        "org": {
+          "name": "Utö - Baltic sea",
+          "self": {
+            "comments": [],
+            "label": "UTO",
+            "uri": "http://meta.icos-cp.eu/resources/stations/AS_UTO"
+          }
+        },
+        "pictures": ["https://meta.icos-cp.eu/files/7zOAqMV8AqesUsUe76Gmx132/UtoSamplingTower.jpg"],
+        "responsibleOrganization": {
+          "name": "Finnish Meteorological Institute",
+          "self": {
+            "comments": [],
+            "label": "FMI",
+            "uri": "http://meta.icos-cp.eu/resources/organizations/FMI"
+          },
+          "website": "https://en.ilmatieteenlaitos.fi/greenhouse-gases"
+        },
+        "specificInfo": {
+          "_type": "plainicos",
+          "countryCode": "FI",
+          "documentation": [{
+            "hash": "VwL6aY7EoVR3_5ugXdmdaM_2-VbPDPSo3lFOLpojSc8",
+            "name": "Uto_Baltic_sea_STILT_station_characterization.pdf",
+            "res": "https://meta.icos-cp.eu/objects/VwL6aY7EoVR3_5ugXdmdaM_2"
+          }],
+          "labelingDate": "2019-05-22",
+          "stationClass": "2",
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+            "self": {
+              "comments": [],
+              "label": "Atmospheric data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+            }
+          },
+          "timeZoneOffset": 2
+        }
+      }
+    },
+    "columns": [{
+      "label": "TIMESTAMP",
+      "valueType": {
+        "self": {
+          "comments": [],
+          "label": "time instant, UTC",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/timeStamp"
+        }
+      }
+    }, {
+      "label": "Flag",
+      "valueType": {
+        "self": {
+          "comments": ["single-letter quality flag"],
+          "label": "quality flag",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/oneLetterFlag"
+        }
+      }
+    }, {
+      "label": "NbPoints",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["integer number"],
+          "label": "number",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/number"
+        },
+        "self": {
+          "comments": [],
+          "label": "number of points",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/npoints"
+        }
+      }
+    }, {
+      "label": "Stdev",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "standard deviation of gas mole fraction",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/moleFractionSdPpb"
+        },
+        "unit": "nmol mol-1"
+      }
+    }, {
+      "label": "co",
+      "valueType": {
+        "quantityKind": {
+          "comments": ["Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."],
+          "label": "portion",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion"
+        },
+        "self": {
+          "comments": [],
+          "label": "CO mixing ratio (dry mole fraction)",
+          "uri": "http://meta.icos-cp.eu/resources/cpmeta/coMixingRatioPpb"
+        },
+        "unit": "nmol mol-1"
+      }
+    }],
+    "nRows": 24,
+    "productionInfo": {
+      "contributors": [],
+      "creator": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "dateTime": "2021-03-27T06:22:36Z",
+      "host": {
+        "name": "Atmosphere Thematic Centre",
+        "self": {
+          "comments": [],
+          "label": "ICOS ATC",
+          "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+        }
+      },
+      "sources": []
+    }
+  },
+  "specification": {
+    "dataLevel": 1,
+    "datasetSpec": {
+      "self": {
+        "comments": [],
+        "label": "Atmospheric CO mole fraction time series",
+        "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcCoMoleFracTimeSer"
+      }
+    },
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "zip",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipEncoding"
+    },
+    "format": {
+      "comments": ["Semicolon-separated ASCII, with #-prefixed multi-line header"],
+      "label": "ICOS ATC time series",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiAtcProductTimeSer"
+    },
+    "keywords": ["CO", "concentration"],
+    "project": {
+      "self": {
+        "comments": ["European Union's Earth Observation Programme"],
+        "label": "Copernicus",
+        "uri": "http://meta.icos-cp.eu/resources/projects/copernicus"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ATC NRT CO data csv time series",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/atcCoNrtDataObject"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/atm.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/as.png",
+      "self": {
+        "comments": [],
+        "label": "Atmospheric data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/atmosphere"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-03-27T06:22:36.456Z",
+    "stop": "2021-03-27T06:22:38.891Z",
+    "submitter": {
+      "name": "Atmosphere Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ATC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ATC"
+      }
+    }
+  }
+}

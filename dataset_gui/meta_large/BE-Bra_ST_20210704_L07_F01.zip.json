@@ -1,0 +1,157 @@
+{
+  "coverageGeo": {
+    "coordinates": [11.64464, 55.48587, 40.0],
+    "type": "Point"
+  },
+  "fileName": "DK-Sor_BM_20210704_L03_F01.bin",
+  "hash": "o8M4kP6jZy-hSyX0xAj1ScgpSn5FdwyGbZiNh0OwN0A",
+  "parentCollections": [],
+  "pid": "11676/o8M4kP6jZy-hSyX0xAj1Scgp",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Andreas",
+      "lastName": "Ibrom",
+      "orcid": "0000-0002-1341-921X",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Andreas_Ibrom"
+      }
+    }, {
+      "firstName": "Flemming",
+      "lastName": "Møller",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Flemming_M%C3%B8ller"
+      }
+    }, {
+      "firstName": "Kim",
+      "lastName": "Pilegaard",
+      "orcid": "0000-0002-5169-5717",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Kim_Pilegaard"
+      }
+    }, {
+      "firstName": "Erik",
+      "lastName": "Rønn Lange",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Erik%20R%C3%B8nn_Lange"
+      }
+    }, {
+      "firstName": "Jens",
+      "lastName": "Schaarup Sørensen",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jens%20Shaarup_S%C3%B8rensen"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/o8M4kP6jZy-hSyX0xAj1Scgp,\r\n  author={Ibrom, A., Møller, F., Pilegaard, K., Rønn Lange, E., Schaarup Sørensen, J.},\r\n  title={ICOS ETC Bio Meteo Raw binary, Soroe, 2021-07-04},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/o8M4kP6jZy-hSyX0xAj1Scgp},\r\n  publisher={Soroe},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/o8M4kP6jZy-hSyX0xAj1Scgp}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ETC Bio Meteo Raw binary, Soroe, 2021-07-04\r\nID - 11676/o8M4kP6jZy-hSyX0xAj1Scgp\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/o8M4kP6jZy-hSyX0xAj1Scgp\r\nPB - Soroe\r\nAU - Ibrom, A.\r\nAU - Møller, F.\r\nAU - Pilegaard, K.\r\nAU - Rønn Lange, E.\r\nAU - Schaarup Sørensen, J.\r\nER - ",
+    "citationString": "Ibrom, A., Møller, F., Pilegaard, K., Rønn Lange, E., Schaarup Sørensen, J., ICOS RI, 2021. ICOS ETC Bio Meteo Raw binary, Soroe, 2021-07-04, https://hdl.handle.net/11676/o8M4kP6jZy-hSyX0xAj1Scgp",
+    "temporalCoverageDisplay": "2021-07-04"
+  },
+  "size": 241808,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "DL-Campbell CR1000X",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ETC_16_3"
+      },
+      "interval": {
+        "start": "2021-07-03T23:00:00Z",
+        "stop": "2021-07-04T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 40.0,
+          "geo": {
+            "coordinates": [11.64464, 55.48587, 40.0],
+            "type": "Point"
+          },
+          "label": "DK-Sor",
+          "lat": 55.48587,
+          "lon": 11.64464
+        },
+        "id": "DK-Sor",
+        "org": {
+          "name": "Soroe",
+          "self": {
+            "comments": ["The Sorø site (ICOS code DK-Sor) was established in 1996 and it located in the forest “Lille Bøgeskov” on the island of Zealand. The forest is privately owned by the foundation Sorø Akademi. The climate is temperate maritime, it is dominated by westerly winds and frequent passes of frontal systems. The forest is dominated by European beech (Fagus sylvatica L.) and the tree immediately around the station were planted in 1921. The main part of the surrounding forest consists of beech tree of varying age with small scattered stands of Norway spruce (Picea abies (L.) Karst.) as well as single trees of other conifers such as European larch (Larix decidua Mill.). The soils are brown soil classified as either Alfisols or Mollisols, with a 10-40 cm deep organic layer."],
+            "label": "DK-Sor",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_DK-Sor"
+          }
+        },
+        "pictures": [],
+        "specificInfo": {
+          "_type": "etc",
+          "countryCode": "DK",
+          "documentation": [],
+          "stationClass": "1",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Raw binary ETC station data",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/binEtcRawTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ETC Bio Meteo Raw binary",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcBioMeteoRawSeriesBin"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-07-04T23:50:12.492749Z",
+    "stop": "2021-07-04T23:50:14.485963Z",
+    "submitter": {
+      "name": "Soroe",
+      "self": {
+        "comments": ["The Sorø site (ICOS code DK-Sor) was established in 1996 and it located in the forest “Lille Bøgeskov” on the island of Zealand. The forest is privately owned by the foundation Sorø Akademi. The climate is temperate maritime, it is dominated by westerly winds and frequent passes of frontal systems. The forest is dominated by European beech (Fagus sylvatica L.) and the tree immediately around the station were planted in 1921. The main part of the surrounding forest consists of beech tree of varying age with small scattered stands of Norway spruce (Picea abies (L.) Karst.) as well as single trees of other conifers such as European larch (Larix decidua Mill.). The soils are brown soil classified as either Alfisols or Mollisols, with a 10-40 cm deep organic layer."],
+        "label": "DK-Sor",
+        "uri": "http://meta.icos-cp.eu/resources/stations/ES_DK-Sor"
+      }
+    }
+  }
+}

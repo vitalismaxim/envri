@@ -1,0 +1,153 @@
+{
+  "coverageGeo": {
+    "coordinates": [7.06465, 48.6741, 310.0],
+    "type": "Point"
+  },
+  "fileName": "FR-Hes_ST_20210530_L03_F01.csv",
+  "hash": "1y0EdQq9j3TAqsNvVFi9flMSPenX30rj1KjFnfTcDTc",
+  "parentCollections": [],
+  "pid": "11676/1y0EdQq9j3TAqsNvVFi9flMS",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Matthias",
+      "lastName": "Cuntz",
+      "orcid": "0000-0002-5966-1829",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Matthias_Cuntz"
+      }
+    }, {
+      "firstName": "Pascal",
+      "lastName": "Courtois",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Pascal_Courtois"
+      }
+    }, {
+      "firstName": "Emilie",
+      "lastName": "Joetzjer",
+      "orcid": "0000-0001-6781-1535",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Emilie_Joetzjer"
+      }
+    }, {
+      "firstName": "Jean-Baptiste",
+      "lastName": "Lily",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Jean-Baptiste_Lily"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/1y0EdQq9j3TAqsNvVFi9flMS,\r\n  author={Cuntz, M., Courtois, P., Joetzjer, E., Lily, J.},\r\n  title={ICOS ETC Storage Flux Raw ASCII, Hesse, 2021-05-30},\r\n  year={2021},\r\n  url={https://hdl.handle.net/11676/1y0EdQq9j3TAqsNvVFi9flMS},\r\n  publisher={Hesse},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/1y0EdQq9j3TAqsNvVFi9flMS}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ICOS ETC Storage Flux Raw ASCII, Hesse, 2021-05-30\r\nID - 11676/1y0EdQq9j3TAqsNvVFi9flMS\r\nPY - 2021\r\nUR - https://hdl.handle.net/11676/1y0EdQq9j3TAqsNvVFi9flMS\r\nPB - Hesse\r\nAU - Cuntz, M.\r\nAU - Courtois, P.\r\nAU - Joetzjer, E.\r\nAU - Lily, J.\r\nER - ",
+    "citationString": "Cuntz, M., Courtois, P., Joetzjer, E., Lily, J., ICOS RI, 2021. ICOS ETC Storage Flux Raw ASCII, Hesse, 2021-05-30, https://hdl.handle.net/11676/1y0EdQq9j3TAqsNvVFi9flMS",
+    "temporalCoverageDisplay": "2021-05-30"
+  },
+  "size": 7753669,
+  "specificInfo": {
+    "acquisition": {
+      "instrument": {
+        "comments": [],
+        "label": "DL-Campbell CR1000X",
+        "uri": "http://meta.icos-cp.eu/resources/instruments/ETC_6_3"
+      },
+      "interval": {
+        "start": "2021-05-29T23:00:00Z",
+        "stop": "2021-05-30T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 310.0,
+          "geo": {
+            "coordinates": [7.06465, 48.6741, 310.0],
+            "type": "Point"
+          },
+          "label": "FR-Hes",
+          "lat": 48.6741,
+          "lon": 7.06465
+        },
+        "id": "FR-Hes",
+        "org": {
+          "name": "Hesse",
+          "self": {
+            "comments": ["The Hesse site (ICOS code FR-Hes) is located in the North-East of France, 6 km away from the city of Sarrebourg, in the plain at the feet of the Vosges Mountain. The climate is semi-continental temperate. The ecosystem studied is a state beech forest (56 years old) produced by natural regeneration. The soil type is intermediate between a luvisol and a stagnic luvisol."],
+            "label": "FR-Hes",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_FR-Hes"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/PXjAFc8JzyPYWzW/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "countryCode": "FR",
+          "documentation": [],
+          "meanAnnualPrecip": 889.0,
+          "meanAnnualRad": 140.0,
+          "meanAnnualTemp": 10.0,
+          "stationClass": "1",
+          "stationDocs": [],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    }
+  },
+  "specification": {
+    "dataLevel": 0,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Raw ASCII ETC station data",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/asciiEtcRawTimeSer"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ICOS ETC Storage Flux Raw ASCII",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcStorageFluxRawSeriesCsv"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-05-31T03:27:03.404961Z",
+    "stop": "2021-05-31T03:27:05.489021Z",
+    "submitter": {
+      "name": "Hesse",
+      "self": {
+        "comments": ["The Hesse site (ICOS code FR-Hes) is located in the North-East of France, 6 km away from the city of Sarrebourg, in the plain at the feet of the Vosges Mountain. The climate is semi-continental temperate. The ecosystem studied is a state beech forest (56 years old) produced by natural regeneration. The soil type is intermediate between a luvisol and a stagnic luvisol."],
+        "label": "FR-Hes",
+        "uri": "http://meta.icos-cp.eu/resources/stations/ES_FR-Hes"
+      }
+    }
+  }
+}

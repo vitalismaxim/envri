@@ -1,0 +1,161 @@
+{
+  "accessUrl": "https://data.icos-cp.eu/objects/LLXpjSec_gv3ZhIDiAitYHt3",
+  "coverageGeo": {
+    "coordinates": [-1.79635, 48.1184, 40.0],
+    "type": "Point"
+  },
+  "fileName": "ICOSETC_Archive_FR-Mej.zip",
+  "hash": "LLXpjSec_gv3ZhIDiAitYHt3YiYxE4kb9sZ77CPP6zQ",
+  "parentCollections": [{
+    "comments": [],
+    "label": "Ecosystem final quality (L2) product in ETC-Archive format - release 2021-1",
+    "uri": "https://meta.icos-cp.eu/collections/Yljl66tHIJM-XlCmvTvMU3vi"
+  }],
+  "pid": "11676/LLXpjSec_gv3ZhIDiAitYHt3",
+  "references": {
+    "acknowledgements": [],
+    "authors": [{
+      "firstName": "Christophe",
+      "lastName": "Flechard",
+      "orcid": "0000-0002-5954-9925",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Christophe_Flechard"
+      }
+    }, {
+      "firstName": "Yannick",
+      "lastName": "Fauvel",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Yannick_Fauvel"
+      }
+    }, {
+      "firstName": "Yannick",
+      "lastName": "Hamon",
+      "self": {
+        "comments": [],
+        "uri": "http://meta.icos-cp.eu/resources/people/Yannick_Hamon"
+      }
+    }],
+    "citationBibTex": "@misc{https://hdl.handle.net/11676/LLXpjSec_gv3ZhIDiAitYHt3,\r\n  author={Flechard, C., Fauvel, Y., Hamon, Y.},\r\n  title={ETC L2 ARCHIVE, Mejusseaume, 2018-12-31–2020-12-31},\r\n  year={2020},\r\n  url={https://hdl.handle.net/11676/LLXpjSec_gv3ZhIDiAitYHt3},\r\n  publisher={Ecosystem Thematic Centre},\r\n  copyright={https://creativecommons.org/licenses/by/4.0/},\r\n  pid={11676/LLXpjSec_gv3ZhIDiAitYHt3}\r\n}",
+    "citationRis": "TY - DATA\r\nT1 - ETC L2 ARCHIVE, Mejusseaume, 2018-12-31–2020-12-31\r\nID - 11676/LLXpjSec_gv3ZhIDiAitYHt3\r\nPY - 2020\r\nUR - https://hdl.handle.net/11676/LLXpjSec_gv3ZhIDiAitYHt3\r\nPB - Ecosystem Thematic Centre\r\nAU - Flechard, C.\r\nAU - Fauvel, Y.\r\nAU - Hamon, Y.\r\nER - ",
+    "citationString": "Flechard, C., Fauvel, Y., Hamon, Y., ICOS RI, 2020. ETC L2 ARCHIVE, Mejusseaume, 2018-12-31–2020-12-31, https://hdl.handle.net/11676/LLXpjSec_gv3ZhIDiAitYHt3",
+    "temporalCoverageDisplay": "2018-12-31–2020-12-31"
+  },
+  "size": 21002238,
+  "specificInfo": {
+    "acquisition": {
+      "interval": {
+        "start": "2018-12-31T23:00:00Z",
+        "stop": "2020-12-31T23:00:00Z"
+      },
+      "station": {
+        "coverage": {
+          "alt": 40.0,
+          "geo": {
+            "coordinates": [-1.79635, 48.1184, 40.0],
+            "type": "Point"
+          },
+          "label": "FR-Mej",
+          "lat": 48.1184,
+          "lon": -1.79635
+        },
+        "id": "FR-Mej",
+        "org": {
+          "name": "Mejusseaume",
+          "self": {
+            "comments": ["The station Mejusseaume (ICOS code FR-Mej) is located on managed agricultural land (grazed grassland with occasional maize cropping seasons), around 10 km West of the city of Rennes in Brittany, NW France. The measurement site is part of the INRAE-PEGASE dairy experimental farm (IEPL) at Méjusseaume. The field is roughly rectangle-shaped (approx 170 m * 280 m), aligned NW-SE, with a surface area of 4.72 ha, at the centre of which the EC mast is located. The upwind distance to the field edge (fetch) in the prevailing wind direction (SW) is in the range 90-110m. There is also a significant contribution by NE winds at the site (generally late winter and spring). The field is surrounded by similarly managed fields - mostly grazed grassland -, except for a small woodland patch to the North-West. Intensively-managed grazed grassland, with rotational cattle grazing phases 4-6 times per year. Grassland ploughed up every 5 years in spring, followed by one-season maize crop, sown back to grassland in autumn the same year. Surrounded by fields with similar land use (permanent grassland, or long-term grassland-maize rotation). Tree hedges on 3 out of 4 field boundaries. Organic and mineral fertilization (average 100 kg N ha-1 yr-1)."],
+            "label": "FR-Mej",
+            "uri": "http://meta.icos-cp.eu/resources/stations/ES_FR-Mej"
+          }
+        },
+        "pictures": ["https://fileshare.icos-cp.eu/s/nG7wnRe327nSdmP/preview"],
+        "specificInfo": {
+          "_type": "etc",
+          "climateZone": {
+            "comments": [],
+            "label": "Oceanic subtropical highland (Cfb)",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/koppen_Cfb"
+          },
+          "countryCode": "FR",
+          "documentation": [{
+            "hash": "CRycVFKI5xaJg7afu7lt3t_EqxhtL2ScyxrqdhOWLQg",
+            "name": "FR-Mej Associated ICOS Ecosystem Station Labelling Report.pdf",
+            "res": "https://meta.icos-cp.eu/objects/CRycVFKI5xaJg7afu7lt3t_E"
+          }],
+          "ecosystemType": {
+            "comments": ["Lands with herbaceous types of cover. Tree and shrub cover is less than 10%. Permanent wetlands lands with a permanent mixture of water and herbaceous or woody vegetation. The vegetation can be present in either salt, brackish, or fresh water."],
+            "label": "Grasslands",
+            "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/igbp_GRA"
+          },
+          "labelingDate": "2020-10-26",
+          "meanAnnualPrecip": 722.0,
+          "meanAnnualRad": 133.0,
+          "meanAnnualTemp": 11.7,
+          "stationClass": "Associated",
+          "stationDocs": ["https://doi.org/10.5194/amt-10-1875-2017"],
+          "stationPubs": [],
+          "theme": {
+            "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+            "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+            "self": {
+              "comments": [],
+              "label": "Ecosystem data",
+              "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+            }
+          },
+          "timeZoneOffset": 1
+        }
+      }
+    },
+    "nRows": 35088
+  },
+  "specification": {
+    "dataLevel": 2,
+    "documentation": [],
+    "encoding": {
+      "comments": [],
+      "label": "plain file",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/plainFileEncoding"
+    },
+    "format": {
+      "comments": [],
+      "label": "Arbitrary ZIP archive",
+      "uri": "http://meta.icos-cp.eu/ontologies/cpmeta/zipArchive"
+    },
+    "project": {
+      "keywords": ["ICOS"],
+      "self": {
+        "comments": ["Official ICOS data"],
+        "label": "ICOS",
+        "uri": "http://meta.icos-cp.eu/resources/projects/icos"
+      }
+    },
+    "self": {
+      "comments": [],
+      "label": "ETC L2 ARCHIVE",
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/etcArchiveProduct"
+    },
+    "theme": {
+      "icon": "https://static.icos-cp.eu/images/themes/eco.svg",
+      "markerIcon": "https://static.icos-cp.eu/share/stations/icons/es.png",
+      "self": {
+        "comments": [],
+        "label": "Ecosystem data",
+        "uri": "http://meta.icos-cp.eu/resources/themes/ecosystem"
+      }
+    }
+  },
+  "submission": {
+    "start": "2021-04-30T10:37:24.675Z",
+    "stop": "2021-04-30T10:37:47.924Z",
+    "submitter": {
+      "name": "Ecosystem Thematic Centre",
+      "self": {
+        "comments": [],
+        "label": "ICOS ETC",
+        "uri": "http://meta.icos-cp.eu/resources/organizations/ETC"
+      }
+    }
+  }
+}

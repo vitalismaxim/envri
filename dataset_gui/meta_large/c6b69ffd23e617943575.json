@@ -1,0 +1,837 @@
+{
+ "id": "20.5000.1025/c6b69ffd23e617943575",
+ "type": "DigitalSpecimen",
+ "content": {
+  "physicalSpecimenId": "http://www.botanicalcollections.be/specimen/BR0000015160607",
+  "gbifId": "https://www.gbif.org/occurrence/1840020941",
+  "institutionCode": "BR",
+  "id": "20.5000.1025/c6b69ffd23e617943575",
+  "midslevel": 1,
+  "catOfLifeReference": "http://www.catalogueoflife.org/col/details/species/id/4d0bfe871b937d10a307397c1fe36bab",
+  "scientificName": "Carissa bispinosa (L.) Desf. ex Brenan",
+  "catalogNumber": "BR0000015160607",
+  "recordedBy": "Wells M.J.",
+  "availableImages": [
+   [
+    null,
+    "image/jpeg",
+    null,
+    "Meise Botanic Garden",
+    null,
+    "http://oxalis.br.fgov.be/images/BR0/000/015/160/607/BR0000015160607.jpg"
+   ]
+  ],
+  "dwcaContent": {
+   "core": {
+    "type": "dwc:Occurrence",
+    "content": {
+     "gbif:datasetKey": "b740eaa0-0679-41dc-acb7-990d562dfa37",
+     "gbif:hasCoordinate": "false",
+     "gbif:hasGeospatialIssues": "false",
+     "gbif:acceptedTaxonKey": "7600659",
+     "gbif:phylumKey": "7707728",
+     "dcterms:type": "PhysicalObject",
+     "dwc:genus": "Carissa",
+     "gbif:familyKey": "6701",
+     "gbif:lastCrawled": "2020-10-06T14:03:29.243Z",
+     "dwc:recordNumber": "3416",
+     "dwc:phylum": "Tracheophyta",
+     "gbif:taxonKey": "7600659",
+     "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000015160607",
+     "gbif:gbifID": "1840020941",
+     "dwc:institutionCode": "BR",
+     "dwc:taxonRank": "SPECIES",
+     "dwc:kingdom": "Plantae",
+     "gbif:genusKey": "3169761",
+     "dwc:specificEpithet": "bispinosa",
+     "gbif:genericName": "Carissa",
+     "dwc:class": "Magnoliopsida",
+     "gbif:species": "Carissa bispinosa",
+     "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+     "dwc:recordedBy": "Wells M.J.",
+     "gbif:kingdomKey": "6",
+     "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+     "gbif:classKey": "220",
+     "dwc:scientificName": "Carissa bispinosa (L.) Desf. ex Brenan",
+     "gbif:lastInterpreted": "2020-10-07T14:18:37.327Z",
+     "dwc:datasetName": "Meise Botanic Garden Herbarium",
+     "dwc:occurrenceStatus": "PRESENT",
+     "dcterms:modified": "2015-07-13T00:00:00Z",
+     "dcterms:license": "CC_BY_4_0",
+     "dwc:geodeticDatum": "WGS84",
+     "gbif:orderKey": "412",
+     "gbif:acceptedScientificName": "Carissa bispinosa (L.) Desf. ex Brenan",
+     "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000015160607",
+     "dwc:family": "Apocynaceae",
+     "dwc:preparations": "HerbariumSheet",
+     "dwc:nomenclaturalCode": "ICBN",
+     "gbif:mediaType": "StillImage",
+     "dwc:catalogNumber": "BR0000015160607",
+     "gbif:protocol": "DWC_ARCHIVE",
+     "gbif:speciesKey": "7600659",
+     "dwc:order": "Gentianales",
+     "dcterms:rightsHolder": "Meise Botanic Garden",
+     "dwc:taxonomicStatus": "ACCEPTED",
+     "http://rs.gbif.org/terms/1.0/verbatimScientificName": "Carissa bispinosa (L.) Desf. ex Brenan",
+     "gbif:lastParsed": "2020-10-07T14:18:37.327Z",
+     "gbif:publishingCountry": "BE"
+    }
+   },
+   "extensions": [
+    {
+     "type": "gbif:Multimedia",
+     "content": [
+      {
+       "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000015160607",
+       "dcterms:title": "Carissa bispinosa (L.) Desf. ex Brenan",
+       "dcterms:rightsHolder": "Meise Botanic Garden",
+       "gbif:gbifID": "1840020941",
+       "dcterms:identifier": "http://oxalis.br.fgov.be/images/BR0/000/015/160/607/BR0000015160607.jpg",
+       "dcterms:format": "image/jpeg",
+       "dcterms:license": "http://creativecommons.org/licenses/by-sa/4.0/",
+       "dcterms:type": "StillImage"
+      }
+     ]
+    },
+    {
+     "type": "dwc:Occurrence",
+     "content": [
+      {
+       "dcterms:type": "PhysicalObject",
+       "dwc:genus": "Carissa",
+       "dwc:recordNumber": "3416",
+       "dwc:phylum": "Tracheophyta",
+       "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000015160607",
+       "gbif:gbifID": "1840020941",
+       "dwc:institutionCode": "BR",
+       "dwc:kingdom": "Plantae",
+       "dwc:specificEpithet": "bispinosa",
+       "dwc:class": "Magnoliopsida",
+       "dwc:basisOfRecord": "PreservedSpecimen",
+       "dwc:recordedBy": "Wells M.J.",
+       "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+       "dwc:scientificName": "Carissa bispinosa (L.) Desf. ex Brenan",
+       "dwc:datasetName": "Meise Botanic Garden Herbarium",
+       "dcterms:modified": "2015-07-13",
+       "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+       "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000015160607",
+       "dwc:family": "Apocynaceae",
+       "dwc:preparations": "HerbariumSheet",
+       "dwc:nomenclaturalCode": "ICBN",
+       "dwc:catalogNumber": "BR0000015160607",
+       "dwc:order": "Gentianales",
+       "dcterms:rightsHolder": "Meise Botanic Garden",
+       "dwc:taxonomicStatus": "accepted name"
+      }
+     ]
+    }
+   ]
+  },
+  "colContent": {
+   "id": "4d0bfe871b937d10a307397c1fe36bab",
+   "name": "Carissa bispinosa",
+   "rank": "Species",
+   "name_status": "accepted name",
+   "genus": "Carissa",
+   "subgenus": "",
+   "species": "bispinosa",
+   "infraspecies_marker": "",
+   "infraspecies": "",
+   "author": "(L.) Desf. ex Brenan",
+   "record_scrutiny_date": {
+    "scrutiny": "2018-11"
+   },
+   "online_resource": "",
+   "is_extinct": "false",
+   "source_database": "World Plants: Synonymic Checklists of the Vascular Plants of the World",
+   "source_database_url": "http://worldplants.webarchiv.kit.edu/",
+   "bibliographic_citation": "Hassler M. (2020). World Plants: Synonymic Checklists of the Vascular Plants of the World (version Nov 2018). In: Species 2000 & ITIS Catalogue of Life, 2020-09-01 Beta (Roskov Y.; Ower G.; Orrell T.; Nicolson D.; Bailly N.; Kirk P.M.; Bourgoin T.; DeWalt R.E.; Decock W.; Nieukerken E. van; Penev L.; eds.). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.",
+   "name_html": "<i>Carissa bispinosa</i> (L.) Desf. ex Brenan",
+   "url": "http://www.catalogueoflife.org/col/details/species/id/4d0bfe871b937d10a307397c1fe36bab",
+   "distribution": "Kenya, Tanzania, Uganda, Malawi, Mozambique, Zimbabwe, Botswana, South Africa (Limpopo, North-West Prov., Gauteng, Mpulamanga, KwaZulu-Natal, N-Cape Prov., W-Cape Prov., E-Cape Prov.), Swaziland, Namibia, Southern Marianas (I) (Guam (I)) 27050 0",
+   "references": [
+    {
+     "author": "Brenan",
+     "year": "1954",
+     "source": "In: Mem. New York Bot. Gard. 8: 502"
+    }
+   ],
+   "classification": [
+    {
+     "id": "208cf441fe2e1662376a9ce9e80782e1",
+     "name": "Plantae",
+     "rank": "Kingdom",
+     "name_html": "Plantae",
+     "url": "http://www.catalogueoflife.org/col/browse/tree/id/208cf441fe2e1662376a9ce9e80782e1"
+    },
+    {
+     "id": "73328ba4e1446e1ee3602956b66eb127",
+     "name": "Tracheophyta",
+     "rank": "Phylum",
+     "name_html": "Tracheophyta",
+     "url": "http://www.catalogueoflife.org/col/browse/tree/id/73328ba4e1446e1ee3602956b66eb127"
+    },
+    {
+     "id": "53497bb664b89c28e60f020f7f21f882",
+     "name": "Magnoliopsida",
+     "rank": "Class",
+     "name_html": "Magnoliopsida",
+     "url": "http://www.catalogueoflife.org/col/browse/tree/id/53497bb664b89c28e60f020f7f21f882"
+    },
+    {
+     "id": "4947a99e314158d2b150940801a3d490",
+     "name": "Gentianales",
+     "rank": "Order",
+     "name_html": "Gentianales",
+     "url": "http://www.catalogueoflife.org/col/browse/tree/id/4947a99e314158d2b150940801a3d490"
+    },
+    {
+     "id": "239c24fdfc05b9147da10d554c211c19",
+     "name": "Apocynaceae",
+     "rank": "Family",
+     "name_html": "Apocynaceae",
+     "url": "http://www.catalogueoflife.org/col/browse/tree/id/239c24fdfc05b9147da10d554c211c19"
+    },
+    {
+     "id": "61beb072c81778beb714d7121b0961a5",
+     "name": "Carissa",
+     "rank": "Genus",
+     "name_html": "<i>Carissa</i>",
+     "url": "http://www.catalogueoflife.org/col/browse/tree/id/61beb072c81778beb714d7121b0961a5"
+    }
+   ],
+   "child_taxa": [],
+   "synonyms": [
+    {
+     "id": "af7831e80b5f3ceb47eaa1ba9d968e0d",
+     "name": "Arduina acuminata",
+     "rank": "Species",
+     "name_status": "synonym",
+     "genus": "Arduina",
+     "subgenus": "",
+     "species": "acuminata",
+     "infraspecies_marker": "",
+     "infraspecies": "",
+     "author": "E. Mey.",
+     "record_scrutiny_date": "",
+     "online_resource": "",
+     "is_extinct": 0,
+     "name_html": "<i>Arduina acuminata</i> E. Mey.",
+     "url": "http://www.catalogueoflife.org/col/details/species/id/4d0bfe871b937d10a307397c1fe36bab/synonym/af7831e80b5f3ceb47eaa1ba9d968e0d",
+     "references": [
+      {
+       "author": "E. Mey.",
+       "year": "1838",
+       "source": "In: Comm. Pl. Afr. Austr.: 191"
+      }
+     ]
+    },
+    {
+     "id": "280a853343f0af666d08730bcdd4844d",
+     "name": "Arduina bispinosa",
+     "rank": "Species",
+     "name_status": "synonym",
+     "genus": "Arduina",
+     "subgenus": "",
+     "species": "bispinosa",
+     "infraspecies_marker": "",
+     "infraspecies": "",
+     "author": "L.",
+     "record_scrutiny_date": "",
+     "online_resource": "",
+     "is_extinct": 0,
+     "name_html": "<i>Arduina bispinosa</i> L.",
+     "url": "http://www.catalogueoflife.org/col/details/species/id/4d0bfe871b937d10a307397c1fe36bab/synonym/280a853343f0af666d08730bcdd4844d",
+     "references": [
+      {
+       "author": "L.",
+       "year": "1767",
+       "source": "In: Mant. Pl. 1: 52"
+      }
+     ]
+    },
+    {
+     "id": "c12bcb7ec5c4a32e1fd17da43408d685",
+     "name": "Arduina erythrocarpa",
+     "rank": "Species",
+     "name_status": "synonym",
+     "genus": "Arduina",
+     "subgenus": "",
+     "species": "erythrocarpa",
+     "infraspecies_marker": "",
+     "infraspecies": "",
+     "author": "Eckl.",
+     "record_scrutiny_date": "",
+     "online_resource": "",
+     "is_extinct": 0,
+     "name_html": "<i>Arduina erythrocarpa</i> Eckl.",
+     "url": "http://www.catalogueoflife.org/col/details/species/id/4d0bfe871b937d10a307397c1fe36bab/synonym/c12bcb7ec5c4a32e1fd17da43408d685",
+     "references": [
+      {
+       "author": "Eckl.",
+       "year": "1830",
+       "source": "In: S. Afr. Journ. 1: 372"
+      }
+     ]
+    },
+    {
+     "id": "b940945c4edee0fe8f8b3a65d6859a50",
+     "name": "Arduina megaphylla",
+     "rank": "Species",
+     "name_status": "synonym",
+     "genus": "Arduina",
+     "subgenus": "",
+     "species": "megaphylla",
+     "infraspecies_marker": "",
+     "infraspecies": "",
+     "author": "Gand.",
+     "record_scrutiny_date": "",
+     "online_resource": "",
+     "is_extinct": 0,
+     "name_html": "<i>Arduina megaphylla</i> Gand.",
+     "url": "http://www.catalogueoflife.org/col/details/species/id/4d0bfe871b937d10a307397c1fe36bab/synonym/b940945c4edee0fe8f8b3a65d6859a50",
+     "references": [
+      {
+       "author": "Gand.",
+       "year": "1918",
+       "source": "In: Bull. Soc. Bot. France 65: 59"
+      }
+     ]
+    },
+    {
+     "id": "98e99fed61b6a6bac2221e4afb7fa371",
+     "name": "Carandas arduina",
+     "rank": "Species",
+     "name_status": "synonym",
+     "genus": "Carandas",
+     "subgenus": "",
+     "species": "arduina",
+     "infraspecies_marker": "",
+     "infraspecies": "",
+     "author": "S. Moore",
+     "record_scrutiny_date": "",
+     "online_resource": "",
+     "is_extinct": 0,
+     "name_html": "<i>Carandas arduina</i> S. Moore",
+     "url": "http://www.catalogueoflife.org/col/details/species/id/4d0bfe871b937d10a307397c1fe36bab/synonym/98e99fed61b6a6bac2221e4afb7fa371",
+     "references": [
+      {
+       "author": "S. Moore",
+       "year": "1903",
+       "source": "In: J. Bot. 41: 403"
+      }
+     ]
+    },
+    {
+     "id": "a30c11b40f41de05767ecbf226633185",
+     "name": "Carissa acuminata",
+     "rank": "Species",
+     "name_status": "synonym",
+     "genus": "Carissa",
+     "subgenus": "",
+     "species": "acuminata",
+     "infraspecies_marker": "",
+     "infraspecies": "",
+     "author": "(E. Mey.) A. DC.",
+     "record_scrutiny_date": "",
+     "online_resource": "",
+     "is_extinct": 0,
+     "name_html": "<i>Carissa acuminata</i> (E. Mey.) A. DC.",
+     "url": "http://www.catalogueoflife.org/col/details/species/id/4d0bfe871b937d10a307397c1fe36bab/synonym/a30c11b40f41de05767ecbf226633185",
+     "references": [
+      {
+       "author": "A. DC.",
+       "year": "1844",
+       "source": "In: A. DC., Prodr. 8: 335"
+      }
+     ]
+    },
+    {
+     "id": "638e9f809841422b7227df163fa15b3a",
+     "name": "Carissa arduina",
+     "rank": "Species",
+     "name_status": "synonym",
+     "genus": "Carissa",
+     "subgenus": "",
+     "species": "arduina",
+     "infraspecies_marker": "",
+     "infraspecies": "",
+     "author": "Lam.",
+     "record_scrutiny_date": "",
+     "online_resource": "",
+     "is_extinct": 0,
+     "name_html": "<i>Carissa arduina</i> Lam.",
+     "url": "http://www.catalogueoflife.org/col/details/species/id/4d0bfe871b937d10a307397c1fe36bab/synonym/638e9f809841422b7227df163fa15b3a",
+     "references": [
+      {
+       "author": "Lam.",
+       "year": "1785",
+       "source": "In: Encycl. 1: 555"
+      }
+     ]
+    },
+    {
+     "id": "4664db3ba0ace248f0c5d9bb5d790c48",
+     "name": "Carissa bispinosa acuminata",
+     "rank": "Infraspecies",
+     "name_status": "synonym",
+     "genus": "Carissa",
+     "subgenus": "",
+     "species": "bispinosa",
+     "infraspecies_marker": "var.",
+     "infraspecies": "acuminata",
+     "author": "(E. Mey.) Codd",
+     "record_scrutiny_date": "",
+     "online_resource": "",
+     "is_extinct": 0,
+     "name_html": "<i>Carissa bispinosa acuminata</i> (E. Mey.) Codd",
+     "url": "http://www.catalogueoflife.org/col/details/species/id/4d0bfe871b937d10a307397c1fe36bab/synonym/4664db3ba0ace248f0c5d9bb5d790c48",
+     "references": [
+      {
+       "author": "Codd",
+       "year": "1961",
+       "source": "In: Bothalia 7: 451"
+      }
+     ]
+    },
+    {
+     "id": "eff710e5ba8344445920f2764b1a2215",
+     "name": "Carissa bispinosa zambesiensis",
+     "rank": "Infraspecies",
+     "name_status": "synonym",
+     "genus": "Carissa",
+     "subgenus": "",
+     "species": "bispinosa",
+     "infraspecies_marker": "subsp.",
+     "infraspecies": "zambesiensis",
+     "author": "F. K. Kupicha",
+     "record_scrutiny_date": "",
+     "online_resource": "",
+     "is_extinct": 0,
+     "name_html": "<i>Carissa bispinosa zambesiensis</i> F. K. Kupicha",
+     "url": "http://www.catalogueoflife.org/col/details/species/id/4d0bfe871b937d10a307397c1fe36bab/synonym/eff710e5ba8344445920f2764b1a2215",
+     "references": [
+      {
+       "author": "F. K. Kupicha",
+       "year": "1980",
+       "source": "In: Bol. Soc. Brot., 53: 321"
+      }
+     ]
+    },
+    {
+     "id": "f291943dd45b333b8e71378547e3c9e6",
+     "name": "Carissa cordata",
+     "rank": "Species",
+     "name_status": "synonym",
+     "genus": "Carissa",
+     "subgenus": "",
+     "species": "cordata",
+     "infraspecies_marker": "",
+     "infraspecies": "",
+     "author": "Dinter",
+     "record_scrutiny_date": "",
+     "online_resource": "",
+     "is_extinct": 0,
+     "name_html": "<i>Carissa cordata</i> Dinter",
+     "url": "http://www.catalogueoflife.org/col/details/species/id/4d0bfe871b937d10a307397c1fe36bab/synonym/f291943dd45b333b8e71378547e3c9e6",
+     "references": [
+      {
+       "author": "Dinter",
+       "year": "1928",
+       "source": "In: Repert. Spec. Nov. Regni Veg. Beih. 53: 112"
+      }
+     ]
+    },
+    {
+     "id": "2ff91ff5e6ad49a41fead7563880e695",
+     "name": "Carissa cordata",
+     "rank": "Species",
+     "name_status": "synonym",
+     "genus": "Carissa",
+     "subgenus": "",
+     "species": "cordata",
+     "infraspecies_marker": "",
+     "infraspecies": "",
+     "author": "Fourc.",
+     "record_scrutiny_date": "",
+     "online_resource": "",
+     "is_extinct": 0,
+     "name_html": "<i>Carissa cordata</i> Fourc.",
+     "url": "http://www.catalogueoflife.org/col/details/species/id/4d0bfe871b937d10a307397c1fe36bab/synonym/2ff91ff5e6ad49a41fead7563880e695",
+     "references": [
+      {
+       "author": "Fourc.",
+       "year": "1932",
+       "source": "In: Trans. Roy. Soc. South Africa 21: 82"
+      }
+     ]
+    },
+    {
+     "id": "973f4f45f79db98df6bffc5441654172",
+     "name": "Carissa dinteri",
+     "rank": "Species",
+     "name_status": "synonym",
+     "genus": "Carissa",
+     "subgenus": "",
+     "species": "dinteri",
+     "infraspecies_marker": "",
+     "infraspecies": "",
+     "author": "Markgr.",
+     "record_scrutiny_date": "",
+     "online_resource": "",
+     "is_extinct": 0,
+     "name_html": "<i>Carissa dinteri</i> Markgr.",
+     "url": "http://www.catalogueoflife.org/col/details/species/id/4d0bfe871b937d10a307397c1fe36bab/synonym/973f4f45f79db98df6bffc5441654172",
+     "references": [
+      {
+       "author": "Markgr.",
+       "year": "1942",
+       "source": "In: Notizbl. Bot. Gart. Berlin, 15: 758"
+      }
+     ]
+    },
+    {
+     "id": "a98dd8142e7aea131f0c8cba3800c7aa",
+     "name": "Carissa erythrocarpa",
+     "rank": "Species",
+     "name_status": "synonym",
+     "genus": "Carissa",
+     "subgenus": "",
+     "species": "erythrocarpa",
+     "infraspecies_marker": "",
+     "infraspecies": "",
+     "author": "(Eckl.) A. DC.",
+     "record_scrutiny_date": "",
+     "online_resource": "",
+     "is_extinct": 0,
+     "name_html": "<i>Carissa erythrocarpa</i> (Eckl.) A. DC.",
+     "url": "http://www.catalogueoflife.org/col/details/species/id/4d0bfe871b937d10a307397c1fe36bab/synonym/a98dd8142e7aea131f0c8cba3800c7aa",
+     "references": [
+      {
+       "author": "A. DC.",
+       "year": "1844",
+       "source": "In: A. DC., Prodr. 8: 335"
+      }
+     ]
+    },
+    {
+     "id": "242481c0993f129c3505a25a3c7c29ed",
+     "name": "Carissa myrtoides",
+     "rank": "Species",
+     "name_status": "synonym",
+     "genus": "Carissa",
+     "subgenus": "",
+     "species": "myrtoides",
+     "infraspecies_marker": "",
+     "infraspecies": "",
+     "author": "Desf.",
+     "record_scrutiny_date": "",
+     "online_resource": "",
+     "is_extinct": 0,
+     "name_html": "<i>Carissa myrtoides</i> Desf.",
+     "url": "http://www.catalogueoflife.org/col/details/species/id/4d0bfe871b937d10a307397c1fe36bab/synonym/242481c0993f129c3505a25a3c7c29ed",
+     "references": [
+      {
+       "author": "Desf.",
+       "year": "1829",
+       "source": "In: Tabl. \u00c3\u2030cole Bot., ed. 3: 398"
+      }
+     ]
+    },
+    {
+     "id": "587e9608b728a3ae3a2e68485bca00fe",
+     "name": "Carissa sessiliflora",
+     "rank": "Species",
+     "name_status": "synonym",
+     "genus": "Carissa",
+     "subgenus": "",
+     "species": "sessiliflora",
+     "infraspecies_marker": "",
+     "infraspecies": "",
+     "author": "Brongn. ex Pichon",
+     "record_scrutiny_date": "",
+     "online_resource": "",
+     "is_extinct": 0,
+     "name_html": "<i>Carissa sessiliflora</i> Brongn. ex Pichon",
+     "url": "http://www.catalogueoflife.org/col/details/species/id/4d0bfe871b937d10a307397c1fe36bab/synonym/587e9608b728a3ae3a2e68485bca00fe",
+     "references": [
+      {
+       "author": "Pichon",
+       "year": "1949",
+       "source": "In: M\u00c3\u00a9m. Inst. Sci. Madagascar, S\u00c3\u00a9r. B, Biol. V\u00c3\u00a9g. 2: 138"
+      }
+     ]
+    },
+    {
+     "id": "a91cf50b865c0c333d00ee6a0005b3a9",
+     "name": "Carissa sessiliflora grandiflora",
+     "rank": "Infraspecies",
+     "name_status": "synonym",
+     "genus": "Carissa",
+     "subgenus": "",
+     "species": "sessiliflora",
+     "infraspecies_marker": "var.",
+     "infraspecies": "grandiflora",
+     "author": "Markgr.",
+     "record_scrutiny_date": "",
+     "online_resource": "",
+     "is_extinct": 0,
+     "name_html": "<i>Carissa sessiliflora grandiflora</i> Markgr.",
+     "url": "http://www.catalogueoflife.org/col/details/species/id/4d0bfe871b937d10a307397c1fe36bab/synonym/a91cf50b865c0c333d00ee6a0005b3a9",
+     "references": [
+      {
+       "author": "Markgr.",
+       "year": "1970",
+       "source": "In: Adansonia, n.s., 10: 25"
+      }
+     ]
+    },
+    {
+     "id": "ac088fbe1eb03c9ccc9f983ecdbc3000",
+     "name": "Carissa sessiliflora meridionalis",
+     "rank": "Infraspecies",
+     "name_status": "synonym",
+     "genus": "Carissa",
+     "subgenus": "",
+     "species": "sessiliflora",
+     "infraspecies_marker": "var.",
+     "infraspecies": "meridionalis",
+     "author": "Pichon",
+     "record_scrutiny_date": "",
+     "online_resource": "",
+     "is_extinct": 0,
+     "name_html": "<i>Carissa sessiliflora meridionalis</i> Pichon",
+     "url": "http://www.catalogueoflife.org/col/details/species/id/4d0bfe871b937d10a307397c1fe36bab/synonym/ac088fbe1eb03c9ccc9f983ecdbc3000",
+     "references": [
+      {
+       "author": "Pichon",
+       "year": "1949",
+       "source": "In: M\u00c3\u00a9m. Inst. Sci. Madagascar, S\u00c3\u00a9r. B, Biol. V\u00c3\u00a9g. 2: 139"
+      }
+     ]
+    },
+    {
+     "id": "23265899e066a6cd104b13b5fc960891",
+     "name": "Carissa sessiliflora orientalis",
+     "rank": "Infraspecies",
+     "name_status": "synonym",
+     "genus": "Carissa",
+     "subgenus": "",
+     "species": "sessiliflora",
+     "infraspecies_marker": "var.",
+     "infraspecies": "orientalis",
+     "author": "Pichon",
+     "record_scrutiny_date": "",
+     "online_resource": "",
+     "is_extinct": 0,
+     "name_html": "<i>Carissa sessiliflora orientalis</i> Pichon",
+     "url": "http://www.catalogueoflife.org/col/details/species/id/4d0bfe871b937d10a307397c1fe36bab/synonym/23265899e066a6cd104b13b5fc960891",
+     "references": [
+      {
+       "author": "Pichon",
+       "year": "1949",
+       "source": "In: M\u00c3\u00a9m. Inst. Sci. Madagascar, S\u00c3\u00a9r. B, Biol. V\u00c3\u00a9g. 2: 139"
+      }
+     ]
+    },
+    {
+     "id": "3c80b2762390bc34eb9cf8f824ab8ad2",
+     "name": "Carissa wyliei",
+     "rank": "Species",
+     "name_status": "synonym",
+     "genus": "Carissa",
+     "subgenus": "",
+     "species": "wyliei",
+     "infraspecies_marker": "",
+     "infraspecies": "",
+     "author": "N. E. Br.",
+     "record_scrutiny_date": "",
+     "online_resource": "",
+     "is_extinct": 0,
+     "name_html": "<i>Carissa wyliei</i> N. E. Br.",
+     "url": "http://www.catalogueoflife.org/col/details/species/id/4d0bfe871b937d10a307397c1fe36bab/synonym/3c80b2762390bc34eb9cf8f824ab8ad2",
+     "references": [
+      {
+       "author": "N. E. Br.",
+       "year": "1906",
+       "source": "In: Bull. Misc. Inform. Kew 1906: 165"
+      }
+     ]
+    },
+    {
+     "id": "d1ab9b96bc7d25be053bfefdc2228448",
+     "name": "Jasminonerium acuminatum",
+     "rank": "Species",
+     "name_status": "synonym",
+     "genus": "Jasminonerium",
+     "subgenus": "",
+     "species": "acuminatum",
+     "infraspecies_marker": "",
+     "infraspecies": "",
+     "author": "(E. Mey.) Kuntze",
+     "record_scrutiny_date": "",
+     "online_resource": "",
+     "is_extinct": 0,
+     "name_html": "<i>Jasminonerium acuminatum</i> (E. Mey.) Kuntze",
+     "url": "http://www.catalogueoflife.org/col/details/species/id/4d0bfe871b937d10a307397c1fe36bab/synonym/d1ab9b96bc7d25be053bfefdc2228448",
+     "references": [
+      {
+       "author": "Kuntze",
+       "year": "1891",
+       "source": "In: Revis. Gen. Pl. 2: 414"
+      }
+     ]
+    },
+    {
+     "id": "3cb7a60e634e3b0b6c6626c9b67efdab",
+     "name": "Jasminonerium bispinosum",
+     "rank": "Species",
+     "name_status": "synonym",
+     "genus": "Jasminonerium",
+     "subgenus": "",
+     "species": "bispinosum",
+     "infraspecies_marker": "",
+     "infraspecies": "",
+     "author": "(L.) Kuntze",
+     "record_scrutiny_date": "",
+     "online_resource": "",
+     "is_extinct": 0,
+     "name_html": "<i>Jasminonerium bispinosum</i> (L.) Kuntze",
+     "url": "http://www.catalogueoflife.org/col/details/species/id/4d0bfe871b937d10a307397c1fe36bab/synonym/3cb7a60e634e3b0b6c6626c9b67efdab",
+     "references": [
+      {
+       "author": "Kuntze",
+       "year": "1891",
+       "source": "In: Revis. Gen. Pl. 2: 414"
+      }
+     ]
+    },
+    {
+     "id": "4c946e1f717a3cd9b4c31b73f0e70eb1",
+     "name": "Jasminonerium erythrocarpum",
+     "rank": "Species",
+     "name_status": "synonym",
+     "genus": "Jasminonerium",
+     "subgenus": "",
+     "species": "erythrocarpum",
+     "infraspecies_marker": "",
+     "infraspecies": "",
+     "author": "(Eckl.) Kuntze",
+     "record_scrutiny_date": "",
+     "online_resource": "",
+     "is_extinct": 0,
+     "name_html": "<i>Jasminonerium erythrocarpum</i> (Eckl.) Kuntze",
+     "url": "http://www.catalogueoflife.org/col/details/species/id/4d0bfe871b937d10a307397c1fe36bab/synonym/4c946e1f717a3cd9b4c31b73f0e70eb1",
+     "references": [
+      {
+       "author": "Kuntze",
+       "year": "1891",
+       "source": "In: Revis. Gen. Pl. 2: 414"
+      }
+     ]
+    }
+   ],
+   "common_names": []
+  },
+  "wikidata": "http://www.wikidata.org/entity/Q12234248",
+  "wikidata_info": {
+   "wikidataId": "Q12234248",
+   "wikidataPageURL": "http://www.wikidata.org/entity/Q12234248",
+   "identifiers": [
+    {
+     "name": "IUCN taxon ID",
+     "value": "146458080",
+     "link": "https://apiv3.iucnredlist.org/api/v3/taxonredirect/146458080"
+    },
+    {
+     "name": "IUCN taxon ID",
+     "value": "146458080",
+     "link": "https://www.iucnredlist.org/details/146458080/0"
+    },
+    {
+     "name": "Red List of South African Plants ID",
+     "value": "984-2",
+     "link": "http://redlist.sanbi.org/species.php?species=984-2"
+    },
+    {
+     "name": "Global Biodiversity Information Facility ID",
+     "value": "7317259",
+     "link": "https://www.gbif.org/species/7317259"
+    },
+    {
+     "name": "Observation.org ID",
+     "value": "274808",
+     "link": "https://world.observation.org/soort/view/274808"
+    },
+    {
+     "name": "Tropicos ID",
+     "value": "1805142",
+     "link": "http://legacy.tropicos.org/Name/1805142"
+    },
+    {
+     "name": "IPNI plant ID",
+     "value": "77686-1",
+     "link": "http://www.ipni.org/ipni/idPlantNameSearch.do?id=77686-1"
+    },
+    {
+     "name": "NCBI taxonomy ID",
+     "value": "84861",
+     "link": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=84861"
+    },
+    {
+     "name": "PlantList-ID",
+     "value": "kew-34134",
+     "link": "http://www.theplantlist.org/tpl1.1/record/kew-34134"
+    },
+    {
+     "name": "EPPO Code",
+     "value": "CISBI",
+     "link": "https://gd.eppo.int/taxon/CISBI"
+    },
+    {
+     "name": "African Plant Database ID",
+     "value": "71649",
+     "link": "http://www.ville-ge.ch/musinfo/bd/cjb/africa/details.php?langue=an&id=71649"
+    },
+    {
+     "name": "iNaturalist taxon ID",
+     "value": "337799",
+     "link": "https://www.inaturalist.org/taxa/337799"
+    },
+    {
+     "name": "iNaturalist taxon ID",
+     "value": "337801",
+     "link": "https://www.inaturalist.org/taxa/337801"
+    },
+    {
+     "name": "eBiodiversity ID",
+     "value": "608352",
+     "link": "https://elurikkus.ee/bie-hub/species/608352"
+    },
+    {
+     "name": "TAXREF ID",
+     "value": "629269",
+     "link": "https://inpn.mnhn.fr/espece/cd_nom/629269"
+    },
+    {
+     "name": "WCSPF ID",
+     "value": "34134",
+     "link": "http://wcsp.science.kew.org/namedetail.do?name_id=34134"
+    },
+    {
+     "name": "Plants of the World online ID",
+     "value": "urn:lsid:ipni.org:names:77685-1",
+     "link": "http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:77685-1"
+    }
+   ],
+   "wikipediaURL": "https://en.wikipedia.org/wiki/Carissa_bispinosa"
+  }
+ },
+ "metadata": {
+  "createdOn": 1605092847468,
+  "createdBy": "20.5000.1025/francisco",
+  "modifiedOn": 1621608086315,
+  "modifiedBy": "anonymous",
+  "txnId": 1621608086313325
+ }
+}
